@@ -1,0 +1,33 @@
+---
+import Header from "../components/Header.astro";
+import Filters from "../components/Filters.astro";
+import PostCard from "../components/PostCard.astro";
+import { applyFilters } from "../lib/filters";
+import type { ManifestItem, Facets } from "../lib/types";
+
+const url = new URL(Astro.request.url);
+const params = url.searchParams;
+const q = params.get('q') || '';
+const withComments = params.get('withComments') === 'on';
+
+const manifest: ManifestItem[] = await (await fetch('/data/indexes/posts-manifest.json')).json();
+const facets: Facets = await (await fetch('/data/indexes/facets.json')).json();
+
+// Client-side search is optional here; we start with filters + sort.
+let items = applyFilters(manifest, Object.fromEntries(params) as any);
+
+// If q, do lightweight search on title/selftext here using JS contains for MVP
+if (q) {
+  const lc = q.toLowerCase();
+  items = items.filter(p => (p.title?.toLowerCase().includes(lc) || p.selftext?.toLowerCase().includes(lc)));
+}
+---
+<Header q={q} withComments={withComments} />
+<main class="mx-auto max-w-6xl grid md:grid-cols-[16rem_1fr]">
+  <Filters facets={facets} params={params} />
+  <section class="p-4 grid gap-3">
+    {items.map(p => <PostCard p={p} />)}
+  </section>
+</main>
+
+---

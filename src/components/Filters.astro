@@ -1,0 +1,37 @@
+---
+import type { Facets } from "../lib/types";
+const { facets, params } = Astro.props as { facets: Facets; params: URLSearchParams };
+const multi = (name: string, values: string[]) => values.map(v => `<option ${params.getAll(name).includes(v) ? 'selected' : ''} value="${v}">${v}</option>`).join('');
+---
+<aside class="w-full md:w-64 flex-shrink-0 border-r border-white/10 p-3 bg-white/5">
+  <form method="get" class="flex flex-col gap-3 text-sm">
+    <details open><summary class="cursor-pointer font-medium">Subreddits</summary>
+      <select name="sub" multiple size="6" class="w-full bg-white/5 border border-white/10 rounded p-2" set:html={multi('sub', facets.subreddits)} />
+    </details>
+    <details><summary class="cursor-pointer font-medium">Authors</summary>
+      <select name="author" multiple size="6" class="w-full bg-white/5 border border-white/10 rounded p-2" set:html={multi('author', facets.authors)} />
+    </details>
+    <details><summary class="cursor-pointer font-medium">Flairs</summary>
+      <select name="flair" multiple size="6" class="w-full bg-white/5 border border-white/10 rounded p-2" set:html={multi('flair', facets.flairs)} />
+    </details>
+    <details><summary class="cursor-pointer font-medium">Domains</summary>
+      <select name="domain" multiple size="6" class="w-full bg-white/5 border border-white/10 rounded p-2" set:html={multi('domain', facets.domains)} />
+    </details>
+    <div class="grid grid-cols-2 gap-2">
+      <label>From <input type="date" name="from" class="w-full bg-white/5 border border-white/10 rounded p-1" value={params.get('from')||''} /></label>
+      <label>To <input type="date" name="to" class="w-full bg-white/5 border border-white/10 rounded p-1" value={params.get('to')||''} /></label>
+    </div>
+    <div>
+      <label class="block mb-1">Sort</label>
+      <select name="sort" class="w-full bg-white/5 border border-white/10 rounded p-2">
+        <option value="created_desc">Newest</option>
+        <option value="score_desc" selected={params.get('sort')==='score_desc'}>Top score</option>
+        <option value="comments_desc" selected={params.get('sort')==='comments_desc'}>Most comments</option>
+        <option value="title_asc" selected={params.get('sort')==='title_asc'}>Title A→Z</option>
+      </select>
+    </div>
+    <button class="mt-2 px-3 py-2 rounded bg-white/10 hover:bg-white/20">Apply</button>
+  </form>
+</aside>
+
+---

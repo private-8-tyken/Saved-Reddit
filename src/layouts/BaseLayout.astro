@@ -1,0 +1,15 @@
+---
+const { title = 'My Reddit Archive' } = Astro.props;
+---
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/src/styles/globals.css" />
+  </head>
+  <body class="bg-[#0b1416] text-[#d7dadc]">
+    <slot />
+  </body>
+</html>

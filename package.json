@@ -1,0 +1,20 @@
+{
+  "name": "reddit-json-site",
+  "private": true,
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build:data": "node ./scripts/build-indexes.mjs",
+    "build": "npm run build:data && astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^4.13.3",
+    "flexsearch": "^0.7.31",
+    "dayjs": "^1.11.13"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
