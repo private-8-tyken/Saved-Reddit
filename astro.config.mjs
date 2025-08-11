@@ -1,6 +1,6 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-    site: 'https://<your-username>.github.io/Saved-Reddit/',
+    site: 'https://github.com/private-8-tyken/Saved-Reddit/',
     base: '/Saved-Reddit/',
 });
