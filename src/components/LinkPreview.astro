@@ -1,9 +1,0 @@
----
-const { domain, url, title } = Astro.props as { domain?: string; url?: string; title?: string };
----
-{url && (
-  <a href={url} rel="noreferrer noopener" target="_blank" class="block border border-white/10 rounded overflow-hidden hover:border-white/20">
-    <div class="px-3 py-2 text-xs text-[#8a8f95] border-b border-white/10">{domain}</div>
-    <div class="px-3 py-3 text-sm">{title || url}</div>
-  </a>
-)}
