@@ -10,8 +10,10 @@ const params = url.searchParams;
 const q = params.get('q') || '';
 const withComments = params.get('withComments') === 'on';
 
-const manifest: ManifestItem[] = await (await fetch('/data/indexes/posts-manifest.json')).json();
-const facets: Facets = await (await fetch('/data/indexes/facets.json')).json();
+const base = import.meta.env.BASE_URL; // '/<repo>/' in production, '/' locally
+
+const manifest = await (await fetch(`${base}data/indexes/posts-manifest.json`)).json();
+const facets   = await (await fetch(`${base}data/indexes/facets.json`)).json();
 
 // Client-side search is optional here; we start with filters + sort.
 let items = applyFilters(manifest, Object.fromEntries(params) as any);

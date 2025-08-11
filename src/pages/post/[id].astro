@@ -4,7 +4,8 @@ import PostMeta from "../../components/PostMeta.astro";
 import LinkPreview from "../../components/LinkPreview.astro";
 
 const { id } = Astro.params;
-const post = await (await fetch(`/data/posts/${id}.json`)).json();
+const base = import.meta.env.BASE_URL;
+const post = await (await fetch(`${base}data/posts/${id}.json`)).json();
 ---
 <Base title={post.title}>
   <article class="mx-auto max-w-3xl p-4">
