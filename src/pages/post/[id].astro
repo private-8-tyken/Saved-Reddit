@@ -1,0 +1,23 @@
+---
+import fs from "node:fs/promises";
+import PostDetail from "../../components/PostDetail.jsx";
+
+// Build-time: tell Astro which static routes to generate
+export async function getStaticPaths() {
+    const dir = new URL("../../../public/data/posts/", import.meta.url);
+    let files = [];
+    try {
+        files = await fs.readdir(dir);
+    } catch {
+        files = [];
+    }
+    return files
+        .filter((f) => f.endsWith(".json"))
+        .map((f) => ({ params: { id: f.replace(/\.json$/, "") } }));
+}
+
+// Current route param
+const { id } = Astro.params;
+---
+
+<PostDetail id={id} client:only="react" />
