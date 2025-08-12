@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
+import { BASE, asset } from "../lib/base";
 import CommentsTree from "./CommentsTree.jsx";
 
 function fmt(ts) {
@@ -14,7 +15,7 @@ export default function PostDetail({ id }) {
 
     useEffect(() => {
         setLoading(true);
-        fetch(`/data/posts/${id}.json`)
+        fetch(`${BASE}data/posts/${id}.json`)
             .then(r => (r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`))))
             .then(setPost)
             .catch(e => setErr(`Could not load post ${id}: ${e.message}`))
@@ -55,7 +56,7 @@ export default function PostDetail({ id }) {
                 {/* media policy: NO embeds for now, just preview if available */}
                 {post.media?.items?.[0]?.thumbnail && (
                     <div className="media-wrap">
-                        <img src={post.media.items[0].thumbnail} alt="" loading="lazy" />
+                        <img src={asset(post.media.items[0].thumbnail)} alt="" loading="lazy" />
                     </div>
                 )}
 

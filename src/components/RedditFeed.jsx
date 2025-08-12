@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { BASE, asset } from "../lib/base";
 
 function fmt(ts) {
     if (!ts) return "";
@@ -23,7 +24,7 @@ export default function RedditFeed() {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
-        fetch(`${base}data/indexes/posts-manifest.json`)
+        fetch(`${BASE}data/indexes/posts-manifest.json`)
             .then((r) => r.json())
             .then((list) => list.sort((a, b) => (b.created_utc ?? 0) - (a.created_utc ?? 0)))
             .then(setPosts)
@@ -66,14 +67,14 @@ export default function RedditFeed() {
 
                         {/* Title + small pills */}
                         <h2 className="title">
-                            <a href={`/post/${pid}`}>{p.title}</a>
+                            <a href={`${BASE}post/${pid}`}>{p.title}</a>
                             {p.flair && <span className="flair">{p.flair}</span>}
                             {p.media_type && <span className="pill">{p.media_type}</span>}
                         </h2>
 
                         {/* Media preview (no embeds, just a thumbnail/poster) */}
                         {p.media_preview && (
-                            <a href={`/post/${pid}`} className="media-wrap">
+                            <a href={`${BASE}post/${pid}`} className="media-wrap">
                                 <img
                                     src={p.media_preview}
                                     alt=""
@@ -114,7 +115,7 @@ export default function RedditFeed() {
                                     View on Reddit
                                 </a>
                             )}
-                            <a className="action" href={`/post/${pid}`}>
+                            <a className="action" href={`${BASE}post/${pid}`}>
                                 Details
                             </a>
                             {p.saved_utc && <span className="saved">Saved {fmt(p.saved_utc)}</span>}
