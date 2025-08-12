@@ -23,7 +23,7 @@ export default function RedditFeed() {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
-        fetch("/data/indexes/posts-manifest.json")
+        fetch(`${base}data/indexes/posts-manifest.json`)
             .then((r) => r.json())
             .then((list) => list.sort((a, b) => (b.created_utc ?? 0) - (a.created_utc ?? 0)))
             .then(setPosts)

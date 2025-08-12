@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react';
 <script>
   const [posts, setPosts] = useState([]);
   useEffect(() => {
-    fetch('/data/indexes/posts-manifest.json')
+    fetch(`${base}data/indexes/posts-manifest.json')
       .then(r => r.json())
       .then(setPosts);
   }, []);
