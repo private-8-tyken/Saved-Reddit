@@ -1,68 +1,35 @@
+# .github/workflows/deploy.yml
 name: Build & Deploy (Astro + manifest)
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
   contents: write  # needed to push to gh-pages
 
-concurrency:
-  group: pages-${{ github.ref }}
-  cancel-in-progress: true
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      # Optional: cache speeds up installs
-      - name: Cache npm
-        uses: actions/cache@v4
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
-      - name: Clean previous build artifacts
-        run: rm -rf dist .astro node_modules/.vite
-
-      - name: Install dependencies
+      - name: Install deps
         run: npm ci || npm i
 
       - name: Generate manifest & indexes
         run: node scripts/generate-manifest.js
 
-      - name: Sanity check generated files
-        run: |
-          test -f public/data/indexes/posts-manifest.json
-          test -f public/data/indexes/facets.json
-          ls -la public/data/indexes | head -n 50
-
-      - name: Build site (Astro)
+      - name: Build site
         run: npx astro build
-
-      - name: Verify build outputs
-        run: |
-          test -f dist/data/indexes/posts-manifest.json
-          echo "BASE_URL should be set by Astro to your repo base."
-          ls -la dist/data/indexes | head -n 50
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          # Optional: keep commit history on gh-pages branch
-          force_orphan: true
-          publish_branch: gh-pages

@@ -76,7 +76,7 @@ export default function RedditFeed() {
                         {p.media_preview && (
                             <a href={`${BASE}post/${pid}`} className="media-wrap">
                                 <img
-                                    src={asset(p.media_preview)}
+                                    src={p.media_preview}
                                     alt=""
                                     loading="lazy"
                                     width={p.preview_width || undefined}
