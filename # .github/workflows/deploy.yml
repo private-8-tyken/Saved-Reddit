@@ -65,3 +65,4 @@ jobs:
           publish_dir: ./dist
           # Optional: keep commit history on gh-pages branch
           force_orphan: true
+          publish_branch: gh-pages
