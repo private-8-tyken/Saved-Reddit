@@ -1,17 +1,168 @@
-
 ---
-import RedditFeed from '../components/RedditFeed.jsx';
+import RedditFeed from "../components/RedditFeed.jsx";
+const base = import.meta.env.BASE_URL;
+const title = "Saved Reddit Feed";
+const desc =
+    "Browse and search your saved Reddit posts with filters, previews, and detail pages.";
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
-		<meta name="viewport" content="width=device-width" />
-		<title>Saved Reddit Feed</title>
-	</head>
-	<body>
-		<h1>Saved Reddit Feed</h1>
-		<RedditFeed client:only="react" />
-	</body>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
+        <meta name="viewport" content="width=device-width" />
+        <title>{title}</title>
+        <meta name="description" content={desc} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={desc} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={`${base}og.png`} />
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <style>
+            :root {
+                --bg: #0b1416;
+                --text: #d7dadc;
+            }
+            :root[data-theme="light"] {
+                --bg: #ffffff;
+                --text: #0b1416;
+            }
+            html,
+            body {
+                margin: 0;
+                background: var(--bg);
+                color: var(--text);
+                font-family:
+                    system-ui,
+                    -apple-system,
+                    Segoe UI,
+                    Roboto,
+                    sans-serif;
+            }
+            header {
+                display: flex;
+                gap: 12px;
+                align-items: center;
+                justify-content: space-between;
+                max-width: 1160px;
+                margin: 12px auto;
+                padding: 0 12px;
+            }
+            .muted {
+                opacity: 0.8;
+                font-size: 14px;
+            }
+            .btn {
+                background: #2a2b2c;
+                border: 1px solid #343536;
+                color: #d7dadc;
+                border-radius: 8px;
+                padding: 6px 10px;
+                cursor: pointer;
+            }
+            :root[data-theme="light"] .btn {
+                background: #f3f4f6;
+                border-color: #e5e7eb;
+                color: #111827;
+            }
+        </style>
+
+        <!-- Small inline helpers: theme toggle, copy link, j/k nav -->
+        <script is:inline>
+            (function () {
+                const KEY = "theme";
+                const mql = window.matchMedia("(prefers-color-scheme: dark)");
+                const apply = (pref) => {
+                    const mode =
+                        pref === "system"
+                            ? mql.matches
+                                ? "dark"
+                                : "light"
+                            : pref;
+                    document.documentElement.dataset.theme = mode;
+                    localStorage.setItem(KEY, pref);
+                };
+                const init = () => {
+                    apply(localStorage.getItem(KEY) || "system");
+                    mql.addEventListener("change", () => {
+                        if (
+                            (localStorage.getItem(KEY) || "system") === "system"
+                        )
+                            apply("system");
+                    });
+                };
+                window.addEventListener("DOMContentLoaded", () => {
+                    init();
+                    const sel = document.getElementById("themeSelect");
+                    if (sel) {
+                        sel.value = localStorage.getItem(KEY) || "system";
+                        sel.onchange = () => apply(sel.value);
+                    }
+                    const cl = document.getElementById("copyLink");
+                    if (cl)
+                        cl.onclick = async () => {
+                            try {
+                                await navigator.clipboard.writeText(
+                                    location.href,
+                                );
+                                cl.textContent = "Copied!";
+                                setTimeout(
+                                    () => (cl.textContent = "Copy link"),
+                                    1000,
+                                );
+                            } catch {}
+                        };
+                    // j/k quick navigation
+                    document.addEventListener("keydown", (e) => {
+                        if (
+                            ["INPUT", "TEXTAREA", "SELECT"].includes(
+                                document.activeElement.tagName,
+                            )
+                        )
+                            return;
+                        const cards = Array.from(
+                            document.querySelectorAll(".post-card"),
+                        );
+                        if (!cards.length) return;
+                        const y = scrollY + 1;
+                        const idx = cards.findIndex(
+                            (el) =>
+                                el.getBoundingClientRect().top + scrollY >
+                                y - 10,
+                        );
+                        if (e.key === "j")
+                            cards[
+                                Math.min(idx === -1 ? 0 : idx, cards.length - 1)
+                            ].scrollIntoView({
+                                behavior: "smooth",
+                                block: "start",
+                            });
+                        else if (e.key === "k")
+                            cards[Math.max(idx - 2, 0)].scrollIntoView({
+                                behavior: "smooth",
+                                block: "start",
+                            });
+                    });
+                });
+            })();
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1 style="margin:0;">Saved Reddit Feed</h1>
+            <div style="display:flex;gap:8px;align-items:center">
+                <button id="copyLink" class="btn" type="button"
+                    >Copy link</button
+                >
+                <label class="muted">Theme</label>
+                <select id="themeSelect" class="btn">
+                    <option value="system">System</option>
+                    <option value="dark">Dark</option>
+                    <option value="light">Light</option>
+                </select>
+            </div>
+        </header>
+        <RedditFeed client:only="react" />
+    </body>
 </html>

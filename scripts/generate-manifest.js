@@ -107,3 +107,21 @@ const facets = {
 await fs.writeFile(path.join(INDEX_OUT_DIR, 'posts-manifest.json'), JSON.stringify(manifest, null, 2));
 await fs.writeFile(path.join(INDEX_OUT_DIR, 'facets.json'), JSON.stringify(facets, null, 2));
 console.log(`✅ Manifest built: ${manifest.length} posts (with media & text previews).`);
+
+
+// After building `manifest`
+const warnings = [];
+for (const m of manifest) {
+    const miss = [];
+    if (!m.id) miss.push('id');
+    if (!m.title) miss.push('title');
+    if (!m.subreddit) miss.push('subreddit');
+    if (miss.length) warnings.push({ id: m.id || '(unknown)', missing: miss });
+    if (m.media_preview && !/^https?:\/\//.test(m.media_preview) && !m.media_preview.startsWith('media/') && !m.media_preview.startsWith('public/')) {
+        warnings.push({ id: m.id, note: 'media_preview may not exist at runtime', value: m.media_preview });
+    }
+}
+await fs.writeFile(path.join(INDEX_OUT_DIR, 'build-report.json'), JSON.stringify({
+    posts: manifest.length, warnings
+}, null, 2));
+console.log(`ℹ️  Warnings: ${warnings.length} (see public/data/indexes/build-report.json)`);
