@@ -1,5 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { BASE, asset } from "../lib/base";
+import Filters from "./Filters.jsx";
+import { parseQuery, pushQuery, DEFAULT_QUERY } from "../lib/query";
+import { applyFilters } from "../lib/applyFilters";
 
 function fmt(ts) {
     if (!ts) return "";
@@ -22,107 +25,145 @@ function deriveIdFromPermalink(permalink) {
 
 export default function RedditFeed() {
     const [posts, setPosts] = useState([]);
+    const [facets, setFacets] = useState(null);
+    const [query, setQuery] = useState(parseQuery());
 
+    // Load data
     useEffect(() => {
         fetch(`${BASE}data/indexes/posts-manifest.json`)
             .then((r) => r.json())
-            .then((list) => list.sort((a, b) => (b.created_utc ?? 0) - (a.created_utc ?? 0)))
             .then(setPosts)
             .catch((e) => console.error("Failed to load manifest", e));
     }, []);
+    useEffect(() => {
+        fetch(`${BASE}data/indexes/facets.json`)
+            .then((r) => r.json())
+            .then(setFacets)
+            .catch((e) => console.error("Failed to load facets", e));
+    }, []);
+
+    // Sync with back/forward
+    useEffect(() => {
+        const onPop = () => setQuery(parseQuery(location.search));
+        window.addEventListener("popstate", onPop);
+        return () => window.removeEventListener("popstate", onPop);
+    }, []);
+
+    // Update query + URL when filters change
+    const updateQuery = (next) => {
+        setQuery(next);
+        pushQuery(next);
+    };
+
+    // Apply filters/search/sort
+    const filtered = useMemo(() => applyFilters(posts, query), [posts, query]);
+    const count = filtered.length;
 
     if (!posts.length) return <div className="feed loading">Loading…</div>;
 
     return (
-        <div className="feed">
-            {posts.map((p) => {
-                const pid = p.id || deriveIdFromPermalink(p.permalink);
-                if (!pid) return null; // skip malformed rows (prevents React key warning)
+        <div className="feed grid">
+            <div className="left">
+                {facets && <Filters facets={facets} query={query} onChange={updateQuery} />}
+            </div>
 
-                return (
-                    <article className="post-card" key={pid}>
-                        {/* Topline: r/sub • posted by u/author • date */}
-                        <div className="topline">
-                            <a
-                                className="subreddit"
-                                href={`https://www.reddit.com/r/${p.subreddit}`}
-                                target="_blank"
-                                rel="noreferrer noopener"
-                            >
-                                r/{p.subreddit}
-                            </a>
-                            <span className="dot">•</span>
-                            <span className="by">
-                                Posted by <span className="author">u/{p.author}</span>
-                            </span>
-                            {p.created_utc && (
-                                <>
-                                    <span className="dot">•</span>
-                                    <time dateTime={new Date(p.created_utc * 1000).toISOString()}>
-                                        {fmt(p.created_utc)}
-                                    </time>
-                                </>
-                            )}
-                        </div>
+            <div className="right">
+                <div className="resultbar">
+                    <span>{count} result{count === 1 ? "" : "s"}</span>
+                    {query.q && <span className="meta"> • searching “{query.q}”</span>}
+                </div>
 
-                        {/* Title + small pills */}
-                        <h2 className="title">
-                            <a href={`${BASE}post/${pid}`}>{p.title}</a>
-                            {p.flair && <span className="flair">{p.flair}</span>}
-                            {p.media_type && <span className="pill">{p.media_type}</span>}
-                        </h2>
+                {(count ? filtered : []).map((p) => {
+                    const pid = p.id || deriveIdFromPermalink(p.permalink);
+                    if (!pid) return null;
 
-                        {/* Media preview (no embeds, just a thumbnail/poster) */}
-                        {p.media_preview && (
-                            <a href={`${BASE}post/${pid}`} className="media-wrap">
-                                <img
-                                    src={p.media_preview}
-                                    alt=""
-                                    loading="lazy"
-                                    width={p.preview_width || undefined}
-                                    height={p.preview_height || undefined}
-                                />
-                            </a>
-                        )}
+                    return (
+                        <article className="post-card" key={pid}>
+                            {/* Topline */}
+                            <div className="topline">
+                                <a
+                                    className="subreddit"
+                                    href={`https://www.reddit.com/r/${p.subreddit}`}
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                >
+                                    r/{p.subreddit}
+                                </a>
+                                <span className="dot">•</span>
+                                <span className="by">
+                                    Posted by <span className="author">u/{p.author}</span>
+                                </span>
+                                {p.created_utc && (
+                                    <>
+                                        <span className="dot">•</span>
+                                        <time dateTime={new Date(p.created_utc * 1000).toISOString()}>
+                                            {fmt(p.created_utc)}
+                                        </time>
+                                    </>
+                                )}
+                            </div>
 
-                        {/* Selftext preview */}
-                        {p.selftext_preview && <p className="excerpt">{p.selftext_preview}</p>}
+                            {/* Title + pills */}
+                            <h2 className="title">
+                                <a href={`${BASE}post/${pid}`}>{p.title}</a>
+                                {p.flair && <span className="flair">{p.flair}</span>}
+                                {p.media_type && <span className="pill">{p.media_type}</span>}
+                            </h2>
 
-                        {/* External link card */}
-                        {p.link_domain && p.url && (
-                            <a
-                                className="link-card"
-                                href={p.url}
-                                target="_blank"
-                                rel="noreferrer noopener"
-                                title={p.url}
-                            >
-                                <div className="link-domain">{p.link_domain}</div>
-                                <div className="link-cta">Open link ↗</div>
-                            </a>
-                        )}
-
-                        {/* Bottomline: score • comments • actions */}
-                        <div className="bottomline">
-                            <span className="score">▲ {p.score ?? 0}</span>
-                            <span className="dot">•</span>
-                            <span className="comments">💬 {p.num_comments ?? 0}</span>
-
-                            <span className="spacer" />
-
-                            {p.permalink && (
-                                <a className="action" href={p.permalink} target="_blank" rel="noreferrer noopener">
-                                    View on Reddit
+                            {/* Media preview (no embeds) */}
+                            {p.media_preview && (
+                                <a href={`${BASE}post/${pid}`} className="media-wrap">
+                                    <img
+                                        src={asset(p.media_preview)}
+                                        alt=""
+                                        loading="lazy"
+                                        width={p.preview_width || undefined}
+                                        height={p.preview_height || undefined}
+                                    />
                                 </a>
                             )}
-                            <a className="action" href={`${BASE}post/${pid}`}>
-                                Details
-                            </a>
-                            {p.saved_utc && <span className="saved">Saved {fmt(p.saved_utc)}</span>}
-                        </div>
-                    </article>
-                );
-            })}
+
+                            {/* Selftext preview */}
+                            {p.selftext_preview && <p className="excerpt">{p.selftext_preview}</p>}
+
+                            {/* External link card */}
+                            {p.link_domain && p.url && (
+                                <a
+                                    className="link-card"
+                                    href={p.url}
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                    title={p.url}
+                                >
+                                    <div className="link-domain">{p.link_domain}</div>
+                                    <div className="link-cta">Open link ↗</div>
+                                </a>
+                            )}
+
+                            {/* Bottomline */}
+                            <div className="bottomline">
+                                <span className="score">▲ {p.score ?? 0}</span>
+                                <span className="dot">•</span>
+                                <span className="comments">💬 {p.num_comments ?? 0}</span>
+
+                                <span className="spacer" />
+
+                                {p.permalink && (
+                                    <a className="action" href={p.permalink} target="_blank" rel="noreferrer noopener">
+                                        View on Reddit
+                                    </a>
+                                )}
+                                <a className="action" href={`${BASE}post/${pid}`}>
+                                    Details
+                                </a>
+                                {p.saved_utc && <span className="saved">Saved {fmt(p.saved_utc)}</span>}
+                            </div>
+                        </article>
+                    );
+                })}
+
+                {!count && <div className="empty">No results. Try clearing filters.</div>}
+            </div>
 
             <style>{`
         :root {
@@ -137,11 +178,13 @@ export default function RedditFeed() {
           --link-visited: #a970ff;
           --badge: #343536;
         }
+        .grid { display:grid; grid-template-columns: 280px 1fr; gap:16px; }
+        @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } .left{order:2} .right{order:1} }
+        .resultbar { color:#818384; font-size:12px; margin: 4px 0 8px; }
+        .empty { color:#818384; font-size:14px; margin: 12px 0; }
+
         .feed {
-          display: grid;
-          grid-template-columns: 1fr;
-          gap: 12px;
-          max-width: 860px;
+          max-width: 1160px;
           margin: 24px auto;
           padding: 0 12px;
           color: var(--text);
@@ -152,6 +195,7 @@ export default function RedditFeed() {
           border-radius: 8px;
           padding: 12px;
           transition: background .15s ease, border-color .15s ease;
+          margin-bottom: 12px;
         }
         .post-card:hover { background: var(--card-hover); border-color: var(--border-hover); }
         .topline, .bottomline {
@@ -201,7 +245,6 @@ export default function RedditFeed() {
         .action { color: var(--link); text-decoration: none; }
         .action:hover { text-decoration: underline; }
         .saved { color: var(--meta); }
-        @media (min-width: 900px) { .feed { grid-template-columns: 1fr 1fr; } }
       `}</style>
         </div>
     );
