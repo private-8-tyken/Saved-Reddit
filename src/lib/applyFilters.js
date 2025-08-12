@@ -27,14 +27,37 @@ export function applyFilters(items, q) {
             (p.selftext_preview || '').toLowerCase().includes(term)
         );
     }
-
-    // Sort
-    switch (q.sort) {
-        case 'score_desc': out.sort((a, b) => (b.score ?? 0) - (a.score ?? 0)); break;
-        case 'comments_desc': out.sort((a, b) => (b.num_comments ?? 0) - (a.num_comments ?? 0)); break;
-        case 'title_asc': out.sort((a, b) => (a.title || '').localeCompare(b.title || '')); break;
+    // Sort (supports both _desc and _asc for all fields)
+    const sortKey = q.sort || 'created_desc';
+    switch (sortKey) {
+        case 'created_asc':
+            out.sort((a, b) => (a.created_utc ?? 0) - (b.created_utc ?? 0));
+            break;
         case 'created_desc':
-        default: out.sort((a, b) => (b.created_utc ?? 0) - (a.created_utc ?? 0));
+        default:
+            out.sort((a, b) => (b.created_utc ?? 0) - (a.created_utc ?? 0));
+            break;
+
+        case 'score_desc':
+            out.sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
+            break;
+        case 'score_asc':
+            out.sort((a, b) => (a.score ?? 0) - (b.score ?? 0));
+            break;
+
+        case 'comments_desc':
+            out.sort((a, b) => (b.num_comments ?? 0) - (a.num_comments ?? 0));
+            break;
+        case 'comments_asc':
+            out.sort((a, b) => (a.num_comments ?? 0) - (b.num_comments ?? 0));
+            break;
+
+        case 'title_asc':
+            out.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
+            break;
+        case 'title_desc':
+            out.sort((a, b) => (b.title || '').localeCompare(a.title || ''));
+            break;
     }
 
     return out;

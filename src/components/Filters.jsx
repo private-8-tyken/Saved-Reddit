@@ -13,15 +13,48 @@ export default function Filters({ facets, query, onChange }) {
             <div className="label">{label}</div>
             <div className="chips">
                 {values.map(v => (
-                    <button key={v}
+                    <button
+                        key={v}
                         className={`chip ${query[key]?.includes(v) ? 'on' : ''}`}
-                        onClick={() => mkToggle(key, v)} type="button">
+                        onClick={() => mkToggle(key, v)}
+                        type="button"
+                    >
                         {v}
                     </button>
                 ))}
             </div>
         </div>
     );
+
+    // Toggle the _asc/_desc suffix on the current sort key
+    const toggleSortDir = () => {
+        const cur = query.sort || 'created_desc';
+        const next = cur.endsWith('_desc')
+            ? cur.replace(/_desc$/, '_asc')
+            : cur.endsWith('_asc')
+                ? cur.replace(/_asc$/, '_desc')
+                // if somehow no suffix, default to _desc
+                : `${cur}_desc`;
+        onChange({ ...query, sort: next, page: 1 });
+    };
+
+    // Small helper for setting sort while trying to preserve current direction
+    const setSortField = (field) => {
+        const dir = (query.sort || '').endsWith('_asc') ? 'asc' : 'desc';
+        onChange({ ...query, sort: `${field}_${dir}`, page: 1 });
+    };
+
+    // Small helper to flip the suffix
+    const flipSortDir = () => {
+        const s = query.sort || 'created_desc';
+        if (!/_asc$|_desc$/.test(s)) return; // only flip if it has a dir
+        const next = s.endsWith('_desc') ? s.replace('_desc', '_asc') : s.replace('_asc', '_desc');
+        onChange({ ...query, sort: next, page: 1 });
+    };
+
+
+    // Derive icon from suffix
+    const isDesc = (query.sort || '').endsWith('_desc');
 
     return (
         <aside className="filters">
@@ -52,20 +85,38 @@ export default function Filters({ facets, query, onChange }) {
 
             <div className="row">
                 <label>Sort
-                    <select value={query.sort} onChange={e => onChange({ ...query, sort: e.target.value })}>
-                        <option value="created_desc">Newest</option>
-                        <option value="score_desc">Top score</option>
-                        <option value="comments_desc">Most comments</option>
-                        <option value="title_asc">Title A→Z</option>
-                    </select>
+                    <div className="sort-row">
+                        <select
+                            value={query.sort}
+                            onChange={e => onChange({ ...query, sort: e.target.value, page: 1 })}
+                        >
+                            <option value="created_desc">Created date</option>
+                            <option value="score_desc">Score</option>
+                            <option value="comments_desc">Comments</option>
+                            <option value="title_asc">Title</option>
+                        </select>
+                        <button
+                            type="button"
+                            className="dir"
+                            onClick={flipSortDir}
+                            title={query.sort?.endsWith('_desc') ? 'Descending' : 'Ascending'}
+                        >
+                            {query.sort?.endsWith('_desc') ? '↓' : '↑'}
+                        </button>
+                    </div>
                 </label>
             </div>
 
             <div className="row actions">
-                <button type="button" onClick={() => onChange({
-                    q: '', sub: [], author: [], flair: [], domain: [], media: [],
-                    from: '', to: '', sort: 'created_desc', page: 1,
-                })}>Clear all</button>
+                <button
+                    type="button"
+                    onClick={() => onChange({
+                        q: '', sub: [], author: [], flair: [], domain: [], media: [],
+                        from: '', to: '', sort: 'created_desc', page: 1,
+                    })}
+                >
+                    Clear all
+                </button>
             </div>
 
             <style>{`
@@ -78,6 +129,12 @@ export default function Filters({ facets, query, onChange }) {
         .chip { background:#2a2b2c; border:1px solid #343536; color:#d7dadc; border-radius:999px; padding:4px 10px; font-size:12px; cursor:pointer; }
         .chip.on { background:#3b3c3d; border-color:#4a4c4f; }
         .actions button { background:#2a2b2c; border:1px solid #343536; border-radius:6px; padding:6px 10px; color:#d7dadc; cursor:pointer; }
+
+        .sort-controls { display:flex; gap:8px; align-items:center; }
+        .dir { width:36px; height:36px; display:inline-flex; align-items:center; justify-content:center;
+               background:#2a2b2c; border:1px solid #343536; border-radius:6px; color:#d7dadc; cursor:pointer; }
+        .sort-row { display:flex; gap:8px; align-items:center; }
+        .dir { background:#2a2b2c; border:1px solid #343536; border-radius:6px; padding:6px 10px; color:#d7dadc; cursor:pointer; }
       `}</style>
         </aside>
     );

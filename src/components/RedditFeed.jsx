@@ -23,6 +23,15 @@ function deriveIdFromPermalink(permalink) {
     return null;
 }
 
+function highlight(text, term) {
+    if (!term || !text) return text;
+    const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const re = new RegExp(`(${escaped})`, 'gi');
+    return text.split(re).map((part, i) =>
+        re.test(part) ? <mark key={i}>{part}</mark> : part
+    );
+}
+
 export default function RedditFeed() {
     const [posts, setPosts] = useState([]);
     const [facets, setFacets] = useState(null);
@@ -105,7 +114,7 @@ export default function RedditFeed() {
 
                             {/* Title + pills */}
                             <h2 className="title">
-                                <a href={`${BASE}post/${pid}`}>{p.title}</a>
+                                <a href={`${BASE}post/${pid}`}>{highlight(p.title, query.q)}</a>
                                 {p.flair && <span className="flair">{p.flair}</span>}
                                 {p.media_type && <span className="pill">{p.media_type}</span>}
                             </h2>
@@ -124,7 +133,9 @@ export default function RedditFeed() {
                             )}
 
                             {/* Selftext preview */}
-                            {p.selftext_preview && <p className="excerpt">{p.selftext_preview}</p>}
+                            {p.selftext_preview && (
+                                <p className="excerpt">{highlight(p.selftext_preview, query.q)}</p>
+                            )}
 
                             {/* External link card */}
                             {p.link_domain && p.url && (
@@ -166,85 +177,234 @@ export default function RedditFeed() {
             </div>
 
             <style>{`
-        :root {
-          --bg: #0b1416;
-          --card: #1a1a1b;
-          --card-hover: #1f1f20;
-          --border: #343536;
-          --border-hover: #4a4c4f;
-          --text: #d7dadc;
-          --meta: #818384;
-          --link: #3aa0ff;
-          --link-visited: #a970ff;
-          --badge: #343536;
-        }
-        .grid { display:grid; grid-template-columns: 280px 1fr; gap:16px; }
-        @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } .left{order:2} .right{order:1} }
-        .resultbar { color:#818384; font-size:12px; margin: 4px 0 8px; }
-        .empty { color:#818384; font-size:14px; margin: 12px 0; }
+                :root {
+                    --bg: #0b1416;
+                    --card: #1a1a1b;
+                    --card-hover: #1f1f20;
+                    --border: #343536;
+                    --border-hover: #4a4c4f;
+                    --text: #d7dadc;
+                    --meta: #818384;
+                    --link: #3aa0ff;
+                    --link-visited: #a970ff;
+                    --badge: #343536;
+                }
 
-        .feed {
-          max-width: 1160px;
-          margin: 24px auto;
-          padding: 0 12px;
-          color: var(--text);
-        }
-        .post-card {
-          border: 1px solid var(--border);
-          background: var(--card);
-          border-radius: 8px;
-          padding: 12px;
-          transition: background .15s ease, border-color .15s ease;
-          margin-bottom: 12px;
-        }
-        .post-card:hover { background: var(--card-hover); border-color: var(--border-hover); }
-        .topline, .bottomline {
-          display: flex; align-items: center; gap: 8px;
-          color: var(--meta); font-size: 12px; line-height: 1;
-        }
-        .topline { margin-bottom: 6px; }
-        .bottomline { margin-top: 8px; flex-wrap: wrap; }
-        .spacer { flex: 1; min-width: 8px; }
-        .dot { opacity: .9; }
-        .subreddit { color: var(--text); text-decoration: none; font-weight: 600; }
-        .subreddit:hover { text-decoration: underline; }
-        .author { color: var(--meta); }
-        .title {
-          display: flex; align-items: center; flex-wrap: wrap; gap: 6px;
-          font-size: 1rem; font-weight: 600; margin: 2px 0 6px; line-height: 1.25;
-        }
-        .title a { color: var(--text); text-decoration: none; }
-        .title a:hover { text-decoration: underline; }
-        .title a:visited { color: var(--link-visited); }
-        .flair {
-          background: var(--badge); color: var(--text);
-          border-radius: 4px; padding: 2px 6px; font-size: 11px;
-        }
-        .pill {
-          background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.12);
-          color: var(--text); border-radius: 999px; padding: 2px 8px; font-size: 11px; opacity: .9;
-        }
-        .media-wrap {
-          display: block; border-radius: 6px; overflow: hidden;
-          border: 1px solid rgba(255,255,255,.08); margin: 6px 0 8px;
-        }
-        .media-wrap img { display: block; width: 100%; max-height: 360px; object-fit: cover; }
-        .excerpt {
-          margin: 4px 0 8px; font-size: 14px; line-height: 1.45; color: #c9d1d9;
-          display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical; overflow: hidden; white-space: pre-wrap;
-        }
-        .link-card {
-          display: flex; justify-content: space-between; align-items: center;
-          border: 1px solid rgba(255,255,255,.12); background: rgba(255,255,255,.03);
-          border-radius: 6px; padding: 10px 12px; text-decoration: none; color: var(--text); margin-top: 6px;
-        }
-        .link-card:hover { border-color: rgba(255,255,255,.2); }
-        .link-domain { font-size: 12px; color: var(--meta); }
-        .link-cta { font-size: 12px; color: var(--text); }
-        .score, .comments { color: var(--meta); }
-        .action { color: var(--link); text-decoration: none; }
-        .action:hover { text-decoration: underline; }
-        .saved { color: var(--meta); }
+                .grid {
+                    display: grid;
+                    grid-template-columns: 280px 1fr;
+                    gap: 16px;
+                }
+
+                @media (max-width: 900px) {
+                    .grid {
+                        grid-template-columns: 1fr;
+                    }
+
+                    .left {
+                        order: 2
+                    }
+
+                    .right {
+                        order: 1
+                    }
+                }
+
+                .resultbar {
+                    color: #818384;
+                    font-size: 12px;
+                    margin: 4px 0 8px;
+                }
+
+                .empty {
+                    color: #818384;
+                    font-size: 14px;
+                    margin: 12px 0;
+                }
+
+                .feed {
+                    max-width: 1160px;
+                    margin: 24px auto;
+                    padding: 0 12px;
+                    color: var(--text);
+                }
+
+                .post-card {
+                    border: 1px solid var(--border);
+                    background: var(--card);
+                    border-radius: 8px;
+                    padding: 12px;
+                    transition: background .15s ease, border-color .15s ease;
+                    margin-bottom: 12px;
+                }
+
+                .post-card:hover {
+                    background: var(--card-hover);
+                    border-color: var(--border-hover);
+                }
+
+                .topline,
+                .bottomline {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    color: var(--meta);
+                    font-size: 12px;
+                    line-height: 1;
+                }
+
+                .topline {
+                    margin-bottom: 6px;
+                }
+
+                .bottomline {
+                    margin-top: 8px;
+                    flex-wrap: wrap;
+                }
+
+                .spacer {
+                    flex: 1;
+                    min-width: 8px;
+                }
+
+                .dot {
+                    opacity: .9;
+                }
+
+                .subreddit {
+                    color: var(--text);
+                    text-decoration: none;
+                    font-weight: 600;
+                }
+
+                .subreddit:hover {
+                    text-decoration: underline;
+                }
+
+                .author {
+                    color: var(--meta);
+                }
+
+                .title {
+                    display: flex;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    gap: 6px;
+                    font-size: 1rem;
+                    font-weight: 600;
+                    margin: 2px 0 6px;
+                    line-height: 1.25;
+                }
+
+                .title a {
+                    color: var(--text);
+                    text-decoration: none;
+                }
+
+                .title a:hover {
+                    text-decoration: underline;
+                }
+
+                .title a:visited {
+                    color: var(--link-visited);
+                }
+
+                .flair {
+                    background: var(--badge);
+                    color: var(--text);
+                    border-radius: 4px;
+                    padding: 2px 6px;
+                    font-size: 11px;
+                }
+
+                .pill {
+                    background: rgba(255, 255, 255, .08);
+                    border: 1px solid rgba(255, 255, 255, .12);
+                    color: var(--text);
+                    border-radius: 999px;
+                    padding: 2px 8px;
+                    font-size: 11px;
+                    opacity: .9;
+                }
+
+                .media-wrap {
+                    display: block;
+                    border-radius: 6px;
+                    overflow: hidden;
+                    border: 1px solid rgba(255, 255, 255, .08);
+                    margin: 6px 0 8px;
+                }
+
+                .media-wrap img {
+                    display: block;
+                    width: 100%;
+                    max-height: 360px;
+                    object-fit: cover;
+                }
+
+                .excerpt {
+                    margin: 4px 0 8px;
+                    font-size: 14px;
+                    line-height: 1.45;
+                    color: #c9d1d9;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 6;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    white-space: pre-wrap;
+                }
+
+                .link-card {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border: 1px solid rgba(255, 255, 255, .12);
+                    background: rgba(255, 255, 255, .03);
+                    border-radius: 6px;
+                    padding: 10px 12px;
+                    text-decoration: none;
+                    color: var(--text);
+                    margin-top: 6px;
+                }
+
+                .link-card:hover {
+                    border-color: rgba(255, 255, 255, .2);
+                }
+
+                .link-domain {
+                    font-size: 12px;
+                    color: var(--meta);
+                }
+
+                .link-cta {
+                    font-size: 12px;
+                    color: var(--text);
+                }
+
+                .score,
+                .comments {
+                    color: var(--meta);
+                }
+
+                .action {
+                    color: var(--link);
+                    text-decoration: none;
+                }
+
+                .action:hover {
+                    text-decoration: underline;
+                }
+
+                .saved {
+                    color: var(--meta);
+                }
+
+                mark {
+                    background: rgba(255, 213, 79, 0.3);
+                    color: inherit;
+                    padding: 0 2px;
+                    border-radius: 2px;
+                }
       `}</style>
         </div>
     );
