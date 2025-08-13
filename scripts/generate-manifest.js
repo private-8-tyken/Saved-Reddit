@@ -69,40 +69,79 @@ function pickPreview(p) {
     return { url: null, w: null, h: null, kind: null };
 }
 
-async function loadPosts(dir) {
-    const files = await fs.readdir(dir);
-    const posts = [];
-    for (const f of files) {
-        if (!f.endsWith(".json")) continue;
-        const stem = path.parse(f).name; // filename without .json
-        try {
-            const raw = await fs.readFile(path.join(dir, f), "utf8");
+async function loadPosts(rootDir) {
+    const entries = await fs.readdir(rootDir, { withFileTypes: true });
+    const out = [];
+    for (const ent of entries) {
+        const full = path.join(rootDir, ent.name);
+        if (ent.isDirectory()) {
+            // first-level folder name (e.g., text, image, video, link, gallery, gif)
+            const sub = ent.name;
+            const files = await fs.readdir(full);
+            for (const f of files) {
+                if (!f.endsWith(".json")) continue;
+                const stem = path.parse(f).name;
+                const raw = await fs.readFile(path.join(full, f), "utf8").catch(() => "");
+                if (!raw.trim()) continue;
+                const p = JSON.parse(raw);
+                out.push({ __stem: stem, __folder: sub, __rel: `${sub}/${f}`, ...p });
+                // copy original to public (flat name by default; see collision note below)
+                await fs.writeFile(path.join(POSTS_PUBLIC_DIR, `${stem}.json`), JSON.stringify(p));
+            }
+        } else if (ent.isFile() && ent.name.endsWith(".json")) {
+            const stem = path.parse(ent.name).name;
+            const raw = await fs.readFile(full, "utf8").catch(() => "");
             if (!raw.trim()) continue;
             const p = JSON.parse(raw);
-            posts.push({ __stem: stem, ...p }); // expose stem for id
-            // copy original to public for detail view
-            await fs.writeFile(
-                path.join(POSTS_PUBLIC_DIR, `${stem}.json`),
-                JSON.stringify(p)
-            );
-        } catch {
-            // ignore bad files
+            out.push({ __stem: stem, __folder: null, __rel: ent.name, ...p });
+            await fs.writeFile(path.join(POSTS_PUBLIC_DIR, `${stem}.json`), JSON.stringify(p));
         }
     }
-    return posts;
+    return out;
 }
 
 const posts = await loadPosts(INPUT_DIR);
 
+// Normalizer for folder-based media type
+const MEDIA_FOLDER_MAP = {
+    text: "text",
+    link: "link",
+    image: "image",
+    images: "image",
+    gallery: "gallery",
+    video: "video",
+    videos: "video",
+    gif: "gif",
+    gifs: "gif",
+    external: "external", // for external links,
+    media: "media", // generic media folder
+    other: "other", // catch-all for unrecognized folders
+};
+
+function mediaTypeFromFolder(folder) {
+    if (!folder) return null;
+    const key = String(folder).toLowerCase();
+    return MEDIA_FOLDER_MAP[key] || null;
+}
+
 // ----- Build manifest used by the feed -----
 const manifest = posts.map((p) => {
-    const id = p.__stem || p.id || p.name; // prefer filename/stem
-    const media_type =
+    const id = p.__stem || p.id || p.name;
+
+    // 1) Prefer folder-based media type if present and recognized
+    const folderType = mediaTypeFromFolder(p.__folder);
+
+    // 2) Fallback: original auto-detection
+    const autoType =
         p?.media?.type ||
         (p?.is_self ? "text" : p?.link_domain ? "link" : undefined);
+
+    const media_type = folderType || autoType || null;
+
     const has_media = !!(
         p?.media && ((p.media.items && p.media.items.length) || p.media.video)
     );
+
     const prev = pickPreview(p);
 
     return {
@@ -189,6 +228,18 @@ console.log(
 
 // ----- Build report -----
 const warnings = [];
+
+const KNOWN_MEDIA_FOLDERS = new Set(Object.keys(MEDIA_FOLDER_MAP));
+for (const p of posts) {
+    if (p.__folder && !KNOWN_MEDIA_FOLDERS.has(p.__folder.toLowerCase())) {
+        warnings.push({
+            id: p.__stem,
+            note: "Unknown media folder",
+            folder: p.__folder
+        });
+    }
+}
+
 for (const m of manifest) {
     const miss = [];
     if (!m.id) miss.push("id");
