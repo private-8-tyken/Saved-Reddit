@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-08-12T23:21:43.749793+00:00",
+  "archived_at": "2025-08-13T01:14:14.493498+00:00",
   "reddit_fullname": "t3_1kikplc",
   "reddit_id": "1kikplc",
   "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/",
@@ -23,8 +23,8 @@
   "locked": false,
   "edited": false,
   "num_comments": 62,
-  "score": 43,
-  "upvote_ratio": 0.98,
+  "score": 42,
+  "upvote_ratio": 0.97,
   "media": {
     "kind": "self",
     "files": []
@@ -51,10 +51,10 @@
     "name": "t3_1kikplc",
     "quarantine": false,
     "link_flair_text_color": "dark",
-    "upvote_ratio": 0.98,
+    "upvote_ratio": 0.97,
     "author_flair_background_color": null,
     "subreddit_type": "public",
-    "ups": 43,
+    "ups": 42,
     "total_awards_received": 0,
     "media_embed": {},
     "author_flair_template_id": null,
@@ -67,7 +67,7 @@
     "secure_media_embed": {},
     "link_flair_text": null,
     "can_mod_post": false,
-    "score": 43,
+    "score": 42,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -129,7 +129,7 @@
     "permalink": "/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/",
     "stickied": false,
     "url": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/",
-    "subreddit_subscribers": 275951,
+    "subreddit_subscribers": 275950,
     "created_utc": 1746803037.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -271,7 +271,7 @@
                       "created_utc": 1746855582.0,
                       "send_replies": true,
                       "parent_id": "t1_mrh6el0",
-                      "score": 12,
+                      "score": 13,
                       "author_fullname": "t2_c3uw8kaa",
                       "removal_reason": null,
                       "approved_by": null,
@@ -313,7 +313,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 12
+                      "ups": 13
                     }
                   }
                 ],
@@ -334,7 +334,7 @@
             "created_utc": 1746821468.0,
             "send_replies": true,
             "parent_id": "t3_1kikplc",
-            "score": 16,
+            "score": 15,
             "author_fullname": "t2_59gqnuft",
             "approved_by": null,
             "mod_note": null,
@@ -376,7 +376,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 16
+            "ups": 15
           }
         },
         {
@@ -805,7 +805,7 @@
                                           "can_mod_post": false,
                                           "send_replies": true,
                                           "parent_id": "t1_mrg170i",
-                                          "score": 12,
+                                          "score": 11,
                                           "author_fullname": "t2_c3uw8kaa",
                                           "removal_reason": null,
                                           "approved_by": null,
@@ -848,7 +848,7 @@
                                           "collapsed_because_crowd_control": null,
                                           "mod_reports": [],
                                           "num_reports": null,
-                                          "ups": 12
+                                          "ups": 11
                                         }
                                       }
                                     ],
@@ -868,7 +868,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_mrfyyzj",
-                                "score": 4,
+                                "score": 3,
                                 "author_fullname": "t2_8jt3a",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -911,7 +911,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 4
+                                "ups": 3
                               }
                             }
                           ],
@@ -995,7 +995,7 @@
             "created_utc": 1746806500.0,
             "send_replies": true,
             "parent_id": "t3_1kikplc",
-            "score": 7,
+            "score": 8,
             "author_fullname": "t2_8jt3a",
             "approved_by": null,
             "mod_note": null,
@@ -1037,7 +1037,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 7
+            "ups": 8
           }
         },
         {
@@ -1328,7 +1328,7 @@
             "created_utc": 1746825125.0,
             "send_replies": true,
             "parent_id": "t3_1kikplc",
-            "score": 4,
+            "score": 3,
             "author_fullname": "t2_2x30sdfy",
             "approved_by": null,
             "mod_note": null,
@@ -1370,7 +1370,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 4
+            "ups": 3
           }
         },
         {
@@ -1426,7 +1426,7 @@
                       "created_utc": 1746894047.0,
                       "send_replies": true,
                       "parent_id": "t1_mrk410h",
-                      "score": 8,
+                      "score": 7,
                       "author_fullname": "t2_c3uw8kaa",
                       "removal_reason": null,
                       "approved_by": null,
@@ -1468,7 +1468,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 8
+                      "ups": 7
                     }
                   }
                 ],
@@ -1489,7 +1489,7 @@
             "created_utc": 1746865613.0,
             "send_replies": true,
             "parent_id": "t3_1kikplc",
-            "score": 5,
+            "score": 4,
             "author_fullname": "t2_9c8idxf6",
             "approved_by": null,
             "mod_note": null,
@@ -1531,7 +1531,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 5
+            "ups": 4
           }
         },
         {
@@ -1766,7 +1766,7 @@
                                                               "can_mod_post": false,
                                                               "send_replies": true,
                                                               "parent_id": "t1_mrg1zbc",
-                                                              "score": 16,
+                                                              "score": 14,
                                                               "author_fullname": "t2_c3uw8kaa",
                                                               "approved_by": null,
                                                               "mod_note": null,
@@ -1808,7 +1808,7 @@
                                                               "collapsed_because_crowd_control": null,
                                                               "mod_reports": [],
                                                               "num_reports": null,
-                                                              "ups": 16
+                                                              "ups": 14
                                                             }
                                                           }
                                                         ],
@@ -1890,7 +1890,7 @@
                                           "can_mod_post": false,
                                           "send_replies": true,
                                           "parent_id": "t1_mrg13rn",
-                                          "score": 10,
+                                          "score": 12,
                                           "author_fullname": "t2_c3uw8kaa",
                                           "removal_reason": null,
                                           "approved_by": null,
@@ -1933,7 +1933,7 @@
                                           "collapsed_because_crowd_control": null,
                                           "mod_reports": [],
                                           "num_reports": null,
-                                          "ups": 10
+                                          "ups": 12
                                         }
                                       }
                                     ],
@@ -1953,7 +1953,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_mrfzqcb",
-                                "score": 5,
+                                "score": 3,
                                 "author_fullname": "t2_dcp5i",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -1996,7 +1996,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 5
+                                "ups": 3
                               }
                             }
                           ],
@@ -2017,7 +2017,7 @@
                       "created_utc": 1746808471.0,
                       "send_replies": true,
                       "parent_id": "t1_mrfjzgg",
-                      "score": 27,
+                      "score": 28,
                       "author_fullname": "t2_c3uw8kaa",
                       "removal_reason": null,
                       "approved_by": null,
@@ -2059,7 +2059,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 27
+                      "ups": 28
                     }
                   }
                 ],
@@ -2080,7 +2080,7 @@
             "created_utc": 1746803664.0,
             "send_replies": true,
             "parent_id": "t3_1kikplc",
-            "score": 6,
+            "score": 7,
             "author_fullname": "t2_dcp5i",
             "approved_by": null,
             "mod_note": null,
@@ -2122,7 +2122,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 6
+            "ups": 7
           }
         },
         {
@@ -2384,7 +2384,7 @@
                                           "can_mod_post": false,
                                           "send_replies": true,
                                           "parent_id": "t1_mrge1b3",
-                                          "score": 32,
+                                          "score": 31,
                                           "author_fullname": "t2_c3uw8kaa",
                                           "removal_reason": null,
                                           "approved_by": null,
@@ -2427,7 +2427,7 @@
                                           "collapsed_because_crowd_control": null,
                                           "mod_reports": [],
                                           "num_reports": null,
-                                          "ups": 32
+                                          "ups": 31
                                         }
                                       }
                                     ],
@@ -2511,7 +2511,7 @@
                       "created_utc": 1746808539.0,
                       "send_replies": true,
                       "parent_id": "t1_mrfjkwp",
-                      "score": 9,
+                      "score": 8,
                       "author_fullname": "t2_c3uw8kaa",
                       "removal_reason": null,
                       "approved_by": null,
@@ -2553,7 +2553,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 9
+                      "ups": 8
                     }
                   }
                 ],
@@ -2672,7 +2672,7 @@
                       "created_utc": 1746808380.0,
                       "send_replies": true,
                       "parent_id": "t1_mrfkdro",
-                      "score": 3,
+                      "score": 4,
                       "author_fullname": "t2_c3uw8kaa",
                       "removal_reason": null,
                       "approved_by": null,
@@ -2714,7 +2714,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 3
+                      "ups": 4
                     }
                   }
                 ],
@@ -2833,7 +2833,7 @@
                       "created_utc": 1746809032.0,
                       "send_replies": true,
                       "parent_id": "t1_mrfzahn",
-                      "score": 10,
+                      "score": 11,
                       "author_fullname": "t2_c3uw8kaa",
                       "removal_reason": null,
                       "approved_by": null,
@@ -2875,7 +2875,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 10
+                      "ups": 11
                     }
                   }
                 ],
@@ -2994,7 +2994,7 @@
                       "created_utc": 1746854950.0,
                       "send_replies": true,
                       "parent_id": "t1_mrip49y",
-                      "score": 6,
+                      "score": 7,
                       "author_fullname": "t2_c3uw8kaa",
                       "removal_reason": null,
                       "approved_by": null,
@@ -3036,7 +3036,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 6
+                      "ups": 7
                     }
                   }
                 ],
@@ -3327,7 +3327,7 @@
                       "created_utc": 1746808317.0,
                       "send_replies": true,
                       "parent_id": "t1_mrfof2j",
-                      "score": 14,
+                      "score": 13,
                       "author_fullname": "t2_c3uw8kaa",
                       "removal_reason": null,
                       "approved_by": null,
@@ -3369,7 +3369,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 14
+                      "ups": 13
                     }
                   }
                 ],
@@ -3574,7 +3574,7 @@
                       "created_utc": 1746855488.0,
                       "send_replies": true,
                       "parent_id": "t1_mrhhrcu",
-                      "score": 8,
+                      "score": 9,
                       "author_fullname": "t2_c3uw8kaa",
                       "removal_reason": null,
                       "approved_by": null,
@@ -3616,7 +3616,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 8
+                      "ups": 9
                     }
                   }
                 ],
@@ -3735,7 +3735,7 @@
                       "created_utc": 1746855668.0,
                       "send_replies": true,
                       "parent_id": "t1_mrgmzqq",
-                      "score": 5,
+                      "score": 6,
                       "author_fullname": "t2_c3uw8kaa",
                       "removal_reason": null,
                       "approved_by": null,
@@ -3777,7 +3777,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 5
+                      "ups": 6
                     }
                   }
                 ],
@@ -4682,7 +4682,7 @@
                                           "can_mod_post": false,
                                           "send_replies": true,
                                           "parent_id": "t1_mrieedz",
-                                          "score": 4,
+                                          "score": 3,
                                           "author_fullname": "t2_c3uw8kaa",
                                           "removal_reason": null,
                                           "approved_by": null,
@@ -4725,7 +4725,7 @@
                                           "collapsed_because_crowd_control": null,
                                           "mod_reports": [],
                                           "num_reports": null,
-                                          "ups": 4
+                                          "ups": 3
                                         }
                                       }
                                     ],
@@ -5015,7 +5015,7 @@
                                           "can_mod_post": false,
                                           "send_replies": true,
                                           "parent_id": "t1_mrgakkp",
-                                          "score": 10,
+                                          "score": 9,
                                           "author_fullname": "t2_c3uw8kaa",
                                           "removal_reason": null,
                                           "approved_by": null,
@@ -5058,7 +5058,7 @@
                                           "collapsed_because_crowd_control": null,
                                           "mod_reports": [],
                                           "num_reports": null,
-                                          "ups": 10
+                                          "ups": 9
                                         }
                                       }
                                     ],
@@ -5078,7 +5078,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_mrg0tdh",
-                                "score": 4,
+                                "score": 3,
                                 "author_fullname": "t2_9hmzj",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -5121,7 +5121,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 4
+                                "ups": 3
                               }
                             }
                           ],
@@ -5274,7 +5274,7 @@
       "author_fullname": "t2_59gqnuft",
       "body": "Good work and thank you, I (probably we all) have the highest respect for you. And CPS agents they rock as well",
       "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Good work and thank you, I (probably we all) have the highest respect for you. And CPS agents they rock as well&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 16,
+      "score": 15,
       "created_utc": 1746821468.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrh6el0/",
       "is_submitter": false,
@@ -5286,7 +5286,7 @@
           "author_fullname": "t2_c3uw8kaa",
           "body": "I know this isn't a question, but I do want to say that seeing the people who I help is one of the things that fully reasserts my determination. There is nothing that makes me prouder to do my job than seeing a victim of abuse free due to my efforts.",
           "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I know this isn&amp;#39;t a question, but I do want to say that seeing the people who I help is one of the things that fully reasserts my determination. There is nothing that makes me prouder to do my job than seeing a victim of abuse free due to my efforts.&lt;/p&gt;\n&lt;/div&gt;",
-          "score": 12,
+          "score": 13,
           "created_utc": 1746855582.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrjn2hh/",
           "is_submitter": true,
@@ -5328,7 +5328,7 @@
       "author_fullname": "t2_8jt3a",
       "body": "What places do you suggest avoiding on the internet?",
       "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;What places do you suggest avoiding on the internet?&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 7,
+      "score": 8,
       "created_utc": 1746806500.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrftc8z/",
       "is_submitter": false,
@@ -5355,7 +5355,7 @@
       "author_fullname": "t2_2x30sdfy",
       "body": "For your DFA job, how possible would it be, for you to become the next WikiLeaks?",
       "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;For your DFA job, how possible would it be, for you to become the next WikiLeaks?&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 4,
+      "score": 3,
       "created_utc": 1746825125.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrhi66h/",
       "is_submitter": false,
@@ -5382,7 +5382,7 @@
       "author_fullname": "t2_9c8idxf6",
       "body": "What did you need to do to end up in your job and position?  Education, particular skills, personality traits, job opportunities to look for?\n\nIs there ever anyone who should have been charged who got away with it?\n\nHow do you sleep at night and not be haunted by witnessing the deeper depths of human cruelty?\n\nDo you have any advice for other DFA's out there?",
       "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;What did you need to do to end up in your job and position?  Education, particular skills, personality traits, job opportunities to look for?&lt;/p&gt;\n\n&lt;p&gt;Is there ever anyone who should have been charged who got away with it?&lt;/p&gt;\n\n&lt;p&gt;How do you sleep at night and not be haunted by witnessing the deeper depths of human cruelty?&lt;/p&gt;\n\n&lt;p&gt;Do you have any advice for other DFA&amp;#39;s out there?&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 5,
+      "score": 4,
       "created_utc": 1746865613.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrk410h/",
       "is_submitter": false,
@@ -5394,7 +5394,7 @@
           "author_fullname": "t2_c3uw8kaa",
           "body": "I worked closely with general law enforcement for a few years, and took several psychiatric evaluations as well as other more secretive evaluations.\n\nI have a masters degree in Cybesecurity, and a minor in law. The skills that are needed are mostly your confidentiality and your ability to navigate the internet. As far as job opportunities go, I would advise steering clear of anything even vaguely suspicious. \n\nThere have been cases where despite concrete evidence located by me, the offender has walked free due to either legal loopholes or police misconduct. \n\nHonestly, my wife and daughters are the reason I stay sane and more or less okay despite the soul-crushing nature of my work. \n\nMy advice would be to find someone to lean on. You will not be able to survive otherwise. In sixteen years of work, I have come across a single individual who managed to be content despite the horrific things he saw, and despite the fact that he had nobody to lean on. And that man was truly an exception.",
           "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I worked closely with general law enforcement for a few years, and took several psychiatric evaluations as well as other more secretive evaluations.&lt;/p&gt;\n\n&lt;p&gt;I have a masters degree in Cybesecurity, and a minor in law. The skills that are needed are mostly your confidentiality and your ability to navigate the internet. As far as job opportunities go, I would advise steering clear of anything even vaguely suspicious. &lt;/p&gt;\n\n&lt;p&gt;There have been cases where despite concrete evidence located by me, the offender has walked free due to either legal loopholes or police misconduct. &lt;/p&gt;\n\n&lt;p&gt;Honestly, my wife and daughters are the reason I stay sane and more or less okay despite the soul-crushing nature of my work. &lt;/p&gt;\n\n&lt;p&gt;My advice would be to find someone to lean on. You will not be able to survive otherwise. In sixteen years of work, I have come across a single individual who managed to be content despite the horrific things he saw, and despite the fact that he had nobody to lean on. And that man was truly an exception.&lt;/p&gt;\n&lt;/div&gt;",
-          "score": 8,
+          "score": 7,
           "created_utc": 1746894047.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrly3qm/",
           "is_submitter": true,
@@ -5409,7 +5409,7 @@
       "author_fullname": "t2_dcp5i",
       "body": "How is your mental health?",
       "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How is your mental health?&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 6,
+      "score": 7,
       "created_utc": 1746803664.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrfjzgg/",
       "is_submitter": false,
@@ -5421,7 +5421,7 @@
           "author_fullname": "t2_c3uw8kaa",
           "body": "I look at my work as me having a positive impact on the world. I manage to stomach everything I see knowing that I'm helping make the world a safer place for my daughters when they grow up.\n\nEven still, due to the nature of my work, psych assesments are required quarterly. I'm not doing as badly as one would expect",
           "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I look at my work as me having a positive impact on the world. I manage to stomach everything I see knowing that I&amp;#39;m helping make the world a safer place for my daughters when they grow up.&lt;/p&gt;\n\n&lt;p&gt;Even still, due to the nature of my work, psych assesments are required quarterly. I&amp;#39;m not doing as badly as one would expect&lt;/p&gt;\n&lt;/div&gt;",
-          "score": 27,
+          "score": 28,
           "created_utc": 1746808471.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrfzqcb/",
           "is_submitter": true,
@@ -5448,7 +5448,7 @@
           "author_fullname": "t2_c3uw8kaa",
           "body": "I think that one that sticks with me is a man who took hundreds of videos of himself mutilating his four year old daughter's vagina. That one definitely haunts me sometimes.",
           "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I think that one that sticks with me is a man who took hundreds of videos of himself mutilating his four year old daughter&amp;#39;s vagina. That one definitely haunts me sometimes.&lt;/p&gt;\n&lt;/div&gt;",
-          "score": 9,
+          "score": 8,
           "created_utc": 1746808539.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrfzy9e/",
           "is_submitter": true,
@@ -5475,7 +5475,7 @@
           "author_fullname": "t2_c3uw8kaa",
           "body": "In general whenever I consult, it's mostly laptops.",
           "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;In general whenever I consult, it&amp;#39;s mostly laptops.&lt;/p&gt;\n&lt;/div&gt;",
-          "score": 3,
+          "score": 4,
           "created_utc": 1746808380.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrfzfrx/",
           "is_submitter": true,
@@ -5502,7 +5502,7 @@
           "author_fullname": "t2_c3uw8kaa",
           "body": "Hmmm. I think that one thing a lot of people would be surprised by is how often DFAs use simple social medias like Facebook. \n\nWhile true that you can set your profile to \"friends only\", Meta won't bat an eyelash as they give full access to any law enforcement agency that requests address.\n\nAs far as interesting stories go, my favorite one has to be when I found another DFA online purely accidentally on a child pornography ring. It might sound a bit depressing, but it truly was a ray of light in a place of shadow. We chatted for a very short bit, and I've never heard from her again.",
           "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Hmmm. I think that one thing a lot of people would be surprised by is how often DFAs use simple social medias like Facebook. &lt;/p&gt;\n\n&lt;p&gt;While true that you can set your profile to &amp;quot;friends only&amp;quot;, Meta won&amp;#39;t bat an eyelash as they give full access to any law enforcement agency that requests address.&lt;/p&gt;\n\n&lt;p&gt;As far as interesting stories go, my favorite one has to be when I found another DFA online purely accidentally on a child pornography ring. It might sound a bit depressing, but it truly was a ray of light in a place of shadow. We chatted for a very short bit, and I&amp;#39;ve never heard from her again.&lt;/p&gt;\n&lt;/div&gt;",
-          "score": 10,
+          "score": 11,
           "created_utc": 1746809032.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrg1kz0/",
           "is_submitter": true,
@@ -5529,7 +5529,7 @@
           "author_fullname": "t2_c3uw8kaa",
           "body": "It fully depends on the person. When my mother was alive, I'm pretty sure she would have died if she had used reddit. Of course, I'm a tad more desensitized, so Reddit isn't too bad in my eyes",
           "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;It fully depends on the person. When my mother was alive, I&amp;#39;m pretty sure she would have died if she had used reddit. Of course, I&amp;#39;m a tad more desensitized, so Reddit isn&amp;#39;t too bad in my eyes&lt;/p&gt;\n&lt;/div&gt;",
-          "score": 6,
+          "score": 7,
           "created_utc": 1746854950.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrjlx7b/",
           "is_submitter": true,
@@ -5556,7 +5556,7 @@
           "author_fullname": "t2_c3uw8kaa",
           "body": "This may come as a surprise, but not much at all. I find myself very often wishing that a lot of people get the mental help that they need, but not wishing them dead.",
           "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;This may come as a surprise, but not much at all. I find myself very often wishing that a lot of people get the mental help that they need, but not wishing them dead.&lt;/p&gt;\n&lt;/div&gt;",
-          "score": 14,
+          "score": 13,
           "created_utc": 1746808317.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrfz8jk/",
           "is_submitter": true,
@@ -5583,7 +5583,7 @@
           "author_fullname": "t2_c3uw8kaa",
           "body": "There is no privacy whatsoever. \n\nWe barely need to so much as request a chat log from Meta. The big companies that provide communication services don't give a crap about you, and hand everything over without hesitation.\n\nTelegram is the exception, being basically as secure as you can get.",
           "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;There is no privacy whatsoever. &lt;/p&gt;\n\n&lt;p&gt;We barely need to so much as request a chat log from Meta. The big companies that provide communication services don&amp;#39;t give a crap about you, and hand everything over without hesitation.&lt;/p&gt;\n\n&lt;p&gt;Telegram is the exception, being basically as secure as you can get.&lt;/p&gt;\n&lt;/div&gt;",
-          "score": 8,
+          "score": 9,
           "created_utc": 1746855488.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrjmwew/",
           "is_submitter": true,
@@ -5610,7 +5610,7 @@
           "author_fullname": "t2_c3uw8kaa",
           "body": "I'm afraid I won't specify too much - it isn't because I'm with some secret agency or working for Interpol or something, it's simply a matter of conserving the limited privacy I have on the internet.\n\nI can tell you that I operate with a country-wide enforcement agency.",
           "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;m afraid I won&amp;#39;t specify too much - it isn&amp;#39;t because I&amp;#39;m with some secret agency or working for Interpol or something, it&amp;#39;s simply a matter of conserving the limited privacy I have on the internet.&lt;/p&gt;\n\n&lt;p&gt;I can tell you that I operate with a country-wide enforcement agency.&lt;/p&gt;\n&lt;/div&gt;",
-          "score": 5,
+          "score": 6,
           "created_utc": 1746855668.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrjn7zq/",
           "is_submitter": true,
