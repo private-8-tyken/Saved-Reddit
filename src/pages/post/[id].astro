@@ -1,4 +1,5 @@
 ---
+import "./[id].css";
 import fs from "node:fs/promises";
 import PostDetail from "../../components/PostDetail.jsx";
 
@@ -47,24 +48,6 @@ const ogImage =
         <meta property="og:type" content="article" />
         <meta property="og:image" content={ogImage} />
         <meta name="twitter:card" content="summary_large_image" />
-        <style>
-            :root {
-                --bg: #0b1416;
-                --text: #d7dadc;
-            }
-            html,
-            body {
-                margin: 0;
-                background: var(--bg);
-                color: var(--text);
-                font-family:
-                    system-ui,
-                    -apple-system,
-                    Segoe UI,
-                    Roboto,
-                    sans-serif;
-            }
-        </style>
     </head>
     <body>
         <PostDetail id={id} client:only="react" />
