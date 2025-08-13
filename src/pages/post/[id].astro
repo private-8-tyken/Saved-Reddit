@@ -1,5 +1,6 @@
 ---
-import "./[id].css";
+import "../[id].css";
+import { BASE } from "../../lib/base";
 import fs from "node:fs/promises";
 import PostDetail from "../../components/PostDetail.jsx";
 
@@ -39,6 +40,16 @@ const ogImage =
 
 <html lang="en">
     <head>
+        <script is:inline>
+            const __b = "/Saved-Reddit/";
+            if (
+                sessionStorage.getItem("site_authed") !== "1" &&
+                localStorage.getItem("site_authed") !== "1"
+            ) {
+                location.replace(__b + "login");
+            }
+        </script>
+
         <meta charset="utf-8" />
         <title>{title}</title>
         <meta name="viewport" content="width=device-width" />
