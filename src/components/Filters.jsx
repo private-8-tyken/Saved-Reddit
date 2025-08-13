@@ -1,5 +1,7 @@
 // src/components/Filters.jsx
+import "../styles/Filters.css";
 import React from "react";
+import LargeMultiSelect from "./LargeMultiSelect.jsx";
 
 export default function Filters({ facets, query, onChange }) {
     const mkToggle = (key, val) => {
@@ -68,12 +70,6 @@ export default function Filters({ facets, query, onChange }) {
                 />
             </div>
 
-            {mkMulti('Subreddit', 'sub', facets.subreddits || [])}
-            {mkMulti('Author', 'author', facets.authors || [])}
-            {mkMulti('Flair', 'flair', facets.flairs || [])}
-            {mkMulti('Domain', 'domain', facets.domains || [])}
-            {mkMulti('Media', 'media', facets.mediaTypes || [])}
-
             <div className="row two">
                 <label>From
                     <input type="date" value={query.from || ''} onChange={e => onChange({ ...query, from: e.target.value, page: 1 })} />
@@ -107,6 +103,24 @@ export default function Filters({ facets, query, onChange }) {
                 </label>
             </div>
 
+            {mkMulti('Media', 'media', facets.mediaTypes || [])}
+            {mkMulti('Domain', 'domain', facets.domains || [])}
+
+            <LargeMultiSelect
+                label="Subreddit"
+                value={query.sub}
+                onChange={(vals) => onChange({ ...query, sub: vals, page: 1 })}
+                loadPath="data/indexes/subs-all.json"
+            />
+            <LargeMultiSelect
+                label="Author"
+                value={query.author}
+                onChange={(vals) => onChange({ ...query, author: vals, page: 1 })}
+                loadPath="data/indexes/authors-all.json"
+            />
+
+            {mkMulti('Flair', 'flair', facets.flairs || [])}
+
             <div className="row actions">
                 <button
                     type="button"
@@ -118,24 +132,6 @@ export default function Filters({ facets, query, onChange }) {
                     Clear all
                 </button>
             </div>
-
-            <style>{`
-        .filters { border:1px solid rgba(255,255,255,.12); background:#1a1a1b; border-radius:8px; padding:12px; color:#d7dadc; }
-        .label { font-size:12px; color:#9aa0a6; margin:6px 0; }
-        .row { margin: 8px 0; }
-        .row.two { display:grid; grid-template-columns: 1fr 1fr; gap:8px; }
-        .search, input[type="date"], select { width:100%; background:#0f1a1c; color:#d7dadc; border:1px solid #343536; border-radius:6px; padding:8px; }
-        .chips { display:flex; flex-wrap:wrap; gap:6px; }
-        .chip { background:#2a2b2c; border:1px solid #343536; color:#d7dadc; border-radius:999px; padding:4px 10px; font-size:12px; cursor:pointer; }
-        .chip.on { background:#3b3c3d; border-color:#4a4c4f; }
-        .actions button { background:#2a2b2c; border:1px solid #343536; border-radius:6px; padding:6px 10px; color:#d7dadc; cursor:pointer; }
-
-        .sort-controls { display:flex; gap:8px; align-items:center; }
-        .dir { width:36px; height:36px; display:inline-flex; align-items:center; justify-content:center;
-               background:#2a2b2c; border:1px solid #343536; border-radius:6px; color:#d7dadc; cursor:pointer; }
-        .sort-row { display:flex; gap:8px; align-items:center; }
-        .dir { background:#2a2b2c; border:1px solid #343536; border-radius:6px; padding:6px 10px; color:#d7dadc; cursor:pointer; }
-      `}</style>
         </aside>
     );
 }
