@@ -111,3 +111,24 @@ select {
     color: #d7dadc;
     cursor: pointer;
 }
+
+.seg {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.seg-btn {
+    background: #2a2b2c;
+    border: 1px solid #343536;
+    color: #d7dadc;
+    border-radius: 999px;
+    padding: 6px 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.seg-btn.on {
+    background: #005c0c;
+    border-color: #4a4c4f;
+}

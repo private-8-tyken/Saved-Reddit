@@ -4,7 +4,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { BASE, asset } from "../lib/base";
 import Filters from "./Filters.jsx";
 import MobileDrawer from "./MobileDrawer.jsx";
-import { parseQuery, pushQuery, DEFAULT_QUERY } from "../lib/query";
+import { parseQuery, pushQuery } from "../lib/query";
 import { applyFilters } from "../lib/applyFilters";
 
 function fmt(ts) {
@@ -28,10 +28,107 @@ function deriveIdFromPermalink(permalink) {
 
 function highlight(text, term) {
     if (!term || !text) return text;
-    const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    const re = new RegExp(`(${escaped})`, 'gi');
-    return text.split(re).map((part, i) =>
-        re.test(part) ? <mark key={i}>{part}</mark> : part
+    const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const re = new RegExp(`(${escaped})`, "gi");
+    return text.split(re).map((part, i) => (re.test(part) ? <mark key={i}>{part}</mark> : part));
+}
+
+/** Right-edge hot-zone + visible (subtle) vertical handle; mobile only (<=900px) */
+function EdgeSwipeOpen({ onOpen }) {
+    const start = React.useRef({ x: null, y: null });
+    const tracking = React.useRef(false);
+
+    const onTouchStart = (e) => {
+        const t = e.touches[0];
+        start.current = { x: t.clientX, y: t.clientY };
+        tracking.current = true;
+    };
+    const onTouchMove = (e) => {
+        if (!tracking.current || start.current.x == null) return;
+        const t = e.touches[0];
+        const dx = t.clientX - start.current.x; // left swipe => negative
+        const dy = t.clientY - start.current.y;
+        if (Math.abs(dy) > Math.abs(dx)) return; // ignore vertical
+        const threshold = Math.max(40, Math.min(140, window.innerWidth * 0.18));
+        if (dx < -threshold) {
+            tracking.current = false;
+            onOpen();
+        }
+    };
+    const onTouchEnd = () => {
+        tracking.current = false;
+        start.current = { x: null, y: null };
+    };
+
+    return (
+        <>
+            <style>{`
+        @media (min-width: 900px) {
+          .edge-open-zone, .edge-handle { display: none; }
+        }
+        .edge-handle:focus-visible { outline: 2px solid rgba(255,255,255,.6); outline-offset: 2px; }
+      `}</style>
+
+            {/* Subtle vertical handle (tap or keyboard to open) */}
+            <button
+                type="button"
+                className="edge-handle"
+                aria-label="Open filters"
+                onClick={onOpen}
+                style={{
+                    position: "fixed",
+                    top: "50%",
+                    right: 0,
+                    transform: "translateY(-50%)",
+                    zIndex: 49,
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    padding: "8px 6px",
+                    width: 32,
+                    borderTopLeftRadius: 10,
+                    borderBottomLeftRadius: 10,
+                    border: "1px solid rgba(255,255,255,.16)",
+                    borderRight: "none",
+                    background: "linear-gradient(180deg, rgba(36,37,38,.92), rgba(20,20,21,.92))",
+                    color: "#d7dadc",
+                    boxShadow: "0 2px 10px rgba(0,0,0,.35)",
+                    backdropFilter: "blur(6px)",
+                    cursor: "pointer",
+                }}
+            >
+                <span
+                    aria-hidden
+                    style={{
+                        writingMode: "vertical-rl",
+                        textOrientation: "mixed",
+                        fontSize: 12,
+                        letterSpacing: 1,
+                        opacity: 0.9,
+                        userSelect: "none",
+                    }}
+                >
+                    Filters
+                </span>
+            </button>
+
+            {/* Invisible swipe hot-zone */}
+            <div
+                className="edge-open-zone"
+                style={{
+                    position: "fixed",
+                    top: 0,
+                    right: 0,
+                    width: 28,            // swipe capture width
+                    height: "100dvh",
+                    zIndex: 48,           // under the handle (49) and drawer/backdrop (50/51)
+                    touchAction: "pan-y", // preserve vertical scroll
+                }}
+                onTouchStart={onTouchStart}
+                onTouchMove={onTouchMove}
+                onTouchEnd={onTouchEnd}
+            />
+        </>
     );
 }
 
@@ -40,6 +137,21 @@ export default function RedditFeed() {
     const [facets, setFacets] = useState(null);
     const [query, setQuery] = useState(parseQuery());
     const [drawerOpen, setDrawerOpen] = useState(false);
+    const [isNarrow, setIsNarrow] = useState(false);
+
+    // Detect mobile layout (<=900px)
+    useEffect(() => {
+        if (typeof window === "undefined" || !window.matchMedia) return;
+        const mq = window.matchMedia("(max-width: 900px)");
+        const onChange = (e) => setIsNarrow(e.matches);
+        setIsNarrow(mq.matches);
+        if (mq.addEventListener) mq.addEventListener("change", onChange);
+        else mq.addListener(onChange); // Safari < 14 fallback
+        return () => {
+            if (mq.removeEventListener) mq.removeEventListener("change", onChange);
+            else mq.removeListener(onChange);
+        };
+    }, []);
 
     // Load data
     useEffect(() => {
@@ -81,13 +193,11 @@ export default function RedditFeed() {
             </div>
 
             <div className="right">
-                <div className="mobile-bar">
-                    <button className="btn" type="button" onClick={() => setDrawerOpen(true)}>
-                        Filters
-                    </button>
-                </div>
+                {/* Removed the old mobile-bar Filters button */}
                 <div className="resultbar">
-                    <span>{count} result{count === 1 ? "" : "s"}</span>
+                    <span>
+                        {count} result{count === 1 ? "" : "s"}
+                    </span>
                     {query.q && <span className="meta"> • searching “{query.q}”</span>}
                 </div>
 
@@ -176,7 +286,9 @@ export default function RedditFeed() {
                                 <a className="action" href={`${BASE}post/${pid}`}>
                                     Details
                                 </a>
-                                {p.saved_utc && <span className="saved">Saved ID #{p.saved_utc}</span>}
+                                {Number.isFinite(p.saved_utc) && (
+                                    <span className="saved">Saved index #{p.saved_utc}</span>
+                                )}
                             </div>
                         </article>
                     );
@@ -186,14 +298,11 @@ export default function RedditFeed() {
             </div>
 
             <MobileDrawer open={drawerOpen} onClose={() => setDrawerOpen(false)}>
-                {facets && (
-                    <Filters
-                        facets={facets}
-                        query={query}
-                        onChange={updateQuery}
-                    />
-                )}
+                {facets && <Filters facets={facets} query={query} onChange={updateQuery} />}
             </MobileDrawer>
+
+            {/* Edge-swipe-to-open + visible vertical handle (mobile only, drawer closed) */}
+            {isNarrow && !drawerOpen && <EdgeSwipeOpen onOpen={() => setDrawerOpen(true)} />}
         </div>
     );
 }
