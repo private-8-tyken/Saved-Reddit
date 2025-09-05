@@ -1,0 +1,12 @@
+---
+// src/pages/favorites.astro
+// Favorites page with header and feed components
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import Feed from "../components/Feed.jsx";
+---
+
+<BaseLayout title="Saved Reddit — Favorites" requiresAuth={true}>
+    <Header />
+    <Feed client:load favoritesOnly={true} />
+</BaseLayout>

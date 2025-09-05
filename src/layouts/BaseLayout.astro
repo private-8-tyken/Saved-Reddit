@@ -1,0 +1,34 @@
+---
+// src/layouts/BaseLayout.astro
+// Base layout with title, CSS, and optional auth check
+const { title = 'Saved Reddit', requiresAuth = true } = Astro.props;
+const rawBase = Astro.site?.pathname || import.meta.env.BASE_URL || '/';
+const BASE = rawBase.endsWith('/') ? rawBase : rawBase + '/'; // ensure trailing slash
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{title}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- ✅ CSS path now robust in dev and on GitHub Pages -->
+    <link rel="stylesheet" href={`${BASE}styles/global.css`} />
+  </head>
+  <body>
+    {requiresAuth && (
+      <script is:inline data-base={BASE}>
+        (function(){
+          try {
+            // Read the base from the script's data attribute (no JSON stringify needed)
+            var BASE = (document.currentScript && document.currentScript.dataset && document.currentScript.dataset.base) || '/';
+            var norm = function(s){ return s.endsWith('/') ? s : s + '/'; };
+            var isLogin = norm(location.pathname).endsWith(norm(BASE + 'login'));
+            var authed = (sessionStorage.getItem('authed') === '1');
+            if (!isLogin && !authed) location.replace(BASE + 'login');
+          } catch (e) {}
+        })();
+      </script>
+    )}
+    <slot />
+  </body>
+</html>

@@ -1,77 +1,59 @@
 ---
 // src/pages/login.astro
-import "../styles/login.css";
-import { BASE } from "../lib/base";
-const title = "Sign in";
+// Simple passcode-protected login page (client-side only)
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+// Normalize base (matches what we did in BaseLayout/Header)
+const rawBase = Astro.site?.pathname || import.meta.env.BASE_URL || "/";
+const BASE = rawBase.endsWith("/") ? rawBase : rawBase + "/";
+
+// NOTE: Client-side gate only (obfuscation, not real security)
+const PASSCODE = "changeme"; // <-- update this
 ---
 
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width" />
-        <title>{title}</title>
+<BaseLayout title="Login" requiresAuth={false}>
+    <div class="container">
+        <h2>Enter passcode</h2>
+        <form id="loginForm" class="row" style="max-width:560px; gap:8px;">
+            <input
+                class="input"
+                id="pass"
+                type="password"
+                placeholder="Passcode"
+                style="flex:1"
+            />
+            <button class="button primary" type="submit">Enter</button>
+        </form>
+        <div id="err" class="meta" style="color:#f79b9b; margin-top:8px;"></div>
+    </div>
 
-        <!-- already logged in? bounce before rendering -->
-        <script is:inline>
-            const __b = "/Saved-Reddit/";
-            if (
-                sessionStorage.getItem("site_authed") === "1" ||
-                localStorage.getItem("site_authed") === "1"
-            ) {
-                location.replace(__b);
-            }
-        </script>
-    </head>
-    <body>
-        <main>
-            <h1 style="margin:0 0 .5rem;">Enter Password</h1>
-            <p id="err" class="err">Incorrect password. Try again.</p>
-            <form id="login">
-                <label for="pw">Password</label>
-                <input
-                    id="pw"
-                    type="password"
-                    placeholder="••••••••"
-                    required
-                />
-                <div class="row">
-                    <input id="remember" type="checkbox" />
-                    <label for="remember" style="display:inline;"
-                        >Remember me on this device</label
-                    >
-                </div>
-                <button type="submit">Unlock</button>
-            </form>
-        </main>
+    <!-- Pass values safely via data-* attributes -->
+    <script is:inline data-base={BASE} data-pass={PASSCODE}>
+        (function () {
+            try {
+                var me = document.currentScript;
+                var BASE = (me && me.dataset && me.dataset.base) || "/";
+                // Ensure trailing slash
+                BASE = BASE.endsWith("/") ? BASE : BASE + "/";
+                var PASS = (me && me.dataset && me.dataset.pass) || "";
 
-        <script is:inline>
-            // submit handler
-            const PASSWORD = "changeme123";
+                var form = document.getElementById("loginForm");
+                var input = document.getElementById("pass");
+                var err = document.getElementById("err");
 
-            const form = document.getElementById("login");
-            const err = document.getElementById("err");
-
-            form.addEventListener("submit", (e) => {
-                e.preventDefault();
-                err.style.display = "none";
-
-                const ok = document.getElementById("pw").value === PASSWORD;
-                if (!ok) {
-                    err.style.display = "block";
-                    return;
-                }
-
-                const remember = document.getElementById("remember").checked;
-
-                // ✅ define __b in THIS script too (scripts don’t share scope)
-                const __b = "/Saved-Reddit/";
-
-                (remember ? localStorage : sessionStorage).setItem(
-                    "site_authed",
-                    "1",
-                );
-                location.replace(__b); // ✅ no '${base}' here
-            });
-        </script>
-    </body>
-</html>
+                form?.addEventListener("submit", function (e) {
+                    e.preventDefault();
+                    var v = (input?.value || "").trim();
+                    if (v === PASS) {
+                        try {
+                            sessionStorage.setItem("authed", "1");
+                        } catch (_) {}
+                        location.replace(BASE); // go to site root
+                    } else {
+                        if (err) err.textContent = "Incorrect passcode.";
+                    }
+                });
+            } catch (_) {}
+        })();
+    </script>
+</BaseLayout>

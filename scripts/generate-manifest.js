@@ -182,7 +182,7 @@ const manifest = posts.map((p) => {
         author: p.author,
         flair: p.link_flair_text || p.flair || null,
         created_utc: p.created_utc,
-        saved_utc: p.saved_utc ?? (order_index !== null ? order_index : null), order_index,
+        saved_index: p.saved_utc ?? (order_index !== null ? order_index : null), order_index,
         score: p.score,
         num_comments: p.num_comments,
         media_type,

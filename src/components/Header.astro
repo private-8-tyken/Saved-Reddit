@@ -1,0 +1,39 @@
+---
+// src/components/Header.astro
+// Header component with navigation, search, and sorting
+const rawBase = Astro.site?.pathname || import.meta.env.BASE_URL || "/";
+const BASE = rawBase.endsWith("/") ? rawBase : rawBase + "/";
+const { showFiltersButton = true } = Astro.props;
+---
+
+<header>
+    <div class="bar container">
+        {
+            showFiltersButton && (
+                <button
+                    class="button"
+                    id="openFilters"
+                    aria-label="Open filters"
+                >
+                    ☰
+                </button>
+            )
+        }
+        <div class="brand"><a href={BASE}>Saved Reddit</a></div>
+        <div class="spacer"></div>
+        <input id="searchInput" class="input" placeholder="Search…" />
+        <select id="sortSelect" class="input">
+            <option value="saved|asc">Saved order (Latest first)</option>
+            <option value="created|desc">Post date (Newest first)</option>
+            <option value="score|desc">Score (Top first)</option>
+            <option value="comments|desc">Comments (Most first)</option>
+            <option value="title|asc">Title (A→Z)</option>
+            <option value="subreddit|asc">Subreddit (A→Z)</option>
+            <option value="author|asc">Author (A→Z)</option>
+            <option value="domain|asc">Domain (A→Z)</option>
+            <option value="flair|asc">Flair (A→Z)</option>
+        </select>
+        <a class="button" href={`${BASE}favorites`}>⭐</a>
+    </div>
+    <div class="chips container" id="activeChips"></div>
+</header>
