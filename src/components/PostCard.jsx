@@ -25,13 +25,23 @@ export default function PostCard({ post, favs, setFavs, base }) {
                     style={{ width: '100%', borderRadius: 10, display: 'block' }} />
             ) : null}
             <h3 style={{ margin: '10px 2px' }}>
-                <a href={`${base}post/${encodeURIComponent(post.id)}`}>{post.title}</a>
+                <a
+                    href={`${base}post/${encodeURIComponent(post.id)}`}
+                    onClick={() => {
+                        try {
+                            const key = 'feed:scroll:' + location.search;
+                            sessionStorage.setItem(key, String(window.scrollY || 0));
+                        } catch { }
+                    }}
+                >
+                    {post.title}
+                </a>
             </h3>
             <div className="meta">{meta}</div>
             <div className="row" style={{ marginTop: 8 }}>
                 <button className="button" onClick={toggle}>{isFav ? '⭐ Unstar' : '☆ Star'}</button>
                 {post.permalink && <a className="button" href={post.permalink} target="_blank" rel="noopener noreferrer">Open on Reddit ↗</a>}
             </div>
-        </article>
+        </article >
     );
 }

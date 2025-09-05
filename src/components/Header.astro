@@ -1,6 +1,4 @@
 ---
-// src/components/Header.astro
-// Header component with navigation, search, and sorting
 const rawBase = Astro.site?.pathname || import.meta.env.BASE_URL || "/";
 const BASE = rawBase.endsWith("/") ? rawBase : rawBase + "/";
 const { showFiltersButton = true } = Astro.props;
@@ -34,6 +32,130 @@ const { showFiltersButton = true } = Astro.props;
             <option value="flair|asc">Flair (A→Z)</option>
         </select>
         <a class="button" href={`${BASE}favorites`}>⭐</a>
+        <button class="button" id="favFirst">Favs first</button>
     </div>
     <div class="chips container" id="activeChips"></div>
 </header>
+
+<!-- Minimal client helpers: open drawer + live chips -->
+<script is:inline>
+    (function () {
+        if (typeof window === "undefined") return;
+
+        // Open filter drawer from header button
+        const btn = document.getElementById("openFilters");
+        btn &&
+            btn.addEventListener("click", () => {
+                window.dispatchEvent(new CustomEvent("filters:open"));
+            });
+
+        // Chips rendering from URL params
+        const chipsEl = document.getElementById("activeChips");
+        if (!chipsEl) return;
+
+        const listParams = ["subs", "authors", "flairs", "media", "domains"];
+
+        function parseLists(sp) {
+            const out = {};
+            for (const k of listParams) {
+                const v = sp.get(k) || "";
+                out[k] = v
+                    ? v.split(",").map(decodeURIComponent).filter(Boolean)
+                    : [];
+            }
+            return out;
+        }
+
+        function badgeLabel(k) {
+            switch (k) {
+                case "subs":
+                    return "r/";
+                case "authors":
+                    return "u/";
+                case "flairs":
+                    return "";
+                case "media":
+                    return "";
+                case "domains":
+                    return "";
+                default:
+                    return "";
+            }
+        }
+
+        function renderChips() {
+            const sp = new URLSearchParams(location.search);
+            const lists = parseLists(sp);
+            const fr = document.createDocumentFragment();
+            let count = 0;
+
+            for (const k of listParams) {
+                for (const val of lists[k]) {
+                    count++;
+                    const chip = document.createElement("span");
+                    chip.className = "chip";
+                    chip.textContent = `${badgeLabel(k)}${val} `;
+                    const x = document.createElement("span");
+                    x.className = "x";
+                    x.textContent = "✕";
+                    x.setAttribute("role", "button");
+                    x.addEventListener("click", () => {
+                        // remove this val from k
+                        const arr = lists[k].filter((v) => v !== val);
+                        if (arr.length)
+                            sp.set(k, arr.map(encodeURIComponent).join(","));
+                        else sp.delete(k);
+                        const url = new URL(location.href);
+                        url.search = sp.toString();
+                        history.pushState({}, "", url);
+                        window.dispatchEvent(new Event("urlchange"));
+                        renderChips();
+                    });
+                    chip.appendChild(x);
+                    fr.appendChild(chip);
+                }
+            }
+            chipsEl.innerHTML = "";
+            if (count) chipsEl.appendChild(fr);
+        }
+
+        // Fire on popstate and when our app pushes URL updates
+        const _ps = history.pushState;
+        const _rs = history.replaceState;
+        history.pushState = function (...a) {
+            const r = _ps.apply(this, a);
+            window.dispatchEvent(new Event("urlchange"));
+            return r;
+        };
+        history.replaceState = function (...a) {
+            const r = _rs.apply(this, a);
+            window.dispatchEvent(new Event("urlchange"));
+            return r;
+        };
+
+        window.addEventListener("popstate", renderChips);
+        window.addEventListener("urlchange", renderChips);
+        renderChips();
+
+        const favBtn = document.getElementById("favFirst");
+        if (favBtn) {
+            const setLabel = () => {
+                const sp = new URLSearchParams(location.search);
+                favBtn.classList.toggle("primary", sp.get("favfirst") === "1");
+            };
+            favBtn.addEventListener("click", () => {
+                const sp = new URLSearchParams(location.search);
+                if (sp.get("favfirst") === "1") sp.delete("favfirst");
+                else sp.set("favfirst", "1");
+                const url = new URL(location.href);
+                url.search = sp.toString();
+                history.pushState({}, "", url);
+                window.dispatchEvent(new Event("urlchange"));
+                setLabel();
+            });
+            window.addEventListener("urlchange", setLabel);
+            window.addEventListener("popstate", setLabel);
+            setLabel();
+        }
+    })();
+</script>

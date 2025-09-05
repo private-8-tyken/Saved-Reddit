@@ -4,9 +4,11 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Header from "../components/Header.astro";
 import Feed from "../components/Feed.jsx";
+import FilterPanel from "../components/FilterPanel.jsx";
 ---
 
 <BaseLayout title="Saved Reddit — Feed" requiresAuth={true}>
     <Header />
     <Feed client:load />
+    <FilterPanel client:load />
 </BaseLayout>

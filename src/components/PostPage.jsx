@@ -2,6 +2,7 @@
 // Post page component: displays a single post with media and comments
 import { useEffect, useState } from "react";
 import CommentThread from "./CommentThread.jsx";
+import { PostSkeleton } from "./Skeleton.jsx";
 import { loadFavs, saveFavs } from "../utils/storage.js";
 
 const rawBase = import.meta.env.BASE_URL || "/";
@@ -44,7 +45,7 @@ export default function PostPage({ id }) {
             </div>
         );
     }
-    if (!post) return <div className="container"><div className="meta">Loading…</div></div>;
+    if (!post && !error) return <PostSkeleton />;
 
     const meta = [
         post.link_flair_text || post.flair || '',
@@ -62,6 +63,18 @@ export default function PostPage({ id }) {
         }
         return null;
     })();
+
+    if (!post && !error) {
+        return (
+            <div className="container">
+                <div className="card" style={{ marginBottom: 12 }}>
+                    <div className="skeleton" style={{ height: 28, width: '70%', margin: '6px 0' }} />
+                    <div className="skeleton" style={{ height: 14, width: '40%', marginBottom: 8 }} />
+                    <div className="skeleton" style={{ height: 220 }} />
+                </div>
+            </div>
+        );
+    }
 
     return (
         <div className="container">
