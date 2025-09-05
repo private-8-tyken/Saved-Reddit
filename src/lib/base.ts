@@ -1,3 +1,4 @@
+// src/lib/base.ts
 export const BASE: string = import.meta.env.BASE_URL || '/';
 
 export function asset(p?: string) {

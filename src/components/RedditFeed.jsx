@@ -1,3 +1,4 @@
+// src/components/RedditFeed.jsx
 import "../styles/RedditFeed.css";
 import React, { useEffect, useMemo, useState } from "react";
 import { BASE, asset } from "../lib/base";

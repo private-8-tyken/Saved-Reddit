@@ -1,3 +1,4 @@
+// src/components/PostDetail.jsx
 import React, { useEffect, useMemo, useState } from "react";
 import { BASE, asset } from "../lib/base";
 import CommentsTree from "./CommentsTree.jsx";

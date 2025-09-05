@@ -1,3 +1,4 @@
+// src/components/MobileDrawer.jsx
 import React, { useEffect } from "react";
 
 export default function MobileDrawer({ open, onClose, children }) {
