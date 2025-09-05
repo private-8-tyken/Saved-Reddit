@@ -1,3 +1,4 @@
+// npx astro dev
 // @ts-check
 import { defineConfig } from 'astro/config';
 

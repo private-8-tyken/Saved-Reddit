@@ -19,10 +19,31 @@ const ROOT = process.cwd(); // run from repo root
 const INPUT_DIR = path.resolve(ROOT, "data/posts");
 const INDEX_OUT_DIR = path.resolve(ROOT, "public/data/indexes");
 const POSTS_PUBLIC_DIR = path.resolve(ROOT, "public/data/posts");
+const ORDERED_CSV = path.resolve(ROOT, "data/ordered_posts.csv");
 
 await fs.mkdir(INDEX_OUT_DIR, { recursive: true });
 await fs.mkdir(POSTS_PUBLIC_DIR, { recursive: true });
 
+// --- tiny CSV loader for "index,url,id" (no header) ---
+async function loadOrderIndex(csvPath) {
+    const raw = await fs.readFile(csvPath, "utf8").catch(() => "");
+    if (!raw.trim()) return new Map();
+    const map = new Map();
+    for (const line of raw.split(/\r?\n/)) {
+        if (!line.trim()) continue;
+        // naive CSV split; handles optional quotes around fields
+        const cells = line
+            .split(",")
+            .map(s => s?.trim().replace(/^"(.*)"$/, "$1"));
+        const [indexStr, _url, id] = cells;
+        const idx = Number(indexStr);
+        if (Number.isFinite(idx) && id) map.set(id, idx);
+    }
+    return map;
+}
+const ORDER_INDEX = await loadOrderIndex(ORDERED_CSV);
+
+// Helper to derive stable-ish ID from permalink if missing
 function plainExcerpt(text, n = 320) {
     if (!text) return "";
     const t = String(text)
@@ -144,6 +165,12 @@ const manifest = posts.map((p) => {
 
     const prev = pickPreview(p);
 
+    const order_index =
+        ORDER_INDEX.get(id) ??
+        ORDER_INDEX.get(p.id) ??
+        ORDER_INDEX.get(p.name) ??
+        null;
+
     return {
         id, // guaranteed id
         permalink: p.permalink,
@@ -155,7 +182,7 @@ const manifest = posts.map((p) => {
         author: p.author,
         flair: p.link_flair_text || p.flair || null,
         created_utc: p.created_utc,
-        saved_utc: p.saved_utc,
+        saved_utc: p.saved_utc ?? (order_index !== null ? order_index : null), order_index,
         score: p.score,
         num_comments: p.num_comments,
         media_type,

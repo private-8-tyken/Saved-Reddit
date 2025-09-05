@@ -175,7 +175,7 @@ export default function RedditFeed() {
                                 <a className="action" href={`${BASE}post/${pid}`}>
                                     Details
                                 </a>
-                                {p.saved_utc && <span className="saved">Saved {fmt(p.saved_utc)}</span>}
+                                {p.saved_utc && <span className="saved">Saved ID #{p.saved_utc}</span>}
                             </div>
                         </article>
                     );

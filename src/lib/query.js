@@ -1,11 +1,11 @@
 // src/lib/query.js
 const MULTI_KEYS = new Set(['sub', 'author', 'flair', 'domain', 'media']);
-const VALID_SORT = new Set(['created_desc', 'score_desc', 'comments_desc', 'title_asc']);
+const VALID_SORT = new Set(['saved_desc, created_desc', 'score_desc', 'comments_desc', 'title_asc']);
 
 export const DEFAULT_QUERY = {
     q: '',
     sub: [], author: [], flair: [], domain: [], media: [],
-    from: '', to: '', sort: 'created_desc', page: 1,
+    from: '', to: '', sort: 'saved_desc', page: 1,
 };
 
 export function parseQuery(search = globalThis.location?.search || '') {
@@ -16,7 +16,7 @@ export function parseQuery(search = globalThis.location?.search || '') {
         else if (k === 'page') out.page = Math.max(1, parseInt(v || '1', 10));
         else out[k] = v || '';
     }
-    if (!VALID_SORT.has(out.sort)) out.sort = 'created_desc';
+    if (!VALID_SORT.has(out.sort)) out.sort = 'saved_desc';
     return out;
 }
 
@@ -28,7 +28,7 @@ export function toQueryString(q) {
     }
     if (q.from) sp.set('from', q.from);
     if (q.to) sp.set('to', q.to);
-    if (q.sort && q.sort !== 'created_desc') sp.set('sort', q.sort);
+    if (q.sort && q.sort !== 'saved_desc') sp.set('sort', q.sort);
     if (q.page && q.page !== 1) sp.set('page', String(q.page));
     const s = sp.toString();
     return s ? `?${s}` : '';

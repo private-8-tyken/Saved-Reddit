@@ -30,7 +30,7 @@ export default function Filters({ facets, query, onChange }) {
 
     // Toggle the _asc/_desc suffix on the current sort key
     const toggleSortDir = () => {
-        const cur = query.sort || 'created_desc';
+        const cur = query.sort || 'saved_desc';
         const next = cur.endsWith('_desc')
             ? cur.replace(/_desc$/, '_asc')
             : cur.endsWith('_asc')
@@ -48,7 +48,7 @@ export default function Filters({ facets, query, onChange }) {
 
     // Small helper to flip the suffix
     const flipSortDir = () => {
-        const s = query.sort || 'created_desc';
+        const s = query.sort || 'saved_desc';
         if (!/_asc$|_desc$/.test(s)) return; // only flip if it has a dir
         const next = s.endsWith('_desc') ? s.replace('_desc', '_asc') : s.replace('_asc', '_desc');
         onChange({ ...query, sort: next, page: 1 });
@@ -86,6 +86,7 @@ export default function Filters({ facets, query, onChange }) {
                             value={query.sort}
                             onChange={e => onChange({ ...query, sort: e.target.value, page: 1 })}
                         >
+                            <option value="saved_desc">Save Order</option>
                             <option value="created_desc">Created date</option>
                             <option value="score_desc">Score</option>
                             <option value="comments_desc">Comments</option>
@@ -126,7 +127,7 @@ export default function Filters({ facets, query, onChange }) {
                     type="button"
                     onClick={() => onChange({
                         q: '', sub: [], author: [], flair: [], domain: [], media: [],
-                        from: '', to: '', sort: 'created_desc', page: 1,
+                        from: '', to: '', sort: 'saved_desc', page: 1,
                     })}
                 >
                     Clear all
