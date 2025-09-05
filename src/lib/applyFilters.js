@@ -28,14 +28,14 @@ export function applyFilters(items, q) {
         );
     }
     // Sort (supports both _desc and _asc for all fields)
-    const sortKey = q.sort || 'saved_desc';
+    const sortKey = q.sort || 'saved_asc';
     switch (sortKey) {
         case 'saved_asc':
-            out.sort((a, b) => (b.saved_utc ?? 0) - (a.saved_utc ?? 0));
-            break;
-        case 'saved_desc':
         default:
             out.sort((a, b) => (a.saved_utc ?? 0) - (b.saved_utc ?? 0));
+            break;
+        case 'saved_desc':
+            out.sort((a, b) => (b.saved_utc ?? 0) - (a.saved_utc ?? 0));
             break;
 
         case 'created_asc':
