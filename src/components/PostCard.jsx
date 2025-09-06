@@ -163,7 +163,7 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "" })
                     onClick={toggle}
                     onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && (e.preventDefault(), toggle())}
                 >
-                    {isFav ? "⭐" : "☆"}
+                    {isFav ? "⭐ Star" : "☆ Star"}
                 </span>
             </div>
         </article>
