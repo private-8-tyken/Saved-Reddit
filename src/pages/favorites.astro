@@ -1,6 +1,5 @@
 ---
 // src/pages/favorites.astro
-// Favorites page with header and feed components
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Header from "../components/Header.astro";
 import Feed from "../components/Feed.jsx";
@@ -9,6 +8,79 @@ import FilterPanel from "../components/FilterPanel.jsx";
 
 <BaseLayout title="Saved Reddit — Favorites" requiresAuth={true}>
     <Header floating={true} showControls={true} showChips={true} />
+
+    <!-- Favorites tools -->
+    <div class="container" style="padding-top: 8px;">
+        <div class="row" style="gap: 8px; flex-wrap: wrap;">
+            <button class="button" id="exportFavs">Export CSV</button>
+            <button class="button" id="importFavs">Import CSV</button>
+            <input
+                type="file"
+                id="importFavsFile"
+                accept=".csv,text/csv"
+                hidden
+            />
+            <span id="importSummary" class="meta"></span>
+        </div>
+    </div>
+
     <Feed client:load favoritesOnly={true} />
     <FilterPanel client:load />
+
+    <script is:inline type="module">
+        import {
+            exportFavoritesCSV,
+            importFavoritesCSV,
+        } from "../src/utils/storage.js";
+
+        const exportBtn = document.getElementById("exportFavs");
+        const importBtn = document.getElementById("importFavs");
+        const fileInput = document.getElementById("importFavsFile");
+        const summaryEl = document.getElementById("importSummary");
+
+        function downloadText(filename, text) {
+            const blob = new Blob([text], { type: "text/csv;charset=utf-8" });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            setTimeout(() => {
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            }, 0);
+        }
+
+        exportBtn?.addEventListener("click", () => {
+            try {
+                const csv = exportFavoritesCSV();
+                const ts = new Date().toISOString().replace(/[:.]/g, "-");
+                downloadText(`favorites-${ts}.csv`, csv);
+            } catch (e) {
+                console.error(e);
+                alert("Failed to export favorites.");
+            }
+        });
+
+        importBtn?.addEventListener("click", () => fileInput?.click());
+
+        fileInput?.addEventListener("change", async (e) => {
+            const file = e.target?.files?.[0];
+            if (!file) return;
+            try {
+                const text = await file.text();
+                const res = importFavoritesCSV(text);
+                const msg = `Imported: +${res.added}, existing: ${res.alreadyHad}, invalid rows: ${res.invalid}.`;
+                summaryEl.textContent = msg;
+                // Feed listens for 'favorites:changed' and refreshes automatically
+            } catch (err) {
+                console.error(err);
+                alert("Failed to import favorites CSV.");
+            } finally {
+                // reset input so the same file can be re-imported if needed
+                e.target.value = "";
+            }
+        });
+    </script>
 </BaseLayout>

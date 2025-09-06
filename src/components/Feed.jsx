@@ -49,9 +49,14 @@ export default function Feed({ favoritesOnly = false }) {
     const [visible, setVisible] = useState(30); // number of items to render
     const [qParams, setQParams] = useQueryState();
 
-    // Load favorites (local)
+    // Load favorites (local) + refresh when storage changes
     useEffect(() => {
-        setFavs(loadFavs());
+        const update = () => setFavs(loadFavs());
+        update(); // initial
+        if (typeof window !== "undefined") {
+            window.addEventListener("favorites:changed", update);
+            return () => window.removeEventListener("favorites:changed", update);
+        }
     }, []);
 
     // Fetch posts manifest (feed index)
