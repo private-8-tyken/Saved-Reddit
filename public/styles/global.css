@@ -1,4 +1,5 @@
 /* public/styles/global.css */
+
 /* ========== Theme variables ========== */
 :root {
     --bg: #0b0d10;
@@ -7,7 +8,7 @@
     --card: #12161a;
     --accent: #ffbf48;
     --highlight: #79c0ff;
-    --chip: #1a2127;
+    --chip: #1a271f;
     --border: #1e2630;
 }
 
@@ -308,6 +309,113 @@ mark {
     /* avoid layout jump */
 }
 
+/* ========== Postcard look & hover polish ========== */
+.post-card {
+    transition: background-color .15s ease, border-color .15s ease, box-shadow .15s ease;
+}
+
+.post-card:hover {
+    background-color: color-mix(in oklab, var(--card), white 4%);
+    border-color: color-mix(in oklab, var(--border), white 12%);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, .25);
+}
+
+.post-card.is-viewed {
+    background-color: color-mix(in oklab, var(--card), white 2%);
+    border-color: color-mix(in oklab, var(--border), white 6%);
+    opacity: 0.92;
+}
+
+.post-card .topline,
+.post-card .bottomline {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.post-card .dot {
+    color: var(--muted);
+}
+
+.post-card .meta,
+.post-card time {
+    color: var(--muted);
+    font-size: 12px;
+}
+
+.post-card .title {
+    margin: 8px 2px;
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.post-card .title-link {
+    color: var(--fg);
+    text-decoration: none;
+}
+
+.post-card .title-link:hover,
+.post-card .subreddit:hover,
+.post-card .action.view:hover {
+    text-decoration: underline;
+}
+
+.post-card .subreddit,
+.post-card .author {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.post-card .excerpt {
+    margin-top: 6px;
+}
+
+.post-card .pill {
+    border: 1px solid var(--border);
+    background: var(--chip);
+    color: var(--muted);
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 999px;
+}
+
+.post-card .flair {
+    background: color-mix(in oklab, var(--accent), black 80%);
+    color: #061018;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 6px;
+}
+
+.post-card .spacer {
+    flex: 1;
+}
+
+.post-card .action.view {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.post-card .star {
+    cursor: pointer;
+    margin-left: 8px;
+    line-height: 1;
+    user-select: none;
+}
+
+.post-card .star[aria-pressed="true"] {
+    filter: drop-shadow(0 0 6px color-mix(in oklab, var(--accent), white 20%));
+}
+
+.post-card .star:hover,
+.post-card .star:focus {
+    outline: none;
+    text-shadow: 0 0 8px color-mix(in oklab, var(--accent), white 30%);
+}
+
 /* ========== Feed preview text ========== */
 .preview {
     margin-top: 8px;
@@ -340,7 +448,6 @@ mark {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
         padding-bottom: 6px;
-
         /* edge-to-edge inside padded .container */
         margin-left: -16px;
         margin-right: -16px;
