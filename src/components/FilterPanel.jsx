@@ -1,5 +1,4 @@
 // src/components/FilterPanel.jsx
-// A slide-in panel for selecting filters (subreddits, authors, flairs, media types, domains).
 import { useEffect, useMemo, useRef, useState } from "react";
 import { countBy } from "../utils/counts.js";
 
@@ -35,15 +34,15 @@ const label = (gKey, v) => (gKey === "subs" ? `r/${v}` : gKey === "authors" ? `u
 
 export default function FilterPanel() {
     const [open, setOpen] = useState(false);
-    const [facets, setFacets] = useState(null);     // from facets.json
-    const [manifest, setManifest] = useState(null); // from posts-manifest.json (for counts)
+    const [facets, setFacets] = useState(null);     // facets.json
+    const [manifest, setManifest] = useState(null); // posts-manifest.json for counts
     const [counts, setCounts] = useState(null);     // { subs:Map, authors:Map, ... }
     const [pending, setPending] = useState({ subs: [], authors: [], flairs: [], media: [], domains: [] });
     const [query, setQuery] = useState("");
     const [collapsed, setCollapsed] = useState(() => Object.fromEntries(GROUPS.map((g) => [g.key, true])));
     const panelRef = useRef(null);
 
-    // Load facets + manifest once (for counts)
+    /* Load facets + manifest once (for counts) */
     useEffect(() => {
         let alive = true;
         Promise.all([
@@ -54,11 +53,8 @@ export default function FilterPanel() {
                 if (!alive) return;
                 setFacets(fac);
                 setManifest(man);
-                // Build count maps for each group
                 const maps = {};
-                for (const g of GROUPS) {
-                    maps[g.key] = countBy(man, g.pick);
-                }
+                for (const g of GROUPS) maps[g.key] = countBy(man, g.pick);
                 setCounts(maps);
             })
             .catch(() => {
@@ -69,7 +65,7 @@ export default function FilterPanel() {
         return () => { alive = false; };
     }, []);
 
-    // Open/close plumbing + swipe + Esc
+    /* Open/close events + edge-swipe open + Esc */
     useEffect(() => {
         const onOpen = () => {
             const sp = new URLSearchParams(window.location.search);
@@ -84,7 +80,7 @@ export default function FilterPanel() {
         const onEsc = (e) => { if (e.key === "Escape") setOpen(false); };
         window.addEventListener("keydown", onEsc);
 
-        // swipe from left edge to open (mobile)
+        // Swipe from left edge to open (mobile)
         let touchStartX = null, touching = false;
         const onTS = (e) => {
             const t = e.touches?.[0]; if (!t) return;
@@ -110,7 +106,7 @@ export default function FilterPanel() {
         };
     }, [open]);
 
-    // Focus trap when drawer is open
+    /* Focus trap when drawer is open */
     useEffect(() => {
         if (!open) return;
         const root = panelRef.current;
@@ -136,13 +132,81 @@ export default function FilterPanel() {
         return () => root.removeEventListener("keydown", onKey);
     }, [open]);
 
-    // Build display lists with counts; filter by query; sort by count desc then A→Z
+    /* Keyboard-safe padding for footer (iOS/Android) */
+    useEffect(() => {
+        if (!open) return;
+        if (typeof window === 'undefined' || !window.visualViewport) return;
+
+        const vv = window.visualViewport;
+        const setKB = () => {
+            const gap = Math.max(0, (window.innerHeight - vv.height - vv.offsetTop));
+            document.documentElement.style.setProperty('--kb-safe', gap + 'px');
+        };
+
+        vv.addEventListener('resize', setKB);
+        vv.addEventListener('scroll', setKB);
+        setKB();
+        return () => {
+            vv.removeEventListener('resize', setKB);
+            vv.removeEventListener('scroll', setKB);
+            document.documentElement.style.removeProperty('--kb-safe');
+        };
+    }, [open]);
+
+    /* Swipe left inside the drawer to close */
+    useEffect(() => {
+        if (!open) return;
+        const el = panelRef.current;
+        if (!el) return;
+
+        let startX = 0, startY = 0, active = false;
+
+        const onTS = (e) => {
+            const t = e.touches && e.touches[0];
+            if (!t) return;
+            startX = t.clientX;
+            startY = t.clientY;
+            active = true;
+        };
+
+        const onTM = (e) => {
+            if (!active) return;
+            const t = e.touches && e.touches[0];
+            if (!t) return;
+            const dx = t.clientX - startX;
+            const dy = t.clientY - startY;
+
+            // horizontal intent & enough left swipe
+            if (Math.abs(dx) > 30 && Math.abs(dx) > Math.abs(dy)) {
+                if (dx < -30) {
+                    e.preventDefault(); // stop accidental scroll
+                    setOpen(false);
+                    active = false;
+                }
+            }
+        };
+
+        const onTE = () => { active = false; };
+
+        el.addEventListener('touchstart', onTS, { passive: true });
+        el.addEventListener('touchmove', onTM, { passive: false });
+        el.addEventListener('touchend', onTE, { passive: true });
+        el.addEventListener('touchcancel', onTE, { passive: true });
+
+        return () => {
+            el.removeEventListener('touchstart', onTS);
+            el.removeEventListener('touchmove', onTM);
+            el.removeEventListener('touchend', onTE);
+            el.removeEventListener('touchcancel', onTE);
+        };
+    }, [open]);
+
+    /* Build display lists with counts; filter by query; sort by count desc then A→Z */
     const lists = useMemo(() => {
         if (!facets) return null;
         const q = query.trim().toLowerCase();
         const pick = (arr) => (q ? arr.filter((x) => String(x).toLowerCase().includes(q)) : arr);
 
-        // Helper to map value -> {value, count}
         const withCounts = (values, map) =>
             values.map((v) => ({ value: v, count: (map?.get(String(v)) || 0) }));
 

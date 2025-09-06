@@ -1,3 +1,4 @@
+/* public/styles/global.css */
 /* ========== Theme variables ========== */
 :root {
     --bg: #0b0d10;
@@ -61,6 +62,7 @@ video {
 
 .button {
     cursor: pointer;
+    user-select: none;
 }
 
 .button.primary {
@@ -113,7 +115,7 @@ hr.sep {
 
 .chip .x {
     cursor: pointer;
-    opacity: 0.8;
+    opacity: 0.85;
 }
 
 .sentinel {
@@ -125,28 +127,28 @@ hr.sep {
 }
 
 /* ========== Header ========== */
-header .bar {
-    display: flex;
-    gap: 12px;
-    align-items: center;
-    padding: 12px 16px;
-    border-bottom: 1px solid var(--border);
-    /* allow wrapping to a second row on mobile */
-    flex-wrap: wrap;
-}
-
-/* Only pages that add class="floating" get a fixed header (robust across iOS) */
+/* Whole header floats (fixed) when page sets class="floating" on <header> */
 header.floating {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 20;
-    /* stays under the drawer (z 41) */
+    /* under drawer/backdrop (40/41) */
     background: var(--bg);
     padding-top: env(safe-area-inset-top, 0px);
     box-shadow: 0 2px 12px rgba(0, 0, 0, .25);
-    /* optional: subtle depth */
+    /* subtle depth */
+}
+
+header .bar {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+    flex-wrap: wrap;
+    /* allows second row on mobile */
 }
 
 header .brand {
@@ -174,7 +176,7 @@ header .bar select.input {
     background-image: none;
 }
 
-/* Controls row (desktop default) */
+/* Actions row (desktop/default) */
 header .bar .controls {
     display: flex;
     gap: 12px;
@@ -231,6 +233,8 @@ header .bar .controls {
     overflow: auto;
     flex: 1;
     overscroll-behavior: contain;
+    /* leave room for sticky footer + safe area + potential keyboard */
+    padding-bottom: calc(88px + env(safe-area-inset-bottom, 0px));
 }
 
 .drawer .group {
@@ -261,16 +265,19 @@ header .bar .controls {
     margin-bottom: 10px;
 }
 
-/* Sticky action bar with safe-area padding */
+/* Sticky action bar with safe-area + keyboard padding */
 .drawer .actions {
     position: sticky;
     bottom: 0;
+    z-index: 2;
     background: var(--card);
-    padding: 12px;
-    padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px));
     border-top: 1px solid var(--border);
     display: flex;
     gap: 8px;
+    padding: 12px;
+    padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px) + var(--kb-safe, 0px));
+    min-height: 48px;
+    box-shadow: 0 -6px 14px rgba(0, 0, 0, .20);
 }
 
 /* ========== Skeleton shimmer ========== */
@@ -320,7 +327,7 @@ header .bar .controls {
         display: none;
     }
 
-    /* Actions become a horizontal scroller on their own row */
+    /* Controls row becomes horizontal scroller */
     header .bar .controls {
         order: 3;
         width: 100%;
@@ -330,7 +337,7 @@ header .bar .controls {
         -webkit-overflow-scrolling: touch;
         padding-bottom: 6px;
 
-        /* edge-to-edge inside the padded .container */
+        /* edge-to-edge inside padded .container */
         margin-left: -16px;
         margin-right: -16px;
         padding-left: 16px;
@@ -345,9 +352,8 @@ header .bar .controls {
         display: none;
     }
 
-    /* Give the search a sensible min width inside the scroller */
+    /* Search gets a sensible width inside the scroller */
     header .bar .controls>#searchInput {
         min-width: 220px;
-        /* adjust to taste (180–260px) */
     }
 }

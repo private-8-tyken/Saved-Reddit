@@ -1,136 +1,142 @@
-// src/components/Feed.jsx
-// Main feed component: handles loading, filtering, sorting, infinite scroll
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, useCallback } from "react";
 import PostCard from "./PostCard.jsx";
 import { SkeletonCard } from "./Skeleton.jsx";
 import { makeComparator } from "../utils/sorting.js";
 import { loadFavs } from "../utils/storage.js";
 
-const raw = import.meta.env.BASE_URL || "/";
-const BASE = raw.endsWith('/') ? raw : raw + '/';
+const rawBase = import.meta.env.BASE_URL || "/";
+const BASE = rawBase.endsWith("/") ? rawBase : rawBase + "/";
 
+function getSearchSafe() {
+    if (typeof window === "undefined") return "";
+    return window.location.search || "";
+}
+
+/** URL state hook that reacts to popstate + custom urlchange, and helps push updates */
 function useQueryState() {
-    const isClient = typeof window !== "undefined";
-    const getSearch = () => (isClient ? window.location.search : "");
-    const [q, setQ] = useState(() => new URLSearchParams(getSearch()));
+    const [q, setQ] = useState(() => new URLSearchParams(getSearchSafe()));
 
     useEffect(() => {
-        if (!isClient) return;
+        if (typeof window === "undefined") return;
         const onChange = () => setQ(new URLSearchParams(window.location.search));
         window.addEventListener("popstate", onChange);
-        window.addEventListener("urlchange", onChange);   // ← listen to our app event
+        window.addEventListener("urlchange", onChange);
         return () => {
             window.removeEventListener("popstate", onChange);
             window.removeEventListener("urlchange", onChange);
         };
-    }, [isClient]);
+    }, []);
 
-    const update = (nextParams) => {
-        if (!isClient) return; // no-ops during SSR
+    const setQParams = useCallback((sp) => {
+        if (typeof window === "undefined") return;
         const url = new URL(window.location.href);
-        nextParams.forEach((v, k) => url.searchParams.set(k, v));
-        // remove empties
-        Array.from(url.searchParams.keys()).forEach((k) => {
-            if (!url.searchParams.get(k)) url.searchParams.delete(k);
-        });
+        url.search = sp.toString();
         window.history.pushState({}, "", url);
+        window.dispatchEvent(new Event("urlchange"));
         setQ(new URLSearchParams(url.search));
-    };
+    }, []);
 
-    return [q, update];
+    return [q, setQParams];
 }
 
 export default function Feed({ favoritesOnly = false }) {
     const [manifest, setManifest] = useState(null);
+    const [error, setError] = useState(null);
+    const [favs, setFavs] = useState(new Set());
+    const [visible, setVisible] = useState(30); // number of items to render
     const [qParams, setQParams] = useQueryState();
-    const [visible, setVisible] = useState(30);
-    const sentinelRef = useRef();
-    const [favs, setFavs] = useState(new Set());   // SSR-safe initial
-    useEffect(() => { setFavs(loadFavs()); }, []); // hydrate on client
 
-    // Controls (search + sort) wiring
+    // Load favorites (local)
     useEffect(() => {
-        if (typeof document === 'undefined') return;
+        setFavs(loadFavs());
+    }, []);
+
+    // Fetch posts manifest (feed index)
+    useEffect(() => {
+        let alive = true;
+        setError(null);
+        fetch(`${BASE}data/indexes/posts-manifest.json`)
+            .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+            .then((data) => { if (alive) setManifest(data); })
+            .catch((e) => { if (alive) setError(e.message || "Failed to load"); });
+        return () => { alive = false; };
+    }, []);
+
+    // Wire up search + sort controls in the header (they exist in the DOM outside this component)
+    useEffect(() => {
+        if (typeof document === "undefined") return;
         const searchEl = document.getElementById("searchInput");
         const sortEl = document.getElementById("sortSelect");
         if (!searchEl || !sortEl) return;
 
-        // Hydrate from URL
-        const sort = qParams.get('sort') || 'saved';
-        const dir = qParams.get('dir') || (sort === 'created' ? 'desc' : 'asc');
-        sortEl.value = sort; // field only now
-        searchEl.value = qParams.get('q') || '';
+        const sort = qParams.get("sort") || "saved";
+        const dir = qParams.get("dir") || (sort === "created" ? "desc" : "asc");
+        sortEl.value = sort;
+        searchEl.value = qParams.get("q") || "";
 
         const onSearch = (e) => {
             const v = e.target.value;
-            setQParams(new URLSearchParams({ ...Object.fromEntries(qParams), q: v }));
-        };
-        const onSort = (e) => {
-            const s = e.target.value; // selected field
-            const next = new URLSearchParams({ ...Object.fromEntries(qParams), sort: s });
-            // If dir is missing, set the default for this sort once
-            if (!next.get('dir')) next.set('dir', s === 'created' ? 'desc' : 'asc');
+            const next = new URLSearchParams({ ...Object.fromEntries(qParams), q: v });
             setQParams(next);
         };
-        searchEl.addEventListener('input', onSearch);
-        sortEl.addEventListener('change', onSort);
+        const onSort = (e) => {
+            const s = e.target.value;
+            const next = new URLSearchParams({ ...Object.fromEntries(qParams), sort: s });
+            if (!next.get("dir")) next.set("dir", s === "created" ? "desc" : "asc");
+            setQParams(next);
+        };
+
+        searchEl.addEventListener("input", onSearch);
+        sortEl.addEventListener("change", onSort);
         return () => {
-            searchEl.removeEventListener('input', onSearch);
-            sortEl.removeEventListener('change', onSort);
+            searchEl.removeEventListener("input", onSearch);
+            sortEl.removeEventListener("change", onSort);
         };
     }, [qParams, setQParams]);
 
-    // Load manifest once
+    // OPTIONAL NICETY: when query params change significantly, start with the first page again
     useEffect(() => {
-        fetch(`${BASE}data/indexes/posts-manifest.json`).then(r => r.json()).then(setManifest);
-    }, []);
+        setVisible(30);
+        // If you prefer to also jump to top on a new view, uncomment:
+        // if (typeof window !== "undefined") window.scrollTo(0, 0);
+    }, [qParams.toString()]);
 
-    // Infinite scroll sentinel
-    useEffect(() => {
-        if (!sentinelRef.current) return;
-        const io = new IntersectionObserver((entries) => {
-            if (entries.some(e => e.isIntersecting)) setVisible(v => v + 30);
-        }, { rootMargin: '200px' });
-        io.observe(sentinelRef.current);
-        return () => io.disconnect();
-    }, []);
-
-    // restore scroll position for this query state
-    useEffect(() => {
-        if (typeof window === 'undefined') return;
-        const key = 'feed:scroll:' + window.location.search;
-        const y = Number(sessionStorage.getItem(key) || 0);
-        if (y > 0) {
-            // wait a tick to ensure initial items render
-            requestAnimationFrame(() => window.scrollTo(0, y));
-        }
-    }, []);
-
+    // Build the filtered + sorted list from manifest
     const filteredSorted = useMemo(() => {
         if (!manifest) return [];
+
         let arr = manifest;
-        // favorites filter
-        if (favoritesOnly) arr = arr.filter(p => favs.has(p.id));
-        // search
-        const q = (qParams.get('q') || '').toLowerCase().trim();
+
+        // favorites-only route
+        if (favoritesOnly) arr = arr.filter((p) => favs.has(p.id));
+
+        // search filter
+        const q = (qParams.get("q") || "").toLowerCase().trim();
         if (q) {
-            arr = arr.filter(p =>
-                (p.title && p.title.toLowerCase().includes(q)) ||
-                (p.selftext_preview && p.selftext_preview.toLowerCase().includes(q))
+            arr = arr.filter(
+                (p) =>
+                    (p.title && p.title.toLowerCase().includes(q)) ||
+                    (p.selftext_preview && p.selftext_preview.toLowerCase().includes(q))
             );
         }
 
-        // facet filters from URL
-        const listParam = (k) => (qParams.get(k) || '')
-            .split(',').filter(Boolean).map(decodeURIComponent);
-        const subs = new Set(listParam('subs'));
-        const authors = new Set(listParam('authors'));
-        const flairs = new Set(listParam('flairs'));
-        const media = new Set(listParam('media'));
-        const domains = new Set(listParam('domains'));
-        const anySelected = subs.size || authors.size || flairs.size || media.size || domains.size;
+        // facet filters (OR across groups, AND not required)
+        const listParam = (k) =>
+            (qParams.get(k) || "")
+                .split(",")
+                .map((s) => s && decodeURIComponent(s))
+                .filter(Boolean);
+
+        const subs = new Set(listParam("subs"));
+        const authors = new Set(listParam("authors"));
+        const flairs = new Set(listParam("flairs"));
+        const media = new Set(listParam("media"));
+        const domains = new Set(listParam("domains"));
+        const anySelected =
+            subs.size || authors.size || flairs.size || media.size || domains.size;
+
         if (anySelected) {
-            arr = arr.filter(p => {
+            arr = arr.filter((p) => {
                 const s = subs.size && p.subreddit && subs.has(String(p.subreddit));
                 const a = authors.size && p.author && authors.has(String(p.author));
                 const f = flairs.size && p.flair && flairs.has(String(p.flair));
@@ -140,21 +146,75 @@ export default function Feed({ favoritesOnly = false }) {
             });
         }
 
-        // TODO: apply facet filters from URL in next phase
-        const sort = qParams.get('sort') || 'saved';
-        const dir = qParams.get('dir') || (sort === 'created' ? 'desc' : 'asc');
-        const cmp = makeComparator(sort, dir);
-        const favFirst = qParams.get('favfirst') === '1';
-        let out = [...arr].sort(cmp);
+        // sort by field + direction (URL-driven)
+        const sort = qParams.get("sort") || "saved";
+        const dir = qParams.get("dir") || (sort === "created" ? "desc" : "asc");
+        let out = [...arr].sort(makeComparator(sort, dir));
+
+        // optional bucket: favorites first (keeps chosen sort inside buckets)
+        const favFirst = qParams.get("favfirst") === "1";
         if (favFirst) {
-            const starred = out.filter(p => favs.has(p.id));
-            const rest = out.filter(p => !favs.has(p.id));
+            const starred = out.filter((p) => favs.has(p.id));
+            const rest = out.filter((p) => !favs.has(p.id));
             out = [...starred, ...rest];
         }
+
         return out;
     }, [manifest, qParams, favoritesOnly, favs]);
 
-    // If the manifest hasn't loaded yet, show placeholders
+    // Robust infinite scroll: observer + callback ref so we attach exactly when the sentinel mounts
+    const ioRef = useRef(null);
+    const sentinelElRef = useRef(null);
+
+    const setSentinel = useCallback((el) => {
+        // detach from old element
+        if (sentinelElRef.current && ioRef.current) {
+            try { ioRef.current.unobserve(sentinelElRef.current); } catch { }
+        }
+        sentinelElRef.current = el;
+        // observe new element if IO is ready
+        if (el && ioRef.current) {
+            try { ioRef.current.observe(el); } catch { }
+        }
+    }, []);
+
+    useEffect(() => {
+        if (typeof window === "undefined") return;
+        // create the observer once
+        ioRef.current = new IntersectionObserver(
+            (entries) => {
+                if (entries.some((e) => e.isIntersecting)) {
+                    setVisible((v) => v + 30); // load next chunk
+                }
+            },
+            {
+                root: null,
+                // generous margins so we load before hitting bottom; resilient to fixed header
+                rootMargin: "600px 0px 600px 0px",
+                threshold: 0.01,
+            }
+        );
+        // if the sentinel is already mounted, observe it
+        if (sentinelElRef.current) {
+            try { ioRef.current.observe(sentinelElRef.current); } catch { }
+        }
+        return () => {
+            try { ioRef.current && ioRef.current.disconnect(); } catch { }
+            ioRef.current = null;
+        };
+    }, []);
+
+    // Loading / error states
+    if (error) {
+        return (
+            <div className="container">
+                <div className="card">
+                    <h3>Couldn’t load posts</h3>
+                    <div className="meta">{error}</div>
+                </div>
+            </div>
+        );
+    }
     if (!manifest) {
         return (
             <div className="container" aria-busy="true">
@@ -163,24 +223,31 @@ export default function Feed({ favoritesOnly = false }) {
         );
     }
 
+    const items = filteredSorted.slice(0, visible);
+    const hasMore = visible < filteredSorted.length;
+
     return (
         <div className="container">
-            <div className="grid">
-                {/* 12 columns: simple full-width list for now */}
-                <div className="col" style={{ gridColumn: 'span 12' }}>
-                    {filteredSorted.slice(0, visible).map(p => (
-                        <PostCard
-                            key={p.id}
-                            post={p}
-                            favs={favs}
-                            setFavs={setFavs}
-                            base={BASE}
-                            searchTerm={(qParams.get('q') || '').trim()}
-                        />
-                    ))}
-                    <div ref={sentinelRef} className="sentinel" />
+            {items.length === 0 && (
+                <div className="card">
+                    <h3>No results</h3>
+                    <div className="meta">Try clearing filters or changing your search.</div>
                 </div>
-            </div>
+            )}
+
+            {items.map((p) => (
+                <PostCard
+                    key={p.id}
+                    post={p}
+                    favs={favs}
+                    setFavs={setFavs}
+                    base={BASE}
+                    searchTerm={(qParams.get("q") || "").trim()}
+                />
+            ))}
+
+            {/* sentinel for infinite scroll */}
+            {hasMore && <div ref={setSentinel} className="sentinel" />}
         </div>
     );
 }
