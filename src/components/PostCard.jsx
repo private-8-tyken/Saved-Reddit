@@ -58,10 +58,10 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "" })
                         } catch { }
                     }}
                 >
-                    {post.title}
+                    {renderHighlighted(post.title, searchTerm)}
                 </a>
             </h3>
-            <div className="meta">{meta}</div>
+            <div className="meta">{renderHighlighted(meta, searchTerm)}</div>
             {previewText && (
                 <p className="preview">
                     {renderHighlighted(previewText, searchTerm)}

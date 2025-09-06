@@ -5,7 +5,8 @@
     --fg: #e8eef2;
     --muted: #93a4b1;
     --card: #12161a;
-    --accent: #79c0ff;
+    --accent: #ffbf48;
+    --highlight: #79c0ff;
     --chip: #1a2127;
     --border: #1e2630;
 }
@@ -298,6 +299,15 @@ header .bar .controls {
     }
 }
 
+/* Generic highlight for query matches */
+mark {
+    background: transparent;
+    color: var(--highlight);
+    font-weight: 600;
+    padding: 0;
+    /* avoid layout jump */
+}
+
 /* ========== Feed preview text ========== */
 .preview {
     margin-top: 8px;
@@ -309,12 +319,6 @@ header .bar .controls {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
-}
-
-.preview mark {
-    background: transparent;
-    color: var(--accent);
-    font-weight: 600;
 }
 
 /* ========== Mobile tweaks ========== */
