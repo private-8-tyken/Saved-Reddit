@@ -32,6 +32,9 @@ const { showFiltersButton = true } = Astro.props;
             <option value="flair|asc">Flair (A→Z)</option>
         </select>
         <a class="button" href={`${BASE}favorites`}>⭐</a>
+        <button class="button" id="copyView" title="Copy current view URL"
+            >Copy link</button
+        >
         <button class="button" id="favFirst">Favs first</button>
     </div>
     <div class="chips container" id="activeChips"></div>
@@ -122,16 +125,28 @@ const { showFiltersButton = true } = Astro.props;
         // Fire on popstate and when our app pushes URL updates
         const _ps = history.pushState;
         const _rs = history.replaceState;
-        history.pushState = function (...a) {
-            const r = _ps.apply(this, a);
+        history.pushState = function (...args) {
+            const r = _ps.apply(this, args);
             window.dispatchEvent(new Event("urlchange"));
             return r;
         };
-        history.replaceState = function (...a) {
-            const r = _rs.apply(this, a);
+        history.replaceState = function (...args) {
+            const r = _rs.apply(this, args);
             window.dispatchEvent(new Event("urlchange"));
             return r;
         };
+
+        // “Copy link” convenience
+        const copyBtn = document.getElementById("copyView");
+        if (copyBtn && navigator.clipboard) {
+            copyBtn.addEventListener("click", async () => {
+                try {
+                    await navigator.clipboard.writeText(location.href);
+                    copyBtn.textContent = "Copied!";
+                    setTimeout(() => (copyBtn.textContent = "Copy link"), 1000);
+                } catch {}
+            });
+        }
 
         window.addEventListener("popstate", renderChips);
         window.addEventListener("urlchange", renderChips);

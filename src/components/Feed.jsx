@@ -165,7 +165,14 @@ export default function Feed({ favoritesOnly = false }) {
                 {/* 12 columns: simple full-width list for now */}
                 <div className="col" style={{ gridColumn: 'span 12' }}>
                     {filteredSorted.slice(0, visible).map(p => (
-                        <PostCard key={p.id} post={p} favs={favs} setFavs={setFavs} base={BASE} />
+                        <PostCard
+                            key={p.id}
+                            post={p}
+                            favs={favs}
+                            setFavs={setFavs}
+                            base={BASE}
+                            searchTerm={(qParams.get('q') || '').trim()}
+                        />
                     ))}
                     <div ref={sentinelRef} className="sentinel" />
                 </div>

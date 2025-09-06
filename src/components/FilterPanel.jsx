@@ -89,6 +89,39 @@ export default function FilterPanel() {
         };
     }, [open]);
 
+    // Focus trap when drawer is open
+    useEffect(() => {
+        if (!open) return;
+        const root = panelRef.current;
+        if (!root) return;
+
+        // Collect focusable elements
+        const selectors = [
+            'a[href]', 'button:not([disabled])', 'input:not([disabled])',
+            'select:not([disabled])', 'textarea:not([disabled])', '[tabindex]:not([tabindex="-1"])'
+        ];
+        const getFocusables = () => Array.from(root.querySelectorAll(selectors.join(',')));
+
+        // Ensure panel itself is focusable
+        if (!root.hasAttribute('tabindex')) root.setAttribute('tabindex', '-1');
+        root.focus();
+
+        const onKey = (e) => {
+            if (e.key !== 'Tab') return;
+            const els = getFocusables();
+            if (!els.length) return;
+            const first = els[0], last = els[els.length - 1];
+            if (e.shiftKey && document.activeElement === first) {
+                e.preventDefault(); last.focus();
+            } else if (!e.shiftKey && document.activeElement === last) {
+                e.preventDefault(); first.focus();
+            }
+        };
+        root.addEventListener('keydown', onKey);
+        return () => root.removeEventListener('keydown', onKey);
+    }, [open]);
+
+    // Filtered facets based on search query
     const filteredFacets = useMemo(() => {
         if (!facets) return null;
         const q = query.trim().toLowerCase();

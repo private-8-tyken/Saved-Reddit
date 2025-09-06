@@ -240,3 +240,23 @@ header .spacer {
         background-position: 0 0;
     }
 }
+
+.preview {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.35;
+    color: var(--fg);
+    opacity: 0.9;
+
+    /* multi-line clamp (3 lines) */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.preview mark {
+    background: transparent;
+    color: var(--accent);
+    font-weight: 600;
+}
