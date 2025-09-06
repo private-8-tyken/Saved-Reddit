@@ -54,10 +54,11 @@ export default function Feed({ favoritesOnly = false }) {
         const searchEl = document.getElementById("searchInput");
         const sortEl = document.getElementById("sortSelect");
         if (!searchEl || !sortEl) return;
-        // Hydrate from URL (defaults: saved|asc)
+
+        // Hydrate from URL
         const sort = qParams.get('sort') || 'saved';
         const dir = qParams.get('dir') || (sort === 'created' ? 'desc' : 'asc');
-        sortEl.value = `${sort}|${dir}`;
+        sortEl.value = sort; // field only now
         searchEl.value = qParams.get('q') || '';
 
         const onSearch = (e) => {
@@ -65,8 +66,11 @@ export default function Feed({ favoritesOnly = false }) {
             setQParams(new URLSearchParams({ ...Object.fromEntries(qParams), q: v }));
         };
         const onSort = (e) => {
-            const [s, d] = e.target.value.split('|');
-            setQParams(new URLSearchParams({ ...Object.fromEntries(qParams), sort: s, dir: d }));
+            const s = e.target.value; // selected field
+            const next = new URLSearchParams({ ...Object.fromEntries(qParams), sort: s });
+            // If dir is missing, set the default for this sort once
+            if (!next.get('dir')) next.set('dir', s === 'created' ? 'desc' : 'asc');
+            setQParams(next);
         };
         searchEl.addEventListener('input', onSearch);
         sortEl.addEventListener('change', onSort);

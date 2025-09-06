@@ -20,17 +20,23 @@ const { showFiltersButton = true } = Astro.props;
         <div class="brand"><a href={BASE}>Saved Reddit</a></div>
         <div class="spacer"></div>
         <input id="searchInput" class="input" placeholder="Search…" />
-        <select id="sortSelect" class="input">
-            <option value="saved|asc">Saved order (Latest first)</option>
-            <option value="created|desc">Post date (Newest first)</option>
-            <option value="score|desc">Score (Top first)</option>
-            <option value="comments|desc">Comments (Most first)</option>
-            <option value="title|asc">Title (A→Z)</option>
-            <option value="subreddit|asc">Subreddit (A→Z)</option>
-            <option value="author|asc">Author (A→Z)</option>
-            <option value="domain|asc">Domain (A→Z)</option>
-            <option value="flair|asc">Flair (A→Z)</option>
+        <select id="sortSelect" class="input" title="Sort by">
+            <option value="saved">Saved order</option>
+            <option value="created">Post date</option>
+            <option value="score">Score</option>
+            <option value="comments">Comments</option>
+            <option value="title">Title</option>
+            <option value="subreddit">Subreddit</option>
+            <option value="author">Author</option>
+            <option value="domain">Domain</option>
+            <option value="flair">Flair</option>
         </select>
+        <button
+            class="button"
+            id="dirToggle"
+            title="Toggle asc/desc"
+            aria-label="Toggle sort direction">↑</button
+        >
         <a class="button" href={`${BASE}favorites`}>⭐</a>
         <button class="button" id="copyView" title="Copy current view URL"
             >Copy link</button
@@ -151,6 +157,56 @@ const { showFiltersButton = true } = Astro.props;
         window.addEventListener("popstate", renderChips);
         window.addEventListener("urlchange", renderChips);
         renderChips();
+
+        (function setupDirToggle() {
+            const dirBtn = document.getElementById("dirToggle");
+            if (!dirBtn) return;
+
+            const defaultDirFor = (sort) =>
+                sort === "created" ? "desc" : "asc";
+
+            const getSortAndDir = () => {
+                const sp = new URLSearchParams(location.search);
+                const sort = sp.get("sort") || "saved";
+                const dir = sp.get("dir") || defaultDirFor(sort);
+                return { sort, dir, sp };
+            };
+
+            const syncButton = () => {
+                const { dir } = getSortAndDir();
+                dirBtn.textContent = dir === "desc" ? "↓" : "↑";
+                dirBtn.title =
+                    dir === "desc"
+                        ? "Sorting: Descending"
+                        : "Sorting: Ascending";
+                dirBtn.setAttribute(
+                    "aria-pressed",
+                    dir === "desc" ? "true" : "false",
+                );
+            };
+
+            const setDir = (nextDir) => {
+                const { sort, sp } = getSortAndDir();
+                // keep URLs tidy: omit ?dir= when it matches the default for this sort
+                const def = defaultDirFor(sort);
+                if (nextDir === def) sp.delete("dir");
+                else sp.set("dir", nextDir);
+                const url = new URL(location.href);
+                url.search = sp.toString();
+                history.pushState({}, "", url);
+                window.dispatchEvent(new Event("urlchange"));
+                syncButton();
+            };
+
+            dirBtn.addEventListener("click", () => {
+                const { dir } = getSortAndDir();
+                setDir(dir === "desc" ? "asc" : "desc");
+            });
+
+            window.addEventListener("popstate", syncButton);
+            window.addEventListener("urlchange", syncButton);
+            syncButton();
+        })();
 
         const favBtn = document.getElementById("favFirst");
         if (favBtn) {
