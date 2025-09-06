@@ -44,6 +44,11 @@ const { id } = Astro.props; // from getStaticPaths props
 ---
 
 <BaseLayout title={`Post — ${id}`} requiresAuth={true}>
-    <Header showFiltersButton={false} />
+    <Header
+        showFiltersButton={false}
+        floating={false}
+        showControls={false}
+        showChips={false}
+    />
     <PostPage id={id} client:load />
 </BaseLayout>

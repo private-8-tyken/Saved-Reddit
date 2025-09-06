@@ -8,7 +8,7 @@ import FilterPanel from "../components/FilterPanel.jsx";
 ---
 
 <BaseLayout title="Saved Reddit — Favorites" requiresAuth={true}>
-    <Header />
+    <Header floating={true} showControls={true} showChips={true} />
     <Feed client:load favoritesOnly={true} />
     <FilterPanel client:load />
 </BaseLayout>

@@ -1,10 +1,17 @@
 ---
 const rawBase = Astro.site?.pathname || import.meta.env.BASE_URL || "/";
 const BASE = rawBase.endsWith("/") ? rawBase : rawBase + "/";
-const { showFiltersButton = true } = Astro.props;
+
+const {
+    showFiltersButton = true,
+    showControls = true,
+    showChips = true,
+    floating = true,
+} = Astro.props;
 ---
 
-<header>
+<!-- add id so we can measure -->
+<header id="siteHeader" class={floating ? "floating" : ""}>
     <div class="bar container">
         {
             showFiltersButton && (
@@ -19,31 +26,52 @@ const { showFiltersButton = true } = Astro.props;
         }
         <div class="brand"><a href={BASE}>Saved Reddit</a></div>
         <div class="spacer"></div>
-        <input id="searchInput" class="input" placeholder="Search…" />
-        <select id="sortSelect" class="input" title="Sort by">
-            <option value="saved">Saved order</option>
-            <option value="created">Post date</option>
-            <option value="score">Score</option>
-            <option value="comments">Comments</option>
-            <option value="title">Title</option>
-            <option value="subreddit">Subreddit</option>
-            <option value="author">Author</option>
-            <option value="domain">Domain</option>
-            <option value="flair">Flair</option>
-        </select>
-        <button
-            class="button"
-            id="dirToggle"
-            title="Toggle asc/desc"
-            aria-label="Toggle sort direction">↑</button
+        <a class="button" href={`${BASE}favorites`} aria-label="Favorites">⭐</a
         >
-        <a class="button" href={`${BASE}favorites`}>⭐</a>
-        <button class="button" id="copyView" title="Copy current view URL"
-            >Copy link</button
-        >
-        <button class="button" id="favFirst">Favs first</button>
+
+        {
+            showControls && (
+                <div class="controls">
+                    <input
+                        id="searchInput"
+                        class="input"
+                        placeholder="Search…"
+                    />
+                    <select id="sortSelect" class="input" title="Sort by">
+                        <option value="saved">Saved order</option>
+                        <option value="created">Post date</option>
+                        <option value="score">Score</option>
+                        <option value="comments">Comments</option>
+                        <option value="title">Title</option>
+                        <option value="subreddit">Subreddit</option>
+                        <option value="author">Author</option>
+                        <option value="domain">Domain</option>
+                        <option value="flair">Flair</option>
+                    </select>
+                    <button
+                        class="button"
+                        id="dirToggle"
+                        title="Toggle asc/desc"
+                        aria-label="Toggle sort direction"
+                    >
+                        ↑
+                    </button>
+                    <button
+                        class="button"
+                        id="copyView"
+                        title="Copy current view URL"
+                    >
+                        Copy
+                    </button>
+                    <button class="button" id="favFirst">
+                        Favs first
+                    </button>
+                </div>
+            )
+        }
     </div>
-    <div class="chips container" id="activeChips"></div>
+
+    {showChips && <div class="chips container" id="activeChips" />}
 </header>
 
 <!-- Minimal client helpers: open drawer + live chips -->
@@ -230,3 +258,28 @@ const { showFiltersButton = true } = Astro.props;
         }
     })();
 </script>
+
+{floating && (
+  <script is:inline>
+    (function(){
+      if (typeof window === 'undefined') return;
+      var header = document.getElementById('siteHeader');
+      if (!header) return;
+
+      function applyOffset(){
+        // measure total header height (bar + chips)
+        var h = header.offsetHeight || 0;
+        // push the page content down by the same amount
+        document.body.style.paddingTop = h + 'px';
+      }
+
+      // recalibrate on events that can change header height
+      window.addEventListener('resize', applyOffset);
+      window.addEventListener('load', applyOffset);
+      window.addEventListener('urlchange', applyOffset); // chips change on filter apply/remove
+
+      // run immediately
+      applyOffset();
+    })();
+  </script>
+)}
