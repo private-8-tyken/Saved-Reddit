@@ -1,4 +1,6 @@
 ---
+// src/components/Header.astro
+// The top header bar with branding, search, sort, and filter chips
 const rawBase = Astro.site?.pathname || import.meta.env.BASE_URL || "/";
 const BASE = rawBase.endsWith("/") ? rawBase : rawBase + "/";
 
@@ -56,13 +58,13 @@ const {
                     >
                         ↑
                     </button>
-                    <button
+                    <!-- <button
                         class="button"
                         id="copyView"
                         title="Copy current view URL"
                     >
                         Copy
-                    </button>
+                    </button> -->
                     <button class="button" id="favFirst">
                         Favs first
                     </button>

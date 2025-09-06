@@ -1,3 +1,6 @@
+// src/components/Feed.jsx
+// The main feed of posts, with search, filtering, sorting, infinite scroll
+// Relies on a prebuilt posts-manifest.json file (see scripts/ folder)
 import { useEffect, useMemo, useRef, useState, useCallback } from "react";
 import PostCard from "./PostCard.jsx";
 import { SkeletonCard } from "./Skeleton.jsx";
@@ -136,13 +139,20 @@ export default function Feed({ favoritesOnly = false }) {
             subs.size || authors.size || flairs.size || media.size || domains.size;
 
         if (anySelected) {
+            const mode = (qParams.get("mode") || "or").toLowerCase();
             arr = arr.filter((p) => {
                 const s = subs.size && p.subreddit && subs.has(String(p.subreddit));
                 const a = authors.size && p.author && authors.has(String(p.author));
                 const f = flairs.size && p.flair && flairs.has(String(p.flair));
                 const m = media.size && p.media_type && media.has(String(p.media_type));
                 const d = domains.size && p.link_domain && domains.has(String(p.link_domain));
-                return !!(s || a || f || m || d); // OR across groups
+                const hasAny = !!(s || a || f || m || d);
+                const hasAll = [subs.size ? s : true,
+                authors.size ? a : true,
+                flairs.size ? f : true,
+                media.size ? m : true,
+                domains.size ? d : true].every(Boolean);
+                return mode === "and" ? hasAll : hasAny;
             });
         }
 

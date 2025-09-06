@@ -19,6 +19,8 @@ function parseLists(sp) {
         const v = sp.get(g.key) || "";
         o[g.key] = v ? v.split(",").map(decodeURIComponent).filter(Boolean) : [];
     }
+    // also parse mode (default: 'or')
+    o.mode = (sp.get("mode") || "or").toLowerCase() === "and" ? "and" : "or";
     return o;
 }
 function serializeLists(obj) {
@@ -28,6 +30,9 @@ function serializeLists(obj) {
         if (arr.length) sp.set(g.key, arr.map(encodeURIComponent).join(","));
         else sp.delete(g.key);
     }
+    // keep URLs tidy: only write ?mode=and; omit ?mode=or
+    if ((obj.mode || "or") === "and") sp.set("mode", "and");
+    else sp.delete("mode");
     return sp;
 }
 const label = (gKey, v) => (gKey === "subs" ? `r/${v}` : gKey === "authors" ? `u/${v}` : String(v));
@@ -37,7 +42,7 @@ export default function FilterPanel() {
     const [facets, setFacets] = useState(null);     // facets.json
     const [manifest, setManifest] = useState(null); // posts-manifest.json for counts
     const [counts, setCounts] = useState(null);     // { subs:Map, authors:Map, ... }
-    const [pending, setPending] = useState({ subs: [], authors: [], flairs: [], media: [], domains: [] });
+    const [pending, setPending] = useState({ subs: [], authors: [], flairs: [], media: [], domains: [], mode: "or" });
     const [query, setQuery] = useState("");
     const [collapsed, setCollapsed] = useState(() => Object.fromEntries(GROUPS.map((g) => [g.key, true])));
     const panelRef = useRef(null);
@@ -45,20 +50,11 @@ export default function FilterPanel() {
     /* Load facets + manifest once (for counts) */
     useEffect(() => {
         let alive = true;
-        Promise.all([
-            fetch(`${BASE}data/indexes/facets.json`).then((r) => r.json()),
-            fetch(`${BASE}data/indexes/posts-manifest.json`).then((r) => r.json()),
-        ])
-            .then(([fac, man]) => {
-                if (!alive) return;
-                setFacets(fac);
-                setManifest(man);
-                const maps = {};
-                for (const g of GROUPS) maps[g.key] = countBy(man, g.pick);
-                setCounts(maps);
-            })
+        fetch(`${BASE}data/indexes/facets.json`)
+            .then((r) => r.json())
+            .then((fac) => { if (alive) setFacets(fac); })
             .catch(() => {
-                setFacets(null);
+                setFacets(nul1l);
                 setManifest(null);
                 setCounts(null);
             });
@@ -207,18 +203,23 @@ export default function FilterPanel() {
         const q = query.trim().toLowerCase();
         const pick = (arr) => (q ? arr.filter((x) => String(x).toLowerCase().includes(q)) : arr);
 
-        const withCounts = (values, map) =>
-            values.map((v) => ({ value: v, count: (map?.get(String(v)) || 0) }));
+        const makePairs = (obj = {}) =>
+            Object.keys(obj).map((k) => ({ value: k, count: obj[k] || 0 }));
 
         const byCountThenAlpha = (a, b) =>
             (b.count - a.count) || String(a.value).localeCompare(String(b.value));
 
+        const pickKeys = (obj) => {
+            const q = query.trim().toLowerCase();
+            const all = Object.keys(obj || {});
+            return q ? all.filter((x) => x.toLowerCase().includes(q)) : all;
+        };
         return {
-            subs: withCounts(pick(facets.subreddits || []), counts?.subs).sort(byCountThenAlpha),
-            authors: withCounts(pick(facets.authors || []), counts?.authors).sort(byCountThenAlpha),
-            flairs: withCounts(pick(facets.flairs || []), counts?.flairs).sort(byCountThenAlpha),
-            media: withCounts(pick(facets.mediaTypes || []), counts?.media).sort(byCountThenAlpha),
-            domains: withCounts(pick(facets.domains || []), counts?.domains).sort(byCountThenAlpha),
+            subs: makePairs(Object.fromEntries(pickKeys(facets.subreddits).map(k => [k, facets.subreddits[k]]))).sort(byCountThenAlpha),
+            authors: makePairs(Object.fromEntries(pickKeys(facets.authors).map(k => [k, facets.authors[k]]))).sort(byCountThenAlpha),
+            flairs: makePairs(Object.fromEntries(pickKeys(facets.flairs).map(k => [k, facets.flairs[k]]))).sort(byCountThenAlpha),
+            media: makePairs(Object.fromEntries(pickKeys(facets.mediaTypes).map(k => [k, facets.mediaTypes[k]]))).sort(byCountThenAlpha),
+            domains: makePairs(Object.fromEntries(pickKeys(facets.domains).map(k => [k, facets.domains[k]]))).sort(byCountThenAlpha),
         };
     }, [facets, counts, query]);
 
@@ -228,6 +229,9 @@ export default function FilterPanel() {
             if (set.has(val)) set.delete(val); else set.add(val);
             return { ...prev, [groupKey]: Array.from(set) };
         });
+    }
+    function setMode(next) {
+        setPending((prev) => ({ ...prev, mode: next === "and" ? "and" : "or" }));
     }
     function apply() {
         const sp = serializeLists(pending);
@@ -257,6 +261,31 @@ export default function FilterPanel() {
                 </header>
 
                 <div className="content">
+                    {/* Mode toggle */}
+                    <div className="row" style={{ marginBottom: 10 }}>
+                        <span className="meta">Combine groups with</span>
+                        <div className="row" role="group" aria-label="Filter mode">
+                            <button
+                                type="button"
+                                className={`button ${pending.mode !== "and" ? "primary" : ""}`}
+                                aria-pressed={pending.mode !== "and"}
+                                onClick={() => setMode("or")}
+                                title="Match ANY selected groups"
+                            >
+                                OR
+                            </button>
+                            <button
+                                type="button"
+                                className={`button ${pending.mode === "and" ? "primary" : ""}`}
+                                aria-pressed={pending.mode === "and"}
+                                onClick={() => setMode("and")}
+                                title="Require ALL selected groups"
+                            >
+                                AND
+                            </button>
+                        </div>
+                    </div>
+
                     <input
                         className="input searchbox"
                         placeholder="Search filters…"

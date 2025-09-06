@@ -2,15 +2,17 @@
 //   node scripts/generate-manifest.js
 //
 // What it does (outputs under public/data/indexes):
-//   - posts-manifest.json         (list used by the feed)
-//   - facets.json                 (small, alphabetical lists for sidebar chips)
-//   - subs-all.json               (all subreddits with counts, freq-sorted desc)
-//   - authors-all.json            (all authors with counts, freq-sorted desc)
-//   - build-report.json           (counts & warnings)
+//   - posts-manifest.json   (list used by the feed)
+//   - facets.json           (maps of name->count for sidebar chips)
+//   - build-report.json     (counts & warnings)
 // And it copies each original post JSON to public/data/posts/<id>.json
 //
 // Env knobs (optional):
-//   TOP_N_FACETS=50   // truncate subreddits/authors in facets.json (sidebar)
+//   TOP_N_FACETS=50   // if set, trims each facet map to top-N by count (then A→Z)
+//
+// Notes:
+// - This consolidates counts into facets.json so the UI doesn't need subs-all/authors-all.
+// - It also supports an optional data/ordered_posts.csv to pin saved/order indices.
 
 import { promises as fs } from "node:fs";
 import path from "node:path";
@@ -24,7 +26,7 @@ const ORDERED_CSV = path.resolve(ROOT, "data/ordered_posts.csv");
 await fs.mkdir(INDEX_OUT_DIR, { recursive: true });
 await fs.mkdir(POSTS_PUBLIC_DIR, { recursive: true });
 
-// --- tiny CSV loader for "index,url,id" (no header) ---
+/** --- tiny CSV loader for "index,url,id" (no header) --- */
 async function loadOrderIndex(csvPath) {
     const raw = await fs.readFile(csvPath, "utf8").catch(() => "");
     if (!raw.trim()) return new Map();
@@ -34,7 +36,7 @@ async function loadOrderIndex(csvPath) {
         // naive CSV split; handles optional quotes around fields
         const cells = line
             .split(",")
-            .map(s => s?.trim().replace(/^"(.*)"$/, "$1"));
+            .map((s) => s?.trim().replace(/^"(.*)"$/, "$1"));
         const [indexStr, _url, id] = cells;
         const idx = Number(indexStr);
         if (Number.isFinite(idx) && id) map.set(id, idx);
@@ -43,7 +45,7 @@ async function loadOrderIndex(csvPath) {
 }
 const ORDER_INDEX = await loadOrderIndex(ORDERED_CSV);
 
-// Helper to derive stable-ish ID from permalink if missing
+/** --- helpers --- */
 function plainExcerpt(text, n = 320) {
     if (!text) return "";
     const t = String(text)
@@ -106,8 +108,11 @@ async function loadPosts(rootDir) {
                 if (!raw.trim()) continue;
                 const p = JSON.parse(raw);
                 out.push({ __stem: stem, __folder: sub, __rel: `${sub}/${f}`, ...p });
-                // copy original to public (flat name by default; see collision note below)
-                await fs.writeFile(path.join(POSTS_PUBLIC_DIR, `${stem}.json`), JSON.stringify(p));
+                // copy original to public (flat name by default)
+                await fs.writeFile(
+                    path.join(POSTS_PUBLIC_DIR, `${stem}.json`),
+                    JSON.stringify(p)
+                );
             }
         } else if (ent.isFile() && ent.name.endsWith(".json")) {
             const stem = path.parse(ent.name).name;
@@ -115,7 +120,10 @@ async function loadPosts(rootDir) {
             if (!raw.trim()) continue;
             const p = JSON.parse(raw);
             out.push({ __stem: stem, __folder: null, __rel: ent.name, ...p });
-            await fs.writeFile(path.join(POSTS_PUBLIC_DIR, `${stem}.json`), JSON.stringify(p));
+            await fs.writeFile(
+                path.join(POSTS_PUBLIC_DIR, `${stem}.json`),
+                JSON.stringify(p)
+            );
         }
     }
     return out;
@@ -123,7 +131,7 @@ async function loadPosts(rootDir) {
 
 const posts = await loadPosts(INPUT_DIR);
 
-// Normalizer for folder-based media type
+/** --- media-type normalization from folders --- */
 const MEDIA_FOLDER_MAP = {
     text: "text",
     link: "link",
@@ -134,9 +142,9 @@ const MEDIA_FOLDER_MAP = {
     videos: "video",
     gif: "gif",
     gifs: "gif",
-    external: "external", // for external links,
+    external: "external", // for external links
     media: "media", // generic media folder
-    other: "other", // catch-all for unrecognized folders
+    other: "other", // catch-all
 };
 
 function mediaTypeFromFolder(folder) {
@@ -145,7 +153,7 @@ function mediaTypeFromFolder(folder) {
     return MEDIA_FOLDER_MAP[key] || null;
 }
 
-// ----- Build manifest used by the feed -----
+/** --- build feed manifest --- */
 const manifest = posts.map((p) => {
     const id = p.__stem || p.id || p.name;
 
@@ -182,7 +190,8 @@ const manifest = posts.map((p) => {
         author: p.author,
         flair: p.link_flair_text || p.flair || null,
         created_utc: p.created_utc,
-        saved_index: p.saved_utc ?? (order_index !== null ? order_index : null), order_index,
+        saved_index: p.saved_utc ?? (order_index !== null ? order_index : null),
+        order_index,
         score: p.score,
         num_comments: p.num_comments,
         media_type,
@@ -194,41 +203,50 @@ const manifest = posts.map((p) => {
     };
 });
 
-// ----- Facets (small lists for sidebar chips) -----
-const uniqSorted = (arr) =>
-    Array.from(new Set(arr.filter(Boolean))).sort((a, b) =>
-        a.localeCompare(b)
-    );
-const TOP_N = Number(process.env.TOP_N_FACETS || 50); // adjust/omit as desired
-
-// Frequency maps for big lists
+/** --- facet counts (maps of name -> count) --- */
+function inc(map, key) {
+    if (!key) return;
+    map.set(key, (map.get(key) || 0) + 1);
+}
 const subFreq = new Map();
 const authorFreq = new Map();
+const flairFreq = new Map();
+const domainFreq = new Map();
+const mediaFreq = new Map();
+
 for (const m of manifest) {
-    if (m.subreddit)
-        subFreq.set(m.subreddit, (subFreq.get(m.subreddit) || 0) + 1);
-    if (m.author) authorFreq.set(m.author, (authorFreq.get(m.author) || 0) + 1);
+    inc(subFreq, m.subreddit);
+    inc(authorFreq, m.author);
+    inc(flairFreq, m.flair);
+    inc(domainFreq, m.link_domain);
+    inc(mediaFreq, m.media_type);
 }
 
-// Big lists with counts, sorted by frequency desc (then A→Z)
-const subsAll = Array.from(subFreq, ([name, count]) => ({ name, count })).sort(
-    (a, b) => b.count - a.count || a.name.localeCompare(b.name)
-);
-const authorsAll = Array.from(
-    authorFreq,
-    ([name, count]) => ({ name, count })
-).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+function toSortedTopN(map, topN) {
+    // returns an array [{name, count}] sorted by count desc, then A→Z, sliced to topN (if provided)
+    const arr = Array.from(map, ([name, count]) => ({ name, count }));
+    arr.sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+    return Number.isFinite(topN) && topN > 0 ? arr.slice(0, topN) : arr;
+}
 
-// Small, alphabetical facets for the sidebar (optionally truncated)
+function pairsToObj(pairs) {
+    const o = Object.create(null);
+    for (const { name, count } of pairs) o[name] = count;
+    return o;
+}
+
+const TOP_N = Number(process.env.TOP_N_FACETS || 0) || 0;
+// If TOP_N set, we trim each facet to top-N to keep the sidebar tiny.
+// Otherwise, we emit full maps (the panel can still search/filter client-side).
 const facets = {
-    subreddits: uniqSorted(manifest.map((p) => p.subreddit)).slice(0, TOP_N),
-    authors: uniqSorted(manifest.map((p) => p.author)).slice(0, TOP_N),
-    flairs: uniqSorted(manifest.map((p) => p.flair)),
-    domains: uniqSorted(manifest.map((p) => p.link_domain)),
-    mediaTypes: uniqSorted(manifest.map((p) => p.media_type)),
+    subreddits: pairsToObj(toSortedTopN(subFreq, TOP_N)),
+    authors: pairsToObj(toSortedTopN(authorFreq, TOP_N)),
+    flairs: pairsToObj(toSortedTopN(flairFreq, TOP_N)),
+    domains: pairsToObj(toSortedTopN(domainFreq, TOP_N)),
+    mediaTypes: pairsToObj(toSortedTopN(mediaFreq, TOP_N)),
 };
 
-// ----- Write outputs -----
+/** --- write outputs --- */
 await fs.writeFile(
     path.join(INDEX_OUT_DIR, "posts-manifest.json"),
     JSON.stringify(manifest, null, 2)
@@ -237,23 +255,13 @@ await fs.writeFile(
     path.join(INDEX_OUT_DIR, "facets.json"),
     JSON.stringify(facets, null, 2)
 );
-await fs.writeFile(
-    path.join(INDEX_OUT_DIR, "subs-all.json"),
-    JSON.stringify(subsAll, null, 2)
-);
-await fs.writeFile(
-    path.join(INDEX_OUT_DIR, "authors-all.json"),
-    JSON.stringify(authorsAll, null, 2)
+
+console.log(`✅ Manifest built: ${manifest.length} posts (with media & text previews).`);
+console.log(
+    `✅ Facets: subs=${Object.keys(facets.subreddits).length}, authors=${Object.keys(facets.authors).length}, flairs=${Object.keys(facets.flairs).length}, domains=${Object.keys(facets.domains).length}, media=${Object.keys(facets.mediaTypes).length}`
 );
 
-console.log(
-    `✅ Manifest built: ${manifest.length} posts (with media & text previews).`
-);
-console.log(
-    `✅ Big lists: ${subsAll.length} subreddits, ${authorsAll.length} authors.`
-);
-
-// ----- Build report -----
+/** --- Build report (basic warnings) --- */
 const warnings = [];
 
 const KNOWN_MEDIA_FOLDERS = new Set(Object.keys(MEDIA_FOLDER_MAP));
@@ -262,7 +270,7 @@ for (const p of posts) {
         warnings.push({
             id: p.__stem,
             note: "Unknown media folder",
-            folder: p.__folder
+            folder: p.__folder,
         });
     }
 }
@@ -276,8 +284,8 @@ for (const m of manifest) {
     if (
         m.media_preview &&
         !/^https?:\/\//.test(m.media_preview) &&
-        !m.media_preview.startsWith("media/") &&
-        !m.media_preview.startsWith("public/")
+        !m.media_preview?.startsWith("media/") &&
+        !m.media_preview?.startsWith("public/")
     ) {
         warnings.push({
             id: m.id,
