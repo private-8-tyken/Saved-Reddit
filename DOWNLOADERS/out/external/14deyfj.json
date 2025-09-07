@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T06:12:05.000000+00:00",
+  "archived_at": "2025-09-07T22:24:26.837828+00:00",
   "reddit_fullname": "t3_14deyfj",
   "reddit_id": "14deyfj",
   "permalink": "https://www.reddit.com/r/u_WilliWhite82/comments/14deyfj/caseys_gangrape/",
@@ -24,11 +24,8 @@
   "edited": false,
   "num_comments": 1,
   "score": 39,
-  "upvote_ratio": 0.97,
-  "media": {
-    "kind": "link",
-    "files": []
-  },
+  "upvote_ratio": 1.0,
+  "media": null,
   "external_link": "https://redgifs.com/watch/outlandishweepyshrimp",
   "raw_post": {
     "approved_at_utc": null,
@@ -52,7 +49,7 @@
     "name": "t3_14deyfj",
     "quarantine": false,
     "link_flair_text_color": "dark",
-    "upvote_ratio": 0.97,
+    "upvote_ratio": 1.0,
     "author_flair_background_color": null,
     "subreddit_type": "user",
     "ups": 39,
@@ -329,5 +326,9 @@
       "children": [],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [],
+  "media_kind": "external"
 }

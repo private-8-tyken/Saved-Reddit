@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T10:16:32.000000+00:00",
+  "archived_at": "2025-09-07T22:03:19.971715+00:00",
   "reddit_fullname": "t3_1bc7j0y",
   "reddit_id": "1bc7j0y",
   "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/",
@@ -23,12 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 144,
-  "score": 2778,
+  "score": 2781,
   "upvote_ratio": 0.99,
-  "media": {
-    "kind": "gallery",
-    "files": []
-  },
+  "media": null,
   "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
@@ -982,7 +979,7 @@
     "link_flair_text_color": "light",
     "upvote_ratio": 0.99,
     "author_flair_background_color": null,
-    "ups": 2778,
+    "ups": 2781,
     "domain": "reddit.com",
     "media_embed": {},
     "thumbnail_width": 140,
@@ -1080,7 +1077,7 @@
     },
     "link_flair_text": "GF",
     "can_mod_post": false,
-    "score": 2778,
+    "score": 2781,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -1145,7 +1142,7 @@
     "permalink": "/r/bangmybully/comments/1bc7j0y/delete_them_part_2/",
     "stickied": false,
     "url": "https://www.reddit.com/gallery/1bc7j0y",
-    "subreddit_subscribers": 661866,
+    "subreddit_subscribers": 662051,
     "created_utc": 1710175014.0,
     "num_crossposts": 7,
     "mod_reports": [],
@@ -1183,78 +1180,16 @@
                 "geo_filter": "",
                 "children": [
                   {
-                    "kind": "t1",
+                    "kind": "more",
                     "data": {
-                      "subreddit_id": "t5_3el18",
-                      "approved_at_utc": null,
-                      "author_is_blocked": false,
-                      "comment_type": null,
-                      "edited": false,
-                      "mod_reason_by": null,
-                      "banned_by": null,
-                      "ups": 8,
-                      "num_reports": null,
-                      "author_flair_type": "text",
-                      "total_awards_received": 0,
-                      "subreddit": "bangmybully",
-                      "author_flair_template_id": null,
-                      "likes": null,
-                      "replies": "",
-                      "user_reports": [],
-                      "saved": false,
-                      "id": "kugpasm",
-                      "banned_at_utc": null,
-                      "mod_reason_title": null,
-                      "gilded": 0,
-                      "archived": false,
-                      "collapsed_reason_code": null,
-                      "no_follow": false,
-                      "author": "TheIvoryFox",
-                      "can_mod_post": false,
-                      "created_utc": 1710209306.0,
-                      "send_replies": true,
-                      "parent_id": "t1_kugasn2",
-                      "score": 8,
-                      "author_fullname": "t2_hk9is5ql",
-                      "report_reasons": null,
-                      "approved_by": null,
-                      "all_awardings": [],
-                      "collapsed": false,
-                      "body": "DUDE!!! I’m so honored!!! Thank you!!! Omg!!! Literally 🥹 wtf!!!!",
-                      "awarders": [],
-                      "top_awarded_type": null,
-                      "author_flair_css_class": null,
-                      "author_patreon_flair": false,
-                      "downs": 0,
-                      "author_flair_richtext": [],
-                      "is_submitter": true,
-                      "body_html": "<div class=\"md\"><p>DUDE!!! I’m so honored!!! Thank you!!! Omg!!! Literally 🥹 wtf!!!!</p>\n</div>",
-                      "removal_reason": null,
-                      "collapsed_reason": null,
-                      "associated_award": null,
-                      "stickied": false,
-                      "author_premium": false,
-                      "can_gild": false,
-                      "gildings": {},
-                      "unrepliable_reason": null,
-                      "author_flair_text_color": null,
-                      "score_hidden": false,
-                      "permalink": "/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kugpasm/",
-                      "subreddit_type": "public",
-                      "locked": false,
+                      "count": 2,
                       "name": "t1_kugpasm",
-                      "created": 1710209306.0,
-                      "author_flair_text": null,
-                      "treatment_tags": [],
-                      "link_id": "t3_1bc7j0y",
-                      "subreddit_name_prefixed": "r/bangmybully",
-                      "controversiality": 0,
+                      "id": "kugpasm",
+                      "parent_id": "t1_kugasn2",
                       "depth": 1,
-                      "author_flair_background_color": null,
-                      "collapsed_because_crowd_control": null,
-                      "mod_reports": [],
-                      "mod_note": null,
-                      "distinguished": null
+                      "children": [
+                        "kugpasm"
+                      ]
                     }
                   }
                 ],
@@ -1490,7 +1425,7 @@
                                                                         "can_mod_post": false,
                                                                         "send_replies": true,
                                                                         "parent_id": "t1_kufoibu",
-                                                                        "score": 6,
+                                                                        "score": 5,
                                                                         "author_fullname": "t2_8arcm83i",
                                                                         "approved_by": null,
                                                                         "mod_note": null,
@@ -1532,7 +1467,7 @@
                                                                         "collapsed_because_crowd_control": null,
                                                                         "mod_reports": [],
                                                                         "num_reports": null,
-                                                                        "ups": 6
+                                                                        "ups": 5
                                                                       }
                                                                     }
                                                                   ],
@@ -1803,7 +1738,7 @@
                       "created_utc": 1710184972.0,
                       "send_replies": true,
                       "parent_id": "t1_kuehgqn",
-                      "score": 49,
+                      "score": 50,
                       "author_fullname": "t2_hk9is5ql",
                       "removal_reason": null,
                       "approved_by": null,
@@ -1845,7 +1780,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 49
+                      "ups": 50
                     }
                   }
                 ],
@@ -1916,7 +1851,7 @@
             "awarders": [],
             "mod_reason_by": null,
             "banned_by": null,
-            "ups": 11,
+            "ups": 9,
             "removal_reason": null,
             "link_id": "t3_1bc7j0y",
             "author_flair_template_id": null,
@@ -2126,7 +2061,7 @@
                       "created_utc": 1710186945.0,
                       "send_replies": true,
                       "parent_id": "t1_kuevoub",
-                      "score": 14,
+                      "score": 15,
                       "author_fullname": "t2_hk9is5ql",
                       "removal_reason": null,
                       "approved_by": null,
@@ -2168,7 +2103,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 14
+                      "ups": 15
                     }
                   }
                 ],
@@ -2188,7 +2123,7 @@
             "can_mod_post": false,
             "send_replies": true,
             "parent_id": "t3_1bc7j0y",
-            "score": 11,
+            "score": 9,
             "approved_by": null,
             "report_reasons": null,
             "all_awardings": [],
@@ -2345,7 +2280,7 @@
             "created_utc": 1710188866.0,
             "send_replies": true,
             "parent_id": "t3_1bc7j0y",
-            "score": 3,
+            "score": 4,
             "author_fullname": "t2_wxgza",
             "approved_by": null,
             "mod_note": null,
@@ -2387,7 +2322,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 3
+            "ups": 4
           }
         },
         {
@@ -2784,7 +2719,6 @@
                                       {
                                         "kind": "t1",
                                         "data": {
-                                          "body": "It's cuz I told her how strong I'm and that I can easily be-at you up, she tried to defend you but she can't afterall it's the truth so she submitted, but know that she loves u so much that she even gave herself to me to bring ur hoddy back",
                                           "subreddit_id": "t5_3el18",
                                           "approved_at_utc": null,
                                           "author_is_blocked": false,
@@ -2818,7 +2752,7 @@
                                           "mod_note": null,
                                           "all_awardings": [],
                                           "collapsed": false,
-                                          "author_cakeday": true,
+                                          "body": "It's cuz I told her how strong I'm and that I can easily be-at you up, she tried to defend you but she can't afterall it's the truth so she submitted, but know that she loves u so much that she even gave herself to me to bring ur hoddy back",
                                           "edited": false,
                                           "top_awarded_type": null,
                                           "author_flair_css_class": null,
@@ -2938,7 +2872,7 @@
                       "created_utc": 1710191339.0,
                       "send_replies": true,
                       "parent_id": "t1_kuf7aa1",
-                      "score": 5,
+                      "score": 4,
                       "author_fullname": "t2_hk9is5ql",
                       "removal_reason": null,
                       "approved_by": null,
@@ -2980,7 +2914,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 5
+                      "ups": 4
                     }
                   }
                 ],
@@ -3305,7 +3239,6 @@
                                                           {
                                                             "kind": "t1",
                                                             "data": {
-                                                              "body": "Damn nice text me in personal and I'd use her good and hard",
                                                               "subreddit_id": "t5_3el18",
                                                               "approved_at_utc": null,
                                                               "author_is_blocked": false,
@@ -3338,7 +3271,7 @@
                                                               "approved_by": null,
                                                               "mod_note": null,
                                                               "all_awardings": [],
-                                                              "author_cakeday": true,
+                                                              "body": "Damn nice text me in personal and I'd use her good and hard",
                                                               "edited": false,
                                                               "gildings": {},
                                                               "downs": 0,
@@ -8994,7 +8927,6 @@
                   {
                     "kind": "t1",
                     "data": {
-                      "body": "Text me in personal",
                       "subreddit_id": "t5_3el18",
                       "approved_at_utc": null,
                       "author_is_blocked": false,
@@ -9028,7 +8960,7 @@
                       "approved_by": null,
                       "mod_note": null,
                       "all_awardings": [],
-                      "author_cakeday": true,
+                      "body": "Text me in personal",
                       "edited": false,
                       "top_awarded_type": null,
                       "author_flair_css_class": null,
@@ -12112,7 +12044,6 @@
                   {
                     "kind": "t1",
                     "data": {
-                      "body": "Sure bring her to me",
                       "subreddit_id": "t5_3el18",
                       "approved_at_utc": null,
                       "author_is_blocked": false,
@@ -12146,7 +12077,7 @@
                       "approved_by": null,
                       "mod_note": null,
                       "all_awardings": [],
-                      "author_cakeday": true,
+                      "body": "Sure bring her to me",
                       "edited": false,
                       "top_awarded_type": null,
                       "author_flair_css_class": null,
@@ -12251,5 +12182,1726 @@
       ],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [
+    {
+      "id": "kugasn2",
+      "author": "BrokenWings123",
+      "author_fullname": "t2_umqnc",
+      "body": "We love your posts here. Keep it up. I liked it so much that I made it an announcement - which means it's pinned.",
+      "score": 1,
+      "created_utc": 1710203867.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kugasn2/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": []
+    },
+    {
+      "id": "kuehgqn",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "Part 3!!!",
+      "score": 26,
+      "created_utc": 1710181339.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuehgqn/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kueshmo",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "Patience young padawan! Greed is valued by the sith, we must strive to be STRONG!",
+          "score": 50,
+          "created_utc": 1710184972.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kueshmo/",
+          "is_submitter": true,
+          "parent_id": "t1_kuehgqn",
+          "replies": [
+            {
+              "id": "kufnehq",
+              "author": "Accomplished_Bid5337",
+              "author_fullname": "t2_8arcm83i",
+              "body": "Peace is a lie, there is only passion. Through passion, I gain strength. Through strength, I gain power. Trough power i gain victory. Trough victory my chains are broken the force shall free me.",
+              "score": 9,
+              "created_utc": 1710195208.0,
+              "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufnehq/",
+              "is_submitter": false,
+              "parent_id": "t1_kueshmo",
+              "replies": [
+                {
+                  "id": "kufnkme",
+                  "author": "TheIvoryFox",
+                  "author_fullname": "t2_hk9is5ql",
+                  "body": "Then you are already lost \\*lightsaber drawn\\*",
+                  "score": 7,
+                  "created_utc": 1710195268.0,
+                  "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufnkme/",
+                  "is_submitter": true,
+                  "parent_id": "t1_kufnehq",
+                  "replies": [
+                    {
+                      "id": "kufnpqa",
+                      "author": "Accomplished_Bid5337",
+                      "author_fullname": "t2_8arcm83i",
+                      "body": "I will do what i must. *lightsaber ignites*",
+                      "score": 4,
+                      "created_utc": 1710195316.0,
+                      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufnpqa/",
+                      "is_submitter": false,
+                      "parent_id": "t1_kufnkme",
+                      "replies": [
+                        {
+                          "id": "kufoibu",
+                          "author": "TheIvoryFox",
+                          "author_fullname": "t2_hk9is5ql",
+                          "body": "Surrender your saber and i will negotiate your banishment with the council, step forward.... step forward and i will have no choice",
+                          "score": 7,
+                          "created_utc": 1710195591.0,
+                          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufoibu/",
+                          "is_submitter": true,
+                          "parent_id": "t1_kufnpqa",
+                          "replies": [
+                            {
+                              "id": "kufpdmr",
+                              "author": "Accomplished_Bid5337",
+                              "author_fullname": "t2_8arcm83i",
+                              "body": "The Jedi council is corrupt. You seek to bring me to justice? Justice is merely the construct of the current power base. A base which, according to my calculations, is about to change! Release part 3 now before the republic falls!",
+                              "score": 5,
+                              "created_utc": 1710195895.0,
+                              "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufpdmr/",
+                              "is_submitter": false,
+                              "parent_id": "t1_kufoibu",
+                              "replies": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kuevoub",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "[deleted]",
+      "score": 9,
+      "created_utc": 1710186028.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuevoub/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kueyh2w",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "cock i will drain, pussy you will smash, yessss",
+          "score": 15,
+          "created_utc": 1710186945.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kueyh2w/",
+          "is_submitter": true,
+          "parent_id": "t1_kuevoub",
+          "replies": [
+            {
+              "id": "kuf24df",
+              "author": "[deleted]",
+              "author_fullname": null,
+              "body": "[deleted]",
+              "score": 3,
+              "created_utc": 1710188146.0,
+              "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuf24df/",
+              "is_submitter": false,
+              "parent_id": "t1_kueyh2w",
+              "replies": [
+                {
+                  "id": "kufc4x2",
+                  "author": "TheIvoryFox",
+                  "author_fullname": "t2_hk9is5ql",
+                  "body": "Bahaha yes yes",
+                  "score": 2,
+                  "created_utc": 1710191420.0,
+                  "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufc4x2/",
+                  "is_submitter": true,
+                  "parent_id": "t1_kuf24df",
+                  "replies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kuf4c4b",
+      "author": "PutABirdOnIt99",
+      "author_fullname": "t2_wxgza",
+      "body": "Seriously, both parts might be the hottest thing I've ever seen on Reddit. Dying for part 3!",
+      "score": 4,
+      "created_utc": 1710188866.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuf4c4b/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kufc3np",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "Aw thanks!!! 🙏 I’m trying my best!!!",
+          "score": 2,
+          "created_utc": 1710191409.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufc3np/",
+          "is_submitter": true,
+          "parent_id": "t1_kuf4c4b",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "kuecaq3",
+      "author": "MakeDaddycum69",
+      "author_fullname": "t2_n64rlirf1",
+      "body": "Just finished stroking to you slut. You should clean your bf's hoodie i might have used it to clean up.",
+      "score": 3,
+      "created_utc": 1710179607.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuecaq3/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kueehmf",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "Dude!!! Fuckkk, you’re lucky I know the trick to get rid of cum stains. It takes a bit of elbow grease but…. I mean I know cause… well that doesn’t matter! Give me it back you perv!",
+          "score": 2,
+          "created_utc": 1710180342.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kueehmf/",
+          "is_submitter": true,
+          "parent_id": "t1_kuecaq3",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "kuf7aa1",
+      "author": "Glum-Department734",
+      "author_fullname": "t2_83o89avt",
+      "body": "Why did you lick his pants babe? Surely you didn’t enjoy it",
+      "score": 3,
+      "created_utc": 1710189826.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuf7aa1/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kufbw1h",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "Omg no! It was so gross, his cock was hard underneath, and he smelled like…. Idk he smelled clean but mmmm idk strong and like when he hugged me goodbye his breath on my neck was super warm and ugh. Don’t worry babe. He’s just a perv",
+          "score": 4,
+          "created_utc": 1710191339.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufbw1h/",
+          "is_submitter": true,
+          "parent_id": "t1_kuf7aa1",
+          "replies": [
+            {
+              "id": "kufx8u0",
+              "author": "Glum-Department734",
+              "author_fullname": "t2_83o89avt",
+              "body": "Oh, you felt his cock when you licked his pants? And how come you sent nudes to him but not me! I can be manly just like him!",
+              "score": 1,
+              "created_utc": 1710198722.0,
+              "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufx8u0/",
+              "is_submitter": false,
+              "parent_id": "t1_kufbw1h",
+              "replies": [
+                {
+                  "id": "kufyw2z",
+                  "author": "TheIvoryFox",
+                  "author_fullname": "t2_hk9is5ql",
+                  "body": "You are so manly baby! Don’t read into it, he just wants you jealous, he’s funny like that. I’m going to go pick up your jacket, I’ll be back in a few hours!",
+                  "score": 3,
+                  "created_utc": 1710199337.0,
+                  "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufyw2z/",
+                  "is_submitter": true,
+                  "parent_id": "t1_kufx8u0",
+                  "replies": [
+                    {
+                      "id": "kugzpz2",
+                      "author": "LessAd2219",
+                      "author_fullname": "t2_pa7yfaqmm",
+                      "body": "I think he forgot his sunglasses at my place, want to pick those up too while you're out?",
+                      "score": 2,
+                      "created_utc": 1710213748.0,
+                      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kugzpz2/",
+                      "is_submitter": false,
+                      "parent_id": "t1_kufyw2z",
+                      "replies": []
+                    }
+                  ]
+                },
+                {
+                  "id": "kxvl1go",
+                  "author": "Bill-Adams",
+                  "author_fullname": "t2_7zphq1sv",
+                  "body": "It's cuz I told her how strong I'm and that I can easily be-at you up, she tried to defend you but she can't afterall it's the truth so she submitted, but know that she loves u so much that she even gave herself to me to bring ur hoddy back",
+                  "score": 1,
+                  "created_utc": 1712162854.0,
+                  "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kxvl1go/",
+                  "is_submitter": false,
+                  "parent_id": "t1_kufx8u0",
+                  "replies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kue9x04",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "Cuck here \nDm me bullies",
+      "score": 2,
+      "created_utc": 1710178815.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kue9x04/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": []
+    },
+    {
+      "id": "kuf7vpb",
+      "author": "No_Obligation_3605",
+      "author_fullname": "t2_u94d0trs",
+      "body": "Love this",
+      "score": 2,
+      "created_utc": 1710190015.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuf7vpb/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kufbnjm",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "Cheers! Thanks!",
+          "score": 1,
+          "created_utc": 1710191260.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufbnjm/",
+          "is_submitter": true,
+          "parent_id": "t1_kuf7vpb",
+          "replies": [
+            {
+              "id": "kufnl6h",
+              "author": "No_Obligation_3605",
+              "author_fullname": "t2_u94d0trs",
+              "body": "I seriously need a gf like u haha",
+              "score": 1,
+              "created_utc": 1710195273.0,
+              "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufnl6h/",
+              "is_submitter": false,
+              "parent_id": "t1_kufbnjm",
+              "replies": [
+                {
+                  "id": "kufoqyp",
+                  "author": "TheIvoryFox",
+                  "author_fullname": "t2_hk9is5ql",
+                  "body": "one that cheats on you LOL",
+                  "score": 2,
+                  "created_utc": 1710195674.0,
+                  "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufoqyp/",
+                  "is_submitter": true,
+                  "parent_id": "t1_kufnl6h",
+                  "replies": [
+                    {
+                      "id": "kufqboo",
+                      "author": "AccomplishedSeaweed",
+                      "author_fullname": "t2_z2xf1ca",
+                      "body": "My gf has a hall pass to cheat on me - would love to come home one day to her slurping up a hard cock, or being bent over slammed from behind or on her back with her legs wrapped around somebody",
+                      "score": 2,
+                      "created_utc": 1710196228.0,
+                      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufqboo/",
+                      "is_submitter": false,
+                      "parent_id": "t1_kufoqyp",
+                      "replies": [
+                        {
+                          "id": "kugv8uk",
+                          "author": "[deleted]",
+                          "author_fullname": null,
+                          "body": "Dm I got you",
+                          "score": 1,
+                          "created_utc": 1710211779.0,
+                          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kugv8uk/",
+                          "is_submitter": false,
+                          "parent_id": "t1_kufqboo",
+                          "replies": []
+                        },
+                        {
+                          "id": "kxvmuq1",
+                          "author": "Bill-Adams",
+                          "author_fullname": "t2_7zphq1sv",
+                          "body": "Damn nice text me in personal and I'd use her good and hard",
+                          "score": 1,
+                          "created_utc": 1712163432.0,
+                          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kxvmuq1/",
+                          "is_submitter": false,
+                          "parent_id": "t1_kufqboo",
+                          "replies": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "kufqvg7",
+                      "author": "No_Obligation_3605",
+                      "author_fullname": "t2_u94d0trs",
+                      "body": "Absolutely",
+                      "score": 2,
+                      "created_utc": 1710196423.0,
+                      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufqvg7/",
+                      "is_submitter": false,
+                      "parent_id": "t1_kufoqyp",
+                      "replies": [
+                        {
+                          "id": "kufyk2c",
+                          "author": "TheIvoryFox",
+                          "author_fullname": "t2_hk9is5ql",
+                          "body": "You want me to send you vids of me dripping wet on someone else’s cock?",
+                          "score": 1,
+                          "created_utc": 1710199212.0,
+                          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufyk2c/",
+                          "is_submitter": true,
+                          "parent_id": "t1_kufqvg7",
+                          "replies": [
+                            {
+                              "id": "kuq6ext",
+                              "author": "No_Obligation_3605",
+                              "author_fullname": "t2_u94d0trs",
+                              "body": "That’d be perfect. I’d propose right then and there haha",
+                              "score": 1,
+                              "created_utc": 1710359774.0,
+                              "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuq6ext/",
+                              "is_submitter": false,
+                              "parent_id": "t1_kufyk2c",
+                              "replies": [
+                                {
+                                  "id": "kuqb7tq",
+                                  "author": "TheIvoryFox",
+                                  "author_fullname": "t2_hk9is5ql",
+                                  "body": "You’d marry me, so that I can fuck other people!? What is this logic 😂",
+                                  "score": 1,
+                                  "created_utc": 1710361340.0,
+                                  "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuqb7tq/",
+                                  "is_submitter": true,
+                                  "parent_id": "t1_kuq6ext",
+                                  "replies": [
+                                    {
+                                      "id": "kurp22e",
+                                      "author": "No_Obligation_3605",
+                                      "author_fullname": "t2_u94d0trs",
+                                      "body": "Yup😂😂 I’d still wanna fuck you but id wanna see other people do it too.",
+                                      "score": 1,
+                                      "created_utc": 1710378757.0,
+                                      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kurp22e/",
+                                      "is_submitter": false,
+                                      "parent_id": "t1_kuqb7tq",
+                                      "replies": [
+                                        {
+                                          "id": "kurueoi",
+                                          "author": "TheIvoryFox",
+                                          "author_fullname": "t2_hk9is5ql",
+                                          "body": "Ohhhh ok ok that makes sense nvm",
+                                          "score": 2,
+                                          "created_utc": 1710380779.0,
+                                          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kurueoi/",
+                                          "is_submitter": true,
+                                          "parent_id": "t1_kurp22e",
+                                          "replies": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kufcs6c",
+      "author": "Far_Assignment316",
+      "author_fullname": "t2_6xln5ubl",
+      "body": "God this is hot.. YOU are hot! Love it!",
+      "score": 2,
+      "created_utc": 1710191636.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufcs6c/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kufd5hg",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "lolol glad me being tempted into infidelity brings you joy ;) jk jk thanks so much!!!",
+          "score": 2,
+          "created_utc": 1710191762.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufd5hg/",
+          "is_submitter": true,
+          "parent_id": "t1_kufcs6c",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "kugelit",
+      "author": "RasAlGhul3",
+      "author_fullname": "t2_40kyzr88",
+      "body": "These posts are so fucking hot 🥵",
+      "score": 2,
+      "created_utc": 1710205292.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kugelit/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kugps2d",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "Haha thank you :P",
+          "score": 1,
+          "created_utc": 1710209502.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kugps2d/",
+          "is_submitter": true,
+          "parent_id": "t1_kugelit",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "kugrt3b",
+      "author": "JacketAutomatic4988",
+      "author_fullname": "t2_t6978dvy",
+      "body": "Dude she's got a banging bod a nice ass AND she's knows star wars quotes 😵‍💫🤤🥵",
+      "score": 2,
+      "created_utc": 1710210329.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kugrt3b/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kuh1noz",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "And! She makes waffles!",
+          "score": 2,
+          "created_utc": 1710214641.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuh1noz/",
+          "is_submitter": true,
+          "parent_id": "t1_kugrt3b",
+          "replies": [
+            {
+              "id": "kuh5twu",
+              "author": "JacketAutomatic4988",
+              "author_fullname": "t2_t6978dvy",
+              "body": "What kinda waffles 😈",
+              "score": 1,
+              "created_utc": 1710216694.0,
+              "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuh5twu/",
+              "is_submitter": false,
+              "parent_id": "t1_kuh1noz",
+              "replies": [
+                {
+                  "id": "kuh9zvx",
+                  "author": "TheIvoryFox",
+                  "author_fullname": "t2_hk9is5ql",
+                  "body": "Any kind I guess :O",
+                  "score": 1,
+                  "created_utc": 1710218927.0,
+                  "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuh9zvx/",
+                  "is_submitter": true,
+                  "parent_id": "t1_kuh5twu",
+                  "replies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kugtqn3",
+      "author": "TheBWCBully",
+      "author_fullname": "t2_vegu17u1",
+      "body": "Yes these are so perfect and hot got me dripping cum out every second",
+      "score": 2,
+      "created_utc": 1710211138.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kugtqn3/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": []
+    },
+    {
+      "id": "kugvtlo",
+      "author": "Napalm-Skidmark",
+      "author_fullname": "t2_7z3gy3i2",
+      "body": "I JUST rubbed one out bro.. but I guess I’m going again… 😭😭",
+      "score": 2,
+      "created_utc": 1710212029.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kugvtlo/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kuh1y9c",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "😂",
+          "score": 1,
+          "created_utc": 1710214779.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuh1y9c/",
+          "is_submitter": true,
+          "parent_id": "t1_kugvtlo",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "kugzxfu",
+      "author": "LessAd2219",
+      "author_fullname": "t2_pa7yfaqmm",
+      "body": "Let me go reread part 1 and get the full experience. (10/10 btw)",
+      "score": 2,
+      "created_utc": 1710213842.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kugzxfu/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kuh23g8",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "Wooooo!!!",
+          "score": 1,
+          "created_utc": 1710214848.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuh23g8/",
+          "is_submitter": true,
+          "parent_id": "t1_kugzxfu",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "kuh7a2t",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "Omfg this is so hot. Part 3 pls !!!",
+      "score": 2,
+      "created_utc": 1710217448.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuh7a2t/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": []
+    },
+    {
+      "id": "kuhdti0",
+      "author": "Cum-in-mymom",
+      "author_fullname": "t2_on5b1xmay",
+      "body": "Part 3 please you’ve really been helping me out by turning me on and making me cum thank u mommy❤️❤️",
+      "score": 2,
+      "created_utc": 1710221206.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuhdti0/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kuj1pzs",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "I did it only for you! Just you random stranger 😂",
+          "score": 2,
+          "created_utc": 1710255369.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuj1pzs/",
+          "is_submitter": true,
+          "parent_id": "t1_kuhdti0",
+          "replies": [
+            {
+              "id": "kuom8r5",
+              "author": "Cum-in-mymom",
+              "author_fullname": "t2_on5b1xmay",
+              "body": "btw you should post feet content you’ll become big",
+              "score": 1,
+              "created_utc": 1710341259.0,
+              "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuom8r5/",
+              "is_submitter": false,
+              "parent_id": "t1_kuj1pzs",
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kui4m43",
+      "author": "BlackFox073103",
+      "author_fullname": "t2_w55eig3s",
+      "body": "Yes part 3",
+      "score": 2,
+      "created_utc": 1710240562.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kui4m43/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kuj2dg6",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "I think I’ll have it posted Friday morning :)",
+          "score": 1,
+          "created_utc": 1710255601.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuj2dg6/",
+          "is_submitter": true,
+          "parent_id": "t1_kui4m43",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "kur9n5u",
+      "author": "Svalle545",
+      "author_fullname": "t2_if2akwre",
+      "body": "Waiting fort part 3",
+      "score": 2,
+      "created_utc": 1710373095.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kur9n5u/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kurdx1o",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "What if I don’t drop it? Whatcha gonna do",
+          "score": 1,
+          "created_utc": 1710374666.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kurdx1o/",
+          "is_submitter": true,
+          "parent_id": "t1_kur9n5u",
+          "replies": [
+            {
+              "id": "kusw3o8",
+              "author": "Svalle545",
+              "author_fullname": "t2_if2akwre",
+              "body": "Na just joking around but damn the story is good tho",
+              "score": 2,
+              "created_utc": 1710399711.0,
+              "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kusw3o8/",
+              "is_submitter": false,
+              "parent_id": "t1_kurdx1o",
+              "replies": [
+                {
+                  "id": "kutm6h1",
+                  "author": "TheIvoryFox",
+                  "author_fullname": "t2_hk9is5ql",
+                  "body": "Made me laugh 😂 you are good",
+                  "score": 1,
+                  "created_utc": 1710417453.0,
+                  "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kutm6h1/",
+                  "is_submitter": true,
+                  "parent_id": "t1_kusw3o8",
+                  "replies": []
+                }
+              ]
+            },
+            {
+              "id": "kusw1uv",
+              "author": "Svalle545",
+              "author_fullname": "t2_if2akwre",
+              "body": "Make the story come true😌",
+              "score": 1,
+              "created_utc": 1710399675.0,
+              "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kusw1uv/",
+              "is_submitter": false,
+              "parent_id": "t1_kurdx1o",
+              "replies": [
+                {
+                  "id": "kutm56k",
+                  "author": "TheIvoryFox",
+                  "author_fullname": "t2_hk9is5ql",
+                  "body": "Omg. You bully!!! 😂",
+                  "score": 1,
+                  "created_utc": 1710417434.0,
+                  "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kutm56k/",
+                  "is_submitter": true,
+                  "parent_id": "t1_kusw1uv",
+                  "replies": [
+                    {
+                      "id": "kuvqwnh",
+                      "author": "Svalle545",
+                      "author_fullname": "t2_if2akwre",
+                      "body": "😂😂😂",
+                      "score": 1,
+                      "created_utc": 1710444736.0,
+                      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuvqwnh/",
+                      "is_submitter": false,
+                      "parent_id": "t1_kutm56k",
+                      "replies": [
+                        {
+                          "id": "kuvraq3",
+                          "author": "TheIvoryFox",
+                          "author_fullname": "t2_hk9is5ql",
+                          "body": "😜",
+                          "score": 1,
+                          "created_utc": 1710444866.0,
+                          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuvraq3/",
+                          "is_submitter": true,
+                          "parent_id": "t1_kuvqwnh",
+                          "replies": [
+                            {
+                              "id": "kuy65lt",
+                              "author": "Svalle545",
+                              "author_fullname": "t2_if2akwre",
+                              "body": "But we need more parts tho",
+                              "score": 1,
+                              "created_utc": 1710478109.0,
+                              "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuy65lt/",
+                              "is_submitter": false,
+                              "parent_id": "t1_kuvraq3",
+                              "replies": [
+                                {
+                                  "id": "kuyeozz",
+                                  "author": "TheIvoryFox",
+                                  "author_fullname": "t2_hk9is5ql",
+                                  "body": "I’m dropping it tomorrow :)",
+                                  "score": 2,
+                                  "created_utc": 1710483431.0,
+                                  "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuyeozz/",
+                                  "is_submitter": true,
+                                  "parent_id": "t1_kuy65lt",
+                                  "replies": [
+                                    {
+                                      "id": "kv04mbi",
+                                      "author": "Sad_Butterfly_2639",
+                                      "author_fullname": "t2_bm50yig4x",
+                                      "body": "Can't wait, absolutely fantastic content!",
+                                      "score": 2,
+                                      "created_utc": 1710516352.0,
+                                      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kv04mbi/",
+                                      "is_submitter": false,
+                                      "parent_id": "t1_kuyeozz",
+                                      "replies": []
+                                    },
+                                    {
+                                      "id": "kv084fc",
+                                      "author": "Svalle545",
+                                      "author_fullname": "t2_if2akwre",
+                                      "body": "Heck ye!",
+                                      "score": 2,
+                                      "created_utc": 1710517550.0,
+                                      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kv084fc/",
+                                      "is_submitter": false,
+                                      "parent_id": "t1_kuyeozz",
+                                      "replies": [
+                                        {
+                                          "id": "kv0awlo",
+                                          "author": "TheIvoryFox",
+                                          "author_fullname": "t2_hk9is5ql",
+                                          "body": "I hope… I’m trying to edit it lol. It’s not as easy as I thought",
+                                          "score": 1,
+                                          "created_utc": 1710518492.0,
+                                          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kv0awlo/",
+                                          "is_submitter": true,
+                                          "parent_id": "t1_kv084fc",
+                                          "replies": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kv2bkip",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "[deleted]",
+      "score": 2,
+      "created_utc": 1710543888.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kv2bkip/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kv2stea",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "Oh it dropped!",
+          "score": 2,
+          "created_utc": 1710550698.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kv2stea/",
+          "is_submitter": true,
+          "parent_id": "t1_kv2bkip",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "kv2lb3l",
+      "author": "Mental_Stranger1921",
+      "author_fullname": "t2_bi8gjqc3",
+      "body": "part 3????",
+      "score": 2,
+      "created_utc": 1710547714.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kv2lb3l/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kv2shfl",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "Posted!!!",
+          "score": 1,
+          "created_utc": 1710550561.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kv2shfl/",
+          "is_submitter": true,
+          "parent_id": "t1_kv2lb3l",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "lkxbys2",
+      "author": "BabyDickMcgee69",
+      "author_fullname": "t2_qs49z94w",
+      "body": "That’s the best part 2 I’ve seen",
+      "score": 2,
+      "created_utc": 1725155438.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/lkxbys2/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": []
+    },
+    {
+      "id": "kudyinn",
+      "author": "AutoModerator",
+      "author_fullname": "t2_6l4z3",
+      "body": "Thank you for posting to r/bangmybully! \n\nFollow us on Twitter: https://twitter.com/bangmybully_\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/bangmybully) if you have any questions or concerns.*",
+      "score": 1,
+      "created_utc": 1710175014.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kudyinn/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": []
+    },
+    {
+      "id": "kue0sgo",
+      "author": "Easy-Cicada-4434",
+      "author_fullname": "t2_a1o91u9v",
+      "body": "Looks like you’re really embracing that slutty side, sounds like your cuck of a BF isn’t enough and you’re in denial. Maybe I’ll message Chris and get that video 😏",
+      "score": 1,
+      "created_utc": 1710175774.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kue0sgo/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": []
+    },
+    {
+      "id": "kue2hk5",
+      "author": "SissyLaura265",
+      "author_fullname": "t2_vw8h27py",
+      "body": "Why are you on your phone so much gf, I hope you're not keeping anything from me",
+      "score": 1,
+      "created_utc": 1710176332.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kue2hk5/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kue34aw",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "Baby don’t worry, I’m just on Amazon, you cool if I order some lingerie?? For us 🥺",
+          "score": 2,
+          "created_utc": 1710176543.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kue34aw/",
+          "is_submitter": true,
+          "parent_id": "t1_kue2hk5",
+          "replies": [
+            {
+              "id": "kue3n4i",
+              "author": "SissyLaura265",
+              "author_fullname": "t2_vw8h27py",
+              "body": "Sure babe, would love to see your sexy ass in lingerie😘",
+              "score": 1,
+              "created_utc": 1710176718.0,
+              "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kue3n4i/",
+              "is_submitter": false,
+              "parent_id": "t1_kue34aw",
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kuedtlg",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "Kinky cuck here! DM me ! 😈🥵😈",
+      "score": 1,
+      "created_utc": 1710180118.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuedtlg/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kueel49",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "Babe?? wtf are you doing on this subreddit??! You like this stuff!?!?",
+          "score": 2,
+          "created_utc": 1710180375.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kueel49/",
+          "is_submitter": true,
+          "parent_id": "t1_kuedtlg",
+          "replies": [
+            {
+              "id": "kueoihu",
+              "author": "[deleted]",
+              "author_fullname": null,
+              "body": "Yeeees",
+              "score": 1,
+              "created_utc": 1710183671.0,
+              "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kueoihu/",
+              "is_submitter": false,
+              "parent_id": "t1_kueel49",
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kuefwwq",
+      "author": "ILikeGirlsZkat",
+      "author_fullname": "t2_nm1wf3n4",
+      "body": "This is the kind of thing I'm really into. I love it and love you for making them.",
+      "score": 1,
+      "created_utc": 1710180821.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuefwwq/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": []
+    },
+    {
+      "id": "kuenopl",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "Insane rp! Keep it up! \n\nAnd if you get blackmailed by that guy again, make sure to invite me next time",
+      "score": 1,
+      "created_utc": 1710183400.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuenopl/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kuesst8",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "cause.... you'll protect me right?.... RIGHT????? lololol",
+          "score": 1,
+          "created_utc": 1710185073.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuesst8/",
+          "is_submitter": true,
+          "parent_id": "t1_kuenopl",
+          "replies": [
+            {
+              "id": "kuetxgq",
+              "author": "[deleted]",
+              "author_fullname": null,
+              "body": "oh.... uhmm yeah... i can take your place if you need me tho",
+              "score": 1,
+              "created_utc": 1710185443.0,
+              "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuetxgq/",
+              "is_submitter": false,
+              "parent_id": "t1_kuesst8",
+              "replies": [
+                {
+                  "id": "kueybil",
+                  "author": "TheIvoryFox",
+                  "author_fullname": "t2_hk9is5ql",
+                  "body": "I mean... i wouldnt dare put you in that postion. we should... hm we should just go together that way we can both be safe! right??",
+                  "score": 1,
+                  "created_utc": 1710186894.0,
+                  "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kueybil/",
+                  "is_submitter": true,
+                  "parent_id": "t1_kuetxgq",
+                  "replies": [
+                    {
+                      "id": "kufrq2l",
+                      "author": "[deleted]",
+                      "author_fullname": null,
+                      "body": "yeah! im pretty sure we can help each other out! take good care of each other! you clearly need it bby",
+                      "score": 1,
+                      "created_utc": 1710196721.0,
+                      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufrq2l/",
+                      "is_submitter": false,
+                      "parent_id": "t1_kueybil",
+                      "replies": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kuevy7z",
+      "author": "No_Anybody5558",
+      "author_fullname": "t2_e5v2lvwc",
+      "body": "We need right now a part 3 😑",
+      "score": 1,
+      "created_utc": 1710186114.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuevy7z/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kueyl9c",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "LOL patience patience :P i just released part 2!!! i make these myself and the next one is clearly more VIDEO heavy",
+          "score": 2,
+          "created_utc": 1710186983.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kueyl9c/",
+          "is_submitter": true,
+          "parent_id": "t1_kuevy7z",
+          "replies": [
+            {
+              "id": "kufi8gx",
+              "author": "No_Anybody5558",
+              "author_fullname": "t2_e5v2lvwc",
+              "body": "That‘s what i need good thank you ❤️",
+              "score": 2,
+              "created_utc": 1710193453.0,
+              "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufi8gx/",
+              "is_submitter": false,
+              "parent_id": "t1_kueyl9c",
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kufij2h",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "It’s not like you enjoy his attention or anything like that…..right?",
+      "score": 1,
+      "created_utc": 1710193553.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufij2h/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kufm7s1",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "no... not at all, what are you saying :( i am innocent i swearrrr",
+          "score": 1,
+          "created_utc": 1710194801.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufm7s1/",
+          "is_submitter": true,
+          "parent_id": "t1_kufij2h",
+          "replies": [
+            {
+              "id": "kufs51r",
+              "author": "[deleted]",
+              "author_fullname": null,
+              "body": "Maybe around me….you seem like you’re acting different around him",
+              "score": 1,
+              "created_utc": 1710196869.0,
+              "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufs51r/",
+              "is_submitter": false,
+              "parent_id": "t1_kufm7s1",
+              "replies": [
+                {
+                  "id": "kufyo0m",
+                  "author": "TheIvoryFox",
+                  "author_fullname": "t2_hk9is5ql",
+                  "body": "He just is funny is all baby, don’t worry. I’m going to go grab my jacket! I’ll be back in a few hours",
+                  "score": 1,
+                  "created_utc": 1710199253.0,
+                  "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufyo0m/",
+                  "is_submitter": true,
+                  "parent_id": "t1_kufs51r",
+                  "replies": [
+                    {
+                      "id": "kuh3pj9",
+                      "author": "[deleted]",
+                      "author_fullname": null,
+                      "body": "A few HOURS?! He just sent me that video of you licking his bulge, don’t think I don’t know why you’re going over there 🙄",
+                      "score": 1,
+                      "created_utc": 1710215627.0,
+                      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuh3pj9/",
+                      "is_submitter": false,
+                      "parent_id": "t1_kufyo0m",
+                      "replies": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kufm0u1",
+      "author": "Overall_Cap2422",
+      "author_fullname": "t2_lss4n6hc0",
+      "body": "Dm too see my sister",
+      "score": 1,
+      "created_utc": 1710194734.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufm0u1/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kxvnec9",
+          "author": "Bill-Adams",
+          "author_fullname": "t2_7zphq1sv",
+          "body": "Text me in personal",
+          "score": 1,
+          "created_utc": 1712163607.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kxvnec9/",
+          "is_submitter": false,
+          "parent_id": "t1_kufm0u1",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "kufti0g",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "You’re mine now 😈😝",
+      "score": 1,
+      "created_utc": 1710197353.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufti0g/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kufyqjr",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "No! I have a bf, I’m just grabbing the jacket",
+          "score": 1,
+          "created_utc": 1710199280.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kufyqjr/",
+          "is_submitter": true,
+          "parent_id": "t1_kufti0g",
+          "replies": [
+            {
+              "id": "kuhbicn",
+              "author": "[deleted]",
+              "author_fullname": null,
+              "body": "So you’re saying you want me to send these videos to your bf? Hmmm alright then..",
+              "score": 2,
+              "created_utc": 1710219793.0,
+              "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuhbicn/",
+              "is_submitter": false,
+              "parent_id": "t1_kufyqjr",
+              "replies": [
+                {
+                  "id": "kuhcpwm",
+                  "author": "TheIvoryFox",
+                  "author_fullname": "t2_hk9is5ql",
+                  "body": "Don’t you dare!!! wtf!?!? NOOO",
+                  "score": 1,
+                  "created_utc": 1710220519.0,
+                  "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuhcpwm/",
+                  "is_submitter": true,
+                  "parent_id": "t1_kuhbicn",
+                  "replies": [
+                    {
+                      "id": "kup66u5",
+                      "author": "[deleted]",
+                      "author_fullname": null,
+                      "body": "Meet me at my dorm tomorrow at 9pm….You know what’ll happen if you don’t",
+                      "score": 1,
+                      "created_utc": 1710347969.0,
+                      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kup66u5/",
+                      "is_submitter": false,
+                      "parent_id": "t1_kuhcpwm",
+                      "replies": [
+                        {
+                          "id": "kupu8sb",
+                          "author": "TheIvoryFox",
+                          "author_fullname": "t2_hk9is5ql",
+                          "body": "Fml 💀",
+                          "score": 1,
+                          "created_utc": 1710355769.0,
+                          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kupu8sb/",
+                          "is_submitter": true,
+                          "parent_id": "t1_kup66u5",
+                          "replies": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kug6ybk",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "you genuinely may be the perfect woman",
+      "score": 1,
+      "created_utc": 1710202413.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kug6ybk/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kughrft",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "I have flaws lol trust me, ask my bf",
+          "score": 1,
+          "created_utc": 1710206455.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kughrft/",
+          "is_submitter": true,
+          "parent_id": "t1_kug6ybk",
+          "replies": [
+            {
+              "id": "kv5irqf",
+              "author": "[deleted]",
+              "author_fullname": null,
+              "body": "[deleted]",
+              "score": 1,
+              "created_utc": 1710604659.0,
+              "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kv5irqf/",
+              "is_submitter": false,
+              "parent_id": "t1_kughrft",
+              "replies": [
+                {
+                  "id": "kv5pej8",
+                  "author": "TheIvoryFox",
+                  "author_fullname": "t2_hk9is5ql",
+                  "body": "Lololol",
+                  "score": 1,
+                  "created_utc": 1710607143.0,
+                  "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kv5pej8/",
+                  "is_submitter": true,
+                  "parent_id": "t1_kv5irqf",
+                  "replies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kugb2br",
+      "author": "rhododendron72",
+      "author_fullname": "t2_4h8cyoe0",
+      "body": "i don’t know how to describe a perfect set of captions, but this is about as close as i can think of. so hot! thank you for making these, i shall be eagerly awaiting more!",
+      "score": 1,
+      "created_utc": 1710203969.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kugb2br/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": []
+    },
+    {
+      "id": "kuk1yvk",
+      "author": "Shoddy_Conclusion830",
+      "author_fullname": "t2_f0drkz57",
+      "body": "If you ever need a big dick model for these posts lemme know I’ll gladly send you some shots ;)",
+      "score": 1,
+      "created_utc": 1710267478.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuk1yvk/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kuk8jl5",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "Actually trying to tell stories that revolve more around the characters and the manipulation and internal justification of cheating!! and less about “big dick” or “step sister stuck in laundry machine” 😂 suffice to say….. I am trying to sound cool and smart but I’m not",
+          "score": 1,
+          "created_utc": 1710269624.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuk8jl5/",
+          "is_submitter": true,
+          "parent_id": "t1_kuk1yvk",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "kul5465",
+      "author": "JacketAutomatic4988",
+      "author_fullname": "t2_t6978dvy",
+      "body": "Waiting for part 3 😈🤣🤣",
+      "score": 1,
+      "created_utc": 1710280962.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kul5465/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": []
+    },
+    {
+      "id": "kuonffb",
+      "author": "PayGreedy8029",
+      "author_fullname": "t2_78696ugp",
+      "body": "Remindme!",
+      "score": 1,
+      "created_utc": 1710341669.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuonffb/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": []
+    },
+    {
+      "id": "kuwj8e0",
+      "author": "JacketAutomatic4988",
+      "author_fullname": "t2_t6978dvy",
+      "body": "Where's part 3.  😈😂",
+      "score": 1,
+      "created_utc": 1710454155.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuwj8e0/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": []
+    },
+    {
+      "id": "kv2u3i0",
+      "author": "TTVSHARKSLAYER6420",
+      "author_fullname": "t2_9hiume65",
+      "body": "I wish I could bust all over that gorgeous face",
+      "score": 1,
+      "created_utc": 1710551225.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kv2u3i0/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kv2vnjq",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "Just use your phone screen 🤷‍♀️",
+          "score": 1,
+          "created_utc": 1710551874.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kv2vnjq/",
+          "is_submitter": true,
+          "parent_id": "t1_kv2u3i0",
+          "replies": [
+            {
+              "id": "ky3tknf",
+              "author": "TTVSHARKSLAYER6420",
+              "author_fullname": "t2_9hiume65",
+              "body": "Not the same as using your slutty face tho",
+              "score": 1,
+              "created_utc": 1712280017.0,
+              "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/ky3tknf/",
+              "is_submitter": false,
+              "parent_id": "t1_kv2vnjq",
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kvdi1dm",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "Absolutely love these. I would love to be a cuckold sissy",
+      "score": 1,
+      "created_utc": 1710729522.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kvdi1dm/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": []
+    },
+    {
+      "id": "kve5tkb",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "[removed]",
+      "score": 1,
+      "created_utc": 1710743068.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kve5tkb/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kvekher",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "Wait what lol? Was this supposed to make sense to me?",
+          "score": 1,
+          "created_utc": 1710754563.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kvekher/",
+          "is_submitter": true,
+          "parent_id": "t1_kve5tkb",
+          "replies": [
+            {
+              "id": "lmvafhx",
+              "author": "[deleted]",
+              "author_fullname": null,
+              "body": "[removed]",
+              "score": 1,
+              "created_utc": 1726194591.0,
+              "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/lmvafhx/",
+              "is_submitter": false,
+              "parent_id": "t1_kvekher",
+              "replies": [
+                {
+                  "id": "lmvafjr",
+                  "author": "AutoModerator",
+                  "author_fullname": "t2_6l4z3",
+                  "body": "This submission has been removed because it has been flagged a personals request.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/bangmybully) if you have any questions or concerns.*",
+                  "score": 1,
+                  "created_utc": 1726194591.0,
+                  "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/lmvafjr/",
+                  "is_submitter": false,
+                  "parent_id": "t1_lmvafhx",
+                  "replies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kveti45",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "Love this",
+      "score": 1,
+      "created_utc": 1710760670.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kveti45/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": []
+    },
+    {
+      "id": "kx97bxm",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "What your snap",
+      "score": 1,
+      "created_utc": 1711808049.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kx97bxm/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": []
+    },
+    {
+      "id": "mp1g3al",
+      "author": "Medical_Bunch3530",
+      "author_fullname": "t2_7j4ql0v2",
+      "body": "We need more lol",
+      "score": 1,
+      "created_utc": 1745615889.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/mp1g3al/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": []
+    },
+    {
+      "id": "kudzgbs",
+      "author": "FootAutomatic3903",
+      "author_fullname": "t2_vymsrzd56",
+      "body": "Dm me cucks",
+      "score": 1,
+      "created_utc": 1710175328.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kudzgbs/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kue04u4",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "Using my misery post to get into some dms?? Why not just dm this chris dude and protect me 😔",
+          "score": 3,
+          "created_utc": 1710175554.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kue04u4/",
+          "is_submitter": true,
+          "parent_id": "t1_kudzgbs",
+          "replies": [
+            {
+              "id": "kue212l",
+              "author": "FootAutomatic3903",
+              "author_fullname": "t2_vymsrzd56",
+              "body": "You don't deserve protecting that's why",
+              "score": 0,
+              "created_utc": 1710176184.0,
+              "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kue212l/",
+              "is_submitter": false,
+              "parent_id": "t1_kue04u4",
+              "replies": [
+                {
+                  "id": "kue2au4",
+                  "author": "TheIvoryFox",
+                  "author_fullname": "t2_hk9is5ql",
+                  "body": "What!? I’m innocent!!! Don’t be a bully",
+                  "score": 1,
+                  "created_utc": 1710176272.0,
+                  "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kue2au4/",
+                  "is_submitter": true,
+                  "parent_id": "t1_kue212l",
+                  "replies": [
+                    {
+                      "id": "kue2gws",
+                      "author": "FootAutomatic3903",
+                      "author_fullname": "t2_vymsrzd56",
+                      "body": "No need to lie we've all seen your true slutty self",
+                      "score": 1,
+                      "created_utc": 1710176326.0,
+                      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kue2gws/",
+                      "is_submitter": false,
+                      "parent_id": "t1_kue2au4",
+                      "replies": [
+                        {
+                          "id": "kue2zuk",
+                          "author": "TheIvoryFox",
+                          "author_fullname": "t2_hk9is5ql",
+                          "body": "Dude duck off!!! I have a bf 😡 slut is NOT ME",
+                          "score": 1,
+                          "created_utc": 1710176501.0,
+                          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kue2zuk/",
+                          "is_submitter": true,
+                          "parent_id": "t1_kue2gws",
+                          "replies": [
+                            {
+                              "id": "kue32kq",
+                              "author": "FootAutomatic3903",
+                              "author_fullname": "t2_vymsrzd56",
+                              "body": "Dm me slut you know you want to",
+                              "score": 0,
+                              "created_utc": 1710176526.0,
+                              "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kue32kq/",
+                              "is_submitter": false,
+                              "parent_id": "t1_kue2zuk",
+                              "replies": [
+                                {
+                                  "id": "kue3ehn",
+                                  "author": "TheIvoryFox",
+                                  "author_fullname": "t2_hk9is5ql",
+                                  "body": "Baha. No. I don’t. Have fun bulllllyyyyy. I’m going to suck my bf’s cock and NOT think of you 😜",
+                                  "score": 1,
+                                  "created_utc": 1710176637.0,
+                                  "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kue3ehn/",
+                                  "is_submitter": true,
+                                  "parent_id": "t1_kue32kq",
+                                  "replies": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kue340t",
+      "author": "Glum-Economist-3799",
+      "author_fullname": "t2_qr3qfspq8",
+      "body": "i need a bull to fuck my gf in the ass 🍑 and make me clean up",
+      "score": 0,
+      "created_utc": 1710176540.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kue340t/",
+      "is_submitter": false,
+      "parent_id": "t3_1bc7j0y",
+      "replies": [
+        {
+          "id": "kue3geq",
+          "author": "TheIvoryFox",
+          "author_fullname": "t2_hk9is5ql",
+          "body": "Meanwhile I’m here being blackmailed lol",
+          "score": 1,
+          "created_utc": 1710176655.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kue3geq/",
+          "is_submitter": true,
+          "parent_id": "t1_kue340t",
+          "replies": []
+        },
+        {
+          "id": "kuer8tr",
+          "author": "Ill-Evening-7774",
+          "author_fullname": "t2_ikfxxvvvl",
+          "body": "Dm",
+          "score": 1,
+          "created_utc": 1710184569.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kuer8tr/",
+          "is_submitter": false,
+          "parent_id": "t1_kue340t",
+          "replies": []
+        },
+        {
+          "id": "kxvni2p",
+          "author": "Bill-Adams",
+          "author_fullname": "t2_7zphq1sv",
+          "body": "Sure bring her to me",
+          "score": 1,
+          "created_utc": 1712163641.0,
+          "permalink": "https://www.reddit.com/r/bangmybully/comments/1bc7j0y/delete_them_part_2/kxvni2p/",
+          "is_submitter": false,
+          "parent_id": "t1_kue340t",
+          "replies": []
+        }
+      ]
+    }
+  ],
+  "media_kind": "gallery"
 }

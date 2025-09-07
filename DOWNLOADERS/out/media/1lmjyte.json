@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T10:14:47.000000+00:00",
+  "archived_at": "2025-09-07T21:59:34.972050+00:00",
   "reddit_fullname": "t3_1lmjyte",
   "reddit_id": "1lmjyte",
   "permalink": "https://www.reddit.com/r/MyAiGF/comments/1lmjyte/esdeath/",
@@ -25,10 +25,7 @@
   "num_comments": 1,
   "score": 3,
   "upvote_ratio": 0.72,
-  "media": {
-    "kind": "video",
-    "files": []
-  },
+  "media": null,
   "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
@@ -243,7 +240,7 @@
     "permalink": "/r/MyAiGF/comments/1lmjyte/esdeath/",
     "stickied": false,
     "url": "https://i.redd.it/r5a1v4qwen9f1.jpeg",
-    "subreddit_subscribers": 58424,
+    "subreddit_subscribers": 58498,
     "created_utc": 1751107926.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -335,5 +332,22 @@
       ],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [
+    {
+      "id": "n07zo7w",
+      "author": "AutoModerator",
+      "author_fullname": "t2_6l4z3",
+      "body": "\nThank you for your submission to r/MyAiGF\n\nMake sure to follow us!\n\n[Twitter](https://www.x.com/myaigfai)\n\n[Instagram](https://www.instagram.com/myaigf.ai)\n\nWant to start making AI girls? Head over to https://myaigf.ai\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MyAiGF) if you have any questions or concerns.*",
+      "score": 1,
+      "created_utc": 1751107927.0,
+      "permalink": "https://www.reddit.com/r/MyAiGF/comments/1lmjyte/esdeath/n07zo7w/",
+      "is_submitter": false,
+      "parent_id": "t3_1lmjyte",
+      "replies": []
+    }
+  ],
+  "media_kind": "image"
 }

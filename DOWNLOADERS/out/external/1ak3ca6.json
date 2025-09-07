@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T06:12:10.000000+00:00",
+  "archived_at": "2025-09-07T22:23:56.937828+00:00",
   "reddit_fullname": "t3_1ak3ca6",
   "reddit_id": "1ak3ca6",
   "permalink": "https://www.reddit.com/r/u_Nightpuzzle/comments/1ak3ca6/bbc/",
@@ -23,12 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 0,
-  "score": 9,
+  "score": 10,
   "upvote_ratio": 1.0,
-  "media": {
-    "kind": "link",
-    "files": []
-  },
+  "media": null,
   "external_link": "https://redgifs.com/watch/acclaimedwealthybats",
   "raw_post": {
     "approved_at_utc": null,
@@ -55,7 +52,7 @@
     "upvote_ratio": 1.0,
     "author_flair_background_color": null,
     "subreddit_type": "user",
-    "ups": 9,
+    "ups": 10,
     "total_awards_received": 0,
     "media_embed": {
       "content": "<iframe src=\"https://www.redgifs.com/ifr/acclaimedwealthybats\" frameborder=\"0\" scrolling=\"no\" width=\"100%\" height=\"100%\"\n      allowfullscreen style=\"position:absolute;\"></iframe>",
@@ -78,7 +75,7 @@
         "width": 600,
         "version": "1.0",
         "provider_name": "RedGIFs",
-        "thumbnail_url": "https://api.redgifs.com/v2/gifs/acclaimedwealthybats/files/AcclaimedWealthyBats-poster.jpg",
+        "thumbnail_url": "https://media.redgifs.com/AcclaimedWealthyBats-poster.jpg",
         "thumbnail_height": 1080
       },
       "type": "redgifs.com"
@@ -95,7 +92,7 @@
     },
     "link_flair_text": null,
     "can_mod_post": false,
-    "score": 9,
+    "score": 10,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -190,18 +187,6 @@
           "id": "9NtkfFBse7fPW0BQHhiGT5iiorPu7-tNJ_5gh-YRlKo"
         }
       ],
-      "reddit_video_preview": {
-        "bitrate_kbps": 1200,
-        "fallback_url": "https://v.redd.it/w0tnhha6bi7f1/DASH_480.mp4",
-        "height": 848,
-        "width": 480,
-        "scrubber_media_url": "https://v.redd.it/w0tnhha6bi7f1/DASH_96.mp4",
-        "dash_url": "https://v.redd.it/w0tnhha6bi7f1/DASHPlaylist.mpd",
-        "duration": 59,
-        "hls_url": "https://v.redd.it/w0tnhha6bi7f1/HLSPlaylist.m3u8",
-        "is_gif": true,
-        "transcoding_status": "completed"
-      },
       "enabled": false
     },
     "all_awardings": [],
@@ -240,7 +225,7 @@
         "width": 600,
         "version": "1.0",
         "provider_name": "RedGIFs",
-        "thumbnail_url": "https://api.redgifs.com/v2/gifs/acclaimedwealthybats/files/AcclaimedWealthyBats-poster.jpg",
+        "thumbnail_url": "https://media.redgifs.com/AcclaimedWealthyBats-poster.jpg",
         "thumbnail_height": 1080
       },
       "type": "redgifs.com"
@@ -267,5 +252,9 @@
       "children": [],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [],
+  "media_kind": "external"
 }

@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-08-10T23:07:01.299383+00:00",
+  "archived_at": "2025-09-07T22:27:21.184527+00:00",
   "reddit_fullname": "t3_1enbyct",
   "reddit_id": "1enbyct",
   "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1enbyct/amateur_takes_it_rough/",
@@ -25,10 +25,7 @@
   "num_comments": 0,
   "score": 0,
   "upvote_ratio": 0.26,
-  "media": {
-    "kind": "external",
-    "files": []
-  },
+  "media": null,
   "external_link": "http://redgifs.com/watch/suburbanfastowl",
   "raw_post": {
     "approved_at_utc": null,
@@ -58,7 +55,7 @@
     "ups": 0,
     "total_awards_received": 0,
     "media_embed": {
-      "content": "&lt;iframe src=\"https://www.redgifs.com/ifr/suburbanfastowl\" frameborder=\"0\" scrolling=\"no\" width=\"100%\" height=\"100%\"\n      allowfullscreen style=\"position:absolute;\"&gt;&lt;/iframe&gt;",
+      "content": "<iframe src=\"https://www.redgifs.com/ifr/suburbanfastowl\" frameborder=\"0\" scrolling=\"no\" width=\"100%\" height=\"100%\"\n      allowfullscreen style=\"position:absolute;\"></iframe>",
       "width": 600,
       "scrolling": false,
       "height": 1003
@@ -72,7 +69,7 @@
         "provider_url": "https://www.redgifs.com/",
         "title": "Amateur Porn GIF",
         "type": "video",
-        "html": "&lt;iframe src=\"https://www.redgifs.com/ifr/suburbanfastowl\" frameborder=\"0\" scrolling=\"no\" width=\"100%\" height=\"100%\"\n      allowfullscreen style=\"position:absolute;\"&gt;&lt;/iframe&gt;",
+        "html": "<iframe src=\"https://www.redgifs.com/ifr/suburbanfastowl\" frameborder=\"0\" scrolling=\"no\" width=\"100%\" height=\"100%\"\n      allowfullscreen style=\"position:absolute;\"></iframe>",
         "thumbnail_width": 430,
         "height": 1003,
         "width": 600,
@@ -87,7 +84,7 @@
     "is_meta": false,
     "category": null,
     "secure_media_embed": {
-      "content": "&lt;iframe src=\"https://www.redgifs.com/ifr/suburbanfastowl\" frameborder=\"0\" scrolling=\"no\" width=\"100%\" height=\"100%\"\n      allowfullscreen style=\"position:absolute;\"&gt;&lt;/iframe&gt;",
+      "content": "<iframe src=\"https://www.redgifs.com/ifr/suburbanfastowl\" frameborder=\"0\" scrolling=\"no\" width=\"100%\" height=\"100%\"\n      allowfullscreen style=\"position:absolute;\"></iframe>",
       "width": 600,
       "scrolling": false,
       "media_domain_url": "https://www.redditmedia.com/mediaembed/1enbyct",
@@ -157,7 +154,7 @@
         "provider_url": "https://www.redgifs.com/",
         "title": "Amateur Porn GIF",
         "type": "video",
-        "html": "&lt;iframe src=\"https://www.redgifs.com/ifr/suburbanfastowl\" frameborder=\"0\" scrolling=\"no\" width=\"100%\" height=\"100%\"\n      allowfullscreen style=\"position:absolute;\"&gt;&lt;/iframe&gt;",
+        "html": "<iframe src=\"https://www.redgifs.com/ifr/suburbanfastowl\" frameborder=\"0\" scrolling=\"no\" width=\"100%\" height=\"100%\"\n      allowfullscreen style=\"position:absolute;\"></iframe>",
         "thumbnail_width": 430,
         "height": 1003,
         "width": 600,
@@ -175,7 +172,7 @@
     "permalink": "/r/HentaiBullying/comments/1enbyct/amateur_takes_it_rough/",
     "stickied": false,
     "url": "http://redgifs.com/watch/suburbanfastowl",
-    "subreddit_subscribers": 203466,
+    "subreddit_subscribers": 205430,
     "created_utc": 1723138132.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -186,12 +183,14 @@
     "data": {
       "after": null,
       "dist": null,
-      "modhash": "",
+      "modhash": null,
       "geo_filter": "",
       "children": [],
       "before": null
     }
   },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
   "comments": [],
   "media_kind": "external"
 }

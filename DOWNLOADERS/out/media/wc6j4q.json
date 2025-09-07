@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T06:12:11.000000+00:00",
+  "archived_at": "2025-09-07T22:25:39.506837+00:00",
   "reddit_fullname": "t3_wc6j4q",
   "reddit_id": "wc6j4q",
   "permalink": "https://www.reddit.com/r/plusultrafavs/comments/wc6j4q/the_guide_your_girlfriend_uses_on_your/",
@@ -25,11 +25,8 @@
   "num_comments": 0,
   "score": 3,
   "upvote_ratio": 1.0,
-  "media": {
-    "kind": "link",
-    "files": []
-  },
-  "external_link": "https://redgifs.com/watch/acidiceachpeafowl",
+  "media": null,
+  "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
     "subreddit": "plusultrafavs",
@@ -78,7 +75,7 @@
         "width": 600,
         "version": "1.0",
         "provider_name": "RedGIFs",
-        "thumbnail_url": "https://api.redgifs.com/v2/gifs/acidiceachpeafowl/files/AcidicEachPeafowl-poster.jpg",
+        "thumbnail_url": "https://media.redgifs.com/AcidicEachPeafowl-poster.jpg",
         "thumbnail_height": 1080
       },
       "type": "redgifs.com"
@@ -131,9 +128,9 @@
         "name": "t3_wbo6f9",
         "quarantine": false,
         "link_flair_text_color": "light",
-        "upvote_ratio": 0.94,
+        "upvote_ratio": 0.95,
         "author_flair_background_color": "#1a1a1b",
-        "ups": 51,
+        "ups": 52,
         "total_awards_received": 0,
         "media_embed": {
           "content": "<iframe src=\"https://www.redgifs.com/ifr/acidiceachpeafowl\" frameborder=\"0\" scrolling=\"no\" width=\"100%\" height=\"100%\"\n      allowfullscreen style=\"position:absolute;\"></iframe>",
@@ -173,7 +170,7 @@
         },
         "link_flair_text": "TittyPie",
         "can_mod_post": false,
-        "score": 51,
+        "score": 52,
         "approved_by": null,
         "is_created_from_ads_ui": false,
         "author_premium": false,
@@ -360,7 +357,7 @@
         "permalink": "/r/bullypie/comments/wbo6f9/the_guide_your_girlfriend_uses_on_your/",
         "stickied": false,
         "url": "https://redgifs.com/watch/acidiceachpeafowl",
-        "subreddit_subscribers": 168651,
+        "subreddit_subscribers": 168788,
         "created_utc": 1659153654.0,
         "num_crossposts": 1,
         "mod_reports": [],
@@ -529,7 +526,7 @@
         "width": 600,
         "version": "1.0",
         "provider_name": "RedGIFs",
-        "thumbnail_url": "https://api.redgifs.com/v2/gifs/acidiceachpeafowl/files/AcidicEachPeafowl-poster.jpg",
+        "thumbnail_url": "https://media.redgifs.com/AcidicEachPeafowl-poster.jpg",
         "thumbnail_height": 1080
       },
       "type": "redgifs.com"
@@ -557,5 +554,9 @@
       "children": [],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [],
+  "media_kind": "video"
 }

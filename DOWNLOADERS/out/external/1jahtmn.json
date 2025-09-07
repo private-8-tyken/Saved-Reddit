@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T06:11:40.000000+00:00",
+  "archived_at": "2025-09-07T22:22:10.711706+00:00",
   "reddit_fullname": "t3_1jahtmn",
   "reddit_id": "1jahtmn",
   "permalink": "https://www.reddit.com/r/MelodyMarks/comments/1jahtmn/tipped_for_success/",
@@ -23,12 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 4,
-  "score": 1353,
+  "score": 1356,
   "upvote_ratio": 1.0,
-  "media": {
-    "kind": "link",
-    "files": []
-  },
+  "media": null,
   "external_link": "https://v3.redgifs.com/watch/mundanesweatytrogon",
   "raw_post": {
     "approved_at_utc": null,
@@ -54,7 +51,7 @@
     "link_flair_text_color": "light",
     "upvote_ratio": 1.0,
     "author_flair_background_color": null,
-    "ups": 1353,
+    "ups": 1356,
     "total_awards_received": 0,
     "media_embed": {
       "content": "<iframe src=\"https://www.redgifs.com/ifr/mundanesweatytrogon\" frameborder=\"0\" scrolling=\"no\" width=\"100%\" height=\"100%\"\n      allowfullscreen style=\"position:absolute;\"></iframe>",
@@ -94,7 +91,7 @@
     },
     "link_flair_text": "GIF",
     "can_mod_post": false,
-    "score": 1353,
+    "score": 1356,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -282,7 +279,7 @@
     "permalink": "/r/MelodyMarks/comments/1jahtmn/tipped_for_success/",
     "stickied": false,
     "url": "https://v3.redgifs.com/watch/mundanesweatytrogon",
-    "subreddit_subscribers": 297151,
+    "subreddit_subscribers": 297208,
     "created_utc": 1741887602.0,
     "num_crossposts": 2,
     "mod_reports": [],
@@ -605,5 +602,59 @@
       ],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [
+    {
+      "id": "mho87sh",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "Holy shit🥵🥵",
+      "score": 2,
+      "created_utc": 1741914999.0,
+      "permalink": "https://www.reddit.com/r/MelodyMarks/comments/1jahtmn/tipped_for_success/mho87sh/",
+      "is_submitter": false,
+      "parent_id": "t3_1jahtmn",
+      "replies": []
+    },
+    {
+      "id": "mi7mew8",
+      "author": "Horror-Brain6216",
+      "author_fullname": "t2_4kde8eon5",
+      "body": "name?",
+      "score": 1,
+      "created_utc": 1742186794.0,
+      "permalink": "https://www.reddit.com/r/MelodyMarks/comments/1jahtmn/tipped_for_success/mi7mew8/",
+      "is_submitter": false,
+      "parent_id": "t3_1jahtmn",
+      "replies": [
+        {
+          "id": "mimoazp",
+          "author": "PossibleSir9584",
+          "author_fullname": "t2_1l2aw1sopc",
+          "body": "i think u can figure that out",
+          "score": 1,
+          "created_utc": 1742396781.0,
+          "permalink": "https://www.reddit.com/r/MelodyMarks/comments/1jahtmn/tipped_for_success/mimoazp/",
+          "is_submitter": false,
+          "parent_id": "t1_mi7mew8",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "mj5cybf",
+      "author": "Cannonfire577",
+      "author_fullname": "t2_51himv7v",
+      "body": "She'd make a great Hooters girl",
+      "score": 1,
+      "created_utc": 1742653145.0,
+      "permalink": "https://www.reddit.com/r/MelodyMarks/comments/1jahtmn/tipped_for_success/mj5cybf/",
+      "is_submitter": false,
+      "parent_id": "t3_1jahtmn",
+      "replies": []
+    }
+  ],
+  "media_kind": "external"
 }

@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T06:11:45.000000+00:00",
+  "archived_at": "2025-09-07T22:25:16.441213+00:00",
   "reddit_fullname": "t3_y1lpgu",
   "reddit_id": "y1lpgu",
   "permalink": "https://www.reddit.com/r/bangmybully/comments/y1lpgu/your_girlfriend_went_to_beg_your_bully_to_be/",
@@ -23,12 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 2,
-  "score": 411,
+  "score": 405,
   "upvote_ratio": 1.0,
-  "media": {
-    "kind": "link",
-    "files": []
-  },
+  "media": null,
   "external_link": "https://www.redgifs.com/watch/goldunhappywaterbug",
   "raw_post": {
     "approved_at_utc": null,
@@ -54,7 +51,7 @@
     "link_flair_text_color": "light",
     "upvote_ratio": 1.0,
     "author_flair_background_color": null,
-    "ups": 411,
+    "ups": 405,
     "total_awards_received": 0,
     "media_embed": {
       "content": "<iframe src=\"https://www.redgifs.com/ifr/goldunhappywaterbug\" frameborder=\"0\" scrolling=\"no\" width=\"100%\" height=\"100%\"\n      allowfullscreen style=\"position:absolute;\"></iframe>",
@@ -94,7 +91,7 @@
     },
     "link_flair_text": "GF",
     "can_mod_post": false,
-    "score": 411,
+    "score": 405,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -270,7 +267,7 @@
     "permalink": "/r/bangmybully/comments/y1lpgu/your_girlfriend_went_to_beg_your_bully_to_be/",
     "stickied": false,
     "url": "https://www.redgifs.com/watch/goldunhappywaterbug",
-    "subreddit_subscribers": 661806,
+    "subreddit_subscribers": 662063,
     "created_utc": 1665525505.0,
     "num_crossposts": 3,
     "mod_reports": [],
@@ -427,5 +424,34 @@
       ],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [
+    {
+      "id": "jak0b0m",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "Ooooh daddy",
+      "score": 1,
+      "created_utc": 1677714504.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/y1lpgu/your_girlfriend_went_to_beg_your_bully_to_be/jak0b0m/",
+      "is_submitter": false,
+      "parent_id": "t3_y1lpgu",
+      "replies": []
+    },
+    {
+      "id": "kaimjdk",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "Name? She is so baddd",
+      "score": 1,
+      "created_utc": 1700792603.0,
+      "permalink": "https://www.reddit.com/r/bangmybully/comments/y1lpgu/your_girlfriend_went_to_beg_your_bully_to_be/kaimjdk/",
+      "is_submitter": false,
+      "parent_id": "t3_y1lpgu",
+      "replies": []
+    }
+  ],
+  "media_kind": "external"
 }

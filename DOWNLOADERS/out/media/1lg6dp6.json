@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T10:14:50.000000+00:00",
+  "archived_at": "2025-09-07T21:59:38.960706+00:00",
   "reddit_fullname": "t3_1lg6dp6",
   "reddit_id": "1lg6dp6",
   "permalink": "https://www.reddit.com/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/",
@@ -25,10 +25,7 @@
   "num_comments": 22,
   "score": 2062,
   "upvote_ratio": 0.99,
-  "media": {
-    "kind": "gallery",
-    "files": []
-  },
+  "media": null,
   "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
@@ -967,7 +964,7 @@
     "permalink": "/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/",
     "stickied": false,
     "url": "https://www.reddit.com/gallery/1lg6dp6",
-    "subreddit_subscribers": 57450,
+    "subreddit_subscribers": 57454,
     "created_utc": 1750432154.0,
     "num_crossposts": 3,
     "mod_reports": [],
@@ -1034,7 +1031,7 @@
                       "created_utc": 1750437168.0,
                       "send_replies": true,
                       "parent_id": "t1_mytsw3x",
-                      "score": 23,
+                      "score": 24,
                       "author_fullname": "t2_8vo844rw",
                       "removal_reason": null,
                       "approved_by": null,
@@ -1076,7 +1073,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 23
+                      "ups": 24
                     }
                   }
                 ],
@@ -1217,7 +1214,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_myuqrud",
-                                "score": 8,
+                                "score": 10,
                                 "author_fullname": "t2_9vx9w",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -1260,7 +1257,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 8
+                                "ups": 10
                               }
                             }
                           ],
@@ -1281,7 +1278,7 @@
                       "created_utc": 1750443173.0,
                       "send_replies": true,
                       "parent_id": "t1_myuqkcb",
-                      "score": 16,
+                      "score": 17,
                       "author_fullname": "t2_1ekb98vtbd",
                       "removal_reason": null,
                       "approved_by": null,
@@ -1323,7 +1320,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 16
+                      "ups": 17
                     }
                   }
                 ],
@@ -1344,7 +1341,7 @@
             "created_utc": 1750443113.0,
             "send_replies": true,
             "parent_id": "t3_1lg6dp6",
-            "score": 24,
+            "score": 26,
             "author_fullname": "t2_9vx9w",
             "approved_by": null,
             "mod_note": null,
@@ -1386,7 +1383,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 24
+            "ups": 26
           }
         },
         {
@@ -1505,7 +1502,7 @@
             "created_utc": 1750432775.0,
             "send_replies": true,
             "parent_id": "t3_1lg6dp6",
-            "score": 8,
+            "score": 11,
             "author_fullname": "t2_9ba748uj",
             "approved_by": null,
             "mod_note": null,
@@ -1547,7 +1544,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 8
+            "ups": 11
           }
         },
         {
@@ -1827,7 +1824,7 @@
             "created_utc": 1750439890.0,
             "send_replies": true,
             "parent_id": "t3_1lg6dp6",
-            "score": 7,
+            "score": 9,
             "author_fullname": "t2_3u8egyjx",
             "approved_by": null,
             "mod_note": null,
@@ -1869,7 +1866,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 7
+            "ups": 9
           }
         },
         {
@@ -1902,7 +1899,7 @@
             "created_utc": 1750443238.0,
             "send_replies": true,
             "parent_id": "t3_1lg6dp6",
-            "score": 6,
+            "score": 5,
             "author_fullname": "t2_ctnhp50p",
             "approved_by": null,
             "mod_note": null,
@@ -1944,7 +1941,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 6
+            "ups": 5
           }
         },
         {
@@ -2572,7 +2569,6 @@
         {
           "kind": "t1",
           "data": {
-            "body": "Why it’s have two tails?",
             "subreddit_id": "t5_3ohgo",
             "approved_at_utc": null,
             "author_is_blocked": false,
@@ -2606,7 +2602,7 @@
             "mod_note": null,
             "all_awardings": [],
             "collapsed": false,
-            "author_cakeday": true,
+            "body": "Why it’s have two tails?",
             "edited": false,
             "top_awarded_type": null,
             "author_flair_css_class": null,
@@ -2723,5 +2719,282 @@
       ],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [
+    {
+      "id": "mytsw3x",
+      "author": "AqueleAll",
+      "author_fullname": "t2_cwfr4adt",
+      "body": "I loved this. I would like to find more stories like this and also see a continuation of this one.",
+      "score": 61,
+      "created_utc": 1750433473.0,
+      "permalink": "https://www.reddit.com/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/mytsw3x/",
+      "is_submitter": false,
+      "parent_id": "t3_1lg6dp6",
+      "replies": [
+        {
+          "id": "myu5n3y",
+          "author": "rubbersuit2",
+          "author_fullname": "t2_8vo844rw",
+          "body": "The artist does have more similar stories.",
+          "score": 24,
+          "created_utc": 1750437168.0,
+          "permalink": "https://www.reddit.com/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/myu5n3y/",
+          "is_submitter": false,
+          "parent_id": "t1_mytsw3x",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "myuqkcb",
+      "author": "throwaway77772",
+      "author_fullname": "t2_9vx9w",
+      "body": "Grammar badly in this comic /s\n\nI got the jist but hoo boy",
+      "score": 26,
+      "created_utc": 1750443113.0,
+      "permalink": "https://www.reddit.com/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/myuqkcb/",
+      "is_submitter": false,
+      "parent_id": "t3_1lg6dp6",
+      "replies": [
+        {
+          "id": "myuqrud",
+          "author": "FetishConnoisseur_",
+          "author_fullname": "t2_1ekb98vtbd",
+          "body": "I didn't do the translation so... Not me to blame!",
+          "score": 17,
+          "created_utc": 1750443173.0,
+          "permalink": "https://www.reddit.com/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/myuqrud/",
+          "is_submitter": true,
+          "parent_id": "t1_myuqkcb",
+          "replies": [
+            {
+              "id": "myuqztu",
+              "author": "throwaway77772",
+              "author_fullname": "t2_9vx9w",
+              "body": "No shade to you, obviously the person who did translate isn't a native English speaker. Which i get English is one of the hardest languages to learn",
+              "score": 10,
+              "created_utc": 1750443238.0,
+              "permalink": "https://www.reddit.com/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/myuqztu/",
+              "is_submitter": false,
+              "parent_id": "t1_myuqrud",
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mytqgzt",
+      "author": "Chibi-cherries",
+      "author_fullname": "t2_9ba748uj",
+      "body": "Me next…",
+      "score": 11,
+      "created_utc": 1750432775.0,
+      "permalink": "https://www.reddit.com/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/mytqgzt/",
+      "is_submitter": false,
+      "parent_id": "t3_1lg6dp6",
+      "replies": [
+        {
+          "id": "myur0wg",
+          "author": "LatexLoverFr",
+          "author_fullname": "t2_ctnhp50p",
+          "body": "Me first \\^\\^",
+          "score": 3,
+          "created_utc": 1750443246.0,
+          "permalink": "https://www.reddit.com/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/myur0wg/",
+          "is_submitter": false,
+          "parent_id": "t1_mytqgzt",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "myuf6u4",
+      "author": "ThatAltAcc69",
+      "author_fullname": "t2_3u8egyjx",
+      "body": "Where does win post most of their stuff nowadays? Pixiv?",
+      "score": 9,
+      "created_utc": 1750439890.0,
+      "permalink": "https://www.reddit.com/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/myuf6u4/",
+      "is_submitter": false,
+      "parent_id": "t3_1lg6dp6",
+      "replies": [
+        {
+          "id": "myuiled",
+          "author": "Immediate-Escape-520",
+          "author_fullname": "t2_8smzj6gjk",
+          "body": "They are very restrictive on releasing their work for free, you can find sites that have a majority of it but not everything. Best is to support them and get the new comics when they come out",
+          "score": 17,
+          "created_utc": 1750440841.0,
+          "permalink": "https://www.reddit.com/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/myuiled/",
+          "is_submitter": false,
+          "parent_id": "t1_myuf6u4",
+          "replies": [
+            {
+              "id": "myuquxk",
+              "author": "FetishConnoisseur_",
+              "author_fullname": "t2_1ekb98vtbd",
+              "body": "or scrape it off Kemono.su",
+              "score": 7,
+              "created_utc": 1750443198.0,
+              "permalink": "https://www.reddit.com/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/myuquxk/",
+              "is_submitter": true,
+              "parent_id": "t1_myuiled",
+              "replies": []
+            }
+          ]
+        },
+        {
+          "id": "myufg0e",
+          "author": "FetishConnoisseur_",
+          "author_fullname": "t2_1ekb98vtbd",
+          "body": "Probably. Can't give a link tho, sorry. But I am sure you can find it.",
+          "score": 6,
+          "created_utc": 1750439962.0,
+          "permalink": "https://www.reddit.com/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/myufg0e/",
+          "is_submitter": true,
+          "parent_id": "t1_myuf6u4",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "myuqzut",
+      "author": "LatexLoverFr",
+      "author_fullname": "t2_ctnhp50p",
+      "body": "Where is this alien slime ? \\^\\^'",
+      "score": 5,
+      "created_utc": 1750443238.0,
+      "permalink": "https://www.reddit.com/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/myuqzut/",
+      "is_submitter": false,
+      "parent_id": "t3_1lg6dp6",
+      "replies": []
+    },
+    {
+      "id": "myuclhj",
+      "author": "Throwawayjwg",
+      "author_fullname": "t2_aljx2tdo",
+      "body": "Fuck yeah",
+      "score": 3,
+      "created_utc": 1750439164.0,
+      "permalink": "https://www.reddit.com/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/myuclhj/",
+      "is_submitter": false,
+      "parent_id": "t3_1lg6dp6",
+      "replies": []
+    },
+    {
+      "id": "mywb70m",
+      "author": "thisodduser",
+      "author_fullname": "t2_5h9v1pgb",
+      "body": "Me please",
+      "score": 3,
+      "created_utc": 1750460712.0,
+      "permalink": "https://www.reddit.com/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/mywb70m/",
+      "is_submitter": false,
+      "parent_id": "t3_1lg6dp6",
+      "replies": []
+    },
+    {
+      "id": "myynhoq",
+      "author": "Rasputin11567",
+      "author_fullname": "t2_w9vq52dr",
+      "body": "Damn I wish I was the blonde woman who got put in the slime suit 🥵",
+      "score": 3,
+      "created_utc": 1750499530.0,
+      "permalink": "https://www.reddit.com/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/myynhoq/",
+      "is_submitter": false,
+      "parent_id": "t3_1lg6dp6",
+      "replies": []
+    },
+    {
+      "id": "myyqs9z",
+      "author": "Kagian",
+      "author_fullname": "t2_12vqfd",
+      "body": "I dunno, she's suffocating the whole time.",
+      "score": 3,
+      "created_utc": 1750501492.0,
+      "permalink": "https://www.reddit.com/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/myyqs9z/",
+      "is_submitter": false,
+      "parent_id": "t3_1lg6dp6",
+      "replies": [
+        {
+          "id": "myytbzq",
+          "author": "FetishConnoisseur_",
+          "author_fullname": "t2_1ekb98vtbd",
+          "body": "Slime can deliver oxygen through itself, but yeah, it is not really explained in these bondage type scenarios.",
+          "score": 4,
+          "created_utc": 1750502948.0,
+          "permalink": "https://www.reddit.com/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/myytbzq/",
+          "is_submitter": true,
+          "parent_id": "t1_myyqs9z",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "mz08hzh",
+      "author": "svante8008",
+      "author_fullname": "t2_9byi7",
+      "body": "Remind me when next part comes out",
+      "score": 3,
+      "created_utc": 1750522447.0,
+      "permalink": "https://www.reddit.com/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/mz08hzh/",
+      "is_submitter": false,
+      "parent_id": "t3_1lg6dp6",
+      "replies": [
+        {
+          "id": "mz0f0se",
+          "author": "FetishConnoisseur_",
+          "author_fullname": "t2_1ekb98vtbd",
+          "body": "I am posting it about now",
+          "score": 3,
+          "created_utc": 1750524522.0,
+          "permalink": "https://www.reddit.com/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/mz0f0se/",
+          "is_submitter": true,
+          "parent_id": "t1_mz08hzh",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "myv6vgq",
+      "author": "MarkusStaiger",
+      "author_fullname": "t2_kpxrcbyv",
+      "body": "patreon?",
+      "score": 2,
+      "created_utc": 1750447960.0,
+      "permalink": "https://www.reddit.com/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/myv6vgq/",
+      "is_submitter": false,
+      "parent_id": "t3_1lg6dp6",
+      "replies": []
+    },
+    {
+      "id": "mywzt3d",
+      "author": "FuccFace42069",
+      "author_fullname": "t2_ecz17ocr",
+      "body": "Why it’s have two tails?",
+      "score": 2,
+      "created_utc": 1750469640.0,
+      "permalink": "https://www.reddit.com/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/mywzt3d/",
+      "is_submitter": false,
+      "parent_id": "t3_1lg6dp6",
+      "replies": []
+    },
+    {
+      "id": "myyeliz",
+      "author": "Pale-Paint3927",
+      "author_fullname": "t2_upnprx81",
+      "body": "More!",
+      "score": 1,
+      "created_utc": 1750493949.0,
+      "permalink": "https://www.reddit.com/r/biosuits/comments/1lg6dp6/vorepunk_space_peril_by_win4699/myyeliz/",
+      "is_submitter": false,
+      "parent_id": "t3_1lg6dp6",
+      "replies": []
+    }
+  ],
+  "media_kind": "gallery"
 }

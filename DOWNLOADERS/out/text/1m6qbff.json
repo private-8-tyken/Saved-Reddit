@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T01:40:26.000000+00:00",
+  "archived_at": "2025-09-07T21:55:00.595151+00:00",
   "reddit_fullname": "t3_1m6qbff",
   "reddit_id": "1m6qbff",
   "permalink": "https://www.reddit.com/r/Rapekink/comments/1m6qbff/i_was_raped_by_my_rich_friends_dad/",
@@ -25,10 +25,7 @@
   "num_comments": 6,
   "score": 99,
   "upvote_ratio": 0.97,
-  "media": {
-    "kind": "self",
-    "files": []
-  },
+  "media": null,
   "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
@@ -125,7 +122,7 @@
     "permalink": "/r/Rapekink/comments/1m6qbff/i_was_raped_by_my_rich_friends_dad/",
     "stickied": false,
     "url": "https://www.reddit.com/r/Rapekink/comments/1m6qbff/i_was_raped_by_my_rich_friends_dad/",
-    "subreddit_subscribers": 158799,
+    "subreddit_subscribers": 158788,
     "created_utc": 1753218719.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -149,7 +146,7 @@
             "awarders": [],
             "mod_reason_by": null,
             "banned_by": null,
-            "ups": 5,
+            "ups": 6,
             "removal_reason": null,
             "link_id": "t3_1m6qbff",
             "author_flair_template_id": null,
@@ -319,7 +316,7 @@
             "can_mod_post": false,
             "send_replies": true,
             "parent_id": "t3_1m6qbff",
-            "score": 5,
+            "score": 6,
             "approved_by": null,
             "report_reasons": null,
             "all_awardings": [],
@@ -363,5 +360,47 @@
       ],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [
+    {
+      "id": "n4lmn4a",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "[removed]",
+      "score": 6,
+      "created_utc": 1753219528.0,
+      "permalink": "https://www.reddit.com/r/Rapekink/comments/1m6qbff/i_was_raped_by_my_rich_friends_dad/n4lmn4a/",
+      "is_submitter": false,
+      "parent_id": "t3_1m6qbff",
+      "replies": [
+        {
+          "id": "n4lnann",
+          "author": "[deleted]",
+          "author_fullname": null,
+          "body": "[removed]",
+          "score": 13,
+          "created_utc": 1753219723.0,
+          "permalink": "https://www.reddit.com/r/Rapekink/comments/1m6qbff/i_was_raped_by_my_rich_friends_dad/n4lnann/",
+          "is_submitter": false,
+          "parent_id": "t1_n4lmn4a",
+          "replies": []
+        },
+        {
+          "id": "n4mop20",
+          "author": "[deleted]",
+          "author_fullname": null,
+          "body": "[removed]",
+          "score": 2,
+          "created_utc": 1753231780.0,
+          "permalink": "https://www.reddit.com/r/Rapekink/comments/1m6qbff/i_was_raped_by_my_rich_friends_dad/n4mop20/",
+          "is_submitter": false,
+          "parent_id": "t1_n4lmn4a",
+          "replies": []
+        }
+      ]
+    }
+  ],
+  "media_kind": "self"
 }

@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T10:17:12.000000+00:00",
+  "archived_at": "2025-09-07T22:04:35.445620+00:00",
   "reddit_fullname": "t3_17mub7t",
   "reddit_id": "17mub7t",
   "permalink": "https://www.reddit.com/r/IShouldBuyABoat/comments/17mub7t/urgent_i_need_a_boat_reason/",
@@ -23,13 +23,10 @@
   "locked": false,
   "edited": false,
   "num_comments": 4,
-  "score": 101,
+  "score": 104,
   "upvote_ratio": 0.99,
-  "media": {
-    "kind": "link",
-    "files": []
-  },
-  "external_link": "https://i.redgifs.com/i/rosyelementarygoral.jpg",
+  "media": null,
+  "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
     "subreddit": "IShouldBuyABoat",
@@ -55,7 +52,7 @@
     "upvote_ratio": 0.99,
     "author_flair_background_color": "transparent",
     "subreddit_type": "public",
-    "ups": 101,
+    "ups": 104,
     "total_awards_received": 0,
     "media_embed": {},
     "thumbnail_width": 140,
@@ -69,7 +66,7 @@
     "secure_media_embed": {},
     "link_flair_text": null,
     "can_mod_post": false,
-    "score": 101,
+    "score": 104,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -258,7 +255,7 @@
     "permalink": "/r/IShouldBuyABoat/comments/17mub7t/urgent_i_need_a_boat_reason/",
     "stickied": false,
     "url": "https://i.redgifs.com/i/rosyelementarygoral.jpg",
-    "subreddit_subscribers": 175088,
+    "subreddit_subscribers": 175095,
     "created_utc": 1699015650.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -657,5 +654,72 @@
       ],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [
+    {
+      "id": "k7rrwzs",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "Agreed!!",
+      "score": 2,
+      "created_utc": 1699093449.0,
+      "permalink": "https://www.reddit.com/r/IShouldBuyABoat/comments/17mub7t/urgent_i_need_a_boat_reason/k7rrwzs/",
+      "is_submitter": false,
+      "parent_id": "t3_17mub7t",
+      "replies": []
+    },
+    {
+      "id": "k7pg5gc",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "Bibary?",
+      "score": 1,
+      "created_utc": 1699046622.0,
+      "permalink": "https://www.reddit.com/r/IShouldBuyABoat/comments/17mub7t/urgent_i_need_a_boat_reason/k7pg5gc/",
+      "is_submitter": false,
+      "parent_id": "t3_17mub7t",
+      "replies": [
+        {
+          "id": "k7xguvl",
+          "author": "DTEnthusiast",
+          "author_fullname": "t2_h8bvjxj",
+          "body": "no",
+          "score": 0,
+          "created_utc": 1699194160.0,
+          "permalink": "https://www.reddit.com/r/IShouldBuyABoat/comments/17mub7t/urgent_i_need_a_boat_reason/k7xguvl/",
+          "is_submitter": true,
+          "parent_id": "t1_k7pg5gc",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "k7xcvc6",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "[deleted]",
+      "score": 1,
+      "created_utc": 1699192459.0,
+      "permalink": "https://www.reddit.com/r/IShouldBuyABoat/comments/17mub7t/urgent_i_need_a_boat_reason/k7xcvc6/",
+      "is_submitter": false,
+      "parent_id": "t3_17mub7t",
+      "replies": [
+        {
+          "id": "k7xgub7",
+          "author": "DTEnthusiast",
+          "author_fullname": "t2_h8bvjxj",
+          "body": ">Bibary\n\nno",
+          "score": 1,
+          "created_utc": 1699194154.0,
+          "permalink": "https://www.reddit.com/r/IShouldBuyABoat/comments/17mub7t/urgent_i_need_a_boat_reason/k7xgub7/",
+          "is_submitter": true,
+          "parent_id": "t1_k7xcvc6",
+          "replies": []
+        }
+      ]
+    }
+  ],
+  "media_kind": "image"
 }

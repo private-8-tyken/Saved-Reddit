@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-08-12T18:15:21.958521+00:00",
+  "archived_at": "2025-09-07T22:11:14.656918+00:00",
   "reddit_fullname": "t3_118mc5t",
   "reddit_id": "118mc5t",
   "permalink": "https://www.reddit.com/r/u_thematchandkerosene/comments/118mc5t/wednesday_and_thing/",
@@ -23,13 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 7,
-  "score": 594,
+  "score": 592,
   "upvote_ratio": 0.99,
-  "media": {
-    "kind": "video",
-    "files": [],
-    "merged": null
-  },
+  "media": null,
   "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
@@ -56,7 +52,7 @@
     "upvote_ratio": 0.99,
     "author_flair_background_color": null,
     "subreddit_type": "user",
-    "ups": 594,
+    "ups": 592,
     "total_awards_received": 0,
     "media_embed": {},
     "thumbnail_width": 140,
@@ -70,7 +66,7 @@
     "secure_media_embed": {},
     "link_flair_text": null,
     "can_mod_post": false,
-    "score": 594,
+    "score": 592,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -114,7 +110,7 @@
         "upvote_ratio": 0.98,
         "author_flair_background_color": null,
         "subreddit_type": "public",
-        "ups": 26306,
+        "ups": 26309,
         "total_awards_received": 0,
         "media_embed": {},
         "thumbnail_width": 140,
@@ -128,7 +124,7 @@
         "secure_media_embed": {},
         "link_flair_text": "[ COSPLAY ]",
         "can_mod_post": false,
-        "score": 26306,
+        "score": 26309,
         "approved_by": null,
         "is_created_from_ads_ui": false,
         "author_premium": false,
@@ -191,7 +187,7 @@
         "permalink": "/r/rule34/comments/118m36j/wednesday_and_thing_thematchandkerosene_wednesday/",
         "stickied": false,
         "url": "https://i.imgur.com/wHmL9IW.gifv",
-        "subreddit_subscribers": 3650366,
+        "subreddit_subscribers": 3663412,
         "created_utc": 1677031786.0,
         "num_crossposts": 17,
         "mod_reports": [],
@@ -214,20 +210,20 @@
     "view_count": null,
     "archived": true,
     "no_follow": false,
-    "is_crosspostable": false,
+    "is_crosspostable": true,
     "pinned": false,
     "over_18": true,
     "preview": {
       "images": [
         {
           "source": {
-            "url": "https://external-preview.redd.it/ESPM-tTuK3werLgfWG_wBsw_trUSDNU4bI5s2jVRAgQ.png?auto=webp&amp;s=5516eaced3d9aa38c5fb842ca40ea36a3c164eed",
+            "url": "https://external-preview.redd.it/ESPM-tTuK3werLgfWG_wBsw_trUSDNU4bI5s2jVRAgQ.png?auto=webp&s=5516eaced3d9aa38c5fb842ca40ea36a3c164eed",
             "width": 161,
             "height": 81
           },
           "resolutions": [
             {
-              "url": "https://external-preview.redd.it/ESPM-tTuK3werLgfWG_wBsw_trUSDNU4bI5s2jVRAgQ.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=6bdf4d9c8ec6b3100f803c1cf0848f49a5aee344",
+              "url": "https://external-preview.redd.it/ESPM-tTuK3werLgfWG_wBsw_trUSDNU4bI5s2jVRAgQ.png?width=108&crop=smart&auto=webp&s=6bdf4d9c8ec6b3100f803c1cf0848f49a5aee344",
               "width": 108,
               "height": 54
             }
@@ -235,13 +231,13 @@
           "variants": {
             "obfuscated": {
               "source": {
-                "url": "https://external-preview.redd.it/ESPM-tTuK3werLgfWG_wBsw_trUSDNU4bI5s2jVRAgQ.png?blur=40&amp;format=pjpg&amp;auto=webp&amp;s=abcda45e1e665a8614d760f2ee45004b1ef2a552",
+                "url": "https://external-preview.redd.it/ESPM-tTuK3werLgfWG_wBsw_trUSDNU4bI5s2jVRAgQ.png?blur=40&format=pjpg&auto=webp&s=abcda45e1e665a8614d760f2ee45004b1ef2a552",
                 "width": 161,
                 "height": 81
               },
               "resolutions": [
                 {
-                  "url": "https://external-preview.redd.it/ESPM-tTuK3werLgfWG_wBsw_trUSDNU4bI5s2jVRAgQ.png?width=108&amp;crop=smart&amp;blur=10&amp;format=pjpg&amp;auto=webp&amp;s=c12b5600edb8bdbe6025971661c691aac08f7dcf",
+                  "url": "https://external-preview.redd.it/ESPM-tTuK3werLgfWG_wBsw_trUSDNU4bI5s2jVRAgQ.png?width=108&crop=smart&blur=10&format=pjpg&auto=webp&s=c12b5600edb8bdbe6025971661c691aac08f7dcf",
                   "width": 108,
                   "height": 54
                 }
@@ -249,13 +245,13 @@
             },
             "nsfw": {
               "source": {
-                "url": "https://external-preview.redd.it/ESPM-tTuK3werLgfWG_wBsw_trUSDNU4bI5s2jVRAgQ.png?blur=40&amp;format=pjpg&amp;auto=webp&amp;s=abcda45e1e665a8614d760f2ee45004b1ef2a552",
+                "url": "https://external-preview.redd.it/ESPM-tTuK3werLgfWG_wBsw_trUSDNU4bI5s2jVRAgQ.png?blur=40&format=pjpg&auto=webp&s=abcda45e1e665a8614d760f2ee45004b1ef2a552",
                 "width": 161,
                 "height": 81
               },
               "resolutions": [
                 {
-                  "url": "https://external-preview.redd.it/ESPM-tTuK3werLgfWG_wBsw_trUSDNU4bI5s2jVRAgQ.png?width=108&amp;crop=smart&amp;blur=10&amp;format=pjpg&amp;auto=webp&amp;s=c12b5600edb8bdbe6025971661c691aac08f7dcf",
+                  "url": "https://external-preview.redd.it/ESPM-tTuK3werLgfWG_wBsw_trUSDNU4bI5s2jVRAgQ.png?width=108&crop=smart&blur=10&format=pjpg&auto=webp&s=c12b5600edb8bdbe6025971661c691aac08f7dcf",
                   "width": 108,
                   "height": 54
                 }
@@ -311,7 +307,7 @@
     "data": {
       "after": null,
       "dist": null,
-      "modhash": "",
+      "modhash": null,
       "geo_filter": "",
       "children": [
         {
@@ -334,7 +330,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -382,7 +378,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;☺️&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>☺️</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -445,7 +441,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Does thing finger you?&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Does thing finger you?</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -520,7 +516,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;very well done!&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>very well done!</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -595,7 +591,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;So hot&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>So hot</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -665,7 +661,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;🔥🔥🔥🔥&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>🔥🔥🔥🔥</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -735,7 +731,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;🥵&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>🥵</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -805,7 +801,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Content that sexualizes minors, whether real or fictional, is not permitted on Reddit. Wednesday is a minor and therefore, this post violates Reddit&amp;#39;s ToS.&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Content that sexualizes minors, whether real or fictional, is not permitted on Reddit. Wednesday is a minor and therefore, this post violates Reddit&#39;s ToS.</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -839,13 +835,14 @@
       "before": null
     }
   },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
   "comments": [
     {
       "id": "j9je0qp",
       "author": "Embarrassed_Bridge10",
       "author_fullname": "t2_j5c1uz6w",
       "body": "Does thing finger you?",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Does thing finger you?&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1677066840.0,
       "permalink": "https://www.reddit.com/r/u_thematchandkerosene/comments/118mc5t/wednesday_and_thing/j9je0qp/",
@@ -857,7 +854,6 @@
           "author": "thematchandkerosene",
           "author_fullname": "t2_4wsk7asa",
           "body": "☺️",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;☺️&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1677070423.0,
           "permalink": "https://www.reddit.com/r/u_thematchandkerosene/comments/118mc5t/wednesday_and_thing/j9jjzdj/",
@@ -872,7 +868,6 @@
       "author": "ptmymnky",
       "author_fullname": "t2_es708",
       "body": "very well done!",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;very well done!&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1677077123.0,
       "permalink": "https://www.reddit.com/r/u_thematchandkerosene/comments/118mc5t/wednesday_and_thing/j9jy9kg/",
@@ -885,7 +880,6 @@
       "author": "Cornadious",
       "author_fullname": "t2_hoikt",
       "body": "So hot",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;So hot&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1677037492.0,
       "permalink": "https://www.reddit.com/r/u_thematchandkerosene/comments/118mc5t/wednesday_and_thing/j9i80ld/",
@@ -898,7 +892,6 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "🔥🔥🔥🔥",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;🔥🔥🔥🔥&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1677074789.0,
       "permalink": "https://www.reddit.com/r/u_thematchandkerosene/comments/118mc5t/wednesday_and_thing/j9jsw4f/",
@@ -911,7 +904,6 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "🥵",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;🥵&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1677036252.0,
       "permalink": "https://www.reddit.com/r/u_thematchandkerosene/comments/118mc5t/wednesday_and_thing/j9i5fuq/",
@@ -924,7 +916,6 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "Content that sexualizes minors, whether real or fictional, is not permitted on Reddit. Wednesday is a minor and therefore, this post violates Reddit's ToS.",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Content that sexualizes minors, whether real or fictional, is not permitted on Reddit. Wednesday is a minor and therefore, this post violates Reddit&amp;#39;s ToS.&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1677298771.0,
       "permalink": "https://www.reddit.com/r/u_thematchandkerosene/comments/118mc5t/wednesday_and_thing/j9x1rqg/",

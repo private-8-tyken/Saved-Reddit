@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T10:15:12.000000+00:00",
+  "archived_at": "2025-09-07T22:18:56.056101+00:00",
   "reddit_fullname": "t3_1fx27p5",
   "reddit_id": "1fx27p5",
   "permalink": "https://www.reddit.com/r/u_FishermanAncient4937/comments/1fx27p5/katyaaeliza/",
@@ -25,10 +25,7 @@
   "num_comments": 0,
   "score": 228,
   "upvote_ratio": 1.0,
-  "media": {
-    "kind": "self",
-    "files": []
-  },
+  "media": null,
   "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
@@ -661,5 +658,9 @@
       "children": [],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [],
+  "media_kind": "gallery"
 }

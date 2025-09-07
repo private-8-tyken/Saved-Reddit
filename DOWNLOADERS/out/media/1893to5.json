@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-08-10T22:42:08.925263+00:00",
+  "archived_at": "2025-09-07T21:54:44.458542+00:00",
   "reddit_fullname": "t3_1893to5",
   "reddit_id": "1893to5",
   "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/",
@@ -23,14 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 104,
-  "score": 1496,
+  "score": 1512,
   "upvote_ratio": 1.0,
-  "media": {
-    "kind": "image",
-    "files": [
-      "media\\1893to5\\image.gif"
-    ]
-  },
+  "media": null,
   "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
@@ -57,7 +52,7 @@
     "upvote_ratio": 1.0,
     "author_flair_background_color": "",
     "subreddit_type": "public",
-    "ups": 1496,
+    "ups": 1512,
     "total_awards_received": 0,
     "media_embed": {},
     "thumbnail_width": 140,
@@ -70,7 +65,7 @@
     "secure_media_embed": {},
     "link_flair_text": "Monthly Theme",
     "can_mod_post": false,
-    "score": 1496,
+    "score": 1512,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "thumbnail": "https://b.thumbs.redditmedia.com/FGxViEWXpqgyZYiq6LvuFNCxzK4IOX8EGvm3GhInR9U.jpg",
@@ -88,7 +83,7 @@
     "banned_by": null,
     "domain": "i.redd.it",
     "allow_live_comments": false,
-    "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Some in the fascist ministry thought this was too direct, but the results should speak for themselves&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>Some in the fascist ministry thought this was too direct, but the results should speak for themselves</p>\n</div><!-- SC_ON -->",
     "likes": null,
     "suggested_sort": null,
     "banned_at_utc": null,
@@ -96,35 +91,35 @@
     "view_count": null,
     "archived": false,
     "no_follow": false,
-    "is_crosspostable": false,
+    "is_crosspostable": true,
     "pinned": false,
     "over_18": true,
     "preview": {
       "images": [
         {
           "source": {
-            "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?format=png8&amp;s=a37f51f9e87038511a5fc04e5703a6bc3a574c00",
+            "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?format=png8&s=a37f51f9e87038511a5fc04e5703a6bc3a574c00",
             "width": 853,
             "height": 480
           },
           "resolutions": [
             {
-              "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=108&amp;crop=smart&amp;format=png8&amp;s=3f1ed1a5fb185574b8b99eec7759ac60bb30a109",
+              "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=108&crop=smart&format=png8&s=3f1ed1a5fb185574b8b99eec7759ac60bb30a109",
               "width": 108,
               "height": 60
             },
             {
-              "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=216&amp;crop=smart&amp;format=png8&amp;s=f60fc9fd38b712dc90173bcbd054f9b677c9f8df",
+              "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=216&crop=smart&format=png8&s=f60fc9fd38b712dc90173bcbd054f9b677c9f8df",
               "width": 216,
               "height": 121
             },
             {
-              "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=320&amp;crop=smart&amp;format=png8&amp;s=712a2a42b2332bf681d8455920dc01967f248172",
+              "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=320&crop=smart&format=png8&s=712a2a42b2332bf681d8455920dc01967f248172",
               "width": 320,
               "height": 180
             },
             {
-              "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=640&amp;crop=smart&amp;format=png8&amp;s=478f45b1cb24dbfab0c8eda6b38f49358f412556",
+              "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=640&crop=smart&format=png8&s=478f45b1cb24dbfab0c8eda6b38f49358f412556",
               "width": 640,
               "height": 360
             }
@@ -132,28 +127,28 @@
           "variants": {
             "obfuscated": {
               "source": {
-                "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?blur=40&amp;format=png8&amp;s=af234e33799549b5576f7e430c8bec7fdef9d2be",
+                "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?blur=40&format=png8&s=af234e33799549b5576f7e430c8bec7fdef9d2be",
                 "width": 853,
                 "height": 480
               },
               "resolutions": [
                 {
-                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=108&amp;crop=smart&amp;blur=10&amp;format=png8&amp;s=c12c49cc03073925bc4378f886cb008b06498209",
+                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=108&crop=smart&blur=10&format=png8&s=c12c49cc03073925bc4378f886cb008b06498209",
                   "width": 108,
                   "height": 60
                 },
                 {
-                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=216&amp;crop=smart&amp;blur=21&amp;format=png8&amp;s=89812457b7dc3a340ecb2420aab93eb3e9ff21fc",
+                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=216&crop=smart&blur=21&format=png8&s=89812457b7dc3a340ecb2420aab93eb3e9ff21fc",
                   "width": 216,
                   "height": 121
                 },
                 {
-                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=320&amp;crop=smart&amp;blur=32&amp;format=png8&amp;s=2d5a92eb6e1a42fc8e598baccc0d732a6740f09f",
+                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=320&crop=smart&blur=32&format=png8&s=2d5a92eb6e1a42fc8e598baccc0d732a6740f09f",
                   "width": 320,
                   "height": 180
                 },
                 {
-                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=640&amp;crop=smart&amp;blur=40&amp;format=png8&amp;s=9dbba7af49be9c986368d9d767cecb0a3ca0c1a8",
+                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=640&crop=smart&blur=40&format=png8&s=9dbba7af49be9c986368d9d767cecb0a3ca0c1a8",
                   "width": 640,
                   "height": 360
                 }
@@ -167,22 +162,22 @@
               },
               "resolutions": [
                 {
-                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=108&amp;crop=smart&amp;s=ca6fa508f3137f8ca61d616d3e31dd2d60b6d321",
+                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=108&crop=smart&s=ca6fa508f3137f8ca61d616d3e31dd2d60b6d321",
                   "width": 108,
                   "height": 60
                 },
                 {
-                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=216&amp;crop=smart&amp;s=f202cdbaeb3b63d9110f85a1ab419276f535b80b",
+                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=216&crop=smart&s=f202cdbaeb3b63d9110f85a1ab419276f535b80b",
                   "width": 216,
                   "height": 121
                 },
                 {
-                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=320&amp;crop=smart&amp;s=88fe8e85a7930b49a7690c4810f03725477f9ebb",
+                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=320&crop=smart&s=88fe8e85a7930b49a7690c4810f03725477f9ebb",
                   "width": 320,
                   "height": 180
                 },
                 {
-                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=640&amp;crop=smart&amp;s=5dd8f21c2e64b2132505881d01e3951dbe7b9e53",
+                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=640&crop=smart&s=5dd8f21c2e64b2132505881d01e3951dbe7b9e53",
                   "width": 640,
                   "height": 360
                 }
@@ -190,28 +185,28 @@
             },
             "mp4": {
               "source": {
-                "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?format=mp4&amp;s=3f264f4e24d98fa1d0c3de072064a34f25b7ad88",
+                "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?format=mp4&s=3f264f4e24d98fa1d0c3de072064a34f25b7ad88",
                 "width": 853,
                 "height": 480
               },
               "resolutions": [
                 {
-                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=108&amp;format=mp4&amp;s=b1c0b38a8b575d8ea07f7484134535ebdb27036a",
+                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=108&format=mp4&s=b1c0b38a8b575d8ea07f7484134535ebdb27036a",
                   "width": 108,
                   "height": 60
                 },
                 {
-                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=216&amp;format=mp4&amp;s=3d773faa11c0d73153611fb6c488d454b76dbe85",
+                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=216&format=mp4&s=3d773faa11c0d73153611fb6c488d454b76dbe85",
                   "width": 216,
                   "height": 121
                 },
                 {
-                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=320&amp;format=mp4&amp;s=befd4d87863871f02f8dd57f2d4e3980f4afa950",
+                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=320&format=mp4&s=befd4d87863871f02f8dd57f2d4e3980f4afa950",
                   "width": 320,
                   "height": 180
                 },
                 {
-                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=640&amp;format=mp4&amp;s=73584284d1814d63231dc541d795a7af813dcf79",
+                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=640&format=mp4&s=73584284d1814d63231dc541d795a7af813dcf79",
                   "width": 640,
                   "height": 360
                 }
@@ -219,28 +214,28 @@
             },
             "nsfw": {
               "source": {
-                "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?blur=40&amp;format=png8&amp;s=af234e33799549b5576f7e430c8bec7fdef9d2be",
+                "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?blur=40&format=png8&s=af234e33799549b5576f7e430c8bec7fdef9d2be",
                 "width": 853,
                 "height": 480
               },
               "resolutions": [
                 {
-                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=108&amp;crop=smart&amp;blur=10&amp;format=png8&amp;s=c12c49cc03073925bc4378f886cb008b06498209",
+                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=108&crop=smart&blur=10&format=png8&s=c12c49cc03073925bc4378f886cb008b06498209",
                   "width": 108,
                   "height": 60
                 },
                 {
-                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=216&amp;crop=smart&amp;blur=21&amp;format=png8&amp;s=89812457b7dc3a340ecb2420aab93eb3e9ff21fc",
+                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=216&crop=smart&blur=21&format=png8&s=89812457b7dc3a340ecb2420aab93eb3e9ff21fc",
                   "width": 216,
                   "height": 121
                 },
                 {
-                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=320&amp;crop=smart&amp;blur=32&amp;format=png8&amp;s=2d5a92eb6e1a42fc8e598baccc0d732a6740f09f",
+                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=320&crop=smart&blur=32&format=png8&s=2d5a92eb6e1a42fc8e598baccc0d732a6740f09f",
                   "width": 320,
                   "height": 180
                 },
                 {
-                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=640&amp;crop=smart&amp;blur=40&amp;format=png8&amp;s=9dbba7af49be9c986368d9d767cecb0a3ca0c1a8",
+                  "url": "https://preview.redd.it/anfeo4ubwv3c1.gif?width=640&crop=smart&blur=40&format=png8&s=9dbba7af49be9c986368d9d767cecb0a3ca0c1a8",
                   "width": 640,
                   "height": 360
                 }
@@ -272,7 +267,7 @@
     "link_flair_background_color": "#edeff1",
     "id": "1893to5",
     "is_robot_indexable": true,
-    "num_duplicates": 3,
+    "num_duplicates": 2,
     "report_reasons": null,
     "author": "[deleted]",
     "discussion_type": null,
@@ -284,7 +279,7 @@
     "permalink": "/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/",
     "stickied": false,
     "url": "https://i.redd.it/anfeo4ubwv3c1.gif",
-    "subreddit_subscribers": 142060,
+    "subreddit_subscribers": 146464,
     "created_utc": 1701523986.0,
     "num_crossposts": 10,
     "mod_reports": [],
@@ -295,7 +290,7 @@
     "data": {
       "after": null,
       "dist": null,
-      "modhash": "",
+      "modhash": null,
       "geo_filter": "",
       "children": [
         {
@@ -308,7 +303,7 @@
             "awarders": [],
             "mod_reason_by": null,
             "banned_by": null,
-            "ups": 15,
+            "ups": 17,
             "removal_reason": null,
             "link_id": "t3_1893to5",
             "author_flair_template_id": null,
@@ -318,7 +313,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -341,7 +336,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": "",
+                          "modhash": null,
                           "geo_filter": "",
                           "children": [
                             {
@@ -384,7 +379,7 @@
                                 "author_flair_css_class": null,
                                 "downs": 0,
                                 "is_submitter": false,
-                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Yes sir&lt;/p&gt;\n&lt;/div&gt;",
+                                "body_html": "<div class=\"md\"><p>Yes sir</p>\n</div>",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "associated_award": null,
@@ -454,7 +449,7 @@
                                 "author_flair_css_class": null,
                                 "downs": 0,
                                 "is_submitter": false,
-                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;That’s what it should be!&lt;/p&gt;\n&lt;/div&gt;",
+                                "body_html": "<div class=\"md\"><p>That’s what it should be!</p>\n</div>",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "associated_award": null,
@@ -517,7 +512,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;girls should be taught this in school.&lt;/p&gt;\n\n&lt;p&gt;schools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>girls should be taught this in school.</p>\n\n<p>schools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -587,7 +582,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Every time you mouth off I’ll make sure you remember your true place&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>Every time you mouth off I’ll make sure you remember your true place</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -637,7 +632,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": "",
+                          "modhash": null,
                           "geo_filter": "",
                           "children": [
                             {
@@ -675,12 +670,12 @@
                                 "report_reasons": null,
                                 "all_awardings": [],
                                 "subreddit_id": "t5_6iwv7p",
-                                "body": "Thank you, Sir &lt;3",
+                                "body": "Thank you, Sir <3",
                                 "edited": false,
                                 "author_flair_css_class": null,
                                 "downs": 0,
                                 "is_submitter": false,
-                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Thank you, Sir &amp;lt;3&lt;/p&gt;\n&lt;/div&gt;",
+                                "body_html": "<div class=\"md\"><p>Thank you, Sir &lt;3</p>\n</div>",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "associated_award": null,
@@ -743,7 +738,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Nothing but fuckmeat&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>Nothing but fuckmeat</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -793,7 +788,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": "",
+                          "modhash": null,
                           "geo_filter": "",
                           "children": [
                             {
@@ -816,7 +811,7 @@
                                   "data": {
                                     "after": null,
                                     "dist": null,
-                                    "modhash": "",
+                                    "modhash": null,
                                     "geo_filter": "",
                                     "children": [
                                       {
@@ -859,7 +854,7 @@
                                           "author_flair_css_class": null,
                                           "collapsed": false,
                                           "is_submitter": false,
-                                          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;You all exist solely for men. You are weak and dumb always&lt;/p&gt;\n&lt;/div&gt;",
+                                          "body_html": "<div class=\"md\"><p>You all exist solely for men. You are weak and dumb always</p>\n</div>",
                                           "gildings": {},
                                           "collapsed_reason": null,
                                           "associated_award": null,
@@ -912,12 +907,12 @@
                                 "report_reasons": null,
                                 "all_awardings": [],
                                 "subreddit_id": "t5_6iwv7p",
-                                "body": "Will do Sir, thank you for reminding me Sir &lt;3",
+                                "body": "Will do Sir, thank you for reminding me Sir <3",
                                 "edited": false,
                                 "author_flair_css_class": null,
                                 "downs": 0,
                                 "is_submitter": false,
-                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Will do Sir, thank you for reminding me Sir &amp;lt;3&lt;/p&gt;\n&lt;/div&gt;",
+                                "body_html": "<div class=\"md\"><p>Will do Sir, thank you for reminding me Sir &lt;3</p>\n</div>",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "associated_award": null,
@@ -975,7 +970,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Stacey, you and every other person with tits and holes are weak and dumb, weak and dumb, weak and dumb. You need to repeat it to yourself until it goes in&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>Stacey, you and every other person with tits and holes are weak and dumb, weak and dumb, weak and dumb. You need to repeat it to yourself until it goes in</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -1045,7 +1040,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Sure thing, tits&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>Sure thing, tits</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -1120,7 +1115,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Dm me&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>Dm me</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -1190,7 +1185,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I can do that easy😈&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>I can do that easy😈</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -1237,18 +1232,18 @@
             "can_mod_post": false,
             "send_replies": true,
             "parent_id": "t3_1893to5",
-            "score": 15,
+            "score": 17,
             "approved_by": null,
             "report_reasons": null,
             "all_awardings": [],
             "subreddit_id": "t5_6iwv7p",
-            "body": "I'm dumb sir and need constant reminder of these truths &lt;3.",
+            "body": "I'm dumb sir and need constant reminder of these truths <3.",
             "edited": false,
             "downs": 0,
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;m dumb sir and need constant reminder of these truths &amp;lt;3.&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>I&#39;m dumb sir and need constant reminder of these truths &lt;3.</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -1298,7 +1293,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -1321,7 +1316,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": "",
+                          "modhash": null,
                           "geo_filter": "",
                           "children": [
                             {
@@ -1369,7 +1364,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Please?&lt;/p&gt;\n&lt;/div&gt;",
+                                "body_html": "<div class=\"md\"><p>Please?</p>\n</div>",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -1427,7 +1422,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I’ll breed u also while u watch it and even beg for more😏&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>I’ll breed u also while u watch it and even beg for more😏</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -1502,7 +1497,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;girls should be taught this in school.&lt;br/&gt;\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>girls should be taught this in school.<br/>\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -1577,7 +1572,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Dm me&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>Dm me</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -1627,7 +1622,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": "",
+                          "modhash": null,
                           "geo_filter": "",
                           "children": [
                             {
@@ -1650,7 +1645,7 @@
                                   "data": {
                                     "after": null,
                                     "dist": null,
-                                    "modhash": "",
+                                    "modhash": null,
                                     "geo_filter": "",
                                     "children": [
                                       {
@@ -1693,7 +1688,7 @@
                                           "author_flair_css_class": null,
                                           "collapsed": false,
                                           "is_submitter": false,
-                                          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;On your weeping cunt, I do&lt;/p&gt;\n&lt;/div&gt;",
+                                          "body_html": "<div class=\"md\"><p>On your weeping cunt, I do</p>\n</div>",
                                           "gildings": {},
                                           "collapsed_reason": null,
                                           "associated_award": null,
@@ -1756,7 +1751,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;You promise? 🥺&lt;/p&gt;\n&lt;/div&gt;",
+                                "body_html": "<div class=\"md\"><p>You promise? 🥺</p>\n</div>",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -1814,7 +1809,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I’ll hold your eyes open so you don’t miss a second of it&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>I’ll hold your eyes open so you don’t miss a second of it</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -1877,7 +1872,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Please keep this on repeat while you fuck me raw&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Please keep this on repeat while you fuck me raw</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -1917,7 +1912,7 @@
             "awarders": [],
             "mod_reason_by": null,
             "banned_by": null,
-            "ups": 10,
+            "ups": 12,
             "removal_reason": null,
             "link_id": "t3_1893to5",
             "author_flair_template_id": null,
@@ -1927,7 +1922,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -1940,7 +1935,7 @@
                       "awarders": [],
                       "mod_reason_by": null,
                       "banned_by": null,
-                      "ups": 5,
+                      "ups": 4,
                       "removal_reason": null,
                       "link_id": "t3_1893to5",
                       "author_flair_template_id": null,
@@ -1959,7 +1954,7 @@
                       "can_mod_post": false,
                       "send_replies": true,
                       "parent_id": "t1_kboqukj",
-                      "score": 5,
+                      "score": 4,
                       "approved_by": null,
                       "report_reasons": null,
                       "all_awardings": [],
@@ -1970,7 +1965,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;A nice little mantra for when I’m filling your ass. My finger pulling your lips back into a twisted grin&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>A nice little mantra for when I’m filling your ass. My finger pulling your lips back into a twisted grin</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -2030,7 +2025,7 @@
                       "created_utc": 1701539439.0,
                       "send_replies": true,
                       "parent_id": "t1_kboqukj",
-                      "score": 5,
+                      "score": 6,
                       "author_fullname": "t2_nud5z36tp",
                       "removal_reason": null,
                       "approved_by": null,
@@ -2045,7 +2040,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Soon the only thing you’ll want is more White God Cock&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>Soon the only thing you’ll want is more White God Cock</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -2072,7 +2067,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 5
+                      "ups": 6
                     }
                   },
                   {
@@ -2115,7 +2110,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Good girl&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>Good girl</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -2190,7 +2185,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;girls should be taught this in school.&lt;br/&gt;\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>girls should be taught this in school.<br/>\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -2237,7 +2232,7 @@
             "can_mod_post": false,
             "send_replies": true,
             "parent_id": "t3_1893to5",
-            "score": 10,
+            "score": 12,
             "approved_by": null,
             "report_reasons": null,
             "all_awardings": [],
@@ -2248,7 +2243,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I’m a fucktoy, I’m a fucktoy, I’m a fucktoy, I’m a fucktoy, I’m a fucktoy, I’m a fucktoy, I’m a fucktoy, I’M A FUCKTOY💅🏻💖🤤&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>I’m a fucktoy, I’m a fucktoy, I’m a fucktoy, I’m a fucktoy, I’m a fucktoy, I’m a fucktoy, I’m a fucktoy, I’M A FUCKTOY💅🏻💖🤤</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -2298,7 +2293,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -2321,7 +2316,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": "",
+                          "modhash": null,
                           "geo_filter": "",
                           "children": [
                             {
@@ -2369,7 +2364,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I’ve had quite a few messages from very manly, strong-looking rightwing alpha men. I must admit I… definitely don’t feel very masculine compared to them! Especially sitting here typing wearing a pair of panties whilst my penis a locked in a cage. I do definitely love being feminine and girly sometimes- and I am very submissive sexually, so I can definitely see where they’re coming from… 😬&lt;/p&gt;\n&lt;/div&gt;",
+                                "body_html": "<div class=\"md\"><p>I’ve had quite a few messages from very manly, strong-looking rightwing alpha men. I must admit I… definitely don’t feel very masculine compared to them! Especially sitting here typing wearing a pair of panties whilst my penis a locked in a cage. I do definitely love being feminine and girly sometimes- and I am very submissive sexually, so I can definitely see where they’re coming from… 😬</p>\n</div>",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -2432,7 +2427,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;That&amp;#39;s just because it&amp;#39;s true&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>That&#39;s just because it&#39;s true</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -2449,7 +2444,7 @@
                       "locked": false,
                       "report_reasons": null,
                       "created": 1701526246.0,
-                      "author_flair_text": "Fashy Sissy",
+                      "author_flair_text": "Fashy Daddy",
                       "treatment_tags": [],
                       "collapsed": false,
                       "subreddit_name_prefixed": "r/FuckingFascists",
@@ -2495,7 +2490,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;A few rightwing men have told me that they don’t think of us liberal guys as “men”. We tend to be a lot more feminine and submissive than they are- and have much smaller penises as a rule… 😔 a few girls have even told me the same thing as well!&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>A few rightwing men have told me that they don’t think of us liberal guys as “men”. We tend to be a lot more feminine and submissive than they are- and have much smaller penises as a rule… 😔 a few girls have even told me the same thing as well!</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -2535,7 +2530,7 @@
             "awarders": [],
             "mod_reason_by": null,
             "banned_by": null,
-            "ups": 8,
+            "ups": 9,
             "removal_reason": null,
             "link_id": "t3_1893to5",
             "author_flair_template_id": null,
@@ -2545,7 +2540,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -2593,7 +2588,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Keep drooling. Keep rubbing. Get dumber and more obedient.&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>Keep drooling. Keep rubbing. Get dumber and more obedient.</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -2668,7 +2663,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;girls should be taught this in school.&lt;br/&gt;\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>girls should be taught this in school.<br/>\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -2715,7 +2710,7 @@
             "can_mod_post": false,
             "send_replies": true,
             "parent_id": "t3_1893to5",
-            "score": 8,
+            "score": 9,
             "approved_by": null,
             "report_reasons": null,
             "all_awardings": [],
@@ -2726,7 +2721,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;fuck this reminds me how stupid  i am&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>fuck this reminds me how stupid  i am</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -2796,7 +2791,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;A fun little video to play for them while they gag on my cock&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>A fun little video to play for them while they gag on my cock</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -2836,7 +2831,7 @@
             "awarders": [],
             "mod_reason_by": null,
             "banned_by": null,
-            "ups": 7,
+            "ups": 6,
             "removal_reason": null,
             "link_id": "t3_1893to5",
             "author_flair_template_id": null,
@@ -2846,7 +2841,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -2889,7 +2884,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Every hour on the hour. Now kneel&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>Every hour on the hour. Now kneel</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -2964,7 +2959,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;girls should be taught this in school.&lt;br/&gt;\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>girls should be taught this in school.<br/>\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -3011,7 +3006,7 @@
             "can_mod_post": false,
             "send_replies": true,
             "parent_id": "t3_1893to5",
-            "score": 7,
+            "score": 6,
             "approved_by": null,
             "report_reasons": null,
             "all_awardings": [],
@@ -3022,7 +3017,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I’m a dumb slut. Please remind me everyday&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>I’m a dumb slut. Please remind me everyday</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -3072,7 +3067,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -3120,7 +3115,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;i agree. and from that moment are brains just got dumber and dumber that we have to rely on men. women of color are meant to be owned by White MEGA Men. they know what&amp;#39;s right.&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>i agree. and from that moment are brains just got dumber and dumber that we have to rely on men. women of color are meant to be owned by White MEGA Men. they know what&#39;s right.</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -3168,7 +3163,7 @@
             "created_utc": 1701555806.0,
             "send_replies": true,
             "parent_id": "t3_1893to5",
-            "score": 6,
+            "score": 7,
             "author_fullname": "t2_5zc057v",
             "approved_by": null,
             "mod_note": null,
@@ -3183,7 +3178,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;It’s the perfect propaganda because we can’t stop watching it, our little brains see women being used how deep down we know we’re made to be used and just can’t stop&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>It’s the perfect propaganda because we can’t stop watching it, our little brains see women being used how deep down we know we’re made to be used and just can’t stop</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -3210,7 +3205,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 6
+            "ups": 7
           }
         },
         {
@@ -3253,7 +3248,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Thank you for posting this sir&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Thank you for posting this sir</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -3313,7 +3308,7 @@
             "created_utc": 1701527671.0,
             "send_replies": true,
             "parent_id": "t3_1893to5",
-            "score": 5,
+            "score": 6,
             "author_fullname": "t2_8epi425o",
             "approved_by": null,
             "mod_note": null,
@@ -3328,7 +3323,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Get yourself a &amp;quot;I&amp;#39;m too dumb to vote&amp;quot; button or sticker. Those should be a thing, really.&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Get yourself a &quot;I&#39;m too dumb to vote&quot; button or sticker. Those should be a thing, really.</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -3355,7 +3350,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 5
+            "ups": 6
           }
         },
         {
@@ -3378,7 +3373,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -3426,7 +3421,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;girls should be taught this in school.&lt;br/&gt;\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>girls should be taught this in school.<br/>\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -3489,7 +3484,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Mmmmm we are only meant for men use&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Mmmmm we are only meant for men use</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -3549,7 +3544,7 @@
             "created_utc": 1701526258.0,
             "send_replies": true,
             "parent_id": "t3_1893to5",
-            "score": 3,
+            "score": 4,
             "author_fullname": "t2_op7p3ld1p",
             "approved_by": null,
             "mod_note": null,
@@ -3564,7 +3559,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;100% Truth&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>100% Truth</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -3581,7 +3576,7 @@
             "locked": false,
             "report_reasons": null,
             "created": 1701526258.0,
-            "author_flair_text": "Fashy Sissy",
+            "author_flair_text": "Fashy Daddy",
             "treatment_tags": [],
             "link_id": "t3_1893to5",
             "subreddit_name_prefixed": "r/FuckingFascists",
@@ -3591,7 +3586,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 3
+            "ups": 4
           }
         },
         {
@@ -3639,7 +3634,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;They are nothing more than a sex toy&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>They are nothing more than a sex toy</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -3679,7 +3674,7 @@
             "awarders": [],
             "mod_reason_by": null,
             "banned_by": null,
-            "ups": 5,
+            "ups": 3,
             "removal_reason": null,
             "link_id": "t3_1893to5",
             "author_flair_template_id": null,
@@ -3689,7 +3684,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -3732,7 +3727,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I know you are, I need a tight submissive slut like you&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>I know you are, I need a tight submissive slut like you</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -3807,7 +3802,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Dm me&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>Dm me</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -3882,7 +3877,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;girls should be taught this in school.&lt;br/&gt;\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>girls should be taught this in school.<br/>\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -3929,7 +3924,7 @@
             "can_mod_post": false,
             "send_replies": true,
             "parent_id": "t3_1893to5",
-            "score": 5,
+            "score": 3,
             "approved_by": null,
             "report_reasons": null,
             "all_awardings": [],
@@ -3940,7 +3935,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[deleted]&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>[deleted]</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -3980,7 +3975,7 @@
             "awarders": [],
             "mod_reason_by": null,
             "banned_by": null,
-            "ups": 4,
+            "ups": 3,
             "removal_reason": null,
             "link_id": "t3_1893to5",
             "author_flair_template_id": null,
@@ -3990,7 +3985,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -4038,7 +4033,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;girls should be taught this in school.&lt;br/&gt;\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>girls should be taught this in school.<br/>\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -4108,7 +4103,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;And if you need more help feel free to crawl into my dms like a good girl and beg for some libslut&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>And if you need more help feel free to crawl into my dms like a good girl and beg for some libslut</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -4155,7 +4150,7 @@
             "can_mod_post": false,
             "send_replies": true,
             "parent_id": "t3_1893to5",
-            "score": 4,
+            "score": 3,
             "approved_by": null,
             "report_reasons": null,
             "all_awardings": [],
@@ -4166,7 +4161,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Yes, this is the way to get rid of my feminist thoughts&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Yes, this is the way to get rid of my feminist thoughts</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -4216,7 +4211,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -4264,7 +4259,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;girls should be taught this in school.&lt;br/&gt;\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>girls should be taught this in school.<br/>\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -4327,7 +4322,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Just the kind of propaganda I need in my life to remind me of my place.&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Just the kind of propaganda I need in my life to remind me of my place.</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -4387,7 +4382,7 @@
             "created_utc": 1701558204.0,
             "send_replies": true,
             "parent_id": "t3_1893to5",
-            "score": 4,
+            "score": 3,
             "author_fullname": "t2_najnk9rnu",
             "approved_by": null,
             "mod_note": null,
@@ -4402,7 +4397,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Ohh good, this is a lot clearer than the last propaganda video which was just way too subtle for my dumb brain to understand! Now I know that we&amp;#39;re all weak and dumb and shouldn&amp;#39;t think and vote and stuff!&lt;/p&gt;\n\n&lt;p&gt;You would think I&amp;#39;d know that by now, but I guess that&amp;#39;s why I need more &lt;del&gt;brainwashing&lt;/del&gt; education, hee hee~!&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Ohh good, this is a lot clearer than the last propaganda video which was just way too subtle for my dumb brain to understand! Now I know that we&#39;re all weak and dumb and shouldn&#39;t think and vote and stuff!</p>\n\n<p>You would think I&#39;d know that by now, but I guess that&#39;s why I need more <del>brainwashing</del> education, hee hee~!</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -4429,7 +4424,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 4
+            "ups": 3
           }
         },
         {
@@ -4462,7 +4457,7 @@
             "created_utc": 1701565437.0,
             "send_replies": true,
             "parent_id": "t3_1893to5",
-            "score": 3,
+            "score": 4,
             "author_fullname": "t2_l3l09fakr",
             "approved_by": null,
             "mod_note": null,
@@ -4477,7 +4472,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;m very dumb, all I&amp;#39;m good for is my body and serving men&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>I&#39;m very dumb, all I&#39;m good for is my body and serving men</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -4504,7 +4499,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 3
+            "ups": 4
           }
         },
         {
@@ -4552,7 +4547,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;You only serve to feed my ego and fuel my orgasms&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>You only serve to feed my ego and fuel my orgasms</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -4627,7 +4622,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Spread the word and tell your friends all about it. We&amp;#39;ll someday have a world where all women know their place in society&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Spread the word and tell your friends all about it. We&#39;ll someday have a world where all women know their place in society</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -4702,7 +4697,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Fuck em till they vote red.&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Fuck em till they vote red.</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -4777,7 +4772,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;No thoughts, just suck and fuck like a good little hole :)&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>No thoughts, just suck and fuck like a good little hole :)</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -4827,7 +4822,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -4850,7 +4845,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": "",
+                          "modhash": null,
                           "geo_filter": "",
                           "children": [
                             {
@@ -4873,7 +4868,7 @@
                                   "data": {
                                     "after": null,
                                     "dist": null,
-                                    "modhash": "",
+                                    "modhash": null,
                                     "geo_filter": "",
                                     "children": [
                                       {
@@ -4921,7 +4916,7 @@
                                           "downs": 0,
                                           "author_flair_richtext": [],
                                           "author_patreon_flair": false,
-                                          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;m glad you understand your place. Now submit to my cock&lt;/p&gt;\n&lt;/div&gt;",
+                                          "body_html": "<div class=\"md\"><p>I&#39;m glad you understand your place. Now submit to my cock</p>\n</div>",
                                           "gildings": {},
                                           "collapsed_reason": null,
                                           "distinguished": null,
@@ -4979,7 +4974,7 @@
                                 "author_flair_css_class": null,
                                 "downs": 0,
                                 "is_submitter": false,
-                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;It’s all I’m good for.&lt;/p&gt;\n&lt;/div&gt;",
+                                "body_html": "<div class=\"md\"><p>It’s all I’m good for.</p>\n</div>",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "associated_award": null,
@@ -5042,7 +5037,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Hes you are. And should be used like the weak dumb whore you are&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>Hes you are. And should be used like the weak dumb whore you are</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -5100,7 +5095,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;We are so weak and dumb 😖&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>We are so weak and dumb 😖</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -5170,7 +5165,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;m so dumb Daddy... I want to vote though. Can daddy give me a cheat sheet of who to vote for? I want Daddy to have two votes!!&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>I&#39;m so dumb Daddy... I want to vote though. Can daddy give me a cheat sheet of who to vote for? I want Daddy to have two votes!!</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -5240,7 +5235,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Need more “subtle” propaganda to fill my little head&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Need more “subtle” propaganda to fill my little head</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -5290,7 +5285,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -5333,7 +5328,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I’m not from the US either, don’t be so narrow minded. Female inferiority is universal, after all.&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>I’m not from the US either, don’t be so narrow minded. Female inferiority is universal, after all.</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -5396,7 +5391,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;m not from the US, but agree, need to come over and get destroyed by some MAGA men&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>I&#39;m not from the US, but agree, need to come over and get destroyed by some MAGA men</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -5446,7 +5441,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -5494,7 +5489,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Good bitch..&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>Good bitch..</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -5557,7 +5552,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Yes, I am dumb and know my place&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Yes, I am dumb and know my place</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -5632,7 +5627,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;They always crumble and break&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>They always crumble and break</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -5682,7 +5677,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -5730,7 +5725,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;girls should be taught this in school.&lt;br/&gt;\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>girls should be taught this in school.<br/>\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -5780,7 +5775,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": "",
+                          "modhash": null,
                           "geo_filter": "",
                           "children": [
                             {
@@ -5803,7 +5798,7 @@
                                   "data": {
                                     "after": null,
                                     "dist": null,
-                                    "modhash": "",
+                                    "modhash": null,
                                     "geo_filter": "",
                                     "children": [
                                       {
@@ -5826,7 +5821,7 @@
                                             "data": {
                                               "after": null,
                                               "dist": null,
-                                              "modhash": "",
+                                              "modhash": null,
                                               "geo_filter": "",
                                               "children": [
                                                 {
@@ -5850,7 +5845,7 @@
                                                       "data": {
                                                         "after": null,
                                                         "dist": null,
-                                                        "modhash": "",
+                                                        "modhash": null,
                                                         "geo_filter": "",
                                                         "children": [
                                                           {
@@ -5893,7 +5888,7 @@
                                                               "author_flair_css_class": null,
                                                               "downs": 0,
                                                               "is_submitter": false,
-                                                              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;you hope? no you fucking will won’t you. Your first job is to dm me&lt;/p&gt;\n&lt;/div&gt;",
+                                                              "body_html": "<div class=\"md\"><p>you hope? no you fucking will won’t you. Your first job is to dm me</p>\n</div>",
                                                               "gildings": {},
                                                               "collapsed_reason": null,
                                                               "associated_award": null,
@@ -5954,7 +5949,7 @@
                                                     "downs": 0,
                                                     "author_flair_richtext": [],
                                                     "author_patreon_flair": false,
-                                                    "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Thank you for offering such a generous position. I hope I can satisfy and meet all your expectations.&lt;/p&gt;\n&lt;/div&gt;",
+                                                    "body_html": "<div class=\"md\"><p>Thank you for offering such a generous position. I hope I can satisfy and meet all your expectations.</p>\n</div>",
                                                     "gildings": {},
                                                     "collapsed_reason": null,
                                                     "link_id": "t3_1893to5",
@@ -6013,7 +6008,7 @@
                                           "author_flair_css_class": null,
                                           "collapsed": false,
                                           "is_submitter": false,
-                                          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;the only position we have available is a live in 24/7 one. I’ll sing you up like a good throat slut and you start now&lt;/p&gt;\n&lt;/div&gt;",
+                                          "body_html": "<div class=\"md\"><p>the only position we have available is a live in 24/7 one. I’ll sing you up like a good throat slut and you start now</p>\n</div>",
                                           "gildings": {},
                                           "collapsed_reason": null,
                                           "associated_award": null,
@@ -6076,7 +6071,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Please hire me for the position and I promise I&amp;#39;ll give you top tier blowjobs from 9-5.&lt;/p&gt;\n&lt;/div&gt;",
+                                "body_html": "<div class=\"md\"><p>Please hire me for the position and I promise I&#39;ll give you top tier blowjobs from 9-5.</p>\n</div>",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -6134,7 +6129,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;you think you can vote? fuck off. Your entire purpose is to be under a man’s desk while he thinks about using you again&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>you think you can vote? fuck off. Your entire purpose is to be under a man’s desk while he thinks about using you again</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -6197,7 +6192,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;This is the reason I skipped the last election&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>This is the reason I skipped the last election</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -6267,7 +6262,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;m a dumb trans sissy and this turns me on 😭&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>I&#39;m a dumb trans sissy and this turns me on 😭</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -6317,7 +6312,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -6340,7 +6335,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": "",
+                          "modhash": null,
                           "geo_filter": "",
                           "children": [
                             {
@@ -6363,7 +6358,7 @@
                                   "data": {
                                     "after": null,
                                     "dist": null,
-                                    "modhash": "",
+                                    "modhash": null,
                                     "geo_filter": "",
                                     "children": [
                                       {
@@ -6411,7 +6406,7 @@
                                           "downs": 0,
                                           "author_flair_richtext": [],
                                           "author_patreon_flair": false,
-                                          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Ha they just let woman in those universities for diversity, you probably dont even deserve that paper&lt;/p&gt;\n&lt;/div&gt;",
+                                          "body_html": "<div class=\"md\"><p>Ha they just let woman in those universities for diversity, you probably dont even deserve that paper</p>\n</div>",
                                           "gildings": {},
                                           "collapsed_reason": null,
                                           "distinguished": null,
@@ -6469,7 +6464,7 @@
                                 "author_flair_css_class": null,
                                 "downs": 0,
                                 "is_submitter": false,
-                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I have a degree&lt;/p&gt;\n&lt;/div&gt;",
+                                "body_html": "<div class=\"md\"><p>I have a degree</p>\n</div>",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "associated_award": null,
@@ -6532,7 +6527,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Oh really? I doubt that&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>Oh really? I doubt that</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -6607,7 +6602,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;girls should be taught this in school.&lt;br/&gt;\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>girls should be taught this in school.<br/>\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -6665,7 +6660,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I’m not dumb&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>I’m not dumb</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -6715,7 +6710,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -6738,7 +6733,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": "",
+                          "modhash": null,
                           "geo_filter": "",
                           "children": [
                             {
@@ -6786,7 +6781,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I’m not deluded! But yes, I’d love a partner to treat me with the respect I deserve.&lt;/p&gt;\n\n&lt;p&gt;Also I’m trying just fine considering I’m only using one… um.. forget I said that&lt;/p&gt;\n&lt;/div&gt;",
+                                "body_html": "<div class=\"md\"><p>I’m not deluded! But yes, I’d love a partner to treat me with the respect I deserve.</p>\n\n<p>Also I’m trying just fine considering I’m only using one… um.. forget I said that</p>\n</div>",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -6844,7 +6839,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Of course not, it would take cock from a real man who treats you with the respect you deserve to fix your delusions. You can’t even type right after seeing this post so I’m inclined to doubt your willpower.&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>Of course not, it would take cock from a real man who treats you with the respect you deserve to fix your delusions. You can’t even type right after seeing this post so I’m inclined to doubt your willpower.</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -6907,7 +6902,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;We’re not! We’re just as capable as men! It’d take more than a little cock and o leave me a mindless slut like those girls&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>We’re not! We’re just as capable as men! It’d take more than a little cock and o leave me a mindless slut like those girls</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -6957,7 +6952,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -7000,7 +6995,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Good girl, I’m glad you’re satisfied with your purpose in life. Holes don’t need to think.&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>Good girl, I’m glad you’re satisfied with your purpose in life. Holes don’t need to think.</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -7058,7 +7053,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[removed]&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>[removed]</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -7128,7 +7123,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Need&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Need</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -7203,7 +7198,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Women are useless fucktoys for Big White MAGA Cock&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Women are useless fucktoys for Big White MAGA Cock</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -7253,7 +7248,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -7296,7 +7291,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Good girl, it’s important to reinforce the natural order as often as you can ☺️&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>Good girl, it’s important to reinforce the natural order as often as you can ☺️</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -7354,7 +7349,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[deleted]&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>[deleted]</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -7424,7 +7419,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;reallllz I&amp;#39;m not even American and ik women aren&amp;#39;t smart enough to vote&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>reallllz I&#39;m not even American and ik women aren&#39;t smart enough to vote</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -7494,7 +7489,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;We didn’t need suffrage&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>We didn’t need suffrage</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -7569,7 +7564,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I shouldn’t vote for trump? It’s better not to vote? Lost dumb slut&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>I shouldn’t vote for trump? It’s better not to vote? Lost dumb slut</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -7644,7 +7639,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Breed me 🥵🥵&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Breed me 🥵🥵</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -7719,7 +7714,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Men are always so right I love it that I am just a fuck toy&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Men are always so right I love it that I am just a fuck toy</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -7769,7 +7764,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -7812,7 +7807,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;That can be arranged libslut, whatever teaching method is necessary I can perform&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>That can be arranged libslut, whatever teaching method is necessary I can perform</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -7870,7 +7865,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[deleted]&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>[deleted]</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -7920,7 +7915,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -7963,7 +7958,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Crawl into my dms and I’ll show you that everything in it is true libslut&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>Crawl into my dms and I’ll show you that everything in it is true libslut</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -8021,7 +8016,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[deleted]&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>[deleted]</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -8096,7 +8091,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I showed this to my younger stepsister and told her this is the truth about females. She was shocked but seems to be coming round to the idea.&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>I showed this to my younger stepsister and told her this is the truth about females. She was shocked but seems to be coming round to the idea.</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -8130,14 +8125,15 @@
       "before": null
     }
   },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
   "comments": [
     {
       "id": "kbojzkr",
       "author": "[deleted]",
       "author_fullname": null,
-      "body": "I'm dumb sir and need constant reminder of these truths &lt;3.",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;m dumb sir and need constant reminder of these truths &amp;lt;3.&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 15,
+      "body": "I'm dumb sir and need constant reminder of these truths <3.",
+      "score": 17,
       "created_utc": 1701525494.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbojzkr/",
       "is_submitter": false,
@@ -8148,20 +8144,43 @@
           "author": "MisogynistRp",
           "author_fullname": "t2_la0ney1xm",
           "body": "girls should be taught this in school.\n\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;girls should be taught this in school.&lt;/p&gt;\n\n&lt;p&gt;schools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue&lt;/p&gt;\n&lt;/div&gt;",
           "score": 17,
           "created_utc": 1701552602.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbqccj5/",
           "is_submitter": false,
           "parent_id": "t1_kbojzkr",
-          "replies": []
+          "replies": [
+            {
+              "id": "kbqyama",
+              "author": "[deleted]",
+              "author_fullname": null,
+              "body": "Yes sir",
+              "score": 1,
+              "created_utc": 1701561815.0,
+              "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbqyama/",
+              "is_submitter": false,
+              "parent_id": "t1_kbqccj5",
+              "replies": []
+            },
+            {
+              "id": "kbs3rbf",
+              "author": "[deleted]",
+              "author_fullname": null,
+              "body": "That’s what it should be!",
+              "score": 1,
+              "created_utc": 1701581021.0,
+              "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbs3rbf/",
+              "is_submitter": false,
+              "parent_id": "t1_kbqccj5",
+              "replies": []
+            }
+          ]
         },
         {
           "id": "kbokwqd",
           "author": "[deleted]",
           "author_fullname": null,
           "body": "Every time you mouth off I’ll make sure you remember your true place",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Every time you mouth off I’ll make sure you remember your true place&lt;/p&gt;\n&lt;/div&gt;",
           "score": 4,
           "created_utc": 1701525985.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbokwqd/",
@@ -8174,33 +8193,69 @@
           "author": "prior-winter7589",
           "author_fullname": "t2_nud5z36tp",
           "body": "Nothing but fuckmeat",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Nothing but fuckmeat&lt;/p&gt;\n&lt;/div&gt;",
           "score": 3,
           "created_utc": 1701528266.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbopeji/",
           "is_submitter": false,
           "parent_id": "t1_kbojzkr",
-          "replies": []
+          "replies": [
+            {
+              "id": "kboqdxg",
+              "author": "[deleted]",
+              "author_fullname": null,
+              "body": "Thank you, Sir <3",
+              "score": 3,
+              "created_utc": 1701528736.0,
+              "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kboqdxg/",
+              "is_submitter": false,
+              "parent_id": "t1_kbopeji",
+              "replies": []
+            }
+          ]
         },
         {
           "id": "kbrbk9u",
           "author": "[deleted]",
           "author_fullname": null,
           "body": "Stacey, you and every other person with tits and holes are weak and dumb, weak and dumb, weak and dumb. You need to repeat it to yourself until it goes in",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Stacey, you and every other person with tits and holes are weak and dumb, weak and dumb, weak and dumb. You need to repeat it to yourself until it goes in&lt;/p&gt;\n&lt;/div&gt;",
           "score": 3,
           "created_utc": 1701567641.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbrbk9u/",
           "is_submitter": false,
           "parent_id": "t1_kbojzkr",
-          "replies": []
+          "replies": [
+            {
+              "id": "kbrd5rz",
+              "author": "[deleted]",
+              "author_fullname": null,
+              "body": "Will do Sir, thank you for reminding me Sir <3",
+              "score": 2,
+              "created_utc": 1701568349.0,
+              "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbrd5rz/",
+              "is_submitter": false,
+              "parent_id": "t1_kbrbk9u",
+              "replies": [
+                {
+                  "id": "kbrd9za",
+                  "author": "[deleted]",
+                  "author_fullname": null,
+                  "body": "You all exist solely for men. You are weak and dumb always",
+                  "score": 2,
+                  "created_utc": 1701568400.0,
+                  "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbrd9za/",
+                  "is_submitter": false,
+                  "parent_id": "t1_kbrd5rz",
+                  "replies": []
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "kbu3vox",
           "author": "[deleted]",
           "author_fullname": null,
           "body": "Sure thing, tits",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Sure thing, tits&lt;/p&gt;\n&lt;/div&gt;",
           "score": 2,
           "created_utc": 1701624276.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbu3vox/",
@@ -8213,7 +8268,6 @@
           "author": "HolidayPath3631",
           "author_fullname": "t2_owvn4r9ds",
           "body": "Dm me",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Dm me&lt;/p&gt;\n&lt;/div&gt;",
           "score": -1,
           "created_utc": 1701525516.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbok11s/",
@@ -8226,7 +8280,6 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "I can do that easy😈",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I can do that easy😈&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1701525832.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbokm69/",
@@ -8241,7 +8294,6 @@
       "author": "Gracepanzer",
       "author_fullname": "t2_4bn6bft0",
       "body": "Please keep this on repeat while you fuck me raw",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Please keep this on repeat while you fuck me raw&lt;/p&gt;\n&lt;/div&gt;",
       "score": 13,
       "created_utc": 1701524984.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kboj25z/",
@@ -8253,20 +8305,31 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "I’ll breed u also while u watch it and even beg for more😏",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I’ll breed u also while u watch it and even beg for more😏&lt;/p&gt;\n&lt;/div&gt;",
           "score": 2,
           "created_utc": 1701525805.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbokkac/",
           "is_submitter": false,
           "parent_id": "t1_kboj25z",
-          "replies": []
+          "replies": [
+            {
+              "id": "kbokn0h",
+              "author": "Gracepanzer",
+              "author_fullname": "t2_4bn6bft0",
+              "body": "Please?",
+              "score": 2,
+              "created_utc": 1701525845.0,
+              "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbokn0h/",
+              "is_submitter": false,
+              "parent_id": "t1_kbokkac",
+              "replies": []
+            }
+          ]
         },
         {
           "id": "kbqcdxi",
           "author": "MisogynistRp",
           "author_fullname": "t2_la0ney1xm",
           "body": "girls should be taught this in school.  \nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;girls should be taught this in school.&lt;br/&gt;\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue&lt;/p&gt;\n&lt;/div&gt;",
           "score": 2,
           "created_utc": 1701552618.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbqcdxi/",
@@ -8279,7 +8342,6 @@
           "author": "HolidayPath3631",
           "author_fullname": "t2_owvn4r9ds",
           "body": "Dm me",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Dm me&lt;/p&gt;\n&lt;/div&gt;",
           "score": -1,
           "created_utc": 1701525042.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kboj629/",
@@ -8292,13 +8354,38 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "I’ll hold your eyes open so you don’t miss a second of it",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I’ll hold your eyes open so you don’t miss a second of it&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1701525371.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbojrne/",
           "is_submitter": false,
           "parent_id": "t1_kboj25z",
-          "replies": []
+          "replies": [
+            {
+              "id": "kbojuwh",
+              "author": "Gracepanzer",
+              "author_fullname": "t2_4bn6bft0",
+              "body": "You promise? 🥺",
+              "score": 2,
+              "created_utc": 1701525422.0,
+              "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbojuwh/",
+              "is_submitter": false,
+              "parent_id": "t1_kbojrne",
+              "replies": [
+                {
+                  "id": "kboknum",
+                  "author": "[deleted]",
+                  "author_fullname": null,
+                  "body": "On your weeping cunt, I do",
+                  "score": 3,
+                  "created_utc": 1701525858.0,
+                  "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kboknum/",
+                  "is_submitter": false,
+                  "parent_id": "t1_kbojuwh",
+                  "replies": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -8307,8 +8394,7 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "I’m a fucktoy, I’m a fucktoy, I’m a fucktoy, I’m a fucktoy, I’m a fucktoy, I’m a fucktoy, I’m a fucktoy, I’M A FUCKTOY💅🏻💖🤤",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I’m a fucktoy, I’m a fucktoy, I’m a fucktoy, I’m a fucktoy, I’m a fucktoy, I’m a fucktoy, I’m a fucktoy, I’M A FUCKTOY💅🏻💖🤤&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 10,
+      "score": 12,
       "created_utc": 1701528957.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kboqukj/",
       "is_submitter": false,
@@ -8319,8 +8405,7 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "A nice little mantra for when I’m filling your ass. My finger pulling your lips back into a twisted grin",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;A nice little mantra for when I’m filling your ass. My finger pulling your lips back into a twisted grin&lt;/p&gt;\n&lt;/div&gt;",
-          "score": 5,
+          "score": 4,
           "created_utc": 1701529502.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbos047/",
           "is_submitter": false,
@@ -8332,8 +8417,7 @@
           "author": "prior-winter7589",
           "author_fullname": "t2_nud5z36tp",
           "body": "Soon the only thing you’ll want is more White God Cock",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Soon the only thing you’ll want is more White God Cock&lt;/p&gt;\n&lt;/div&gt;",
-          "score": 5,
+          "score": 6,
           "created_utc": 1701539439.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbpfpb3/",
           "is_submitter": false,
@@ -8345,7 +8429,6 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "Good girl",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Good girl&lt;/p&gt;\n&lt;/div&gt;",
           "score": 4,
           "created_utc": 1701624317.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbu3zm1/",
@@ -8358,7 +8441,6 @@
           "author": "MisogynistRp",
           "author_fullname": "t2_la0ney1xm",
           "body": "girls should be taught this in school.  \nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;girls should be taught this in school.&lt;br/&gt;\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue&lt;/p&gt;\n&lt;/div&gt;",
           "score": 3,
           "created_utc": 1701552645.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbqcgbo/",
@@ -8373,7 +8455,6 @@
       "author": "doormatloser",
       "author_fullname": "t2_5dczzq39",
       "body": "A few rightwing men have told me that they don’t think of us liberal guys as “men”. We tend to be a lot more feminine and submissive than they are- and have much smaller penises as a rule… 😔 a few girls have even told me the same thing as well!",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;A few rightwing men have told me that they don’t think of us liberal guys as “men”. We tend to be a lot more feminine and submissive than they are- and have much smaller penises as a rule… 😔 a few girls have even told me the same thing as well!&lt;/p&gt;\n&lt;/div&gt;",
       "score": 10,
       "created_utc": 1701525303.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbojn6a/",
@@ -8385,13 +8466,25 @@
           "author": "Risamante",
           "author_fullname": "t2_op7p3ld1p",
           "body": "That's just because it's true",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;That&amp;#39;s just because it&amp;#39;s true&lt;/p&gt;\n&lt;/div&gt;",
           "score": 6,
           "created_utc": 1701526246.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kboleoy/",
           "is_submitter": false,
           "parent_id": "t1_kbojn6a",
-          "replies": []
+          "replies": [
+            {
+              "id": "kbopdao",
+              "author": "doormatloser",
+              "author_fullname": "t2_5dczzq39",
+              "body": "I’ve had quite a few messages from very manly, strong-looking rightwing alpha men. I must admit I… definitely don’t feel very masculine compared to them! Especially sitting here typing wearing a pair of panties whilst my penis a locked in a cage. I do definitely love being feminine and girly sometimes- and I am very submissive sexually, so I can definitely see where they’re coming from… 😬",
+              "score": 4,
+              "created_utc": 1701528249.0,
+              "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbopdao/",
+              "is_submitter": false,
+              "parent_id": "t1_kboleoy",
+              "replies": []
+            }
+          ]
         }
       ]
     },
@@ -8400,8 +8493,7 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "fuck this reminds me how stupid  i am",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;fuck this reminds me how stupid  i am&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 8,
+      "score": 9,
       "created_utc": 1701532236.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kboy61f/",
       "is_submitter": false,
@@ -8412,7 +8504,6 @@
           "author": "prior-winter7589",
           "author_fullname": "t2_nud5z36tp",
           "body": "Keep drooling. Keep rubbing. Get dumber and more obedient.",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Keep drooling. Keep rubbing. Get dumber and more obedient.&lt;/p&gt;\n&lt;/div&gt;",
           "score": 3,
           "created_utc": 1701539399.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbpflji/",
@@ -8425,7 +8516,6 @@
           "author": "MisogynistRp",
           "author_fullname": "t2_la0ney1xm",
           "body": "girls should be taught this in school.  \nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;girls should be taught this in school.&lt;br/&gt;\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue&lt;/p&gt;\n&lt;/div&gt;",
           "score": 2,
           "created_utc": 1701552659.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbqcho5/",
@@ -8440,7 +8530,6 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "A fun little video to play for them while they gag on my cock",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;A fun little video to play for them while they gag on my cock&lt;/p&gt;\n&lt;/div&gt;",
       "score": 7,
       "created_utc": 1701524477.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kboi58o/",
@@ -8453,8 +8542,7 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "I’m a dumb slut. Please remind me everyday",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I’m a dumb slut. Please remind me everyday&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 7,
+      "score": 6,
       "created_utc": 1701529195.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kborcix/",
       "is_submitter": false,
@@ -8465,7 +8553,6 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "Every hour on the hour. Now kneel",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Every hour on the hour. Now kneel&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1701529523.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbos1qi/",
@@ -8478,7 +8565,6 @@
           "author": "MisogynistRp",
           "author_fullname": "t2_la0ney1xm",
           "body": "girls should be taught this in school.  \nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;girls should be taught this in school.&lt;br/&gt;\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1701552711.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbqcmbq/",
@@ -8493,8 +8579,7 @@
       "author": "IzzyJensen913",
       "author_fullname": "t2_5zc057v",
       "body": "It’s the perfect propaganda because we can’t stop watching it, our little brains see women being used how deep down we know we’re made to be used and just can’t stop",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;It’s the perfect propaganda because we can’t stop watching it, our little brains see women being used how deep down we know we’re made to be used and just can’t stop&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 6,
+      "score": 7,
       "created_utc": 1701555806.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbqk76g/",
       "is_submitter": false,
@@ -8505,7 +8590,6 @@
           "author": "unfortunate_play2",
           "author_fullname": "t2_ll8xrkhf0",
           "body": "i agree. and from that moment are brains just got dumber and dumber that we have to rely on men. women of color are meant to be owned by White MEGA Men. they know what's right.",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;i agree. and from that moment are brains just got dumber and dumber that we have to rely on men. women of color are meant to be owned by White MEGA Men. they know what&amp;#39;s right.&lt;/p&gt;\n&lt;/div&gt;",
           "score": 3,
           "created_utc": 1701666609.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbx261o/",
@@ -8520,7 +8604,6 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "Thank you for posting this sir",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Thank you for posting this sir&lt;/p&gt;\n&lt;/div&gt;",
       "score": 6,
       "created_utc": 1701526590.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbom250/",
@@ -8533,8 +8616,7 @@
       "author": "bruhnomyass",
       "author_fullname": "t2_8epi425o",
       "body": "Get yourself a \"I'm too dumb to vote\" button or sticker. Those should be a thing, really.",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Get yourself a &amp;quot;I&amp;#39;m too dumb to vote&amp;quot; button or sticker. Those should be a thing, really.&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 5,
+      "score": 6,
       "created_utc": 1701527671.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kboo6ws/",
       "is_submitter": false,
@@ -8546,7 +8628,6 @@
       "author": "Fantastic_Life4559",
       "author_fullname": "t2_7uixtbst",
       "body": "Mmmmm we are only meant for men use",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Mmmmm we are only meant for men use&lt;/p&gt;\n&lt;/div&gt;",
       "score": 5,
       "created_utc": 1701547288.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbpz55c/",
@@ -8558,7 +8639,6 @@
           "author": "MisogynistRp",
           "author_fullname": "t2_la0ney1xm",
           "body": "girls should be taught this in school.  \nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;girls should be taught this in school.&lt;br/&gt;\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1701552692.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbqckjt/",
@@ -8573,8 +8653,7 @@
       "author": "Risamante",
       "author_fullname": "t2_op7p3ld1p",
       "body": "100% Truth",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;100% Truth&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 3,
+      "score": 4,
       "created_utc": 1701526258.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbolfhm/",
       "is_submitter": false,
@@ -8586,7 +8665,6 @@
       "author": "Alpha_is_Omega",
       "author_fullname": "t2_u876vx3t",
       "body": "They are nothing more than a sex toy",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;They are nothing more than a sex toy&lt;/p&gt;\n&lt;/div&gt;",
       "score": 3,
       "created_utc": 1701532916.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbozr7l/",
@@ -8599,8 +8677,7 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "[deleted]",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[deleted]&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 5,
+      "score": 3,
       "created_utc": 1701541202.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbpk5c2/",
       "is_submitter": false,
@@ -8611,7 +8688,6 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "I know you are, I need a tight submissive slut like you",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I know you are, I need a tight submissive slut like you&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1701542084.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbpmc7k/",
@@ -8624,7 +8700,6 @@
           "author": "HolidayPath3631",
           "author_fullname": "t2_owvn4r9ds",
           "body": "Dm me",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Dm me&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1701551910.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbqalu7/",
@@ -8637,7 +8712,6 @@
           "author": "MisogynistRp",
           "author_fullname": "t2_la0ney1xm",
           "body": "girls should be taught this in school.  \nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;girls should be taught this in school.&lt;br/&gt;\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1701552739.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbqcorm/",
@@ -8652,8 +8726,7 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "Yes, this is the way to get rid of my feminist thoughts",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Yes, this is the way to get rid of my feminist thoughts&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 4,
+      "score": 3,
       "created_utc": 1701545156.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbptwy9/",
       "is_submitter": false,
@@ -8664,7 +8737,6 @@
           "author": "MisogynistRp",
           "author_fullname": "t2_la0ney1xm",
           "body": "girls should be taught this in school.  \nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;girls should be taught this in school.&lt;br/&gt;\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue&lt;/p&gt;\n&lt;/div&gt;",
           "score": 2,
           "created_utc": 1701552677.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbqcj9j/",
@@ -8677,7 +8749,6 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "And if you need more help feel free to crawl into my dms like a good girl and beg for some libslut",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;And if you need more help feel free to crawl into my dms like a good girl and beg for some libslut&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1701549927.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbq5pnn/",
@@ -8692,7 +8763,6 @@
       "author": "anonmofo94",
       "author_fullname": "t2_6hv7hggd",
       "body": "Just the kind of propaganda I need in my life to remind me of my place.",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Just the kind of propaganda I need in my life to remind me of my place.&lt;/p&gt;\n&lt;/div&gt;",
       "score": 4,
       "created_utc": 1701550247.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbq6imb/",
@@ -8704,7 +8774,6 @@
           "author": "MisogynistRp",
           "author_fullname": "t2_la0ney1xm",
           "body": "girls should be taught this in school.  \nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;girls should be taught this in school.&lt;br/&gt;\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1701552771.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbqcrn5/",
@@ -8719,8 +8788,7 @@
       "author": "SillyAltTransgirl",
       "author_fullname": "t2_najnk9rnu",
       "body": "Ohh good, this is a lot clearer than the last propaganda video which was just way too subtle for my dumb brain to understand! Now I know that we're all weak and dumb and shouldn't think and vote and stuff!\n\nYou would think I'd know that by now, but I guess that's why I need more ~~brainwashing~~ education, hee hee\\~!",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Ohh good, this is a lot clearer than the last propaganda video which was just way too subtle for my dumb brain to understand! Now I know that we&amp;#39;re all weak and dumb and shouldn&amp;#39;t think and vote and stuff!&lt;/p&gt;\n\n&lt;p&gt;You would think I&amp;#39;d know that by now, but I guess that&amp;#39;s why I need more &lt;del&gt;brainwashing&lt;/del&gt; education, hee hee~!&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 4,
+      "score": 3,
       "created_utc": 1701558204.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbqpywl/",
       "is_submitter": false,
@@ -8732,8 +8800,7 @@
       "author": "agaypeiceofbread",
       "author_fullname": "t2_l3l09fakr",
       "body": "I'm very dumb, all I'm good for is my body and serving men",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;m very dumb, all I&amp;#39;m good for is my body and serving men&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 3,
+      "score": 4,
       "created_utc": 1701565437.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbr6l8x/",
       "is_submitter": false,
@@ -8745,7 +8812,6 @@
       "author": "prior-winter7589",
       "author_fullname": "t2_nud5z36tp",
       "body": "You only serve to feed my ego and fuel my orgasms",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;You only serve to feed my ego and fuel my orgasms&lt;/p&gt;\n&lt;/div&gt;",
       "score": 3,
       "created_utc": 1701525755.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbokgym/",
@@ -8758,7 +8824,6 @@
       "author": "ferrex14",
       "author_fullname": "t2_qq4ho",
       "body": "Spread the word and tell your friends all about it. We'll someday have a world where all women know their place in society",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Spread the word and tell your friends all about it. We&amp;#39;ll someday have a world where all women know their place in society&lt;/p&gt;\n&lt;/div&gt;",
       "score": 3,
       "created_utc": 1701527003.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbomuuz/",
@@ -8771,7 +8836,6 @@
       "author": "EvilOffender",
       "author_fullname": "t2_o6532fby8",
       "body": "Fuck em till they vote red.",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Fuck em till they vote red.&lt;/p&gt;\n&lt;/div&gt;",
       "score": 3,
       "created_utc": 1701540418.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbpi6qv/",
@@ -8784,7 +8848,6 @@
       "author": "opstopbuilder",
       "author_fullname": "t2_ta0awfc8",
       "body": "No thoughts, just suck and fuck like a good little hole :)",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;No thoughts, just suck and fuck like a good little hole :)&lt;/p&gt;\n&lt;/div&gt;",
       "score": 3,
       "created_utc": 1701540455.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbpia3c/",
@@ -8797,7 +8860,6 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "We are so weak and dumb 😖",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;We are so weak and dumb 😖&lt;/p&gt;\n&lt;/div&gt;",
       "score": 3,
       "created_utc": 1701547535.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbpzqt6/",
@@ -8809,13 +8871,38 @@
           "author": "Sea-Bookkeeper-7790",
           "author_fullname": "t2_c4fumxb1s",
           "body": "Hes you are. And should be used like the weak dumb whore you are",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Hes you are. And should be used like the weak dumb whore you are&lt;/p&gt;\n&lt;/div&gt;",
           "score": 2,
           "created_utc": 1701550293.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbq6mub/",
           "is_submitter": false,
           "parent_id": "t1_kbpzqt6",
-          "replies": []
+          "replies": [
+            {
+              "id": "kbs9n9q",
+              "author": "[deleted]",
+              "author_fullname": null,
+              "body": "It’s all I’m good for.",
+              "score": 2,
+              "created_utc": 1701584635.0,
+              "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbs9n9q/",
+              "is_submitter": false,
+              "parent_id": "t1_kbq6mub",
+              "replies": [
+                {
+                  "id": "kbsgr18",
+                  "author": "Sea-Bookkeeper-7790",
+                  "author_fullname": "t2_c4fumxb1s",
+                  "body": "I'm glad you understand your place. Now submit to my cock",
+                  "score": 3,
+                  "created_utc": 1701589793.0,
+                  "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbsgr18/",
+                  "is_submitter": false,
+                  "parent_id": "t1_kbs9n9q",
+                  "replies": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -8824,7 +8911,6 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "I'm so dumb Daddy... I want to vote though. Can daddy give me a cheat sheet of who to vote for? I want Daddy to have two votes!!",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;m so dumb Daddy... I want to vote though. Can daddy give me a cheat sheet of who to vote for? I want Daddy to have two votes!!&lt;/p&gt;\n&lt;/div&gt;",
       "score": 3,
       "created_utc": 1701555022.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbqiag1/",
@@ -8837,7 +8923,6 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "Need more “subtle” propaganda to fill my little head",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Need more “subtle” propaganda to fill my little head&lt;/p&gt;\n&lt;/div&gt;",
       "score": 3,
       "created_utc": 1701571805.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbrkw90/",
@@ -8850,7 +8935,6 @@
       "author": "sidechickforyou",
       "author_fullname": "t2_4e79242p",
       "body": "I'm not from the US, but agree, need to come over and get destroyed by some MAGA men",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;m not from the US, but agree, need to come over and get destroyed by some MAGA men&lt;/p&gt;\n&lt;/div&gt;",
       "score": 3,
       "created_utc": 1701591804.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbsjdux/",
@@ -8862,7 +8946,6 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "I’m not from the US either, don’t be so narrow minded. Female inferiority is universal, after all.",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I’m not from the US either, don’t be so narrow minded. Female inferiority is universal, after all.&lt;/p&gt;\n&lt;/div&gt;",
           "score": 3,
           "created_utc": 1701602388.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbswbjc/",
@@ -8877,7 +8960,6 @@
       "author": "secretsubmissivee",
       "author_fullname": "t2_rw843izo",
       "body": "Yes, I am dumb and know my place",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Yes, I am dumb and know my place&lt;/p&gt;\n&lt;/div&gt;",
       "score": 3,
       "created_utc": 1701632017.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbuprva/",
@@ -8889,7 +8971,6 @@
           "author": "Filthy_Fun45",
           "author_fullname": "t2_me0r8l0zk",
           "body": "Good bitch..",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Good bitch..&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1701950812.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kcctit1/",
@@ -8904,7 +8985,6 @@
       "author": "pjbricked",
       "author_fullname": "t2_dzv57ipx",
       "body": "They always crumble and break",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;They always crumble and break&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1701526671.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbom7px/",
@@ -8917,7 +8997,6 @@
       "author": "QueenAllora",
       "author_fullname": "t2_orm3sdesh",
       "body": "This is the reason I skipped the last election",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;This is the reason I skipped the last election&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1701530109.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbotch8/",
@@ -8929,7 +9008,6 @@
           "author": "MisogynistRp",
           "author_fullname": "t2_la0ney1xm",
           "body": "girls should be taught this in school.  \nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;girls should be taught this in school.&lt;br/&gt;\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue&lt;/p&gt;\n&lt;/div&gt;",
           "score": 0,
           "created_utc": 1701552724.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbqcngb/",
@@ -8942,13 +9020,64 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "you think you can vote? fuck off. Your entire purpose is to be under a man’s desk while he thinks about using you again",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;you think you can vote? fuck off. Your entire purpose is to be under a man’s desk while he thinks about using you again&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1701536018.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbp7686/",
           "is_submitter": false,
           "parent_id": "t1_kbotch8",
-          "replies": []
+          "replies": [
+            {
+              "id": "kbskjn8",
+              "author": "QueenAllora",
+              "author_fullname": "t2_orm3sdesh",
+              "body": "Please hire me for the position and I promise I'll give you top tier blowjobs from 9-5.",
+              "score": 2,
+              "created_utc": 1701592717.0,
+              "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbskjn8/",
+              "is_submitter": false,
+              "parent_id": "t1_kbp7686",
+              "replies": [
+                {
+                  "id": "kbsu1bf",
+                  "author": "[deleted]",
+                  "author_fullname": null,
+                  "body": "the only position we have available is a live in 24/7 one. I’ll sing you up like a good throat slut and you start now",
+                  "score": 2,
+                  "created_utc": 1701600517.0,
+                  "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbsu1bf/",
+                  "is_submitter": false,
+                  "parent_id": "t1_kbskjn8",
+                  "replies": [
+                    {
+                      "id": "kbsutms",
+                      "author": "QueenAllora",
+                      "author_fullname": "t2_orm3sdesh",
+                      "body": "Thank you for offering such a generous position. I hope I can satisfy and meet all your expectations.",
+                      "score": 1,
+                      "created_utc": 1701601165.0,
+                      "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbsutms/",
+                      "is_submitter": false,
+                      "parent_id": "t1_kbsu1bf",
+                      "replies": [
+                        {
+                          "id": "kbuss8k",
+                          "author": "[deleted]",
+                          "author_fullname": null,
+                          "body": "you hope? no you fucking will won’t you. Your first job is to dm me",
+                          "score": 1,
+                          "created_utc": 1701633113.0,
+                          "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbuss8k/",
+                          "is_submitter": false,
+                          "parent_id": "t1_kbsutms",
+                          "replies": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -8957,7 +9086,6 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "I'm a dumb trans sissy and this turns me on 😭",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;m a dumb trans sissy and this turns me on 😭&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1701540788.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbpj44x/",
@@ -8970,7 +9098,6 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "I’m not dumb",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I’m not dumb&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1701546576.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbpxeda/",
@@ -8982,20 +9109,44 @@
           "author": "Sea-Bookkeeper-7790",
           "author_fullname": "t2_c4fumxb1s",
           "body": "Oh really? I doubt that",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Oh really? I doubt that&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1701550253.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbq6j5z/",
           "is_submitter": false,
           "parent_id": "t1_kbpxeda",
-          "replies": []
+          "replies": [
+            {
+              "id": "kbq6nls",
+              "author": "[deleted]",
+              "author_fullname": null,
+              "body": "I have a degree",
+              "score": 2,
+              "created_utc": 1701550302.0,
+              "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbq6nls/",
+              "is_submitter": false,
+              "parent_id": "t1_kbq6j5z",
+              "replies": [
+                {
+                  "id": "kbq7d15",
+                  "author": "Sea-Bookkeeper-7790",
+                  "author_fullname": "t2_c4fumxb1s",
+                  "body": "Ha they just let woman in those universities for diversity, you probably dont even deserve that paper",
+                  "score": 2,
+                  "created_utc": 1701550588.0,
+                  "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbq7d15/",
+                  "is_submitter": false,
+                  "parent_id": "t1_kbq6nls",
+                  "replies": []
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "kbqcq8m",
           "author": "MisogynistRp",
           "author_fullname": "t2_la0ney1xm",
           "body": "girls should be taught this in school.  \nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;girls should be taught this in school.&lt;br/&gt;\nschools should be changed so that men get the proper education we already do, but females should be taught misogyny and how to suck cock, so they know their proper place. on their knees tits exposed, mo0uth open. this would consist of teaching, and practice where sluts are assigned to male classrooms for part of the day to be used as fuckmeat. dm to continue&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1701552756.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbqcq8m/",
@@ -9010,7 +9161,6 @@
       "author": "MajestyLewd",
       "author_fullname": "t2_4ah12jxz",
       "body": "We’re not! We’re just as capable as men! It’d take more than a little cock and o leave me a mindless slut like those girls",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;We’re not! We’re just as capable as men! It’d take more than a little cock and o leave me a mindless slut like those girls&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1701726239.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kc0dnt8/",
@@ -9022,13 +9172,25 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "Of course not, it would take cock from a real man who treats you with the respect you deserve to fix your delusions. You can’t even type right after seeing this post so I’m inclined to doubt your willpower.",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Of course not, it would take cock from a real man who treats you with the respect you deserve to fix your delusions. You can’t even type right after seeing this post so I’m inclined to doubt your willpower.&lt;/p&gt;\n&lt;/div&gt;",
           "score": 3,
           "created_utc": 1701730689.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kc0pa3x/",
           "is_submitter": false,
           "parent_id": "t1_kc0dnt8",
-          "replies": []
+          "replies": [
+            {
+              "id": "kc0qbys",
+              "author": "MajestyLewd",
+              "author_fullname": "t2_4ah12jxz",
+              "body": "I’m not deluded! But yes, I’d love a partner to treat me with the respect I deserve.\n\nAlso I’m trying just fine considering I’m only using one… um.. forget I said that",
+              "score": 2,
+              "created_utc": 1701731093.0,
+              "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kc0qbys/",
+              "is_submitter": false,
+              "parent_id": "t1_kc0pa3x",
+              "replies": []
+            }
+          ]
         }
       ]
     },
@@ -9037,7 +9199,6 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "[removed]",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[removed]&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1701923008.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kcbrff8/",
@@ -9049,7 +9210,6 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "Good girl, I’m glad you’re satisfied with your purpose in life. Holes don’t need to think.",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Good girl, I’m glad you’re satisfied with your purpose in life. Holes don’t need to think.&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1701925214.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kcbvghx/",
@@ -9064,7 +9224,6 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "Need",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Need&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1702562846.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kdbl44i/",
@@ -9077,7 +9236,6 @@
       "author": "MyOwn_Occasion_7538",
       "author_fullname": "t2_qgmog9fs0",
       "body": "Women are useless fucktoys for Big White MAGA Cock",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Women are useless fucktoys for Big White MAGA Cock&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1703656011.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kf37o54/",
@@ -9090,7 +9248,6 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "[deleted]",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[deleted]&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1707321844.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kpcgnzn/",
@@ -9102,7 +9259,6 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "Good girl, it’s important to reinforce the natural order as often as you can ☺️",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Good girl, it’s important to reinforce the natural order as often as you can ☺️&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1707352905.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kpezacg/",
@@ -9117,7 +9273,6 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "reallllz I'm not even American and ik women aren't smart enough to vote",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;reallllz I&amp;#39;m not even American and ik women aren&amp;#39;t smart enough to vote&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1718612509.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/l8z29rp/",
@@ -9130,7 +9285,6 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "We didn’t need suffrage",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;We didn’t need suffrage&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1732154802.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/ly6oial/",
@@ -9143,7 +9297,6 @@
       "author": "kinnkykitten",
       "author_fullname": "t2_4gpq071z",
       "body": "I shouldn’t vote for trump? It’s better not to vote? Lost dumb slut",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I shouldn’t vote for trump? It’s better not to vote? Lost dumb slut&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1720987231.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/ld6r7ud/",
@@ -9156,7 +9309,6 @@
       "author": "shiggy_flakes",
       "author_fullname": "t2_j2hr7mx7",
       "body": "Breed me 🥵🥵",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Breed me 🥵🥵&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1727391165.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/lp3jg6m/",
@@ -9169,7 +9321,6 @@
       "author": "Elina_333",
       "author_fullname": "t2_1bfxknq8ge",
       "body": "Men are always so right I love it that I am just a fuck toy",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Men are always so right I love it that I am just a fuck toy&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1738935407.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/mbh4myw/",
@@ -9182,7 +9333,6 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "[deleted]",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[deleted]&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1701574387.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbrqgzb/",
@@ -9194,7 +9344,6 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "That can be arranged libslut, whatever teaching method is necessary I can perform",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;That can be arranged libslut, whatever teaching method is necessary I can perform&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1701622445.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbtz302/",
@@ -9209,7 +9358,6 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "[deleted]",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[deleted]&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1701613687.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbte87r/",
@@ -9221,7 +9369,6 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "Crawl into my dms and I’ll show you that everything in it is true libslut",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Crawl into my dms and I’ll show you that everything in it is true libslut&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1701622416.0,
           "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/kbtz0e3/",
@@ -9236,7 +9383,6 @@
       "author": "Destructodelta",
       "author_fullname": "t2_qcp6h1kqy",
       "body": "I showed this to my younger stepsister and told her this is the truth about females. She was shocked but seems to be coming round to the idea.",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I showed this to my younger stepsister and told her this is the truth about females. She was shocked but seems to be coming round to the idea.&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1703358663.0,
       "permalink": "https://www.reddit.com/r/FuckingFascists/comments/1893to5/fascist_indoctrination_through_subtle_propaganda/ken8ql6/",

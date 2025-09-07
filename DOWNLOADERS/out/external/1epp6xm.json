@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T06:12:09.000000+00:00",
+  "archived_at": "2025-09-07T22:23:19.452728+00:00",
   "reddit_fullname": "t3_1epp6xm",
   "reddit_id": "1epp6xm",
   "permalink": "https://www.reddit.com/r/u_Guilty-Jello-9885/comments/1epp6xm/eva_green_political_power_to_eva_mendes/",
@@ -25,10 +25,7 @@
   "num_comments": 0,
   "score": 3,
   "upvote_ratio": 1.0,
-  "media": {
-    "kind": "link",
-    "files": []
-  },
+  "media": null,
   "external_link": "https://www.redgifs.com/watch/youthfulacceptablemegaraptor?source=explore",
   "raw_post": {
     "approved_at_utc": null,
@@ -78,7 +75,7 @@
         "width": 600,
         "version": "1.0",
         "provider_name": "RedGIFs",
-        "thumbnail_url": "https://api.redgifs.com/v2/gifs/youthfulacceptablemegaraptor/files/YouthfulAcceptableMegaraptor-poster.jpg",
+        "thumbnail_url": "https://media.redgifs.com/YouthfulAcceptableMegaraptor-poster.jpg",
         "thumbnail_height": 1080
       },
       "type": "redgifs.com"
@@ -220,18 +217,6 @@
           "id": "wfjEdk-bI0jJahVCpbtnJ8zYyyO-Va5AOtDIzhWqxd8"
         }
       ],
-      "reddit_video_preview": {
-        "bitrate_kbps": 5000,
-        "fallback_url": "https://v.redd.it/x6tj9eoqu0id1/DASH_1080.mp4",
-        "height": 1080,
-        "width": 1920,
-        "scrubber_media_url": "https://v.redd.it/x6tj9eoqu0id1/DASH_96.mp4",
-        "dash_url": "https://v.redd.it/x6tj9eoqu0id1/DASHPlaylist.mpd",
-        "duration": 27,
-        "hls_url": "https://v.redd.it/x6tj9eoqu0id1/HLSPlaylist.m3u8",
-        "is_gif": true,
-        "transcoding_status": "completed"
-      },
       "enabled": false
     },
     "all_awardings": [],
@@ -270,7 +255,7 @@
         "width": 600,
         "version": "1.0",
         "provider_name": "RedGIFs",
-        "thumbnail_url": "https://api.redgifs.com/v2/gifs/youthfulacceptablemegaraptor/files/YouthfulAcceptableMegaraptor-poster.jpg",
+        "thumbnail_url": "https://media.redgifs.com/YouthfulAcceptableMegaraptor-poster.jpg",
         "thumbnail_height": 1080
       },
       "type": "redgifs.com"
@@ -297,5 +282,9 @@
       "children": [],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [],
+  "media_kind": "external"
 }

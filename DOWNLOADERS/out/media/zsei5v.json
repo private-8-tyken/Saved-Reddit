@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T10:15:18.000000+00:00",
+  "archived_at": "2025-09-07T22:00:26.123014+00:00",
   "reddit_fullname": "t3_zsei5v",
   "reddit_id": "zsei5v",
   "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/",
@@ -23,12 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 89,
-  "score": 13654,
+  "score": 13648,
   "upvote_ratio": 0.98,
-  "media": {
-    "kind": "video",
-    "files": []
-  },
+  "media": null,
   "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
@@ -55,7 +52,7 @@
     "upvote_ratio": 0.98,
     "author_flair_background_color": null,
     "subreddit_type": "public",
-    "ups": 13654,
+    "ups": 13648,
     "total_awards_received": 0,
     "media_embed": {},
     "thumbnail_width": 140,
@@ -69,7 +66,7 @@
     "secure_media_embed": {},
     "link_flair_text": null,
     "can_mod_post": false,
-    "score": 13654,
+    "score": 13648,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -258,7 +255,7 @@
     "permalink": "/r/nsfw/comments/zsei5v/mile_high_club/",
     "stickied": false,
     "url": "https://i.redd.it/r6kclhm6pf7a1.jpg",
-    "subreddit_subscribers": 4414817,
+    "subreddit_subscribers": 4414783,
     "created_utc": 1671690182.0,
     "num_crossposts": 17,
     "mod_reports": [],
@@ -294,7 +291,21 @@
                 "dist": null,
                 "modhash": null,
                 "geo_filter": "",
-                "children": [],
+                "children": [
+                  {
+                    "kind": "more",
+                    "data": {
+                      "count": 1,
+                      "name": "t1_j1abzha",
+                      "id": "j1abzha",
+                      "parent_id": "t1_j17kl74",
+                      "depth": 1,
+                      "children": [
+                        "j1abzha"
+                      ]
+                    }
+                  }
+                ],
                 "before": null
               }
             },
@@ -390,7 +401,7 @@
                       "awarders": [],
                       "mod_reason_by": null,
                       "banned_by": null,
-                      "ups": 19,
+                      "ups": 18,
                       "removal_reason": null,
                       "link_id": "t3_zsei5v",
                       "author_flair_template_id": null,
@@ -409,7 +420,7 @@
                       "can_mod_post": false,
                       "send_replies": true,
                       "parent_id": "t1_j18mike",
-                      "score": 19,
+                      "score": 18,
                       "approved_by": null,
                       "report_reasons": null,
                       "all_awardings": [],
@@ -468,7 +479,7 @@
             "created_utc": 1671717601.0,
             "send_replies": true,
             "parent_id": "t3_zsei5v",
-            "score": 237,
+            "score": 235,
             "author_fullname": "t2_6alvo",
             "approved_by": null,
             "mod_note": null,
@@ -510,7 +521,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 237
+            "ups": 235
           }
         },
         {
@@ -588,7 +599,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_j1azjxw",
-                                "score": 19,
+                                "score": 18,
                                 "author_fullname": "t2_beo50",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -631,7 +642,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 19
+                                "ups": 18
                               }
                             }
                           ],
@@ -652,7 +663,7 @@
                       "created_utc": 1671752221.0,
                       "send_replies": true,
                       "parent_id": "t1_j18ec63",
-                      "score": 5,
+                      "score": 6,
                       "author_fullname": "t2_ngu1i",
                       "removal_reason": null,
                       "approved_by": null,
@@ -694,7 +705,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 5
+                      "ups": 6
                     }
                   }
                 ],
@@ -715,7 +726,7 @@
             "created_utc": 1671713142.0,
             "send_replies": true,
             "parent_id": "t3_zsei5v",
-            "score": 136,
+            "score": 141,
             "author_fullname": "t2_ccjtd",
             "approved_by": null,
             "mod_note": null,
@@ -757,7 +768,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 136
+            "ups": 141
           }
         },
         {
@@ -793,7 +804,7 @@
                       "awarders": [],
                       "mod_reason_by": null,
                       "banned_by": null,
-                      "ups": -58,
+                      "ups": -56,
                       "removal_reason": null,
                       "link_id": "t3_zsei5v",
                       "author_flair_template_id": null,
@@ -839,7 +850,7 @@
                                           "awarders": [],
                                           "mod_reason_by": null,
                                           "banned_by": null,
-                                          "ups": 1,
+                                          "ups": 2,
                                           "removal_reason": null,
                                           "link_id": "t3_zsei5v",
                                           "author_flair_template_id": null,
@@ -858,7 +869,7 @@
                                           "can_mod_post": false,
                                           "send_replies": true,
                                           "parent_id": "t1_j1bka5q",
-                                          "score": 1,
+                                          "score": 2,
                                           "approved_by": null,
                                           "report_reasons": null,
                                           "all_awardings": [],
@@ -979,7 +990,7 @@
                       "can_mod_post": false,
                       "send_replies": true,
                       "parent_id": "t1_j18flj3",
-                      "score": -58,
+                      "score": -56,
                       "approved_by": null,
                       "report_reasons": null,
                       "all_awardings": [],
@@ -1113,7 +1124,7 @@
             "created_utc": 1671729801.0,
             "send_replies": true,
             "parent_id": "t3_zsei5v",
-            "score": 50,
+            "score": 53,
             "author_fullname": "t2_bzeh6yxn",
             "approved_by": null,
             "mod_note": null,
@@ -1155,7 +1166,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 50
+            "ups": 53
           }
         },
         {
@@ -1263,7 +1274,7 @@
             "created_utc": 1671714774.0,
             "send_replies": true,
             "parent_id": "t3_zsei5v",
-            "score": 33,
+            "score": 35,
             "author_fullname": "t2_eaqq82sf",
             "approved_by": null,
             "mod_note": null,
@@ -1305,7 +1316,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 33
+            "ups": 35
           }
         },
         {
@@ -1318,7 +1329,7 @@
             "awarders": [],
             "mod_reason_by": null,
             "banned_by": null,
-            "ups": 8,
+            "ups": 7,
             "removal_reason": null,
             "link_id": "t3_zsei5v",
             "author_flair_template_id": null,
@@ -1337,7 +1348,7 @@
             "can_mod_post": false,
             "send_replies": true,
             "parent_id": "t3_zsei5v",
-            "score": 8,
+            "score": 7,
             "approved_by": null,
             "report_reasons": null,
             "all_awardings": [],
@@ -1628,7 +1639,7 @@
             "created_utc": 1671731180.0,
             "send_replies": true,
             "parent_id": "t3_zsei5v",
-            "score": 1,
+            "score": 2,
             "author_fullname": "t2_154055",
             "approved_by": null,
             "mod_note": null,
@@ -1670,7 +1681,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 1
+            "ups": 2
           }
         },
         {
@@ -2051,5 +2062,292 @@
       ],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [
+    {
+      "id": "j17kl74",
+      "author": "AutoModerator",
+      "author_fullname": "t2_6l4z3",
+      "body": "If anyone (including OP) has the source or name(s), reply to this comment for visibility's sake. Any other requests for names will be removed.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/nsfw) if you have any questions or concerns.*",
+      "score": 1,
+      "created_utc": 1671690182.0,
+      "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/j17kl74/",
+      "is_submitter": false,
+      "parent_id": "t3_zsei5v",
+      "replies": []
+    },
+    {
+      "id": "j18mike",
+      "author": "mattwb72",
+      "author_fullname": "t2_6alvo",
+      "body": "Is that what's happening while I stand outside in the aisle trying not to shit my pants?",
+      "score": 235,
+      "created_utc": 1671717601.0,
+      "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/j18mike/",
+      "is_submitter": false,
+      "parent_id": "t3_zsei5v",
+      "replies": [
+        {
+          "id": "j19d0pw",
+          "author": "[deleted]",
+          "author_fullname": null,
+          "body": "Lmao",
+          "score": 18,
+          "created_utc": 1671728700.0,
+          "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/j19d0pw/",
+          "is_submitter": false,
+          "parent_id": "t1_j18mike",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "j18ec63",
+      "author": "10HP",
+      "author_fullname": "t2_ccjtd",
+      "body": "mimimartini / michelamartini",
+      "score": 141,
+      "created_utc": 1671713142.0,
+      "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/j18ec63/",
+      "is_submitter": false,
+      "parent_id": "t3_zsei5v",
+      "replies": [
+        {
+          "id": "j1azjxw",
+          "author": "IncognitoWords",
+          "author_fullname": "t2_ngu1i",
+          "body": "on what platform? can't find her",
+          "score": 6,
+          "created_utc": 1671752221.0,
+          "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/j1azjxw/",
+          "is_submitter": false,
+          "parent_id": "t1_j18ec63",
+          "replies": [
+            {
+              "id": "j1c3wvd",
+              "author": "kcexactly",
+              "author_fullname": "t2_beo50",
+              "body": "https://faponic.com/michela-martini/8/#show",
+              "score": 18,
+              "created_utc": 1671771620.0,
+              "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/j1c3wvd/",
+              "is_submitter": false,
+              "parent_id": "t1_j1azjxw",
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "j18flj3",
+      "author": "DracoSolon",
+      "author_fullname": "t2_5eq0c",
+      "body": "This doesn't count. Taking a selfie in the bathroom isn't what the mile high club is.",
+      "score": 244,
+      "created_utc": 1671713894.0,
+      "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/j18flj3/",
+      "is_submitter": false,
+      "parent_id": "t3_zsei5v",
+      "replies": [
+        {
+          "id": "j19an02",
+          "author": "[deleted]",
+          "author_fullname": null,
+          "body": "[deleted]",
+          "score": -56,
+          "created_utc": 1671727780.0,
+          "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/j19an02/",
+          "is_submitter": false,
+          "parent_id": "t1_j18flj3",
+          "replies": [
+            {
+              "id": "j1bka5q",
+              "author": "sayonara24x7",
+              "author_fullname": "t2_69138i8f",
+              "body": "\\-54 upvotes?!",
+              "score": -1,
+              "created_utc": 1671761755.0,
+              "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/j1bka5q/",
+              "is_submitter": false,
+              "parent_id": "t1_j19an02",
+              "replies": [
+                {
+                  "id": "j1pjdfm",
+                  "author": "[deleted]",
+                  "author_fullname": null,
+                  "body": "[deleted]",
+                  "score": 2,
+                  "created_utc": 1672049657.0,
+                  "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/j1pjdfm/",
+                  "is_submitter": false,
+                  "parent_id": "t1_j1bka5q",
+                  "replies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "j19fvcx",
+      "author": "deathleper",
+      "author_fullname": "t2_bzeh6yxn",
+      "body": "It takes fucking. Not just showing tits for that club.",
+      "score": 53,
+      "created_utc": 1671729801.0,
+      "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/j19fvcx/",
+      "is_submitter": false,
+      "parent_id": "t3_zsei5v",
+      "replies": []
+    },
+    {
+      "id": "j1bk6gf",
+      "author": "Creepy_Leek6414",
+      "author_fullname": "t2_pay0hv7b",
+      "body": "She’s beautiful it’s crazy how normal people are more attractive than celebrities",
+      "score": 8,
+      "created_utc": 1671761707.0,
+      "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/j1bk6gf/",
+      "is_submitter": false,
+      "parent_id": "t3_zsei5v",
+      "replies": []
+    },
+    {
+      "id": "j18h425",
+      "author": "AlanGilligan1979",
+      "author_fullname": "t2_eaqq82sf",
+      "body": "The 1/2 mile club that is called.",
+      "score": 35,
+      "created_utc": 1671714774.0,
+      "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/j18h425/",
+      "is_submitter": false,
+      "parent_id": "t3_zsei5v",
+      "replies": []
+    },
+    {
+      "id": "j1ahs3k",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "Doesn't count",
+      "score": 7,
+      "created_utc": 1671744661.0,
+      "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/j1ahs3k/",
+      "is_submitter": false,
+      "parent_id": "t3_zsei5v",
+      "replies": []
+    },
+    {
+      "id": "j1i7xyq",
+      "author": "Alexdelarge4794",
+      "author_fullname": "t2_dum521y",
+      "body": "FaceAppd' catfish",
+      "score": 3,
+      "created_utc": 1671897316.0,
+      "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/j1i7xyq/",
+      "is_submitter": false,
+      "parent_id": "t3_zsei5v",
+      "replies": []
+    },
+    {
+      "id": "j1bvjpw",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "/for only Rich pilots.... early  discount",
+      "score": 2,
+      "created_utc": 1671767153.0,
+      "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/j1bvjpw/",
+      "is_submitter": false,
+      "parent_id": "t3_zsei5v",
+      "replies": []
+    },
+    {
+      "id": "j18uxrx",
+      "author": "Ouvrir",
+      "author_fullname": "t2_6r7z3",
+      "body": "This should be painted",
+      "score": 4,
+      "created_utc": 1671721464.0,
+      "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/j18uxrx/",
+      "is_submitter": false,
+      "parent_id": "t3_zsei5v",
+      "replies": []
+    },
+    {
+      "id": "j19jhc7",
+      "author": "DentonX12",
+      "author_fullname": "t2_154055",
+      "body": "It took me a while to see it but she’s cross-eyed",
+      "score": 2,
+      "created_utc": 1671731180.0,
+      "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/j19jhc7/",
+      "is_submitter": false,
+      "parent_id": "t3_zsei5v",
+      "replies": []
+    },
+    {
+      "id": "j195hay",
+      "author": "ferrydragon",
+      "author_fullname": "t2_4dp4o4jw",
+      "body": "Hot hot",
+      "score": 1,
+      "created_utc": 1671725761.0,
+      "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/j195hay/",
+      "is_submitter": false,
+      "parent_id": "t3_zsei5v",
+      "replies": []
+    },
+    {
+      "id": "j19ctg2",
+      "author": "staple3",
+      "author_fullname": "t2_b38klvr8",
+      "body": "Wow",
+      "score": 1,
+      "created_utc": 1671728620.0,
+      "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/j19ctg2/",
+      "is_submitter": false,
+      "parent_id": "t3_zsei5v",
+      "replies": []
+    },
+    {
+      "id": "j19ohiz",
+      "author": "joskevermeulen87",
+      "author_fullname": "t2_4wsv4t5s",
+      "body": "Lovely",
+      "score": -1,
+      "created_utc": 1671733112.0,
+      "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/j19ohiz/",
+      "is_submitter": false,
+      "parent_id": "t3_zsei5v",
+      "replies": []
+    },
+    {
+      "id": "j1b2ikr",
+      "author": "xmoka101",
+      "author_fullname": "t2_18j90d5z",
+      "body": "I should try that one day",
+      "score": 1,
+      "created_utc": 1671753532.0,
+      "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/j1b2ikr/",
+      "is_submitter": false,
+      "parent_id": "t3_zsei5v",
+      "replies": []
+    },
+    {
+      "id": "j1cbtny",
+      "author": "AsKingQuest",
+      "author_fullname": "t2_9xnqy",
+      "body": "I mean, mile high club applicant needing a partner I guess.",
+      "score": 1,
+      "created_utc": 1671776491.0,
+      "permalink": "https://www.reddit.com/r/nsfw/comments/zsei5v/mile_high_club/j1cbtny/",
+      "is_submitter": false,
+      "parent_id": "t3_zsei5v",
+      "replies": []
+    }
+  ],
+  "media_kind": "image"
 }

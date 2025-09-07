@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T10:14:34.000000+00:00",
+  "archived_at": "2025-09-07T21:59:24.432950+00:00",
   "reddit_fullname": "t3_1lxwhtd",
   "reddit_id": "1lxwhtd",
   "permalink": "https://www.reddit.com/r/biosuits/comments/1lxwhtd/guardian_tech_is_easily_corruptible_by_mrbones2210/",
@@ -23,12 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 3,
-  "score": 1569,
+  "score": 1572,
   "upvote_ratio": 1.0,
-  "media": {
-    "kind": "video",
-    "files": []
-  },
+  "media": null,
   "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
@@ -55,7 +52,7 @@
     "upvote_ratio": 1.0,
     "author_flair_background_color": null,
     "subreddit_type": "public",
-    "ups": 1569,
+    "ups": 1572,
     "total_awards_received": 0,
     "media_embed": {},
     "thumbnail_width": 140,
@@ -69,7 +66,7 @@
     "secure_media_embed": {},
     "link_flair_text": null,
     "can_mod_post": false,
-    "score": 1569,
+    "score": 1572,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -258,7 +255,7 @@
     "permalink": "/r/biosuits/comments/1lxwhtd/guardian_tech_is_easily_corruptible_by_mrbones2210/",
     "stickied": false,
     "url": "https://i.redd.it/urviy7vlyecf1.jpeg",
-    "subreddit_subscribers": 57450,
+    "subreddit_subscribers": 57454,
     "created_utc": 1752313132.0,
     "num_crossposts": 1,
     "mod_reports": [],
@@ -302,7 +299,7 @@
             "created_utc": 1752313266.0,
             "send_replies": true,
             "parent_id": "t3_1lxwhtd",
-            "score": 7,
+            "score": 6,
             "author_fullname": "t2_3wegx3w2",
             "approved_by": null,
             "mod_note": null,
@@ -344,7 +341,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 7
+            "ups": 6
           }
         },
         {
@@ -500,5 +497,46 @@
       ],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [
+    {
+      "id": "n2paooi",
+      "author": "AriesNemesis",
+      "author_fullname": "t2_3wegx3w2",
+      "body": "[Deviantart source.](https://www.deviantart.com/mrbones2210/art/Guardian-Tech-is-easily-corruptable-1217132681)\n\nArtist is also on [Pixiv](http://www.pixiv.net/users/65149717) and [X/Twitter](https://twitter.com/MrBones2210)",
+      "score": 6,
+      "created_utc": 1752313266.0,
+      "permalink": "https://www.reddit.com/r/biosuits/comments/1lxwhtd/guardian_tech_is_easily_corruptible_by_mrbones2210/n2paooi/",
+      "is_submitter": true,
+      "parent_id": "t3_1lxwhtd",
+      "replies": []
+    },
+    {
+      "id": "n2pexw1",
+      "author": "Rasputin11567",
+      "author_fullname": "t2_w9vq52dr",
+      "body": "Damn I wish I was her 🥵",
+      "score": 7,
+      "created_utc": 1752315780.0,
+      "permalink": "https://www.reddit.com/r/biosuits/comments/1lxwhtd/guardian_tech_is_easily_corruptible_by_mrbones2210/n2pexw1/",
+      "is_submitter": false,
+      "parent_id": "t3_1lxwhtd",
+      "replies": []
+    },
+    {
+      "id": "narokxq",
+      "author": "Pristine_Ad552",
+      "author_fullname": "t2_6o0t7518",
+      "body": "Where can I find that tech?",
+      "score": 1,
+      "created_utc": 1756217920.0,
+      "permalink": "https://www.reddit.com/r/biosuits/comments/1lxwhtd/guardian_tech_is_easily_corruptible_by_mrbones2210/narokxq/",
+      "is_submitter": false,
+      "parent_id": "t3_1lxwhtd",
+      "replies": []
+    }
+  ],
+  "media_kind": "image"
 }

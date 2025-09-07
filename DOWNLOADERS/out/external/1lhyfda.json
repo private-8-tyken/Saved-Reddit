@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T06:07:23.000000+00:00",
+  "archived_at": "2025-09-07T22:21:36.960289+00:00",
   "reddit_fullname": "t3_1lhyfda",
   "reddit_id": "1lhyfda",
   "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/",
@@ -23,12 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 87,
-  "score": 4863,
+  "score": 4872,
   "upvote_ratio": 1.0,
-  "media": {
-    "kind": "link",
-    "files": []
-  },
+  "media": null,
   "external_link": "https://www.redgifs.com/watch/lightslateblueauthenticplatypus",
   "raw_post": {
     "approved_at_utc": null,
@@ -55,7 +52,7 @@
     "upvote_ratio": 1.0,
     "author_flair_background_color": null,
     "subreddit_type": "public",
-    "ups": 4863,
+    "ups": 4872,
     "total_awards_received": 0,
     "media_embed": {
       "content": "<iframe src=\"https://www.redgifs.com/ifr/lightslateblueauthenticplatypus\" frameborder=\"0\" scrolling=\"no\" width=\"100%\" height=\"100%\"\n      allowfullscreen style=\"position:absolute;\"></iframe>",
@@ -95,7 +92,7 @@
     },
     "link_flair_text": null,
     "can_mod_post": false,
-    "score": 4863,
+    "score": 4872,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -266,7 +263,7 @@
     "permalink": "/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/",
     "stickied": false,
     "url": "https://www.redgifs.com/watch/lightslateblueauthenticplatypus",
-    "subreddit_subscribers": 1003393,
+    "subreddit_subscribers": 1003999,
     "created_utc": 1750625769.0,
     "num_crossposts": 20,
     "mod_reports": [],
@@ -505,7 +502,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_mz8cs4w",
-                                "score": 6,
+                                "score": 5,
                                 "author_fullname": "t2_3yqfxklj",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -548,7 +545,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 6
+                                "ups": 5
                               }
                             }
                           ],
@@ -569,7 +566,7 @@
                       "created_utc": 1750632244.0,
                       "send_replies": true,
                       "parent_id": "t1_mz7zk0u",
-                      "score": 10,
+                      "score": 8,
                       "author_fullname": "t2_1bmj58wle6",
                       "removal_reason": null,
                       "approved_by": null,
@@ -611,7 +608,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 10
+                      "ups": 8
                     }
                   },
                   {
@@ -707,7 +704,7 @@
             "created_utc": 1750627828.0,
             "send_replies": true,
             "parent_id": "t3_1lhyfda",
-            "score": 46,
+            "score": 45,
             "author_fullname": "t2_3yqfxklj",
             "approved_by": null,
             "mod_note": null,
@@ -749,7 +746,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 46
+            "ups": 45
           }
         },
         {
@@ -1029,7 +1026,7 @@
             "created_utc": 1750627845.0,
             "send_replies": true,
             "parent_id": "t3_1lhyfda",
-            "score": 9,
+            "score": 11,
             "author_fullname": "t2_6pw1ft5s",
             "approved_by": null,
             "mod_note": null,
@@ -1071,7 +1068,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 9
+            "ups": 11
           }
         },
         {
@@ -1421,7 +1418,7 @@
             "created_utc": 1750626665.0,
             "send_replies": true,
             "parent_id": "t3_1lhyfda",
-            "score": 5,
+            "score": 7,
             "author_fullname": "t2_j4w02npk",
             "approved_by": null,
             "mod_note": null,
@@ -1463,7 +1460,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 5
+            "ups": 7
           }
         },
         {
@@ -1551,7 +1548,7 @@
             "awarders": [],
             "mod_reason_by": null,
             "banned_by": null,
-            "ups": 5,
+            "ups": 4,
             "removal_reason": null,
             "link_id": "t3_1lhyfda",
             "author_flair_template_id": null,
@@ -1570,7 +1567,7 @@
             "can_mod_post": false,
             "send_replies": true,
             "parent_id": "t3_1lhyfda",
-            "score": 5,
+            "score": 4,
             "approved_by": null,
             "report_reasons": null,
             "all_awardings": [],
@@ -1609,81 +1606,6 @@
             "mod_reports": [],
             "mod_note": null,
             "distinguished": null
-          }
-        },
-        {
-          "kind": "t1",
-          "data": {
-            "subreddit_id": "t5_qrwml",
-            "approved_at_utc": null,
-            "author_is_blocked": false,
-            "comment_type": null,
-            "awarders": [],
-            "mod_reason_by": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "total_awards_received": 0,
-            "subreddit": "BBCparadise",
-            "author_flair_template_id": null,
-            "likes": null,
-            "replies": "",
-            "user_reports": [],
-            "saved": false,
-            "id": "mz9yb0w",
-            "banned_at_utc": null,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "archived": false,
-            "collapsed_reason_code": null,
-            "no_follow": false,
-            "author": "PomegranateOverall25",
-            "can_mod_post": false,
-            "created_utc": 1750653222.0,
-            "send_replies": true,
-            "parent_id": "t3_1lhyfda",
-            "score": 5,
-            "author_fullname": "t2_9mw8qpfu",
-            "approved_by": null,
-            "mod_note": null,
-            "all_awardings": [],
-            "collapsed": false,
-            "body": "Scene?",
-            "edited": false,
-            "top_awarded_type": null,
-            "author_flair_css_class": null,
-            "name": "t1_mz9yb0w",
-            "is_submitter": false,
-            "downs": 0,
-            "author_flair_richtext": [],
-            "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>Scene?</p>\n</div>",
-            "removal_reason": null,
-            "collapsed_reason": null,
-            "distinguished": null,
-            "associated_award": null,
-            "stickied": false,
-            "author_premium": false,
-            "can_gild": false,
-            "gildings": {},
-            "unrepliable_reason": null,
-            "author_flair_text_color": null,
-            "score_hidden": false,
-            "permalink": "/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz9yb0w/",
-            "subreddit_type": "public",
-            "locked": false,
-            "report_reasons": null,
-            "created": 1750653222.0,
-            "author_flair_text": null,
-            "treatment_tags": [],
-            "link_id": "t3_1lhyfda",
-            "subreddit_name_prefixed": "r/BBCparadise",
-            "controversiality": 0,
-            "depth": 0,
-            "author_flair_background_color": null,
-            "collapsed_because_crowd_control": null,
-            "mod_reports": [],
-            "num_reports": null,
-            "ups": 5
           }
         },
         {
@@ -1779,6 +1701,81 @@
             "replies": "",
             "user_reports": [],
             "saved": false,
+            "id": "mz9yb0w",
+            "banned_at_utc": null,
+            "mod_reason_title": null,
+            "gilded": 0,
+            "archived": false,
+            "collapsed_reason_code": null,
+            "no_follow": false,
+            "author": "PomegranateOverall25",
+            "can_mod_post": false,
+            "created_utc": 1750653222.0,
+            "send_replies": true,
+            "parent_id": "t3_1lhyfda",
+            "score": 4,
+            "author_fullname": "t2_9mw8qpfu",
+            "approved_by": null,
+            "mod_note": null,
+            "all_awardings": [],
+            "collapsed": false,
+            "body": "Scene?",
+            "edited": false,
+            "top_awarded_type": null,
+            "author_flair_css_class": null,
+            "name": "t1_mz9yb0w",
+            "is_submitter": false,
+            "downs": 0,
+            "author_flair_richtext": [],
+            "author_patreon_flair": false,
+            "body_html": "<div class=\"md\"><p>Scene?</p>\n</div>",
+            "removal_reason": null,
+            "collapsed_reason": null,
+            "distinguished": null,
+            "associated_award": null,
+            "stickied": false,
+            "author_premium": false,
+            "can_gild": false,
+            "gildings": {},
+            "unrepliable_reason": null,
+            "author_flair_text_color": null,
+            "score_hidden": false,
+            "permalink": "/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz9yb0w/",
+            "subreddit_type": "public",
+            "locked": false,
+            "report_reasons": null,
+            "created": 1750653222.0,
+            "author_flair_text": null,
+            "treatment_tags": [],
+            "link_id": "t3_1lhyfda",
+            "subreddit_name_prefixed": "r/BBCparadise",
+            "controversiality": 0,
+            "depth": 0,
+            "author_flair_background_color": null,
+            "collapsed_because_crowd_control": null,
+            "mod_reports": [],
+            "num_reports": null,
+            "ups": 4
+          }
+        },
+        {
+          "kind": "t1",
+          "data": {
+            "subreddit_id": "t5_qrwml",
+            "approved_at_utc": null,
+            "author_is_blocked": false,
+            "comment_type": null,
+            "awarders": [],
+            "mod_reason_by": null,
+            "banned_by": null,
+            "author_flair_type": "text",
+            "total_awards_received": 0,
+            "subreddit": "BBCparadise",
+            "author_flair_template_id": null,
+            "likes": null,
+            "replies": "",
+            "user_reports": [],
+            "saved": false,
             "id": "mz7xp47",
             "banned_at_utc": null,
             "mod_reason_title": null,
@@ -1791,7 +1788,7 @@
             "created_utc": 1750627236.0,
             "send_replies": true,
             "parent_id": "t3_1lhyfda",
-            "score": 4,
+            "score": 3,
             "author_fullname": "t2_1caoh2k6ju",
             "approved_by": null,
             "mod_note": null,
@@ -1833,7 +1830,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 4
+            "ups": 3
           }
         },
         {
@@ -2420,7 +2417,7 @@
                       "created_utc": 1750667877.0,
                       "send_replies": true,
                       "parent_id": "t1_mz80ane",
-                      "score": 6,
+                      "score": 8,
                       "author_fullname": "t2_1hiwq6sq",
                       "removal_reason": null,
                       "approved_by": null,
@@ -2462,7 +2459,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 6
+                      "ups": 8
                     }
                   }
                 ],
@@ -5299,7 +5296,7 @@
                       "created_utc": 1750626529.0,
                       "send_replies": true,
                       "parent_id": "t1_mz7tuww",
-                      "score": 14,
+                      "score": 13,
                       "author_fullname": "t2_11cbwv8kei",
                       "removal_reason": null,
                       "approved_by": null,
@@ -5341,7 +5338,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 14
+                      "ups": 13
                     }
                   },
                   {
@@ -5571,5 +5568,851 @@
       ],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [
+    {
+      "id": "mz7t09l",
+      "author": "AutoModerator",
+      "author_fullname": "t2_6l4z3",
+      "body": "**Welcome to BBCparadise!**\n\n\nRemember to follow rules! If unfamiliar, please read the rules in sidebar. Report anyone breaking these rules or any harassing comments by using the Report button.\n\n\n**If you want to support us and keep watching high quality premium BBC content and guaranteed new movies every week, please check out [BBCparadise.com](https://join.bbcparadise.com/track/NDczMTkuMy4yOS44MC4wLjAuMC4wLjA) for 1-day trial at $1 ONLY!.**\n\n\n**Like what you see here? Let us know by commenting and upvoting!**\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/BBCparadise) if you have any questions or concerns.*",
+      "score": 1,
+      "created_utc": 1750625770.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz7t09l/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mz7zk0u",
+      "author": "Cuckold-BBC-Hotwife",
+      "author_fullname": "t2_3yqfxklj",
+      "body": "Getting BLACKED becomes a Life Changing experience, from Day One, once any girl realizes just how different it feels, and how much better sex can actually become with a superior partner. ❄️🐰",
+      "score": 45,
+      "created_utc": 1750627828.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz7zk0u/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": [
+        {
+          "id": "mz8cs4w",
+          "author": "LieSharp894",
+          "author_fullname": "t2_1bmj58wle6",
+          "body": "It’s one of those things women have to try to believe how much better it is.",
+          "score": 8,
+          "created_utc": 1750632244.0,
+          "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz8cs4w/",
+          "is_submitter": false,
+          "parent_id": "t1_mz7zk0u",
+          "replies": [
+            {
+              "id": "mze23up",
+              "author": "notknotk",
+              "author_fullname": "t2_1r2sorcoaw",
+              "body": "Not all women should try this. If they do what will guys like me without black cock do? Just accept that my only choices are to get cheated on or cucked?",
+              "score": 3,
+              "created_utc": 1750709357.0,
+              "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mze23up/",
+              "is_submitter": false,
+              "parent_id": "t1_mz8cs4w",
+              "replies": []
+            },
+            {
+              "id": "mz8ehrm",
+              "author": "Cuckold-BBC-Hotwife",
+              "author_fullname": "t2_3yqfxklj",
+              "body": "EXACTLY!! 💯 \n\nWords are cheap, but actually doing this, one quickly learns the stunning truth. 😋",
+              "score": 5,
+              "created_utc": 1750632839.0,
+              "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz8ehrm/",
+              "is_submitter": false,
+              "parent_id": "t1_mz8cs4w",
+              "replies": []
+            }
+          ]
+        },
+        {
+          "id": "mzbl736",
+          "author": "Top_Proposal_3217",
+          "author_fullname": "t2_1r2xv2dzxe",
+          "body": "Exactly!",
+          "score": 2,
+          "created_utc": 1750683496.0,
+          "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzbl736/",
+          "is_submitter": false,
+          "parent_id": "t1_mz7zk0u",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "mz7t875",
+      "author": "Deanoboy98",
+      "author_fullname": "t2_hi2k43ng",
+      "body": "Now I need a dick like that",
+      "score": 14,
+      "created_utc": 1750625836.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz7t875/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": [
+        {
+          "id": "mzfh7to",
+          "author": "Wakandaforever7",
+          "author_fullname": "t2_4a6ssywk",
+          "body": "Come\nSee mines",
+          "score": 2,
+          "created_utc": 1750725484.0,
+          "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzfh7to/",
+          "is_submitter": false,
+          "parent_id": "t1_mz7t875",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "mz7zlw3",
+      "author": "Vegetable_Scholar_72",
+      "author_fullname": "t2_6pw1ft5s",
+      "body": "I think my gf would break on that",
+      "score": 11,
+      "created_utc": 1750627845.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz7zlw3/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": [
+        {
+          "id": "mzbguwu",
+          "author": "ArachnidPrestigious8",
+          "author_fullname": "t2_9yq8jfsj",
+          "body": "Send her over",
+          "score": 3,
+          "created_utc": 1750681875.0,
+          "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzbguwu/",
+          "is_submitter": false,
+          "parent_id": "t1_mz7zlw3",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "mz8381z",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "and the Oscar goes to-",
+      "score": 17,
+      "created_utc": 1750629026.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz8381z/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": [
+        {
+          "id": "mz8zjov",
+          "author": "stevejohn76",
+          "author_fullname": "t2_4xandfvv",
+          "body": "But her face says it all! It CAN'T be acting.....",
+          "score": 6,
+          "created_utc": 1750640175.0,
+          "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz8zjov/",
+          "is_submitter": false,
+          "parent_id": "t1_mz8381z",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "mz7vvm2",
+      "author": "tinyWife73090",
+      "author_fullname": "t2_j4w02npk",
+      "body": "Me next !",
+      "score": 7,
+      "created_utc": 1750626665.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz7vvm2/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": [
+        {
+          "id": "mzbytad",
+          "author": "LowDangerous9354",
+          "author_fullname": "t2_ly3gmy528",
+          "body": "Come on then, I got time.",
+          "score": 1,
+          "created_utc": 1750688012.0,
+          "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzbytad/",
+          "is_submitter": false,
+          "parent_id": "t1_mz7vvm2",
+          "replies": []
+        },
+        {
+          "id": "mzfh8sj",
+          "author": "Wakandaforever7",
+          "author_fullname": "t2_4a6ssywk",
+          "body": "Come see mines",
+          "score": 1,
+          "created_utc": 1750725493.0,
+          "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzfh8sj/",
+          "is_submitter": false,
+          "parent_id": "t1_mz7vvm2",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "mz7wjqe",
+      "author": "Such-Fan-3819",
+      "author_fullname": "t2_190xv4c8y2",
+      "body": "oh ma god. need😳",
+      "score": 6,
+      "created_utc": 1750626874.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz7wjqe/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mz80le4",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "Need a friend with a BBC to do that for my wife!",
+      "score": 4,
+      "created_utc": 1750628166.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz80le4/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mz86jqs",
+      "author": "JD985crew105",
+      "author_fullname": "t2_bbnyzr0ve",
+      "body": "She has had that Big D before. She just shows how much she loves it!! ♠️🍆💦",
+      "score": 3,
+      "created_utc": 1750630124.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz86jqs/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mz9yb0w",
+      "author": "PomegranateOverall25",
+      "author_fullname": "t2_9mw8qpfu",
+      "body": "Scene?",
+      "score": 4,
+      "created_utc": 1750653222.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz9yb0w/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mz7xp47",
+      "author": "Femine89",
+      "author_fullname": "t2_1caoh2k6ju",
+      "body": "My ass needs this",
+      "score": 3,
+      "created_utc": 1750627236.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz7xp47/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mz88vg1",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "This. This is why we get blacked. Even the biggest white dick can't make us melt like this.",
+      "score": 4,
+      "created_utc": 1750630900.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz88vg1/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mz7uhi7",
+      "author": "ihavemoodsandmoments",
+      "author_fullname": "t2_psskgutds",
+      "body": "🫣",
+      "score": 2,
+      "created_utc": 1750626226.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz7uhi7/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mz93352",
+      "author": "Ordinary-Bug-4221",
+      "author_fullname": "t2_9u4eaif0",
+      "body": "I need it so bad 😫😫",
+      "score": 2,
+      "created_utc": 1750641396.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz93352/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": [
+        {
+          "id": "mz9pbhi",
+          "author": "Sensitive_Phase_3156",
+          "author_fullname": "t2_6lqs4srk",
+          "body": "Always ready for a 🐇 like you",
+          "score": 1,
+          "created_utc": 1750649319.0,
+          "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz9pbhi/",
+          "is_submitter": false,
+          "parent_id": "t1_mz93352",
+          "replies": []
+        },
+        {
+          "id": "mzf9r44",
+          "author": "IntelligentBike2059",
+          "author_fullname": "t2_d568g4pwt",
+          "body": "💠🖤🫵🏾",
+          "score": 1,
+          "created_utc": 1750722865.0,
+          "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzf9r44/",
+          "is_submitter": false,
+          "parent_id": "t1_mz93352",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "mza10ao",
+      "author": "secret_cuck92",
+      "author_fullname": "t2_uxg8ttc8g",
+      "body": "That is beautiful",
+      "score": 2,
+      "created_utc": 1750654487.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mza10ao/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mzc8k8l",
+      "author": "desiwomen67",
+      "author_fullname": "t2_192bompikh",
+      "body": "Ufff that dick and her expressions",
+      "score": 2,
+      "created_utc": 1750690882.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzc8k8l/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mz80ane",
+      "author": "lookslikefun007",
+      "author_fullname": "t2_10bq2v3tq8",
+      "body": "Jesus sauce?",
+      "score": 2,
+      "created_utc": 1750628069.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz80ane/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": [
+        {
+          "id": "mzap390",
+          "author": "Sukhoy-47",
+          "author_fullname": "t2_1hiwq6sq",
+          "body": "https://sxyprn.com/post/685471f5aecef.html?sk=Sammm&so=0&ss=latest",
+          "score": 8,
+          "created_utc": 1750667877.0,
+          "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzap390/",
+          "is_submitter": false,
+          "parent_id": "t1_mz80ane",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "mz8680w",
+      "author": "Necessary-Contact910",
+      "author_fullname": "t2_1k47gcmivq",
+      "body": "I need this PLEASSEE",
+      "score": 1,
+      "created_utc": 1750630015.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz8680w/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mz87lcn",
+      "author": "Top-Ambassador-6155",
+      "author_fullname": "t2_1kkkq7r0jx",
+      "body": "I need a cock this big in my life 🥵💗",
+      "score": 1,
+      "created_utc": 1750630470.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz87lcn/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": [
+        {
+          "id": "n2hva2y",
+          "author": "Forward_Concept_3899",
+          "author_fullname": "t2_mh15u5o0",
+          "body": "I'm down",
+          "score": 1,
+          "created_utc": 1752209480.0,
+          "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/n2hva2y/",
+          "is_submitter": false,
+          "parent_id": "t1_mz87lcn",
+          "replies": [
+            {
+              "id": "n2lb2e9",
+              "author": "Top-Ambassador-6155",
+              "author_fullname": "t2_1kkkq7r0jx",
+              "body": "Ummm your not even a BBC don’t reply on a BBC page if your not a BBC",
+              "score": 1,
+              "created_utc": 1752257222.0,
+              "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/n2lb2e9/",
+              "is_submitter": false,
+              "parent_id": "t1_n2hva2y",
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mz8bzqb",
+      "author": "ike96a",
+      "author_fullname": "t2_d8csyoj3",
+      "body": "She’s going to love it when he starts pounding",
+      "score": 1,
+      "created_utc": 1750631969.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz8bzqb/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mz8mj7i",
+      "author": "STUFFETxINN",
+      "author_fullname": "t2_7ugshsra",
+      "body": "i wish it had sound",
+      "score": 1,
+      "created_utc": 1750635606.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz8mj7i/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mz8njfr",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "Dame that thing massive",
+      "score": 1,
+      "created_utc": 1750635956.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz8njfr/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mz8p3l8",
+      "author": "Senior_Caregiver_690",
+      "author_fullname": "t2_1od41lh0mn",
+      "body": "Damm",
+      "score": 1,
+      "created_utc": 1750636509.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz8p3l8/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mz904le",
+      "author": "Homerdastoner",
+      "author_fullname": "t2_43378f7n",
+      "body": "https://youtu.be/Wkm3Cz9x4MQ?si=eLekJu2m9YFVqz7e",
+      "score": 1,
+      "created_utc": 1750640377.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz904le/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mz93uwf",
+      "author": "Starkravingstar",
+      "author_fullname": "t2_ouvspa4s",
+      "body": "Who is that?",
+      "score": 1,
+      "created_utc": 1750641665.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz93uwf/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mz975o0",
+      "author": "Btm-boi",
+      "author_fullname": "t2_8ebdmfbm",
+      "body": "Wish I could stretch my girl like that",
+      "score": 1,
+      "created_utc": 1750642823.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz975o0/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mz9b5on",
+      "author": "HeyItsLoey",
+      "author_fullname": "t2_1m0x54fvrh",
+      "body": "I need this sooo badly 😵‍💫😩",
+      "score": 1,
+      "created_utc": 1750644184.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz9b5on/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mzahi43",
+      "author": "sval7",
+      "author_fullname": "t2_96uc0jej",
+      "body": "Bad actress ever",
+      "score": 1,
+      "created_utc": 1750663313.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzahi43/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mzamtx8",
+      "author": "nelflyn",
+      "author_fullname": "t2_st1s13c6",
+      "body": "the revelation",
+      "score": 1,
+      "created_utc": 1750666503.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzamtx8/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mzap2dw",
+      "author": "Sukhoy-47",
+      "author_fullname": "t2_1hiwq6sq",
+      "body": "https://sxyprn.com/post/685471f5aecef.html?sk=Sammm&so=0&ss=latest",
+      "score": 1,
+      "created_utc": 1750667863.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzap2dw/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mzaqixw",
+      "author": "Your_Daddy4556",
+      "author_fullname": "t2_fym3isl6z",
+      "body": "Any girl who wanna be used like that or cucks who wanna see their girl like that just  DMme",
+      "score": 1,
+      "created_utc": 1750668749.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzaqixw/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mzawr3v",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "Men only",
+      "score": 1,
+      "created_utc": 1750672446.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzawr3v/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mzazl3z",
+      "author": "dvst833",
+      "author_fullname": "t2_16corxio81",
+      "body": "She ain't acting lol",
+      "score": 1,
+      "created_utc": 1750674030.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzazl3z/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mzb7y3s",
+      "author": "Possible_One3342",
+      "author_fullname": "t2_dihrqdma",
+      "body": "On the hub, Samm next door",
+      "score": 1,
+      "created_utc": 1750678154.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzb7y3s/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mzc297j",
+      "author": "Ivylovs",
+      "author_fullname": "t2_18uq455x63",
+      "body": "i want to get blacked so baddd, is my body worth the black dick?",
+      "score": 1,
+      "created_utc": 1750689036.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzc297j/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mzcbvz9",
+      "author": "Blackking2021",
+      "author_fullname": "t2_bcjc0ptk",
+      "body": "This is the free pass I would let my wife try! Watch her enjoy it!",
+      "score": 1,
+      "created_utc": 1750691842.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzcbvz9/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mzd0unn",
+      "author": "LatterTraining1150",
+      "author_fullname": "t2_y1dgmt82o",
+      "body": "Where is the full video?",
+      "score": 1,
+      "created_utc": 1750698853.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzd0unn/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mzdzb4g",
+      "author": "PretendScallion2404",
+      "author_fullname": "t2_1pvu5ovj5s",
+      "body": "💐💐",
+      "score": 1,
+      "created_utc": 1750708553.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzdzb4g/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mzdzsm9",
+      "author": "ImportantMaximum2091",
+      "author_fullname": "t2_9iitvfij",
+      "body": "No sound? Smh",
+      "score": 1,
+      "created_utc": 1750708692.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzdzsm9/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mze2tbh",
+      "author": "Biguy449",
+      "author_fullname": "t2_gs2qy6gqo",
+      "body": "I need my gf back into picking up strangers again",
+      "score": 1,
+      "created_utc": 1750709558.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mze2tbh/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mzf0qnx",
+      "author": "LittleWhiteWife",
+      "author_fullname": "t2_1r875ned4v",
+      "body": "mmmm lucky her! 🤭",
+      "score": 1,
+      "created_utc": 1750719891.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzf0qnx/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mzflpta",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "Omg... Fucking use me anyday of the week 😫",
+      "score": 1,
+      "created_utc": 1750727085.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzflpta/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mzflror",
+      "author": "DammitMan76",
+      "author_fullname": "t2_5sq7i960",
+      "body": "GUTS",
+      "score": 1,
+      "created_utc": 1750727104.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzflror/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mzfzffy",
+      "author": "Puzzleheaded-Item-15",
+      "author_fullname": "t2_8oev4924",
+      "body": "He touched me once more or less like that but the truth was more because of how abrupt he was.",
+      "score": 1,
+      "created_utc": 1750731873.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzfzffy/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mzg64ka",
+      "author": "SluttyBitchLookin",
+      "author_fullname": "t2_pzkqo76eo",
+      "body": "I would love to spin and give that BBC the best heat it has ever known 🔥💎",
+      "score": 1,
+      "created_utc": 1750734330.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzg64ka/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mzgh93h",
+      "author": "GurosuP",
+      "author_fullname": "t2_kj851y0t",
+      "body": "she's so surprised and taste a glimpse of heaven",
+      "score": 1,
+      "created_utc": 1750738914.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzgh93h/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mzhp03o",
+      "author": "Jade_Classic_580",
+      "author_fullname": "t2_1a1ms4pp9c",
+      "body": "I need this 😭",
+      "score": 1,
+      "created_utc": 1750762767.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzhp03o/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mzi199h",
+      "author": "Current-Wrangler-591",
+      "author_fullname": "t2_1qwhpuxpe4",
+      "body": "I need to try a black cock. Why are black men not in India!!",
+      "score": 1,
+      "created_utc": 1750767854.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzi199h/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "n8k4q67",
+      "author": "bigsetdog15",
+      "author_fullname": "t2_1ipz03pudv",
+      "body": "I’m white and I only fuck black girls and they all tell me I got a bigger dick than any black dude ever",
+      "score": 1,
+      "created_utc": 1755127694.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/n8k4q67/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mz8w31p",
+      "author": "Additional-Arrival15",
+      "author_fullname": "t2_86m03hgb",
+      "body": "I've seen many black guys with micros & smaller dicks. Black or White doesn't Matter. The Biggest I've seen is a white guys. I am 100% Real also",
+      "score": -2,
+      "created_utc": 1750638974.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz8w31p/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": []
+    },
+    {
+      "id": "mz7tuww",
+      "author": "Admirable-Holiday-13",
+      "author_fullname": "t2_ld9e63g8",
+      "body": "Name of her/full video?",
+      "score": 0,
+      "created_utc": 1750626029.0,
+      "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz7tuww/",
+      "is_submitter": false,
+      "parent_id": "t3_1lhyfda",
+      "replies": [
+        {
+          "id": "mz7vfz1",
+          "author": "AlternativeAlps00",
+          "author_fullname": "t2_11cbwv8kei",
+          "body": "Sammmnextdoor",
+          "score": 13,
+          "created_utc": 1750626529.0,
+          "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz7vfz1/",
+          "is_submitter": true,
+          "parent_id": "t1_mz7tuww",
+          "replies": [
+            {
+              "id": "mz7w546",
+              "author": "Admirable-Holiday-13",
+              "author_fullname": "t2_ld9e63g8",
+              "body": "Thanks",
+              "score": 1,
+              "created_utc": 1750626748.0,
+              "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mz7w546/",
+              "is_submitter": false,
+              "parent_id": "t1_mz7vfz1",
+              "replies": []
+            }
+          ]
+        },
+        {
+          "id": "mzap40j",
+          "author": "Sukhoy-47",
+          "author_fullname": "t2_1hiwq6sq",
+          "body": "https://sxyprn.com/post/685471f5aecef.html?sk=Sammm&so=0&ss=latest",
+          "score": 2,
+          "created_utc": 1750667890.0,
+          "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzap40j/",
+          "is_submitter": false,
+          "parent_id": "t1_mz7tuww",
+          "replies": [
+            {
+              "id": "mzapig5",
+              "author": "Admirable-Holiday-13",
+              "author_fullname": "t2_ld9e63g8",
+              "body": "You are a god",
+              "score": 1,
+              "created_utc": 1750668138.0,
+              "permalink": "https://www.reddit.com/r/BBCparadise/comments/1lhyfda/her_face_says_it_all/mzapig5/",
+              "is_submitter": false,
+              "parent_id": "t1_mzap40j",
+              "replies": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "media_kind": "external"
 }

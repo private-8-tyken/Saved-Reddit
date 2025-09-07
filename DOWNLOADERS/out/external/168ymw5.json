@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T06:09:35.000000+00:00",
+  "archived_at": "2025-09-07T22:24:15.878959+00:00",
   "reddit_fullname": "t3_168ymw5",
   "reddit_id": "168ymw5",
   "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/",
@@ -23,12 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 32,
-  "score": 8966,
+  "score": 8967,
   "upvote_ratio": 0.98,
-  "media": {
-    "kind": "link",
-    "files": []
-  },
+  "media": null,
   "external_link": "https://v3.redgifs.com/watch/impishlazyakitainu",
   "raw_post": {
     "approved_at_utc": null,
@@ -59,7 +56,7 @@
     "link_flair_text_color": "dark",
     "upvote_ratio": 0.98,
     "author_flair_background_color": null,
-    "ups": 8966,
+    "ups": 8967,
     "total_awards_received": 0,
     "media_embed": {
       "content": "<iframe src=\"https://www.redgifs.com/ifr/impishlazyakitainu\" frameborder=\"0\" scrolling=\"no\" width=\"100%\" height=\"100%\"\n      allowfullscreen style=\"position:absolute;\"></iframe>",
@@ -99,7 +96,7 @@
     },
     "link_flair_text": "[ COSPLAY ]",
     "can_mod_post": false,
-    "score": 8966,
+    "score": 8967,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -260,7 +257,7 @@
     "permalink": "/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/",
     "stickied": false,
     "url": "https://v3.redgifs.com/watch/impishlazyakitainu",
-    "subreddit_subscribers": 3663096,
+    "subreddit_subscribers": 3663422,
     "created_utc": 1693751776.0,
     "num_crossposts": 6,
     "mod_reports": [],
@@ -349,7 +346,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_jyymuje",
-                                "score": 7,
+                                "score": 8,
                                 "author_fullname": "t2_2aqokyrr",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -392,7 +389,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 7
+                                "ups": 8
                               }
                             }
                           ],
@@ -476,7 +473,7 @@
             "created_utc": 1693755461.0,
             "send_replies": true,
             "parent_id": "t3_168ymw5",
-            "score": 33,
+            "score": 35,
             "author_fullname": "t2_5a89dthrf",
             "approved_by": null,
             "mod_note": null,
@@ -518,7 +515,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 33
+            "ups": 35
           }
         },
         {
@@ -551,7 +548,7 @@
             "created_utc": 1693751825.0,
             "send_replies": true,
             "parent_id": "t3_168ymw5",
-            "score": 34,
+            "score": 33,
             "author_fullname": "t2_4wsk7asa",
             "approved_by": null,
             "mod_note": null,
@@ -593,7 +590,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 34
+            "ups": 33
           }
         },
         {
@@ -626,7 +623,7 @@
             "created_utc": 1696376244.0,
             "send_replies": true,
             "parent_id": "t3_168ymw5",
-            "score": 9,
+            "score": 8,
             "author_fullname": "t2_9ij4yh7r",
             "approved_by": null,
             "mod_note": null,
@@ -668,7 +665,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 9
+            "ups": 8
           }
         },
         {
@@ -701,7 +698,7 @@
             "created_utc": 1693849085.0,
             "send_replies": true,
             "parent_id": "t3_168ymw5",
-            "score": 4,
+            "score": 5,
             "author_fullname": "t2_1tm32uym",
             "approved_by": null,
             "mod_note": null,
@@ -743,7 +740,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 4
+            "ups": 5
           }
         },
         {
@@ -776,7 +773,7 @@
             "created_utc": 1693772330.0,
             "send_replies": true,
             "parent_id": "t3_168ymw5",
-            "score": 5,
+            "score": 6,
             "author_fullname": "t2_6yjohqfx",
             "approved_by": null,
             "mod_note": null,
@@ -818,7 +815,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 5
+            "ups": 6
           }
         },
         {
@@ -831,7 +828,7 @@
             "awarders": [],
             "mod_reason_by": null,
             "banned_by": null,
-            "ups": 4,
+            "ups": 6,
             "removal_reason": null,
             "link_id": "t3_168ymw5",
             "author_flair_template_id": null,
@@ -850,7 +847,7 @@
             "can_mod_post": false,
             "send_replies": true,
             "parent_id": "t3_168ymw5",
-            "score": 4,
+            "score": 6,
             "approved_by": null,
             "report_reasons": null,
             "all_awardings": [],
@@ -921,7 +918,7 @@
             "created_utc": 1693826221.0,
             "send_replies": true,
             "parent_id": "t3_168ymw5",
-            "score": 3,
+            "score": 4,
             "author_fullname": "t2_8nada4sy",
             "approved_by": null,
             "mod_note": null,
@@ -963,7 +960,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 3
+            "ups": 4
           }
         },
         {
@@ -1665,81 +1662,6 @@
             "replies": "",
             "user_reports": [],
             "saved": false,
-            "id": "ljs8udr",
-            "banned_at_utc": null,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "archived": false,
-            "collapsed_reason_code": null,
-            "no_follow": false,
-            "author": "Kitchen_Builder9108",
-            "can_mod_post": false,
-            "created_utc": 1724544339.0,
-            "send_replies": true,
-            "parent_id": "t3_168ymw5",
-            "score": 2,
-            "author_fullname": "t2_zcpaf3hv3",
-            "approved_by": null,
-            "mod_note": null,
-            "all_awardings": [],
-            "collapsed": false,
-            "body": "Imagining shadowheart locked me in chastity to embrace loss and then cucks me 🥵🥵💖💖💖",
-            "edited": false,
-            "top_awarded_type": null,
-            "author_flair_css_class": null,
-            "name": "t1_ljs8udr",
-            "is_submitter": false,
-            "downs": 0,
-            "author_flair_richtext": [],
-            "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>Imagining shadowheart locked me in chastity to embrace loss and then cucks me 🥵🥵💖💖💖</p>\n</div>",
-            "removal_reason": null,
-            "collapsed_reason": null,
-            "distinguished": null,
-            "associated_award": null,
-            "stickied": false,
-            "author_premium": false,
-            "can_gild": false,
-            "gildings": {},
-            "unrepliable_reason": null,
-            "author_flair_text_color": null,
-            "score_hidden": false,
-            "permalink": "/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/ljs8udr/",
-            "subreddit_type": "public",
-            "locked": false,
-            "report_reasons": null,
-            "created": 1724544339.0,
-            "author_flair_text": null,
-            "treatment_tags": [],
-            "link_id": "t3_168ymw5",
-            "subreddit_name_prefixed": "r/rule34",
-            "controversiality": 0,
-            "depth": 0,
-            "author_flair_background_color": null,
-            "collapsed_because_crowd_control": null,
-            "mod_reports": [],
-            "num_reports": null,
-            "ups": 2
-          }
-        },
-        {
-          "kind": "t1",
-          "data": {
-            "subreddit_id": "t5_2qkd7",
-            "approved_at_utc": null,
-            "author_is_blocked": false,
-            "comment_type": null,
-            "awarders": [],
-            "mod_reason_by": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "total_awards_received": 0,
-            "subreddit": "rule34",
-            "author_flair_template_id": null,
-            "likes": null,
-            "replies": "",
-            "user_reports": [],
-            "saved": false,
             "id": "jz0jmc6",
             "banned_at_utc": null,
             "mod_reason_title": null,
@@ -1752,7 +1674,7 @@
             "created_utc": 1693781045.0,
             "send_replies": true,
             "parent_id": "t3_168ymw5",
-            "score": 4,
+            "score": 5,
             "author_fullname": "t2_86bjzfhl",
             "approved_by": null,
             "mod_note": null,
@@ -1794,7 +1716,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 4
+            "ups": 5
           }
         },
         {
@@ -1827,7 +1749,7 @@
             "created_utc": 1693791983.0,
             "send_replies": true,
             "parent_id": "t3_168ymw5",
-            "score": 2,
+            "score": 3,
             "author_fullname": "t2_6raag",
             "approved_by": null,
             "mod_note": null,
@@ -1869,7 +1791,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 2
+            "ups": 3
           }
         },
         {
@@ -2101,6 +2023,81 @@
             "mod_reports": [],
             "mod_note": null,
             "distinguished": null
+          }
+        },
+        {
+          "kind": "t1",
+          "data": {
+            "subreddit_id": "t5_2qkd7",
+            "approved_at_utc": null,
+            "author_is_blocked": false,
+            "comment_type": null,
+            "awarders": [],
+            "mod_reason_by": null,
+            "banned_by": null,
+            "author_flair_type": "text",
+            "total_awards_received": 0,
+            "subreddit": "rule34",
+            "author_flair_template_id": null,
+            "likes": null,
+            "replies": "",
+            "user_reports": [],
+            "saved": false,
+            "id": "ljs8udr",
+            "banned_at_utc": null,
+            "mod_reason_title": null,
+            "gilded": 0,
+            "archived": false,
+            "collapsed_reason_code": null,
+            "no_follow": false,
+            "author": "Kitchen_Builder9108",
+            "can_mod_post": false,
+            "created_utc": 1724544339.0,
+            "send_replies": true,
+            "parent_id": "t3_168ymw5",
+            "score": 2,
+            "author_fullname": "t2_zcpaf3hv3",
+            "approved_by": null,
+            "mod_note": null,
+            "all_awardings": [],
+            "collapsed": false,
+            "body": "Imagining shadowheart locked me in chastity to embrace loss and then cucks me 🥵🥵💖💖💖",
+            "edited": false,
+            "top_awarded_type": null,
+            "author_flair_css_class": null,
+            "name": "t1_ljs8udr",
+            "is_submitter": false,
+            "downs": 0,
+            "author_flair_richtext": [],
+            "author_patreon_flair": false,
+            "body_html": "<div class=\"md\"><p>Imagining shadowheart locked me in chastity to embrace loss and then cucks me 🥵🥵💖💖💖</p>\n</div>",
+            "removal_reason": null,
+            "collapsed_reason": null,
+            "distinguished": null,
+            "associated_award": null,
+            "stickied": false,
+            "author_premium": false,
+            "can_gild": false,
+            "gildings": {},
+            "unrepliable_reason": null,
+            "author_flair_text_color": null,
+            "score_hidden": false,
+            "permalink": "/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/ljs8udr/",
+            "subreddit_type": "public",
+            "locked": false,
+            "report_reasons": null,
+            "created": 1724544339.0,
+            "author_flair_text": null,
+            "treatment_tags": [],
+            "link_id": "t3_168ymw5",
+            "subreddit_name_prefixed": "r/rule34",
+            "controversiality": 0,
+            "depth": 0,
+            "author_flair_background_color": null,
+            "collapsed_because_crowd_control": null,
+            "mod_reports": [],
+            "num_reports": null,
+            "ups": 2
           }
         },
         {
@@ -2401,5 +2398,350 @@
       ],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [
+    {
+      "id": "jyykq81",
+      "author": "PleasantWasabi8328",
+      "author_fullname": "t2_5a89dthrf",
+      "body": "It's really good",
+      "score": 35,
+      "created_utc": 1693755461.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/jyykq81/",
+      "is_submitter": false,
+      "parent_id": "t3_168ymw5",
+      "replies": [
+        {
+          "id": "jyymuje",
+          "author": "thematchandkerosene",
+          "author_fullname": "t2_4wsk7asa",
+          "body": "I really appreciate that! Worked so hard on it!",
+          "score": 21,
+          "created_utc": 1693756253.0,
+          "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/jyymuje/",
+          "is_submitter": true,
+          "parent_id": "t1_jyykq81",
+          "replies": [
+            {
+              "id": "jz0qjxo",
+              "author": "IFapToCalamity",
+              "author_fullname": "t2_2aqokyrr",
+              "body": "Only to immediately take it off smh\n\n(Jk this is amazing and you’re beautiful)",
+              "score": 8,
+              "created_utc": 1693783931.0,
+              "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/jz0qjxo/",
+              "is_submitter": false,
+              "parent_id": "t1_jyymuje",
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jyyazlt",
+      "author": "thematchandkerosene",
+      "author_fullname": "t2_4wsk7asa",
+      "body": "I made this costume, myself. The wig took days, and it was a lot more work than I expected! I hope you love it! ❤️",
+      "score": 33,
+      "created_utc": 1693751825.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/jyyazlt/",
+      "is_submitter": true,
+      "parent_id": "t3_168ymw5",
+      "replies": []
+    },
+    {
+      "id": "k3cvpfs",
+      "author": "froge2626",
+      "author_fullname": "t2_9ij4yh7r",
+      "body": "You know it's a detailed cosplay when even the boobs are a perfect match. And the guy even has the default penis",
+      "score": 8,
+      "created_utc": 1696376244.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/k3cvpfs/",
+      "is_submitter": false,
+      "parent_id": "t3_168ymw5",
+      "replies": []
+    },
+    {
+      "id": "jz4dva0",
+      "author": "RainblowDash545",
+      "author_fullname": "t2_1tm32uym",
+      "body": "Amazing! Shadowheart is so pretty~",
+      "score": 5,
+      "created_utc": 1693849085.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/jz4dva0/",
+      "is_submitter": false,
+      "parent_id": "t3_168ymw5",
+      "replies": []
+    },
+    {
+      "id": "jyzwcz9",
+      "author": "NitroMonkeyGamer",
+      "author_fullname": "t2_6yjohqfx",
+      "body": "It's a little too gold for my taste, I think a Grey would have been more accurate and Sexier, but the hair is fucking Spot On and aside from color you absolutely nailed the outfit. 9/10 I love the cosplay.",
+      "score": 6,
+      "created_utc": 1693772330.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/jyzwcz9/",
+      "is_submitter": false,
+      "parent_id": "t3_168ymw5",
+      "replies": []
+    },
+    {
+      "id": "jyyz5s4",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "Nice I love it 😍",
+      "score": 6,
+      "created_utc": 1693760785.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/jyyz5s4/",
+      "is_submitter": false,
+      "parent_id": "t3_168ymw5",
+      "replies": []
+    },
+    {
+      "id": "jz2wuv1",
+      "author": "Emotional-Vegetable6",
+      "author_fullname": "t2_8nada4sy",
+      "body": "Its good but im more of a karlach guy",
+      "score": 4,
+      "created_utc": 1693826221.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/jz2wuv1/",
+      "is_submitter": false,
+      "parent_id": "t3_168ymw5",
+      "replies": []
+    },
+    {
+      "id": "jz1j798",
+      "author": "NormalTangerine5205",
+      "author_fullname": "t2_7timxsa9",
+      "body": "Nice",
+      "score": 2,
+      "created_utc": 1693796170.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/jz1j798/",
+      "is_submitter": false,
+      "parent_id": "t3_168ymw5",
+      "replies": []
+    },
+    {
+      "id": "jz21u0t",
+      "author": "Small-Marionberry-94",
+      "author_fullname": "t2_eu5gqksh",
+      "body": "It's too good",
+      "score": 2,
+      "created_utc": 1693805732.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/jz21u0t/",
+      "is_submitter": false,
+      "parent_id": "t3_168ymw5",
+      "replies": []
+    },
+    {
+      "id": "jz30bhc",
+      "author": "DifferenceUnited179",
+      "author_fullname": "t2_3cn8l9rh",
+      "body": "Wow nice boobs",
+      "score": 2,
+      "created_utc": 1693828247.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/jz30bhc/",
+      "is_submitter": false,
+      "parent_id": "t3_168ymw5",
+      "replies": []
+    },
+    {
+      "id": "k1pn47t",
+      "author": "ntsefamyaj",
+      "author_fullname": "t2_jgfbd5e8",
+      "body": "oh damn... is this Shar approved?",
+      "score": 2,
+      "created_utc": 1695390334.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/k1pn47t/",
+      "is_submitter": false,
+      "parent_id": "t3_168ymw5",
+      "replies": [
+        {
+          "id": "k1pog7s",
+          "author": "thematchandkerosene",
+          "author_fullname": "t2_4wsk7asa",
+          "body": "Approved? This was part of my training.",
+          "score": 1,
+          "created_utc": 1695390864.0,
+          "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/k1pog7s/",
+          "is_submitter": true,
+          "parent_id": "t1_k1pn47t",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "k7qdmiq",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "💃",
+      "score": 2,
+      "created_utc": 1699060651.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/k7qdmiq/",
+      "is_submitter": false,
+      "parent_id": "t3_168ymw5",
+      "replies": []
+    },
+    {
+      "id": "kh68mcc",
+      "author": "cvsmith122",
+      "author_fullname": "t2_l0udh",
+      "body": "Would you go skinny dipping with me ?",
+      "score": 2,
+      "created_utc": 1704867545.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/kh68mcc/",
+      "is_submitter": false,
+      "parent_id": "t3_168ymw5",
+      "replies": []
+    },
+    {
+      "id": "khywwg7",
+      "author": "ApexLegionaire",
+      "author_fullname": "t2_3fr2gj56",
+      "body": "Lore accurate too! 😍",
+      "score": 2,
+      "created_utc": 1705329170.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/khywwg7/",
+      "is_submitter": false,
+      "parent_id": "t3_168ymw5",
+      "replies": []
+    },
+    {
+      "id": "kpa6jas",
+      "author": "Erenyagerdarumbling",
+      "author_fullname": "t2_gill49sf5",
+      "body": "Smash× Infinity",
+      "score": 2,
+      "created_utc": 1707276986.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/kpa6jas/",
+      "is_submitter": false,
+      "parent_id": "t3_168ymw5",
+      "replies": []
+    },
+    {
+      "id": "jz0jmc6",
+      "author": "Air_pockets",
+      "author_fullname": "t2_86bjzfhl",
+      "body": "Only thing missing is the bush to be a PERFECT cosplay.",
+      "score": 5,
+      "created_utc": 1693781045.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/jz0jmc6/",
+      "is_submitter": false,
+      "parent_id": "t3_168ymw5",
+      "replies": []
+    },
+    {
+      "id": "jz19p9i",
+      "author": "Fearofdead",
+      "author_fullname": "t2_6raag",
+      "body": "For the bloody  last time, I'M KARLACHS LITTLE SOLDIER!\n\nSick hair and outfit combo. Does come off like cleric armor very well!",
+      "score": 3,
+      "created_utc": 1693791983.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/jz19p9i/",
+      "is_submitter": false,
+      "parent_id": "t3_168ymw5",
+      "replies": []
+    },
+    {
+      "id": "jyz3kx6",
+      "author": "DungeonReaper27",
+      "author_fullname": "t2_4ghfal7q",
+      "body": "I love it.",
+      "score": 2,
+      "created_utc": 1693762263.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/jyz3kx6/",
+      "is_submitter": false,
+      "parent_id": "t3_168ymw5",
+      "replies": []
+    },
+    {
+      "id": "jyz61gu",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "What’s the name of this type of pussy?",
+      "score": 1,
+      "created_utc": 1693763080.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/jyz61gu/",
+      "is_submitter": false,
+      "parent_id": "t3_168ymw5",
+      "replies": [
+        {
+          "id": "jyzhpn0",
+          "author": "GiantDickNipples",
+          "author_fullname": "t2_71vfy9g2",
+          "body": "An r/innie maybe?",
+          "score": 1,
+          "created_utc": 1693767219.0,
+          "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/jyzhpn0/",
+          "is_submitter": false,
+          "parent_id": "t1_jyz61gu",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "ljs8udr",
+      "author": "Kitchen_Builder9108",
+      "author_fullname": "t2_zcpaf3hv3",
+      "body": "Imagining shadowheart locked me in chastity to embrace loss and then cucks me 🥵🥵💖💖💖",
+      "score": 2,
+      "created_utc": 1724544339.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/ljs8udr/",
+      "is_submitter": false,
+      "parent_id": "t3_168ymw5",
+      "replies": []
+    },
+    {
+      "id": "jz0zz7e",
+      "author": "DepressedAirDale",
+      "author_fullname": "t2_g3r411wa",
+      "body": "This id the hottest/sexiest thing ive seen all freaking week!",
+      "score": 1,
+      "created_utc": 1693787807.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/jz0zz7e/",
+      "is_submitter": false,
+      "parent_id": "t3_168ymw5",
+      "replies": []
+    },
+    {
+      "id": "jyz93ec",
+      "author": "Calvert-Grier",
+      "author_fullname": "t2_2nkr81g",
+      "body": "No audio?",
+      "score": 1,
+      "created_utc": 1693764153.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/jyz93ec/",
+      "is_submitter": false,
+      "parent_id": "t3_168ymw5",
+      "replies": []
+    },
+    {
+      "id": "jz2w362",
+      "author": "Nevermore-97",
+      "author_fullname": "t2_e04h8uq3",
+      "body": "When is it my turn?",
+      "score": 1,
+      "created_utc": 1693825735.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/jz2w362/",
+      "is_submitter": false,
+      "parent_id": "t3_168ymw5",
+      "replies": []
+    },
+    {
+      "id": "kq1gl7m",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "Beautiful body, wonderful costume, fantastic scene. I’m doing a shadowheart romance play through atm, so this is nice. What a lucky man that was too.",
+      "score": 1,
+      "created_utc": 1707712226.0,
+      "permalink": "https://www.reddit.com/r/rule34/comments/168ymw5/shadowheart_thematchandkerosene_baldurs_gate_3/kq1gl7m/",
+      "is_submitter": false,
+      "parent_id": "t3_168ymw5",
+      "replies": []
+    }
+  ],
+  "media_kind": "external"
 }

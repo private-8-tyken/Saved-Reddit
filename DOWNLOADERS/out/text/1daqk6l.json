@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T01:41:24.000000+00:00",
+  "archived_at": "2025-09-07T21:57:38.152649+00:00",
   "reddit_fullname": "t3_1daqk6l",
   "reddit_id": "1daqk6l",
   "permalink": "https://www.reddit.com/r/Rapekink/comments/1daqk6l/trying_to_make_sense_of_why_i_am_like_this/",
@@ -23,12 +23,9 @@
   "locked": false,
   "edited": 1719963574.0,
   "num_comments": 2,
-  "score": 41,
-  "upvote_ratio": 0.99,
-  "media": {
-    "kind": "self",
-    "files": []
-  },
+  "score": 40,
+  "upvote_ratio": 1.0,
+  "media": null,
   "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
@@ -51,10 +48,10 @@
     "name": "t3_1daqk6l",
     "quarantine": false,
     "link_flair_text_color": "dark",
-    "upvote_ratio": 0.99,
+    "upvote_ratio": 1.0,
     "author_flair_background_color": "",
     "subreddit_type": "public",
-    "ups": 41,
+    "ups": 40,
     "total_awards_received": 0,
     "media_embed": {},
     "author_flair_template_id": null,
@@ -66,7 +63,7 @@
     "secure_media_embed": {},
     "link_flair_text": "kink origin",
     "can_mod_post": false,
-    "score": 41,
+    "score": 40,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "thumbnail": "",
@@ -125,7 +122,7 @@
     "permalink": "/r/Rapekink/comments/1daqk6l/trying_to_make_sense_of_why_i_am_like_this/",
     "stickied": false,
     "url": "https://www.reddit.com/r/Rapekink/comments/1daqk6l/trying_to_make_sense_of_why_i_am_like_this/",
-    "subreddit_subscribers": 158799,
+    "subreddit_subscribers": 158788,
     "created_utc": 1717807599.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -212,5 +209,22 @@
       ],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [
+    {
+      "id": "l7m2vxs",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "[removed]",
+      "score": 10,
+      "created_utc": 1717807939.0,
+      "permalink": "https://www.reddit.com/r/Rapekink/comments/1daqk6l/trying_to_make_sense_of_why_i_am_like_this/l7m2vxs/",
+      "is_submitter": false,
+      "parent_id": "t3_1daqk6l",
+      "replies": []
+    }
+  ],
+  "media_kind": "self"
 }

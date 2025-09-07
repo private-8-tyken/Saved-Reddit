@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T06:12:16.000000+00:00",
+  "archived_at": "2025-09-07T22:25:08.108483+00:00",
   "reddit_fullname": "t3_zoniqx",
   "reddit_id": "zoniqx",
   "permalink": "https://www.reddit.com/r/taboocaptions/comments/zoniqx/thats_how_you_help_your_cuck_kid/",
@@ -23,12 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 0,
-  "score": 42,
-  "upvote_ratio": 0.89,
-  "media": {
-    "kind": "link",
-    "files": []
-  },
+  "score": 45,
+  "upvote_ratio": 0.9,
+  "media": null,
   "external_link": "https://redgifs.com/watch/grandtransparentpuffin",
   "raw_post": {
     "approved_at_utc": null,
@@ -52,10 +49,10 @@
     "name": "t3_zoniqx",
     "quarantine": false,
     "link_flair_text_color": "dark",
-    "upvote_ratio": 0.89,
+    "upvote_ratio": 0.9,
     "author_flair_background_color": null,
     "subreddit_type": "public",
-    "ups": 42,
+    "ups": 45,
     "total_awards_received": 0,
     "media_embed": {
       "content": "<iframe src=\"https://www.redgifs.com/ifr/grandtransparentpuffin\" frameborder=\"0\" scrolling=\"no\" width=\"100%\" height=\"100%\"\n      allowfullscreen style=\"position:absolute;\"></iframe>",
@@ -95,7 +92,7 @@
     },
     "link_flair_text": "Humil",
     "can_mod_post": false,
-    "score": 42,
+    "score": 45,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -254,7 +251,7 @@
     "permalink": "/r/taboocaptions/comments/zoniqx/thats_how_you_help_your_cuck_kid/",
     "stickied": false,
     "url": "https://redgifs.com/watch/grandtransparentpuffin",
-    "subreddit_subscribers": 307532,
+    "subreddit_subscribers": 307694,
     "created_utc": 1671330185.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -270,5 +267,9 @@
       "children": [],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [],
+  "media_kind": "external"
 }

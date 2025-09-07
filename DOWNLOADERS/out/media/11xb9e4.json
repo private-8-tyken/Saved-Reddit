@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-08-13T01:17:15.304693+00:00",
+  "archived_at": "2025-09-07T22:10:57.519401+00:00",
   "reddit_fullname": "t3_11xb9e4",
   "reddit_id": "11xb9e4",
   "permalink": "https://www.reddit.com/r/HentaiBullying/comments/11xb9e4/i_wish_the_boys_would_come_laugh_at_me_and_take/",
@@ -23,14 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 34,
-  "score": 1597,
+  "score": 1608,
   "upvote_ratio": 1.0,
-  "media": {
-    "kind": "image",
-    "files": [
-      "media\\11xb9e4\\image.png"
-    ]
-  },
+  "media": null,
   "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
@@ -57,7 +52,7 @@
     "upvote_ratio": 1.0,
     "author_flair_background_color": "",
     "subreddit_type": "public",
-    "ups": 1597,
+    "ups": 1608,
     "total_awards_received": 0,
     "media_embed": {},
     "thumbnail_width": 140,
@@ -70,7 +65,7 @@
     "secure_media_embed": {},
     "link_flair_text": "Humiliation",
     "can_mod_post": false,
-    "score": 1597,
+    "score": 1608,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "thumbnail": "https://b.thumbs.redditmedia.com/B6Z0U4Wq6dQ5_R7VBHqDKtxSO5_56EIlIJKBYukKDak.jpg",
@@ -96,45 +91,45 @@
     "view_count": null,
     "archived": false,
     "no_follow": false,
-    "is_crosspostable": false,
+    "is_crosspostable": true,
     "pinned": false,
     "over_18": true,
     "preview": {
       "images": [
         {
           "source": {
-            "url": "https://preview.redd.it/12tsdzjqj3pa1.png?auto=webp&amp;s=fde0ee3e18419542f12d2930c9ae70dd334c0f85",
+            "url": "https://preview.redd.it/12tsdzjqj3pa1.png?auto=webp&s=fde0ee3e18419542f12d2930c9ae70dd334c0f85",
             "width": 1080,
             "height": 1693
           },
           "resolutions": [
             {
-              "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=e0b880cfad7ddac1f455b1a5b371d3504d92682a",
+              "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=108&crop=smart&auto=webp&s=e0b880cfad7ddac1f455b1a5b371d3504d92682a",
               "width": 108,
               "height": 169
             },
             {
-              "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=a0830dbb3baaa442f923e43271a749237357d7c9",
+              "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=216&crop=smart&auto=webp&s=a0830dbb3baaa442f923e43271a749237357d7c9",
               "width": 216,
               "height": 338
             },
             {
-              "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=480056eadffdcefeaa66a1a05fafb725a0c42331",
+              "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=320&crop=smart&auto=webp&s=480056eadffdcefeaa66a1a05fafb725a0c42331",
               "width": 320,
               "height": 501
             },
             {
-              "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=8f22b0cfd7bb4eb16cb07573d76649fadca7167b",
+              "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=640&crop=smart&auto=webp&s=8f22b0cfd7bb4eb16cb07573d76649fadca7167b",
               "width": 640,
               "height": 1003
             },
             {
-              "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=24e2b5bede4fda553dea99adb73ffeba4663f14d",
+              "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=960&crop=smart&auto=webp&s=24e2b5bede4fda553dea99adb73ffeba4663f14d",
               "width": 960,
               "height": 1504
             },
             {
-              "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=4731bc562c564113d0a216d513693806e188b848",
+              "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=1080&crop=smart&auto=webp&s=4731bc562c564113d0a216d513693806e188b848",
               "width": 1080,
               "height": 1693
             }
@@ -142,38 +137,38 @@
           "variants": {
             "obfuscated": {
               "source": {
-                "url": "https://preview.redd.it/12tsdzjqj3pa1.png?blur=40&amp;format=pjpg&amp;auto=webp&amp;s=b1dcce50fbbe76ad960089621884fe1060c768c9",
+                "url": "https://preview.redd.it/12tsdzjqj3pa1.png?blur=40&format=pjpg&auto=webp&s=b1dcce50fbbe76ad960089621884fe1060c768c9",
                 "width": 1080,
                 "height": 1693
               },
               "resolutions": [
                 {
-                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=108&amp;crop=smart&amp;blur=10&amp;format=pjpg&amp;auto=webp&amp;s=5ecaf4a5526a88731704c56509297dca171e5bdb",
+                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=108&crop=smart&blur=10&format=pjpg&auto=webp&s=5ecaf4a5526a88731704c56509297dca171e5bdb",
                   "width": 108,
                   "height": 169
                 },
                 {
-                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=216&amp;crop=smart&amp;blur=21&amp;format=pjpg&amp;auto=webp&amp;s=783fdc5b363440774ead7d1e0590a679a965cd67",
+                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=216&crop=smart&blur=21&format=pjpg&auto=webp&s=783fdc5b363440774ead7d1e0590a679a965cd67",
                   "width": 216,
                   "height": 338
                 },
                 {
-                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=320&amp;crop=smart&amp;blur=32&amp;format=pjpg&amp;auto=webp&amp;s=8005271b4b7c8f749e31555736e4cbb3d9673a7e",
+                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=320&crop=smart&blur=32&format=pjpg&auto=webp&s=8005271b4b7c8f749e31555736e4cbb3d9673a7e",
                   "width": 320,
                   "height": 501
                 },
                 {
-                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=640&amp;crop=smart&amp;blur=40&amp;format=pjpg&amp;auto=webp&amp;s=575da3c232c9fa7d9c6844325b4d50ad57b2a7d2",
+                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=640&crop=smart&blur=40&format=pjpg&auto=webp&s=575da3c232c9fa7d9c6844325b4d50ad57b2a7d2",
                   "width": 640,
                   "height": 1003
                 },
                 {
-                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=960&amp;crop=smart&amp;blur=40&amp;format=pjpg&amp;auto=webp&amp;s=0d569a86244b92c5ff4f3991ae58942186d4eb59",
+                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=960&crop=smart&blur=40&format=pjpg&auto=webp&s=0d569a86244b92c5ff4f3991ae58942186d4eb59",
                   "width": 960,
                   "height": 1504
                 },
                 {
-                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=1080&amp;crop=smart&amp;blur=40&amp;format=pjpg&amp;auto=webp&amp;s=1ca5139e0da50fab9e7c460766705bb43af16bf0",
+                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=1080&crop=smart&blur=40&format=pjpg&auto=webp&s=1ca5139e0da50fab9e7c460766705bb43af16bf0",
                   "width": 1080,
                   "height": 1693
                 }
@@ -181,38 +176,38 @@
             },
             "nsfw": {
               "source": {
-                "url": "https://preview.redd.it/12tsdzjqj3pa1.png?blur=40&amp;format=pjpg&amp;auto=webp&amp;s=b1dcce50fbbe76ad960089621884fe1060c768c9",
+                "url": "https://preview.redd.it/12tsdzjqj3pa1.png?blur=40&format=pjpg&auto=webp&s=b1dcce50fbbe76ad960089621884fe1060c768c9",
                 "width": 1080,
                 "height": 1693
               },
               "resolutions": [
                 {
-                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=108&amp;crop=smart&amp;blur=10&amp;format=pjpg&amp;auto=webp&amp;s=5ecaf4a5526a88731704c56509297dca171e5bdb",
+                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=108&crop=smart&blur=10&format=pjpg&auto=webp&s=5ecaf4a5526a88731704c56509297dca171e5bdb",
                   "width": 108,
                   "height": 169
                 },
                 {
-                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=216&amp;crop=smart&amp;blur=21&amp;format=pjpg&amp;auto=webp&amp;s=783fdc5b363440774ead7d1e0590a679a965cd67",
+                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=216&crop=smart&blur=21&format=pjpg&auto=webp&s=783fdc5b363440774ead7d1e0590a679a965cd67",
                   "width": 216,
                   "height": 338
                 },
                 {
-                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=320&amp;crop=smart&amp;blur=32&amp;format=pjpg&amp;auto=webp&amp;s=8005271b4b7c8f749e31555736e4cbb3d9673a7e",
+                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=320&crop=smart&blur=32&format=pjpg&auto=webp&s=8005271b4b7c8f749e31555736e4cbb3d9673a7e",
                   "width": 320,
                   "height": 501
                 },
                 {
-                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=640&amp;crop=smart&amp;blur=40&amp;format=pjpg&amp;auto=webp&amp;s=575da3c232c9fa7d9c6844325b4d50ad57b2a7d2",
+                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=640&crop=smart&blur=40&format=pjpg&auto=webp&s=575da3c232c9fa7d9c6844325b4d50ad57b2a7d2",
                   "width": 640,
                   "height": 1003
                 },
                 {
-                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=960&amp;crop=smart&amp;blur=40&amp;format=pjpg&amp;auto=webp&amp;s=0d569a86244b92c5ff4f3991ae58942186d4eb59",
+                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=960&crop=smart&blur=40&format=pjpg&auto=webp&s=0d569a86244b92c5ff4f3991ae58942186d4eb59",
                   "width": 960,
                   "height": 1504
                 },
                 {
-                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=1080&amp;crop=smart&amp;blur=40&amp;format=pjpg&amp;auto=webp&amp;s=1ca5139e0da50fab9e7c460766705bb43af16bf0",
+                  "url": "https://preview.redd.it/12tsdzjqj3pa1.png?width=1080&crop=smart&blur=40&format=pjpg&auto=webp&s=1ca5139e0da50fab9e7c460766705bb43af16bf0",
                   "width": 1080,
                   "height": 1693
                 }
@@ -256,7 +251,7 @@
     "permalink": "/r/HentaiBullying/comments/11xb9e4/i_wish_the_boys_would_come_laugh_at_me_and_take/",
     "stickied": false,
     "url": "https://i.redd.it/12tsdzjqj3pa1.png",
-    "subreddit_subscribers": 203612,
+    "subreddit_subscribers": 205430,
     "created_utc": 1679388336.0,
     "num_crossposts": 1,
     "mod_reports": [],
@@ -267,7 +262,7 @@
     "data": {
       "after": null,
       "dist": null,
-      "modhash": "",
+      "modhash": null,
       "geo_filter": "",
       "children": [
         {
@@ -290,7 +285,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -303,7 +298,7 @@
                       "awarders": [],
                       "mod_reason_by": null,
                       "banned_by": null,
-                      "ups": 7,
+                      "ups": 6,
                       "removal_reason": null,
                       "link_id": "t3_11xb9e4",
                       "author_flair_template_id": null,
@@ -313,7 +308,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": "",
+                          "modhash": null,
                           "geo_filter": "",
                           "children": [
                             {
@@ -336,7 +331,7 @@
                                   "data": {
                                     "after": null,
                                     "dist": null,
-                                    "modhash": "",
+                                    "modhash": null,
                                     "geo_filter": "",
                                     "children": [
                                       {
@@ -359,7 +354,7 @@
                                             "data": {
                                               "after": null,
                                               "dist": null,
-                                              "modhash": "",
+                                              "modhash": null,
                                               "geo_filter": "",
                                               "children": [
                                                 {
@@ -383,7 +378,7 @@
                                                       "data": {
                                                         "after": null,
                                                         "dist": null,
-                                                        "modhash": "",
+                                                        "modhash": null,
                                                         "geo_filter": "",
                                                         "children": [
                                                           {
@@ -406,7 +401,7 @@
                                                                 "data": {
                                                                   "after": null,
                                                                   "dist": null,
-                                                                  "modhash": "",
+                                                                  "modhash": null,
                                                                   "geo_filter": "",
                                                                   "children": [
                                                                     {
@@ -430,7 +425,7 @@
                                                                           "data": {
                                                                             "after": null,
                                                                             "dist": null,
-                                                                            "modhash": "",
+                                                                            "modhash": null,
                                                                             "geo_filter": "",
                                                                             "children": [
                                                                               {
@@ -453,7 +448,7 @@
                                                                                     "data": {
                                                                                       "after": null,
                                                                                       "dist": null,
-                                                                                      "modhash": "",
+                                                                                      "modhash": null,
                                                                                       "geo_filter": "",
                                                                                       "children": [
                                                                                         {
@@ -476,7 +471,7 @@
                                                                                               "data": {
                                                                                                 "after": null,
                                                                                                 "dist": null,
-                                                                                                "modhash": "",
+                                                                                                "modhash": null,
                                                                                                 "geo_filter": "",
                                                                                                 "children": [
                                                                                                   {
@@ -499,7 +494,7 @@
                                                                                                         "data": {
                                                                                                           "after": null,
                                                                                                           "dist": null,
-                                                                                                          "modhash": "",
+                                                                                                          "modhash": null,
                                                                                                           "geo_filter": "",
                                                                                                           "children": [
                                                                                                             {
@@ -541,7 +536,7 @@
                                                                                                       "author_flair_css_class": null,
                                                                                                       "collapsed": false,
                                                                                                       "is_submitter": false,
-                                                                                                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&amp;quot;Please don&amp;#39;t&amp;quot; closely legs to cover my exposed chest \n&amp;quot;I promise I&amp;#39;ll do anything, but please spare me&amp;quot;&lt;/p&gt;\n&lt;/div&gt;",
+                                                                                                      "body_html": "<div class=\"md\"><p>&quot;Please don&#39;t&quot; closely legs to cover my exposed chest \n&quot;I promise I&#39;ll do anything, but please spare me&quot;</p>\n</div>",
                                                                                                       "gildings": {},
                                                                                                       "collapsed_reason": null,
                                                                                                       "associated_award": null,
@@ -604,7 +599,7 @@
                                                                                             "collapsed": false,
                                                                                             "author_flair_richtext": [],
                                                                                             "author_patreon_flair": false,
-                                                                                            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&amp;quot;Awww you made the little slut cry...&amp;quot; your &amp;quot;friend&amp;quot; pipes up from the back holding her phone up to record you. &amp;quot;Cut her shorts next!&amp;quot; Someone else says&lt;/p&gt;\n&lt;/div&gt;",
+                                                                                            "body_html": "<div class=\"md\"><p>&quot;Awww you made the little slut cry...&quot; your &quot;friend&quot; pipes up from the back holding her phone up to record you. &quot;Cut her shorts next!&quot; Someone else says</p>\n</div>",
                                                                                             "removal_reason": null,
                                                                                             "collapsed_reason": null,
                                                                                             "distinguished": null,
@@ -662,7 +657,7 @@
                                                                                   "collapsed": false,
                                                                                   "downs": 0,
                                                                                   "is_submitter": false,
-                                                                                  "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Tears star to stream from my eyes &amp;quot; Please just untie me.. I didn&amp;#39;t even do anything bad..&amp;quot;&lt;/p&gt;\n&lt;/div&gt;",
+                                                                                  "body_html": "<div class=\"md\"><p>Tears star to stream from my eyes &quot; Please just untie me.. I didn&#39;t even do anything bad..&quot;</p>\n</div>",
                                                                                   "gildings": {},
                                                                                   "collapsed_reason": null,
                                                                                   "associated_award": null,
@@ -724,7 +719,7 @@
                                                                         "downs": 0,
                                                                         "author_flair_richtext": [],
                                                                         "author_patreon_flair": false,
-                                                                        "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Your top comes off and more boys and girls join in watching and taking pics as across your tits I write slut and across your head I write free use.&lt;/p&gt;\n&lt;/div&gt;",
+                                                                        "body_html": "<div class=\"md\"><p>Your top comes off and more boys and girls join in watching and taking pics as across your tits I write slut and across your head I write free use.</p>\n</div>",
                                                                         "removal_reason": null,
                                                                         "collapsed_reason": null,
                                                                         "link_id": "t3_11xb9e4",
@@ -782,7 +777,7 @@
                                                               "author_flair_css_class": null,
                                                               "downs": 0,
                                                               "is_submitter": false,
-                                                              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I try to get free from try binds &amp;quot;Please I will do anything,  just don&amp;#39;t take of my clothes &amp;quot;&lt;/p&gt;\n&lt;/div&gt;",
+                                                              "body_html": "<div class=\"md\"><p>I try to get free from try binds &quot;Please I will do anything,  just don&#39;t take of my clothes &quot;</p>\n</div>",
                                                               "gildings": {},
                                                               "collapsed_reason": null,
                                                               "associated_award": null,
@@ -843,7 +838,7 @@
                                                     "downs": 0,
                                                     "author_flair_richtext": [],
                                                     "author_patreon_flair": false,
-                                                    "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&amp;quot;Its going to get so much worse. Who has the scissors and the sharpie....&amp;quot; I cut your top off and begin to write very lud things across your body.&lt;/p&gt;\n&lt;/div&gt;",
+                                                    "body_html": "<div class=\"md\"><p>&quot;Its going to get so much worse. Who has the scissors and the sharpie....&quot; I cut your top off and begin to write very lud things across your body.</p>\n</div>",
                                                     "gildings": {},
                                                     "collapsed_reason": null,
                                                     "link_id": "t3_11xb9e4",
@@ -902,7 +897,7 @@
                                           "author_flair_css_class": null,
                                           "collapsed": false,
                                           "is_submitter": false,
-                                          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&amp;quot;Please let me go.. this is to embarrassing &amp;quot;&lt;/p&gt;\n&lt;/div&gt;",
+                                          "body_html": "<div class=\"md\"><p>&quot;Please let me go.. this is to embarrassing &quot;</p>\n</div>",
                                           "gildings": {},
                                           "collapsed_reason": null,
                                           "associated_award": null,
@@ -965,7 +960,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&amp;quot;Oooo we are going to take pics..... and videos.... and live stream.... and use you as our new stress relief.&amp;quot;&lt;/p&gt;\n&lt;/div&gt;",
+                                "body_html": "<div class=\"md\"><p>&quot;Oooo we are going to take pics..... and videos.... and live stream.... and use you as our new stress relief.&quot;</p>\n</div>",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -1012,7 +1007,7 @@
                       "can_mod_post": false,
                       "send_replies": true,
                       "parent_id": "t1_jd302h6",
-                      "score": 7,
+                      "score": 6,
                       "approved_by": null,
                       "report_reasons": null,
                       "all_awardings": [],
@@ -1023,7 +1018,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&amp;quot;You promised to only take pictures &amp;quot;&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>&quot;You promised to only take pictures &quot;</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -1086,7 +1081,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&amp;quot;Hey look at the new cum slut.&amp;quot;&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>&quot;Hey look at the new cum slut.&quot;</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -1146,13 +1141,13 @@
             "created_utc": 1679388420.0,
             "send_replies": true,
             "parent_id": "t3_11xb9e4",
-            "score": 5,
+            "score": 4,
             "author_fullname": "t2_1zwmha2p",
             "approved_by": null,
             "mod_note": null,
             "all_awardings": [],
             "collapsed": false,
-            "body": "Here's the tonkatsu:\n\n* [Danbooru](https://danbooru.donmai.us/post/show/5234985)\n* [Pixiv](https://www.pixiv.net/member_illust.php?mode=medium&amp;illust_id=90736647)\n\n(According to [SauceNAO](https://saucenao.com))\n\n^^^^This ^^^^reddit ^^^^bot ^^^^is ^^^^operated ^^^^by ^^^^anusdestroyer4. ^^^^If ^^^^something ^^^^goes ^^^^wrong, ^^^^contact ^^^^him.",
+            "body": "Here's the tonkatsu:\n\n* [Danbooru](https://danbooru.donmai.us/post/show/5234985)\n* [Pixiv](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=90736647)\n\n(According to [SauceNAO](https://saucenao.com))\n\n^^^^This ^^^^reddit ^^^^bot ^^^^is ^^^^operated ^^^^by ^^^^anusdestroyer4. ^^^^If ^^^^something ^^^^goes ^^^^wrong, ^^^^contact ^^^^him.",
             "edited": false,
             "top_awarded_type": null,
             "author_flair_css_class": null,
@@ -1161,7 +1156,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Here&amp;#39;s the tonkatsu:&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\"https://danbooru.donmai.us/post/show/5234985\"&gt;Danbooru&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"https://www.pixiv.net/member_illust.php?mode=medium&amp;amp;illust_id=90736647\"&gt;Pixiv&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;(According to &lt;a href=\"https://saucenao.com\"&gt;SauceNAO&lt;/a&gt;)&lt;/p&gt;\n\n&lt;p&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;This&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;reddit&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;bot&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;is&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;operated&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;by&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;anusdestroyer4.&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;If&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;something&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;goes&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;wrong,&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;contact&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;him.&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Here&#39;s the tonkatsu:</p>\n\n<ul>\n<li><a href=\"https://danbooru.donmai.us/post/show/5234985\">Danbooru</a></li>\n<li><a href=\"https://www.pixiv.net/member_illust.php?mode=medium&amp;illust_id=90736647\">Pixiv</a></li>\n</ul>\n\n<p>(According to <a href=\"https://saucenao.com\">SauceNAO</a>)</p>\n\n<p><sup><sup><sup><sup>This</sup></sup></sup></sup> <sup><sup><sup><sup>reddit</sup></sup></sup></sup> <sup><sup><sup><sup>bot</sup></sup></sup></sup> <sup><sup><sup><sup>is</sup></sup></sup></sup> <sup><sup><sup><sup>operated</sup></sup></sup></sup> <sup><sup><sup><sup>by</sup></sup></sup></sup> <sup><sup><sup><sup>anusdestroyer4.</sup></sup></sup></sup> <sup><sup><sup><sup>If</sup></sup></sup></sup> <sup><sup><sup><sup>something</sup></sup></sup></sup> <sup><sup><sup><sup>goes</sup></sup></sup></sup> <sup><sup><sup><sup>wrong,</sup></sup></sup></sup> <sup><sup><sup><sup>contact</sup></sup></sup></sup> <sup><sup><sup><sup>him.</sup></sup></sup></sup></p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -1188,7 +1183,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 5
+            "ups": 4
           }
         },
         {
@@ -1236,7 +1231,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Time to film you taking my cock in your holes&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Time to film you taking my cock in your holes</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -1286,7 +1281,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -1329,7 +1324,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;That&amp;#39;s the turn on, for me atleast 😇&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>That&#39;s the turn on, for me atleast 😇</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -1392,7 +1387,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;If someone filmed me like this I’d just close my eyes and hope it would stop&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>If someone filmed me like this I’d just close my eyes and hope it would stop</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -1467,7 +1462,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Spit on you and call you trash \nOr piss all over you as they drink beer\nThen invite over the girls from school&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Spit on you and call you trash \nOr piss all over you as they drink beer\nThen invite over the girls from school</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -1542,7 +1537,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;making the girl send to you and then beg for you to not spread it around is the best&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>making the girl send to you and then beg for you to not spread it around is the best</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -1617,7 +1612,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Can’t tell if she’s covered in cum, sweat, or both&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Can’t tell if she’s covered in cum, sweat, or both</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -1651,13 +1646,14 @@
       "before": null
     }
   },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
   "comments": [
     {
       "id": "jd302h6",
       "author": "ajrobe2003",
       "author_fullname": "t2_22fptqhy",
       "body": "\"Hey look at the new cum slut.\"",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&amp;quot;Hey look at the new cum slut.&amp;quot;&lt;/p&gt;\n&lt;/div&gt;",
       "score": 8,
       "created_utc": 1679407121.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/11xb9e4/i_wish_the_boys_would_come_laugh_at_me_and_take/jd302h6/",
@@ -1669,13 +1665,116 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "\"You promised to only take pictures \"",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&amp;quot;You promised to only take pictures &amp;quot;&lt;/p&gt;\n&lt;/div&gt;",
-          "score": 7,
+          "score": 6,
           "created_utc": 1679408008.0,
           "permalink": "https://www.reddit.com/r/HentaiBullying/comments/11xb9e4/i_wish_the_boys_would_come_laugh_at_me_and_take/jd323f9/",
           "is_submitter": false,
           "parent_id": "t1_jd302h6",
-          "replies": []
+          "replies": [
+            {
+              "id": "jd32b74",
+              "author": "ajrobe2003",
+              "author_fullname": "t2_22fptqhy",
+              "body": "\"Oooo we are going to take pics..... and videos.... and live stream.... and use you as our new stress relief.\"",
+              "score": 7,
+              "created_utc": 1679408100.0,
+              "permalink": "https://www.reddit.com/r/HentaiBullying/comments/11xb9e4/i_wish_the_boys_would_come_laugh_at_me_and_take/jd32b74/",
+              "is_submitter": false,
+              "parent_id": "t1_jd323f9",
+              "replies": [
+                {
+                  "id": "jd32mge",
+                  "author": "[deleted]",
+                  "author_fullname": null,
+                  "body": "\"Please let me go.. this is to embarrassing \"",
+                  "score": 5,
+                  "created_utc": 1679408233.0,
+                  "permalink": "https://www.reddit.com/r/HentaiBullying/comments/11xb9e4/i_wish_the_boys_would_come_laugh_at_me_and_take/jd32mge/",
+                  "is_submitter": false,
+                  "parent_id": "t1_jd32b74",
+                  "replies": [
+                    {
+                      "id": "jd339j4",
+                      "author": "ajrobe2003",
+                      "author_fullname": "t2_22fptqhy",
+                      "body": "\"Its going to get so much worse. Who has the scissors and the sharpie....\" I cut your top off and begin to write very lud things across your body.",
+                      "score": 6,
+                      "created_utc": 1679408505.0,
+                      "permalink": "https://www.reddit.com/r/HentaiBullying/comments/11xb9e4/i_wish_the_boys_would_come_laugh_at_me_and_take/jd339j4/",
+                      "is_submitter": false,
+                      "parent_id": "t1_jd32mge",
+                      "replies": [
+                        {
+                          "id": "jd33jsr",
+                          "author": "[deleted]",
+                          "author_fullname": null,
+                          "body": "I try to get free from try binds \"Please I will do anything,  just don't take of my clothes \"",
+                          "score": 2,
+                          "created_utc": 1679408623.0,
+                          "permalink": "https://www.reddit.com/r/HentaiBullying/comments/11xb9e4/i_wish_the_boys_would_come_laugh_at_me_and_take/jd33jsr/",
+                          "is_submitter": false,
+                          "parent_id": "t1_jd339j4",
+                          "replies": [
+                            {
+                              "id": "jd33ydp",
+                              "author": "ajrobe2003",
+                              "author_fullname": "t2_22fptqhy",
+                              "body": "Your top comes off and more boys and girls join in watching and taking pics as across your tits I write slut and across your head I write free use.",
+                              "score": 3,
+                              "created_utc": 1679408792.0,
+                              "permalink": "https://www.reddit.com/r/HentaiBullying/comments/11xb9e4/i_wish_the_boys_would_come_laugh_at_me_and_take/jd33ydp/",
+                              "is_submitter": false,
+                              "parent_id": "t1_jd33jsr",
+                              "replies": [
+                                {
+                                  "id": "jd34ahb",
+                                  "author": "[deleted]",
+                                  "author_fullname": null,
+                                  "body": "Tears star to stream from my eyes \" Please just untie me.. I didn't even do anything bad..\"",
+                                  "score": 2,
+                                  "created_utc": 1679408935.0,
+                                  "permalink": "https://www.reddit.com/r/HentaiBullying/comments/11xb9e4/i_wish_the_boys_would_come_laugh_at_me_and_take/jd34ahb/",
+                                  "is_submitter": false,
+                                  "parent_id": "t1_jd33ydp",
+                                  "replies": [
+                                    {
+                                      "id": "jd34i12",
+                                      "author": "ajrobe2003",
+                                      "author_fullname": "t2_22fptqhy",
+                                      "body": "\"Awww you made the little slut cry...\" your \"friend\" pipes up from the back holding her phone up to record you. \"Cut her shorts next!\" Someone else says",
+                                      "score": 4,
+                                      "created_utc": 1679409022.0,
+                                      "permalink": "https://www.reddit.com/r/HentaiBullying/comments/11xb9e4/i_wish_the_boys_would_come_laugh_at_me_and_take/jd34i12/",
+                                      "is_submitter": false,
+                                      "parent_id": "t1_jd34ahb",
+                                      "replies": [
+                                        {
+                                          "id": "jd34xk7",
+                                          "author": "[deleted]",
+                                          "author_fullname": null,
+                                          "body": "\"Please don't\" closely legs to cover my exposed chest \n\"I promise I'll do anything, but please spare me\"",
+                                          "score": 3,
+                                          "created_utc": 1679409204.0,
+                                          "permalink": "https://www.reddit.com/r/HentaiBullying/comments/11xb9e4/i_wish_the_boys_would_come_laugh_at_me_and_take/jd34xk7/",
+                                          "is_submitter": false,
+                                          "parent_id": "t1_jd34i12",
+                                          "replies": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1683,9 +1782,8 @@
       "id": "jd26kpb",
       "author": "2Dgt3D",
       "author_fullname": "t2_1zwmha2p",
-      "body": "Here's the tonkatsu:\n\n* [Danbooru](https://danbooru.donmai.us/post/show/5234985)\n* [Pixiv](https://www.pixiv.net/member_illust.php?mode=medium&amp;illust_id=90736647)\n\n(According to [SauceNAO](https://saucenao.com))\n\n^^^^This ^^^^reddit ^^^^bot ^^^^is ^^^^operated ^^^^by ^^^^anusdestroyer4. ^^^^If ^^^^something ^^^^goes ^^^^wrong, ^^^^contact ^^^^him.",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Here&amp;#39;s the tonkatsu:&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\"https://danbooru.donmai.us/post/show/5234985\"&gt;Danbooru&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"https://www.pixiv.net/member_illust.php?mode=medium&amp;amp;illust_id=90736647\"&gt;Pixiv&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;(According to &lt;a href=\"https://saucenao.com\"&gt;SauceNAO&lt;/a&gt;)&lt;/p&gt;\n\n&lt;p&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;This&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;reddit&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;bot&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;is&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;operated&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;by&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;anusdestroyer4.&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;If&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;something&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;goes&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;wrong,&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;contact&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;him.&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 5,
+      "body": "Here's the tonkatsu:\n\n* [Danbooru](https://danbooru.donmai.us/post/show/5234985)\n* [Pixiv](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=90736647)\n\n(According to [SauceNAO](https://saucenao.com))\n\n^^^^This ^^^^reddit ^^^^bot ^^^^is ^^^^operated ^^^^by ^^^^anusdestroyer4. ^^^^If ^^^^something ^^^^goes ^^^^wrong, ^^^^contact ^^^^him.",
+      "score": 4,
       "created_utc": 1679388420.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/11xb9e4/i_wish_the_boys_would_come_laugh_at_me_and_take/jd26kpb/",
       "is_submitter": false,
@@ -1697,7 +1795,6 @@
       "author": "laquatus96",
       "author_fullname": "t2_u9n9ixdn",
       "body": "Time to film you taking my cock in your holes",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Time to film you taking my cock in your holes&lt;/p&gt;\n&lt;/div&gt;",
       "score": 5,
       "created_utc": 1679426365.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/11xb9e4/i_wish_the_boys_would_come_laugh_at_me_and_take/jd4dhn5/",
@@ -1710,7 +1807,6 @@
       "author": "HornyGirlOnMain",
       "author_fullname": "t2_7gxx37akx",
       "body": "If someone filmed me like this I’d just close my eyes and hope it would stop",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;If someone filmed me like this I’d just close my eyes and hope it would stop&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1679481021.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/11xb9e4/i_wish_the_boys_would_come_laugh_at_me_and_take/jd78rkd/",
@@ -1722,7 +1818,6 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "That's the turn on, for me atleast 😇",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;That&amp;#39;s the turn on, for me atleast 😇&lt;/p&gt;\n&lt;/div&gt;",
           "score": 3,
           "created_utc": 1679481053.0,
           "permalink": "https://www.reddit.com/r/HentaiBullying/comments/11xb9e4/i_wish_the_boys_would_come_laugh_at_me_and_take/jd78t16/",
@@ -1737,7 +1832,6 @@
       "author": "Little_Government_99",
       "author_fullname": "t2_b4xkwkcn",
       "body": "Spit on you and call you trash \nOr piss all over you as they drink beer\nThen invite over the girls from school",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Spit on you and call you trash \nOr piss all over you as they drink beer\nThen invite over the girls from school&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1684679242.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/11xb9e4/i_wish_the_boys_would_come_laugh_at_me_and_take/jl15pfg/",
@@ -1750,7 +1844,6 @@
       "author": "Extension_Branch6097",
       "author_fullname": "t2_akfnwwy1c",
       "body": "making the girl send to you and then beg for you to not spread it around is the best",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;making the girl send to you and then beg for you to not spread it around is the best&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1722136917.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/11xb9e4/i_wish_the_boys_would_come_laugh_at_me_and_take/lfaas3u/",
@@ -1763,7 +1856,6 @@
       "author": "Hand_over_the_toes",
       "author_fullname": "t2_8u2ffya1",
       "body": "Can’t tell if she’s covered in cum, sweat, or both",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Can’t tell if she’s covered in cum, sweat, or both&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1679506646.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/11xb9e4/i_wish_the_boys_would_come_laugh_at_me_and_take/jd8tvox/",

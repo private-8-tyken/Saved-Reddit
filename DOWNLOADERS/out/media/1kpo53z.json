@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T10:15:00.000000+00:00",
+  "archived_at": "2025-09-07T21:59:53.114876+00:00",
   "reddit_fullname": "t3_1kpo53z",
   "reddit_id": "1kpo53z",
   "permalink": "https://www.reddit.com/r/IWantToBeHerHentai2/comments/1kpo53z/wwhat_the_fuck_who_picks_up_a_delivery_like_this/",
@@ -23,12 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 18,
-  "score": 2260,
+  "score": 2263,
   "upvote_ratio": 0.99,
-  "media": {
-    "kind": "video",
-    "files": []
-  },
+  "media": null,
   "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
@@ -59,7 +56,7 @@
     "link_flair_text_color": "light",
     "upvote_ratio": 0.99,
     "author_flair_background_color": "#b8001f",
-    "ups": 2260,
+    "ups": 2263,
     "total_awards_received": 0,
     "media_embed": {},
     "thumbnail_width": 140,
@@ -73,7 +70,7 @@
     "secure_media_embed": {},
     "link_flair_text": "No Flair Required",
     "can_mod_post": false,
-    "score": 2260,
+    "score": 2263,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -269,7 +266,7 @@
     "permalink": "/r/IWantToBeHerHentai2/comments/1kpo53z/wwhat_the_fuck_who_picks_up_a_delivery_like_this/",
     "stickied": false,
     "url": "https://i.redd.it/lihpbblsik1f1.jpeg",
-    "subreddit_subscribers": 603774,
+    "subreddit_subscribers": 603984,
     "created_utc": 1747586128.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -388,7 +385,7 @@
             "created_utc": 1747586190.0,
             "send_replies": true,
             "parent_id": "t3_1kpo53z",
-            "score": 68,
+            "score": 65,
             "author_fullname": "t2_4mn005xu",
             "approved_by": null,
             "mod_note": null,
@@ -435,7 +432,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 68
+            "ups": 65
           }
         },
         {
@@ -582,7 +579,7 @@
                       "created_utc": 1747629716.0,
                       "send_replies": true,
                       "parent_id": "t1_mt1kg8e",
-                      "score": 37,
+                      "score": 38,
                       "author_fullname": "t2_87xxs9bn",
                       "removal_reason": null,
                       "approved_by": null,
@@ -624,7 +621,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 37
+                      "ups": 38
                     }
                   }
                 ],
@@ -645,7 +642,7 @@
             "created_utc": 1747614332.0,
             "send_replies": true,
             "parent_id": "t3_1kpo53z",
-            "score": 37,
+            "score": 38,
             "author_fullname": "t2_10csdghmhs",
             "approved_by": null,
             "mod_note": null,
@@ -692,7 +689,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 37
+            "ups": 38
           }
         },
         {
@@ -725,7 +722,7 @@
             "created_utc": 1747593114.0,
             "send_replies": true,
             "parent_id": "t3_1kpo53z",
-            "score": 11,
+            "score": 10,
             "author_fullname": "t2_1jw4slsuj1",
             "approved_by": null,
             "mod_note": null,
@@ -772,7 +769,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 11
+            "ups": 10
           }
         },
         {
@@ -805,7 +802,7 @@
             "created_utc": 1747601924.0,
             "send_replies": true,
             "parent_id": "t3_1kpo53z",
-            "score": 8,
+            "score": 9,
             "author_fullname": "t2_lg7ert8t",
             "approved_by": null,
             "mod_note": null,
@@ -852,7 +849,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 8
+            "ups": 9
           }
         },
         {
@@ -885,7 +882,7 @@
             "created_utc": 1747610566.0,
             "send_replies": true,
             "parent_id": "t3_1kpo53z",
-            "score": 5,
+            "score": 4,
             "author_fullname": "t2_3923pfkz",
             "approved_by": null,
             "mod_note": null,
@@ -932,7 +929,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 5
+            "ups": 4
           }
         },
         {
@@ -1138,7 +1135,7 @@
                       "created_utc": 1747609700.0,
                       "send_replies": true,
                       "parent_id": "t1_mt12w05",
-                      "score": -14,
+                      "score": -13,
                       "author_fullname": "t2_80o1cahl",
                       "removal_reason": null,
                       "approved_by": null,
@@ -1180,7 +1177,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": -14
+                      "ups": -13
                     }
                   }
                 ],
@@ -1715,5 +1712,230 @@
       ],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [
+    {
+      "id": "msz7e6s",
+      "author": "HentaiSauce_Bot",
+      "author_fullname": "t2_2bz035j0",
+      "body": "**Creator:** 6No1 | 6No1 [^({{on Pixiv}})](https://www.pixiv.net/member.php?id=10236387) | \n\n**Image links:** [Pixiv](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=90216544) | \n\n___\n\n **[Support this service on Patreon](https://www.patreon.com/r_Hentai)**  \n\n[View full results](http://saucenao.com/search.php?db=999&url=https://i.redd.it/lihpbblsik1f1.jpeg) | Created for r/Hentai | Powered by [SauceNAO](https://saucenao.com/)",
+      "score": 1,
+      "created_utc": 1747586179.0,
+      "permalink": "https://www.reddit.com/r/IWantToBeHerHentai2/comments/1kpo53z/wwhat_the_fuck_who_picks_up_a_delivery_like_this/msz7e6s/",
+      "is_submitter": false,
+      "parent_id": "t3_1kpo53z",
+      "replies": []
+    },
+    {
+      "id": "msz7fdl",
+      "author": "circumcised_vagina",
+      "author_fullname": "t2_4mn005xu",
+      "body": "What’s wrong!? This is just what a healthy relationship looks like! Why don’t you come in and share some pizza? You clearly need to learn a thing or two!",
+      "score": 65,
+      "created_utc": 1747586190.0,
+      "permalink": "https://www.reddit.com/r/IWantToBeHerHentai2/comments/1kpo53z/wwhat_the_fuck_who_picks_up_a_delivery_like_this/msz7fdl/",
+      "is_submitter": false,
+      "parent_id": "t3_1kpo53z",
+      "replies": []
+    },
+    {
+      "id": "mt1kg8e",
+      "author": "JennieMoony",
+      "author_fullname": "t2_10csdghmhs",
+      "body": "What's the source of that image if you don't mind? I would love to read it whole 🥺",
+      "score": 38,
+      "created_utc": 1747614332.0,
+      "permalink": "https://www.reddit.com/r/IWantToBeHerHentai2/comments/1kpo53z/wwhat_the_fuck_who_picks_up_a_delivery_like_this/mt1kg8e/",
+      "is_submitter": false,
+      "parent_id": "t3_1kpo53z",
+      "replies": [
+        {
+          "id": "mt2lxl1",
+          "author": "ballooncookie",
+          "author_fullname": "t2_87xxs9bn",
+          "body": "[https://nhentai.net/g/392267/1/](https://nhentai.net/g/392267/1/)\n\nThere isn't much of a story though just one additional page",
+          "score": 38,
+          "created_utc": 1747629716.0,
+          "permalink": "https://www.reddit.com/r/IWantToBeHerHentai2/comments/1kpo53z/wwhat_the_fuck_who_picks_up_a_delivery_like_this/mt2lxl1/",
+          "is_submitter": false,
+          "parent_id": "t1_mt1kg8e",
+          "replies": [
+            {
+              "id": "mt2rpx1",
+              "author": "JennieMoony",
+              "author_fullname": "t2_10csdghmhs",
+              "body": "Thank you anyway uwu 💜",
+              "score": 8,
+              "created_utc": 1747632791.0,
+              "permalink": "https://www.reddit.com/r/IWantToBeHerHentai2/comments/1kpo53z/wwhat_the_fuck_who_picks_up_a_delivery_like_this/mt2rpx1/",
+              "is_submitter": false,
+              "parent_id": "t1_mt2lxl1",
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "msztp9x",
+      "author": "Yes-Discussion-8394",
+      "author_fullname": "t2_1jw4slsuj1",
+      "body": "Well we can change that virgin status quite easily if you come in and join us",
+      "score": 10,
+      "created_utc": 1747593114.0,
+      "permalink": "https://www.reddit.com/r/IWantToBeHerHentai2/comments/1kpo53z/wwhat_the_fuck_who_picks_up_a_delivery_like_this/msztp9x/",
+      "is_submitter": false,
+      "parent_id": "t3_1kpo53z",
+      "replies": []
+    },
+    {
+      "id": "mt0l655",
+      "author": "Sanitized_b02",
+      "author_fullname": "t2_lg7ert8t",
+      "body": "\"Uhh... l-look, I'm sorry for rushing out naked like this. It'd be our way of saying sorry for this. Right honey?\" *My girlfriend nods her head.* \"She agrees. So please.\"",
+      "score": 9,
+      "created_utc": 1747601924.0,
+      "permalink": "https://www.reddit.com/r/IWantToBeHerHentai2/comments/1kpo53z/wwhat_the_fuck_who_picks_up_a_delivery_like_this/mt0l655/",
+      "is_submitter": false,
+      "parent_id": "t3_1kpo53z",
+      "replies": []
+    },
+    {
+      "id": "mt1a855",
+      "author": "H4loR4ptor",
+      "author_fullname": "t2_3923pfkz",
+      "body": "I'm going to need a source.",
+      "score": 4,
+      "created_utc": 1747610566.0,
+      "permalink": "https://www.reddit.com/r/IWantToBeHerHentai2/comments/1kpo53z/wwhat_the_fuck_who_picks_up_a_delivery_like_this/mt1a855/",
+      "is_submitter": false,
+      "parent_id": "t3_1kpo53z",
+      "replies": []
+    },
+    {
+      "id": "mt1hadk",
+      "author": "Creative_Excuse_6963",
+      "author_fullname": "t2_915mzrnw",
+      "body": "I can change that for you, if you want to come in that is. She cant handle me by herself.",
+      "score": 4,
+      "created_utc": 1747613147.0,
+      "permalink": "https://www.reddit.com/r/IWantToBeHerHentai2/comments/1kpo53z/wwhat_the_fuck_who_picks_up_a_delivery_like_this/mt1hadk/",
+      "is_submitter": false,
+      "parent_id": "t3_1kpo53z",
+      "replies": []
+    },
+    {
+      "id": "mszb9si",
+      "author": "brainflash",
+      "author_fullname": "t2_da882",
+      "body": "He's so strong and considerate.",
+      "score": 3,
+      "created_utc": 1747587404.0,
+      "permalink": "https://www.reddit.com/r/IWantToBeHerHentai2/comments/1kpo53z/wwhat_the_fuck_who_picks_up_a_delivery_like_this/mszb9si/",
+      "is_submitter": false,
+      "parent_id": "t3_1kpo53z",
+      "replies": []
+    },
+    {
+      "id": "mt12w05",
+      "author": "slimjim-72",
+      "author_fullname": "t2_7g1tpy96",
+      "body": "It’ll be so fun when she lets you clean his cock off",
+      "score": 3,
+      "created_utc": 1747607889.0,
+      "permalink": "https://www.reddit.com/r/IWantToBeHerHentai2/comments/1kpo53z/wwhat_the_fuck_who_picks_up_a_delivery_like_this/mt12w05/",
+      "is_submitter": false,
+      "parent_id": "t3_1kpo53z",
+      "replies": [
+        {
+          "id": "mt17uqn",
+          "author": "UwUwantsahotpic",
+          "author_fullname": "t2_80o1cahl",
+          "body": "Wanna clean my cock off?",
+          "score": -13,
+          "created_utc": 1747609700.0,
+          "permalink": "https://www.reddit.com/r/IWantToBeHerHentai2/comments/1kpo53z/wwhat_the_fuck_who_picks_up_a_delivery_like_this/mt17uqn/",
+          "is_submitter": false,
+          "parent_id": "t1_mt12w05",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "mt0te7v",
+      "author": "Big_Ad_7713",
+      "author_fullname": "t2_bnxpdg4k",
+      "body": "\"H-hey sorry about coming out like this, wife a little clingy, I can see it's bothered u a bit so why don't u come in, have a slice and well give u a tip\"",
+      "score": 2,
+      "created_utc": 1747604611.0,
+      "permalink": "https://www.reddit.com/r/IWantToBeHerHentai2/comments/1kpo53z/wwhat_the_fuck_who_picks_up_a_delivery_like_this/mt0te7v/",
+      "is_submitter": false,
+      "parent_id": "t3_1kpo53z",
+      "replies": []
+    },
+    {
+      "id": "mt1sz2d",
+      "author": "Cultural_Cards",
+      "author_fullname": "t2_19hubeqfre",
+      "body": "_”You can join in if you want.”_",
+      "score": 2,
+      "created_utc": 1747617516.0,
+      "permalink": "https://www.reddit.com/r/IWantToBeHerHentai2/comments/1kpo53z/wwhat_the_fuck_who_picks_up_a_delivery_like_this/mt1sz2d/",
+      "is_submitter": false,
+      "parent_id": "t3_1kpo53z",
+      "replies": []
+    },
+    {
+      "id": "msz78om",
+      "author": "AutoModerator",
+      "author_fullname": "t2_6l4z3",
+      "body": "Thank you for your submission. If you do not wish to receive replies or comments on this post, you can comment `!lock` to lock the comment section.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/IWantToBeHerHentai2) if you have any questions or concerns.*",
+      "score": 1,
+      "created_utc": 1747586129.0,
+      "permalink": "https://www.reddit.com/r/IWantToBeHerHentai2/comments/1kpo53z/wwhat_the_fuck_who_picks_up_a_delivery_like_this/msz78om/",
+      "is_submitter": false,
+      "parent_id": "t3_1kpo53z",
+      "replies": []
+    },
+    {
+      "id": "mt2mgmi",
+      "author": "Familiar-Captain-221",
+      "author_fullname": "t2_enisoqwa",
+      "body": "Yes Sir! If you insist!",
+      "score": 1,
+      "created_utc": 1747629984.0,
+      "permalink": "https://www.reddit.com/r/IWantToBeHerHentai2/comments/1kpo53z/wwhat_the_fuck_who_picks_up_a_delivery_like_this/mt2mgmi/",
+      "is_submitter": false,
+      "parent_id": "t3_1kpo53z",
+      "replies": [
+        {
+          "id": "mt2zlxd",
+          "author": "[deleted]",
+          "author_fullname": null,
+          "body": "One second I’ve got a tip here for you, grab a slice while I get it for you",
+          "score": 1,
+          "created_utc": 1747637365.0,
+          "permalink": "https://www.reddit.com/r/IWantToBeHerHentai2/comments/1kpo53z/wwhat_the_fuck_who_picks_up_a_delivery_like_this/mt2zlxd/",
+          "is_submitter": false,
+          "parent_id": "t1_mt2mgmi",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "mt3s9cg",
+      "author": "Few_Consequence_9746",
+      "author_fullname": "t2_cqvit6id",
+      "body": "Garen its just so chill on that comic",
+      "score": 1,
+      "created_utc": 1747654256.0,
+      "permalink": "https://www.reddit.com/r/IWantToBeHerHentai2/comments/1kpo53z/wwhat_the_fuck_who_picks_up_a_delivery_like_this/mt3s9cg/",
+      "is_submitter": false,
+      "parent_id": "t3_1kpo53z",
+      "replies": []
+    }
+  ],
+  "media_kind": "image"
 }

@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T01:41:28.000000+00:00",
+  "archived_at": "2025-09-07T22:27:50.411771+00:00",
   "reddit_fullname": "t3_1ce1ujb",
   "reddit_id": "1ce1ujb",
   "permalink": "https://www.reddit.com/r/Rapekink/comments/1ce1ujb/when_it_happened_in_a_park/",
@@ -23,12 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 1,
-  "score": 30,
-  "upvote_ratio": 0.92,
-  "media": {
-    "kind": "self",
-    "files": []
-  },
+  "score": 29,
+  "upvote_ratio": 0.89,
+  "media": null,
   "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
@@ -51,10 +48,10 @@
     "name": "t3_1ce1ujb",
     "quarantine": false,
     "link_flair_text_color": "dark",
-    "upvote_ratio": 0.92,
+    "upvote_ratio": 0.89,
     "author_flair_background_color": null,
     "subreddit_type": "public",
-    "ups": 30,
+    "ups": 29,
     "total_awards_received": 0,
     "media_embed": {},
     "author_flair_template_id": null,
@@ -67,7 +64,7 @@
     "secure_media_embed": {},
     "link_flair_text": null,
     "can_mod_post": false,
-    "score": 30,
+    "score": 29,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -129,7 +126,7 @@
     "permalink": "/r/Rapekink/comments/1ce1ujb/when_it_happened_in_a_park/",
     "stickied": false,
     "url": "https://www.reddit.com/r/Rapekink/comments/1ce1ujb/when_it_happened_in_a_park/",
-    "subreddit_subscribers": 158799,
+    "subreddit_subscribers": 158788,
     "created_utc": 1714179606.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -145,5 +142,9 @@
       "children": [],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [],
+  "media_kind": "self"
 }

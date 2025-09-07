@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T06:12:14.000000+00:00",
+  "archived_at": "2025-09-07T22:21:37.912555+00:00",
   "reddit_fullname": "t3_1lhcwz2",
   "reddit_id": "1lhcwz2",
   "permalink": "https://www.reddit.com/r/u_bikeweeny4280/comments/1lhcwz2/eva_elfie_handjob/",
@@ -25,11 +25,8 @@
   "num_comments": 0,
   "score": 1,
   "upvote_ratio": 1.0,
-  "media": {
-    "kind": "link",
-    "files": []
-  },
-  "external_link": "https://redgifs.com/watch/oldfashionedquickseabird",
+  "media": null,
+  "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
     "subreddit": "u_bikeweeny4280",
@@ -247,7 +244,7 @@
         "permalink": "/r/Handjob/comments/1lf1mv5/eva_elfie_handjob/",
         "stickied": false,
         "url": "",
-        "subreddit_subscribers": 569953,
+        "subreddit_subscribers": 570248,
         "created_utc": 1750306673.0,
         "num_crossposts": 7,
         "mod_reports": [],
@@ -414,5 +411,9 @@
       "children": [],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [],
+  "media_kind": "video"
 }

@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T06:11:39.000000+00:00",
+  "archived_at": "2025-09-07T22:21:03.234589+00:00",
   "reddit_fullname": "t3_1mqufec",
   "reddit_id": "1mqufec",
   "permalink": "https://www.reddit.com/r/BalkanNSFWxxx/comments/1mqufec/_/",
@@ -25,10 +25,7 @@
   "num_comments": 5,
   "score": 16,
   "upvote_ratio": 1.0,
-  "media": {
-    "kind": "link",
-    "files": []
-  },
+  "media": null,
   "external_link": "https://www.redgifs.com/watch/superficiallazyfairybluebird",
   "raw_post": {
     "approved_at_utc": null,
@@ -266,7 +263,7 @@
     "permalink": "/r/BalkanNSFWxxx/comments/1mqufec/_/",
     "stickied": false,
     "url": "https://www.redgifs.com/watch/superficiallazyfairybluebird",
-    "subreddit_subscribers": 7346,
+    "subreddit_subscribers": 7431,
     "created_utc": 1755255427.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -600,5 +597,60 @@
       ],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [
+    {
+      "id": "n8t7ry4",
+      "author": "Breskvinakurviica",
+      "author_fullname": "t2_1vov8wv4lm",
+      "body": "Mmmmm",
+      "score": 1,
+      "created_utc": 1755255681.0,
+      "permalink": "https://www.reddit.com/r/BalkanNSFWxxx/comments/1mqufec/_/n8t7ry4/",
+      "is_submitter": false,
+      "parent_id": "t3_1mqufec",
+      "replies": [
+        {
+          "id": "n8t7znm",
+          "author": "gobigorgohome17",
+          "author_fullname": "t2_1uup27jcgq",
+          "body": "Drkaj taj kurac 😈",
+          "score": 1,
+          "created_utc": 1755255779.0,
+          "permalink": "https://www.reddit.com/r/BalkanNSFWxxx/comments/1mqufec/_/n8t7znm/",
+          "is_submitter": true,
+          "parent_id": "t1_n8t7ry4",
+          "replies": [
+            {
+              "id": "n8t81mo",
+              "author": "Breskvinakurviica",
+              "author_fullname": "t2_1vov8wv4lm",
+              "body": "Mmmm drkam mamice",
+              "score": 1,
+              "created_utc": 1755255803.0,
+              "permalink": "https://www.reddit.com/r/BalkanNSFWxxx/comments/1mqufec/_/n8t81mo/",
+              "is_submitter": false,
+              "parent_id": "t1_n8t7znm",
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n8ta51z",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "Ee ajde u dmm",
+      "score": 1,
+      "created_utc": 1755256741.0,
+      "permalink": "https://www.reddit.com/r/BalkanNSFWxxx/comments/1mqufec/_/n8ta51z/",
+      "is_submitter": false,
+      "parent_id": "t3_1mqufec",
+      "replies": []
+    }
+  ],
+  "media_kind": "external"
 }

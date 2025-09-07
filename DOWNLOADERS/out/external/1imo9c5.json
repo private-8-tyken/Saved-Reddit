@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T06:11:05.000000+00:00",
+  "archived_at": "2025-09-07T22:22:20.503384+00:00",
   "reddit_fullname": "t3_1imo9c5",
   "reddit_id": "1imo9c5",
   "permalink": "https://www.reddit.com/r/u_layndare/comments/1imo9c5/come_with_us_on_amor_air_as_we_take_off_and_join/",
@@ -23,12 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 10,
-  "score": 2426,
+  "score": 2419,
   "upvote_ratio": 1.0,
-  "media": {
-    "kind": "link",
-    "files": []
-  },
+  "media": null,
   "external_link": "https://v3.redgifs.com/watch/blanchedalmondfirebrickbronco",
   "raw_post": {
     "approved_at_utc": null,
@@ -55,7 +52,7 @@
     "upvote_ratio": 1.0,
     "author_flair_background_color": null,
     "subreddit_type": "user",
-    "ups": 2426,
+    "ups": 2419,
     "total_awards_received": 0,
     "media_embed": {
       "content": "<iframe src=\"https://www.redgifs.com/ifr/blanchedalmondfirebrickbronco\" frameborder=\"0\" scrolling=\"no\" width=\"100%\" height=\"100%\"\n      allowfullscreen style=\"position:absolute;\"></iframe>",
@@ -95,7 +92,7 @@
     },
     "link_flair_text": null,
     "can_mod_post": false,
-    "score": 2426,
+    "score": 2419,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -319,78 +316,16 @@
                 "geo_filter": "",
                 "children": [
                   {
-                    "kind": "t1",
+                    "kind": "more",
                     "data": {
-                      "subreddit_id": "t5_xc593",
-                      "approved_at_utc": null,
-                      "author_is_blocked": false,
-                      "comment_type": null,
-                      "edited": false,
-                      "mod_reason_by": null,
-                      "banned_by": null,
-                      "ups": 1,
-                      "num_reports": null,
-                      "author_flair_type": "text",
-                      "total_awards_received": 0,
-                      "subreddit": "u_layndare",
-                      "author_flair_template_id": null,
-                      "likes": null,
-                      "replies": "",
-                      "user_reports": [],
-                      "saved": false,
-                      "id": "mdyb4kp",
-                      "banned_at_utc": null,
-                      "mod_reason_title": null,
-                      "gilded": 0,
-                      "archived": true,
-                      "collapsed_reason_code": null,
-                      "no_follow": true,
-                      "author": "HorizonFestival",
-                      "can_mod_post": false,
-                      "created_utc": 1740123116.0,
-                      "send_replies": true,
-                      "parent_id": "t1_mc4853x",
-                      "score": 1,
-                      "author_fullname": "t2_11p2yu",
-                      "report_reasons": null,
-                      "approved_by": null,
-                      "all_awardings": [],
-                      "collapsed": false,
-                      "body": "How much was it?",
-                      "awarders": [],
-                      "top_awarded_type": null,
-                      "author_flair_css_class": null,
-                      "author_patreon_flair": false,
-                      "downs": 0,
-                      "author_flair_richtext": [],
-                      "is_submitter": false,
-                      "body_html": "<div class=\"md\"><p>How much was it?</p>\n</div>",
-                      "removal_reason": null,
-                      "collapsed_reason": null,
-                      "associated_award": null,
-                      "stickied": false,
-                      "author_premium": false,
-                      "can_gild": false,
-                      "gildings": {},
-                      "unrepliable_reason": null,
-                      "author_flair_text_color": null,
-                      "score_hidden": false,
-                      "permalink": "/r/u_layndare/comments/1imo9c5/come_with_us_on_amor_air_as_we_take_off_and_join/mdyb4kp/",
-                      "subreddit_type": "user",
-                      "locked": false,
+                      "count": 1,
                       "name": "t1_mdyb4kp",
-                      "created": 1740123116.0,
-                      "author_flair_text": null,
-                      "treatment_tags": [],
-                      "link_id": "t3_1imo9c5",
-                      "subreddit_name_prefixed": "u/layndare",
-                      "controversiality": 0,
+                      "id": "mdyb4kp",
+                      "parent_id": "t1_mc4853x",
                       "depth": 1,
-                      "author_flair_background_color": null,
-                      "collapsed_because_crowd_control": null,
-                      "mod_reports": [],
-                      "mod_note": null,
-                      "distinguished": null
+                      "children": [
+                        "mdyb4kp"
+                      ]
                     }
                   }
                 ],
@@ -819,7 +754,7 @@
             "created_utc": 1739255267.0,
             "send_replies": true,
             "parent_id": "t3_1imo9c5",
-            "score": 5,
+            "score": 6,
             "author_fullname": "t2_nxn3an02",
             "approved_by": null,
             "mod_note": null,
@@ -861,7 +796,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 5
+            "ups": 6
           }
         },
         {
@@ -894,7 +829,7 @@
             "created_utc": 1739245846.0,
             "send_replies": true,
             "parent_id": "t3_1imo9c5",
-            "score": 4,
+            "score": 5,
             "author_fullname": "t2_sqqpfeo3",
             "approved_by": null,
             "mod_note": null,
@@ -936,7 +871,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 4
+            "ups": 5
           }
         },
         {
@@ -1017,5 +952,109 @@
       ],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [
+    {
+      "id": "mc4853x",
+      "author": "layndare",
+      "author_fullname": "t2_3bbmdf8h",
+      "body": "Come with us on [**Amor Air**](https://amor-air.manage.na1.bookingplatform.app/reserve/?tid=layndare) as we take off and join the mile-high club 🔥. And yes, Alina had her fastest orgasm ever - literally seconds 👅. Amor Air is kicking off with romantic flights (think sunset canyon views of Sedona and Grand Canyon) and of course the mile high club experience! Everything from the limousine ride to the private hangar, walking the red carpet with your loved one, and the incredibly sexy flight is so well done. It was our first private flight ever and we felt so comfortable and... relaxed 😎. Enjoy the ride!\n\nFULL 15min sex vlog drops this Thursday on ALL PAGES. NO PPV.\n\n**Indulge in our most sinful, hedonistic, and wildest adventures!** See ALL the uncensored passion at [**Layndare.com**](http://Layndare.com) – if you dare 🔥",
+      "score": 1,
+      "created_utc": 1739241695.0,
+      "permalink": "https://www.reddit.com/r/u_layndare/comments/1imo9c5/come_with_us_on_amor_air_as_we_take_off_and_join/mc4853x/",
+      "is_submitter": true,
+      "parent_id": "t3_1imo9c5",
+      "replies": []
+    },
+    {
+      "id": "ml5nggi",
+      "author": "PlanckLgth",
+      "author_fullname": "t2_al1zem41",
+      "body": "Ohhhh a King Air!!!",
+      "score": 2,
+      "created_utc": 1743659540.0,
+      "permalink": "https://www.reddit.com/r/u_layndare/comments/1imo9c5/come_with_us_on_amor_air_as_we_take_off_and_join/ml5nggi/",
+      "is_submitter": false,
+      "parent_id": "t3_1imo9c5",
+      "replies": [
+        {
+          "id": "ml6b7vu",
+          "author": "layndare",
+          "author_fullname": "t2_3bbmdf8h",
+          "body": "Ya! But bro, your username!!! Love it 😎",
+          "score": 2,
+          "created_utc": 1743674377.0,
+          "permalink": "https://www.reddit.com/r/u_layndare/comments/1imo9c5/come_with_us_on_amor_air_as_we_take_off_and_join/ml6b7vu/",
+          "is_submitter": true,
+          "parent_id": "t1_ml5nggi",
+          "replies": [
+            {
+              "id": "ml6ko0p",
+              "author": "PlanckLgth",
+              "author_fullname": "t2_al1zem41",
+              "body": "Thank you!!!",
+              "score": 1,
+              "created_utc": 1743679349.0,
+              "permalink": "https://www.reddit.com/r/u_layndare/comments/1imo9c5/come_with_us_on_amor_air_as_we_take_off_and_join/ml6ko0p/",
+              "is_submitter": false,
+              "parent_id": "t1_ml6b7vu",
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mc55upk",
+      "author": "O_double_T_O",
+      "author_fullname": "t2_nxn3an02",
+      "body": "Always amazing content",
+      "score": 6,
+      "created_utc": 1739255267.0,
+      "permalink": "https://www.reddit.com/r/u_layndare/comments/1imo9c5/come_with_us_on_amor_air_as_we_take_off_and_join/mc55upk/",
+      "is_submitter": false,
+      "parent_id": "t3_1imo9c5",
+      "replies": [
+        {
+          "id": "mc6x6c8",
+          "author": "layndare",
+          "author_fullname": "t2_3bbmdf8h",
+          "body": "Thank you!",
+          "score": 1,
+          "created_utc": 1739286166.0,
+          "permalink": "https://www.reddit.com/r/u_layndare/comments/1imo9c5/come_with_us_on_amor_air_as_we_take_off_and_join/mc6x6c8/",
+          "is_submitter": true,
+          "parent_id": "t1_mc55upk",
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "mc4k441",
+      "author": "nikkiidesilva",
+      "author_fullname": "t2_sqqpfeo3",
+      "body": "I love your sexy feet",
+      "score": 5,
+      "created_utc": 1739245846.0,
+      "permalink": "https://www.reddit.com/r/u_layndare/comments/1imo9c5/come_with_us_on_amor_air_as_we_take_off_and_join/mc4k441/",
+      "is_submitter": false,
+      "parent_id": "t3_1imo9c5",
+      "replies": []
+    },
+    {
+      "id": "mc4fjbn",
+      "author": "Norcalcouple_707",
+      "author_fullname": "t2_cclex2up",
+      "body": "🔥🔥🔥🔥🔥🔥",
+      "score": 2,
+      "created_utc": 1739244220.0,
+      "permalink": "https://www.reddit.com/r/u_layndare/comments/1imo9c5/come_with_us_on_amor_air_as_we_take_off_and_join/mc4fjbn/",
+      "is_submitter": false,
+      "parent_id": "t3_1imo9c5",
+      "replies": []
+    }
+  ],
+  "media_kind": "external"
 }

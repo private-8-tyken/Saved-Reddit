@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T01:40:48.000000+00:00",
+  "archived_at": "2025-09-07T21:56:06.262659+00:00",
   "reddit_fullname": "t3_1i7hp5f",
   "reddit_id": "1i7hp5f",
   "permalink": "https://www.reddit.com/r/Rapekink/comments/1i7hp5f/getting_raped_by_my_sisters_black_friends_made_me/",
@@ -23,12 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 7,
-  "score": 146,
+  "score": 145,
   "upvote_ratio": 0.88,
-  "media": {
-    "kind": "self",
-    "files": []
-  },
+  "media": null,
   "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
@@ -54,7 +51,7 @@
     "upvote_ratio": 0.88,
     "author_flair_background_color": null,
     "subreddit_type": "public",
-    "ups": 146,
+    "ups": 145,
     "total_awards_received": 0,
     "media_embed": {},
     "author_flair_template_id": null,
@@ -67,7 +64,7 @@
     "secure_media_embed": {},
     "link_flair_text": "kink origin",
     "can_mod_post": false,
-    "score": 146,
+    "score": 145,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -130,7 +127,7 @@
     "permalink": "/r/Rapekink/comments/1i7hp5f/getting_raped_by_my_sisters_black_friends_made_me/",
     "stickied": false,
     "url": "https://www.reddit.com/r/Rapekink/comments/1i7hp5f/getting_raped_by_my_sisters_black_friends_made_me/",
-    "subreddit_subscribers": 158799,
+    "subreddit_subscribers": 158788,
     "created_utc": 1737569642.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -154,7 +151,7 @@
             "awarders": [],
             "mod_reason_by": null,
             "banned_by": null,
-            "ups": 16,
+            "ups": 15,
             "removal_reason": null,
             "link_id": "t3_1i7hp5f",
             "author_flair_template_id": null,
@@ -177,7 +174,7 @@
                       "awarders": [],
                       "mod_reason_by": null,
                       "banned_by": null,
-                      "ups": 21,
+                      "ups": 20,
                       "removal_reason": null,
                       "link_id": "t3_1i7hp5f",
                       "author_flair_template_id": null,
@@ -196,7 +193,7 @@
                       "can_mod_post": false,
                       "send_replies": true,
                       "parent_id": "t1_m8l0b5d",
-                      "score": 21,
+                      "score": 20,
                       "approved_by": null,
                       "report_reasons": null,
                       "all_awardings": [],
@@ -254,7 +251,7 @@
             "can_mod_post": false,
             "send_replies": true,
             "parent_id": "t3_1i7hp5f",
-            "score": 16,
+            "score": 15,
             "approved_by": null,
             "report_reasons": null,
             "all_awardings": [],
@@ -298,5 +295,35 @@
       ],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [
+    {
+      "id": "m8l0b5d",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "[removed]",
+      "score": 15,
+      "created_utc": 1737571616.0,
+      "permalink": "https://www.reddit.com/r/Rapekink/comments/1i7hp5f/getting_raped_by_my_sisters_black_friends_made_me/m8l0b5d/",
+      "is_submitter": false,
+      "parent_id": "t3_1i7hp5f",
+      "replies": [
+        {
+          "id": "m8l1tdo",
+          "author": "[deleted]",
+          "author_fullname": null,
+          "body": "[removed]",
+          "score": 20,
+          "created_utc": 1737572012.0,
+          "permalink": "https://www.reddit.com/r/Rapekink/comments/1i7hp5f/getting_raped_by_my_sisters_black_friends_made_me/m8l1tdo/",
+          "is_submitter": false,
+          "parent_id": "t1_m8l0b5d",
+          "replies": []
+        }
+      ]
+    }
+  ],
+  "media_kind": "self"
 }

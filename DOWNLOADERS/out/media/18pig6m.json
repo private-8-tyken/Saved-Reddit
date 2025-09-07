@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T10:15:17.000000+00:00",
+  "archived_at": "2025-09-07T22:00:24.777515+00:00",
   "reddit_fullname": "t3_18pig6m",
   "reddit_id": "18pig6m",
   "permalink": "https://www.reddit.com/r/MasterSnips/comments/18pig6m/free_use_girlfriend/",
@@ -25,10 +25,7 @@
   "num_comments": 1,
   "score": 172,
   "upvote_ratio": 1.0,
-  "media": {
-    "kind": "video",
-    "files": []
-  },
+  "media": null,
   "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
@@ -69,9 +66,9 @@
         "height": 848,
         "width": 480,
         "scrubber_media_url": "https://v.redd.it/ey6ry7u9u48c1/DASH_96.mp4",
-        "dash_url": "https://v.redd.it/ey6ry7u9u48c1/DASHPlaylist.mpd?a=1759832116%2CMTQ0N2U5YzZiMWRkMzBjOGJlYTNjODk5MTQyOTg2NzQ0ZDE1MmZkYzI2ZTc2M2IyZjExNTM2ZDRlYWQ4YjM2ZA%3D%3D&v=1&f=sd",
+        "dash_url": "https://v.redd.it/ey6ry7u9u48c1/DASHPlaylist.mpd?a=1759874423%2CZGEyNWVjNjIyNzAwYzg2MWFkMjg2MjM4NmY0NzA5NGFiMTA2MTFjNzY5NDc2M2FjYTAzYmJhMjE2NGEyODU0MQ%3D%3D&v=1&f=sd",
         "duration": 53,
-        "hls_url": "https://v.redd.it/ey6ry7u9u48c1/HLSPlaylist.m3u8?a=1759832116%2CZjcwMzU4MWJhYWQ2NTViZjY1OTZjNWZkYjM3YjcxZmZjNDA3NmQxODcxYmYwMTg0MjBjMzFiZjkwMmJhOGIwNg%3D%3D&v=1&f=sd",
+        "hls_url": "https://v.redd.it/ey6ry7u9u48c1/HLSPlaylist.m3u8?a=1759874423%2CMGMxN2U1MGVjZjYxNzAyMjY4ODA5YzE0NmRjZTE4NTYxYjBmYjZiNDI0OTllODhjYWFjNzMxZmM5NjFmZDFiMg%3D%3D&v=1&f=sd",
         "is_gif": false,
         "transcoding_status": "completed"
       }
@@ -229,9 +226,9 @@
         "height": 848,
         "width": 480,
         "scrubber_media_url": "https://v.redd.it/ey6ry7u9u48c1/DASH_96.mp4",
-        "dash_url": "https://v.redd.it/ey6ry7u9u48c1/DASHPlaylist.mpd?a=1759832116%2CMTQ0N2U5YzZiMWRkMzBjOGJlYTNjODk5MTQyOTg2NzQ0ZDE1MmZkYzI2ZTc2M2IyZjExNTM2ZDRlYWQ4YjM2ZA%3D%3D&v=1&f=sd",
+        "dash_url": "https://v.redd.it/ey6ry7u9u48c1/DASHPlaylist.mpd?a=1759874423%2CZGEyNWVjNjIyNzAwYzg2MWFkMjg2MjM4NmY0NzA5NGFiMTA2MTFjNzY5NDc2M2FjYTAzYmJhMjE2NGEyODU0MQ%3D%3D&v=1&f=sd",
         "duration": 53,
-        "hls_url": "https://v.redd.it/ey6ry7u9u48c1/HLSPlaylist.m3u8?a=1759832116%2CZjcwMzU4MWJhYWQ2NTViZjY1OTZjNWZkYjM3YjcxZmZjNDA3NmQxODcxYmYwMTg0MjBjMzFiZjkwMmJhOGIwNg%3D%3D&v=1&f=sd",
+        "hls_url": "https://v.redd.it/ey6ry7u9u48c1/HLSPlaylist.m3u8?a=1759874423%2CMGMxN2U1MGVjZjYxNzAyMjY4ODA5YzE0NmRjZTE4NTYxYjBmYjZiNDI0OTllODhjYWFjNzMxZmM5NjFmZDFiMg%3D%3D&v=1&f=sd",
         "is_gif": false,
         "transcoding_status": "completed"
       }
@@ -242,7 +239,7 @@
     "permalink": "/r/MasterSnips/comments/18pig6m/free_use_girlfriend/",
     "stickied": false,
     "url": "https://v.redd.it/ey6ry7u9u48c1",
-    "subreddit_subscribers": 2763,
+    "subreddit_subscribers": 2762,
     "created_utc": 1703375639.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -329,5 +326,22 @@
       ],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [
+    {
+      "id": "llkmv9i",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "Where You At I’m Tryin To Get Some",
+      "score": 1,
+      "created_utc": 1725505568.0,
+      "permalink": "https://www.reddit.com/r/MasterSnips/comments/18pig6m/free_use_girlfriend/llkmv9i/",
+      "is_submitter": false,
+      "parent_id": "t3_18pig6m",
+      "replies": []
+    }
+  ],
+  "media_kind": "video"
 }
