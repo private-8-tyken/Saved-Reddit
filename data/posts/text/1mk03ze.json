@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-04T23:24:22.484418+00:00",
+  "archived_at": "2025-08-10T22:42:26.501229+00:00",
   "reddit_fullname": "t3_1mk03ze",
   "reddit_id": "1mk03ze",
   "permalink": "https://www.reddit.com/r/bdsm/comments/1mk03ze/how_to_break_a_sub/",
@@ -23,8 +23,8 @@
   "locked": false,
   "edited": false,
   "num_comments": 42,
-  "score": 8,
-  "upvote_ratio": 0.58,
+  "score": 5,
+  "upvote_ratio": 0.56,
   "media": {
     "kind": "self",
     "files": []
@@ -56,10 +56,10 @@
     "name": "t3_1mk03ze",
     "quarantine": false,
     "link_flair_text_color": "dark",
-    "upvote_ratio": 0.58,
+    "upvote_ratio": 0.56,
     "author_flair_background_color": null,
     "subreddit_type": "public",
-    "ups": 8,
+    "ups": 5,
     "total_awards_received": 0,
     "media_embed": {},
     "author_flair_template_id": null,
@@ -72,7 +72,7 @@
     "secure_media_embed": {},
     "link_flair_text": "Dominance/Submission",
     "can_mod_post": false,
-    "score": 8,
+    "score": 5,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -135,7 +135,7 @@
     "permalink": "/r/bdsm/comments/1mk03ze/how_to_break_a_sub/",
     "stickied": false,
     "url": "https://www.reddit.com/r/bdsm/comments/1mk03ze/how_to_break_a_sub/",
-    "subreddit_subscribers": 1232059,
+    "subreddit_subscribers": 1222391,
     "created_utc": 1754573295.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -224,7 +224,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_n7f4vvl",
-                                "score": 6,
+                                "score": 3,
                                 "author_fullname": "t2_1gsw6b96wj",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -267,7 +267,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 6
+                                "ups": 3
                               }
                             }
                           ],
@@ -288,7 +288,7 @@
                       "created_utc": 1754575352.0,
                       "send_replies": true,
                       "parent_id": "t1_n7ez267",
-                      "score": 13,
+                      "score": 10,
                       "author_fullname": "t2_ej7jk7f9",
                       "removal_reason": null,
                       "approved_by": null,
@@ -330,7 +330,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 13
+                      "ups": 10
                     }
                   }
                 ],
@@ -351,7 +351,7 @@
             "created_utc": 1754573494.0,
             "send_replies": true,
             "parent_id": "t3_1mk03ze",
-            "score": 51,
+            "score": 44,
             "author_fullname": "t2_1urd2mfn4n",
             "approved_by": null,
             "mod_note": null,
@@ -393,7 +393,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 51
+            "ups": 44
           }
         },
         {
@@ -426,7 +426,7 @@
             "created_utc": 1754573630.0,
             "send_replies": true,
             "parent_id": "t3_1mk03ze",
-            "score": 28,
+            "score": 26,
             "author_fullname": "t2_1ptts0nf7e",
             "approved_by": null,
             "mod_note": null,
@@ -468,7 +468,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 28
+            "ups": 26
           }
         },
         {
@@ -1017,7 +1017,7 @@
             "created_utc": 1754574077.0,
             "send_replies": true,
             "parent_id": "t3_1mk03ze",
-            "score": 17,
+            "score": 14,
             "author_fullname": "t2_rd96hk25",
             "approved_by": null,
             "mod_note": null,
@@ -1059,7 +1059,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 17
+            "ups": 14
           }
         },
         {
@@ -1425,7 +1425,7 @@
             "created_utc": 1754573853.0,
             "send_replies": true,
             "parent_id": "t3_1mk03ze",
-            "score": 9,
+            "score": 7,
             "author_fullname": "t2_8x2bvgl3",
             "approved_by": null,
             "mod_note": null,
@@ -1467,7 +1467,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 9
+            "ups": 7
           }
         },
         {
@@ -1586,7 +1586,7 @@
             "created_utc": 1754582859.0,
             "send_replies": true,
             "parent_id": "t3_1mk03ze",
-            "score": 7,
+            "score": 8,
             "author_fullname": "t2_ypovq6v",
             "approved_by": null,
             "mod_note": null,
@@ -1628,7 +1628,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 7
+            "ups": 8
           }
         },
         {
@@ -1833,7 +1833,7 @@
             "created_utc": 1754575990.0,
             "send_replies": true,
             "parent_id": "t3_1mk03ze",
-            "score": 7,
+            "score": 5,
             "author_fullname": "t2_336701z8",
             "approved_by": null,
             "mod_note": null,
@@ -1875,7 +1875,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 7
+            "ups": 5
           }
         },
         {
@@ -3222,16 +3222,16 @@
         {
           "kind": "t1",
           "data": {
-            "total_awards_received": 0,
+            "subreddit_id": "t5_2qjdo",
             "approved_at_utc": null,
             "author_is_blocked": false,
             "comment_type": null,
             "awarders": [],
             "mod_reason_by": null,
             "banned_by": null,
-            "ups": 1,
-            "removal_reason": null,
-            "link_id": "t3_1mk03ze",
+            "author_flair_type": "text",
+            "total_awards_received": 0,
+            "subreddit": "bdsm",
             "author_flair_template_id": null,
             "likes": null,
             "replies": "",
@@ -3244,49 +3244,54 @@
             "archived": false,
             "collapsed_reason_code": null,
             "no_follow": true,
-            "author": "[deleted]",
+            "author": "aspicylittlelizard",
             "can_mod_post": false,
+            "created_utc": 1754837056.0,
             "send_replies": true,
             "parent_id": "t3_1mk03ze",
             "score": 1,
+            "author_fullname": "t2_1va3xlrmro",
             "approved_by": null,
-            "report_reasons": null,
+            "mod_note": null,
             "all_awardings": [],
-            "subreddit_id": "t5_2qjdo",
+            "collapsed": false,
             "body": "For me, being broken is getting me to the point where I’ll audibly beg, desperately for something. Anything- sexual or non sexual. I hate asking for what I want so getting me to the point I beg for it is when I’m broken",
             "edited": false,
-            "downs": 0,
+            "top_awarded_type": null,
             "author_flair_css_class": null,
-            "collapsed": false,
+            "name": "t1_n7y4c82",
             "is_submitter": false,
+            "downs": 0,
+            "author_flair_richtext": [],
+            "author_patreon_flair": false,
             "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;For me, being broken is getting me to the point where I’ll audibly beg, desperately for something. Anything- sexual or non sexual. I hate asking for what I want so getting me to the point I beg for it is when I’m broken&lt;/p&gt;\n&lt;/div&gt;",
-            "gildings": {},
+            "removal_reason": null,
             "collapsed_reason": null,
+            "distinguished": null,
             "associated_award": null,
             "stickied": false,
-            "subreddit_type": "public",
+            "author_premium": false,
             "can_gild": false,
-            "top_awarded_type": null,
+            "gildings": {},
             "unrepliable_reason": null,
-            "author_flair_text_color": "dark",
-            "score_hidden": false,
+            "author_flair_text_color": null,
+            "score_hidden": true,
             "permalink": "/r/bdsm/comments/1mk03ze/how_to_break_a_sub/n7y4c82/",
-            "num_reports": null,
+            "subreddit_type": "public",
             "locked": false,
-            "name": "t1_n7y4c82",
+            "report_reasons": null,
             "created": 1754837056.0,
-            "subreddit": "bdsm",
             "author_flair_text": null,
             "treatment_tags": [],
-            "created_utc": 1754837056.0,
+            "link_id": "t3_1mk03ze",
             "subreddit_name_prefixed": "r/bdsm",
             "controversiality": 0,
             "depth": 0,
-            "author_flair_background_color": "",
+            "author_flair_background_color": null,
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
-            "mod_note": null,
-            "distinguished": null
+            "num_reports": null,
+            "ups": 1
           }
         }
       ],
@@ -3300,7 +3305,7 @@
       "author_fullname": "t2_1urd2mfn4n",
       "body": "Be careful be very careful. Aftercare needs to be on point. You also need to clearly define with them what breaking is. What’s the point you stop.",
       "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Be careful be very careful. Aftercare needs to be on point. You also need to clearly define with them what breaking is. What’s the point you stop.&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 51,
+      "score": 44,
       "created_utc": 1754573494.0,
       "permalink": "https://www.reddit.com/r/bdsm/comments/1mk03ze/how_to_break_a_sub/n7ez267/",
       "is_submitter": false,
@@ -3312,7 +3317,7 @@
           "author_fullname": "t2_ej7jk7f9",
           "body": "Yes for sure. We have plans for a sit down out of dynamic to set boundaries and safe words and things",
           "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Yes for sure. We have plans for a sit down out of dynamic to set boundaries and safe words and things&lt;/p&gt;\n&lt;/div&gt;",
-          "score": 13,
+          "score": 10,
           "created_utc": 1754575352.0,
           "permalink": "https://www.reddit.com/r/bdsm/comments/1mk03ze/how_to_break_a_sub/n7f4vvl/",
           "is_submitter": true,
@@ -3327,7 +3332,7 @@
       "author_fullname": "t2_1ptts0nf7e",
       "body": "I think you need to start by asking him what the hell he means…",
       "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I think you need to start by asking him what the hell he means…&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 28,
+      "score": 26,
       "created_utc": 1754573630.0,
       "permalink": "https://www.reddit.com/r/bdsm/comments/1mk03ze/how_to_break_a_sub/n7ezh06/",
       "is_submitter": false,
@@ -3340,7 +3345,7 @@
       "author_fullname": "t2_rd96hk25",
       "body": "physically or mentally?  \n\nunderstand his goal and proceed with caution.  'new' to you and 'breaking' is a flag.  maybe get a baseline of the person you're playing with before trying to break them.  and if he's asking for to be broken when new, that's all kind of flags that he's in frenzy and more caught up in his fantasies than actually serving or submitting.  \n\nI'd have some very serious, out of dynamic, conversations about roles and goals.",
       "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;physically or mentally?  &lt;/p&gt;\n\n&lt;p&gt;understand his goal and proceed with caution.  &amp;#39;new&amp;#39; to you and &amp;#39;breaking&amp;#39; is a flag.  maybe get a baseline of the person you&amp;#39;re playing with before trying to break them.  and if he&amp;#39;s asking for to be broken when new, that&amp;#39;s all kind of flags that he&amp;#39;s in frenzy and more caught up in his fantasies than actually serving or submitting.  &lt;/p&gt;\n\n&lt;p&gt;I&amp;#39;d have some very serious, out of dynamic, conversations about roles and goals.&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 17,
+      "score": 14,
       "created_utc": 1754574077.0,
       "permalink": "https://www.reddit.com/r/bdsm/comments/1mk03ze/how_to_break_a_sub/n7f0uxm/",
       "is_submitter": false,
@@ -3394,7 +3399,7 @@
       "author_fullname": "t2_8x2bvgl3",
       "body": "This could get dangerous quickly. They need to be clear on what they mean here. And to be honest, it will come with time as you learn limits and body language.",
       "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;This could get dangerous quickly. They need to be clear on what they mean here. And to be honest, it will come with time as you learn limits and body language.&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 9,
+      "score": 7,
       "created_utc": 1754573853.0,
       "permalink": "https://www.reddit.com/r/bdsm/comments/1mk03ze/how_to_break_a_sub/n7f05om/",
       "is_submitter": false,
@@ -3407,7 +3412,7 @@
       "author_fullname": "t2_ypovq6v",
       "body": "Consult an engineering manual to figure out how much pressure the hull can take, then dive to the appropriate depth. I recommend using an uncrewed sub, to avoid loss of life",
       "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Consult an engineering manual to figure out how much pressure the hull can take, then dive to the appropriate depth. I recommend using an uncrewed sub, to avoid loss of life&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 7,
+      "score": 8,
       "created_utc": 1754582859.0,
       "permalink": "https://www.reddit.com/r/bdsm/comments/1mk03ze/how_to_break_a_sub/n7fuuea/",
       "is_submitter": false,
@@ -3434,7 +3439,7 @@
       "author_fullname": "t2_336701z8",
       "body": "Another possibility involves spanking. Most male subs can eroticise spanking pain. You can bypass this by spanking him after he has cum. Make him jerk himself off first, or jerk him off but ruin it, or make him ruin himself.\nOnce he's gone soft, then spank him. You'll be able to spank him to tears far more easily.\n\n\nAgain - lots of aftercare required.\n\n\nTalk to him. Find out what kind of 'breaking' he wants. Make sure you are comfortable with it too. Dom(me)s need their own aftercare.",
       "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Another possibility involves spanking. Most male subs can eroticise spanking pain. You can bypass this by spanking him after he has cum. Make him jerk himself off first, or jerk him off but ruin it, or make him ruin himself.\nOnce he&amp;#39;s gone soft, then spank him. You&amp;#39;ll be able to spank him to tears far more easily.&lt;/p&gt;\n\n&lt;p&gt;Again - lots of aftercare required.&lt;/p&gt;\n\n&lt;p&gt;Talk to him. Find out what kind of &amp;#39;breaking&amp;#39; he wants. Make sure you are comfortable with it too. Dom(me)s need their own aftercare.&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 7,
+      "score": 5,
       "created_utc": 1754575990.0,
       "permalink": "https://www.reddit.com/r/bdsm/comments/1mk03ze/how_to_break_a_sub/n7f6z7b/",
       "is_submitter": false,
@@ -3656,8 +3661,8 @@
     },
     {
       "id": "n7y4c82",
-      "author": "[deleted]",
-      "author_fullname": null,
+      "author": "aspicylittlelizard",
+      "author_fullname": "t2_1va3xlrmro",
       "body": "For me, being broken is getting me to the point where I’ll audibly beg, desperately for something. Anything- sexual or non sexual. I hate asking for what I want so getting me to the point I beg for it is when I’m broken",
       "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;For me, being broken is getting me to the point where I’ll audibly beg, desperately for something. Anything- sexual or non sexual. I hate asking for what I want so getting me to the point I beg for it is when I’m broken&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
