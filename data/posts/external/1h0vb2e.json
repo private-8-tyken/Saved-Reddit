@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T06:11:57.000000+00:00",
+  "archived_at": "2025-09-07T22:22:46.095449+00:00",
   "reddit_fullname": "t3_1h0vb2e",
   "reddit_id": "1h0vb2e",
   "permalink": "https://www.reddit.com/r/coxukkerzZ/comments/1h0vb2e/annablossom/",
@@ -23,12 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 1,
-  "score": 157,
+  "score": 158,
   "upvote_ratio": 1.0,
-  "media": {
-    "kind": "link",
-    "files": []
-  },
+  "media": null,
   "external_link": "https://www.redgifs.com/watch/blanchedalmondgoldspreadwing",
   "raw_post": {
     "approved_at_utc": null,
@@ -55,7 +52,7 @@
     "upvote_ratio": 1.0,
     "author_flair_background_color": null,
     "subreddit_type": "public",
-    "ups": 157,
+    "ups": 158,
     "total_awards_received": 0,
     "media_embed": {
       "content": "<iframe src=\"https://www.redgifs.com/ifr/blanchedalmondgoldspreadwing\" frameborder=\"0\" scrolling=\"no\" width=\"100%\" height=\"100%\"\n      allowfullscreen style=\"position:absolute;\"></iframe>",
@@ -95,7 +92,7 @@
     },
     "link_flair_text": null,
     "can_mod_post": false,
-    "score": 157,
+    "score": 158,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -266,7 +263,7 @@
     "permalink": "/r/coxukkerzZ/comments/1h0vb2e/annablossom/",
     "stickied": false,
     "url": "https://www.redgifs.com/watch/blanchedalmondgoldspreadwing",
-    "subreddit_subscribers": 1508,
+    "subreddit_subscribers": 1511,
     "created_utc": 1732679309.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -282,5 +279,9 @@
       "children": [],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [],
+  "media_kind": "external"
 }

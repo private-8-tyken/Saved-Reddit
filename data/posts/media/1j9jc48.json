@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T10:15:28.000000+00:00",
+  "archived_at": "2025-09-07T22:00:39.146250+00:00",
   "reddit_fullname": "t3_1j9jc48",
   "reddit_id": "1j9jc48",
   "permalink": "https://www.reddit.com/r/ffmFantasy/comments/1j9jc48/woooops/",
@@ -23,12 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 2,
-  "score": 566,
+  "score": 564,
   "upvote_ratio": 1.0,
-  "media": {
-    "kind": "gallery",
-    "files": []
-  },
+  "media": null,
   "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
@@ -307,7 +304,7 @@
     "link_flair_text_color": "dark",
     "upvote_ratio": 1.0,
     "author_flair_background_color": null,
-    "ups": 566,
+    "ups": 564,
     "domain": "reddit.com",
     "media_embed": {},
     "thumbnail_width": 140,
@@ -345,7 +342,7 @@
     },
     "link_flair_text": null,
     "can_mod_post": false,
-    "score": 566,
+    "score": 564,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -409,7 +406,7 @@
     "permalink": "/r/ffmFantasy/comments/1j9jc48/woooops/",
     "stickied": false,
     "url": "https://www.reddit.com/gallery/1j9jc48",
-    "subreddit_subscribers": 65967,
+    "subreddit_subscribers": 66061,
     "created_utc": 1741783897.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -576,5 +573,34 @@
       ],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [
+    {
+      "id": "mhhye1y",
+      "author": "Successful_Fox628",
+      "author_fullname": "t2_1g4canlz9o",
+      "body": "The kinda whoops i wanna make",
+      "score": 1,
+      "created_utc": 1741832099.0,
+      "permalink": "https://www.reddit.com/r/ffmFantasy/comments/1j9jc48/woooops/mhhye1y/",
+      "is_submitter": false,
+      "parent_id": "t3_1j9jc48",
+      "replies": []
+    },
+    {
+      "id": "mhl3z5b",
+      "author": "No_Particular5430",
+      "author_fullname": "t2_zwvmcxijx",
+      "body": "Lucku guy look so hot",
+      "score": 1,
+      "created_utc": 1741881962.0,
+      "permalink": "https://www.reddit.com/r/ffmFantasy/comments/1j9jc48/woooops/mhl3z5b/",
+      "is_submitter": false,
+      "parent_id": "t3_1j9jc48",
+      "replies": []
+    }
+  ],
+  "media_kind": "gallery"
 }

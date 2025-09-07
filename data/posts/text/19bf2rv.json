@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T01:41:51.000000+00:00",
+  "archived_at": "2025-09-07T21:58:17.813677+00:00",
   "reddit_fullname": "t3_19bf2rv",
   "reddit_id": "19bf2rv",
   "permalink": "https://www.reddit.com/r/Rapekink/comments/19bf2rv/coercion_works_one_two_many_times/",
@@ -23,12 +23,9 @@
   "locked": false,
   "edited": 1705795069.0,
   "num_comments": 5,
-  "score": 83,
-  "upvote_ratio": 0.97,
-  "media": {
-    "kind": "self",
-    "files": []
-  },
+  "score": 86,
+  "upvote_ratio": 0.98,
+  "media": null,
   "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
@@ -51,10 +48,10 @@
     "name": "t3_19bf2rv",
     "quarantine": false,
     "link_flair_text_color": "dark",
-    "upvote_ratio": 0.97,
+    "upvote_ratio": 0.98,
     "author_flair_background_color": null,
     "subreddit_type": "public",
-    "ups": 83,
+    "ups": 86,
     "total_awards_received": 0,
     "media_embed": {},
     "author_flair_template_id": null,
@@ -67,7 +64,7 @@
     "secure_media_embed": {},
     "link_flair_text": null,
     "can_mod_post": false,
-    "score": 83,
+    "score": 86,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -129,7 +126,7 @@
     "permalink": "/r/Rapekink/comments/19bf2rv/coercion_works_one_two_many_times/",
     "stickied": false,
     "url": "https://www.reddit.com/r/Rapekink/comments/19bf2rv/coercion_works_one_two_many_times/",
-    "subreddit_subscribers": 158799,
+    "subreddit_subscribers": 158788,
     "created_utc": 1705766910.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -383,5 +380,48 @@
       ],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [
+    {
+      "id": "kix3oa4",
+      "author": "[deleted]",
+      "author_fullname": null,
+      "body": "Where did you meet on Reddit?",
+      "score": 2,
+      "created_utc": 1705860818.0,
+      "permalink": "https://www.reddit.com/r/Rapekink/comments/19bf2rv/coercion_works_one_two_many_times/kix3oa4/",
+      "is_submitter": false,
+      "parent_id": "t3_19bf2rv",
+      "replies": [
+        {
+          "id": "kix4hy2",
+          "author": "butimprettywhenicry",
+          "author_fullname": "t2_a8qyexa8w",
+          "body": "City sub. Totally random",
+          "score": 3,
+          "created_utc": 1705861105.0,
+          "permalink": "https://www.reddit.com/r/Rapekink/comments/19bf2rv/coercion_works_one_two_many_times/kix4hy2/",
+          "is_submitter": true,
+          "parent_id": "t1_kix3oa4",
+          "replies": [
+            {
+              "id": "kix6b7u",
+              "author": "[deleted]",
+              "author_fullname": null,
+              "body": "Yeah, wow! Figured it would be on one of the dating subreddits. That's interesting.",
+              "score": 1,
+              "created_utc": 1705861724.0,
+              "permalink": "https://www.reddit.com/r/Rapekink/comments/19bf2rv/coercion_works_one_two_many_times/kix6b7u/",
+              "is_submitter": false,
+              "parent_id": "t1_kix4hy2",
+              "replies": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "media_kind": "self"
 }

@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-08-13T01:19:46.607724+00:00",
+  "archived_at": "2025-09-07T22:11:44.254228+00:00",
   "reddit_fullname": "t3_yjsqdo",
   "reddit_id": "yjsqdo",
   "permalink": "https://www.reddit.com/r/HentaiBullying/comments/yjsqdo/dumb_bitch_had_one_job_and_fucked_up_the_group/",
@@ -25,12 +25,7 @@
   "num_comments": 7,
   "score": 1034,
   "upvote_ratio": 0.99,
-  "media": {
-    "kind": "image",
-    "files": [
-      "media\\yjsqdo\\image.jpg"
-    ]
-  },
+  "media": null,
   "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
@@ -99,35 +94,35 @@
     "view_count": null,
     "archived": false,
     "no_follow": false,
-    "is_crosspostable": false,
+    "is_crosspostable": true,
     "pinned": false,
     "over_18": true,
     "preview": {
       "images": [
         {
           "source": {
-            "url": "https://preview.redd.it/yismfmp76gx91.jpg?auto=webp&amp;s=e936ec1d2787267a9125dbcff469d3acb98cb9a1",
+            "url": "https://preview.redd.it/yismfmp76gx91.jpg?auto=webp&s=e936ec1d2787267a9125dbcff469d3acb98cb9a1",
             "width": 849,
             "height": 1280
           },
           "resolutions": [
             {
-              "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=3479705c3320693c76fd8ee082e028b50c890c2e",
+              "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=108&crop=smart&auto=webp&s=3479705c3320693c76fd8ee082e028b50c890c2e",
               "width": 108,
               "height": 162
             },
             {
-              "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=19455f2faf30c67542f7812d2b4c705d616c37e7",
+              "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=216&crop=smart&auto=webp&s=19455f2faf30c67542f7812d2b4c705d616c37e7",
               "width": 216,
               "height": 325
             },
             {
-              "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=45ff24301e0d68ffe8fb88df2c1ec3d35962b039",
+              "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=320&crop=smart&auto=webp&s=45ff24301e0d68ffe8fb88df2c1ec3d35962b039",
               "width": 320,
               "height": 482
             },
             {
-              "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=2629be34b61216249b024ac99cc9c57fd4d0e75f",
+              "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=640&crop=smart&auto=webp&s=2629be34b61216249b024ac99cc9c57fd4d0e75f",
               "width": 640,
               "height": 964
             }
@@ -135,28 +130,28 @@
           "variants": {
             "obfuscated": {
               "source": {
-                "url": "https://preview.redd.it/yismfmp76gx91.jpg?blur=40&amp;format=pjpg&amp;auto=webp&amp;s=865bd0e4eff2c81007e4753dec3c82f1135099a0",
+                "url": "https://preview.redd.it/yismfmp76gx91.jpg?blur=40&format=pjpg&auto=webp&s=865bd0e4eff2c81007e4753dec3c82f1135099a0",
                 "width": 849,
                 "height": 1280
               },
               "resolutions": [
                 {
-                  "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=108&amp;crop=smart&amp;blur=10&amp;format=pjpg&amp;auto=webp&amp;s=9b454eb32bcd04f685bc28355ed1c014623b19f9",
+                  "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=108&crop=smart&blur=10&format=pjpg&auto=webp&s=9b454eb32bcd04f685bc28355ed1c014623b19f9",
                   "width": 108,
                   "height": 162
                 },
                 {
-                  "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=216&amp;crop=smart&amp;blur=21&amp;format=pjpg&amp;auto=webp&amp;s=d63d801b45ebca67bc4a4d6f16df88915b4901d8",
+                  "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=216&crop=smart&blur=21&format=pjpg&auto=webp&s=d63d801b45ebca67bc4a4d6f16df88915b4901d8",
                   "width": 216,
                   "height": 325
                 },
                 {
-                  "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=320&amp;crop=smart&amp;blur=32&amp;format=pjpg&amp;auto=webp&amp;s=e056f9d30102319700933fc2b47168f34e1589f7",
+                  "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=320&crop=smart&blur=32&format=pjpg&auto=webp&s=e056f9d30102319700933fc2b47168f34e1589f7",
                   "width": 320,
                   "height": 482
                 },
                 {
-                  "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=640&amp;crop=smart&amp;blur=40&amp;format=pjpg&amp;auto=webp&amp;s=c68d99b4e0011957e074c8a2a15a7818df05c8a5",
+                  "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=640&crop=smart&blur=40&format=pjpg&auto=webp&s=c68d99b4e0011957e074c8a2a15a7818df05c8a5",
                   "width": 640,
                   "height": 964
                 }
@@ -164,28 +159,28 @@
             },
             "nsfw": {
               "source": {
-                "url": "https://preview.redd.it/yismfmp76gx91.jpg?blur=40&amp;format=pjpg&amp;auto=webp&amp;s=865bd0e4eff2c81007e4753dec3c82f1135099a0",
+                "url": "https://preview.redd.it/yismfmp76gx91.jpg?blur=40&format=pjpg&auto=webp&s=865bd0e4eff2c81007e4753dec3c82f1135099a0",
                 "width": 849,
                 "height": 1280
               },
               "resolutions": [
                 {
-                  "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=108&amp;crop=smart&amp;blur=10&amp;format=pjpg&amp;auto=webp&amp;s=9b454eb32bcd04f685bc28355ed1c014623b19f9",
+                  "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=108&crop=smart&blur=10&format=pjpg&auto=webp&s=9b454eb32bcd04f685bc28355ed1c014623b19f9",
                   "width": 108,
                   "height": 162
                 },
                 {
-                  "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=216&amp;crop=smart&amp;blur=21&amp;format=pjpg&amp;auto=webp&amp;s=d63d801b45ebca67bc4a4d6f16df88915b4901d8",
+                  "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=216&crop=smart&blur=21&format=pjpg&auto=webp&s=d63d801b45ebca67bc4a4d6f16df88915b4901d8",
                   "width": 216,
                   "height": 325
                 },
                 {
-                  "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=320&amp;crop=smart&amp;blur=32&amp;format=pjpg&amp;auto=webp&amp;s=e056f9d30102319700933fc2b47168f34e1589f7",
+                  "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=320&crop=smart&blur=32&format=pjpg&auto=webp&s=e056f9d30102319700933fc2b47168f34e1589f7",
                   "width": 320,
                   "height": 482
                 },
                 {
-                  "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=640&amp;crop=smart&amp;blur=40&amp;format=pjpg&amp;auto=webp&amp;s=c68d99b4e0011957e074c8a2a15a7818df05c8a5",
+                  "url": "https://preview.redd.it/yismfmp76gx91.jpg?width=640&crop=smart&blur=40&format=pjpg&auto=webp&s=c68d99b4e0011957e074c8a2a15a7818df05c8a5",
                   "width": 640,
                   "height": 964
                 }
@@ -231,7 +226,7 @@
     "permalink": "/r/HentaiBullying/comments/yjsqdo/dumb_bitch_had_one_job_and_fucked_up_the_group/",
     "stickied": false,
     "url": "https://i.redd.it/yismfmp76gx91.jpg",
-    "subreddit_subscribers": 203611,
+    "subreddit_subscribers": 205430,
     "created_utc": 1667355429.0,
     "num_crossposts": 1,
     "mod_reports": [],
@@ -242,7 +237,7 @@
     "data": {
       "after": null,
       "dist": null,
-      "modhash": "",
+      "modhash": null,
       "geo_filter": "",
       "children": [
         {
@@ -265,7 +260,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -298,7 +293,7 @@
                       "created_utc": 1667370669.0,
                       "send_replies": true,
                       "parent_id": "t1_iuq5efo",
-                      "score": 8,
+                      "score": 9,
                       "author_fullname": "t2_6a8qyt1e",
                       "removal_reason": null,
                       "approved_by": null,
@@ -313,7 +308,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I am the group project and I deserve some futaba fucking me up&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>I am the group project and I deserve some futaba fucking me up</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -340,7 +335,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 8
+                      "ups": 9
                     }
                   }
                 ],
@@ -361,7 +356,7 @@
             "created_utc": 1667366149.0,
             "send_replies": true,
             "parent_id": "t3_yjsqdo",
-            "score": 14,
+            "score": 13,
             "author_fullname": "t2_bor9idc2",
             "approved_by": null,
             "mod_note": null,
@@ -376,7 +371,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Knowing Futaba, she isn’t fucking the group project up. She’s probably the only one doing it&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Knowing Futaba, she isn’t fucking the group project up. She’s probably the only one doing it</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -403,7 +398,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 14
+            "ups": 13
           }
         },
         {
@@ -436,13 +431,13 @@
             "created_utc": 1667355719.0,
             "send_replies": true,
             "parent_id": "t3_yjsqdo",
-            "score": 3,
+            "score": 5,
             "author_fullname": "t2_1zwmha2p",
             "approved_by": null,
             "mod_note": null,
             "all_awardings": [],
             "collapsed": false,
-            "body": "Here's the hollandaise:\n\n* [Pixiv](https://www.pixiv.net/member_illust.php?mode=medium&amp;illust_id=89155905)\n* [Danbooru](https://danbooru.donmai.us/post/show/4466592)\n* [Yande.re](https://yande.re/post/show/769173)\n\n(According to [SauceNAO](https://saucenao.com))\n\n^^^^This ^^^^reddit ^^^^bot ^^^^is ^^^^operated ^^^^by ^^^^anusdestroyer4. ^^^^If ^^^^something ^^^^goes ^^^^wrong, ^^^^contact ^^^^him.",
+            "body": "Here's the hollandaise:\n\n* [Pixiv](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=89155905)\n* [Danbooru](https://danbooru.donmai.us/post/show/4466592)\n* [Yande.re](https://yande.re/post/show/769173)\n\n(According to [SauceNAO](https://saucenao.com))\n\n^^^^This ^^^^reddit ^^^^bot ^^^^is ^^^^operated ^^^^by ^^^^anusdestroyer4. ^^^^If ^^^^something ^^^^goes ^^^^wrong, ^^^^contact ^^^^him.",
             "edited": false,
             "top_awarded_type": null,
             "author_flair_css_class": null,
@@ -451,7 +446,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Here&amp;#39;s the hollandaise:&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\"https://www.pixiv.net/member_illust.php?mode=medium&amp;amp;illust_id=89155905\"&gt;Pixiv&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"https://danbooru.donmai.us/post/show/4466592\"&gt;Danbooru&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"https://yande.re/post/show/769173\"&gt;Yande.re&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;(According to &lt;a href=\"https://saucenao.com\"&gt;SauceNAO&lt;/a&gt;)&lt;/p&gt;\n\n&lt;p&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;This&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;reddit&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;bot&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;is&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;operated&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;by&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;anusdestroyer4.&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;If&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;something&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;goes&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;wrong,&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;contact&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;him.&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Here&#39;s the hollandaise:</p>\n\n<ul>\n<li><a href=\"https://www.pixiv.net/member_illust.php?mode=medium&amp;illust_id=89155905\">Pixiv</a></li>\n<li><a href=\"https://danbooru.donmai.us/post/show/4466592\">Danbooru</a></li>\n<li><a href=\"https://yande.re/post/show/769173\">Yande.re</a></li>\n</ul>\n\n<p>(According to <a href=\"https://saucenao.com\">SauceNAO</a>)</p>\n\n<p><sup><sup><sup><sup>This</sup></sup></sup></sup> <sup><sup><sup><sup>reddit</sup></sup></sup></sup> <sup><sup><sup><sup>bot</sup></sup></sup></sup> <sup><sup><sup><sup>is</sup></sup></sup></sup> <sup><sup><sup><sup>operated</sup></sup></sup></sup> <sup><sup><sup><sup>by</sup></sup></sup></sup> <sup><sup><sup><sup>anusdestroyer4.</sup></sup></sup></sup> <sup><sup><sup><sup>If</sup></sup></sup></sup> <sup><sup><sup><sup>something</sup></sup></sup></sup> <sup><sup><sup><sup>goes</sup></sup></sup></sup> <sup><sup><sup><sup>wrong,</sup></sup></sup></sup> <sup><sup><sup><sup>contact</sup></sup></sup></sup> <sup><sup><sup><sup>him.</sup></sup></sup></sup></p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -478,7 +473,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 3
+            "ups": 5
           }
         },
         {
@@ -501,7 +496,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -544,7 +539,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;You call that your best? You are really a stupid bitch&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>You call that your best? You are really a stupid bitch</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -607,7 +602,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Sorry I did my best I swear&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Sorry I did my best I swear</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -682,7 +677,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;This guy had one job which is wearing a condom while doing this. And he couldn&amp;#39;t even be bothered to do that much&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>This guy had one job which is wearing a condom while doing this. And he couldn&#39;t even be bothered to do that much</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -757,7 +752,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I’m sorry sir&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>I’m sorry sir</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -791,14 +786,15 @@
       "before": null
     }
   },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
   "comments": [
     {
       "id": "iuq5efo",
       "author": "SafalinEnthusiast",
       "author_fullname": "t2_bor9idc2",
       "body": "Knowing Futaba, she isn’t fucking the group project up. She’s probably the only one doing it",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Knowing Futaba, she isn’t fucking the group project up. She’s probably the only one doing it&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 14,
+      "score": 13,
       "created_utc": 1667366149.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/yjsqdo/dumb_bitch_had_one_job_and_fucked_up_the_group/iuq5efo/",
       "is_submitter": false,
@@ -809,8 +805,7 @@
           "author": "Nagul_Rajashekar",
           "author_fullname": "t2_6a8qyt1e",
           "body": "I am the group project and I deserve some futaba fucking me up",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I am the group project and I deserve some futaba fucking me up&lt;/p&gt;\n&lt;/div&gt;",
-          "score": 8,
+          "score": 9,
           "created_utc": 1667370669.0,
           "permalink": "https://www.reddit.com/r/HentaiBullying/comments/yjsqdo/dumb_bitch_had_one_job_and_fucked_up_the_group/iuqb72x/",
           "is_submitter": false,
@@ -823,9 +818,8 @@
       "id": "iupmhyp",
       "author": "2Dgt3D",
       "author_fullname": "t2_1zwmha2p",
-      "body": "Here's the hollandaise:\n\n* [Pixiv](https://www.pixiv.net/member_illust.php?mode=medium&amp;illust_id=89155905)\n* [Danbooru](https://danbooru.donmai.us/post/show/4466592)\n* [Yande.re](https://yande.re/post/show/769173)\n\n(According to [SauceNAO](https://saucenao.com))\n\n^^^^This ^^^^reddit ^^^^bot ^^^^is ^^^^operated ^^^^by ^^^^anusdestroyer4. ^^^^If ^^^^something ^^^^goes ^^^^wrong, ^^^^contact ^^^^him.",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Here&amp;#39;s the hollandaise:&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\"https://www.pixiv.net/member_illust.php?mode=medium&amp;amp;illust_id=89155905\"&gt;Pixiv&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"https://danbooru.donmai.us/post/show/4466592\"&gt;Danbooru&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"https://yande.re/post/show/769173\"&gt;Yande.re&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;(According to &lt;a href=\"https://saucenao.com\"&gt;SauceNAO&lt;/a&gt;)&lt;/p&gt;\n\n&lt;p&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;This&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;reddit&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;bot&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;is&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;operated&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;by&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;anusdestroyer4.&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;If&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;something&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;goes&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;wrong,&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;contact&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt; &lt;sup&gt;&lt;sup&gt;&lt;sup&gt;&lt;sup&gt;him.&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 3,
+      "body": "Here's the hollandaise:\n\n* [Pixiv](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=89155905)\n* [Danbooru](https://danbooru.donmai.us/post/show/4466592)\n* [Yande.re](https://yande.re/post/show/769173)\n\n(According to [SauceNAO](https://saucenao.com))\n\n^^^^This ^^^^reddit ^^^^bot ^^^^is ^^^^operated ^^^^by ^^^^anusdestroyer4. ^^^^If ^^^^something ^^^^goes ^^^^wrong, ^^^^contact ^^^^him.",
+      "score": 5,
       "created_utc": 1667355719.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/yjsqdo/dumb_bitch_had_one_job_and_fucked_up_the_group/iupmhyp/",
       "is_submitter": false,
@@ -837,7 +831,6 @@
       "author": "Masochistic_toy",
       "author_fullname": "t2_ld3y5lay",
       "body": "Sorry I did my best I swear",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Sorry I did my best I swear&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1667433550.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/yjsqdo/dumb_bitch_had_one_job_and_fucked_up_the_group/iutwox5/",
@@ -849,7 +842,6 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "You call that your best? You are really a stupid bitch",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;You call that your best? You are really a stupid bitch&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1667448376.0,
           "permalink": "https://www.reddit.com/r/HentaiBullying/comments/yjsqdo/dumb_bitch_had_one_job_and_fucked_up_the_group/iuut1do/",
@@ -864,7 +856,6 @@
       "author": "noisypeach",
       "author_fullname": "t2_13836i",
       "body": "This guy had one job which is wearing a condom while doing this. And he couldn't even be bothered to do that much",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;This guy had one job which is wearing a condom while doing this. And he couldn&amp;#39;t even be bothered to do that much&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1667453954.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/yjsqdo/dumb_bitch_had_one_job_and_fucked_up_the_group/iuv1e6a/",
@@ -877,7 +868,6 @@
       "author": "No_Wrangler6920",
       "author_fullname": "t2_bwow6vy8",
       "body": "I’m sorry sir",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I’m sorry sir&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1667720147.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/yjsqdo/dumb_bitch_had_one_job_and_fucked_up_the_group/iv9a0yh/",

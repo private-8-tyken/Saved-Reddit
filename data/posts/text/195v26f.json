@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T01:41:53.000000+00:00",
+  "archived_at": "2025-09-07T22:28:18.312740+00:00",
   "reddit_fullname": "t3_195v26f",
   "reddit_id": "195v26f",
   "permalink": "https://www.reddit.com/r/Rapekink/comments/195v26f/when_i_was_really_young_i_got_gangraped_and_now/",
@@ -24,11 +24,8 @@
   "edited": false,
   "num_comments": 0,
   "score": 5,
-  "upvote_ratio": 0.69,
-  "media": {
-    "kind": "self",
-    "files": []
-  },
+  "upvote_ratio": 0.73,
+  "media": null,
   "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
@@ -51,7 +48,7 @@
     "name": "t3_195v26f",
     "quarantine": false,
     "link_flair_text_color": "dark",
-    "upvote_ratio": 0.69,
+    "upvote_ratio": 0.73,
     "author_flair_background_color": null,
     "subreddit_type": "public",
     "ups": 5,
@@ -130,7 +127,7 @@
     "permalink": "/r/Rapekink/comments/195v26f/when_i_was_really_young_i_got_gangraped_and_now/",
     "stickied": false,
     "url": "https://www.reddit.com/r/Rapekink/comments/195v26f/when_i_was_really_young_i_got_gangraped_and_now/",
-    "subreddit_subscribers": 158799,
+    "subreddit_subscribers": 158788,
     "created_utc": 1705171852.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -146,5 +143,9 @@
       "children": [],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [],
+  "media_kind": "self"
 }

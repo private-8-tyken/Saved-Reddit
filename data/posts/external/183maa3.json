@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T06:12:15.000000+00:00",
+  "archived_at": "2025-09-07T22:24:05.550971+00:00",
   "reddit_fullname": "t3_183maa3",
   "reddit_id": "183maa3",
   "permalink": "https://www.reddit.com/r/u_billybadass999/comments/183maa3/you_were_supposed_to_pick_up_your_girlfriend_from/",
@@ -25,10 +25,7 @@
   "num_comments": 0,
   "score": 1,
   "upvote_ratio": 1.0,
-  "media": {
-    "kind": "link",
-    "files": []
-  },
+  "media": null,
   "external_link": "https://redgifs.com/watch/potablewavychrysomelid",
   "raw_post": {
     "approved_at_utc": null,
@@ -269,5 +266,9 @@
       "children": [],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [],
+  "media_kind": "external"
 }

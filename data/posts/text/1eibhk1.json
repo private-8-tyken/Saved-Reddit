@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-08-10T23:07:27.569376+00:00",
+  "archived_at": "2025-09-07T21:57:11.454522+00:00",
   "reddit_fullname": "t3_1eibhk1",
   "reddit_id": "1eibhk1",
   "permalink": "https://www.reddit.com/r/DirtyConfession/comments/1eibhk1/i_was_ruined_by_an_older_man_behind_a_dumpster/",
@@ -23,12 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 9,
-  "score": 73,
+  "score": 72,
   "upvote_ratio": 0.93,
-  "media": {
-    "kind": "self",
-    "files": []
-  },
+  "media": null,
   "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
@@ -55,7 +52,7 @@
     "upvote_ratio": 0.93,
     "author_flair_background_color": null,
     "subreddit_type": "public",
-    "ups": 73,
+    "ups": 72,
     "total_awards_received": 0,
     "media_embed": {},
     "thumbnail_width": null,
@@ -69,7 +66,7 @@
     "secure_media_embed": {},
     "link_flair_text": null,
     "can_mod_post": false,
-    "score": 73,
+    "score": 72,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -89,7 +86,7 @@
     "author_flair_type": "text",
     "domain": "self.DirtyConfession",
     "allow_live_comments": false,
-    "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;[removed]&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>[removed]</p>\n</div><!-- SC_ON -->",
     "likes": null,
     "suggested_sort": null,
     "banned_at_utc": null,
@@ -131,7 +128,7 @@
     "permalink": "/r/DirtyConfession/comments/1eibhk1/i_was_ruined_by_an_older_man_behind_a_dumpster/",
     "stickied": false,
     "url": "https://www.reddit.com/r/DirtyConfession/comments/1eibhk1/i_was_ruined_by_an_older_man_behind_a_dumpster/",
-    "subreddit_subscribers": 437023,
+    "subreddit_subscribers": 445110,
     "created_utc": 1722608971.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -142,7 +139,7 @@
     "data": {
       "after": null,
       "dist": null,
-      "modhash": "",
+      "modhash": null,
       "geo_filter": "",
       "children": [
         {
@@ -165,7 +162,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -178,7 +175,7 @@
                       "awarders": [],
                       "mod_reason_by": null,
                       "banned_by": null,
-                      "ups": 2,
+                      "ups": 3,
                       "removal_reason": null,
                       "link_id": "t3_1eibhk1",
                       "author_flair_template_id": null,
@@ -188,7 +185,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": "",
+                          "modhash": null,
                           "geo_filter": "",
                           "children": [
                             {
@@ -236,7 +233,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I love your work 😍&lt;/p&gt;\n&lt;/div&gt;",
+                                "body_html": "<div class=\"md\"><p>I love your work 😍</p>\n</div>",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -283,7 +280,7 @@
                       "can_mod_post": false,
                       "send_replies": true,
                       "parent_id": "t1_lg5ajkh",
-                      "score": 2,
+                      "score": 3,
                       "approved_by": null,
                       "report_reasons": null,
                       "all_awardings": [],
@@ -294,7 +291,7 @@
                       "collapsed": true,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[removed]&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>[removed]</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -357,7 +354,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;God bless this woman&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>God bless this woman</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -427,7 +424,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Beautiful.&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Beautiful.</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -477,7 +474,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -525,7 +522,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;If you are a very good girl, it will happen.&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>If you are a very good girl, it will happen.</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -588,7 +585,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;when’s somebody gonna do this to me? 😫&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>when’s somebody gonna do this to me? 😫</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -622,13 +619,14 @@
       "before": null
     }
   },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
   "comments": [
     {
       "id": "lg5ajkh",
       "author": "Ok_Lifeguard_6021",
       "author_fullname": "t2_8dzfxm6w",
       "body": "God bless this woman",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;God bless this woman&lt;/p&gt;\n&lt;/div&gt;",
       "score": 3,
       "created_utc": 1722609533.0,
       "permalink": "https://www.reddit.com/r/DirtyConfession/comments/1eibhk1/i_was_ruined_by_an_older_man_behind_a_dumpster/lg5ajkh/",
@@ -640,13 +638,25 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "[removed]",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[removed]&lt;/p&gt;\n&lt;/div&gt;",
-          "score": 2,
+          "score": 3,
           "created_utc": 1722609697.0,
           "permalink": "https://www.reddit.com/r/DirtyConfession/comments/1eibhk1/i_was_ruined_by_an_older_man_behind_a_dumpster/lg5b1wa/",
           "is_submitter": false,
           "parent_id": "t1_lg5ajkh",
-          "replies": []
+          "replies": [
+            {
+              "id": "lg5beeq",
+              "author": "Ok_Lifeguard_6021",
+              "author_fullname": "t2_8dzfxm6w",
+              "body": "I love your work 😍",
+              "score": 2,
+              "created_utc": 1722609810.0,
+              "permalink": "https://www.reddit.com/r/DirtyConfession/comments/1eibhk1/i_was_ruined_by_an_older_man_behind_a_dumpster/lg5beeq/",
+              "is_submitter": false,
+              "parent_id": "t1_lg5b1wa",
+              "replies": []
+            }
+          ]
         }
       ]
     },
@@ -655,7 +665,6 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "Beautiful.",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Beautiful.&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1722612944.0,
       "permalink": "https://www.reddit.com/r/DirtyConfession/comments/1eibhk1/i_was_ruined_by_an_older_man_behind_a_dumpster/lg5l3v7/",
@@ -668,7 +677,6 @@
       "author": "DistributionPretty41",
       "author_fullname": "t2_83fyl5u8",
       "body": "when’s somebody gonna do this to me? 😫",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;when’s somebody gonna do this to me? 😫&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1722669210.0,
       "permalink": "https://www.reddit.com/r/DirtyConfession/comments/1eibhk1/i_was_ruined_by_an_older_man_behind_a_dumpster/lg9lz7u/",
@@ -680,7 +688,6 @@
           "author": "AggravatingRelief976",
           "author_fullname": "t2_s022zlmj3",
           "body": "If you are a very good girl, it will happen.",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;If you are a very good girl, it will happen.&lt;/p&gt;\n&lt;/div&gt;",
           "score": 2,
           "created_utc": 1723648862.0,
           "permalink": "https://www.reddit.com/r/DirtyConfession/comments/1eibhk1/i_was_ruined_by_an_older_man_behind_a_dumpster/li3443u/",

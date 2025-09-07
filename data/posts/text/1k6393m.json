@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-08-10T22:49:41.180849+00:00",
+  "archived_at": "2025-09-07T22:26:03.520992+00:00",
   "reddit_fullname": "t3_1k6393m",
   "reddit_id": "1k6393m",
   "permalink": "https://www.reddit.com/r/dirtypenpals/comments/1k6393m/f4m_how_come_guys_never_trade_sex_for_favors/",
@@ -23,12 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 13,
-  "score": 46,
-  "upvote_ratio": 0.93,
-  "media": {
-    "kind": "self",
-    "files": []
-  },
+  "score": 48,
+  "upvote_ratio": 0.94,
+  "media": null,
   "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
@@ -51,10 +48,10 @@
     "name": "t3_1k6393m",
     "quarantine": false,
     "link_flair_text_color": "dark",
-    "upvote_ratio": 0.93,
+    "upvote_ratio": 0.94,
     "author_flair_background_color": null,
     "subreddit_type": "public",
-    "ups": 46,
+    "ups": 48,
     "total_awards_received": 0,
     "media_embed": {},
     "author_flair_template_id": null,
@@ -67,7 +64,7 @@
     "secure_media_embed": {},
     "link_flair_text": null,
     "can_mod_post": false,
-    "score": 46,
+    "score": 48,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -87,7 +84,7 @@
     "author_flair_type": "text",
     "domain": "self.dirtypenpals",
     "allow_live_comments": false,
-    "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;[removed]&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>[removed]</p>\n</div><!-- SC_ON -->",
     "likes": null,
     "suggested_sort": null,
     "banned_at_utc": null,
@@ -129,7 +126,7 @@
     "permalink": "/r/dirtypenpals/comments/1k6393m/f4m_how_come_guys_never_trade_sex_for_favors/",
     "stickied": false,
     "url": "https://www.reddit.com/r/dirtypenpals/comments/1k6393m/f4m_how_come_guys_never_trade_sex_for_favors/",
-    "subreddit_subscribers": 666815,
+    "subreddit_subscribers": 669956,
     "created_utc": 1745425055.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -140,12 +137,14 @@
     "data": {
       "after": null,
       "dist": null,
-      "modhash": "",
+      "modhash": null,
       "geo_filter": "",
       "children": [],
       "before": null
     }
   },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
   "comments": [],
   "media_kind": "self"
 }

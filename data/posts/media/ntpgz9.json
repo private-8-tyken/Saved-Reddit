@@ -1,9 +1,9 @@
 {
-  "archived_at": "2025-09-05T05:43:30.431514+00:00",
+  "archived_at": "2025-09-07T22:13:24.363761+00:00",
   "reddit_fullname": "t3_ntpgz9",
   "reddit_id": "ntpgz9",
   "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/",
-  "title": "Hermione Granger &amp; Peter Pettigrew (4kolor) [Harry Potter]",
+  "title": "Hermione Granger & Peter Pettigrew (4kolor) [Harry Potter]",
   "selftext": "",
   "author": "MPITSROD",
   "author_fullname": "t2_38enofph",
@@ -23,14 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 41,
-  "score": 2417,
+  "score": 2423,
   "upvote_ratio": 0.98,
-  "media": {
-    "kind": "image",
-    "files": [
-      "media\\ntpgz9\\image.jpg"
-    ]
-  },
+  "media": null,
   "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
@@ -41,7 +36,7 @@
     "mod_reason_title": null,
     "gilded": 0,
     "clicked": false,
-    "title": "Hermione Granger &amp; Peter Pettigrew (4kolor) [Harry Potter]",
+    "title": "Hermione Granger & Peter Pettigrew (4kolor) [Harry Potter]",
     "link_flair_richtext": [
       {
         "e": "text",
@@ -61,7 +56,7 @@
     "link_flair_text_color": "light",
     "upvote_ratio": 0.98,
     "author_flair_background_color": null,
-    "ups": 2417,
+    "ups": 2423,
     "total_awards_received": 0,
     "media_embed": {},
     "thumbnail_width": 140,
@@ -75,7 +70,7 @@
     "secure_media_embed": {},
     "link_flair_text": "[ RULE34 ]",
     "can_mod_post": false,
-    "score": 2417,
+    "score": 2423,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -104,35 +99,35 @@
     "view_count": null,
     "archived": false,
     "no_follow": false,
-    "is_crosspostable": false,
+    "is_crosspostable": true,
     "pinned": false,
     "over_18": true,
     "preview": {
       "images": [
         {
           "source": {
-            "url": "https://preview.redd.it/w52dw2ny8o371.jpg?auto=webp&amp;s=419372a978d130b4b978f59102dbac393cdbf8d6",
+            "url": "https://preview.redd.it/w52dw2ny8o371.jpg?auto=webp&s=419372a978d130b4b978f59102dbac393cdbf8d6",
             "width": 813,
             "height": 1200
           },
           "resolutions": [
             {
-              "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=464bf4efc76f4df6e7c264477ce3659bf387b87d",
+              "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=108&crop=smart&auto=webp&s=464bf4efc76f4df6e7c264477ce3659bf387b87d",
               "width": 108,
               "height": 159
             },
             {
-              "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=ee3bdfb4e515871f4a269a5e305a9a354eb6fa76",
+              "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=216&crop=smart&auto=webp&s=ee3bdfb4e515871f4a269a5e305a9a354eb6fa76",
               "width": 216,
               "height": 318
             },
             {
-              "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=36c18dd0b53adeb487f125b8fd1b9c7cb913ae9c",
+              "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=320&crop=smart&auto=webp&s=36c18dd0b53adeb487f125b8fd1b9c7cb913ae9c",
               "width": 320,
               "height": 472
             },
             {
-              "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=34a53c5202bf359e01c468a9ed967c3e5f6f08d3",
+              "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=640&crop=smart&auto=webp&s=34a53c5202bf359e01c468a9ed967c3e5f6f08d3",
               "width": 640,
               "height": 944
             }
@@ -140,28 +135,28 @@
           "variants": {
             "obfuscated": {
               "source": {
-                "url": "https://preview.redd.it/w52dw2ny8o371.jpg?blur=40&amp;format=pjpg&amp;auto=webp&amp;s=538ca51ba8702474152376384a7f1fbcf91ddea4",
+                "url": "https://preview.redd.it/w52dw2ny8o371.jpg?blur=40&format=pjpg&auto=webp&s=538ca51ba8702474152376384a7f1fbcf91ddea4",
                 "width": 813,
                 "height": 1200
               },
               "resolutions": [
                 {
-                  "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=108&amp;crop=smart&amp;blur=10&amp;format=pjpg&amp;auto=webp&amp;s=249f5b850da7e2601079885f25c277c40307a14c",
+                  "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=108&crop=smart&blur=10&format=pjpg&auto=webp&s=249f5b850da7e2601079885f25c277c40307a14c",
                   "width": 108,
                   "height": 159
                 },
                 {
-                  "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=216&amp;crop=smart&amp;blur=21&amp;format=pjpg&amp;auto=webp&amp;s=6a2fd8433a25b40ab77c1b7a77b9904b0a850774",
+                  "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=216&crop=smart&blur=21&format=pjpg&auto=webp&s=6a2fd8433a25b40ab77c1b7a77b9904b0a850774",
                   "width": 216,
                   "height": 318
                 },
                 {
-                  "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=320&amp;crop=smart&amp;blur=32&amp;format=pjpg&amp;auto=webp&amp;s=aa47708f8a2933b067f860232786eefaaf154380",
+                  "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=320&crop=smart&blur=32&format=pjpg&auto=webp&s=aa47708f8a2933b067f860232786eefaaf154380",
                   "width": 320,
                   "height": 472
                 },
                 {
-                  "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=640&amp;crop=smart&amp;blur=40&amp;format=pjpg&amp;auto=webp&amp;s=4d4e37a59cf153d3cf8e74b45543fffc104cc4c2",
+                  "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=640&crop=smart&blur=40&format=pjpg&auto=webp&s=4d4e37a59cf153d3cf8e74b45543fffc104cc4c2",
                   "width": 640,
                   "height": 944
                 }
@@ -169,28 +164,28 @@
             },
             "nsfw": {
               "source": {
-                "url": "https://preview.redd.it/w52dw2ny8o371.jpg?blur=40&amp;format=pjpg&amp;auto=webp&amp;s=538ca51ba8702474152376384a7f1fbcf91ddea4",
+                "url": "https://preview.redd.it/w52dw2ny8o371.jpg?blur=40&format=pjpg&auto=webp&s=538ca51ba8702474152376384a7f1fbcf91ddea4",
                 "width": 813,
                 "height": 1200
               },
               "resolutions": [
                 {
-                  "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=108&amp;crop=smart&amp;blur=10&amp;format=pjpg&amp;auto=webp&amp;s=249f5b850da7e2601079885f25c277c40307a14c",
+                  "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=108&crop=smart&blur=10&format=pjpg&auto=webp&s=249f5b850da7e2601079885f25c277c40307a14c",
                   "width": 108,
                   "height": 159
                 },
                 {
-                  "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=216&amp;crop=smart&amp;blur=21&amp;format=pjpg&amp;auto=webp&amp;s=6a2fd8433a25b40ab77c1b7a77b9904b0a850774",
+                  "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=216&crop=smart&blur=21&format=pjpg&auto=webp&s=6a2fd8433a25b40ab77c1b7a77b9904b0a850774",
                   "width": 216,
                   "height": 318
                 },
                 {
-                  "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=320&amp;crop=smart&amp;blur=32&amp;format=pjpg&amp;auto=webp&amp;s=aa47708f8a2933b067f860232786eefaaf154380",
+                  "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=320&crop=smart&blur=32&format=pjpg&auto=webp&s=aa47708f8a2933b067f860232786eefaaf154380",
                   "width": 320,
                   "height": 472
                 },
                 {
-                  "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=640&amp;crop=smart&amp;blur=40&amp;format=pjpg&amp;auto=webp&amp;s=4d4e37a59cf153d3cf8e74b45543fffc104cc4c2",
+                  "url": "https://preview.redd.it/w52dw2ny8o371.jpg?width=640&crop=smart&blur=40&format=pjpg&auto=webp&s=4d4e37a59cf153d3cf8e74b45543fffc104cc4c2",
                   "width": 640,
                   "height": 944
                 }
@@ -236,7 +231,7 @@
     "permalink": "/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/",
     "stickied": false,
     "url": "https://i.redd.it/w52dw2ny8o371.jpg",
-    "subreddit_subscribers": 3661792,
+    "subreddit_subscribers": 3663415,
     "created_utc": 1622996706.0,
     "num_crossposts": 7,
     "mod_reports": [],
@@ -247,7 +242,7 @@
     "data": {
       "after": null,
       "dist": null,
-      "modhash": "",
+      "modhash": null,
       "geo_filter": "",
       "children": [
         {
@@ -260,7 +255,7 @@
             "awarders": [],
             "mod_reason_by": null,
             "banned_by": null,
-            "ups": 100,
+            "ups": 98,
             "removal_reason": null,
             "link_id": "t3_ntpgz9",
             "author_flair_template_id": null,
@@ -270,7 +265,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -293,7 +288,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": "",
+                          "modhash": null,
                           "geo_filter": "",
                           "children": [
                             {
@@ -316,7 +311,7 @@
                                   "data": {
                                     "after": null,
                                     "dist": null,
-                                    "modhash": "",
+                                    "modhash": null,
                                     "geo_filter": "",
                                     "children": [
                                       {
@@ -339,7 +334,7 @@
                                             "data": {
                                               "after": null,
                                               "dist": null,
-                                              "modhash": "",
+                                              "modhash": null,
                                               "geo_filter": "",
                                               "children": [
                                                 {
@@ -372,7 +367,7 @@
                                                     "can_mod_post": false,
                                                     "send_replies": true,
                                                     "parent_id": "t1_h0v2oyk",
-                                                    "score": 27,
+                                                    "score": 28,
                                                     "author_fullname": "t2_321yq",
                                                     "removal_reason": null,
                                                     "approved_by": null,
@@ -386,7 +381,7 @@
                                                     "downs": 0,
                                                     "author_flair_richtext": [],
                                                     "author_patreon_flair": false,
-                                                    "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Holy hell it&amp;#39;s so dark and blurry in the corner I didn&amp;#39;t even register anything was there.&lt;/p&gt;\n&lt;/div&gt;",
+                                                    "body_html": "<div class=\"md\"><p>Holy hell it&#39;s so dark and blurry in the corner I didn&#39;t even register anything was there.</p>\n</div>",
                                                     "gildings": {},
                                                     "collapsed_reason": null,
                                                     "link_id": "t3_ntpgz9",
@@ -414,7 +409,7 @@
                                                     "collapsed_because_crowd_control": null,
                                                     "mod_reports": [],
                                                     "num_reports": null,
-                                                    "ups": 27
+                                                    "ups": 28
                                                   }
                                                 }
                                               ],
@@ -450,7 +445,7 @@
                                           "downs": 0,
                                           "author_flair_richtext": [],
                                           "author_patreon_flair": false,
-                                          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;To the right of Hermione&amp;#39;s hair.&lt;/p&gt;\n&lt;/div&gt;",
+                                          "body_html": "<div class=\"md\"><p>To the right of Hermione&#39;s hair.</p>\n</div>",
                                           "gildings": {},
                                           "collapsed_reason": null,
                                           "distinguished": null,
@@ -497,7 +492,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_h0t50d9",
-                                "score": 16,
+                                "score": 15,
                                 "author_fullname": "t2_321yq",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -513,7 +508,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;.. Where?&lt;/p&gt;\n&lt;/div&gt;",
+                                "body_html": "<div class=\"md\"><p>.. Where?</p>\n</div>",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -540,7 +535,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 16
+                                "ups": 15
                               }
                             }
                           ],
@@ -561,7 +556,7 @@
                       "created_utc": 1622997003.0,
                       "send_replies": true,
                       "parent_id": "t1_h0t4ucs",
-                      "score": 37,
+                      "score": 36,
                       "author_fullname": "t2_38enofph",
                       "removal_reason": null,
                       "approved_by": null,
@@ -576,7 +571,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;the rat in the background&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>the rat in the background</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -603,7 +598,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 37
+                      "ups": 36
                     }
                   },
                   {
@@ -626,7 +621,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": "",
+                          "modhash": null,
                           "geo_filter": "",
                           "children": [
                             {
@@ -639,7 +634,7 @@
                                 "awarders": [],
                                 "mod_reason_by": null,
                                 "banned_by": null,
-                                "ups": 4,
+                                "ups": 6,
                                 "removal_reason": null,
                                 "link_id": "t3_ntpgz9",
                                 "author_flair_template_id": null,
@@ -659,7 +654,7 @@
                                 "created_utc": 1628940355.0,
                                 "send_replies": true,
                                 "parent_id": "t1_h0t9xph",
-                                "score": 4,
+                                "score": 6,
                                 "approved_by": null,
                                 "report_reasons": null,
                                 "all_awardings": [],
@@ -669,7 +664,7 @@
                                 "author_flair_css_class": null,
                                 "downs": 0,
                                 "is_submitter": false,
-                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Man can you imagine making Emma Watson masterbate in front of you ❤&lt;/p&gt;\n&lt;/div&gt;",
+                                "body_html": "<div class=\"md\"><p>Man can you imagine making Emma Watson masterbate in front of you ❤</p>\n</div>",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "associated_award": null,
@@ -719,7 +714,7 @@
                                   "data": {
                                     "after": null,
                                     "dist": null,
-                                    "modhash": "",
+                                    "modhash": null,
                                     "geo_filter": "",
                                     "children": [
                                       {
@@ -767,7 +762,7 @@
                                           "downs": 0,
                                           "author_flair_richtext": [],
                                           "author_patreon_flair": false,
-                                          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;No he dies there in the manner while Hermione is being tortured&lt;/p&gt;\n&lt;/div&gt;",
+                                          "body_html": "<div class=\"md\"><p>No he dies there in the manner while Hermione is being tortured</p>\n</div>",
                                           "gildings": {},
                                           "collapsed_reason": null,
                                           "distinguished": null,
@@ -830,7 +825,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Peter is dead by that movie&lt;/p&gt;\n&lt;/div&gt;",
+                                "body_html": "<div class=\"md\"><p>Peter is dead by that movie</p>\n</div>",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -878,7 +873,7 @@
                       "created_utc": 1622999346.0,
                       "send_replies": true,
                       "parent_id": "t1_h0t4ucs",
-                      "score": 3,
+                      "score": 4,
                       "author_fullname": "t2_70gqlumk",
                       "removal_reason": null,
                       "approved_by": null,
@@ -893,7 +888,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I believe It’s the scene in the deathly hallows in Malloy manner where she is being tortured and she is maybe under the imperius curse by Peter&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>I believe It’s the scene in the deathly hallows in Malloy manner where she is being tortured and she is maybe under the imperius curse by Peter</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -920,7 +915,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 3
+                      "ups": 4
                     }
                   }
                 ],
@@ -940,7 +935,7 @@
             "can_mod_post": false,
             "send_replies": true,
             "parent_id": "t3_ntpgz9",
-            "score": 100,
+            "score": 98,
             "approved_by": null,
             "report_reasons": null,
             "all_awardings": [],
@@ -951,7 +946,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Where the fuck is peter?&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Where the fuck is peter?</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -1001,7 +996,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -1024,7 +1019,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": "",
+                          "modhash": null,
                           "geo_filter": "",
                           "children": [
                             {
@@ -1056,7 +1051,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_h0unxwh",
-                                "score": 13,
+                                "score": 12,
                                 "author_fullname": "t2_4huhf2cx",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -1072,7 +1067,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;aaaaaaaaauuuuhw&lt;/p&gt;\n&lt;/div&gt;",
+                                "body_html": "<div class=\"md\"><p>aaaaaaaaauuuuhw</p>\n</div>",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -1099,7 +1094,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 13
+                                "ups": 12
                               }
                             },
                             {
@@ -1147,7 +1142,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;No its Levi&lt;em&gt;oooo&lt;/em&gt;sa, bot Levios&lt;em&gt;aaah&lt;/em&gt;&lt;/p&gt;\n&lt;/div&gt;",
+                                "body_html": "<div class=\"md\"><p>No its Levi<em>oooo</em>sa, bot Levios<em>aaah</em></p>\n</div>",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -1195,7 +1190,7 @@
                       "created_utc": 1623023208.0,
                       "send_replies": true,
                       "parent_id": "t1_h0ueylm",
-                      "score": 13,
+                      "score": 14,
                       "author_fullname": "t2_b0wkg",
                       "removal_reason": null,
                       "approved_by": null,
@@ -1210,7 +1205,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;It’s levios&lt;strong&gt;aaaaauuhw&lt;/strong&gt;!&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>It’s levios<strong>aaaaauuhw</strong>!</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -1237,7 +1232,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 13
+                      "ups": 14
                     }
                   }
                 ],
@@ -1258,7 +1253,7 @@
             "created_utc": 1623018601.0,
             "send_replies": true,
             "parent_id": "t3_ntpgz9",
-            "score": 16,
+            "score": 14,
             "author_fullname": "t2_8qboyb8l",
             "approved_by": null,
             "mod_note": null,
@@ -1273,7 +1268,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;wingardium leviosa ._.&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>wingardium leviosa ._.</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -1300,7 +1295,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 16
+            "ups": 14
           }
         },
         {
@@ -1313,7 +1308,7 @@
             "awarders": [],
             "mod_reason_by": null,
             "banned_by": null,
-            "ups": 9,
+            "ups": 8,
             "removal_reason": null,
             "link_id": "t3_ntpgz9",
             "author_flair_template_id": null,
@@ -1332,7 +1327,7 @@
             "can_mod_post": false,
             "send_replies": true,
             "parent_id": "t3_ntpgz9",
-            "score": 9,
+            "score": 8,
             "approved_by": null,
             "report_reasons": null,
             "all_awardings": [],
@@ -1343,7 +1338,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&lt;a href=\"/r/UltraReal\"&gt;r/UltraReal&lt;/a&gt; maybe? This looks awesome&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p><a href=\"/r/UltraReal\">r/UltraReal</a> maybe? This looks awesome</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -1418,7 +1413,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Biggus Dickus. &lt;/p&gt;\n\n&lt;p&gt;ENGORGIO.&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Biggus Dickus. </p>\n\n<p>ENGORGIO.</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -1468,7 +1463,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -1491,7 +1486,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": "",
+                          "modhash": null,
                           "geo_filter": "",
                           "children": [
                             {
@@ -1539,7 +1534,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;The lord of sloots&lt;/p&gt;\n&lt;/div&gt;",
+                                "body_html": "<div class=\"md\"><p>The lord of sloots</p>\n</div>",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -1587,7 +1582,7 @@
                       "created_utc": 1625794227.0,
                       "send_replies": true,
                       "parent_id": "t1_h4jfylc",
-                      "score": 5,
+                      "score": 3,
                       "author_fullname": "t2_6bbz1zjx",
                       "removal_reason": null,
                       "approved_by": null,
@@ -1602,7 +1597,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;For lord immersion&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>For lord immersion</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -1629,7 +1624,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 5
+                      "ups": 3
                     }
                   },
                   {
@@ -1677,7 +1672,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Yes. As it should be.&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>Yes. As it should be.</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -1752,7 +1747,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;For the Lord and Lady!&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>For the Lord and Lady!</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -1827,7 +1822,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Amen brother&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>Amen brother</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -1885,7 +1880,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I hath claimed this for the krewsade&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>I hath claimed this for the krewsade</p>\n</div>",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -1945,7 +1940,7 @@
             "created_utc": 1623357370.0,
             "send_replies": true,
             "parent_id": "t3_ntpgz9",
-            "score": 5,
+            "score": 3,
             "author_fullname": "t2_3uuap7kl",
             "approved_by": null,
             "mod_note": null,
@@ -1960,7 +1955,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Now thats a real hitatchi magic wand !!!&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Now thats a real hitatchi magic wand !!!</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -1987,7 +1982,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 5
+            "ups": 3
           }
         },
         {
@@ -2035,7 +2030,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;More of this please&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>More of this please</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -2085,7 +2080,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -2133,7 +2128,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I didn&amp;#39;t make it, 4kolor did&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>I didn&#39;t make it, 4kolor did</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -2196,7 +2191,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;absolutely stunning work, so much expression in there&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>absolutely stunning work, so much expression in there</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -2271,7 +2266,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Whats the spell?&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Whats the spell?</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -2346,7 +2341,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;It&amp;#39;s Levi- oh-oh-oh-oh-oh-sa!&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>It&#39;s Levi- oh-oh-oh-oh-oh-sa!</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -2396,7 +2391,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -2444,7 +2439,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;rule34.xxx&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>rule34.xxx</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -2507,7 +2502,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Where is this from?&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Where is this from?</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -2582,7 +2577,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;now all we need is a animation of it&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>now all we need is a animation of it</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -2657,7 +2652,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Peter stand-in there like oi, im alive&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Peter stand-in there like oi, im alive</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -2707,7 +2702,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -2750,7 +2745,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;sym&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>sym</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -2798,7 +2793,7 @@
             "created_utc": 1623002525.0,
             "send_replies": false,
             "parent_id": "t3_ntpgz9",
-            "score": -26,
+            "score": -28,
             "author_fullname": "t2_7vf536cc",
             "approved_by": null,
             "mod_note": null,
@@ -2813,7 +2808,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;What the fuck&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>What the fuck</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": "comment score below threshold",
             "distinguished": null,
@@ -2840,7 +2835,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": -26
+            "ups": -28
           }
         },
         {
@@ -2863,7 +2858,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": "",
+                "modhash": null,
                 "geo_filter": "",
                 "children": [
                   {
@@ -2896,7 +2891,7 @@
                       "created_utc": 1623037630.0,
                       "send_replies": true,
                       "parent_id": "t1_h0ttg5m",
-                      "score": 17,
+                      "score": 18,
                       "author_fullname": "t2_2uo1uqo8",
                       "removal_reason": null,
                       "approved_by": null,
@@ -2911,7 +2906,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;J. K. herself ruined Harry Potter lmao&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>J. K. herself ruined Harry Potter lmao</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -2938,7 +2933,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 17
+                      "ups": 18
                     }
                   },
                   {
@@ -2986,7 +2981,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Fanart can ruin an entire property for you? That’s really sad.&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>Fanart can ruin an entire property for you? That’s really sad.</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -3061,7 +3056,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;if you don&amp;#39;t want franchises ruined then get off this sub&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>if you don&#39;t want franchises ruined then get off this sub</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -3121,7 +3116,7 @@
                       "created_utc": 1623015184.0,
                       "send_replies": true,
                       "parent_id": "t1_h0ttg5m",
-                      "score": -19,
+                      "score": -20,
                       "author_fullname": "t2_8xoxudmm",
                       "removal_reason": null,
                       "approved_by": null,
@@ -3136,7 +3131,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Fr&lt;/p&gt;\n&lt;/div&gt;",
+                      "body_html": "<div class=\"md\"><p>Fr</p>\n</div>",
                       "gildings": {},
                       "collapsed_reason": "comment score below threshold",
                       "distinguished": null,
@@ -3163,7 +3158,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": -19
+                      "ups": -20
                     }
                   }
                 ],
@@ -3184,7 +3179,7 @@
             "created_utc": 1623008487.0,
             "send_replies": true,
             "parent_id": "t3_ntpgz9",
-            "score": -35,
+            "score": -37,
             "author_fullname": "t2_zpzh2",
             "approved_by": null,
             "mod_note": null,
@@ -3199,7 +3194,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Ruined Harry potter for me&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Ruined Harry potter for me</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": "comment score below threshold",
             "distinguished": null,
@@ -3226,7 +3221,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": -35
+            "ups": -37
           }
         },
         {
@@ -3274,7 +3269,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Sheesh&lt;/p&gt;\n&lt;/div&gt;",
+            "body_html": "<div class=\"md\"><p>Sheesh</p>\n</div>",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -3308,14 +3303,15 @@
       "before": null
     }
   },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
   "comments": [
     {
       "id": "h0t4ucs",
       "author": "[deleted]",
       "author_fullname": null,
       "body": "Where the fuck is peter?",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Where the fuck is peter?&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 100,
+      "score": 98,
       "created_utc": 1622996922.0,
       "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h0t4ucs/",
       "is_submitter": false,
@@ -3326,26 +3322,101 @@
           "author": "MPITSROD",
           "author_fullname": "t2_38enofph",
           "body": "the rat in the background",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;the rat in the background&lt;/p&gt;\n&lt;/div&gt;",
-          "score": 37,
+          "score": 36,
           "created_utc": 1622997003.0,
           "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h0t50d9/",
           "is_submitter": true,
           "parent_id": "t1_h0t4ucs",
-          "replies": []
+          "replies": [
+            {
+              "id": "h0v17nu",
+              "author": "froderick",
+              "author_fullname": "t2_321yq",
+              "body": ".. Where?",
+              "score": 15,
+              "created_utc": 1623030406.0,
+              "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h0v17nu/",
+              "is_submitter": false,
+              "parent_id": "t1_h0t50d9",
+              "replies": [
+                {
+                  "id": "h0v2oyk",
+                  "author": "DarkRyter",
+                  "author_fullname": "t2_kqpg8",
+                  "body": "To the right of Hermione's hair.",
+                  "score": 18,
+                  "created_utc": 1623031203.0,
+                  "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h0v2oyk/",
+                  "is_submitter": false,
+                  "parent_id": "t1_h0v17nu",
+                  "replies": [
+                    {
+                      "id": "h0v5vo2",
+                      "author": "froderick",
+                      "author_fullname": "t2_321yq",
+                      "body": "Holy hell it's so dark and blurry in the corner I didn't even register anything was there.",
+                      "score": 28,
+                      "created_utc": 1623032921.0,
+                      "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h0v5vo2/",
+                      "is_submitter": false,
+                      "parent_id": "t1_h0v2oyk",
+                      "replies": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "h0t9xph",
           "author": "Xoptex",
           "author_fullname": "t2_70gqlumk",
           "body": "I believe It’s the scene in the deathly hallows in Malloy manner where she is being tortured and she is maybe under the imperius curse by Peter",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I believe It’s the scene in the deathly hallows in Malloy manner where she is being tortured and she is maybe under the imperius curse by Peter&lt;/p&gt;\n&lt;/div&gt;",
-          "score": 3,
+          "score": 4,
           "created_utc": 1622999346.0,
           "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h0t9xph/",
           "is_submitter": false,
           "parent_id": "t1_h0t4ucs",
-          "replies": []
+          "replies": [
+            {
+              "id": "h8wdtnu",
+              "author": "[deleted]",
+              "author_fullname": null,
+              "body": "Man can you imagine making Emma Watson masterbate in front of you ❤",
+              "score": 6,
+              "created_utc": 1628940355.0,
+              "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h8wdtnu/",
+              "is_submitter": false,
+              "parent_id": "t1_h0t9xph",
+              "replies": []
+            },
+            {
+              "id": "h40eu5w",
+              "author": "Legitimate-Ant-8648",
+              "author_fullname": "t2_by71c46s",
+              "body": "Peter is dead by that movie",
+              "score": 3,
+              "created_utc": 1625395253.0,
+              "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h40eu5w/",
+              "is_submitter": false,
+              "parent_id": "t1_h0t9xph",
+              "replies": [
+                {
+                  "id": "h4ixk68",
+                  "author": "Smuchiii",
+                  "author_fullname": "t2_4llracpy",
+                  "body": "No he dies there in the manner while Hermione is being tortured",
+                  "score": 2,
+                  "created_utc": 1625782978.0,
+                  "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h4ixk68/",
+                  "is_submitter": false,
+                  "parent_id": "t1_h40eu5w",
+                  "replies": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3354,8 +3425,7 @@
       "author": "witakerTop4284",
       "author_fullname": "t2_8qboyb8l",
       "body": "wingardium leviosa .\\_.",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;wingardium leviosa ._.&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 16,
+      "score": 14,
       "created_utc": 1623018601.0,
       "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h0ueylm/",
       "is_submitter": false,
@@ -3366,13 +3436,37 @@
           "author": "AeliosZero",
           "author_fullname": "t2_b0wkg",
           "body": "It’s levios**aaaaauuhw**!",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;It’s levios&lt;strong&gt;aaaaauuhw&lt;/strong&gt;!&lt;/p&gt;\n&lt;/div&gt;",
-          "score": 13,
+          "score": 14,
           "created_utc": 1623023208.0,
           "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h0unxwh/",
           "is_submitter": false,
           "parent_id": "t1_h0ueylm",
-          "replies": []
+          "replies": [
+            {
+              "id": "h0ur3wy",
+              "author": "lnmgl",
+              "author_fullname": "t2_4huhf2cx",
+              "body": "aaaaaaaaauuuuhw",
+              "score": 12,
+              "created_utc": 1623024913.0,
+              "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h0ur3wy/",
+              "is_submitter": false,
+              "parent_id": "t1_h0unxwh",
+              "replies": []
+            },
+            {
+              "id": "h4ogmma",
+              "author": "DragonMan5643",
+              "author_fullname": "t2_81e6olbs",
+              "body": "No its Levi*oooo*sa, bot Levios*aaah*",
+              "score": 2,
+              "created_utc": 1625901088.0,
+              "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h4ogmma/",
+              "is_submitter": false,
+              "parent_id": "t1_h0unxwh",
+              "replies": []
+            }
+          ]
         }
       ]
     },
@@ -3381,8 +3475,7 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "r/UltraReal maybe? This looks awesome",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&lt;a href=\"/r/UltraReal\"&gt;r/UltraReal&lt;/a&gt; maybe? This looks awesome&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 9,
+      "score": 8,
       "created_utc": 1623022986.0,
       "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h0uniig/",
       "is_submitter": false,
@@ -3394,7 +3487,6 @@
       "author": "breastronaut",
       "author_fullname": "t2_q0zj9",
       "body": "Biggus Dickus. \n\nENGORGIO.",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Biggus Dickus. &lt;/p&gt;\n\n&lt;p&gt;ENGORGIO.&lt;/p&gt;\n&lt;/div&gt;",
       "score": 19,
       "created_utc": 1623016269.0,
       "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h0ua08f/",
@@ -3407,7 +3499,6 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "I hath claimed this for the krewsade",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I hath claimed this for the krewsade&lt;/p&gt;\n&lt;/div&gt;",
       "score": 5,
       "created_utc": 1625792513.0,
       "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h4jfylc/",
@@ -3419,20 +3510,31 @@
           "author": "The-goose--",
           "author_fullname": "t2_6bbz1zjx",
           "body": "For lord immersion",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;For lord immersion&lt;/p&gt;\n&lt;/div&gt;",
-          "score": 5,
+          "score": 3,
           "created_utc": 1625794227.0,
           "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h4jj61y/",
           "is_submitter": false,
           "parent_id": "t1_h4jfylc",
-          "replies": []
+          "replies": [
+            {
+              "id": "h4wa8nd",
+              "author": "Typical_Committee401",
+              "author_fullname": "t2_8e5iatvi",
+              "body": "The lord of sloots",
+              "score": 1,
+              "created_utc": 1626074419.0,
+              "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h4wa8nd/",
+              "is_submitter": false,
+              "parent_id": "t1_h4jj61y",
+              "replies": []
+            }
+          ]
         },
         {
           "id": "h4keg4j",
           "author": "END3RW1GGIN",
           "author_fullname": "t2_vzdv3",
           "body": "Yes. As it should be.",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Yes. As it should be.&lt;/p&gt;\n&lt;/div&gt;",
           "score": 3,
           "created_utc": 1625814207.0,
           "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h4keg4j/",
@@ -3445,7 +3547,6 @@
           "author": "DM_CJ",
           "author_fullname": "t2_89tbjvcv",
           "body": "For the Lord and Lady!",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;For the Lord and Lady!&lt;/p&gt;\n&lt;/div&gt;",
           "score": 3,
           "created_utc": 1625816621.0,
           "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h4kh4pv/",
@@ -3458,7 +3559,6 @@
           "author": "Alex101005",
           "author_fullname": "t2_4dqgf3fu",
           "body": "Amen brother",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Amen brother&lt;/p&gt;\n&lt;/div&gt;",
           "score": 2,
           "created_utc": 1625823302.0,
           "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h4ko78k/",
@@ -3473,8 +3573,7 @@
       "author": "lg4av",
       "author_fullname": "t2_3uuap7kl",
       "body": "Now thats a real hitatchi magic wand !!!",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Now thats a real hitatchi magic wand !!!&lt;/p&gt;\n&lt;/div&gt;",
-      "score": 5,
+      "score": 3,
       "created_utc": 1623357370.0,
       "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h1bou9b/",
       "is_submitter": false,
@@ -3486,7 +3585,6 @@
       "author": "HabitOk6839",
       "author_fullname": "t2_7ybxawdw",
       "body": "More of this please",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;More of this please&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1624377654.0,
       "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h2nx8nh/",
@@ -3499,7 +3597,6 @@
       "author": "duartec3000",
       "author_fullname": "t2_1xp92m",
       "body": "absolutely stunning work, so much expression in there",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;absolutely stunning work, so much expression in there&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1625783426.0,
       "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h4iyh4g/",
@@ -3511,7 +3608,6 @@
           "author": "MPITSROD",
           "author_fullname": "t2_38enofph",
           "body": "I didn't make it, 4kolor did",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I didn&amp;#39;t make it, 4kolor did&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1625884941.0,
           "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h4nu48w/",
@@ -3526,7 +3622,6 @@
       "author": "SpellLonely",
       "author_fullname": "t2_6xjc58jq",
       "body": "Whats the spell?",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Whats the spell?&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1625804791.0,
       "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h4k22a5/",
@@ -3539,7 +3634,6 @@
       "author": "poppasmurfguilliman",
       "author_fullname": "t2_3a2vtkr3",
       "body": "It's Levi- oh-oh-oh-oh-oh-sa!",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;It&amp;#39;s Levi- oh-oh-oh-oh-oh-sa!&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1625818885.0,
       "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h4kjjzs/",
@@ -3552,7 +3646,6 @@
       "author": "Mission_Mycologist38",
       "author_fullname": "t2_b898qu96",
       "body": "Where is this from?",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Where is this from?&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1625822446.0,
       "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h4kna7f/",
@@ -3564,7 +3657,6 @@
           "author": "MPITSROD",
           "author_fullname": "t2_38enofph",
           "body": "rule34.xxx",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;rule34.xxx&lt;/p&gt;\n&lt;/div&gt;",
           "score": 3,
           "created_utc": 1625884922.0,
           "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h4nu34f/",
@@ -3579,7 +3671,6 @@
       "author": "P0rnHub",
       "author_fullname": "t2_hrqok",
       "body": "now all we need is a animation of it",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;now all we need is a animation of it&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1625827325.0,
       "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h4kspn2/",
@@ -3592,7 +3683,6 @@
       "author": "Le_Goosey",
       "author_fullname": "t2_bvyoh3ib",
       "body": "Peter stand-in there like oi, im alive",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Peter stand-in there like oi, im alive&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1626202869.0,
       "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h52h2xc/",
@@ -3605,8 +3695,7 @@
       "author": "cryptpicraity",
       "author_fullname": "t2_7vf536cc",
       "body": "What the fuck",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;What the fuck&lt;/p&gt;\n&lt;/div&gt;",
-      "score": -26,
+      "score": -28,
       "created_utc": 1623002525.0,
       "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h0tgm9d/",
       "is_submitter": false,
@@ -3617,7 +3706,6 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "sym",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;sym&lt;/p&gt;\n&lt;/div&gt;",
           "score": 2,
           "created_utc": 1623041473.0,
           "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h0vkdhj/",
@@ -3632,8 +3720,7 @@
       "author": "IndianPhoenix",
       "author_fullname": "t2_zpzh2",
       "body": "Ruined Harry potter for me",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Ruined Harry potter for me&lt;/p&gt;\n&lt;/div&gt;",
-      "score": -35,
+      "score": -37,
       "created_utc": 1623008487.0,
       "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h0ttg5m/",
       "is_submitter": false,
@@ -3644,8 +3731,7 @@
           "author": "Patenski",
           "author_fullname": "t2_2uo1uqo8",
           "body": "J. K. herself ruined Harry Potter lmao",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;J. K. herself ruined Harry Potter lmao&lt;/p&gt;\n&lt;/div&gt;",
-          "score": 17,
+          "score": 18,
           "created_utc": 1623037630.0,
           "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h0ve7v4/",
           "is_submitter": false,
@@ -3657,7 +3743,6 @@
           "author": "AH_DaniHodd",
           "author_fullname": "t2_j5ncw",
           "body": "Fanart can ruin an entire property for you? That’s really sad.",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Fanart can ruin an entire property for you? That’s really sad.&lt;/p&gt;\n&lt;/div&gt;",
           "score": 8,
           "created_utc": 1623064182.0,
           "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h0wab81/",
@@ -3670,7 +3755,6 @@
           "author": "MPITSROD",
           "author_fullname": "t2_38enofph",
           "body": "if you don't want franchises ruined then get off this sub",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;if you don&amp;#39;t want franchises ruined then get off this sub&lt;/p&gt;\n&lt;/div&gt;",
           "score": 6,
           "created_utc": 1623096221.0,
           "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h0y64gt/",
@@ -3683,8 +3767,7 @@
           "author": "Killxs",
           "author_fullname": "t2_8xoxudmm",
           "body": "Fr",
-          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Fr&lt;/p&gt;\n&lt;/div&gt;",
-          "score": -19,
+          "score": -20,
           "created_utc": 1623015184.0,
           "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/h0u7pyn/",
           "is_submitter": false,
@@ -3698,7 +3781,6 @@
       "author": "gusernameg",
       "author_fullname": "t2_2qwrqdko",
       "body": "Sheesh",
-      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Sheesh&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1674705783.0,
       "permalink": "https://www.reddit.com/r/rule34/comments/ntpgz9/hermione_granger_peter_pettigrew_4kolor_harry/j5x4ukd/",

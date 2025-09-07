@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T06:12:12.000000+00:00",
+  "archived_at": "2025-09-07T22:25:58.339970+00:00",
   "reddit_fullname": "t3_tnlom2",
   "reddit_id": "tnlom2",
   "permalink": "https://www.reddit.com/r/u_cebers/comments/tnlom2/18_years_old_babe_big_dick_big_tits_blowjob_cum/",
@@ -25,10 +25,7 @@
   "num_comments": 0,
   "score": 10,
   "upvote_ratio": 1.0,
-  "media": {
-    "kind": "link",
-    "files": []
-  },
+  "media": null,
   "external_link": "https://redgifs.com/watch/backdetailedmonkfish",
   "raw_post": {
     "approved_at_utc": null,
@@ -297,5 +294,9 @@
       "children": [],
       "before": null
     }
-  }
+  },
+  "comments_truncated_by_depth": true,
+  "comments_truncated_by_limit": false,
+  "comments": [],
+  "media_kind": "external"
 }
