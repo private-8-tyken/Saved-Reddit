@@ -1,4 +1,35 @@
 {
+  "archived_at": "2025-08-10T23:19:31.005375+00:00",
+  "reddit_fullname": "t3_1afzcds",
+  "reddit_id": "1afzcds",
+  "permalink": "https://www.reddit.com/r/SanDiegoAdultTheater3/comments/1afzcds/visiting_from_sdat2_to_bring_my_side_of_things/",
+  "title": "Visiting from SDAT2, to bring my side of things straight to the source. I want to clear up the misinformation floating about me mainly in the mod team",
+  "selftext": "[removed]",
+  "author": "StupidThrowawayAcct0",
+  "author_fullname": "t2_t99v96dsa",
+  "subreddit": "SanDiegoAdultTheater3",
+  "subreddit_id": "t5_ac3oq4",
+  "created_utc": 1706752467.0,
+  "is_self": true,
+  "url": "https://www.reddit.com/r/SanDiegoAdultTheater3/comments/1afzcds/visiting_from_sdat2_to_bring_my_side_of_things/",
+  "domain": "self.SanDiegoAdultTheater3",
+  "post_hint": null,
+  "is_gallery": false,
+  "over_18": true,
+  "spoiler": false,
+  "link_flair_text": null,
+  "is_original_content": false,
+  "stickied": false,
+  "locked": false,
+  "edited": 1706758266.0,
+  "num_comments": 11,
+  "score": 17,
+  "upvote_ratio": 0.81,
+  "media": {
+    "kind": "self",
+    "files": []
+  },
+  "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
     "subreddit": "SanDiegoAdultTheater3",
@@ -58,7 +89,7 @@
     "author_flair_type": "text",
     "domain": "self.SanDiegoAdultTheater3",
     "allow_live_comments": false,
-    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>[removed]</p>\n</div><!-- SC_ON -->",
+    "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;[removed]&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
     "likes": null,
     "suggested_sort": null,
     "banned_at_utc": null,
@@ -100,7 +131,7 @@
     "permalink": "/r/SanDiegoAdultTheater3/comments/1afzcds/visiting_from_sdat2_to_bring_my_side_of_things/",
     "stickied": false,
     "url": "https://www.reddit.com/r/SanDiegoAdultTheater3/comments/1afzcds/visiting_from_sdat2_to_bring_my_side_of_things/",
-    "subreddit_subscribers": 12204,
+    "subreddit_subscribers": 11930,
     "created_utc": 1706752467.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -111,7 +142,7 @@
     "data": {
       "after": null,
       "dist": null,
-      "modhash": null,
+      "modhash": "",
       "geo_filter": "",
       "children": [
         {
@@ -159,7 +190,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>Your post was removed.</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Your post was removed.&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": "moderator",
@@ -209,7 +240,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -222,7 +253,7 @@
                       "awarders": [],
                       "mod_reason_by": null,
                       "banned_by": null,
-                      "ups": 4,
+                      "ups": 5,
                       "removal_reason": null,
                       "link_id": "t3_1afzcds",
                       "author_flair_template_id": null,
@@ -232,7 +263,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": null,
+                          "modhash": "",
                           "geo_filter": "",
                           "children": [
                             {
@@ -280,7 +311,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "<div class=\"md\"><p>Your post was removed.</p>\n</div>",
+                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Your post was removed.&lt;/p&gt;\n&lt;/div&gt;",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": "moderator",
@@ -327,7 +358,7 @@
                       "can_mod_post": false,
                       "send_replies": true,
                       "parent_id": "t1_koh6w0x",
-                      "score": 4,
+                      "score": 5,
                       "approved_by": null,
                       "report_reasons": null,
                       "all_awardings": [],
@@ -338,7 +369,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "<div class=\"md\"><p>[removed]</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[removed]&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -396,7 +427,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "<div class=\"md\"><p>[removed]</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[removed]&lt;/p&gt;\n&lt;/div&gt;",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -446,7 +477,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -494,7 +525,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>Your post was removed. Deleted user acct</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Your post was removed. Deleted user acct&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": "moderator",
@@ -552,7 +583,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "<div class=\"md\"><p>[removed]</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[removed]&lt;/p&gt;\n&lt;/div&gt;",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -602,7 +633,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -625,7 +656,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": null,
+                          "modhash": "",
                           "geo_filter": "",
                           "children": [
                             {
@@ -673,7 +704,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "<div class=\"md\"><p>Your post was removed.</p>\n</div>",
+                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Your post was removed.&lt;/p&gt;\n&lt;/div&gt;",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": "moderator",
@@ -731,7 +762,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "<div class=\"md\"><p>[removed]</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[removed]&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -789,7 +820,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "<div class=\"md\"><p>[removed]</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[removed]&lt;/p&gt;\n&lt;/div&gt;",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -849,7 +880,7 @@
             "created_utc": 1706753992.0,
             "send_replies": true,
             "parent_id": "t3_1afzcds",
-            "score": -3,
+            "score": -2,
             "author_fullname": "t2_ax4omqkl",
             "approved_by": null,
             "mod_note": null,
@@ -864,7 +895,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>holy revenge of the daytime soap opera drama batman. unfortunately i am fairly certain nobody cares enough to read past that V ….</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;holy revenge of the daytime soap opera drama batman. unfortunately i am fairly certain nobody cares enough to read past that V ….&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -891,7 +922,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": -3
+            "ups": -2
           }
         }
       ],
@@ -904,7 +935,7 @@
       "author": "SanDiegoAdultTheater3-ModTeam",
       "author_fullname": "t2_raupd3i96",
       "body": "Your post was removed.",
-      "body_html": "<div class=\"md\"><p>Your post was removed.</p>\n</div>",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Your post was removed.&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1706876162.0,
       "permalink": "https://www.reddit.com/r/SanDiegoAdultTheater3/comments/1afzcds/visiting_from_sdat2_to_bring_my_side_of_things/koksyy0/",
@@ -917,7 +948,7 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "[removed]",
-      "body_html": "<div class=\"md\"><p>[removed]</p>\n</div>",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[removed]&lt;/p&gt;\n&lt;/div&gt;",
       "score": 5,
       "created_utc": 1706815436.0,
       "permalink": "https://www.reddit.com/r/SanDiegoAdultTheater3/comments/1afzcds/visiting_from_sdat2_to_bring_my_side_of_things/koh6w0x/",
@@ -929,27 +960,13 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "[removed]",
-          "body_html": "<div class=\"md\"><p>[removed]</p>\n</div>",
-          "score": 4,
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[removed]&lt;/p&gt;\n&lt;/div&gt;",
+          "score": 5,
           "created_utc": 1706824233.0,
           "permalink": "https://www.reddit.com/r/SanDiegoAdultTheater3/comments/1afzcds/visiting_from_sdat2_to_bring_my_side_of_things/kohwzmj/",
           "is_submitter": false,
           "parent_id": "t1_koh6w0x",
-          "replies": [
-            {
-              "id": "kokssya",
-              "author": "SanDiegoAdultTheater3-ModTeam",
-              "author_fullname": "t2_raupd3i96",
-              "body": "Your post was removed.",
-              "body_html": "<div class=\"md\"><p>Your post was removed.</p>\n</div>",
-              "score": 1,
-              "created_utc": 1706876067.0,
-              "permalink": "https://www.reddit.com/r/SanDiegoAdultTheater3/comments/1afzcds/visiting_from_sdat2_to_bring_my_side_of_things/kokssya/",
-              "is_submitter": false,
-              "parent_id": "t1_kohwzmj",
-              "replies": []
-            }
-          ]
+          "replies": []
         }
       ]
     },
@@ -958,7 +975,7 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "[removed]",
-      "body_html": "<div class=\"md\"><p>[removed]</p>\n</div>",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[removed]&lt;/p&gt;\n&lt;/div&gt;",
       "score": 9,
       "created_utc": 1706753806.0,
       "permalink": "https://www.reddit.com/r/SanDiegoAdultTheater3/comments/1afzcds/visiting_from_sdat2_to_bring_my_side_of_things/kodlkjj/",
@@ -970,7 +987,7 @@
           "author": "SanDiegoAdultTheater3-ModTeam",
           "author_fullname": "t2_raupd3i96",
           "body": "Your post was removed. Deleted user acct",
-          "body_html": "<div class=\"md\"><p>Your post was removed. Deleted user acct</p>\n</div>",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Your post was removed. Deleted user acct&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1706892134.0,
           "permalink": "https://www.reddit.com/r/SanDiegoAdultTheater3/comments/1afzcds/visiting_from_sdat2_to_bring_my_side_of_things/kolw7a0/",
@@ -985,7 +1002,7 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "[removed]",
-      "body_html": "<div class=\"md\"><p>[removed]</p>\n</div>",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[removed]&lt;/p&gt;\n&lt;/div&gt;",
       "score": 3,
       "created_utc": 1706815744.0,
       "permalink": "https://www.reddit.com/r/SanDiegoAdultTheater3/comments/1afzcds/visiting_from_sdat2_to_bring_my_side_of_things/koh7rl0/",
@@ -997,27 +1014,13 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "[removed]",
-          "body_html": "<div class=\"md\"><p>[removed]</p>\n</div>",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;[removed]&lt;/p&gt;\n&lt;/div&gt;",
           "score": 2,
           "created_utc": 1706819738.0,
           "permalink": "https://www.reddit.com/r/SanDiegoAdultTheater3/comments/1afzcds/visiting_from_sdat2_to_bring_my_side_of_things/kohjhia/",
           "is_submitter": false,
           "parent_id": "t1_koh7rl0",
-          "replies": [
-            {
-              "id": "koksvls",
-              "author": "SanDiegoAdultTheater3-ModTeam",
-              "author_fullname": "t2_raupd3i96",
-              "body": "Your post was removed.",
-              "body_html": "<div class=\"md\"><p>Your post was removed.</p>\n</div>",
-              "score": 1,
-              "created_utc": 1706876109.0,
-              "permalink": "https://www.reddit.com/r/SanDiegoAdultTheater3/comments/1afzcds/visiting_from_sdat2_to_bring_my_side_of_things/koksvls/",
-              "is_submitter": false,
-              "parent_id": "t1_kohjhia",
-              "replies": []
-            }
-          ]
+          "replies": []
         }
       ]
     },
@@ -1026,13 +1029,14 @@
       "author": "69inthe619",
       "author_fullname": "t2_ax4omqkl",
       "body": "holy revenge of the daytime soap opera drama batman. unfortunately i am fairly certain nobody cares enough to read past that V ….",
-      "body_html": "<div class=\"md\"><p>holy revenge of the daytime soap opera drama batman. unfortunately i am fairly certain nobody cares enough to read past that V ….</p>\n</div>",
-      "score": -3,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;holy revenge of the daytime soap opera drama batman. unfortunately i am fairly certain nobody cares enough to read past that V ….&lt;/p&gt;\n&lt;/div&gt;",
+      "score": -2,
       "created_utc": 1706753992.0,
       "permalink": "https://www.reddit.com/r/SanDiegoAdultTheater3/comments/1afzcds/visiting_from_sdat2_to_bring_my_side_of_things/kodm1fr/",
       "is_submitter": false,
       "parent_id": "t3_1afzcds",
       "replies": []
     }
-  ]
+  ],
+  "media_kind": "self"
 }

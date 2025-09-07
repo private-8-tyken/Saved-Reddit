@@ -1,4 +1,35 @@
 {
+  "archived_at": "2025-09-07T01:41:24.000000+00:00",
+  "reddit_fullname": "t3_1d9r6j0",
+  "reddit_id": "1d9r6j0",
+  "permalink": "https://www.reddit.com/r/Rapekink/comments/1d9r6j0/stumbled_upon_a_bad_part_of_town_while_urban/",
+  "title": "Stumbled upon a bad part of town while urban exploring...",
+  "selftext": "[removed]",
+  "author": "blankcanvasa",
+  "author_fullname": "t2_11t6mtqyw0",
+  "subreddit": "Rapekink",
+  "subreddit_id": "t5_3ht28",
+  "created_utc": 1717703283.0,
+  "is_self": true,
+  "url": "https://www.reddit.com/r/Rapekink/comments/1d9r6j0/stumbled_upon_a_bad_part_of_town_while_urban/",
+  "domain": "self.Rapekink",
+  "post_hint": null,
+  "is_gallery": false,
+  "over_18": true,
+  "spoiler": false,
+  "link_flair_text": null,
+  "is_original_content": false,
+  "stickied": false,
+  "locked": false,
+  "edited": false,
+  "num_comments": 2,
+  "score": 73,
+  "upvote_ratio": 0.98,
+  "media": {
+    "kind": "self",
+    "files": []
+  },
+  "external_link": null,
   "raw_post": {
     "approved_at_utc": null,
     "subreddit": "Rapekink",
@@ -20,10 +51,10 @@
     "name": "t3_1d9r6j0",
     "quarantine": false,
     "link_flair_text_color": "dark",
-    "upvote_ratio": 0.99,
+    "upvote_ratio": 0.98,
     "author_flair_background_color": null,
     "subreddit_type": "public",
-    "ups": 74,
+    "ups": 73,
     "total_awards_received": 0,
     "media_embed": {},
     "author_flair_template_id": null,
@@ -36,7 +67,7 @@
     "secure_media_embed": {},
     "link_flair_text": null,
     "can_mod_post": false,
-    "score": 74,
+    "score": 73,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -114,6 +145,5 @@
       "children": [],
       "before": null
     }
-  },
-  "comments": []
+  }
 }
