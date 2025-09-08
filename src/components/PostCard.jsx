@@ -204,8 +204,8 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "" })
                         >
                             {mediaPreview ? (
                                 <img src={mediaPreview} alt="" loading="lazy" decoding="async" className="pc-thumb" />
-                            ) : hasVideo ? (
-                                <VideoThumb src={mediaUrls[0]} />
+                            //) : hasVideo ? (
+                            //    <VideoThumb src={mediaUrls[0]} />
                             ) : (
                                 <div className="pc-thumb pc-thumb--video"><span className="pc-play">▶</span></div>
                             )}
