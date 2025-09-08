@@ -306,7 +306,7 @@ for (const p of posts) {
         media_preview = rec.images?.[0] || rec.gallery?.[0] || rec.video; // if you want, keep same
         media_dir = "Videos";
     } else if (rec.redgiphy) {
-        media_type = "gif";
+        media_type = "video";
         media_urls = [rec.redgiphy];
         media_url_compact = rec.redgiphy;
         media_preview = rec.redgiphy;
