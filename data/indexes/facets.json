@@ -55,5 +55,10 @@
     "Wholesome": 1
   },
   "domains": {},
-  "mediaTypes": {}
+  "mediaTypes": {
+    "video": 5,
+    "gallery": 2,
+    "gif": 2,
+    "image": 2
+  }
 }
