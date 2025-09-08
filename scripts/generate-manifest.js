@@ -20,22 +20,12 @@
 // NOTE: PUBLIC_MEDIA_BASE is used to build absolute media URLs in the manifest.
 
 console.log("ENV present:",
-    !!process.env.R2_ENDPOINT,
-    !!process.env.R2_ACCESS_KEY_ID,
-    !!process.env.R2_SECRET_ACCESS_KEY,
-    !!process.env.R2_BUCKET,
-    !!process.env.PUBLIC_MEDIA_BASE
+  !!process.env.R2_ENDPOINT,
+  !!process.env.R2_ACCESS_KEY_ID,
+  !!process.env.R2_SECRET_ACCESS_KEY,
+  !!process.env.R2_BUCKET,
+  !!process.env.PUBLIC_MEDIA_BASE
 );
-
-function assertValidUrl(name, val) {
-    try {
-        const u = new URL(val);
-        if (!/^https?:$/.test(u.protocol)) throw new Error('must be http(s)');
-    } catch (e) {
-        throw new Error(`${name} must be an absolute http(s) URL. Got: ${JSON.stringify(val)}`);
-    }
-}
-assertValidUrl('R2_ENDPOINT', process.env.R2_ENDPOINT);
 
 import { promises as fs } from "node:fs";
 import path from "node:path";
