@@ -23,6 +23,15 @@ jobs:
         run: npm ci || npm i
 
       - name: Generate manifest & indexes
+        env:
+            R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+            R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+            R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+            R2_BUCKET: ${{ secrets.R2_BUCKET }}
+            PUBLIC_MEDIA_BASE: ${{ secrets.PUBLIC_MEDIA_BASE }}
+            # Optional:
+            # R2_OBJECTS_CACHE: data/r2_objects.json
+            # R2_SKIP_LIST: '0'
         run: node scripts/generate-manifest.js
 
       - name: Build site
