@@ -56,9 +56,9 @@
   },
   "domains": {},
   "mediaTypes": {
-    "gif": 6,
+    "video": 5,
     "gallery": 2,
-    "image": 2,
-    "video": 1
+    "gif": 2,
+    "image": 2
   }
 }

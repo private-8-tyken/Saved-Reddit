@@ -768,3 +768,11 @@ mark {
         height: 84px;
     }
 }
+
+/* media utils (append) */
+.media-wrap { position: relative; background: var(--card-bg, #101014); border-radius: 12px; overflow: hidden; }
+.embed-placeholder { padding: 16px; border: 1px dashed var(--muted, #444); border-radius: 12px; text-align: center; }
+.btn { padding: 8px 12px; border-radius: 10px; border: 1px solid var(--muted, #444); background: transparent; cursor: pointer; }
+.gallery { display: grid; gap: 8px; }
+.gallery-controls { display:flex; align-items:center; gap:8px; justify-content:center; }
+.gallery-count { opacity: .7; }

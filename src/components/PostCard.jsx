@@ -97,8 +97,8 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "" })
                             ref={vidRef}
                             src={src}
                             poster={mediaPreview || undefined}
-                            controls // keep the native control bar
-                            autoPlay={isGifProxy}
+                            controls={!isGifProxy} // keep the native control bar
+                            autoPlay
                             loop
                             muted={isGifProxy} // GIF proxies auto-muted
                             playsInline
