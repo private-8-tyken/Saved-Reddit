@@ -81,11 +81,7 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "" })
     const gridClass = `pc-grid ${hasThumb ? "has-thumb" : "no-thumb"}`;
 
     // ----- video controls (QoL)
-    const [muted, setMuted] = useState(true);
-    const [loop, setLoop] = useState(false);
     const vidRef = useRef(null);
-    useEffect(() => { if (vidRef.current) vidRef.current.muted = muted; }, [muted]);
-    useEffect(() => { if (vidRef.current) vidRef.current.loop = loop; }, [loop]);
 
     // ----- inline expanded media
     const Expanded = useMemo(() => {
@@ -101,33 +97,14 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "" })
                             ref={vidRef}
                             src={src}
                             poster={mediaPreview || undefined}
-                            controls // native controls
+                            controls // keep the native control bar
                             autoPlay={isGifProxy}
-                            loop={loop || isGifProxy}
-                            muted={muted || isGifProxy}
+                            loop
+                            muted={isGifProxy} // GIF proxies auto-muted
                             playsInline
                             preload="metadata"
                             className="pc-media-el"
                         />
-                        <div className="pc-controls">
-                            <button type="button" onClick={() => setMuted(m => !m)} className="pc-btn">
-                                {muted ? "Unmute" : "Mute"}
-                            </button>
-                            <button type="button" onClick={() => setLoop(l => !l)} className="pc-btn">
-                                {loop ? "Loop: On" : "Loop: Off"}
-                            </button>
-                            <button
-                                type="button"
-                                onClick={() => {
-                                    const v = vidRef.current;
-                                    if (!v) return;
-                                    v.playbackRate = v.playbackRate === 1 ? 1.5 : 1;
-                                }}
-                                className="pc-btn"
-                            >
-                                Speed 1×/1.5×
-                            </button>
-                        </div>
                     </div>
                 </div>
             );
@@ -161,7 +138,7 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "" })
         }
 
         return null;
-    }, [expanded, hasAnyMedia, hasVideo, mediaUrls, mediaType, mediaPreview, hasGallery, hasSingleImage, gIndex, galleryCount, loop, muted]);
+    }, [expanded, hasAnyMedia, hasVideo, mediaUrls, mediaType, mediaPreview, hasGallery, hasSingleImage, gIndex, galleryCount]);
 
     return (
         <article className={`card post-card ${isViewed ? "is-viewed" : ""}`}>
