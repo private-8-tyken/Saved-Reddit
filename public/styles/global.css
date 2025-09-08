@@ -785,3 +785,54 @@ mark {
   font-size:1.1rem; line-height:1; opacity:.85; pointer-events:none; color:#fff;
   text-shadow:0 1px 3px rgba(0,0,0,.6);
 }
+
+/* ----- PostCard responsive layout ----- */
+
+/* Default: two-column (thumb | text) */
+.post-card .pc-grid {
+  display: grid;
+  grid-template-columns: 140px 1fr; /* matches .pc-thumb 140×90 */
+  gap: 12px;
+  align-items: start;
+}
+
+/* When there is no thumb, just one column */
+.post-card .pc-grid.no-thumb,
+.post-card .pc-grid:not(.has-thumb) {
+  grid-template-columns: 1fr;
+}
+
+/* Ensure the left column doesn't float/overlay */
+.post-card .pc-left {
+  position: static;
+  float: none;
+}
+
+/* Make the media fill its slot cleanly */
+.post-card .pc-thumb,
+.post-card .pc-thumb-video,
+.post-card .pc-thumb--video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.post-card .pc-thumb {
+  aspect-ratio: 16 / 9;       /* keeps shape even if height auto */
+  overflow: hidden;
+}
+
+/* ----- Stack on phones: media above the text ----- */
+@media (max-width: 640px) {
+  .post-card .pc-grid {
+    grid-template-columns: 1fr;   /* single column */
+  }
+  .post-card .pc-left {
+    order: -1;                    /* move preview above text */
+    margin-bottom: 8px;
+  }
+  /* Make the thumbnail full-width when stacked */
+  .post-card .pc-thumb {
+    width: 40%;
+    height: auto;
+  }
+}
