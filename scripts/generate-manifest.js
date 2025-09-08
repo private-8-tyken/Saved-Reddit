@@ -303,19 +303,19 @@ for (const p of posts) {
         media_type = "video";
         media_urls = [rec.video];
         media_url_compact = rec.video;
-        media_preview = rec.images?.[0] || rec.gallery?.[0] || rec.video; // if you want, keep same
+        media_preview = rec.images?.[0] || rec.gallery?.[0] || null; // rec.video; // if you want, keep same
         media_dir = "Videos";
     } else if (rec.redgiphy) {
         media_type = "video";
         media_urls = [rec.redgiphy];
         media_url_compact = rec.redgiphy;
-        media_preview = rec.redgiphy;
+        media_preview = null; // rec.gif;
         media_dir = "RedGiphys";
     } else if (rec.gif) {
         media_type = "gif";
         media_urls = [rec.gif];
         media_url_compact = rec.gif;
-        media_preview = rec.gif;
+        media_preview = null; // rec.gif;
         media_dir = "Gifs";
     } else if (rec.gallery.length >= 2) {
         media_type = "gallery";

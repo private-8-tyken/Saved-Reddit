@@ -776,3 +776,12 @@ mark {
 .gallery { display: grid; gap: 8px; }
 .gallery-controls { display:flex; align-items:center; gap:8px; justify-content:center; }
 .gallery-count { opacity: .7; }
+
+.pc-thumb { width: 140px; height: 90px; border-radius: 8px; overflow: hidden; display:block; background:#000; }
+.pc-thumb-video { width:100%; height:100%; object-fit:cover; display:block; }
+.pc-thumb--video { position:relative; }
+.pc-thumb--video .pc-play {
+  position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+  font-size:1.1rem; line-height:1; opacity:.85; pointer-events:none; color:#fff;
+  text-shadow:0 1px 3px rgba(0,0,0,.6);
+}

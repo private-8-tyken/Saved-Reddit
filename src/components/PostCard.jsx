@@ -3,6 +3,52 @@ import { useMemo, useRef, useState, useEffect } from "react";
 import { saveFavs } from "../utils/storage.js";
 import { excerpt, getDomain } from "../utils/text.js";
 
+function useInViewport(opts = { root: null, rootMargin: "300px", threshold: 0.01 }) {
+    const ref = useRef(null);
+    const [inView, setInView] = useState(false);
+    useEffect(() => {
+        if (!ref.current || typeof IntersectionObserver === "undefined") return;
+        const obs = new IntersectionObserver(([e]) => setInView(e.isIntersecting), opts);
+        obs.observe(ref.current);
+        return () => obs.disconnect();
+    }, []);
+    return [ref, inView];
+}
+
+function VideoThumb({ src }) {
+    const [wrapRef, inView] = useInViewport();
+    const vRef = useRef(null);
+
+    useEffect(() => {
+        const v = vRef.current;
+        if (!v) return;
+        if (inView) {
+            // lazy-start playback when visible
+            v.play().catch(() => { });
+        } else {
+            v.pause();
+        }
+    }, [inView]);
+
+    return (
+        <div ref={wrapRef} className="pc-thumb pc-thumb--video">
+            {/* preload="none" keeps it lightweight until in view */}
+            <video
+                ref={vRef}
+                src={src}
+                muted
+                loop
+                playsInline
+                preload="none"
+                className="pc-thumb-video"
+            // no controls in the tiny thumb
+            />
+            {/* visible until the first frame paints */}
+            <span className="pc-play">▶</span>
+        </div>
+    );
+}
+
 export default function PostCard({ post, favs, setFavs, base, searchTerm = "" }) {
     // ----- favorites
     const isFav = favs.has(post.id);
@@ -158,10 +204,10 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "" })
                         >
                             {mediaPreview ? (
                                 <img src={mediaPreview} alt="" loading="lazy" decoding="async" className="pc-thumb" />
+                            ) : hasVideo ? (
+                                <VideoThumb src={mediaUrls[0]} />
                             ) : (
-                                <div className="pc-thumb pc-thumb--video">
-                                    <span className="pc-play">▶</span>
-                                </div>
+                                <div className="pc-thumb pc-thumb--video"><span className="pc-play">▶</span></div>
                             )}
                         </a>
                     </aside>
