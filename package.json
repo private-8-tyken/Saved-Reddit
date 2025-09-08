@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.883.0",
     "@types/react": "^19.1.9",
     "@types/react-dom": "^19.1.7"
   },

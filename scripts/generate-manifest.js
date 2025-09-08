@@ -1,88 +1,239 @@
-// Run using:
-//   node scripts/generate-manifest.js
+// scripts/generate-manifest.js
+// Run: node scripts/generate-manifest.js
 //
-// Outputs under public/data/indexes:
-//   - posts-manifest.json   (list used by the feed)
-//   - facets.json           (maps of name->count for sidebar chips)
-//   - build-report.json     (counts & warnings)
-// And it copies each original post JSON to public/data/posts/<id>.json
+// What it does:
+// - Lists ALL objects in your Cloudflare R2 bucket via S3 API (paginated)
+// - Builds an index: { <postId>: { images[], gallery[], video, redgiphy, gif } }
+// - Copies each raw post JSON to public/data/posts/<id>.json
+// - Writes public/data/indexes/{posts-manifest.json, facets.json, build-report.json}
 //
-// Env knobs (optional):
-//   TOP_N_FACETS=50   // if set, trims each facet map to top-N by count (then A→Z)
+// Env (required for R2 listing):
+//   R2_ENDPOINT          = "https://<accountid>.r2.cloudflarestorage.com"
+//   R2_ACCESS_KEY_ID     = "<access key>"
+//   R2_SECRET_ACCESS_KEY = "<secret>"
+//   R2_BUCKET            = "<bucket name>"
+//   PUBLIC_MEDIA_BASE    = "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/"  // MUST end with '/'
+// Optional:
+//   R2_OBJECTS_CACHE     = "data/r2_objects.json"     // file path for caching keys
+//   R2_SKIP_LIST         = "1"                        // if set, read cache instead of calling R2
 //
-// Notes:
-// - Consolidates counts into facets.json so the UI doesn't need subs-all/authors-all.
-// - Supports optional data/ordered_posts.csv to pin saved/order indices.
-// - NEW: Emits stable R2 URLs for media so UI doesn't guess.
+// NOTE: PUBLIC_MEDIA_BASE is used to build absolute media URLs in the manifest.
 
 import { promises as fs } from "node:fs";
 import path from "node:path";
+import { S3Client, ListObjectsV2Command } from "@aws-sdk/client-s3";
 
-// (optional) let Node load .env if present
-try { await import('dotenv/config'); } catch { }
+try { await import("dotenv/config"); } catch { }
 
-const ROOT = process.cwd(); // run from repo root
+const ROOT = process.cwd();
 const INPUT_DIR = path.resolve(ROOT, "data/posts");
 const INDEX_OUT_DIR = path.resolve(ROOT, "public/data/indexes");
 const POSTS_PUBLIC_DIR = path.resolve(ROOT, "public/data/posts");
 const ORDERED_CSV = path.resolve(ROOT, "data/ordered_posts.csv");
-
 await fs.mkdir(INDEX_OUT_DIR, { recursive: true });
 await fs.mkdir(POSTS_PUBLIC_DIR, { recursive: true });
 
-/** --- MEDIA BASE (R2 Worker/Domain) --- */
-const RAW_MEDIA_BASE = process.env.PUBLIC_MEDIA_BASE || "";
-const MEDIA_BASE = RAW_MEDIA_BASE
-    ? RAW_MEDIA_BASE.replace(/\s+$/, "").replace(/\/?$/, "/")
-    : "";
-const MEDIA_BASE_OK = !!MEDIA_BASE;
+/** ---------- ENV ---------- */
+const PUBLIC_MEDIA_BASE_RAW = process.env.PUBLIC_MEDIA_BASE || "";
+const PUBLIC_MEDIA_BASE = PUBLIC_MEDIA_BASE_RAW ? PUBLIC_MEDIA_BASE_RAW.replace(/\/?$/, "/") : "";
+const MEDIA_BASE_OK = !!PUBLIC_MEDIA_BASE;
 
-/** --- tiny CSV loader for "index,url,id" (no header) --- */
+const R2_ENDPOINT = process.env.R2_ENDPOINT || "";
+const R2_ACCESS_KEY_ID = process.env.R2_ACCESS_KEY_ID || "";
+const R2_SECRET_ACCESS_KEY = process.env.R2_SECRET_ACCESS_KEY || "";
+const R2_BUCKET = process.env.R2_BUCKET || "";
+const R2_OBJECTS_CACHE = process.env.R2_OBJECTS_CACHE || path.resolve(ROOT, "data/r2_objects.json");
+const R2_SKIP_LIST = process.env.R2_SKIP_LIST === "1";
+
+/** ---------- Small utils ---------- */
+function zero2(i) { return String(i).padStart(2, "0"); }
+function extFromUrl(u) {
+    if (!u) return null;
+    const clean = u.split("?")[0].split("#")[0];
+    const m = clean.match(/\.([a-z0-9]+)$/i);
+    return m ? m[1].toLowerCase() : null; // preserve 'jpeg'
+}
+function plainExcerpt(text, n = 320) {
+    if (!text) return "";
+    const t = String(text)
+        .replace(/\r\n?|\n/g, " ")
+        .replace(/\s+/g, " ")
+        .replace(/[*_`>#~]|\\|\[(.*?)\]\((.*?)\)/g, "$1");
+    return t.length > n ? t.slice(0, n - 1).trimEnd() + "…" : t;
+}
+function pickRedditPreview(p) {
+    const pr = p?.preview?.images?.[0];
+    if (pr?.resolutions?.length) {
+        const cand = [...pr.resolutions]
+            .sort((a, b) => a.width - b.width)
+            .find(r => r.width >= 240 && r.width <= 360) || pr.resolutions[0];
+        return { url: cand.url?.replace(/&amp;/g, "&"), w: cand.width, h: cand.height };
+    }
+    const th = p?.thumbnail;
+    if (th && /^https?:\/\//.test(th)) return { url: th, w: 140, h: 140 };
+    return { url: null, w: null, h: null };
+}
+// parse embedded images from selftext (markdown + bare links)
+function extractImageLinksFromSelftext(p) {
+    const raw = String(p?.selftext || "");
+    if (!raw.trim()) return [];
+    const out = [];
+    const seen = new Set();
+    const clean = raw.replace(/&amp;/g, "&");
+    for (const m of clean.matchAll(/!\[[^\]]*?\]\((https?:\/\/[^\s)]+)\)/gi)) {
+        const u = m[1];
+        if (/\.(?:jpe?g|png|webp|gif)(?:\?|#|$)/i.test(u) && !seen.has(u)) { seen.add(u); out.push(u); }
+    }
+    for (const m of clean.matchAll(/\[[^\]]*?\]\((https?:\/\/[^\s)]+)\)/gi)) {
+        const u = m[1];
+        if (/\.(?:jpe?g|png|webp|gif)(?:\?|#|$)/i.test(u) && !seen.has(u)) { seen.add(u); out.push(u); }
+    }
+    for (const m of clean.matchAll(/https?:\/\/\S+/gi)) {
+        const u = m[0].replace(/[)\],.]+$/, "");
+        if (/\.(?:jpe?g|png|webp|gif)(?:\?|#|$)/i.test(u) && !seen.has(u)) { seen.add(u); out.push(u); }
+    }
+    return out;
+}
+
+/** ---------- R2 list + index ---------- */
+function assertR2Config() {
+    if (!R2_ENDPOINT || !R2_ACCESS_KEY_ID || !R2_SECRET_ACCESS_KEY || !R2_BUCKET) {
+        throw new Error("Missing R2 env: R2_ENDPOINT, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_BUCKET");
+    }
+}
+async function listAllR2Keys() {
+    if (R2_SKIP_LIST) {
+        try {
+            const cached = JSON.parse(await fs.readFile(R2_OBJECTS_CACHE, "utf8"));
+            if (Array.isArray(cached)) return cached;
+        } catch { }
+        throw new Error("R2_SKIP_LIST=1 but no cache file found.");
+    }
+    assertR2Config();
+    const s3 = new S3Client({
+        region: "auto",
+        endpoint: R2_ENDPOINT,
+        credentials: { accessKeyId: R2_ACCESS_KEY_ID, secretAccessKey: R2_SECRET_ACCESS_KEY },
+    });
+    const keys = [];
+    let ContinuationToken = undefined;
+    do {
+        const resp = await s3.send(new ListObjectsV2Command({
+            Bucket: R2_BUCKET,
+            ContinuationToken,
+            MaxKeys: 1000,
+        }));
+        for (const o of resp.Contents || []) {
+            if (o.Key) keys.push(o.Key);
+        }
+        ContinuationToken = resp.IsTruncated ? resp.NextContinuationToken : undefined;
+    } while (ContinuationToken);
+    // cache
+    try { await fs.writeFile(R2_OBJECTS_CACHE, JSON.stringify(keys, null, 2)); } catch { }
+    return keys;
+}
+
+/**
+ * Build index:
+ *  Images/<id>.<ext>                 => imagesSingle[id].push(url)
+ *  Images/<id>/NN.<ext>              => imagesGallery[id].push({n:NN, url})
+ *  Videos/<id>.mp4                   => video[id] = url
+ *  RedGiphys/<id>.mp4                => redgiphy[id] = url
+ *  Gifs/<id>.gif                     => gif[id] = url
+ */
+function buildR2Index(keys) {
+    const idx = new Map(); // id -> { images:[], gallery:[], video:null, redgiphy:null, gif:null }
+
+    const urlForKey = (k) => MEDIA_BASE_OK ? (PUBLIC_MEDIA_BASE + k) : null;
+
+    for (const key of keys) {
+        // Gallery: Images/<id>/NN.<ext>
+        {
+            const m = key.match(/^Images\/([^/]+)\/(\d{2})\.([a-z0-9]+)$/i);
+            if (m) {
+                const id = m[1], nn = parseInt(m[2], 10), ext = m[3].toLowerCase();
+                const rec = idx.get(id) || { images: [], gallery: [], video: null, redgiphy: null, gif: null };
+                rec.gallery.push({ n: nn, url: urlForKey(key), ext });
+                idx.set(id, rec);
+                continue;
+            }
+        }
+        // Single image: Images/<id>.<ext>
+        {
+            const m = key.match(/^Images\/([^/]+)\.([a-z0-9]+)$/i);
+            if (m) {
+                const id = m[1], ext = m[2].toLowerCase();
+                const rec = idx.get(id) || { images: [], gallery: [], video: null, redgiphy: null, gif: null };
+                rec.images.push({ url: urlForKey(key), ext });
+                idx.set(id, rec);
+                continue;
+            }
+        }
+        // Video: Videos/<id>.mp4
+        {
+            const m = key.match(/^Videos\/([^/]+)\.mp4$/i);
+            if (m) {
+                const id = m[1];
+                const rec = idx.get(id) || { images: [], gallery: [], video: null, redgiphy: null, gif: null };
+                rec.video = urlForKey(key);
+                idx.set(id, rec);
+                continue;
+            }
+        }
+        // RedGiphys/<id>.mp4
+        {
+            const m = key.match(/^RedGiphys\/([^/]+)\.mp4$/i);
+            if (m) {
+                const id = m[1];
+                const rec = idx.get(id) || { images: [], gallery: [], video: null, redgiphy: null, gif: null };
+                rec.redgiphy = urlForKey(key);
+                idx.set(id, rec);
+                continue;
+            }
+        }
+        // Gifs/<id>.gif
+        {
+            const m = key.match(/^Gifs\/([^/]+)\.gif$/i);
+            if (m) {
+                const id = m[1];
+                const rec = idx.get(id) || { images: [], gallery: [], video: null, redgiphy: null, gif: null };
+                rec.gif = urlForKey(key);
+                idx.set(id, rec);
+                continue;
+            }
+        }
+    }
+
+    // sort gallery frames by NN and flatten to URLs
+    for (const [id, rec] of idx.entries()) {
+        if (rec.gallery.length) {
+            rec.gallery.sort((a, b) => a.n - b.n);
+            rec.gallery = rec.gallery.map(g => g.url).filter(Boolean);
+        }
+        // de-dupe single images
+        if (rec.images.length) {
+            const seen = new Set();
+            rec.images = rec.images.map(i => i.url).filter(u => !!u && !seen.has(u) && seen.add(u));
+        }
+    }
+    return idx;
+}
+
+/** ---------- Posts IO ---------- */
 async function loadOrderIndex(csvPath) {
     const raw = await fs.readFile(csvPath, "utf8").catch(() => "");
     if (!raw.trim()) return new Map();
     const map = new Map();
     for (const line of raw.split(/\r?\n/)) {
         if (!line.trim()) continue;
-        const cells = line.split(",").map((s) => s?.trim().replace(/^"(.*)"$/, "$1"));
-        const [indexStr, _url, id] = cells;
-        const idx = Number(indexStr);
+        const cells = line.split(",").map(s => s?.trim().replace(/^"(.*)"$/, "$1"));
+        const [idxStr, _url, id] = cells;
+        const idx = Number(idxStr);
         if (Number.isFinite(idx) && id) map.set(id, idx);
     }
     return map;
 }
 const ORDER_INDEX = await loadOrderIndex(ORDERED_CSV);
-
-/** --- helpers --- */
-function plainExcerpt(text, n = 320) {
-    if (!text) return "";
-    const t = String(text)
-        .replace(/\r\n?|\n/g, " ")
-        .replace(/\s+/g, " ")
-        // strip basic markdown and [label](url) links
-        .replace(/[*_`>#~]|\\|\[(.*?)\]\((.*?)\)/g, "$1");
-    return t.length > n ? t.slice(0, n - 1).trimEnd() + "…" : t;
-}
-
-function pickPreviewFromReddit(p) {
-    const local =
-        p?.media?.items?.find((it) => it.thumbnail)?.thumbnail ||
-        p?.media?.video?.poster;
-    if (local)
-        return { url: local, w: p?.media?.items?.[0]?.width, h: p?.media?.items?.[0]?.height, kind: "local" };
-
-    const pr = p?.preview?.images?.[0];
-    if (pr?.resolutions?.length) {
-        const cand =
-            [...pr.resolutions]
-                .sort((a, b) => a.width - b.width)
-                .find((r) => r.width >= 240 && r.width <= 360) || pr.resolutions[0];
-        return { url: cand.url?.replace(/&amp;/g, "&"), w: cand.width, h: cand.height, kind: "reddit" };
-    }
-    const th = p?.thumbnail;
-    if (th && /^https?:\/\//.test(th)) return { url: th, w: 140, h: 140, kind: "external" };
-    return { url: null, w: null, h: null, kind: null };
-}
 
 async function loadPosts(rootDir) {
     const entries = await fs.readdir(rootDir, { withFileTypes: true });
@@ -90,7 +241,7 @@ async function loadPosts(rootDir) {
     for (const ent of entries) {
         const full = path.join(rootDir, ent.name);
         if (ent.isDirectory()) {
-            const sub = ent.name; // e.g., text, image, video, gallery, gif
+            const sub = ent.name;
             const files = await fs.readdir(full);
             for (const f of files) {
                 if (!f.endsWith(".json")) continue;
@@ -113,169 +264,108 @@ async function loadPosts(rootDir) {
     return out;
 }
 
+/** ---------- Build ---------- */
 const posts = await loadPosts(INPUT_DIR);
 
-/** --- media-type normalization from folders --- */
-const MEDIA_FOLDER_MAP = {
-    text: "text",
-    link: "link",
-    image: "image",
-    images: "image",
-    gallery: "gallery",
-    video: "video",
-    videos: "video",
-    gif: "gif",
-    gifs: "gif",
-    external: "external",
-    media: "media",
-    other: "other",
-};
-function mediaTypeFromFolder(folder) {
-    if (!folder) return null;
-    const key = String(folder).toLowerCase();
-    return MEDIA_FOLDER_MAP[key] || null;
+// 1) Pull object keys from R2 (or cache) and build an index
+let r2Keys = [];
+try {
+    r2Keys = await listAllR2Keys();
+    console.log(`R2: indexed ${r2Keys.length} objects`);
+} catch (err) {
+    console.warn("⚠️  Could not list R2 objects:", err.message);
 }
+const r2Index = buildR2Index(r2Keys);
 
-/** --- NEW: media URL construction helpers --- */
-const EXT_FROM_MIME = {
-    "image/jpeg": "jpg",
-    "image/jpg": "jpg",
-    "image/png": "png",
-    "image/webp": "webp",
-    "image/gif": "gif",
-    "video/mp4": "mp4",
-    "video/webm": "webm",
-};
-
-function extFromUrl(u) {
-    if (!u) return null;
-    try {
-        const clean = u.split("?")[0].split("#")[0];
-        const m = clean.match(/\.([a-z0-9]+)$/i);
-        return m ? m[1].toLowerCase() : null;
-    } catch { return null; }
-}
-function extFromMime(m) {
-    return EXT_FROM_MIME[m?.toLowerCase?.()] || null;
-}
-
-function zero2(i) {
-    return String(i).padStart(2, "0");
-}
-
-function guessImageExtFromPost(p) {
-    // Try: Reddit media_metadata (gallery) → mime
-    const mm = p?.media_metadata;
-    if (mm && typeof mm === "object") {
-        for (const k of Object.keys(mm)) {
-            const mime = mm[k]?.m; // e.g., "image/jpg"
-            const ext = extFromMime(mime);
-            if (ext) return ext;
-        }
-    }
-    // Try the main URL
-    const e = extFromUrl(p?.url);
-    if (e && ["jpg", "jpeg", "png", "webp", "gif"].includes(e)) {
-        return e === "jpeg" ? "jpg" : e;
-    }
-    // Fallback default
-    return "jpg";
-}
-
-function deriveMedia(p) {
-    const id = p.__stem || p.id || p.name;
-    const folderType = mediaTypeFromFolder(p.__folder);
-    const autoType = p?.media?.type || (p?.is_self ? "text" : p?.link_domain ? "link" : undefined);
-    const media_type = folderType || autoType || null;
-
-    if (!MEDIA_BASE_OK) {
-        return { media_type, media_dir: null, media_urls: [], gallery_count: null, preview_url: null, note: "no-media-base" };
-    }
-
-    // Map type to base R2 directory & extension logic
-    if (media_type === "gif") {
-        const u = `${MEDIA_BASE}Gifs/${id}.gif`;
-        return { media_type, media_dir: "Gifs", media_urls: [u], gallery_count: 1, preview_url: u };
-    }
-
-    if (media_type === "video") {
-        // Our buckets: Videos/<id>.mp4 OR RedGiphys/<id>.mp4 (if you placed it there)
-        // Heuristic: Prefer Videos/ if post hints at hosted video, else RedGiphys/ if it originated as a "gifv".
-        const redg = `${MEDIA_BASE}RedGiphys/${id}.mp4`;
-        const vids = `${MEDIA_BASE}Videos/${id}.mp4`;
-        // If your dataset uses only one of these, pick one consistently:
-        const use = p?.link_domain?.includes("giphy") || p?.url?.includes("gfycat") ? redg : vids;
-        const dir = use.includes("/RedGiphys/") ? "RedGiphys" : "Videos";
-        return { media_type, media_dir: dir, media_urls: [use], gallery_count: 1, preview_url: use };
-    }
-
-    if (media_type === "image" || media_type === "gallery") {
-        // Single image: Images/<id>.<ext>
-        // Gallery: Images/<id>/<01..N>.<ext>  (N from media_metadata or gallery_data/items)
-        const imgExt = guessImageExtFromPost(p); // jpg|png|webp|gif
-        const media_dir = "Images";
-
-        // Detect gallery count
-        let n = 0;
-        if (Array.isArray(p?.gallery_data?.items)) {
-            n = p.gallery_data.items.length;
-        } else if (Array.isArray(p?.media?.items)) {
-            n = p.media.items.length;
-        } else {
-            // Some posts have media_metadata keys but not gallery_data.items length
-            if (p?.media_metadata && typeof p.media_metadata === "object") {
-                n = Object.keys(p.media_metadata).length;
-            }
-        }
-
-        if (media_type === "gallery" || n > 1) {
-            const count = Math.max(2, n || 0); // if unknown but flagged as gallery, emit at least 2
-            const urls = [];
-            const max = count || 0;
-            for (let i = 1; i <= max; i++) {
-                urls.push(`${MEDIA_BASE}${media_dir}/${id}/${zero2(i)}.${imgExt}`);
-            }
-            const preview_url = urls[0] || null;
-            return { media_type: "gallery", media_dir, media_urls: urls, gallery_count: urls.length || null, preview_url };
-        } else {
-            const u = `${MEDIA_BASE}${media_dir}/${id}.${imgExt}`;
-            return { media_type: "image", media_dir, media_urls: [u], gallery_count: 1, preview_url: u };
-        }
-    }
-
-    // Links or text or unknown → no media URLs
-    return { media_type: media_type || null, media_dir: null, media_urls: [], gallery_count: null, preview_url: null };
-}
-
-/** --- build feed manifest --- */
 const manifest = [];
 const warnings = [];
 
 for (const p of posts) {
     const id = p.__stem || p.id || p.name;
-
     const order_index =
         ORDER_INDEX.get(id) ??
         ORDER_INDEX.get(p.id) ??
         ORDER_INDEX.get(p.name) ??
         null;
 
-    const r2 = deriveMedia(p);
-    if (!MEDIA_BASE_OK) {
-        warnings.push({ note: "PUBLIC_MEDIA_BASE not set; no R2 media URLs were emitted in the manifest." });
-    } else if ((r2.media_type === "image" || r2.media_type === "gallery" || r2.media_type === "video" || r2.media_type === "gif") && r2.media_urls.length === 0) {
-        warnings.push({ id, note: "Could not derive media URLs for post", folder: p.__folder, url: p.url });
+    // Gather media from R2 index (priority order)
+    const rec = r2Index.get(id) || { images: [], gallery: [], video: null, redgiphy: null, gif: null };
+    let media_type = null;
+    let media_urls = [];
+    let media_url_compact = null;
+    let media_preview = null;
+    let media_dir = null;
+    let gallery_count = null;
+    let preview_width = null;
+    let preview_height = null;
+
+    if (rec.video) {
+        media_type = "video";
+        media_urls = [rec.video];
+        media_url_compact = rec.video;
+        media_preview = rec.images?.[0] || rec.gallery?.[0] || rec.video; // if you want, keep same
+        media_dir = "Videos";
+    } else if (rec.redgiphy) {
+        media_type = "gif";
+        media_urls = [rec.redgiphy];
+        media_url_compact = rec.redgiphy;
+        media_preview = rec.redgiphy;
+        media_dir = "RedGiphys";
+    } else if (rec.gif) {
+        media_type = "gif";
+        media_urls = [rec.gif];
+        media_url_compact = rec.gif;
+        media_preview = rec.gif;
+        media_dir = "Gifs";
+    } else if (rec.gallery.length >= 2) {
+        media_type = "gallery";
+        media_urls = rec.gallery.slice();
+        media_url_compact = media_urls.slice();
+        media_preview = media_urls[0];
+        media_dir = "Images";
+        gallery_count = media_urls.length;
+    } else if (rec.images.length >= 1) {
+        media_type = "image";
+        media_urls = [rec.images[0]];
+        media_url_compact = rec.images[0];
+        media_preview = rec.images[0];
+        media_dir = "Images";
+    } else {
+        // No R2 match — fall back to embedded selftext images
+        const embedded = extractImageLinksFromSelftext(p);
+        if (embedded.length >= 2) {
+            media_type = "gallery";
+            media_urls = embedded.slice();
+            media_url_compact = embedded.slice();
+            media_preview = embedded[0];
+            media_dir = null; // external
+            gallery_count = embedded.length;
+        } else if (embedded.length === 1) {
+            media_type = "image";
+            media_urls = [embedded[0]];
+            media_url_compact = embedded[0];
+            media_preview = embedded[0];
+            media_dir = null; // external
+        }
     }
 
-    // Preview: prefer R2 preview; else fall back to Reddit preview
-    const prevReddit = pickPreviewFromReddit(p);
-    const media_preview = r2.preview_url || prevReddit.url;
-    const preview_width = r2.preview_url ? (p?.media?.items?.[0]?.width || null) : (prevReddit.w || null);
-    const preview_height = r2.preview_url ? (p?.media?.items?.[0]?.height || null) : (prevReddit.h || null);
-    const preview_kind = r2.preview_url ? "r2" : prevReddit.kind;
+    // Still no preview? Use Reddit preview/thumbnail for card polish
+    if (!media_preview) {
+        const pr = pickRedditPreview(p);
+        media_preview = pr.url;
+        preview_width = pr.w;
+        preview_height = pr.h;
+    }
+
+    if (MEDIA_BASE_OK && ["image", "gallery", "video", "gif"].includes(media_type) && media_urls.length === 0) {
+        warnings.push({ id, note: "Expected media but no URLs after R2 indexing.", type: media_type });
+    }
+    if (!MEDIA_BASE_OK) {
+        warnings.push({ note: "PUBLIC_MEDIA_BASE not set; manifest media URLs may be null." });
+    }
 
     manifest.push({
-        id, // guaranteed id
+        id,
         permalink: p.permalink,
         url: p.url,
         link_domain: p.link_domain || null,
@@ -290,25 +380,21 @@ for (const p of posts) {
         score: p.score,
         num_comments: p.num_comments,
 
-        // NEW: normalized media info for UI
-        media_type: r2.media_type,
-        media_dir: r2.media_dir,          // e.g., "Images", "Gifs", "RedGiphys", "Videos"
-        media_urls: r2.media_urls,        // array of absolute R2 URLs
-        gallery_count: r2.gallery_count,  // null or number
-        media_preview,                    // absolute preview URL (R2 if available; else reddit/thumb)
+        media_type,         // 'image' | 'gallery' | 'video' | 'gif' | 'link' | 'text' | null
+        media_dir,          // 'Images' | 'Videos' | 'RedGiphys' | 'Gifs' | null
+        media_urls,         // always an array (R2 or external)
+        media_url_compact,  // string (single) OR array (gallery)
+        gallery_count,      // number | null
+        media_preview,      // thumbnail/poster for card
         preview_width,
         preview_height,
-        preview_kind,
     });
 }
 
-/** --- facet counts (maps of name -> count) --- */
+/** ---------- Facets ---------- */
 function inc(map, key) { if (!key) return; map.set(key, (map.get(key) || 0) + 1); }
-const subFreq = new Map();
-const authorFreq = new Map();
-const flairFreq = new Map();
-const domainFreq = new Map();
-const mediaFreq = new Map();
+const subFreq = new Map(), authorFreq = new Map(), flairFreq = new Map(),
+    domainFreq = new Map(), mediaFreq = new Map();
 for (const m of manifest) {
     inc(subFreq, m.subreddit);
     inc(authorFreq, m.author);
@@ -316,62 +402,22 @@ for (const m of manifest) {
     inc(domainFreq, m.link_domain);
     inc(mediaFreq, m.media_type);
 }
-
-function toSortedTopN(map, topN) {
-    const arr = Array.from(map, ([name, count]) => ({ name, count }));
-    arr.sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
-    return Number.isFinite(topN) && topN > 0 ? arr.slice(0, topN) : arr;
-}
-function pairsToObj(pairs) {
-    const o = Object.create(null);
-    for (const { name, count } of pairs) o[name] = count;
-    return o;
-}
-
-const TOP_N = Number(process.env.TOP_N_FACETS || 0) || 0;
+const toPairs = (map) => Array.from(map, ([name, count]) => ({ name, count }))
+    .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+const pairsToObj = (pairs) => Object.fromEntries(pairs.map(({ name, count }) => [name, count]));
 const facets = {
-    subreddits: pairsToObj(toSortedTopN(subFreq, TOP_N)),
-    authors: pairsToObj(toSortedTopN(authorFreq, TOP_N)),
-    flairs: pairsToObj(toSortedTopN(flairFreq, TOP_N)),
-    domains: pairsToObj(toSortedTopN(domainFreq, TOP_N)),
-    mediaTypes: pairsToObj(toSortedTopN(mediaFreq, TOP_N)),
+    subreddits: pairsToObj(toPairs(subFreq)),
+    authors: pairsToObj(toPairs(authorFreq)),
+    flairs: pairsToObj(toPairs(flairFreq)),
+    domains: pairsToObj(toPairs(domainFreq)),
+    mediaTypes: pairsToObj(toPairs(mediaFreq)),
 };
 
-/** --- write outputs --- */
+/** ---------- Write ---------- */
 await fs.writeFile(path.join(INDEX_OUT_DIR, "posts-manifest.json"), JSON.stringify(manifest, null, 2));
 await fs.writeFile(path.join(INDEX_OUT_DIR, "facets.json"), JSON.stringify(facets, null, 2));
-
-/** --- Build report (basic warnings + NEW notes) --- */
-const KNOWN_MEDIA_FOLDERS = new Set(Object.keys(MEDIA_FOLDER_MAP));
-for (const p of posts) {
-    if (p.__folder && !KNOWN_MEDIA_FOLDERS.has(p.__folder.toLowerCase())) {
-        warnings.push({ id: p.__stem, note: "Unknown media folder", folder: p.__folder });
-    }
-}
-for (const m of manifest) {
-    const miss = [];
-    if (!m.id) miss.push("id");
-    if (!m.title) miss.push("title");
-    if (!m.subreddit) miss.push("subreddit");
-    if (miss.length) warnings.push({ id: m.id || "(unknown)", missing: miss });
-    if (
-        m.media_preview &&
-        !/^https?:\/\//.test(m.media_preview) &&
-        !m.media_preview?.startsWith("media/") &&
-        !m.media_preview?.startsWith("public/")
-    ) {
-        warnings.push({ id: m.id, note: "media_preview may not exist at runtime", value: m.media_preview });
-    }
-}
-
 await fs.writeFile(path.join(INDEX_OUT_DIR, "build-report.json"), JSON.stringify({ posts: manifest.length, warnings }, null, 2));
 
-console.log(`✅ Manifest built: ${manifest.length} posts (with R2 media URLs & text previews).`);
-console.log(
-    `✅ Facets: subs=${Object.keys(facets.subreddits).length}, authors=${Object.keys(facets.authors).length}, flairs=${Object.keys(facets.flairs).length}, domains=${Object.keys(facets.domains).length}, media=${Object.keys(facets.mediaTypes).length}`
-);
-console.log(
-    warnings.length
-        ? `ℹ️  Warnings: ${warnings.length} (see public/data/indexes/build-report.json)`
-        : "ℹ️  Warnings: 0"
-);
+console.log(`✅ Manifest built: ${manifest.length} posts`);
+console.log(`✅ Facets — subs:${Object.keys(facets.subreddits).length} authors:${Object.keys(facets.authors).length} flairs:${Object.keys(facets.flairs).length} domains:${Object.keys(facets.domains).length} media:${Object.keys(facets.mediaTypes).length}`);
+console.log(warnings.length ? `ℹ️ Warnings: ${warnings.length} (see build-report.json)` : "ℹ️ Warnings: 0");

@@ -14,14 +14,16 @@
     "order_index": 578,
     "score": 785,
     "num_comments": 37,
-    "media_type": "external",
-    "media_dir": null,
-    "media_urls": [],
+    "media_type": "gif",
+    "media_dir": "RedGiphys",
+    "media_urls": [
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/RedGiphys/1eby3oh.mp4"
+    ],
+    "media_url_compact": "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/RedGiphys/1eby3oh.mp4",
     "gallery_count": null,
-    "media_preview": null,
+    "media_preview": "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/RedGiphys/1eby3oh.mp4",
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   },
   {
     "id": "1ekrwun",
@@ -38,14 +40,16 @@
     "order_index": 203,
     "score": 8194,
     "num_comments": 164,
-    "media_type": "external",
-    "media_dir": null,
-    "media_urls": [],
+    "media_type": "gif",
+    "media_dir": "RedGiphys",
+    "media_urls": [
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/RedGiphys/1ekrwun.mp4"
+    ],
+    "media_url_compact": "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/RedGiphys/1ekrwun.mp4",
     "gallery_count": null,
-    "media_preview": null,
+    "media_preview": "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/RedGiphys/1ekrwun.mp4",
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   },
   {
     "id": "1fbz4gt",
@@ -62,14 +66,16 @@
     "order_index": 193,
     "score": 20545,
     "num_comments": 54,
-    "media_type": "external",
-    "media_dir": null,
-    "media_urls": [],
+    "media_type": "gif",
+    "media_dir": "RedGiphys",
+    "media_urls": [
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/RedGiphys/1fbz4gt.mp4"
+    ],
+    "media_url_compact": "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/RedGiphys/1fbz4gt.mp4",
     "gallery_count": null,
-    "media_preview": null,
+    "media_preview": "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/RedGiphys/1fbz4gt.mp4",
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   },
   {
     "id": "1ffa2d9",
@@ -86,14 +92,14 @@
     "order_index": null,
     "score": 5268,
     "num_comments": 87,
-    "media_type": "external",
+    "media_type": null,
     "media_dir": null,
     "media_urls": [],
+    "media_url_compact": null,
     "gallery_count": null,
     "media_preview": null,
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   },
   {
     "id": "1fozwa1",
@@ -110,14 +116,16 @@
     "order_index": 185,
     "score": 8918,
     "num_comments": 94,
-    "media_type": "external",
-    "media_dir": null,
-    "media_urls": [],
+    "media_type": "gif",
+    "media_dir": "RedGiphys",
+    "media_urls": [
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/RedGiphys/1fozwa1.mp4"
+    ],
+    "media_url_compact": "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/RedGiphys/1fozwa1.mp4",
     "gallery_count": null,
-    "media_preview": null,
+    "media_preview": "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/RedGiphys/1fozwa1.mp4",
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   },
   {
     "id": "1atpird",
@@ -134,14 +142,40 @@
     "order_index": null,
     "score": 5574,
     "num_comments": 170,
-    "media_type": "media",
-    "media_dir": null,
-    "media_urls": [],
-    "gallery_count": null,
-    "media_preview": null,
+    "media_type": "gallery",
+    "media_dir": "Images",
+    "media_urls": [
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/01.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/02.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/03.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/04.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/05.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/06.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/07.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/08.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/09.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/10.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/11.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/12.jpg"
+    ],
+    "media_url_compact": [
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/01.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/02.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/03.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/04.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/05.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/06.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/07.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/08.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/09.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/10.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/11.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/12.jpg"
+    ],
+    "gallery_count": 12,
+    "media_preview": "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1atpird/01.jpg",
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   },
   {
     "id": "1bc7j0y",
@@ -158,14 +192,56 @@
     "order_index": null,
     "score": 2781,
     "num_comments": 144,
-    "media_type": "media",
-    "media_dir": null,
-    "media_urls": [],
-    "gallery_count": null,
-    "media_preview": null,
+    "media_type": "gallery",
+    "media_dir": "Images",
+    "media_urls": [
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/01.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/02.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/03.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/04.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/05.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/06.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/07.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/08.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/09.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/10.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/11.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/12.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/13.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/14.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/15.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/16.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/17.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/18.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/19.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/20.jpg"
+    ],
+    "media_url_compact": [
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/01.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/02.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/03.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/04.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/05.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/06.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/07.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/08.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/09.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/10.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/11.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/12.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/13.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/14.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/15.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/16.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/17.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/18.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/19.jpg",
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/20.jpg"
+    ],
+    "gallery_count": 20,
+    "media_preview": "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bc7j0y/01.jpg",
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   },
   {
     "id": "1bdr9qf",
@@ -182,14 +258,16 @@
     "order_index": 672,
     "score": 348,
     "num_comments": 78,
-    "media_type": "media",
-    "media_dir": null,
-    "media_urls": [],
+    "media_type": "image",
+    "media_dir": "Images",
+    "media_urls": [
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bdr9qf.jpeg"
+    ],
+    "media_url_compact": "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bdr9qf.jpeg",
     "gallery_count": null,
-    "media_preview": null,
+    "media_preview": "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bdr9qf.jpeg",
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   },
   {
     "id": "1bdwsou",
@@ -206,14 +284,16 @@
     "order_index": 673,
     "score": 179,
     "num_comments": 39,
-    "media_type": "media",
-    "media_dir": null,
-    "media_urls": [],
+    "media_type": "image",
+    "media_dir": "Images",
+    "media_urls": [
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bdwsou.png"
+    ],
+    "media_url_compact": "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bdwsou.png",
     "gallery_count": null,
-    "media_preview": null,
+    "media_preview": "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Images/1bdwsou.png",
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   },
   {
     "id": "1d56g8y",
@@ -230,14 +310,16 @@
     "order_index": null,
     "score": 13334,
     "num_comments": 91,
-    "media_type": "media",
-    "media_dir": null,
-    "media_urls": [],
+    "media_type": "video",
+    "media_dir": "Videos",
+    "media_urls": [
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Videos/1d56g8y.mp4"
+    ],
+    "media_url_compact": "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Videos/1d56g8y.mp4",
     "gallery_count": null,
-    "media_preview": null,
+    "media_preview": "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Videos/1d56g8y.mp4",
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   },
   {
     "id": "1euudyy",
@@ -254,14 +336,16 @@
     "order_index": null,
     "score": 143,
     "num_comments": 24,
-    "media_type": "media",
-    "media_dir": null,
-    "media_urls": [],
+    "media_type": "gif",
+    "media_dir": "Gifs",
+    "media_urls": [
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Gifs/1euudyy.gif"
+    ],
+    "media_url_compact": "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Gifs/1euudyy.gif",
     "gallery_count": null,
-    "media_preview": null,
+    "media_preview": "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Gifs/1euudyy.gif",
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   },
   {
     "id": "1hhdkrl",
@@ -278,14 +362,16 @@
     "order_index": null,
     "score": 3248,
     "num_comments": 69,
-    "media_type": "media",
-    "media_dir": null,
-    "media_urls": [],
+    "media_type": "gif",
+    "media_dir": "Gifs",
+    "media_urls": [
+      "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Gifs/1hhdkrl.gif"
+    ],
+    "media_url_compact": "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Gifs/1hhdkrl.gif",
     "gallery_count": null,
-    "media_preview": null,
+    "media_preview": "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/Gifs/1hhdkrl.gif",
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   },
   {
     "id": "1a1ybm",
@@ -302,14 +388,14 @@
     "order_index": 941,
     "score": 66,
     "num_comments": 57,
-    "media_type": "text",
+    "media_type": null,
     "media_dir": null,
     "media_urls": [],
+    "media_url_compact": null,
     "gallery_count": null,
     "media_preview": null,
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   },
   {
     "id": "1ac3l3q",
@@ -326,14 +412,14 @@
     "order_index": 690,
     "score": 628,
     "num_comments": 48,
-    "media_type": "text",
+    "media_type": null,
     "media_dir": null,
     "media_urls": [],
+    "media_url_compact": null,
     "gallery_count": null,
     "media_preview": null,
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   },
   {
     "id": "1adjxok",
@@ -350,14 +436,14 @@
     "order_index": 684,
     "score": 771,
     "num_comments": 37,
-    "media_type": "text",
+    "media_type": null,
     "media_dir": null,
     "media_urls": [],
+    "media_url_compact": null,
     "gallery_count": null,
     "media_preview": null,
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   },
   {
     "id": "1aop099",
@@ -374,14 +460,14 @@
     "order_index": 681,
     "score": 1925,
     "num_comments": 288,
-    "media_type": "text",
+    "media_type": null,
     "media_dir": null,
     "media_urls": [],
+    "media_url_compact": null,
     "gallery_count": null,
     "media_preview": null,
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   },
   {
     "id": "1auc45k",
@@ -398,14 +484,14 @@
     "order_index": 78,
     "score": 113,
     "num_comments": 3,
-    "media_type": "text",
+    "media_type": null,
     "media_dir": null,
     "media_urls": [],
+    "media_url_compact": null,
     "gallery_count": null,
     "media_preview": null,
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   },
   {
     "id": "1ayrigk",
@@ -422,14 +508,14 @@
     "order_index": 679,
     "score": 449,
     "num_comments": 74,
-    "media_type": "text",
+    "media_type": null,
     "media_dir": null,
     "media_urls": [],
+    "media_url_compact": null,
     "gallery_count": null,
     "media_preview": null,
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   },
   {
     "id": "1b0v6ng",
@@ -446,14 +532,14 @@
     "order_index": 637,
     "score": 428,
     "num_comments": 6,
-    "media_type": "text",
+    "media_type": null,
     "media_dir": null,
     "media_urls": [],
+    "media_url_compact": null,
     "gallery_count": null,
     "media_preview": null,
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   },
   {
     "id": "1b3x40n",
@@ -470,14 +556,14 @@
     "order_index": 678,
     "score": 380,
     "num_comments": 20,
-    "media_type": "text",
+    "media_type": null,
     "media_dir": null,
     "media_urls": [],
+    "media_url_compact": null,
     "gallery_count": null,
     "media_preview": null,
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   },
   {
     "id": "1bbiy7o",
@@ -494,14 +580,14 @@
     "order_index": 674,
     "score": 65,
     "num_comments": 14,
-    "media_type": "text",
+    "media_type": null,
     "media_dir": null,
     "media_urls": [],
+    "media_url_compact": null,
     "gallery_count": null,
     "media_preview": null,
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   },
   {
     "id": "1bg4smx",
@@ -518,14 +604,14 @@
     "order_index": 668,
     "score": 32,
     "num_comments": 3,
-    "media_type": "text",
+    "media_type": null,
     "media_dir": null,
     "media_urls": [],
+    "media_url_compact": null,
     "gallery_count": null,
     "media_preview": null,
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   },
   {
     "id": "1bi1xlr",
@@ -542,14 +628,14 @@
     "order_index": 670,
     "score": 109,
     "num_comments": 24,
-    "media_type": "text",
+    "media_type": null,
     "media_dir": null,
     "media_urls": [],
+    "media_url_compact": null,
     "gallery_count": null,
     "media_preview": null,
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   },
   {
     "id": "1bq5o4f",
@@ -566,13 +652,13 @@
     "order_index": 667,
     "score": 177,
     "num_comments": 7,
-    "media_type": "text",
+    "media_type": null,
     "media_dir": null,
     "media_urls": [],
+    "media_url_compact": null,
     "gallery_count": null,
     "media_preview": null,
     "preview_width": null,
-    "preview_height": null,
-    "preview_kind": null
+    "preview_height": null
   }
 ]
