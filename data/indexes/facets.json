@@ -1195,8 +1195,7 @@
   },
   "domains": {},
   "mediaTypes": {
-    "text": 624,
-    "external": 336,
-    "media": 279
+    "image": 3,
+    "gallery": 1
   }
 }
