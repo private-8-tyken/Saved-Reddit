@@ -27,12 +27,7 @@ import FilterPanel from "../components/FilterPanel.jsx";
     <Feed client:load favoritesOnly={true} />
     <FilterPanel client:load />
 
-    <script is:inline type="module">
-        import {
-            exportFavoritesCSV,
-            importFavoritesCSV,
-        } from "../src/utils/storage.js";
-
+    <script is:inline>
         const exportBtn = document.getElementById("exportFavs");
         const importBtn = document.getElementById("importFavs");
         const fileInput = document.getElementById("importFavsFile");
@@ -54,7 +49,7 @@ import FilterPanel from "../components/FilterPanel.jsx";
 
         exportBtn?.addEventListener("click", () => {
             try {
-                const csv = exportFavoritesCSV();
+                const csv = window.SR.exportFavoritesCSV();
                 const ts = new Date().toISOString().replace(/[:.]/g, "-");
                 downloadText(`favorites-${ts}.csv`, csv);
             } catch (e) {
@@ -70,15 +65,13 @@ import FilterPanel from "../components/FilterPanel.jsx";
             if (!file) return;
             try {
                 const text = await file.text();
-                const res = importFavoritesCSV(text);
+                const res = window.SR.importFavoritesCSV(text);
                 const msg = `Imported: +${res.added}, existing: ${res.alreadyHad}, invalid rows: ${res.invalid}.`;
                 summaryEl.textContent = msg;
-                // Feed listens for 'favorites:changed' and refreshes automatically
             } catch (err) {
                 console.error(err);
                 alert("Failed to import favorites CSV.");
             } finally {
-                // reset input so the same file can be re-imported if needed
                 e.target.value = "";
             }
         });

@@ -223,3 +223,10 @@ export function isAuthed() {
     if (!hasSession) return false;
     try { return window.sessionStorage.getItem('authed') === '1'; } catch { return false; }
 }
+
+// expose for inline scripts on GitHub Pages
+if (typeof window !== "undefined") {
+    window.SR = window.SR || {};
+    window.SR.exportFavoritesCSV = exportFavoritesCSV;
+    window.SR.importFavoritesCSV = importFavoritesCSV;
+}
