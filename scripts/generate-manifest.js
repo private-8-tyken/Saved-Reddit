@@ -355,6 +355,8 @@ for (const p of posts) {
             media_url_compact = embedded[0];
             media_preview = embedded[0];
             media_dir = null; // external
+        } else {
+            media_type = "text";
         }
     }
 
