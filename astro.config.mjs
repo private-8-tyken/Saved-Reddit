@@ -7,7 +7,7 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://private-8-tyken.github.io/Saved-Reddit',
+    site: 'https://private-8-tyken.github.io',
     base: '/Saved-Reddit/',
     output: 'static',
     integrations: [react()]

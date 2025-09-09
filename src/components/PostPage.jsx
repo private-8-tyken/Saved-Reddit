@@ -5,8 +5,7 @@ import CommentThread from "./CommentThread.jsx";
 import { PostSkeleton } from "./Skeleton.jsx";
 import { loadFavs, saveFavs } from "../utils/storage.js";
 
-const rawBase = import.meta.env.BASE_URL || "/";
-const BASE = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+const BASE = import.meta.env.BASE_URL || "/";
 
 /* ---------- tiny local utils for efficient media (additive) ---------- */
 function useInView({ rootMargin = "300px" } = {}) {

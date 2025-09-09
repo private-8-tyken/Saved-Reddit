@@ -2,8 +2,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { countBy } from "../utils/counts.js";
 
-const raw = import.meta.env.BASE_URL || "/";
-const BASE = raw.endsWith("/") ? raw : raw + "/";
+const BASE = import.meta.env.BASE_URL || "/";
 
 const GROUPS = [
     { key: "subs", title: "Subreddits", field: "subreddits", pick: (p) => p.subreddit },

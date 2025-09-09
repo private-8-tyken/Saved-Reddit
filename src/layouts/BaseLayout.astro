@@ -2,8 +2,7 @@
 // src/layouts/BaseLayout.astro
 // Base layout with title, CSS, and optional auth check
 const { title = 'Saved Reddit', requiresAuth = true } = Astro.props;
-const rawBase = Astro.site?.pathname || import.meta.env.BASE_URL || '/';
-const BASE = rawBase.endsWith('/') ? rawBase : rawBase + '/'; // ensure trailing slash
+const BASE = import.meta.env.BASE_URL || "/";
 ---
 
 <html lang="en">

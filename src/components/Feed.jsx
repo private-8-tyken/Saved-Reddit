@@ -7,8 +7,7 @@ import { SkeletonCard } from "./Skeleton.jsx";
 import { makeComparator } from "../utils/sorting.js";
 import { loadFavs } from "../utils/storage.js";
 
-const rawBase = import.meta.env.BASE_URL || "/";
-const BASE = rawBase.endsWith("/") ? rawBase : rawBase + "/";
+const BASE = import.meta.env.BASE_URL || "/";
 
 function getSearchSafe() {
     if (typeof window === "undefined") return "";
