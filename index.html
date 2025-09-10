@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Redgifs Loader (Video + Thumbnail)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        body {
+            font-family: system-ui, Arial, sans-serif;
+            margin: 2rem;
+            color: #eaeaea;
+            background: #121212;
+        }
+
+        .row {
+            display: flex;
+            gap: 2rem;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        video,
+        img {
+            max-width: 560px;
+            width: 100%;
+            border-radius: 12px;
+            background: #000;
+        }
+
+        .panel {
+            display: flex;
+            gap: .5rem;
+            margin-bottom: 1rem;
+        }
+
+        input[type=text] {
+            flex: 1;
+            padding: .6rem .8rem;
+            border-radius: 8px;
+            border: 1px solid #333;
+            background: #1b1b1b;
+            color: #eaeaea;
+        }
+
+        button {
+            padding: .6rem .9rem;
+            border-radius: 8px;
+            border: 1px solid #3a3a3a;
+            background: #242424;
+            color: #eee;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #2e2e2e;
+        }
+
+        .meta {
+            opacity: .7;
+            margin: .5rem 0 1rem;
+        }
+
+        .thumb-wrap {
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+        }
+
+        .err {
+            color: #ff8a8a;
+            margin-top: .5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Redgifs Video + Thumbnail</h1>
+    <div class="panel">
+        <input id="inp" type="text" placeholder="Paste Redgifs URL or slug (e.g., https://redgifs.com/watch/acceptableoddballsnowleopard)" />
+        <button id="btn">Load</button>
+    </div>
+    <div class="meta" id="meta"></div>
+    <div class="row">
+        <div>
+            <h3>Video</h3>
+            <video id="vid" controls muted playsinline loop poster="">
+                <source id="vidsrc" src="" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+            <div class="err" id="viderr"></div>
+        </div>
+        <div class="thumb-wrap">
+            <h3>Thumbnail</h3>
+            <img id="thumb" alt="Thumbnail" />
+            <div class="err" id="thumberr"></div>
+        </div>
+    </div>
+
+    <script>
+        const WORKER = "https://red-soldier.mindscast-ethan-r2cloudflare.workers.dev/"; // e.g., https://redgifs-proxy.yourname.workers.dev
+
+        const inp = document.getElementById("inp");
+        const btn = document.getElementById("btn");
+        const meta = document.getElementById("meta");
+
+        const vid = document.getElementById("vid");
+        const vidsrc = document.getElementById("vidsrc");
+        const viderr = document.getElementById("viderr");
+
+        const thumb = document.getElementById("thumb");
+        const thumberr = document.getElementById("thumberr");
+
+        function extractIdFromInput(s) {
+            try {
+                if (!s.includes("http")) return s.trim();
+                const u = new URL(s);
+                const parts = u.pathname.split("/").filter(Boolean);
+                return parts.pop();
+            } catch (e) { return s.trim(); }
+        }
+
+        async function load() {
+            viderr.textContent = "";
+            thumberr.textContent = "";
+            meta.textContent = "";
+
+            const raw = inp.value.trim();
+            if (!raw) return;
+
+            const id = extractIdFromInput(raw);
+
+            try {
+                const endpoint = `${WORKER}?id=${encodeURIComponent(id)}`;
+                const resp = await fetch(endpoint);
+                if (!resp.ok) throw new Error(`Proxy error ${resp.status}`);
+                const data = await resp.json();
+
+                meta.textContent = `Loaded slug: ${data.id}`;
+                if (data.videoUrl) {
+                    vidsrc.src = data.videoUrl;
+                    vid.setAttribute("poster", data.thumbUrl || "");
+                    vid.load();
+                    // try autoplay if allowed
+                    vid.play().catch(() => {
+                        // Autoplay blocked (e.g., not muted or policy). It's muted already, so mostly OK.
+                    });
+                } else {
+                    viderr.textContent = "No playable video URL returned.";
+                }
+
+                if (data.thumbUrl) {
+                    thumb.src = data.thumbUrl;
+                } else {
+                    thumberr.textContent = "No thumbnail URL returned.";
+                }
+            } catch (e) {
+                viderr.textContent = e.message || String(e);
+            }
+        }
+
+        btn.addEventListener("click", load);
+        inp.addEventListener("keydown", (e) => {
+            if (e.key === "Enter") load();
+        });
+    </script>
+</body>
+
+</html>
