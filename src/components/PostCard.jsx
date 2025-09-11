@@ -2,6 +2,7 @@
 import { useMemo, useRef, useState, useEffect } from "react";
 import { saveFavs } from "../utils/storage.js";
 import { excerpt, getDomain } from "../utils/text.js";
+import VideoSmart from "./VideoSmart.jsx";
 
 function useInViewport(opts = { root: null, rootMargin: "300px", threshold: 0.01 }) {
     const ref = useRef(null);
@@ -139,17 +140,16 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "" })
             return (
                 <div className="pc-expand">
                     <div className="pc-video-wrap">
-                        <video
-                            ref={vidRef}
+                        <VideoSmart
                             src={src}
                             poster={mediaPreview || undefined}
-                            controls={!isGifProxy} // keep the native control bar
-                            autoPlay
-                            loop
-                            muted={isGifProxy} // GIF proxies auto-muted
-                            playsInline
-                            preload="metadata"
-                            className="pc-media-el"
+                            loop={true}
+                            muted={isGifProxy}                 // GIF proxies stay muted/looping
+                            controls={!isGifProxy}             // show controls for real videos
+                            playsInline={true}
+                            isGif={isGifProxy}
+                            group="feed-expanded"              // separate group namespace
+                            videoClassName="pc-media-el"       // keep your existing styling
                         />
                     </div>
                 </div>
@@ -204,8 +204,8 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "" })
                         >
                             {mediaPreview ? (
                                 <img src={mediaPreview} alt="" loading="lazy" decoding="async" className="pc-thumb" />
-                            //) : hasVideo ? (
-                            //    <VideoThumb src={mediaUrls[0]} />
+                                //) : hasVideo ? (
+                                //    <VideoThumb src={mediaUrls[0]} />
                             ) : (
                                 <div className="pc-thumb pc-thumb--video"><span className="pc-play">▶</span></div>
                             )}
