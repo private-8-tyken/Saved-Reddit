@@ -53,7 +53,7 @@ export default function FilterPanel() {
             .then((r) => r.json())
             .then((fac) => { if (alive) setFacets(fac); })
             .catch(() => {
-                setFacets(nul1l);
+                setFacets(null);
                 setManifest(null);
                 setCounts(null);
             });
