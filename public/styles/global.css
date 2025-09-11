@@ -386,17 +386,17 @@ mark {
     transition: background-color .15s ease, border-color .15s ease, box-shadow .15s ease;
 }
 
-.post-card:hover {
-    background-color: color-mix(in oklab, var(--card), white 4%);
-    border-color: color-mix(in oklab, var(--border), white 12%);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, .25);
-}
-
 .post-card.is-viewed {
-    background-color: color-mix(in oklab, var(--card), var(--highlight) 12%);
-    border-color: color-mix(in oklab, var(--border), var(--highlight) 16%);
+    background-color: color-mix(in oklab, var(--card), var(--highlight) 4%);
+    border-color: color-mix(in oklab, var(--border), var(--highlight) 48%);
     opacity: 0.92;
     /* keep the stronger viewed cue from the older block */
+}
+
+.post-card:hover {
+    background-color: color-mix(in oklab, var(--card), var(--accent) 4%);
+    border-color: color-mix(in oklab, var(--border), var(--accent) 24%);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, .25);
 }
 
 /* Grid layout: 2-col only when a thumb exists */
@@ -494,6 +494,7 @@ mark {
 .title-link:focus {
     color: var(--accent);
     outline: none;
+    text-decoration: underline;
 }
 
 .flair {

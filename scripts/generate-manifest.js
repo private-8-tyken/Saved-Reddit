@@ -1,10 +1,19 @@
 // scripts/generate-manifest.js
-// Run: node scripts/generate-manifest.js
+// Dryrun: node scripts/generate-manifest.js --validate-only
+// Run:    node scripts/generate-manifest.js
 //
-// What it does:
+// SCHEMA CONTRACT (public shapes)
+// - Post (public):
+//   id:string, title:string, subreddit:string, author:string, created_utc:number|null,
+//   score?:number|null, num_comments?:number|null, flair?:string|null, permalink?:string, url?:string
+//   comments?: Comment[]
+// - Comment (public):
+//   id:string, author:string|null, body:string, score:number|null, replies:Comment[]
+//
+// What it does (summary):
 // - Lists ALL objects in your Cloudflare R2 bucket via S3 API (paginated)
 // - Builds an index: { <postId>: { images[], gallery[], video, redgiphy, gif } }
-// - Copies each raw post JSON to public/data/posts/<id>.json
+// - Normalizes each raw post JSON (lossless) and writes to public/data/posts/<id>.json
 // - Writes public/data/indexes/{posts-manifest.json, facets.json, build-report.json}
 //
 // Env (required for R2 listing):
@@ -12,14 +21,18 @@
 //   R2_ACCESS_KEY_ID     = "<access key>"
 //   R2_SECRET_ACCESS_KEY = "<secret>"
 //   R2_BUCKET            = "<bucket name>"
-//   PUBLIC_MEDIA_BASE    = "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/"  // MUST end with '/'
+//   PUBLIC_MEDIA_BASE    = "https://<your-worker-or-cdn>/"
 // Optional:
 //   R2_OBJECTS_CACHE     = "data/r2_objects.json"     // file path for caching keys
 //   R2_SKIP_LIST         = "1"                        // if set, read cache instead of calling R2
 //
+// Flags / Env:
+//   --validate-only OR MANIFEST_VALIDATE_ONLY=1  => validate/normalize in-memory; do not write manifest/facets/posts
+//
 // NOTE: PUBLIC_MEDIA_BASE is used to build absolute media URLs in the manifest.
 
-console.log("ENV present:",
+console.log(
+    "ENV present:",
     !!process.env.R2_ENDPOINT,
     !!process.env.R2_ACCESS_KEY_ID,
     !!process.env.R2_SECRET_ACCESS_KEY,
@@ -32,6 +45,10 @@ import path from "node:path";
 import { S3Client, ListObjectsV2Command } from "@aws-sdk/client-s3";
 
 try { await import("dotenv/config"); } catch { }
+
+const VALIDATE_ONLY =
+    process.argv.includes("--validate-only") ||
+    process.env.MANIFEST_VALIDATE_ONLY === "1";
 
 const ROOT = process.cwd();
 const INPUT_DIR = path.resolve(ROOT, "data/posts");
@@ -65,6 +82,11 @@ function isImageUrl(u) {
     const ext = extFromUrl(u);
     if (!ext) return false;
     return /^(jpe?g|png|webp)$/i.test(ext);
+}
+function stableHash(s = "") {
+    // tiny djb2 -> base36, 6 chars; stable across runs
+    let h = 5381; for (let i = 0; i < s.length; i++) h = ((h << 5) + h) ^ s.charCodeAt(i);
+    return (h >>> 0).toString(36).slice(0, 6);
 }
 function plainExcerpt(text, n = 320) {
     if (!text) return "";
@@ -106,6 +128,90 @@ function extractImageLinksFromSelftext(p) {
         if (/\.(?:jpe?g|png|webp|gif)(?:\?|#|$)/i.test(u) && !seen.has(u)) { seen.add(u); out.push(u); }
     }
     return out;
+}
+
+/** ---------- Lossless schema normalization ---------- */
+const POST_REQUIRED = ["id", "title", "subreddit", "author", "created_utc"];
+const coerceStr = (v) => (v === null || v === undefined) ? "" : String(v);
+const coerceNum = (v) => { const n = Number(v); return Number.isFinite(n) ? n : null; };
+
+/**
+ * Normalize Reddit-ish replies that might be:
+ *  - array of comments
+ *  - object with .data.children = [{ data: comment }, ...]
+ *  - empty string "" (no replies)
+ */
+function toReplyArray(rawReplies) {
+    if (!rawReplies) return [];
+    if (Array.isArray(rawReplies)) return rawReplies;
+    if (typeof rawReplies === "string") return []; // reddit sometimes returns "" for no replies
+    const children = rawReplies?.data?.children;
+    if (Array.isArray(children)) {
+        return children.map((c) => c?.data || c).filter(Boolean);
+    }
+    return [];
+}
+
+/**
+ * Lossless, never-drop normalization of a single comment node.
+ * Synthesizes id when missing; defaults author/body/score; recurses into replies as array.
+ */
+function normalizeComment(node, warnings, pathTag = "comments", idx = 0, parentSynth = "root") {
+    const obj = (node && typeof node === "object") ? node : {};
+    const rawId = obj.id != null ? String(obj.id) : "";
+    const body = obj.body != null ? coerceStr(obj.body) : "";
+    const author = obj.author != null ? coerceStr(obj.author) : null;
+    const score = coerceNum(obj.score);
+    const repliesRaw = toReplyArray(obj.replies);
+
+    let id = rawId.trim();
+    if (!id) {
+        // synth id: cid_<parent>_<pathIdx>_<hash>
+        id = `cid_${parentSynth}_${pathTag}-${idx}_${stableHash(body || author || "")}`;
+        warnings.push({ note: "Synthesized comment id", where: `${pathTag}[${idx}]`, synth: id });
+    }
+    const normReplies = [];
+    for (let i = 0; i < repliesRaw.length; i++) {
+        normReplies.push(normalizeComment(repliesRaw[i], warnings, `${pathTag}.replies`, i, id));
+    }
+    return { id, author, body, score, replies: normReplies };
+}
+
+/**
+ * Lossless normalization of a post to the public shape.
+ * Never drops a post; coerces required fields; normalizes comments if present.
+ */
+function normalizePostForPublic(raw, warnings, idHint) {
+    const id0 = raw?.id || raw?.name || idHint || "";
+    const id = coerceStr(id0) || `pid_${stableHash(JSON.stringify(raw).slice(0, 200))}`;
+    const title = coerceStr(raw?.title);
+    const subreddit = coerceStr(raw?.subreddit);
+    const author = coerceStr(raw?.author);
+    const created_utc = coerceNum(raw?.created_utc);
+    const coerced = { id, title, subreddit, author, created_utc };
+    const missing = POST_REQUIRED.filter(k => coerced[k] === "" || coerced[k] === null);
+    if (missing.length) {
+        warnings.push({ id, note: `Post missing/coerced fields: ${missing.join(", ")}`, type: "schema" });
+    }
+    // comments can exist under raw.comments or raw.data.comments
+    const topComments = Array.isArray(raw?.comments)
+        ? raw.comments
+        : Array.isArray(raw?.data?.comments)
+            ? raw.data.comments
+            : null;
+
+    let normComments = null;
+    if (Array.isArray(topComments)) {
+        normComments = [];
+        for (let i = 0; i < topComments.length; i++) {
+            normComments.push(normalizeComment(topComments[i], warnings, "comments", i, id));
+        }
+    }
+    return {
+        ...raw,
+        id, title, subreddit, author, created_utc,
+        comments: normComments ?? undefined,
+    };
 }
 
 /** ---------- R2 list + index ---------- */
@@ -263,16 +369,14 @@ async function loadPosts(rootDir) {
                 const raw = await fs.readFile(path.join(full, f), "utf8").catch(() => "");
                 if (!raw.trim()) continue;
                 const p = JSON.parse(raw);
-                out.push({ __stem: stem, __folder: sub, __rel: `${sub}/${f}`, ...p });
-                await fs.writeFile(path.join(POSTS_PUBLIC_DIR, `${stem}.json`), JSON.stringify(p));
+                out.push({ __stem: stem, __folder: sub, __rel: `${sub}/${f}`, __raw: p });
             }
         } else if (ent.isFile() && ent.name.endsWith(".json")) {
             const stem = path.parse(ent.name).name;
             const raw = await fs.readFile(full, "utf8").catch(() => "");
             if (!raw.trim()) continue;
             const p = JSON.parse(raw);
-            out.push({ __stem: stem, __folder: null, __rel: ent.name, ...p });
-            await fs.writeFile(path.join(POSTS_PUBLIC_DIR, `${stem}.json`), JSON.stringify(p));
+            out.push({ __stem: stem, __folder: null, __rel: ent.name, __raw: p });
         }
     }
     return out;
@@ -293,13 +397,31 @@ const r2Index = buildR2Index(r2Keys);
 
 const manifest = [];
 const warnings = [];
+let normalizedWritten = 0;
 
 for (const p of posts) {
-    const id = p.__stem || p.id || p.name;
+    const raw = p.__raw || p;
+    const idGuess = p.__stem || raw.id || raw.name;
+
+    // Normalize BEFORE writing any public files (lossless)
+    const norm = normalizePostForPublic(raw, warnings, idGuess);
+    const id = norm.id;
+    const publicPath = path.join(POSTS_PUBLIC_DIR, `${id}.json`);
+
+    // Write normalized public post JSON (unless validate-only)
+    if (!VALIDATE_ONLY) {
+        try {
+            await fs.writeFile(publicPath, JSON.stringify(norm));
+            normalizedWritten++;
+        } catch (e) {
+            warnings.push({ id, note: `Failed to write normalized post JSON: ${e.message}`, type: "io" });
+        }
+    }
+
     const order_index =
         ORDER_INDEX.get(id) ??
-        ORDER_INDEX.get(p.id) ??
-        ORDER_INDEX.get(p.name) ??
+        ORDER_INDEX.get(raw.id) ??
+        ORDER_INDEX.get(raw.name) ??
         null;
 
     // Gather media from R2 index (priority order)
@@ -349,7 +471,7 @@ for (const p of posts) {
         media_dir = "Images";
     } else {
         // No R2 match — fall back to embedded selftext images
-        const embedded = extractImageLinksFromSelftext(p);
+        const embedded = extractImageLinksFromSelftext(raw);
         if (embedded.length >= 2) {
             media_type = "gallery";
             media_urls = embedded.slice();
@@ -369,7 +491,7 @@ for (const p of posts) {
     }
 
     // --- Guarantee IMAGE previews for all media types ---
-    // 1) If preview exists but isn't an image, discard it (we only want jpg/png/webp)
+    // 1) If preview exists but isn't an image, discard it (only jpg/png/webp)
     if (media_preview && !isImageUrl(media_preview)) {
         media_preview = null;
     }
@@ -382,7 +504,7 @@ for (const p of posts) {
     }
     // 3) If still missing, fall back to Reddit's derived preview/thumbnail
     if (!media_preview) {
-        const pr = pickRedditPreview(p);
+        const pr = pickRedditPreview(raw);
         if (pr?.url) {
             media_preview = pr.url;
             preview_width = pr.w;
@@ -391,15 +513,14 @@ for (const p of posts) {
     }
 
     // --- Warnings ---
-    // 4) Warn if post has media but no R2 URLs (possible upload failure)
+    // Warn if post has media but no R2 URLs (possible upload failure)
     if (MEDIA_BASE_OK && ["image", "gallery", "video", "gif"].includes(media_type) && media_urls.length === 0) {
         warnings.push({ id, note: "Expected media but no URLs after R2 indexing.", type: media_type });
     }
     if (!MEDIA_BASE_OK) {
         warnings.push({ note: "PUBLIC_MEDIA_BASE not set; manifest media URLs may be null." });
     }
-
-    // 5) Final safety net: warn if a media post still lacks an image preview
+    // Final safety net: warn if a media post still lacks an image preview
     if (["image", "gallery", "video", "gif"].includes(media_type) && !media_preview) {
         warnings.push({
             id,
@@ -410,19 +531,19 @@ for (const p of posts) {
 
     manifest.push({
         id,
-        permalink: p.permalink,
-        url: p.url,
-        link_domain: p.link_domain || null,
-        title: p.title,
-        selftext_preview: plainExcerpt(p.selftext || ""),
-        subreddit: p.subreddit,
-        author: p.author,
-        flair: p.link_flair_text || p.flair || null,
-        created_utc: p.created_utc,
-        saved_index: p.saved_utc ?? (order_index !== null ? order_index : null),
+        permalink: raw.permalink,
+        url: raw.url,
+        link_domain: raw.link_domain || null,
+        title: norm.title,
+        selftext_preview: plainExcerpt(raw.selftext || ""),
+        subreddit: norm.subreddit,
+        author: norm.author,
+        flair: raw.link_flair_text || raw.flair || null,
+        created_utc: norm.created_utc,
+        saved_index: raw.saved_utc ?? (order_index !== null ? order_index : null),
         order_index,
-        score: p.score,
-        num_comments: p.num_comments,
+        score: raw.score,
+        num_comments: raw.num_comments,
 
         media_type,         // 'image' | 'gallery' | 'video' | 'gif' | 'link' | 'text' | null
         media_dir,          // 'Images' | 'Videos' | 'RedGiphys' | 'Gifs' | null
@@ -458,10 +579,18 @@ const facets = {
 };
 
 /** ---------- Write ---------- */
-await fs.writeFile(path.join(INDEX_OUT_DIR, "posts-manifest.json"), JSON.stringify(manifest, null, 2));
-await fs.writeFile(path.join(INDEX_OUT_DIR, "facets.json"), JSON.stringify(facets, null, 2));
-await fs.writeFile(path.join(INDEX_OUT_DIR, "build-report.json"), JSON.stringify({ posts: manifest.length, warnings }, null, 2));
+if (!VALIDATE_ONLY) {
+    await fs.writeFile(path.join(INDEX_OUT_DIR, "posts-manifest.json"), JSON.stringify(manifest, null, 2));
+    await fs.writeFile(path.join(INDEX_OUT_DIR, "facets.json"), JSON.stringify(facets, null, 2));
+}
+const report = {
+    posts: manifest.length,
+    normalized_posts_written: VALIDATE_ONLY ? 0 : normalizedWritten,
+    warnings
+};
+await fs.writeFile(path.join(INDEX_OUT_DIR, "build-report.json"), JSON.stringify(report, null, 2));
 
 console.log(`✅ Manifest built: ${manifest.length} posts`);
 console.log(`✅ Facets — subs:${Object.keys(facets.subreddits).length} authors:${Object.keys(facets.authors).length} flairs:${Object.keys(facets.flairs).length} domains:${Object.keys(facets.domains).length} media:${Object.keys(facets.mediaTypes).length}`);
 console.log(warnings.length ? `ℹ️ Warnings: ${warnings.length} (see build-report.json)` : "ℹ️ Warnings: 0");
+if (VALIDATE_ONLY) console.log("🔎 Validate-only mode: manifest/facets not written");
