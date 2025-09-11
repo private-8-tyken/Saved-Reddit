@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T21:58:35.924543+00:00",
+  "archived_at": "2025-09-11T08:20:25.899057+00:00",
   "reddit_fullname": "t3_pi2swo",
   "reddit_id": "pi2swo",
   "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/",
@@ -23,7 +23,7 @@
   "locked": false,
   "edited": 1630886819.0,
   "num_comments": 83,
-  "score": 255,
+  "score": 254,
   "upvote_ratio": 0.86,
   "media": null,
   "external_link": null,
@@ -57,7 +57,7 @@
     "upvote_ratio": 0.86,
     "author_flair_background_color": null,
     "subreddit_type": "public",
-    "ups": 255,
+    "ups": 254,
     "total_awards_received": 0,
     "media_embed": {},
     "thumbnail_width": null,
@@ -71,7 +71,7 @@
     "secure_media_embed": {},
     "link_flair_text": "Meetup",
     "can_mod_post": false,
-    "score": 255,
+    "score": 254,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -260,7 +260,7 @@
     "permalink": "/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/",
     "stickied": false,
     "url": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/",
-    "subreddit_subscribers": 102147,
+    "subreddit_subscribers": 102197,
     "created_utc": 1630801118.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -515,7 +515,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_hbn9w0w",
-                                "score": 74,
+                                "score": 77,
                                 "author_fullname": "t2_yfws2",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -563,7 +563,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 74
+                                "ups": 77
                               }
                             },
                             {
@@ -595,7 +595,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_hbn9w0w",
-                                "score": 12,
+                                "score": 11,
                                 "author_fullname": "t2_7ucgd",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -638,7 +638,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 12
+                                "ups": 11
                               }
                             },
                             {
@@ -670,7 +670,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_hbn9w0w",
-                                "score": 18,
+                                "score": 17,
                                 "author_fullname": "t2_dg0b6009",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -713,7 +713,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 18
+                                "ups": 17
                               }
                             }
                           ],
@@ -792,7 +792,7 @@
             "created_utc": 1630807880.0,
             "send_replies": true,
             "parent_id": "t3_pi2swo",
-            "score": 379,
+            "score": 376,
             "author_fullname": "t2_yfws2",
             "approved_by": null,
             "mod_note": null,
@@ -839,7 +839,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 379
+            "ups": 376
           }
         },
         {
@@ -852,7 +852,7 @@
             "awarders": [],
             "mod_reason_by": null,
             "banned_by": null,
-            "ups": 277,
+            "ups": 278,
             "removal_reason": null,
             "link_id": "t3_pi2swo",
             "author_flair_template_id": null,
@@ -871,7 +871,7 @@
             "can_mod_post": false,
             "send_replies": true,
             "parent_id": "t3_pi2swo",
-            "score": 277,
+            "score": 278,
             "approved_by": null,
             "report_reasons": null,
             "all_awardings": [],
@@ -938,6 +938,7 @@
                   {
                     "kind": "t1",
                     "data": {
+                      "body": "The brave soldier who walked so the rest of us could run.",
                       "subreddit_id": "t5_2r6sq",
                       "approved_at_utc": null,
                       "author_is_blocked": false,
@@ -971,7 +972,7 @@
                       "approved_by": null,
                       "mod_note": null,
                       "all_awardings": [],
-                      "body": "The brave soldier who walked so the rest of us could run.",
+                      "author_cakeday": true,
                       "edited": false,
                       "top_awarded_type": null,
                       "author_flair_css_class": null,
@@ -1211,7 +1212,7 @@
                       "created_utc": 1630824099.0,
                       "send_replies": true,
                       "parent_id": "t1_hbn24q7",
-                      "score": 7,
+                      "score": 8,
                       "author_fullname": "t2_cpfrlp98",
                       "removal_reason": null,
                       "approved_by": null,
@@ -1253,7 +1254,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 7
+                      "ups": 8
                     }
                   }
                 ],
@@ -1354,7 +1355,7 @@
             "created_utc": 1630802834.0,
             "send_replies": true,
             "parent_id": "t3_pi2swo",
-            "score": 141,
+            "score": 139,
             "author_fullname": "t2_gu3wg5",
             "approved_by": null,
             "mod_note": null,
@@ -1396,7 +1397,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 141
+            "ups": 139
           }
         },
         {
@@ -1452,7 +1453,7 @@
                       "created_utc": 1630803048.0,
                       "send_replies": true,
                       "parent_id": "t1_hbmt119",
-                      "score": 82,
+                      "score": 81,
                       "author_fullname": "t2_4rvm2x3v",
                       "removal_reason": null,
                       "approved_by": null,
@@ -1499,7 +1500,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 82
+                      "ups": 81
                     }
                   }
                 ],
@@ -1520,7 +1521,7 @@
             "created_utc": 1630802675.0,
             "send_replies": true,
             "parent_id": "t3_pi2swo",
-            "score": 151,
+            "score": 149,
             "author_fullname": "t2_6an1q3qp",
             "approved_by": null,
             "mod_note": null,
@@ -1562,7 +1563,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 151
+            "ups": 149
           }
         },
         {
@@ -1595,7 +1596,7 @@
             "created_utc": 1630803344.0,
             "send_replies": true,
             "parent_id": "t3_pi2swo",
-            "score": 51,
+            "score": 49,
             "author_fullname": "t2_gu3wg5",
             "approved_by": null,
             "mod_note": null,
@@ -1637,7 +1638,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 51
+            "ups": 49
           }
         },
         {
@@ -1693,7 +1694,7 @@
                       "created_utc": 1630818093.0,
                       "send_replies": true,
                       "parent_id": "t1_hbn0txu",
-                      "score": 25,
+                      "score": 26,
                       "author_fullname": "t2_11jhp6",
                       "removal_reason": null,
                       "approved_by": null,
@@ -1735,7 +1736,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 25
+                      "ups": 26
                     }
                   }
                 ],
@@ -1756,7 +1757,7 @@
             "created_utc": 1630806707.0,
             "send_replies": true,
             "parent_id": "t3_pi2swo",
-            "score": 138,
+            "score": 137,
             "author_fullname": "t2_22imgql3",
             "approved_by": null,
             "mod_note": null,
@@ -1803,7 +1804,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 138
+            "ups": 137
           }
         },
         {
@@ -1836,7 +1837,7 @@
             "created_utc": 1630801488.0,
             "send_replies": true,
             "parent_id": "t3_pi2swo",
-            "score": 80,
+            "score": 77,
             "author_fullname": "t2_6bmuafgj",
             "approved_by": null,
             "mod_note": null,
@@ -1878,12 +1879,13 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 80
+            "ups": 77
           }
         },
         {
           "kind": "t1",
           "data": {
+            "body": "Horny tritons are not as attracted to 3D girls as horny bruins, results may vary",
             "subreddit_id": "t5_2r6sq",
             "approved_at_utc": null,
             "author_is_blocked": false,
@@ -1911,13 +1913,13 @@
             "created_utc": 1630803112.0,
             "send_replies": true,
             "parent_id": "t3_pi2swo",
-            "score": 72,
+            "score": 71,
             "author_fullname": "t2_8l56fhe",
             "approved_by": null,
             "mod_note": null,
             "all_awardings": [],
             "collapsed": false,
-            "body": "Horny tritons are not as attracted to 3D girls as horny bruins, results may vary",
+            "author_cakeday": true,
             "edited": false,
             "top_awarded_type": null,
             "author_flair_css_class": null,
@@ -1958,7 +1960,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 72
+            "ups": 71
           }
         },
         {
@@ -2066,7 +2068,7 @@
             "created_utc": 1630802973.0,
             "send_replies": true,
             "parent_id": "t3_pi2swo",
-            "score": 29,
+            "score": 27,
             "author_fullname": "t2_amd0sotm",
             "approved_by": null,
             "mod_note": null,
@@ -2108,7 +2110,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 29
+            "ups": 27
           }
         },
         {
@@ -2141,7 +2143,7 @@
             "created_utc": 1630818666.0,
             "send_replies": true,
             "parent_id": "t3_pi2swo",
-            "score": 24,
+            "score": 26,
             "author_fullname": "t2_6m60u9ha",
             "approved_by": null,
             "mod_note": null,
@@ -2183,7 +2185,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 24
+            "ups": 26
           }
         },
         {
@@ -2431,7 +2433,7 @@
                                           "awarders": [],
                                           "mod_reason_by": null,
                                           "banned_by": null,
-                                          "ups": 6,
+                                          "ups": 5,
                                           "removal_reason": null,
                                           "link_id": "t3_pi2swo",
                                           "author_flair_template_id": null,
@@ -2536,7 +2538,7 @@
                                           "can_mod_post": false,
                                           "send_replies": true,
                                           "parent_id": "t1_hbngh9u",
-                                          "score": 6,
+                                          "score": 5,
                                           "approved_by": null,
                                           "report_reasons": null,
                                           "all_awardings": [],
@@ -2721,7 +2723,7 @@
             "created_utc": 1630809725.0,
             "send_replies": true,
             "parent_id": "t3_pi2swo",
-            "score": 50,
+            "score": 46,
             "author_fullname": "t2_9h37yuvt",
             "approved_by": null,
             "mod_note": null,
@@ -2763,7 +2765,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 50
+            "ups": 46
           }
         },
         {
@@ -2796,7 +2798,7 @@
             "created_utc": 1630832304.0,
             "send_replies": true,
             "parent_id": "t3_pi2swo",
-            "score": 20,
+            "score": 21,
             "author_fullname": "t2_42fbwl8e",
             "approved_by": null,
             "mod_note": null,
@@ -2843,7 +2845,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 20
+            "ups": 21
           }
         },
         {
@@ -2876,7 +2878,7 @@
             "created_utc": 1630817064.0,
             "send_replies": true,
             "parent_id": "t3_pi2swo",
-            "score": 40,
+            "score": 39,
             "author_fullname": "t2_ykwaa",
             "approved_by": null,
             "mod_note": null,
@@ -2918,7 +2920,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 40
+            "ups": 39
           }
         },
         {
@@ -3021,7 +3023,7 @@
             "created_utc": 1630819372.0,
             "send_replies": true,
             "parent_id": "t3_pi2swo",
-            "score": 17,
+            "score": 18,
             "author_fullname": "t2_cc2kzdij",
             "approved_by": null,
             "mod_note": null,
@@ -3068,7 +3070,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 17
+            "ups": 18
           }
         },
         {
@@ -3237,7 +3239,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_hbmuv7c",
-                                "score": 18,
+                                "score": 20,
                                 "author_fullname": "t2_2jgsgo4w",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -3285,7 +3287,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 18
+                                "ups": 20
                               }
                             }
                           ],
@@ -3306,7 +3308,7 @@
                       "created_utc": 1630803617.0,
                       "send_replies": true,
                       "parent_id": "t1_hbmuin5",
-                      "score": 82,
+                      "score": 78,
                       "author_fullname": "t2_3qzzx5eq",
                       "removal_reason": null,
                       "approved_by": null,
@@ -3353,7 +3355,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 82
+                      "ups": 78
                     }
                   },
                   {
@@ -3386,7 +3388,7 @@
                       "created_utc": 1630804249.0,
                       "send_replies": true,
                       "parent_id": "t1_hbmuin5",
-                      "score": 23,
+                      "score": 20,
                       "author_fullname": "t2_gu3wg5",
                       "removal_reason": null,
                       "approved_by": null,
@@ -3428,7 +3430,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 23
+                      "ups": 20
                     }
                   }
                 ],
@@ -3604,7 +3606,7 @@
             "created_utc": 1630840759.0,
             "send_replies": true,
             "parent_id": "t3_pi2swo",
-            "score": 12,
+            "score": 13,
             "author_fullname": "t2_6adthjhd",
             "approved_by": null,
             "mod_note": null,
@@ -3646,7 +3648,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 12
+            "ups": 13
           }
         },
         {
@@ -3682,7 +3684,7 @@
                       "awarders": [],
                       "mod_reason_by": null,
                       "banned_by": null,
-                      "ups": 43,
+                      "ups": 44,
                       "removal_reason": null,
                       "link_id": "t3_pi2swo",
                       "author_flair_template_id": null,
@@ -3705,7 +3707,7 @@
                                 "awarders": [],
                                 "mod_reason_by": null,
                                 "banned_by": null,
-                                "ups": 17,
+                                "ups": 18,
                                 "removal_reason": null,
                                 "link_id": "t3_pi2swo",
                                 "author_flair_template_id": null,
@@ -3725,7 +3727,7 @@
                                 "created_utc": 1630804650.0,
                                 "send_replies": true,
                                 "parent_id": "t1_hbmvmrn",
-                                "score": 17,
+                                "score": 18,
                                 "approved_by": null,
                                 "report_reasons": null,
                                 "all_awardings": [],
@@ -3782,7 +3784,7 @@
                       "can_mod_post": false,
                       "send_replies": true,
                       "parent_id": "t1_hbmu6lv",
-                      "score": 43,
+                      "score": 44,
                       "approved_by": null,
                       "report_reasons": null,
                       "all_awardings": [],
@@ -3916,7 +3918,7 @@
             "created_utc": 1630823795.0,
             "send_replies": true,
             "parent_id": "t3_pi2swo",
-            "score": 8,
+            "score": 9,
             "author_fullname": "t2_11wq3v",
             "approved_by": null,
             "mod_note": null,
@@ -3963,7 +3965,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 8
+            "ups": 9
           }
         },
         {
@@ -4072,6 +4074,7 @@
                   {
                     "kind": "t1",
                     "data": {
+                      "body": "This is why we’re no longer a top tier University",
                       "subreddit_id": "t5_2r6sq",
                       "approved_at_utc": null,
                       "author_is_blocked": false,
@@ -4121,7 +4124,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_hbmwu01",
-                                "score": 15,
+                                "score": 14,
                                 "author_fullname": "t2_2inzzxdq",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -4169,7 +4172,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 15
+                                "ups": 14
                               }
                             },
                             {
@@ -4406,7 +4409,7 @@
                                           "can_mod_post": false,
                                           "send_replies": true,
                                           "parent_id": "t1_hbn89et",
-                                          "score": 23,
+                                          "score": 24,
                                           "author_fullname": "t2_3qzzx5eq",
                                           "removal_reason": null,
                                           "approved_by": null,
@@ -4454,7 +4457,7 @@
                                           "collapsed_because_crowd_control": null,
                                           "mod_reports": [],
                                           "num_reports": null,
-                                          "ups": 23
+                                          "ups": 24
                                         }
                                       }
                                     ],
@@ -4544,7 +4547,7 @@
                       "approved_by": null,
                       "mod_note": null,
                       "all_awardings": [],
-                      "body": "This is why we’re no longer a top tier University",
+                      "author_cakeday": true,
                       "edited": false,
                       "top_awarded_type": null,
                       "author_flair_css_class": null,
@@ -4746,7 +4749,7 @@
             "awarders": [],
             "mod_reason_by": null,
             "banned_by": null,
-            "ups": 6,
+            "ups": 5,
             "removal_reason": null,
             "link_id": "t3_pi2swo",
             "author_flair_template_id": null,
@@ -4765,7 +4768,7 @@
             "can_mod_post": false,
             "send_replies": true,
             "parent_id": "t3_pi2swo",
-            "score": 6,
+            "score": 5,
             "approved_by": null,
             "report_reasons": null,
             "all_awardings": [],
@@ -4996,7 +4999,7 @@
             "created_utc": 1630802814.0,
             "send_replies": true,
             "parent_id": "t3_pi2swo",
-            "score": 12,
+            "score": 13,
             "author_fullname": "t2_mgt9z",
             "approved_by": null,
             "mod_note": null,
@@ -5043,7 +5046,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 12
+            "ups": 13
           }
         },
         {
@@ -5226,7 +5229,7 @@
             "created_utc": 1630821631.0,
             "send_replies": true,
             "parent_id": "t3_pi2swo",
-            "score": 4,
+            "score": 6,
             "author_fullname": "t2_5ebw65dz",
             "approved_by": null,
             "mod_note": null,
@@ -5273,7 +5276,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 4
+            "ups": 6
           }
         },
         {
@@ -5597,7 +5600,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_hbpyrla",
-                                "score": 4,
+                                "score": 5,
                                 "author_fullname": "t2_9h37yuvt",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -5640,7 +5643,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 4
+                                "ups": 5
                               }
                             }
                           ],
@@ -5661,7 +5664,7 @@
                       "created_utc": 1630869900.0,
                       "send_replies": true,
                       "parent_id": "t1_hbnw0ny",
-                      "score": 3,
+                      "score": 4,
                       "author_fullname": "t2_11wq3v",
                       "removal_reason": null,
                       "approved_by": null,
@@ -5708,7 +5711,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 3
+                      "ups": 4
                     }
                   }
                 ],
@@ -5784,7 +5787,7 @@
             "awarders": [],
             "mod_reason_by": null,
             "banned_by": null,
-            "ups": 8,
+            "ups": 6,
             "removal_reason": null,
             "link_id": "t3_pi2swo",
             "author_flair_template_id": null,
@@ -5803,7 +5806,7 @@
             "can_mod_post": false,
             "send_replies": true,
             "parent_id": "t3_pi2swo",
-            "score": 8,
+            "score": 6,
             "approved_by": null,
             "report_reasons": null,
             "all_awardings": [],
@@ -5874,7 +5877,7 @@
             "created_utc": 1630812627.0,
             "send_replies": true,
             "parent_id": "t3_pi2swo",
-            "score": 6,
+            "score": 8,
             "author_fullname": "t2_4hheyy33",
             "approved_by": null,
             "mod_note": null,
@@ -5916,7 +5919,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 6
+            "ups": 8
           }
         },
         {
@@ -6137,7 +6140,7 @@
                                                                                             "created_utc": 1630812471.0,
                                                                                             "send_replies": true,
                                                                                             "parent_id": "t1_hbnb3yu",
-                                                                                            "score": 5,
+                                                                                            "score": 7,
                                                                                             "author_fullname": "t2_8sckiahp",
                                                                                             "approved_by": null,
                                                                                             "mod_note": null,
@@ -6179,7 +6182,7 @@
                                                                                             "collapsed_because_crowd_control": null,
                                                                                             "mod_reports": [],
                                                                                             "num_reports": null,
-                                                                                            "ups": 5
+                                                                                            "ups": 7
                                                                                           }
                                                                                         }
                                                                                       ],
@@ -6200,7 +6203,7 @@
                                                                                   "created_utc": 1630812309.0,
                                                                                   "send_replies": true,
                                                                                   "parent_id": "t1_hbnb2jl",
-                                                                                  "score": 6,
+                                                                                  "score": 8,
                                                                                   "author_fullname": "t2_3qzzx5eq",
                                                                                   "approved_by": null,
                                                                                   "mod_note": null,
@@ -6246,7 +6249,7 @@
                                                                                   "collapsed_because_crowd_control": null,
                                                                                   "mod_reports": [],
                                                                                   "num_reports": null,
-                                                                                  "ups": 6
+                                                                                  "ups": 8
                                                                                 }
                                                                               }
                                                                             ],
@@ -6328,7 +6331,7 @@
                                                               "can_mod_post": false,
                                                               "send_replies": true,
                                                               "parent_id": "t1_hbn8fz6",
-                                                              "score": -4,
+                                                              "score": -3,
                                                               "author_fullname": "t2_3qzzx5eq",
                                                               "approved_by": null,
                                                               "mod_note": null,
@@ -6375,7 +6378,7 @@
                                                               "collapsed_because_crowd_control": null,
                                                               "mod_reports": [],
                                                               "num_reports": null,
-                                                              "ups": -4
+                                                              "ups": -3
                                                             }
                                                           }
                                                         ],
@@ -6457,7 +6460,7 @@
                                           "can_mod_post": false,
                                           "send_replies": true,
                                           "parent_id": "t1_hbn5k7z",
-                                          "score": -1,
+                                          "score": 1,
                                           "author_fullname": "t2_3qzzx5eq",
                                           "removal_reason": null,
                                           "approved_by": null,
@@ -6505,7 +6508,7 @@
                                           "collapsed_because_crowd_control": null,
                                           "mod_reports": [],
                                           "num_reports": null,
-                                          "ups": -1
+                                          "ups": 1
                                         }
                                       }
                                     ],
@@ -6525,7 +6528,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_hbn5e4d",
-                                "score": -2,
+                                "score": -1,
                                 "author_fullname": "t2_8sckiahp",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -6568,7 +6571,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": -2
+                                "ups": -1
                               }
                             }
                           ],
@@ -6589,7 +6592,7 @@
                       "created_utc": 1630809146.0,
                       "send_replies": true,
                       "parent_id": "t1_hbn3mj6",
-                      "score": 16,
+                      "score": 17,
                       "author_fullname": "t2_3qzzx5eq",
                       "removal_reason": null,
                       "approved_by": null,
@@ -6636,7 +6639,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 16
+                      "ups": 17
                     }
                   }
                 ],
@@ -6876,7 +6879,7 @@
       "author": "ItsCrossBoy",
       "author_fullname": "t2_yfws2",
       "body": "Filling out a Google form for sex is one of the most ucsd things I've ever seen in my life",
-      "score": 379,
+      "score": 376,
       "created_utc": 1630807880.0,
       "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbn314v/",
       "is_submitter": false,
@@ -6898,7 +6901,7 @@
               "author": "ItsCrossBoy",
               "author_fullname": "t2_yfws2",
               "body": "And? It's still a very UCSD thing to do lol\n\nAs a UCSD student I can pretty confidently say that\n\nEdit: also it's a joke it's not that deep",
-              "score": 74,
+              "score": 77,
               "created_utc": 1630815707.0,
               "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbngsm3/",
               "is_submitter": false,
@@ -6923,7 +6926,7 @@
               "author": "jenfoolery",
               "author_fullname": "t2_7ucgd",
               "body": "That makes it even more UCSD.",
-              "score": 12,
+              "score": 11,
               "created_utc": 1630857385.0,
               "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbp6ksm/",
               "is_submitter": false,
@@ -6935,7 +6938,7 @@
               "author": "glory_to_the_sun_god",
               "author_fullname": "t2_dg0b6009",
               "body": "But we’re going to be stereotyped for it.",
-              "score": 18,
+              "score": 17,
               "created_utc": 1630814764.0,
               "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbnfa8u/",
               "is_submitter": false,
@@ -6951,7 +6954,7 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "[deleted]",
-      "score": 277,
+      "score": 278,
       "created_utc": 1630808245.0,
       "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbn3pti/",
       "is_submitter": false,
@@ -7011,7 +7014,7 @@
           "author": "Excellent_Lettuce831",
           "author_fullname": "t2_cpfrlp98",
           "body": "Boi*",
-          "score": 7,
+          "score": 8,
           "created_utc": 1630824099.0,
           "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbnseo5/",
           "is_submitter": false,
@@ -7025,7 +7028,7 @@
       "author": "The200Rounds",
       "author_fullname": "t2_gu3wg5",
       "body": "Like someone said \"be the change you want to see\"",
-      "score": 141,
+      "score": 139,
       "created_utc": 1630802834.0,
       "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbmtbxt/",
       "is_submitter": false,
@@ -7037,7 +7040,7 @@
       "author": "dipshit_dragon",
       "author_fullname": "t2_6an1q3qp",
       "body": "what an excellent idea, i see no possible way this could go wrong",
-      "score": 151,
+      "score": 149,
       "created_utc": 1630802675.0,
       "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbmt119/",
       "is_submitter": false,
@@ -7048,7 +7051,7 @@
           "author": "Kavhow",
           "author_fullname": "t2_4rvm2x3v",
           "body": "Yeah, the mod team just quickly discussed and we’re going to leave it up for now. However we take no responsibility whatsoever for any of it. We are not involved in this, we’ve not vouched for OP or anything, so enter at your own risk. \n\n\nDating apps are another good alternative.",
-          "score": 82,
+          "score": 81,
           "created_utc": 1630803048.0,
           "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbmtr71/",
           "is_submitter": false,
@@ -7062,7 +7065,7 @@
       "author": "The200Rounds",
       "author_fullname": "t2_gu3wg5",
       "body": "Some are laughing now, but let's see who gets the last laugh at the end. The battle begins.",
-      "score": 51,
+      "score": 49,
       "created_utc": 1630803344.0,
       "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbmuc18/",
       "is_submitter": false,
@@ -7074,7 +7077,7 @@
       "author": "shuahe",
       "author_fullname": "t2_22imgql3",
       "body": "These are gonna be filled with straight men",
-      "score": 138,
+      "score": 137,
       "created_utc": 1630806707.0,
       "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbn0txu/",
       "is_submitter": false,
@@ -7085,7 +7088,7 @@
           "author": "somak97",
           "author_fullname": "t2_11jhp6",
           "body": "You're right lmao",
-          "score": 25,
+          "score": 26,
           "created_utc": 1630818093.0,
           "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbnkdmx/",
           "is_submitter": false,
@@ -7099,7 +7102,7 @@
       "author": "rahatgottem",
       "author_fullname": "t2_6bmuafgj",
       "body": "💀",
-      "score": 80,
+      "score": 77,
       "created_utc": 1630801488.0,
       "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbmqq00/",
       "is_submitter": false,
@@ -7111,7 +7114,7 @@
       "author": "absolutelycurtainss",
       "author_fullname": "t2_8l56fhe",
       "body": "Horny tritons are not as attracted to 3D girls as horny bruins, results may vary",
-      "score": 72,
+      "score": 71,
       "created_utc": 1630803112.0,
       "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbmtvwy/",
       "is_submitter": false,
@@ -7135,7 +7138,7 @@
       "author": "Gen_ayee",
       "author_fullname": "t2_amd0sotm",
       "body": "I-",
-      "score": 29,
+      "score": 27,
       "created_utc": 1630802973.0,
       "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbmtlxa/",
       "is_submitter": false,
@@ -7147,7 +7150,7 @@
       "author": "deafdildo",
       "author_fullname": "t2_6m60u9ha",
       "body": "I really hope we get follow up stories from people doing this",
-      "score": 24,
+      "score": 26,
       "created_utc": 1630818666.0,
       "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbnl72g/",
       "is_submitter": false,
@@ -7159,7 +7162,7 @@
       "author": "menace_to-society",
       "author_fullname": "t2_9h37yuvt",
       "body": "LETS FUCKING GO THIS IS MY TIME TO SHINE 😈. Ladies one at a time please",
-      "score": 50,
+      "score": 46,
       "created_utc": 1630809725.0,
       "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbn6gz4/",
       "is_submitter": false,
@@ -7217,7 +7220,7 @@
                   "author": "[deleted]",
                   "author_fullname": null,
                   "body": "[removed]",
-                  "score": 6,
+                  "score": 5,
                   "created_utc": 1630885822.0,
                   "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbqwrrz/",
                   "is_submitter": false,
@@ -7248,7 +7251,7 @@
       "author": "TearsAreInYourEyes",
       "author_fullname": "t2_42fbwl8e",
       "body": "This was funny until people started spamming with blank spaces so it's hard to read the shitposts.",
-      "score": 20,
+      "score": 21,
       "created_utc": 1630832304.0,
       "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbo20ll/",
       "is_submitter": false,
@@ -7260,7 +7263,7 @@
       "author": "memesus",
       "author_fullname": "t2_ykwaa",
       "body": "STRAIGHT MAN\nSTRAIGHT MAN\nSTRAIGHT MAN\nSTRAIGHT MAN\nSTRAIGHT MAN\nGAY\nSTRAIGHT MAN\nSTRAIGHT MAN\nSTRAIGHT MAN",
-      "score": 40,
+      "score": 39,
       "created_utc": 1630817064.0,
       "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbnivdv/",
       "is_submitter": false,
@@ -7284,7 +7287,7 @@
       "author": "TigerShark_524",
       "author_fullname": "t2_cc2kzdij",
       "body": "#B O N K",
-      "score": 17,
+      "score": 18,
       "created_utc": 1630819372.0,
       "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbnm6dy/",
       "is_submitter": false,
@@ -7307,7 +7310,7 @@
           "author": "sqweeeeeeeeeeeeeeeps",
           "author_fullname": "t2_3qzzx5eq",
           "body": "You are very wrong. Piazza is god tier. Best way to dm ur TA’s and Professors and get extra credit",
-          "score": 82,
+          "score": 78,
           "created_utc": 1630803617.0,
           "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbmuv7c/",
           "is_submitter": false,
@@ -7318,7 +7321,7 @@
               "author": "Lucifer3130",
               "author_fullname": "t2_2jgsgo4w",
               "body": "Just submit a pull request to their github repo, instant sex",
-              "score": 18,
+              "score": 20,
               "created_utc": 1630822297.0,
               "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbnq574/",
               "is_submitter": false,
@@ -7345,7 +7348,7 @@
           "author": "The200Rounds",
           "author_fullname": "t2_gu3wg5",
           "body": "I'm pretty sure they made the new account in order to make this post specifically.",
-          "score": 23,
+          "score": 20,
           "created_utc": 1630804249.0,
           "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbmw3fk/",
           "is_submitter": false,
@@ -7371,7 +7374,7 @@
       "author": "Hatshepsut_4",
       "author_fullname": "t2_6adthjhd",
       "body": "Literally half of the responses are trolls lmao",
-      "score": 12,
+      "score": 13,
       "created_utc": 1630840759.0,
       "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hboblw2/",
       "is_submitter": false,
@@ -7394,7 +7397,7 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "Some of us are too ugly for that, okay 😒",
-          "score": 43,
+          "score": 44,
           "created_utc": 1630804013.0,
           "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbmvmrn/",
           "is_submitter": false,
@@ -7405,7 +7408,7 @@
               "author": "[deleted]",
               "author_fullname": null,
               "body": "[deleted]",
-              "score": 17,
+              "score": 18,
               "created_utc": 1630804650.0,
               "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbmwv3c/",
               "is_submitter": false,
@@ -7421,7 +7424,7 @@
       "author": "vapegod_420",
       "author_fullname": "t2_11wq3v",
       "body": "That boy ain't right \n\n-Hank Hill",
-      "score": 8,
+      "score": 9,
       "created_utc": 1630823795.0,
       "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbns14z/",
       "is_submitter": false,
@@ -7467,7 +7470,7 @@
               "author": "wozzack",
               "author_fullname": "t2_2inzzxdq",
               "body": "We need more bonk",
-              "score": 15,
+              "score": 14,
               "created_utc": 1630806927.0,
               "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbn18um/",
               "is_submitter": false,
@@ -7490,7 +7493,7 @@
                   "author": "sqweeeeeeeeeeeeeeeps",
                   "author_fullname": "t2_3qzzx5eq",
                   "body": "A short window, the final minute before this was posted",
-                  "score": 23,
+                  "score": 24,
                   "created_utc": 1630811301.0,
                   "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbn9c4z/",
                   "is_submitter": false,
@@ -7546,7 +7549,7 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "Someone fucked up the sheet",
-      "score": 6,
+      "score": 5,
       "created_utc": 1630820816.0,
       "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbno6la/",
       "is_submitter": false,
@@ -7582,7 +7585,7 @@
       "author": "freakyburrito",
       "author_fullname": "t2_mgt9z",
       "body": "Huh?",
-      "score": 12,
+      "score": 13,
       "created_utc": 1630802814.0,
       "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbmtajh/",
       "is_submitter": false,
@@ -7618,7 +7621,7 @@
       "author": "TheMalcus",
       "author_fullname": "t2_5ebw65dz",
       "body": "The only appropriate question to this is: Why?",
-      "score": 4,
+      "score": 6,
       "created_utc": 1630821631.0,
       "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbnpa5a/",
       "is_submitter": false,
@@ -7653,7 +7656,7 @@
           "author": "vapegod_420",
           "author_fullname": "t2_11wq3v",
           "body": "No",
-          "score": 3,
+          "score": 4,
           "created_utc": 1630869900.0,
           "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbpyrla/",
           "is_submitter": false,
@@ -7664,7 +7667,7 @@
               "author": "menace_to-society",
               "author_fullname": "t2_9h37yuvt",
               "body": "Omg hiiiii vape god do u wonna get a lil freaky???? 😩🤤",
-              "score": 4,
+              "score": 5,
               "created_utc": 1630882199.0,
               "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbqpgaz/",
               "is_submitter": false,
@@ -7705,7 +7708,7 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "Noooo please come on we are better than this",
-      "score": 8,
+      "score": 6,
       "created_utc": 1630807247.0,
       "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbn1u6u/",
       "is_submitter": false,
@@ -7717,7 +7720,7 @@
       "author": "wowzersXP",
       "author_fullname": "t2_4hheyy33",
       "body": "nonbinary ppl aren't included and it feels weird to only put in a few sexualities :/ \n\nidk this google form seems rushed",
-      "score": 6,
+      "score": 8,
       "created_utc": 1630812627.0,
       "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbnbnri/",
       "is_submitter": false,
@@ -7740,7 +7743,7 @@
           "author": "sqweeeeeeeeeeeeeeeps",
           "author_fullname": "t2_3qzzx5eq",
           "body": "Where does it say it’s a sexuality",
-          "score": 16,
+          "score": 17,
           "created_utc": 1630809146.0,
           "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbn5e4d/",
           "is_submitter": false,
@@ -7751,7 +7754,7 @@
               "author": "guitarloop",
               "author_fullname": "t2_8sckiahp",
               "body": "it doesn’t but they are listed without the sexualities. you can only choose your gender identity OR your sexuality if you’re trans. it doesn’t make sense to me",
-              "score": -2,
+              "score": -1,
               "created_utc": 1630809237.0,
               "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbn5k7z/",
               "is_submitter": false,
@@ -7762,7 +7765,7 @@
                   "author": "sqweeeeeeeeeeeeeeeps",
                   "author_fullname": "t2_3qzzx5eq",
                   "body": "For the low population of trans people, I think adding even more categories wouldn’t be ideal. There’s already a lot on the sheet. Trans people can express what they are looking for anyways so there shouldn’t be any issue or miscommunication",
-                  "score": -1,
+                  "score": 1,
                   "created_utc": 1630810542.0,
                   "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbn7yko/",
                   "is_submitter": false,
@@ -7784,7 +7787,7 @@
                           "author": "sqweeeeeeeeeeeeeeeps",
                           "author_fullname": "t2_3qzzx5eq",
                           "body": "Psh. Speak for yourself \n\nThis my only opportunity to meet w o m e n",
-                          "score": -4,
+                          "score": -3,
                           "created_utc": 1630811092.0,
                           "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbn8y4p/",
                           "is_submitter": false,
@@ -7806,7 +7809,7 @@
                                   "author": "sqweeeeeeeeeeeeeeeps",
                                   "author_fullname": "t2_3qzzx5eq",
                                   "body": "Going on canvas inboxes 😳",
-                                  "score": 6,
+                                  "score": 8,
                                   "created_utc": 1630812309.0,
                                   "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbnb3yu/",
                                   "is_submitter": false,
@@ -7817,7 +7820,7 @@
                                       "author": "guitarloop",
                                       "author_fullname": "t2_8sckiahp",
                                       "body": "flirting in the peer review comments 🥵",
-                                      "score": 5,
+                                      "score": 7,
                                       "created_utc": 1630812471.0,
                                       "permalink": "https://www.reddit.com/r/UCSD/comments/pi2swo/rucsd_hookup_sheet/hbnbe40/",
                                       "is_submitter": false,

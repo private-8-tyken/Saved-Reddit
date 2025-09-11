@@ -1,6 +1,6 @@
 {
-  "posts": 1237,
-  "normalized_posts_written": 0,
+  "posts": 1023,
+  "normalized_posts_written": 1023,
   "warnings": [
     {
       "id": "103qhdw",
@@ -54,11 +54,6 @@
     },
     {
       "id": "14deyfj",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "video"
-    },
-    {
-      "id": "14hnsiu",
       "note": "Media post lacks an image preview (poster/thumbnail not found).",
       "type": "video"
     },
@@ -164,11 +159,6 @@
     },
     {
       "id": "1bhl6g0",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "video"
-    },
-    {
-      "id": "1bjzawv",
       "note": "Media post lacks an image preview (poster/thumbnail not found).",
       "type": "video"
     },
@@ -443,17 +433,7 @@
       "type": "video"
     },
     {
-      "id": "1hoef9x",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
-    },
-    {
       "id": "1hvuypg",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "video"
-    },
-    {
-      "id": "1hvx0fr",
       "note": "Media post lacks an image preview (poster/thumbnail not found).",
       "type": "video"
     },
@@ -728,11 +708,6 @@
       "type": "video"
     },
     {
-      "id": "1lhcwz2",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "video"
-    },
-    {
       "id": "1lhkp3i",
       "note": "Media post lacks an image preview (poster/thumbnail not found).",
       "type": "video"
@@ -869,11 +844,6 @@
     },
     {
       "id": "1m3cqjw",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "video"
-    },
-    {
-      "id": "1m4aq0u",
       "note": "Media post lacks an image preview (poster/thumbnail not found).",
       "type": "video"
     },
@@ -1313,29 +1283,9 @@
       "type": "gif"
     },
     {
-      "id": "13il4cx",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
-    },
-    {
-      "id": "13u0jaj",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
-    },
-    {
       "id": "14hnsiu",
       "note": "Media post lacks an image preview (poster/thumbnail not found).",
       "type": "video"
-    },
-    {
-      "id": "14k0xjp",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
-    },
-    {
-      "id": "14kidw8",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
     },
     {
       "id": "151416f",
@@ -1343,62 +1293,7 @@
       "type": "gif"
     },
     {
-      "id": "151xpw2",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
-    },
-    {
-      "id": "155kyvb",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
-    },
-    {
-      "id": "160r3gi",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "video"
-    },
-    {
       "id": "161wp3h",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
-    },
-    {
-      "id": "163l5w9",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
-    },
-    {
-      "id": "165wbfu",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
-    },
-    {
-      "id": "16g6b1v",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
-    },
-    {
-      "id": "16nnb3k",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
-    },
-    {
-      "id": "17ctlyg",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
-    },
-    {
-      "id": "17dos9t",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
-    },
-    {
-      "id": "17t9b35",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
-    },
-    {
-      "id": "181kob2",
       "note": "Media post lacks an image preview (poster/thumbnail not found).",
       "type": "gif"
     },
@@ -1406,11 +1301,6 @@
       "id": "1893to5",
       "note": "Media post lacks an image preview (poster/thumbnail not found).",
       "type": "gif"
-    },
-    {
-      "id": "18pig6m",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "video"
     },
     {
       "id": "1azrppr",
@@ -1428,41 +1318,6 @@
       "type": "gif"
     },
     {
-      "id": "1ctgxid",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
-    },
-    {
-      "id": "1d56g8y",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "video"
-    },
-    {
-      "id": "1eshkdy",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
-    },
-    {
-      "id": "1euudyy",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
-    },
-    {
-      "id": "1g4e5kj",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "video"
-    },
-    {
-      "id": "1g6hyvr",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
-    },
-    {
-      "id": "1hhdkrl",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
-    },
-    {
       "id": "1hvx0fr",
       "note": "Media post lacks an image preview (poster/thumbnail not found).",
       "type": "video"
@@ -1473,17 +1328,7 @@
       "type": "image"
     },
     {
-      "id": "1isrcr7",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
-    },
-    {
       "id": "1l1cqgx",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
-    },
-    {
-      "id": "1lcef80",
       "note": "Media post lacks an image preview (poster/thumbnail not found).",
       "type": "gif"
     },
@@ -1496,16 +1341,6 @@
       "id": "1lhcwz2",
       "note": "Media post lacks an image preview (poster/thumbnail not found).",
       "type": "video"
-    },
-    {
-      "id": "1lmf8kk",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
-    },
-    {
-      "id": "1lxnnav",
-      "note": "Media post lacks an image preview (poster/thumbnail not found).",
-      "type": "gif"
     },
     {
       "id": "1m4aq0u",

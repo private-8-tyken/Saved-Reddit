@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-07T22:06:38.000440+00:00",
+  "archived_at": "2025-09-11T08:14:35.149888+00:00",
   "reddit_fullname": "t3_1mwwh5p",
   "reddit_id": "1mwwh5p",
   "permalink": "https://www.reddit.com/r/u_bugortheletter/comments/1mwwh5p/i_absolutely_love_the_feeling_of_being_used_like/",
@@ -23,7 +23,7 @@
   "locked": false,
   "edited": false,
   "num_comments": 50,
-  "score": 8151,
+  "score": 8224,
   "upvote_ratio": 1.0,
   "media": null,
   "external_link": "https://www.redgifs.com/watch/slighthiddenyaffle",
@@ -52,7 +52,7 @@
     "upvote_ratio": 1.0,
     "author_flair_background_color": null,
     "subreddit_type": "user",
-    "ups": 8151,
+    "ups": 8224,
     "total_awards_received": 0,
     "media_embed": {
       "content": "<iframe src=\"https://www.redgifs.com/ifr/slighthiddenyaffle\" frameborder=\"0\" scrolling=\"no\" width=\"100%\" height=\"100%\"\n      allowfullscreen style=\"position:absolute;\"></iframe>",
@@ -92,7 +92,7 @@
     },
     "link_flair_text": null,
     "can_mod_post": false,
-    "score": 8151,
+    "score": 8224,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -204,13 +204,13 @@
       ],
       "reddit_video_preview": {
         "bitrate_kbps": 5000,
-        "fallback_url": "https://v.redd.it/bss1t6vjwhlf1/DASH_1080.mp4",
+        "fallback_url": "https://v.redd.it/q4ezvfblf7of1/DASH_1080.mp4",
         "height": 1350,
         "width": 1080,
-        "scrubber_media_url": "https://v.redd.it/bss1t6vjwhlf1/DASH_96.mp4",
-        "dash_url": "https://v.redd.it/bss1t6vjwhlf1/DASHPlaylist.mpd",
+        "scrubber_media_url": "https://v.redd.it/q4ezvfblf7of1/DASH_96.mp4",
+        "dash_url": "https://v.redd.it/q4ezvfblf7of1/DASHPlaylist.mpd",
         "duration": 19,
-        "hls_url": "https://v.redd.it/bss1t6vjwhlf1/HLSPlaylist.m3u8",
+        "hls_url": "https://v.redd.it/q4ezvfblf7of1/HLSPlaylist.m3u8",
         "is_gif": true,
         "transcoding_status": "completed"
       },
@@ -235,7 +235,7 @@
     "link_flair_background_color": "",
     "id": "1mwwh5p",
     "is_robot_indexable": true,
-    "num_duplicates": 10,
+    "num_duplicates": 11,
     "report_reasons": null,
     "author": "bugortheletter",
     "discussion_type": null,
@@ -265,7 +265,7 @@
     "url": "https://www.redgifs.com/watch/slighthiddenyaffle",
     "subreddit_subscribers": 0,
     "created_utc": 1755835365.0,
-    "num_crossposts": 13,
+    "num_crossposts": 14,
     "mod_reports": [],
     "is_video": false
   },
@@ -310,7 +310,7 @@
                       "awarders": [],
                       "mod_reason_by": null,
                       "banned_by": null,
-                      "ups": -65,
+                      "ups": -64,
                       "removal_reason": null,
                       "link_id": "t3_1mwwh5p",
                       "author_flair_template_id": null,
@@ -352,7 +352,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_na0yltd",
-                                "score": 42,
+                                "score": 37,
                                 "author_fullname": "t2_141cipmybu",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -395,7 +395,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 42
+                                "ups": 37
                               }
                             },
                             {
@@ -427,7 +427,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_na0yltd",
-                                "score": 64,
+                                "score": 60,
                                 "author_fullname": "t2_jts6gonc",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -470,7 +470,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 64
+                                "ups": 60
                               }
                             },
                             {
@@ -835,7 +835,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_na0yltd",
-                                "score": 3,
+                                "score": 5,
                                 "author_fullname": "t2_640oc7qs",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -878,7 +878,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 3
+                                "ups": 5
                               }
                             }
                           ],
@@ -898,7 +898,7 @@
                       "can_mod_post": false,
                       "send_replies": true,
                       "parent_id": "t1_na0vewh",
-                      "score": -65,
+                      "score": -64,
                       "approved_by": null,
                       "report_reasons": null,
                       "all_awardings": [],
@@ -957,7 +957,7 @@
             "created_utc": 1755839542.0,
             "send_replies": true,
             "parent_id": "t3_1mwwh5p",
-            "score": 137,
+            "score": 139,
             "author_fullname": "t2_141cipmybu",
             "approved_by": null,
             "mod_note": null,
@@ -999,7 +999,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 137
+            "ups": 139
           }
         },
         {
@@ -1107,7 +1107,7 @@
             "created_utc": 1755878991.0,
             "send_replies": true,
             "parent_id": "t3_1mwwh5p",
-            "score": 12,
+            "score": 13,
             "author_fullname": "t2_78m6s",
             "approved_by": null,
             "mod_note": null,
@@ -1149,7 +1149,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 12
+            "ups": 13
           }
         },
         {
@@ -1280,7 +1280,7 @@
                       "created_utc": 1755865216.0,
                       "send_replies": true,
                       "parent_id": "t1_na1yi39",
-                      "score": 2,
+                      "score": 5,
                       "author_fullname": "t2_8fbc966n",
                       "removal_reason": null,
                       "approved_by": null,
@@ -1322,7 +1322,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 2
+                      "ups": 5
                     }
                   }
                 ],
@@ -1579,7 +1579,7 @@
             "created_utc": 1755871790.0,
             "send_replies": true,
             "parent_id": "t3_1mwwh5p",
-            "score": 6,
+            "score": 7,
             "author_fullname": "t2_aw96yhrt",
             "approved_by": null,
             "mod_note": null,
@@ -1621,7 +1621,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 6
+            "ups": 7
           }
         },
         {
@@ -4230,7 +4230,7 @@
       "author": "Prestigious-Menu-566",
       "author_fullname": "t2_141cipmybu",
       "body": "I've never seen a rocking chair used like this.. so innovative! 🫶🏻",
-      "score": 137,
+      "score": 139,
       "created_utc": 1755839542.0,
       "permalink": "https://www.reddit.com/r/u_bugortheletter/comments/1mwwh5p/i_absolutely_love_the_feeling_of_being_used_like/na0vewh/",
       "is_submitter": false,
@@ -4241,7 +4241,7 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "[deleted]",
-          "score": -65,
+          "score": -64,
           "created_utc": 1755841128.0,
           "permalink": "https://www.reddit.com/r/u_bugortheletter/comments/1mwwh5p/i_absolutely_love_the_feeling_of_being_used_like/na0yltd/",
           "is_submitter": false,
@@ -4252,7 +4252,7 @@
               "author": "Prestigious-Menu-566",
               "author_fullname": "t2_141cipmybu",
               "body": "Nah, just not seen this before. Or I have and forgot 🤷‍♂️",
-              "score": 42,
+              "score": 37,
               "created_utc": 1755843915.0,
               "permalink": "https://www.reddit.com/r/u_bugortheletter/comments/1mwwh5p/i_absolutely_love_the_feeling_of_being_used_like/na13vmr/",
               "is_submitter": false,
@@ -4264,7 +4264,7 @@
               "author": "TinyIntention5809",
               "author_fullname": "t2_jts6gonc",
               "body": "Calm down reddit porno machine",
-              "score": 64,
+              "score": 60,
               "created_utc": 1755880053.0,
               "permalink": "https://www.reddit.com/r/u_bugortheletter/comments/1mwwh5p/i_absolutely_love_the_feeling_of_being_used_like/na3kaed/",
               "is_submitter": false,
@@ -4276,7 +4276,7 @@
               "author": "seamonkeypenguin",
               "author_fullname": "t2_640oc7qs",
               "body": "I've been watching porn since I was 11, which means I've been watching for almost three quarters of my life. \n\nThis is the first time I've ever seen a rocking chair used like this.\n\nHow much fucking porn do you have to watch to think like you do?\n\nEdit- fixed a word",
-              "score": 3,
+              "score": 5,
               "created_utc": 1756141046.0,
               "permalink": "https://www.reddit.com/r/u_bugortheletter/comments/1mwwh5p/i_absolutely_love_the_feeling_of_being_used_like/nam22kh/",
               "is_submitter": false,
@@ -4355,7 +4355,7 @@
       "author": "dpone",
       "author_fullname": "t2_78m6s",
       "body": "I'm not into the choking personally but the rocking chair anal is so hot. The repetitive motion of it makes you look like a toy, it's beautiful.",
-      "score": 12,
+      "score": 13,
       "created_utc": 1755878991.0,
       "permalink": "https://www.reddit.com/r/u_bugortheletter/comments/1mwwh5p/i_absolutely_love_the_feeling_of_being_used_like/na3gqoa/",
       "is_submitter": false,
@@ -4390,7 +4390,7 @@
           "author": "PutGrouchy2587",
           "author_fullname": "t2_8fbc966n",
           "body": "You and me both",
-          "score": 2,
+          "score": 5,
           "created_utc": 1755865216.0,
           "permalink": "https://www.reddit.com/r/u_bugortheletter/comments/1mwwh5p/i_absolutely_love_the_feeling_of_being_used_like/na295lu/",
           "is_submitter": false,
@@ -4416,7 +4416,7 @@
       "author": "LovePiscean",
       "author_fullname": "t2_aw96yhrt",
       "body": "No way, that’s innovative as fuck. Have to try it!",
-      "score": 6,
+      "score": 7,
       "created_utc": 1755871790.0,
       "permalink": "https://www.reddit.com/r/u_bugortheletter/comments/1mwwh5p/i_absolutely_love_the_feeling_of_being_used_like/na2svut/",
       "is_submitter": false,
