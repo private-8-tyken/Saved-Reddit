@@ -80,6 +80,24 @@ const {
     (function () {
         if (typeof window === "undefined") return;
 
+        // Shared default: 'created' sorts DESC by default, everything else ASC
+        function defaultDirForSort(sort) {
+            return sort === "created" ? "desc" : "asc";
+        }
+        function canonicalizeDirParam() {
+            const sp = new URLSearchParams(location.search);
+            const sort = sp.get("sort") || "saved";
+            const def = defaultDirForSort(sort);
+            const dir = sp.get("dir");
+            if (dir && dir === def) {
+                sp.delete("dir");
+                const url = new URL(location.href);
+                url.search = sp.toString();
+                history.replaceState({}, "", url);
+                window.dispatchEvent(new Event("urlchange"));
+            }
+        }
+
         // Open filter drawer from header button
         const btn = document.getElementById("openFilters");
         btn &&
@@ -171,6 +189,7 @@ const {
             return r;
         };
 
+        // Keep URL tidy whenever the app pushes or replaces state
         // “Copy link” convenience
         const copyBtn = document.getElementById("copyView");
         if (copyBtn && navigator.clipboard) {
@@ -186,13 +205,16 @@ const {
         window.addEventListener("popstate", renderChips);
         window.addEventListener("urlchange", renderChips);
         renderChips();
+        // Canonicalize dir= when it matches default for the active sort
+        window.addEventListener("urlchange", canonicalizeDirParam);
+        window.addEventListener("popstate", canonicalizeDirParam);
 
         (function setupDirToggle() {
             const dirBtn = document.getElementById("dirToggle");
             if (!dirBtn) return;
 
             const defaultDirFor = (sort) =>
-                sort === "created" ? "desc" : "asc";
+                defaultDirForSort(sort);
 
             const getSortAndDir = () => {
                 const sp = new URLSearchParams(location.search);
@@ -225,6 +247,8 @@ const {
                 history.pushState({}, "", url);
                 window.dispatchEvent(new Event("urlchange"));
                 syncButton();
+                // Also normalize URL right away on first load
+                canonicalizeDirParam();
             };
 
             dirBtn.addEventListener("click", () => {

@@ -20,11 +20,11 @@
 // NOTE: PUBLIC_MEDIA_BASE is used to build absolute media URLs in the manifest.
 
 console.log("ENV present:",
-  !!process.env.R2_ENDPOINT,
-  !!process.env.R2_ACCESS_KEY_ID,
-  !!process.env.R2_SECRET_ACCESS_KEY,
-  !!process.env.R2_BUCKET,
-  !!process.env.PUBLIC_MEDIA_BASE
+    !!process.env.R2_ENDPOINT,
+    !!process.env.R2_ACCESS_KEY_ID,
+    !!process.env.R2_SECRET_ACCESS_KEY,
+    !!process.env.R2_BUCKET,
+    !!process.env.PUBLIC_MEDIA_BASE
 );
 
 import { promises as fs } from "node:fs";
@@ -60,6 +60,11 @@ function extFromUrl(u) {
     const clean = u.split("?")[0].split("#")[0];
     const m = clean.match(/\.([a-z0-9]+)$/i);
     return m ? m[1].toLowerCase() : null; // preserve 'jpeg'
+}
+function isImageUrl(u) {
+    const ext = extFromUrl(u);
+    if (!ext) return false;
+    return /^(jpe?g|png|webp)$/i.test(ext);
 }
 function plainExcerpt(text, n = 320) {
     if (!text) return "";
@@ -312,19 +317,22 @@ for (const p of posts) {
         media_type = "video";
         media_urls = [rec.video];
         media_url_compact = rec.video;
-        media_preview = rec.images?.[0] || rec.gallery?.[0] || null; // rec.video; // if you want, keep same
+        // Prefer an IMAGE poster if present in R2; never point previews to videos
+        media_preview = rec.images?.[0] || rec.gallery?.[0] || null;
         media_dir = "Videos";
     } else if (rec.redgiphy) {
         media_type = "video";
         media_urls = [rec.redgiphy];
         media_url_compact = rec.redgiphy;
-        media_preview = null; // rec.gif;
+        // Prefer an IMAGE poster; do not use gif/video for previews
+        media_preview = rec.images?.[0] || rec.gallery?.[0] || null;
         media_dir = "RedGiphys";
     } else if (rec.gif) {
         media_type = "gif";
         media_urls = [rec.gif];
         media_url_compact = rec.gif;
-        media_preview = null; // rec.gif;
+        // Prefer an IMAGE poster; do not use gif for previews
+        media_preview = rec.images?.[0] || rec.gallery?.[0] || null;
         media_dir = "Gifs";
     } else if (rec.gallery.length >= 2) {
         media_type = "gallery";
@@ -360,19 +368,44 @@ for (const p of posts) {
         }
     }
 
-    // Still no preview? Use Reddit preview/thumbnail for card polish
+    // --- Guarantee IMAGE previews for all media types ---
+    // 1) If preview exists but isn't an image, discard it (we only want jpg/png/webp)
+    if (media_preview && !isImageUrl(media_preview)) {
+        media_preview = null;
+    }
+    // 2) If missing, try to use an R2 image (single or first gallery frame)
+    if (!media_preview) {
+        const candidate = rec.images?.[0] || rec.gallery?.[0] || null;
+        if (candidate && isImageUrl(candidate)) {
+            media_preview = candidate;
+        }
+    }
+    // 3) If still missing, fall back to Reddit's derived preview/thumbnail
     if (!media_preview) {
         const pr = pickRedditPreview(p);
-        media_preview = pr.url;
-        preview_width = pr.w;
-        preview_height = pr.h;
+        if (pr?.url) {
+            media_preview = pr.url;
+            preview_width = pr.w;
+            preview_height = pr.h;
+        }
     }
 
+    // --- Warnings ---
+    // 4) Warn if post has media but no R2 URLs (possible upload failure)
     if (MEDIA_BASE_OK && ["image", "gallery", "video", "gif"].includes(media_type) && media_urls.length === 0) {
         warnings.push({ id, note: "Expected media but no URLs after R2 indexing.", type: media_type });
     }
     if (!MEDIA_BASE_OK) {
         warnings.push({ note: "PUBLIC_MEDIA_BASE not set; manifest media URLs may be null." });
+    }
+
+    // 5) Final safety net: warn if a media post still lacks an image preview
+    if (["image", "gallery", "video", "gif"].includes(media_type) && !media_preview) {
+        warnings.push({
+            id,
+            note: "Media post lacks an image preview (poster/thumbnail not found).",
+            type: media_type
+        });
     }
 
     manifest.push({
