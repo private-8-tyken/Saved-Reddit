@@ -161,11 +161,16 @@ export default function Feed({ favoritesOnly = false }) {
             });
         }
 
-        // Hide viewed (TTL-aware, via ?hide_viewed=1)
-        if ((qParams.get("hide_viewed") || "") === "1") {
-            arr = arr.filter(p => !viewed.has(p.id));
-        }
+        // Tri-state view filter: view=all|viewed|unviewed  (back-compat: ?hide_viewed=1 → unviewed)
+        let mode = (qParams.get("view") || "").toLowerCase();
+        if (!mode && (qParams.get("hide_viewed") || "") === "1") mode = "unviewed";
 
+        if (mode === "unviewed") {
+            arr = arr.filter((p) => !viewed.has(p.id));
+        } else if (mode === "viewed") {
+            arr = arr.filter((p) => viewed.has(p.id));
+        }
+        
         // sort by field + direction (URL-driven)
         const sort = qParams.get("sort") || "saved";
         const dir = qParams.get("dir") || (sort === "created" ? "desc" : "asc");

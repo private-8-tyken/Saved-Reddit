@@ -284,36 +284,62 @@ const {
             setLabel();
         }
 
-        // Hide Viewed toggle (URL param: ?hide_viewed=1)
-        (function setupHideViewed() {
-            const btn = document.getElementById("hideViewedToggle");
-            if (!btn) return;
+        // ─── Tri-state view toggle: View All → Viewed → Hide Viewed → (cycle) ───
+        (function setupViewToggle() {
+        const btn = document.getElementById("hideViewedToggle");
+        if (!btn) return;
 
-            function sync() {
-                const sp = new URLSearchParams(location.search);
-                const on = sp.get("hide_viewed") === "1";
-                btn.setAttribute("aria-pressed", on ? "true" : "false");
-                btn.classList.toggle("primary", on);
+        const getViewMode = (sp) => {
+            const v = (sp.get("view") || "").toLowerCase();
+            if (v === "viewed" || v === "unviewed") return v;
+            // back-compat: ?hide_viewed=1 maps to unviewed
+            if (sp.get("hide_viewed") === "1") return "unviewed";
+            return "all";
+        };
+
+        const nextMode = (m) => (m === "all" ? "viewed" : m === "viewed" ? "unviewed" : "all");
+        const labelFor = (m) => (m === "all" ? "View All" : m === "viewed" ? "Viewed" : "Hide Viewed");
+
+        const setMode = (mode, replace = false) => {
+            const sp = new URLSearchParams(location.search);
+            if (mode === "all") {
+            sp.delete("view");
+            sp.delete("hide_viewed"); // canonicalize legacy param away
+            } else {
+            sp.set("view", mode);
+            sp.delete("hide_viewed"); // canonicalize legacy param away
+            }
+            const url = new URL(location.href);
+            url.search = sp.toString();
+            (replace ? history.replaceState : history.pushState).call(history, {}, "", url);
+            window.dispatchEvent(new Event("urlchange"));
+        };
+
+        const sync = () => {
+            const sp = new URLSearchParams(location.search);
+            let mode = getViewMode(sp);
+
+            // If legacy ?hide_viewed=1 present without view=, canonicalize to view=unviewed
+            if (!sp.get("view") && sp.get("hide_viewed") === "1") {
+            setMode("unviewed", true /* replace */);
+            mode = "unviewed";
             }
 
-            function setParam(present) {
-                const sp = new URLSearchParams(location.search);
-                if (present) sp.set("hide_viewed", "1"); else sp.delete("hide_viewed");
-                const url = new URL(location.href);
-                url.search = sp.toString();
-                history.pushState({}, "", url);
-                window.dispatchEvent(new Event("urlchange"));
-            }
+            btn.textContent = labelFor(mode);
+            btn.setAttribute("aria-pressed", mode === "all" ? "false" : "true"); // binary press state is fine
+            btn.dataset.viewMode = mode;
+            btn.classList.toggle("primary", mode !== "all"); // keep your existing visual affordance
+        };
 
-            btn.addEventListener("click", () => {
-                const sp = new URLSearchParams(location.search);
-                const on = sp.get("hide_viewed") === "1";
-                setParam(!on);
-            });
+        btn.addEventListener("click", () => {
+            const sp = new URLSearchParams(location.search);
+            const cur = getViewMode(sp);
+            setMode(nextMode(cur));
+        });
 
-            window.addEventListener("urlchange", sync);
-            window.addEventListener("popstate", sync);
-            sync();
+        window.addEventListener("urlchange", sync);
+        window.addEventListener("popstate", sync);
+        sync();
         })();
     })();
 </script>

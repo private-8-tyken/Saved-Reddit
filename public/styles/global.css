@@ -84,6 +84,18 @@ video {
     outline: 2px solid var(--accent);
 }
 
+.button.primary#hideViewedToggle[data-view-mode="unviewed"] {
+    background: lightgreen;
+    color: #061018;
+    border: none;
+}
+
+.button.primary#hideViewedToggle[data-view-mode="viewed"] {
+    background: paleturquoise;
+    color: #061018;
+    border: none;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
