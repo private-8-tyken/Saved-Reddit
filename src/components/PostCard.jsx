@@ -1,6 +1,6 @@
 // src/components/PostCard.jsx
 import { useMemo, useRef, useState, useEffect } from "react";
-import { saveFavs } from "../utils/storage.js";
+import { saveFavs, markViewed } from "../utils/storage.js";
 import { excerpt, getDomain } from "../utils/text.js";
 import VideoSmart from "./VideoSmart.jsx";
 
@@ -50,7 +50,7 @@ function VideoThumb({ src }) {
     );
 }
 
-export default function PostCard({ post, favs, setFavs, base, searchTerm = "" }) {
+export default function PostCard({ post, favs, setFavs, base, searchTerm = "", isViewed = false }) {
     // ----- favorites
     const isFav = favs.has(post.id);
     const toggleFav = () => {
@@ -59,22 +59,6 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "" })
         setFavs(next);
         saveFavs(next);
     };
-
-    // ----- viewed tracking
-    const viewedKey = "viewedPosts";
-    const hasWindow = typeof window !== "undefined";
-    const viewedSet = (() => {
-        if (!hasWindow) return new Set();
-        try { return new Set(JSON.parse(localStorage.getItem(viewedKey) || "[]")); } catch { return new Set(); }
-    })();
-    const isViewed = viewedSet.has(post.id);
-    function markViewed() {
-        if (!hasWindow) return;
-        try {
-            const arr = Array.from(viewedSet.add(post.id));
-            localStorage.setItem(viewedKey, JSON.stringify(arr));
-        } catch { }
-    }
 
     // ----- dates
     const dt = post.created_utc ? new Date(post.created_utc * 1000) : null;
@@ -199,7 +183,7 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "" })
                                     const key = "feed:scroll:" + location.search;
                                     sessionStorage.setItem(key, String(window.scrollY || 0));
                                 } catch { }
-                                markViewed();
+                                markViewed(post.id);
                             }}
                         >
                             {mediaPreview ? (
@@ -263,7 +247,7 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "" })
                                     const key = "feed:scroll:" + location.search;
                                     sessionStorage.setItem(key, String(window.scrollY || 0));
                                 } catch { }
-                                markViewed();
+                                markViewed(post.id);
                             }}
                         >
                             {renderHighlighted(post.title, searchTerm)}
@@ -289,7 +273,7 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "" })
                                 <button
                                     className="action expand"
                                     type="button"
-                                    onClick={() => setExpanded(e => !e)}
+                                    onClick={() => { if (!expanded) markViewed(post.id); setExpanded(e => !e); }}
                                     aria-expanded={expanded ? "true" : "false"}
                                     title={expanded ? "Collapse media" : "Expand media"}
                                 >
@@ -305,7 +289,7 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "" })
                                 href={post.permalink}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                onClick={markViewed}
+                                onClick={() => markViewed(post.id)}
                             >
                                 View on Reddit
                             </a>

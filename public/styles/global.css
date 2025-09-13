@@ -16,7 +16,7 @@
     --chip-bg: color-mix(in oklab, var(--bg), white 10%);
     --chip-border: color-mix(in oklab, var(--border), white 25%);
     --chip-fg: var(--fg);
-    --cmmt-accent: rgba(134, 122, 193, 0.60); /*or rgba(115, 79, 150, 0.50);
+    --cmmt-accent: rgba(134, 122, 193, 0.60);
 }
 
 /* ========== Base ========== */
@@ -785,42 +785,97 @@ mark {
 
 /* ===== Comment Thread (scoped via .ct-*) ===== */
 .ct-root {
-  margin-top: 1rem;
+    margin-top: 1rem;
 }
-.ct { display: grid; gap: .5rem; }
-.ct-empty { color: var(--muted); font-size: .95rem; }
 
-.ct-node { position: relative; }
+.ct {
+    display: grid;
+    gap: .5rem;
+}
+
+.ct-empty {
+    color: var(--muted);
+    font-size: .95rem;
+}
+
+.ct-node {
+    position: relative;
+}
+
 .ct-node .ct-line {
-  position: absolute; left: -10px; top: 0; bottom: 0;
-  width: 2px;
-  background: var(--cmmt-accent); /* same color as the ➕/➖ */
+    position: absolute;
+    left: -10px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--cmmt-accent);
+    /* same color as the ➕/➖ */
 }
 
 .ct-card {
-  padding: .5rem .75rem;  /* keep spacing */
-  border-radius: .75rem;  /* harmless even without bg/border */
-  /* no background, no border */
+    padding: .5rem .75rem;
+    /* keep spacing */
+    border-radius: .75rem;
+    /* harmless even without bg/border */
+    /* no background, no border */
 }
 
-.ct-meta { font-size: .9rem; color: var(--muted); display: flex; align-items: center; gap: .5rem; }
-.ct-author { color: var(--fg, var(--text)); font-weight: 600; } /* fallback if --fg not defined */
-.ct-score  { color: var(--muted); }
+.ct-meta {
+    font-size: .9rem;
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.ct-author {
+    color: var(--fg, var(--text));
+    font-weight: 600;
+}
+
+/* fallback if --fg not defined */
+.ct-score {
+    color: var(--muted);
+}
 
 .ct-collapse {
-  background: transparent; border: 0; cursor: pointer; font-size: .9rem; line-height: 1;
-  padding: .1rem .25rem; border-radius: .5rem;
-  color: var(--cmmt-accent); /* tie icon color to the accent */
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: .9rem;
+    line-height: 1;
+    padding: .1rem .25rem;
+    border-radius: .5rem;
+    color: var(--cmmt-accent);
+    /* tie icon color to the accent */
 }
 
-.ct-collapse:hover { background: color-mix(in oklab, var(--card), white 15%); }
+.ct-collapse:hover {
+    background: color-mix(in oklab, var(--card), white 15%);
+}
 
-.ct-body { margin-top: .35rem; white-space: pre-wrap; }
+.ct-body {
+    margin-top: .35rem;
+    white-space: pre-wrap;
+}
 
-.ct-children { margin-left: 1.25rem; margin-top: .5rem; display: grid; gap: .5rem; }
+.ct-children {
+    margin-left: 1.25rem;
+    margin-top: .5rem;
+    display: grid;
+    gap: .5rem;
+}
 
 .ct-more {
-  margin-top: .5rem; padding: .4rem .6rem; border-radius: .5rem; border: 1px solid var(--border);
-  background: color-mix(in oklab, var(--card), white 2%); cursor: pointer; font-size: .9rem;
+    margin-top: .5rem;
+    padding: .4rem .6rem;
+    border-radius: .5rem;
+    border: 1px solid var(--border);
+    background: color-mix(in oklab, var(--card), white 2%);
+    cursor: pointer;
+    font-size: .9rem;
 }
-.ct-more:hover { background: color-mix(in oklab, var(--card), white 6%); }
+
+.ct-more:hover {
+    background: color-mix(in oklab, var(--card), white 6%);
+}

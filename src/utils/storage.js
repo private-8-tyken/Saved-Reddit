@@ -1,5 +1,6 @@
 // src/utils/storage.js
 // Favorites + auth utilities with a v2 schema and CSV import/export
+// + Viewed state with TTL (v2) for “Hide Viewed” feed filtering
 
 /** Storage key (new schema) */
 const FAV_KEY_V2 = 'sr__v2__favorites';
@@ -216,6 +217,74 @@ export function importFavoritesCSV(csvText) {
     }
     writeV2(obj);
     return { added, alreadyHad, invalid };
+}
+
+/** ---------- Viewed with TTL (v2) ---------- */
+const VIEWED_KEY = "sr_viewed_v2"; // { v:2, byId: { [id]: ts } }
+const VIEWED_TTL_DAYS_DEFAULT = 14;
+
+function nowTs() { return Date.now(); }
+function daysToMs(d) { return d * 24 * 60 * 60 * 1000; }
+
+function readViewedRaw() {
+    try {
+        const raw = localStorage.getItem(VIEWED_KEY);
+        if (!raw) return { v: 2, byId: {} };
+        const obj = JSON.parse(raw);
+        if (obj && obj.v === 2 && obj.byId && typeof obj.byId === "object") return obj;
+    } catch { }
+    // migrate from old set-like storage if it exists
+    try {
+        const legacy = localStorage.getItem("sr_viewed") || localStorage.getItem("viewedPosts");
+        if (legacy) {
+            const arr = JSON.parse(legacy);
+            if (Array.isArray(arr)) {
+                const byId = Object.fromEntries(arr.map((id) => [id, nowTs()]));
+                const obj = { v: 2, byId };
+                localStorage.setItem(VIEWED_KEY, JSON.stringify(obj));
+                return obj;
+            }
+        }
+    } catch { }
+    return { v: 2, byId: {} };
+}
+
+function writeViewedRaw(obj) {
+    try { localStorage.setItem(VIEWED_KEY, JSON.stringify(obj)); } catch { }
+}
+
+export function markViewed(id) {
+    if (!id) return;
+    const obj = readViewedRaw();
+    obj.byId[id] = nowTs();
+    writeViewedRaw(obj);
+}
+
+/**
+ * Returns a Set of *currently valid* viewed ids, after pruning expired ones.
+ * Also persists the pruned map.
+ */
+export function getViewedSet({ ttlDays = VIEWED_TTL_DAYS_DEFAULT } = {}) {
+    const ttlMs = daysToMs(ttlDays);
+    const obj = readViewedRaw();
+    const out = new Set();
+    const byId = obj.byId || {};
+    const now = nowTs();
+    let mutated = false;
+    for (const [id, ts] of Object.entries(byId)) {
+        if (typeof ts !== "number" || now - ts > ttlMs) {
+            delete byId[id];
+            mutated = true;
+        } else {
+            out.add(id);
+        }
+    }
+    if (mutated) writeViewedRaw({ v: 2, byId });
+    return out;
+}
+
+export function clearViewed() {
+    try { localStorage.removeItem(VIEWED_KEY); } catch { }
 }
 
 /** ---------- Auth (unchanged) ---------- */

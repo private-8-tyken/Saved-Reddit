@@ -5,7 +5,7 @@ import { useEffect, useMemo, useRef, useState, useCallback } from "react";
 import PostCard from "./PostCard.jsx";
 import { SkeletonCard } from "./Skeleton.jsx";
 import { makeComparator } from "../utils/sorting.js";
-import { loadFavs } from "../utils/storage.js";
+import { loadFavs, getViewedSet } from "../utils/storage.js";
 
 const BASE = import.meta.env.BASE_URL || "/";
 
@@ -47,6 +47,7 @@ export default function Feed({ favoritesOnly = false }) {
     const [favs, setFavs] = useState(new Set());
     const [visible, setVisible] = useState(30); // number of items to render
     const [qParams, setQParams] = useQueryState();
+    const viewed = useMemo(() => getViewedSet({ ttlDays: 14 }), [qParams.toString()]);
 
     // Load favorites (local) + refresh when storage changes
     useEffect(() => {
@@ -160,6 +161,11 @@ export default function Feed({ favoritesOnly = false }) {
             });
         }
 
+        // Hide viewed (TTL-aware, via ?hide_viewed=1)
+        if ((qParams.get("hide_viewed") || "") === "1") {
+            arr = arr.filter(p => !viewed.has(p.id));
+        }
+
         // sort by field + direction (URL-driven)
         const sort = qParams.get("sort") || "saved";
         const dir = qParams.get("dir") || (sort === "created" ? "desc" : "asc");
@@ -174,7 +180,7 @@ export default function Feed({ favoritesOnly = false }) {
         }
 
         return out;
-    }, [manifest, qParams, favoritesOnly, favs]);
+    }, [manifest, qParams, favoritesOnly, favs, viewed]);
 
     // Robust infinite scroll: observer + callback ref so we attach exactly when the sentinel mounts
     const ioRef = useRef(null);
@@ -257,6 +263,7 @@ export default function Feed({ favoritesOnly = false }) {
                     setFavs={setFavs}
                     base={BASE}
                     searchTerm={(qParams.get("q") || "").trim()}
+                    isViewed={viewed.has(p.id)}
                 />
             ))}
 

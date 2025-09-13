@@ -67,6 +67,9 @@ const {
                     <button class="button" id="favFirst">
                         Favs first
                     </button>
+                    <button class="button" id="hideViewedToggle" title="Hide posts you've viewed" aria-pressed="false">
+                        Hide Viewed
+                    </button>
                 </div>
             )
         }
@@ -189,7 +192,6 @@ const {
             return r;
         };
 
-        // Keep URL tidy whenever the app pushes or replaces state
         // “Copy link” convenience
         const copyBtn = document.getElementById("copyView");
         if (copyBtn && navigator.clipboard) {
@@ -247,7 +249,6 @@ const {
                 history.pushState({}, "", url);
                 window.dispatchEvent(new Event("urlchange"));
                 syncButton();
-                // Also normalize URL right away on first load
                 canonicalizeDirParam();
             };
 
@@ -261,6 +262,7 @@ const {
             syncButton();
         })();
 
+        // Favs-first toggle
         const favBtn = document.getElementById("favFirst");
         if (favBtn) {
             const setLabel = () => {
@@ -281,6 +283,38 @@ const {
             window.addEventListener("popstate", setLabel);
             setLabel();
         }
+
+        // Hide Viewed toggle (URL param: ?hide_viewed=1)
+        (function setupHideViewed() {
+            const btn = document.getElementById("hideViewedToggle");
+            if (!btn) return;
+
+            function sync() {
+                const sp = new URLSearchParams(location.search);
+                const on = sp.get("hide_viewed") === "1";
+                btn.setAttribute("aria-pressed", on ? "true" : "false");
+                btn.classList.toggle("primary", on);
+            }
+
+            function setParam(present) {
+                const sp = new URLSearchParams(location.search);
+                if (present) sp.set("hide_viewed", "1"); else sp.delete("hide_viewed");
+                const url = new URL(location.href);
+                url.search = sp.toString();
+                history.pushState({}, "", url);
+                window.dispatchEvent(new Event("urlchange"));
+            }
+
+            btn.addEventListener("click", () => {
+                const sp = new URLSearchParams(location.search);
+                const on = sp.get("hide_viewed") === "1";
+                setParam(!on);
+            });
+
+            window.addEventListener("urlchange", sync);
+            window.addEventListener("popstate", sync);
+            sync();
+        })();
     })();
 </script>
 
@@ -298,12 +332,9 @@ const {
         document.body.style.paddingTop = h + 'px';
       }
 
-      // recalibrate on events that can change header height
       window.addEventListener('resize', applyOffset);
       window.addEventListener('load', applyOffset);
-      window.addEventListener('urlchange', applyOffset); // chips change on filter apply/remove
-
-      // run immediately
+      window.addEventListener('urlchange', applyOffset); // chips/controls can change height
       applyOffset();
     })();
   </script>
