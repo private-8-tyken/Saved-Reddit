@@ -77,30 +77,99 @@ export default function Feed({ favoritesOnly = false }) {
         const sortEl = document.getElementById("sortSelect");
         if (!searchEl || !sortEl) return;
 
+        // sync current URL state to controls
         const sort = qParams.get("sort") || "saved";
         const dir = qParams.get("dir") || (sort === "created" ? "desc" : "asc");
         sortEl.value = sort;
         searchEl.value = qParams.get("q") || "";
 
-        const onSearch = (e) => {
-            const v = e.target.value;
-            const next = new URLSearchParams({ ...Object.fromEntries(qParams), q: v });
-            setQParams(next);
+        // small helpers to update URL without re-mounting this effect
+        const replaceUrlParams = (sp) => {
+            const url = new URL(window.location.href);
+            url.search = sp.toString();
+            history.replaceState({}, "", url);
+            window.dispatchEvent(new Event("urlchange"));
         };
+        const pushUrlParams = (sp) => {
+            const url = new URL(window.location.href);
+            url.search = sp.toString();
+            history.pushState({}, "", url);
+            window.dispatchEvent(new Event("urlchange"));
+        };
+
+        // debounce (200ms) and IME composition guard
+        let compose = false;
+        let t = null;
+        const DEBOUNCE_MS = 200;
+
+        const debouncedReplace = (val) => {
+            clearTimeout(t);
+            t = setTimeout(() => {
+                const next = new URLSearchParams({ ...Object.fromEntries(qParams), q: val });
+                // while typing: keep history clean
+                replaceUrlParams(next);
+            }, DEBOUNCE_MS);
+        };
+
+        const commitPush = (val) => {
+            clearTimeout(t);
+            const next = new URLSearchParams({ ...Object.fromEntries(qParams), q: val });
+            // on commit: create a proper history entry
+            pushUrlParams(next);
+        };
+
+        const onInput = (e) => {
+            if (compose) return;            // ignore while composing (IME)
+            debouncedReplace(e.target.value);
+        };
+        const onCompositionStart = () => { compose = true; };
+        const onCompositionEnd = (e) => {
+            compose = false;
+            // apply final composed text immediately
+            commitPush(e.target.value);
+        };
+
+        // Enter commits immediately
+        const onKeyDown = (e) => {
+            if (e.key === "Enter") {
+                e.preventDefault();
+                commitPush(searchEl.value);
+            }
+        };
+
+        // Blur commits whatever is there
+        const onBlur = () => commitPush(searchEl.value);
+
+        // type="search" fires 'search' on clear (×) → commit immediately
+        const onSearchEvt = (e) => commitPush(e.target.value);
+
+        // Sort change keeps your existing behavior
         const onSort = (e) => {
             const s = e.target.value;
             const next = new URLSearchParams({ ...Object.fromEntries(qParams), sort: s });
             if (!next.get("dir")) next.set("dir", s === "created" ? "desc" : "asc");
-            setQParams(next);
+            pushUrlParams(next);
         };
 
-        searchEl.addEventListener("input", onSearch);
+        searchEl.addEventListener("input", onInput);
+        searchEl.addEventListener("compositionstart", onCompositionStart);
+        searchEl.addEventListener("compositionend", onCompositionEnd);
+        searchEl.addEventListener("keydown", onKeyDown);
+        searchEl.addEventListener("blur", onBlur);
+        searchEl.addEventListener("search", onSearchEvt); // native clear
         sortEl.addEventListener("change", onSort);
+
         return () => {
-            searchEl.removeEventListener("input", onSearch);
+            clearTimeout(t);
+            searchEl.removeEventListener("input", onInput);
+            searchEl.removeEventListener("compositionstart", onCompositionStart);
+            searchEl.removeEventListener("compositionend", onCompositionEnd);
+            searchEl.removeEventListener("keydown", onKeyDown);
+            searchEl.removeEventListener("blur", onBlur);
+            searchEl.removeEventListener("search", onSearchEvt);
             sortEl.removeEventListener("change", onSort);
         };
-    }, [qParams, setQParams]);
+    }, [qParams]);
 
     // OPTIONAL NICETY: when query params change significantly, start with the first page again
     useEffect(() => {
@@ -170,7 +239,7 @@ export default function Feed({ favoritesOnly = false }) {
         } else if (mode === "viewed") {
             arr = arr.filter((p) => viewed.has(p.id));
         }
-        
+
         // sort by field + direction (URL-driven)
         const sort = qParams.get("sort") || "saved";
         const dir = qParams.get("dir") || (sort === "created" ? "desc" : "asc");
