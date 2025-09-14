@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-11T08:14:59.811364+00:00",
+  "archived_at": "2025-09-11T07:22:47.757419+00:00",
   "reddit_fullname": "t3_1msr6us",
   "reddit_id": "1msr6us",
   "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/",
@@ -23,8 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 32,
-  "score": 1111,
+  "score": 1118,
   "upvote_ratio": 0.95,
+  "media_kind": "image",
   "media": null,
   "external_link": null,
   "raw_post": {
@@ -52,7 +53,7 @@
     "upvote_ratio": 0.95,
     "author_flair_background_color": null,
     "subreddit_type": "public",
-    "ups": 1111,
+    "ups": 1118,
     "total_awards_received": 0,
     "media_embed": {},
     "thumbnail_width": 140,
@@ -66,7 +67,7 @@
     "secure_media_embed": {},
     "link_flair_text": null,
     "can_mod_post": false,
-    "score": 1111,
+    "score": 1118,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -95,45 +96,45 @@
     "view_count": null,
     "archived": false,
     "no_follow": false,
-    "is_crosspostable": true,
+    "is_crosspostable": false,
     "pinned": false,
     "over_18": true,
     "preview": {
       "images": [
         {
           "source": {
-            "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?auto=webp&s=8e94c5c1b877b07bdd78b24121b8e20684cf1657",
+            "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?auto=webp&amp;s=8e94c5c1b877b07bdd78b24121b8e20684cf1657",
             "width": 3160,
             "height": 5002
           },
           "resolutions": [
             {
-              "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=108&crop=smart&auto=webp&s=b6508410edf82d2801b65b729d4eae5c3f10d0ac",
+              "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=b6508410edf82d2801b65b729d4eae5c3f10d0ac",
               "width": 108,
               "height": 170
             },
             {
-              "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=216&crop=smart&auto=webp&s=3ef30be0d4d58f1ef28a344d616d2ec525e83a8d",
+              "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=3ef30be0d4d58f1ef28a344d616d2ec525e83a8d",
               "width": 216,
               "height": 341
             },
             {
-              "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=320&crop=smart&auto=webp&s=f49d7b7b3f6b880f15d328aa19473983adbb4899",
+              "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=f49d7b7b3f6b880f15d328aa19473983adbb4899",
               "width": 320,
               "height": 506
             },
             {
-              "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=640&crop=smart&auto=webp&s=90896ce66bf7b3d57b478e256751f3dcf0261212",
+              "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=90896ce66bf7b3d57b478e256751f3dcf0261212",
               "width": 640,
               "height": 1013
             },
             {
-              "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=960&crop=smart&auto=webp&s=31829913e2d1976d9d8b3d548b800c38c6b5f5c0",
+              "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=31829913e2d1976d9d8b3d548b800c38c6b5f5c0",
               "width": 960,
               "height": 1519
             },
             {
-              "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=1080&crop=smart&auto=webp&s=f38d8dabc8d4db6f42954bcd5420bb03852d68ed",
+              "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=f38d8dabc8d4db6f42954bcd5420bb03852d68ed",
               "width": 1080,
               "height": 1709
             }
@@ -141,38 +142,38 @@
           "variants": {
             "obfuscated": {
               "source": {
-                "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?blur=40&format=pjpg&auto=webp&s=48237c827974f64cc04f7d08639c87951678b262",
+                "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?blur=40&amp;format=pjpg&amp;auto=webp&amp;s=48237c827974f64cc04f7d08639c87951678b262",
                 "width": 3160,
                 "height": 5002
               },
               "resolutions": [
                 {
-                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=108&crop=smart&blur=10&format=pjpg&auto=webp&s=1187aaf0ad1872008f85c7684ee66f98749bddf6",
+                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=108&amp;crop=smart&amp;blur=10&amp;format=pjpg&amp;auto=webp&amp;s=1187aaf0ad1872008f85c7684ee66f98749bddf6",
                   "width": 108,
                   "height": 170
                 },
                 {
-                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=216&crop=smart&blur=21&format=pjpg&auto=webp&s=ff5d8bb427c08a092fa660408db824d86f48cd28",
+                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=216&amp;crop=smart&amp;blur=21&amp;format=pjpg&amp;auto=webp&amp;s=ff5d8bb427c08a092fa660408db824d86f48cd28",
                   "width": 216,
                   "height": 341
                 },
                 {
-                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=320&crop=smart&blur=32&format=pjpg&auto=webp&s=478ed214d5344562be34790199c70d0c5369e2e9",
+                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=320&amp;crop=smart&amp;blur=32&amp;format=pjpg&amp;auto=webp&amp;s=478ed214d5344562be34790199c70d0c5369e2e9",
                   "width": 320,
                   "height": 506
                 },
                 {
-                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=640&crop=smart&blur=40&format=pjpg&auto=webp&s=9bf616b0f5b607b027621f31656b7d025e03968b",
+                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=640&amp;crop=smart&amp;blur=40&amp;format=pjpg&amp;auto=webp&amp;s=9bf616b0f5b607b027621f31656b7d025e03968b",
                   "width": 640,
                   "height": 1013
                 },
                 {
-                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=960&crop=smart&blur=40&format=pjpg&auto=webp&s=1728bd1de85674a8d00757cac0fdc5367cfd9a84",
+                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=960&amp;crop=smart&amp;blur=40&amp;format=pjpg&amp;auto=webp&amp;s=1728bd1de85674a8d00757cac0fdc5367cfd9a84",
                   "width": 960,
                   "height": 1519
                 },
                 {
-                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=1080&crop=smart&blur=40&format=pjpg&auto=webp&s=54904b35f055386a3e4f7e39450937dc9887d411",
+                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=1080&amp;crop=smart&amp;blur=40&amp;format=pjpg&amp;auto=webp&amp;s=54904b35f055386a3e4f7e39450937dc9887d411",
                   "width": 1080,
                   "height": 1709
                 }
@@ -180,38 +181,38 @@
             },
             "nsfw": {
               "source": {
-                "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?blur=40&format=pjpg&auto=webp&s=48237c827974f64cc04f7d08639c87951678b262",
+                "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?blur=40&amp;format=pjpg&amp;auto=webp&amp;s=48237c827974f64cc04f7d08639c87951678b262",
                 "width": 3160,
                 "height": 5002
               },
               "resolutions": [
                 {
-                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=108&crop=smart&blur=10&format=pjpg&auto=webp&s=1187aaf0ad1872008f85c7684ee66f98749bddf6",
+                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=108&amp;crop=smart&amp;blur=10&amp;format=pjpg&amp;auto=webp&amp;s=1187aaf0ad1872008f85c7684ee66f98749bddf6",
                   "width": 108,
                   "height": 170
                 },
                 {
-                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=216&crop=smart&blur=21&format=pjpg&auto=webp&s=ff5d8bb427c08a092fa660408db824d86f48cd28",
+                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=216&amp;crop=smart&amp;blur=21&amp;format=pjpg&amp;auto=webp&amp;s=ff5d8bb427c08a092fa660408db824d86f48cd28",
                   "width": 216,
                   "height": 341
                 },
                 {
-                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=320&crop=smart&blur=32&format=pjpg&auto=webp&s=478ed214d5344562be34790199c70d0c5369e2e9",
+                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=320&amp;crop=smart&amp;blur=32&amp;format=pjpg&amp;auto=webp&amp;s=478ed214d5344562be34790199c70d0c5369e2e9",
                   "width": 320,
                   "height": 506
                 },
                 {
-                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=640&crop=smart&blur=40&format=pjpg&auto=webp&s=9bf616b0f5b607b027621f31656b7d025e03968b",
+                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=640&amp;crop=smart&amp;blur=40&amp;format=pjpg&amp;auto=webp&amp;s=9bf616b0f5b607b027621f31656b7d025e03968b",
                   "width": 640,
                   "height": 1013
                 },
                 {
-                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=960&crop=smart&blur=40&format=pjpg&auto=webp&s=1728bd1de85674a8d00757cac0fdc5367cfd9a84",
+                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=960&amp;crop=smart&amp;blur=40&amp;format=pjpg&amp;auto=webp&amp;s=1728bd1de85674a8d00757cac0fdc5367cfd9a84",
                   "width": 960,
                   "height": 1519
                 },
                 {
-                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=1080&crop=smart&blur=40&format=pjpg&auto=webp&s=54904b35f055386a3e4f7e39450937dc9887d411",
+                  "url": "https://preview.redd.it/e9wubpdb2ljf1.jpeg?width=1080&amp;crop=smart&amp;blur=40&amp;format=pjpg&amp;auto=webp&amp;s=54904b35f055386a3e4f7e39450937dc9887d411",
                   "width": 1080,
                   "height": 1709
                 }
@@ -255,7 +256,7 @@
     "permalink": "/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/",
     "stickied": false,
     "url": "https://i.redd.it/e9wubpdb2ljf1.jpeg",
-    "subreddit_subscribers": 205579,
+    "subreddit_subscribers": 205574,
     "created_utc": 1755437957.0,
     "num_crossposts": 2,
     "mod_reports": [],
@@ -266,7 +267,7 @@
     "data": {
       "after": null,
       "dist": null,
-      "modhash": null,
+      "modhash": "",
       "geo_filter": "",
       "children": [
         {
@@ -289,7 +290,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -312,7 +313,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": null,
+                          "modhash": "",
                           "geo_filter": "",
                           "children": [
                             {
@@ -344,7 +345,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_n97jzvb",
-                                "score": 9,
+                                "score": 8,
                                 "author_fullname": "t2_ciemf9is",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -360,7 +361,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "<div class=\"md\"><p>True x)</p>\n</div>",
+                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;True x)&lt;/p&gt;\n&lt;/div&gt;",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -387,7 +388,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 9
+                                "ups": 8
                               }
                             }
                           ],
@@ -408,7 +409,7 @@
                       "created_utc": 1755451697.0,
                       "send_replies": true,
                       "parent_id": "t1_n96o4re",
-                      "score": 20,
+                      "score": 22,
                       "author_fullname": "t2_js3h2i0q",
                       "removal_reason": null,
                       "approved_by": null,
@@ -423,7 +424,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>Why not feel both? Feel sorry she&#39;s in that position and jealous that you&#39;re not there 🤷</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Why not feel both? Feel sorry she&amp;#39;s in that position and jealous that you&amp;#39;re not there 🤷&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -450,7 +451,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 20
+                      "ups": 22
                     }
                   }
                 ],
@@ -471,7 +472,7 @@
             "created_utc": 1755442105.0,
             "send_replies": true,
             "parent_id": "t3_1msr6us",
-            "score": 45,
+            "score": 47,
             "author_fullname": "t2_ciemf9is",
             "approved_by": null,
             "mod_note": null,
@@ -486,7 +487,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>I don&#39;t know if I&#39;m sorry for her or if I&#39;m jealous of her 😖</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I don&amp;#39;t know if I&amp;#39;m sorry for her or if I&amp;#39;m jealous of her 😖&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -513,7 +514,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 45
+            "ups": 47
           }
         },
         {
@@ -536,7 +537,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -569,7 +570,7 @@
                       "created_utc": 1755506041.0,
                       "send_replies": true,
                       "parent_id": "t1_n986sn1",
-                      "score": 40,
+                      "score": 38,
                       "author_fullname": "t2_1u04mwitpc",
                       "removal_reason": null,
                       "approved_by": null,
@@ -584,7 +585,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>There might be a missing page that mentions it, but that character is the artist&#39;s OC. She has superpowers that give her a lot of durability so she wouldn&#39;t be injured by the welding or killed by any of the other elements of this scenario.</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;There might be a missing page that mentions it, but that character is the artist&amp;#39;s OC. She has superpowers that give her a lot of durability so she wouldn&amp;#39;t be injured by the welding or killed by any of the other elements of this scenario.&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -611,7 +612,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 40
+                      "ups": 38
                     }
                   },
                   {
@@ -659,7 +660,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>And the concrete would cause insane chemical burns</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;And the concrete would cause insane chemical burns&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -709,7 +710,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": null,
+                          "modhash": "",
                           "geo_filter": "",
                           "children": [
                             {
@@ -732,7 +733,7 @@
                                   "data": {
                                     "after": null,
                                     "dist": null,
-                                    "modhash": null,
+                                    "modhash": "",
                                     "geo_filter": "",
                                     "children": [
                                       {
@@ -764,7 +765,7 @@
                                           "can_mod_post": false,
                                           "send_replies": true,
                                           "parent_id": "t1_n9avcpa",
-                                          "score": 10,
+                                          "score": 8,
                                           "author_fullname": "t2_7wrej",
                                           "removal_reason": null,
                                           "approved_by": null,
@@ -780,7 +781,7 @@
                                           "downs": 0,
                                           "author_flair_richtext": [],
                                           "author_patreon_flair": false,
-                                          "body_html": "<div class=\"md\"><p>It does shrink, but the way it tends to shrink when it&#39;s poured in a block with a &quot;void&quot; in the middle will constrict around the void, aka, crushing the head. Concrete curing is also exothermic, so not just traditional chemical burns, but actual heat burns to.</p>\n</div>",
+                                          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;It does shrink, but the way it tends to shrink when it&amp;#39;s poured in a block with a &amp;quot;void&amp;quot; in the middle will constrict around the void, aka, crushing the head. Concrete curing is also exothermic, so not just traditional chemical burns, but actual heat burns to.&lt;/p&gt;\n&lt;/div&gt;",
                                           "gildings": {},
                                           "collapsed_reason": null,
                                           "distinguished": null,
@@ -807,7 +808,7 @@
                                           "collapsed_because_crowd_control": null,
                                           "mod_reports": [],
                                           "num_reports": null,
-                                          "ups": 10
+                                          "ups": 8
                                         }
                                       }
                                     ],
@@ -827,7 +828,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_n9a7mbl",
-                                "score": 12,
+                                "score": 14,
                                 "author_fullname": "t2_mcl7fxvz",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -843,7 +844,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "<div class=\"md\"><p>Concrete doesn&#39;t apply pressure when it dries tho. It doesn&#39;t expand. Infact it&#39;s more likely to shrink as it loses moisture.</p>\n\n<p>Chem burns would be a much more serious issue.</p>\n</div>",
+                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Concrete doesn&amp;#39;t apply pressure when it dries tho. It doesn&amp;#39;t expand. Infact it&amp;#39;s more likely to shrink as it loses moisture.&lt;/p&gt;\n\n&lt;p&gt;Chem burns would be a much more serious issue.&lt;/p&gt;\n&lt;/div&gt;",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -870,7 +871,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 12
+                                "ups": 14
                               }
                             }
                           ],
@@ -906,7 +907,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>The pressure from the concrete hardening would kill her immediately. As soon as it dries not only the pressure would push into her feeble eyelids but he cranium would most likely cave in.</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;The pressure from the concrete hardening would kill her immediately. As soon as it dries not only the pressure would push into her feeble eyelids but he cranium would most likely cave in.&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -966,7 +967,7 @@
                       "created_utc": 1755486757.0,
                       "send_replies": true,
                       "parent_id": "t1_n986sn1",
-                      "score": 7,
+                      "score": 8,
                       "author_fullname": "t2_3ilo7okh",
                       "removal_reason": null,
                       "approved_by": null,
@@ -981,7 +982,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>Should&#39;ve used BELZONA</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Should&amp;#39;ve used BELZONA&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -1008,7 +1009,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 7
+                      "ups": 8
                     }
                   },
                   {
@@ -1031,7 +1032,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": null,
+                          "modhash": "",
                           "geo_filter": "",
                           "children": [
                             {
@@ -1079,7 +1080,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "<div class=\"md\"><p>For comedic purposes, yes. Because it&#39;s funny to be deadpan about a very unrealistic scenario.</p>\n</div>",
+                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;For comedic purposes, yes. Because it&amp;#39;s funny to be deadpan about a very unrealistic scenario.&lt;/p&gt;\n&lt;/div&gt;",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -1142,7 +1143,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>Oh look! Mister dork is here and he’s going to analyse the realism of a porn comic!</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Oh look! Mister dork is here and he’s going to analyse the realism of a porn comic!&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -1190,7 +1191,7 @@
             "created_utc": 1755458626.0,
             "send_replies": true,
             "parent_id": "t3_1msr6us",
-            "score": 113,
+            "score": 112,
             "author_fullname": "t2_r7j37sng",
             "approved_by": null,
             "mod_note": null,
@@ -1205,7 +1206,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>The welding alone would melt the skin off her breasts, leading to tissue rot if left alone. The infection from the damage would likely kill her without treatment. You could probably get away with small burns if you tack weld the titty cuffs, but the structural integrity of the weld would suffer and them titties could pop out at any moment. </p>\n\n<p>Get the most out of your bondage session by applying the appropriate welding techniques and safety standards.</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;The welding alone would melt the skin off her breasts, leading to tissue rot if left alone. The infection from the damage would likely kill her without treatment. You could probably get away with small burns if you tack weld the titty cuffs, but the structural integrity of the weld would suffer and them titties could pop out at any moment. &lt;/p&gt;\n\n&lt;p&gt;Get the most out of your bondage session by applying the appropriate welding techniques and safety standards.&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -1232,7 +1233,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 113
+            "ups": 112
           }
         },
         {
@@ -1265,7 +1266,7 @@
             "created_utc": 1755450827.0,
             "send_replies": true,
             "parent_id": "t3_1msr6us",
-            "score": 9,
+            "score": 11,
             "author_fullname": "t2_12211u45re",
             "approved_by": null,
             "mod_note": null,
@@ -1280,7 +1281,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>One of the worst fates but dam that&#39;s hot lol</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;One of the worst fates but dam that&amp;#39;s hot lol&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -1307,7 +1308,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 9
+            "ups": 11
           }
         },
         {
@@ -1330,7 +1331,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -1363,7 +1364,7 @@
                       "created_utc": 1755455854.0,
                       "send_replies": true,
                       "parent_id": "t1_n978s8k",
-                      "score": 25,
+                      "score": 24,
                       "author_fullname": "t2_oryf90s3",
                       "removal_reason": null,
                       "approved_by": null,
@@ -1378,7 +1379,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>Elijahpink I believe</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Elijahpink I believe&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -1405,7 +1406,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 25
+                      "ups": 24
                     }
                   }
                 ],
@@ -1426,7 +1427,7 @@
             "created_utc": 1755448396.0,
             "send_replies": true,
             "parent_id": "t3_1msr6us",
-            "score": 27,
+            "score": 26,
             "author_fullname": "t2_doixqb0l",
             "approved_by": null,
             "mod_note": null,
@@ -1441,7 +1442,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>How hard is it to credit the artist? 😞</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How hard is it to credit the artist? 😞&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -1468,7 +1469,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 27
+            "ups": 26
           }
         },
         {
@@ -1501,7 +1502,7 @@
             "created_utc": 1755439241.0,
             "send_replies": true,
             "parent_id": "t3_1msr6us",
-            "score": 3,
+            "score": 5,
             "author_fullname": "t2_1npmp5yof7",
             "approved_by": null,
             "mod_note": null,
@@ -1516,7 +1517,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>i want someone to bully like this</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;i want someone to bully like this&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -1543,7 +1544,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 3
+            "ups": 5
           }
         },
         {
@@ -1566,7 +1567,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -1614,7 +1615,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>It must be from ElijahPink - but I haven&#39;t found the exact sauce yet :)</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;It must be from ElijahPink - but I haven&amp;#39;t found the exact sauce yet :)&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -1662,7 +1663,7 @@
             "created_utc": 1755506364.0,
             "send_replies": true,
             "parent_id": "t3_1msr6us",
-            "score": 5,
+            "score": 3,
             "author_fullname": "t2_1mmuvdn5ju",
             "approved_by": null,
             "mod_note": null,
@@ -1677,7 +1678,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>Sauce?</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Sauce?&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -1704,7 +1705,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 5
+            "ups": 3
           }
         },
         {
@@ -1737,7 +1738,7 @@
             "created_utc": 1755472168.0,
             "send_replies": true,
             "parent_id": "t3_1msr6us",
-            "score": 10,
+            "score": 12,
             "author_fullname": "t2_xt9qayh",
             "approved_by": null,
             "mod_note": null,
@@ -1752,7 +1753,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>man she is dead as fuck</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;man she is dead as fuck&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -1779,7 +1780,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 10
+            "ups": 12
           }
         },
         {
@@ -1827,7 +1828,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>Wow. That&#39;s hot</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Wow. That&amp;#39;s hot&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -1877,7 +1878,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -1920,7 +1921,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "<div class=\"md\"><p>For real, its so hot to imagine just becoming basically a living sextoy...</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;For real, its so hot to imagine just becoming basically a living sextoy...&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -1983,7 +1984,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>I am unironically envious of her. This is such a dream.</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I am unironically envious of her. This is such a dream.&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -2033,7 +2034,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -2081,7 +2082,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>Well well asked nicely and maybe it could be you darling used like a good girl every day all day long</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Well well asked nicely and maybe it could be you darling used like a good girl every day all day long&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -2144,7 +2145,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>Don&#39;t mind me if I swap with her 😋</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Don&amp;#39;t mind me if I swap with her 😋&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -2194,7 +2195,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -2227,7 +2228,7 @@
                       "created_utc": 1755495054.0,
                       "send_replies": true,
                       "parent_id": "t1_n98co40",
-                      "score": 21,
+                      "score": 23,
                       "author_fullname": "t2_mcl7fxvz",
                       "removal_reason": null,
                       "approved_by": null,
@@ -2242,7 +2243,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>Then why are there speech bubbles with grunts coming from the &quot;corpse&quot;</p>\n\n<p>She&#39;s alive. As unrealistic a scenario as that is.</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Then why are there speech bubbles with grunts coming from the &amp;quot;corpse&amp;quot;&lt;/p&gt;\n\n&lt;p&gt;She&amp;#39;s alive. As unrealistic a scenario as that is.&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -2269,7 +2270,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 21
+                      "ups": 23
                     }
                   },
                   {
@@ -2317,7 +2318,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>I can&#39;t remember if there&#39;s a missing page that mentions it, but the character is the artist&#39;s OC. She has superpowers that give her a lot of durability so she&#39;s often used for the more extreme bondage scenarios that wouldn&#39;t work otherwise.</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I can&amp;#39;t remember if there&amp;#39;s a missing page that mentions it, but the character is the artist&amp;#39;s OC. She has superpowers that give her a lot of durability so she&amp;#39;s often used for the more extreme bondage scenarios that wouldn&amp;#39;t work otherwise.&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -2357,7 +2358,7 @@
                       "awarders": [],
                       "mod_reason_by": null,
                       "banned_by": null,
-                      "ups": 6,
+                      "ups": 5,
                       "removal_reason": null,
                       "link_id": "t3_1msr6us",
                       "author_flair_template_id": null,
@@ -2376,7 +2377,7 @@
                       "can_mod_post": false,
                       "send_replies": true,
                       "parent_id": "t1_n98co40",
-                      "score": 6,
+                      "score": 5,
                       "approved_by": null,
                       "report_reasons": null,
                       "all_awardings": [],
@@ -2387,7 +2388,7 @@
                       "collapsed": false,
                       "downs": 0,
                       "is_submitter": false,
-                      "body_html": "<div class=\"md\"><p>She&#39;s literally making noise. There are text bubbles for <em>her</em>.</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;She&amp;#39;s literally making noise. There are text bubbles for &lt;em&gt;her&lt;/em&gt;.&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "associated_award": null,
@@ -2462,7 +2463,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>She should be dead. But will, she&#39;s not in this one. Either she has super powers, or we&#39;re just totally disregarding physics and biology.</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;She should be dead. But will, she&amp;#39;s not in this one. Either she has super powers, or we&amp;#39;re just totally disregarding physics and biology.&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -2510,7 +2511,7 @@
             "created_utc": 1755460497.0,
             "send_replies": true,
             "parent_id": "t3_1msr6us",
-            "score": 5,
+            "score": 3,
             "author_fullname": "t2_5t8p9che",
             "approved_by": null,
             "mod_note": null,
@@ -2525,7 +2526,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>They&#39;re literally performing necrophilia on that corpse at the bottom panel.</p>\n\n<p>Get your bondage and necrophilia fetish sorted those are not the same</p>\n\n<p>Edit: Seem like a number of people are hiding their Necrophilia fetish under the pretense that it&#39;s just &quot;extreme&quot; bondage fetish</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;They&amp;#39;re literally performing necrophilia on that corpse at the bottom panel.&lt;/p&gt;\n\n&lt;p&gt;Get your bondage and necrophilia fetish sorted those are not the same&lt;/p&gt;\n\n&lt;p&gt;Edit: Seem like a number of people are hiding their Necrophilia fetish under the pretense that it&amp;#39;s just &amp;quot;extreme&amp;quot; bondage fetish&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -2552,7 +2553,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 5
+            "ups": 3
           }
         },
         {
@@ -2595,7 +2596,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "<div class=\"md\"><p>Me too</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Me too&lt;/p&gt;\n&lt;/div&gt;",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -2670,7 +2671,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>Name</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Name&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -2745,7 +2746,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>Concrete has a high, alkaline pH level, initially ranging from 12 to 13, due to the presence of calcium hydroxide from the hydration of Portland cement.</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Concrete has a high, alkaline pH level, initially ranging from 12 to 13, due to the presence of calcium hydroxide from the hydration of Portland cement.&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -2779,15 +2780,14 @@
       "before": null
     }
   },
-  "comments_truncated_by_depth": true,
-  "comments_truncated_by_limit": false,
   "comments": [
     {
       "id": "n96o4re",
       "author": "Emmasochist",
       "author_fullname": "t2_ciemf9is",
       "body": "I don't know if I'm sorry for her or if I'm jealous of her 😖",
-      "score": 45,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I don&amp;#39;t know if I&amp;#39;m sorry for her or if I&amp;#39;m jealous of her 😖&lt;/p&gt;\n&lt;/div&gt;",
+      "score": 47,
       "created_utc": 1755442105.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n96o4re/",
       "is_submitter": false,
@@ -2798,7 +2798,8 @@
           "author": "WhyTheFreakFrackNot",
           "author_fullname": "t2_js3h2i0q",
           "body": "Why not feel both? Feel sorry she's in that position and jealous that you're not there 🤷",
-          "score": 20,
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Why not feel both? Feel sorry she&amp;#39;s in that position and jealous that you&amp;#39;re not there 🤷&lt;/p&gt;\n&lt;/div&gt;",
+          "score": 22,
           "created_utc": 1755451697.0,
           "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n97jzvb/",
           "is_submitter": false,
@@ -2809,7 +2810,8 @@
               "author": "Emmasochist",
               "author_fullname": "t2_ciemf9is",
               "body": "True x)",
-              "score": 9,
+              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;True x)&lt;/p&gt;\n&lt;/div&gt;",
+              "score": 8,
               "created_utc": 1755453438.0,
               "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n97q1sf/",
               "is_submitter": false,
@@ -2825,7 +2827,8 @@
       "author": "Rampartmain1",
       "author_fullname": "t2_r7j37sng",
       "body": "The welding alone would melt the skin off her breasts, leading to tissue rot if left alone. The infection from the damage would likely kill her without treatment. You could probably get away with small burns if you tack weld the titty cuffs, but the structural integrity of the weld would suffer and them titties could pop out at any moment. \n\nGet the most out of your bondage session by applying the appropriate welding techniques and safety standards.",
-      "score": 113,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;The welding alone would melt the skin off her breasts, leading to tissue rot if left alone. The infection from the damage would likely kill her without treatment. You could probably get away with small burns if you tack weld the titty cuffs, but the structural integrity of the weld would suffer and them titties could pop out at any moment. &lt;/p&gt;\n\n&lt;p&gt;Get the most out of your bondage session by applying the appropriate welding techniques and safety standards.&lt;/p&gt;\n&lt;/div&gt;",
+      "score": 112,
       "created_utc": 1755458626.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n986sn1/",
       "is_submitter": false,
@@ -2836,7 +2839,8 @@
           "author": "Anathema224",
           "author_fullname": "t2_1u04mwitpc",
           "body": "There might be a missing page that mentions it, but that character is the artist's OC. She has superpowers that give her a lot of durability so she wouldn't be injured by the welding or killed by any of the other elements of this scenario.",
-          "score": 40,
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;There might be a missing page that mentions it, but that character is the artist&amp;#39;s OC. She has superpowers that give her a lot of durability so she wouldn&amp;#39;t be injured by the welding or killed by any of the other elements of this scenario.&lt;/p&gt;\n&lt;/div&gt;",
+          "score": 38,
           "created_utc": 1755506041.0,
           "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n9be950/",
           "is_submitter": false,
@@ -2848,6 +2852,7 @@
           "author": "holy-nut1",
           "author_fullname": "t2_3dd1a8tt",
           "body": "And the concrete would cause insane chemical burns",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;And the concrete would cause insane chemical burns&lt;/p&gt;\n&lt;/div&gt;",
           "score": 66,
           "created_utc": 1755467586.0,
           "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n98ytek/",
@@ -2860,6 +2865,7 @@
           "author": "FLAbongs",
           "author_fullname": "t2_3rpq8o1h",
           "body": "The pressure from the concrete hardening would kill her immediately. As soon as it dries not only the pressure would push into her feeble eyelids but he cranium would most likely cave in.",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;The pressure from the concrete hardening would kill her immediately. As soon as it dries not only the pressure would push into her feeble eyelids but he cranium would most likely cave in.&lt;/p&gt;\n&lt;/div&gt;",
           "score": 26,
           "created_utc": 1755484044.0,
           "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n9a7mbl/",
@@ -2871,7 +2877,8 @@
               "author": "BetaTheSlave",
               "author_fullname": "t2_mcl7fxvz",
               "body": "Concrete doesn't apply pressure when it dries tho. It doesn't expand. Infact it's more likely to shrink as it loses moisture.\n\nChem burns would be a much more serious issue.",
-              "score": 12,
+              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Concrete doesn&amp;#39;t apply pressure when it dries tho. It doesn&amp;#39;t expand. Infact it&amp;#39;s more likely to shrink as it loses moisture.&lt;/p&gt;\n\n&lt;p&gt;Chem burns would be a much more serious issue.&lt;/p&gt;\n&lt;/div&gt;",
+              "score": 14,
               "created_utc": 1755494960.0,
               "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n9avcpa/",
               "is_submitter": false,
@@ -2882,7 +2889,8 @@
                   "author": "Onzaylis",
                   "author_fullname": "t2_7wrej",
                   "body": "It does shrink, but the way it tends to shrink when it's poured in a block with a \"void\" in the middle will constrict around the void, aka, crushing the head. Concrete curing is also exothermic, so not just traditional chemical burns, but actual heat burns to.",
-                  "score": 10,
+                  "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;It does shrink, but the way it tends to shrink when it&amp;#39;s poured in a block with a &amp;quot;void&amp;quot; in the middle will constrict around the void, aka, crushing the head. Concrete curing is also exothermic, so not just traditional chemical burns, but actual heat burns to.&lt;/p&gt;\n&lt;/div&gt;",
+                  "score": 8,
                   "created_utc": 1755611284.0,
                   "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n9j1o6w/",
                   "is_submitter": false,
@@ -2898,7 +2906,8 @@
           "author": "Greyinhereyes",
           "author_fullname": "t2_3ilo7okh",
           "body": "Should've used BELZONA",
-          "score": 7,
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Should&amp;#39;ve used BELZONA&lt;/p&gt;\n&lt;/div&gt;",
+          "score": 8,
           "created_utc": 1755486757.0,
           "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n9ae9as/",
           "is_submitter": false,
@@ -2910,6 +2919,7 @@
           "author": "junkoxivxliv",
           "author_fullname": "t2_3myijtsp",
           "body": "Oh look! Mister dork is here and he’s going to analyse the realism of a porn comic!",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Oh look! Mister dork is here and he’s going to analyse the realism of a porn comic!&lt;/p&gt;\n&lt;/div&gt;",
           "score": 0,
           "created_utc": 1755694913.0,
           "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n9pee72/",
@@ -2921,6 +2931,7 @@
               "author": "cairoxl5",
               "author_fullname": "t2_zzx0w",
               "body": "For comedic purposes, yes. Because it's funny to be deadpan about a very unrealistic scenario.",
+              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;For comedic purposes, yes. Because it&amp;#39;s funny to be deadpan about a very unrealistic scenario.&lt;/p&gt;\n&lt;/div&gt;",
               "score": 6,
               "created_utc": 1755695029.0,
               "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n9peqf2/",
@@ -2937,7 +2948,8 @@
       "author": "atyourbehest-milo",
       "author_fullname": "t2_12211u45re",
       "body": "One of the worst fates but dam that's hot lol",
-      "score": 9,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;One of the worst fates but dam that&amp;#39;s hot lol&lt;/p&gt;\n&lt;/div&gt;",
+      "score": 11,
       "created_utc": 1755450827.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n97gx3i/",
       "is_submitter": false,
@@ -2949,7 +2961,8 @@
       "author": "JohnFWV",
       "author_fullname": "t2_doixqb0l",
       "body": "How hard is it to credit the artist? 😞",
-      "score": 27,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How hard is it to credit the artist? 😞&lt;/p&gt;\n&lt;/div&gt;",
+      "score": 26,
       "created_utc": 1755448396.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n978s8k/",
       "is_submitter": false,
@@ -2960,7 +2973,8 @@
           "author": "Due-Addendum-7752",
           "author_fullname": "t2_oryf90s3",
           "body": "Elijahpink I believe",
-          "score": 25,
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Elijahpink I believe&lt;/p&gt;\n&lt;/div&gt;",
+          "score": 24,
           "created_utc": 1755455854.0,
           "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n97xygd/",
           "is_submitter": false,
@@ -2974,7 +2988,8 @@
       "author": "LawfulnessRough8627",
       "author_fullname": "t2_1npmp5yof7",
       "body": "i want someone to bully like this",
-      "score": 3,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;i want someone to bully like this&lt;/p&gt;\n&lt;/div&gt;",
+      "score": 5,
       "created_utc": 1755439241.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n96faai/",
       "is_submitter": false,
@@ -2986,7 +3001,8 @@
       "author": "Hungry_tease",
       "author_fullname": "t2_1mmuvdn5ju",
       "body": "Sauce?",
-      "score": 5,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Sauce?&lt;/p&gt;\n&lt;/div&gt;",
+      "score": 3,
       "created_utc": 1755506364.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n9bert5/",
       "is_submitter": false,
@@ -2997,6 +3013,7 @@
           "author": "beaver_beaver",
           "author_fullname": "t2_52rbttj9",
           "body": "It must be from ElijahPink - but I haven't found the exact sauce yet :)",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;It must be from ElijahPink - but I haven&amp;#39;t found the exact sauce yet :)&lt;/p&gt;\n&lt;/div&gt;",
           "score": 4,
           "created_utc": 1755511510.0,
           "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n9bnhs9/",
@@ -3011,7 +3028,8 @@
       "author": "LordGodTachanka",
       "author_fullname": "t2_xt9qayh",
       "body": "man she is dead as fuck",
-      "score": 10,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;man she is dead as fuck&lt;/p&gt;\n&lt;/div&gt;",
+      "score": 12,
       "created_utc": 1755472168.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n99bsg1/",
       "is_submitter": false,
@@ -3023,6 +3041,7 @@
       "author": "PicturePurple99",
       "author_fullname": "t2_n5vrc0uuj",
       "body": "Wow. That's hot",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Wow. That&amp;#39;s hot&lt;/p&gt;\n&lt;/div&gt;",
       "score": 3,
       "created_utc": 1755450865.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n97h1qw/",
@@ -3035,6 +3054,7 @@
       "author": "K9CuntGirl",
       "author_fullname": "t2_qh9bhxvsa",
       "body": "I am unironically envious of her. This is such a dream.",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I am unironically envious of her. This is such a dream.&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1755516693.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n9bxwm1/",
@@ -3046,6 +3066,7 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "For real, its so hot to imagine just becoming basically a living sextoy...",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;For real, its so hot to imagine just becoming basically a living sextoy...&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1756045662.0,
           "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/naf1ulo/",
@@ -3060,6 +3081,7 @@
       "author": "pie678",
       "author_fullname": "t2_1shlhh4qzi",
       "body": "Don't mind me if I swap with her 😋",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Don&amp;#39;t mind me if I swap with her 😋&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1755686943.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n9ou6ab/",
@@ -3071,6 +3093,7 @@
           "author": "ProfessionalIll9341",
           "author_fullname": "t2_v1r2it5q",
           "body": "Well well asked nicely and maybe it could be you darling used like a good girl every day all day long",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Well well asked nicely and maybe it could be you darling used like a good girl every day all day long&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1757529754.0,
           "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/ndhtykx/",
@@ -3085,7 +3108,8 @@
       "author": "lushee520",
       "author_fullname": "t2_5t8p9che",
       "body": "They're literally performing necrophilia on that corpse at the bottom panel.\n\nGet your bondage and necrophilia fetish sorted those are not the same\n\nEdit: Seem like a number of people are hiding their Necrophilia fetish under the pretense that it's just \"extreme\" bondage fetish",
-      "score": 5,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;They&amp;#39;re literally performing necrophilia on that corpse at the bottom panel.&lt;/p&gt;\n\n&lt;p&gt;Get your bondage and necrophilia fetish sorted those are not the same&lt;/p&gt;\n\n&lt;p&gt;Edit: Seem like a number of people are hiding their Necrophilia fetish under the pretense that it&amp;#39;s just &amp;quot;extreme&amp;quot; bondage fetish&lt;/p&gt;\n&lt;/div&gt;",
+      "score": 3,
       "created_utc": 1755460497.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n98co40/",
       "is_submitter": false,
@@ -3096,7 +3120,8 @@
           "author": "BetaTheSlave",
           "author_fullname": "t2_mcl7fxvz",
           "body": "Then why are there speech bubbles with grunts coming from the \"corpse\"\n\nShe's alive. As unrealistic a scenario as that is.",
-          "score": 21,
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Then why are there speech bubbles with grunts coming from the &amp;quot;corpse&amp;quot;&lt;/p&gt;\n\n&lt;p&gt;She&amp;#39;s alive. As unrealistic a scenario as that is.&lt;/p&gt;\n&lt;/div&gt;",
+          "score": 23,
           "created_utc": 1755495054.0,
           "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n9avitf/",
           "is_submitter": false,
@@ -3108,6 +3133,7 @@
           "author": "Anathema224",
           "author_fullname": "t2_1u04mwitpc",
           "body": "I can't remember if there's a missing page that mentions it, but the character is the artist's OC. She has superpowers that give her a lot of durability so she's often used for the more extreme bondage scenarios that wouldn't work otherwise.",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I can&amp;#39;t remember if there&amp;#39;s a missing page that mentions it, but the character is the artist&amp;#39;s OC. She has superpowers that give her a lot of durability so she&amp;#39;s often used for the more extreme bondage scenarios that wouldn&amp;#39;t work otherwise.&lt;/p&gt;\n&lt;/div&gt;",
           "score": 13,
           "created_utc": 1755505914.0,
           "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n9be1qs/",
@@ -3120,7 +3146,8 @@
           "author": "[deleted]",
           "author_fullname": null,
           "body": "She's literally making noise. There are text bubbles for *her*.",
-          "score": 6,
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;She&amp;#39;s literally making noise. There are text bubbles for &lt;em&gt;her&lt;/em&gt;.&lt;/p&gt;\n&lt;/div&gt;",
+          "score": 5,
           "created_utc": 1755564851.0,
           "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n9g78p4/",
           "is_submitter": false,
@@ -3132,6 +3159,7 @@
           "author": "Onzaylis",
           "author_fullname": "t2_7wrej",
           "body": "She should be dead. But will, she's not in this one. Either she has super powers, or we're just totally disregarding physics and biology.",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;She should be dead. But will, she&amp;#39;s not in this one. Either she has super powers, or we&amp;#39;re just totally disregarding physics and biology.&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1755611390.0,
           "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n9j20c3/",
@@ -3146,6 +3174,7 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "Me too",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Me too&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1755455159.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n97vpzj/",
@@ -3158,6 +3187,7 @@
       "author": "ProfessionalBike1510",
       "author_fullname": "t2_5z1u2dn3",
       "body": "Name",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Name&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1755494018.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/n9atky4/",
@@ -3170,6 +3200,7 @@
       "author": "memefarius",
       "author_fullname": "t2_2e3563ah",
       "body": "Concrete has a high, alkaline pH level, initially ranging from 12 to 13, due to the presence of calcium hydroxide from the hydration of Portland cement.",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Concrete has a high, alkaline pH level, initially ranging from 12 to 13, due to the presence of calcium hydroxide from the hydration of Portland cement.&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1757158727.0,
       "permalink": "https://www.reddit.com/r/HentaiBullying/comments/1msr6us/i_really_want_to_be_treated_like_this/ncptlu6/",
@@ -3177,6 +3208,5 @@
       "parent_id": "t3_1msr6us",
       "replies": []
     }
-  ],
-  "media_kind": "image"
+  ]
 }

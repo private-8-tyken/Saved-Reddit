@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-11T08:17:30.189109+00:00",
+  "archived_at": "2025-09-11T07:31:16.068061+00:00",
   "reddit_fullname": "t3_1ly9j0w",
   "reddit_id": "1ly9j0w",
   "permalink": "https://www.reddit.com/r/AhegaoGirls/comments/1ly9j0w/my_dadzie_saw_me_doing_ahegao_and_he_was_like_wtf/",
@@ -23,8 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 4,
-  "score": 20,
-  "upvote_ratio": 0.83,
+  "score": 19,
+  "upvote_ratio": 0.81,
+  "media_kind": "gallery",
   "media": null,
   "external_link": null,
   "raw_post": {
@@ -51,9 +52,9 @@
     "hide_score": false,
     "quarantine": false,
     "link_flair_text_color": "dark",
-    "upvote_ratio": 0.83,
+    "upvote_ratio": 0.81,
     "author_flair_background_color": null,
-    "ups": 20,
+    "ups": 19,
     "domain": "reddit.com",
     "media_embed": {},
     "thumbnail_width": 140,
@@ -68,7 +69,7 @@
     "gallery_data": null,
     "link_flair_text": "Unverified OC",
     "can_mod_post": false,
-    "score": 20,
+    "score": 19,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -133,7 +134,7 @@
     "permalink": "/r/AhegaoGirls/comments/1ly9j0w/my_dadzie_saw_me_doing_ahegao_and_he_was_like_wtf/",
     "stickied": false,
     "url": "https://www.reddit.com/gallery/1ly9j0w",
-    "subreddit_subscribers": 742129,
+    "subreddit_subscribers": 742113,
     "created_utc": 1752350204.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -144,7 +145,7 @@
     "data": {
       "after": null,
       "dist": null,
-      "modhash": null,
+      "modhash": "",
       "geo_filter": "",
       "children": [
         {
@@ -192,7 +193,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>How fun it must have been</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How fun it must have been&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -267,7 +268,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>Ok but that is not ahegao. Your eyes should roll up not down</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Ok but that is not ahegao. Your eyes should roll up not down&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -317,7 +318,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -365,7 +366,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>its a fake acc look at this quality</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;its a fake acc look at this quality&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -428,7 +429,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>your post history is confusing me. 9 years ago posting about investing? who are you?</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;your post history is confusing me. 9 years ago posting about investing? who are you?&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -462,14 +463,13 @@
       "before": null
     }
   },
-  "comments_truncated_by_depth": true,
-  "comments_truncated_by_limit": false,
   "comments": [
     {
       "id": "n2sdugt",
       "author": "Elian_88",
       "author_fullname": "t2_aat3sfh0",
       "body": "How fun it must have been",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How fun it must have been&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1752353050.0,
       "permalink": "https://www.reddit.com/r/AhegaoGirls/comments/1ly9j0w/my_dadzie_saw_me_doing_ahegao_and_he_was_like_wtf/n2sdugt/",
@@ -482,6 +482,7 @@
       "author": "CooperDK",
       "author_fullname": "t2_1o5ad2fq",
       "body": "Ok but that is not ahegao. Your eyes should roll up not down",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Ok but that is not ahegao. Your eyes should roll up not down&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1752360438.0,
       "permalink": "https://www.reddit.com/r/AhegaoGirls/comments/1ly9j0w/my_dadzie_saw_me_doing_ahegao_and_he_was_like_wtf/n2szr59/",
@@ -494,6 +495,7 @@
       "author": "sxynspce",
       "author_fullname": "t2_9kyh2xrnw",
       "body": "your post history is confusing me. 9 years ago posting about investing? who are you?",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;your post history is confusing me. 9 years ago posting about investing? who are you?&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1752365329.0,
       "permalink": "https://www.reddit.com/r/AhegaoGirls/comments/1ly9j0w/my_dadzie_saw_me_doing_ahegao_and_he_was_like_wtf/n2tdl0n/",
@@ -505,6 +507,7 @@
           "author": "BusResponsible4789",
           "author_fullname": "t2_1cy0muifi8",
           "body": "its a fake acc look at this quality",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;its a fake acc look at this quality&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1752373208.0,
           "permalink": "https://www.reddit.com/r/AhegaoGirls/comments/1ly9j0w/my_dadzie_saw_me_doing_ahegao_and_he_was_like_wtf/n2tyi8n/",
@@ -514,6 +517,5 @@
         }
       ]
     }
-  ],
-  "media_kind": "gallery"
+  ]
 }

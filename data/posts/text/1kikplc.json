@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-11T08:16:04.068453+00:00",
+  "archived_at": "2025-09-11T07:20:40.209448+00:00",
   "reddit_fullname": "t3_1kikplc",
   "reddit_id": "1kikplc",
   "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/",
@@ -25,6 +25,7 @@
   "num_comments": 62,
   "score": 43,
   "upvote_ratio": 0.98,
+  "media_kind": "self",
   "media": null,
   "external_link": null,
   "raw_post": {
@@ -84,14 +85,14 @@
     "author_flair_type": "text",
     "domain": "self.NSFWIAMA",
     "allow_live_comments": false,
-    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;ve been working in this industry for 16 years, and am willing to answer any questions about my work. </p>\n</div><!-- SC_ON -->",
+    "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;ve been working in this industry for 16 years, and am willing to answer any questions about my work. &lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
     "likes": null,
     "suggested_sort": "confidence",
     "banned_at_utc": null,
     "view_count": null,
     "archived": false,
     "no_follow": false,
-    "is_crosspostable": true,
+    "is_crosspostable": false,
     "pinned": false,
     "over_18": true,
     "all_awardings": [],
@@ -126,7 +127,7 @@
     "permalink": "/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/",
     "stickied": false,
     "url": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/",
-    "subreddit_subscribers": 276961,
+    "subreddit_subscribers": 276959,
     "created_utc": 1746803037.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -137,7 +138,7 @@
     "data": {
       "after": null,
       "dist": null,
-      "modhash": null,
+      "modhash": "",
       "geo_filter": "",
       "children": [
         {
@@ -176,7 +177,7 @@
             "mod_note": null,
             "all_awardings": [],
             "collapsed": false,
-            "body": "# This is an unverified AMA  \n**Note to readers: u/Alone-Target-313 has not provided proof for this AMA - and therefor there is a higher likelihood that this AMA is false.  The mods of r/NSFWIAmA recommend that readers be sceptical of all information provided by u/Alone-Target-313 in their original post and/or responses.**  \n&nbsp;  \n\n---\n&nbsp;  \n**Note to u/Alone-Target-313**: We warmly encourage to verify your AMA.  Instructions on our verification process are available at [this link](https://www.reddit.com/r/NSFWIAMA/wiki/verifcation).  Your post and/or account flare will be updated and this comment will be removed should you choose to verify.  \n&nbsp;  \n\n---\n&nbsp;  \n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/NSFWIAMA) if you have any questions or concerns.*",
+            "body": "# This is an unverified AMA  \n**Note to readers: u/Alone-Target-313 has not provided proof for this AMA - and therefor there is a higher likelihood that this AMA is false.  The mods of r/NSFWIAmA recommend that readers be sceptical of all information provided by u/Alone-Target-313 in their original post and/or responses.**  \n&amp;nbsp;  \n\n---\n&amp;nbsp;  \n**Note to u/Alone-Target-313**: We warmly encourage to verify your AMA.  Instructions on our verification process are available at [this link](https://www.reddit.com/r/NSFWIAMA/wiki/verifcation).  Your post and/or account flare will be updated and this comment will be removed should you choose to verify.  \n&amp;nbsp;  \n\n---\n&amp;nbsp;  \n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/NSFWIAMA) if you have any questions or concerns.*",
             "edited": false,
             "top_awarded_type": null,
             "author_flair_css_class": null,
@@ -185,7 +186,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><h1>This is an unverified AMA</h1>\n\n<p><strong>Note to readers: <a href=\"/u/Alone-Target-313\">u/Alone-Target-313</a> has not provided proof for this AMA - and therefor there is a higher likelihood that this AMA is false.  The mods of <a href=\"/r/NSFWIAmA\">r/NSFWIAmA</a> recommend that readers be sceptical of all information provided by <a href=\"/u/Alone-Target-313\">u/Alone-Target-313</a> in their original post and/or responses.</strong><br/>\n&nbsp;  </p>\n\n<hr/>\n\n<p>&nbsp;<br/>\n<strong>Note to <a href=\"/u/Alone-Target-313\">u/Alone-Target-313</a></strong>: We warmly encourage to verify your AMA.  Instructions on our verification process are available at <a href=\"https://www.reddit.com/r/NSFWIAMA/wiki/verifcation\">this link</a>.  Your post and/or account flare will be updated and this comment will be removed should you choose to verify.<br/>\n&nbsp;  </p>\n\n<hr/>\n\n<p>&nbsp;  </p>\n\n<p><em>I am a bot, and this action was performed automatically. Please <a href=\"/message/compose/?to=/r/NSFWIAMA\">contact the moderators of this subreddit</a> if you have any questions or concerns.</em></p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;h1&gt;This is an unverified AMA&lt;/h1&gt;\n\n&lt;p&gt;&lt;strong&gt;Note to readers: &lt;a href=\"/u/Alone-Target-313\"&gt;u/Alone-Target-313&lt;/a&gt; has not provided proof for this AMA - and therefor there is a higher likelihood that this AMA is false.  The mods of &lt;a href=\"/r/NSFWIAmA\"&gt;r/NSFWIAmA&lt;/a&gt; recommend that readers be sceptical of all information provided by &lt;a href=\"/u/Alone-Target-313\"&gt;u/Alone-Target-313&lt;/a&gt; in their original post and/or responses.&lt;/strong&gt;&lt;br/&gt;\n&amp;nbsp;  &lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&amp;nbsp;&lt;br/&gt;\n&lt;strong&gt;Note to &lt;a href=\"/u/Alone-Target-313\"&gt;u/Alone-Target-313&lt;/a&gt;&lt;/strong&gt;: We warmly encourage to verify your AMA.  Instructions on our verification process are available at &lt;a href=\"https://www.reddit.com/r/NSFWIAMA/wiki/verifcation\"&gt;this link&lt;/a&gt;.  Your post and/or account flare will be updated and this comment will be removed should you choose to verify.&lt;br/&gt;\n&amp;nbsp;  &lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&amp;nbsp;  &lt;/p&gt;\n\n&lt;p&gt;&lt;em&gt;I am a bot, and this action was performed automatically. Please &lt;a href=\"/message/compose/?to=/r/NSFWIAMA\"&gt;contact the moderators of this subreddit&lt;/a&gt; if you have any questions or concerns.&lt;/em&gt;&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": "moderator",
@@ -235,7 +236,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -283,7 +284,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>I know this isn&#39;t a question, but I do want to say that seeing the people who I help is one of the things that fully reasserts my determination. There is nothing that makes me prouder to do my job than seeing a victim of abuse free due to my efforts.</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I know this isn&amp;#39;t a question, but I do want to say that seeing the people who I help is one of the things that fully reasserts my determination. There is nothing that makes me prouder to do my job than seeing a victim of abuse free due to my efforts.&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -331,7 +332,7 @@
             "created_utc": 1746821468.0,
             "send_replies": true,
             "parent_id": "t3_1kikplc",
-            "score": 14,
+            "score": 15,
             "author_fullname": "t2_59gqnuft",
             "approved_by": null,
             "mod_note": null,
@@ -346,7 +347,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>Good work and thank you, I (probably we all) have the highest respect for you. And CPS agents they rock as well</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Good work and thank you, I (probably we all) have the highest respect for you. And CPS agents they rock as well&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -373,7 +374,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 14
+            "ups": 15
           }
         },
         {
@@ -396,7 +397,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -419,7 +420,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": null,
+                          "modhash": "",
                           "geo_filter": "",
                           "children": [
                             {
@@ -442,7 +443,7 @@
                                   "data": {
                                     "after": null,
                                     "dist": null,
-                                    "modhash": null,
+                                    "modhash": "",
                                     "geo_filter": "",
                                     "children": [
                                       {
@@ -490,7 +491,7 @@
                                           "downs": 0,
                                           "author_flair_richtext": [],
                                           "author_patreon_flair": false,
-                                          "body_html": "<div class=\"md\"><p>It helps a lot to think of myself as doing something good in the world. Making it a better place for everyone to live in, including my wife and daughters. </p>\n\n<p>I do have a compulsory psychiatric assessment once every four months, but I do pretty well there.</p>\n\n<p>I think that the biggest reason for me still being mentally okay is definitely my wife. I have no doubt that without her and my daughters, I would have gone down a truly morbid path.</p>\n</div>",
+                                          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;It helps a lot to think of myself as doing something good in the world. Making it a better place for everyone to live in, including my wife and daughters. &lt;/p&gt;\n\n&lt;p&gt;I do have a compulsory psychiatric assessment once every four months, but I do pretty well there.&lt;/p&gt;\n\n&lt;p&gt;I think that the biggest reason for me still being mentally okay is definitely my wife. I have no doubt that without her and my daughters, I would have gone down a truly morbid path.&lt;/p&gt;\n&lt;/div&gt;",
                                           "gildings": {},
                                           "collapsed_reason": null,
                                           "distinguished": null,
@@ -548,7 +549,7 @@
                                 "author_flair_css_class": null,
                                 "downs": 0,
                                 "is_submitter": false,
-                                "body_html": "<div class=\"md\"><p>Jesus Christ... How do you cope with that? How do you manage to stay mentally safe after that, or worse, repeated exposure to that?</p>\n</div>",
+                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Jesus Christ... How do you cope with that? How do you manage to stay mentally safe after that, or worse, repeated exposure to that?&lt;/p&gt;\n&lt;/div&gt;",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "associated_award": null,
@@ -596,7 +597,7 @@
                       "created_utc": 1746855818.0,
                       "send_replies": true,
                       "parent_id": "t1_mrgj7b9",
-                      "score": 17,
+                      "score": 18,
                       "author_fullname": "t2_c3uw8kaa",
                       "removal_reason": null,
                       "approved_by": null,
@@ -611,7 +612,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>I rarely have to log personal photos unless they are relevant to the charges. I do end up going through all the photos, and a lot of them end up being child pornography disguised as something more innocent. </p>\n\n<p>I think it truly breaks my heart a little when I see a happy and smiling mother with her children and husband in one image, and then a dead and sexually mutilated corpse of some poor innocent child in the next.</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I rarely have to log personal photos unless they are relevant to the charges. I do end up going through all the photos, and a lot of them end up being child pornography disguised as something more innocent. &lt;/p&gt;\n\n&lt;p&gt;I think it truly breaks my heart a little when I see a happy and smiling mother with her children and husband in one image, and then a dead and sexually mutilated corpse of some poor innocent child in the next.&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -638,7 +639,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 17
+                      "ups": 18
                     }
                   }
                 ],
@@ -674,7 +675,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>When you are doing your job do you only see the terrible sides of everyone, or do you have to sift through all of their normal files?\nLike logging family vacation photos and whatnot?</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;When you are doing your job do you only see the terrible sides of everyone, or do you have to sift through all of their normal files?\nLike logging family vacation photos and whatnot?&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -724,7 +725,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -747,7 +748,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": null,
+                          "modhash": "",
                           "geo_filter": "",
                           "children": [
                             {
@@ -770,7 +771,7 @@
                                   "data": {
                                     "after": null,
                                     "dist": null,
-                                    "modhash": null,
+                                    "modhash": "",
                                     "geo_filter": "",
                                     "children": [
                                       {
@@ -802,7 +803,7 @@
                                           "can_mod_post": false,
                                           "send_replies": true,
                                           "parent_id": "t1_mrg170i",
-                                          "score": 11,
+                                          "score": 10,
                                           "author_fullname": "t2_c3uw8kaa",
                                           "removal_reason": null,
                                           "approved_by": null,
@@ -818,7 +819,7 @@
                                           "downs": 0,
                                           "author_flair_richtext": [],
                                           "author_patreon_flair": false,
-                                          "body_html": "<div class=\"md\"><p>I enjoy reading fantasy after work. Or cooking dinner for my wife and just being with her.</p>\n</div>",
+                                          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I enjoy reading fantasy after work. Or cooking dinner for my wife and just being with her.&lt;/p&gt;\n&lt;/div&gt;",
                                           "gildings": {},
                                           "collapsed_reason": null,
                                           "distinguished": null,
@@ -845,7 +846,7 @@
                                           "collapsed_because_crowd_control": null,
                                           "mod_reports": [],
                                           "num_reports": null,
-                                          "ups": 11
+                                          "ups": 10
                                         }
                                       }
                                     ],
@@ -865,7 +866,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_mrfyyzj",
-                                "score": 4,
+                                "score": 3,
                                 "author_fullname": "t2_8jt3a",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -881,7 +882,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "<div class=\"md\"><p>How do you relax after a day of work?</p>\n</div>",
+                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How do you relax after a day of work?&lt;/p&gt;\n&lt;/div&gt;",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -908,7 +909,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 4
+                                "ups": 3
                               }
                             }
                           ],
@@ -929,7 +930,7 @@
                       "created_utc": 1746808236.0,
                       "send_replies": true,
                       "parent_id": "t1_mrftc8z",
-                      "score": 11,
+                      "score": 10,
                       "author_fullname": "t2_c3uw8kaa",
                       "removal_reason": null,
                       "approved_by": null,
@@ -944,7 +945,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>Honestly very dependant on the individual. I would suggest that my faint-hearted wife steer clear of twitter. For the average reddit user, honestly anywhere you can access without Tor is probably fine</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Honestly very dependant on the individual. I would suggest that my faint-hearted wife steer clear of twitter. For the average reddit user, honestly anywhere you can access without Tor is probably fine&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -971,7 +972,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 11
+                      "ups": 10
                     }
                   }
                 ],
@@ -1007,7 +1008,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>What places do you suggest avoiding on the internet?</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;What places do you suggest avoiding on the internet?&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -1057,7 +1058,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -1080,7 +1081,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": null,
+                          "modhash": "",
                           "geo_filter": "",
                           "children": [
                             {
@@ -1103,7 +1104,7 @@
                                   "data": {
                                     "after": null,
                                     "dist": null,
-                                    "modhash": null,
+                                    "modhash": "",
                                     "geo_filter": "",
                                     "children": [
                                       {
@@ -1151,7 +1152,7 @@
                                           "downs": 0,
                                           "author_flair_richtext": [],
                                           "author_patreon_flair": false,
-                                          "body_html": "<div class=\"md\"><p>Slight misunderstanding, I meant that there is no chance for it happening FOR ME in the future. I don&#39;t doubt that there are other people who may very well dedicate themselves to that.</p>\n</div>",
+                                          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Slight misunderstanding, I meant that there is no chance for it happening FOR ME in the future. I don&amp;#39;t doubt that there are other people who may very well dedicate themselves to that.&lt;/p&gt;\n&lt;/div&gt;",
                                           "gildings": {},
                                           "collapsed_reason": null,
                                           "distinguished": null,
@@ -1214,7 +1215,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "<div class=\"md\"><p>That&#39;s fair, however why would you say there&#39;s no chance of it happening in the future? Just because no one is brave enough, or because the security they have on comms and cables is significantly better post-Assange?</p>\n</div>",
+                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;That&amp;#39;s fair, however why would you say there&amp;#39;s no chance of it happening in the future? Just because no one is brave enough, or because the security they have on comms and cables is significantly better post-Assange?&lt;/p&gt;\n&lt;/div&gt;",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -1277,7 +1278,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>I would say that currently - and likely in the future - there is no chance of that happening whatsoever. Don&#39;t get me wrong, I fully believe that Julian Assanage is a hero who is doing some exceptional work. It may be a bit cowardly for me to say so, but I fear the consequences for my family if I were to attempt something as daring. </p>\n\n<p>I suspect that if I had gone down another path in life and didn&#39;t have the best wife ever or my daughters, I would both be a lot worse of mentally and also a lot more likely to try something like that.</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I would say that currently - and likely in the future - there is no chance of that happening whatsoever. Don&amp;#39;t get me wrong, I fully believe that Julian Assanage is a hero who is doing some exceptional work. It may be a bit cowardly for me to say so, but I fear the consequences for my family if I were to attempt something as daring. &lt;/p&gt;\n\n&lt;p&gt;I suspect that if I had gone down another path in life and didn&amp;#39;t have the best wife ever or my daughters, I would both be a lot worse of mentally and also a lot more likely to try something like that.&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -1340,7 +1341,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>For your DFA job, how possible would it be, for you to become the next WikiLeaks?</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;For your DFA job, how possible would it be, for you to become the next WikiLeaks?&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -1390,7 +1391,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -1438,7 +1439,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>I worked closely with general law enforcement for a few years, and took several psychiatric evaluations as well as other more secretive evaluations.</p>\n\n<p>I have a masters degree in Cybesecurity, and a minor in law. The skills that are needed are mostly your confidentiality and your ability to navigate the internet. As far as job opportunities go, I would advise steering clear of anything even vaguely suspicious. </p>\n\n<p>There have been cases where despite concrete evidence located by me, the offender has walked free due to either legal loopholes or police misconduct. </p>\n\n<p>Honestly, my wife and daughters are the reason I stay sane and more or less okay despite the soul-crushing nature of my work. </p>\n\n<p>My advice would be to find someone to lean on. You will not be able to survive otherwise. In sixteen years of work, I have come across a single individual who managed to be content despite the horrific things he saw, and despite the fact that he had nobody to lean on. And that man was truly an exception.</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I worked closely with general law enforcement for a few years, and took several psychiatric evaluations as well as other more secretive evaluations.&lt;/p&gt;\n\n&lt;p&gt;I have a masters degree in Cybesecurity, and a minor in law. The skills that are needed are mostly your confidentiality and your ability to navigate the internet. As far as job opportunities go, I would advise steering clear of anything even vaguely suspicious. &lt;/p&gt;\n\n&lt;p&gt;There have been cases where despite concrete evidence located by me, the offender has walked free due to either legal loopholes or police misconduct. &lt;/p&gt;\n\n&lt;p&gt;Honestly, my wife and daughters are the reason I stay sane and more or less okay despite the soul-crushing nature of my work. &lt;/p&gt;\n\n&lt;p&gt;My advice would be to find someone to lean on. You will not be able to survive otherwise. In sixteen years of work, I have come across a single individual who managed to be content despite the horrific things he saw, and despite the fact that he had nobody to lean on. And that man was truly an exception.&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -1501,7 +1502,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>What did you need to do to end up in your job and position?  Education, particular skills, personality traits, job opportunities to look for?</p>\n\n<p>Is there ever anyone who should have been charged who got away with it?</p>\n\n<p>How do you sleep at night and not be haunted by witnessing the deeper depths of human cruelty?</p>\n\n<p>Do you have any advice for other DFA&#39;s out there?</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;What did you need to do to end up in your job and position?  Education, particular skills, personality traits, job opportunities to look for?&lt;/p&gt;\n\n&lt;p&gt;Is there ever anyone who should have been charged who got away with it?&lt;/p&gt;\n\n&lt;p&gt;How do you sleep at night and not be haunted by witnessing the deeper depths of human cruelty?&lt;/p&gt;\n\n&lt;p&gt;Do you have any advice for other DFA&amp;#39;s out there?&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -1551,7 +1552,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -1574,7 +1575,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": null,
+                          "modhash": "",
                           "geo_filter": "",
                           "children": [
                             {
@@ -1597,7 +1598,7 @@
                                   "data": {
                                     "after": null,
                                     "dist": null,
-                                    "modhash": null,
+                                    "modhash": "",
                                     "geo_filter": "",
                                     "children": [
                                       {
@@ -1620,7 +1621,7 @@
                                             "data": {
                                               "after": null,
                                               "dist": null,
-                                              "modhash": null,
+                                              "modhash": "",
                                               "geo_filter": "",
                                               "children": [
                                                 {
@@ -1644,7 +1645,7 @@
                                                       "data": {
                                                         "after": null,
                                                         "dist": null,
-                                                        "modhash": null,
+                                                        "modhash": "",
                                                         "geo_filter": "",
                                                         "children": [
                                                           {
@@ -1668,7 +1669,7 @@
                                                                 "data": {
                                                                   "after": null,
                                                                   "dist": null,
-                                                                  "modhash": null,
+                                                                  "modhash": "",
                                                                   "geo_filter": "",
                                                                   "children": [
                                                                     {
@@ -1716,7 +1717,7 @@
                                                                         "downs": 0,
                                                                         "author_flair_richtext": [],
                                                                         "author_patreon_flair": false,
-                                                                        "body_html": "<div class=\"md\"><p>Do you go to therapy?</p>\n\n<p>Because even if it is understandable given your line of work, associating normal porn with child porn is something that I find worrying for your well-being.</p>\n\n<p>Even if it&#39;d still be something you&#39;re not into, which is fair regardless.</p>\n</div>",
+                                                                        "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Do you go to therapy?&lt;/p&gt;\n\n&lt;p&gt;Because even if it is understandable given your line of work, associating normal porn with child porn is something that I find worrying for your well-being.&lt;/p&gt;\n\n&lt;p&gt;Even if it&amp;#39;d still be something you&amp;#39;re not into, which is fair regardless.&lt;/p&gt;\n&lt;/div&gt;",
                                                                         "removal_reason": null,
                                                                         "collapsed_reason": null,
                                                                         "link_id": "t3_1kikplc",
@@ -1763,7 +1764,7 @@
                                                               "can_mod_post": false,
                                                               "send_replies": true,
                                                               "parent_id": "t1_mrg1zbc",
-                                                              "score": 14,
+                                                              "score": 16,
                                                               "author_fullname": "t2_c3uw8kaa",
                                                               "approved_by": null,
                                                               "mod_note": null,
@@ -1778,7 +1779,7 @@
                                                               "collapsed": false,
                                                               "author_flair_richtext": [],
                                                               "author_patreon_flair": false,
-                                                              "body_html": "<div class=\"md\"><p>Porn isn&#39;t really something either my wife or I are into. She&#39;s just never liked it, and I can&#39;t really watch porn without thinking about child pornography</p>\n</div>",
+                                                              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Porn isn&amp;#39;t really something either my wife or I are into. She&amp;#39;s just never liked it, and I can&amp;#39;t really watch porn without thinking about child pornography&lt;/p&gt;\n&lt;/div&gt;",
                                                               "removal_reason": null,
                                                               "collapsed_reason": null,
                                                               "link_id": "t3_1kikplc",
@@ -1805,7 +1806,7 @@
                                                               "collapsed_because_crowd_control": null,
                                                               "mod_reports": [],
                                                               "num_reports": null,
-                                                              "ups": 14
+                                                              "ups": 16
                                                             }
                                                           }
                                                         ],
@@ -1839,7 +1840,7 @@
                                                     "downs": 0,
                                                     "author_flair_richtext": [],
                                                     "author_patreon_flair": false,
-                                                    "body_html": "<div class=\"md\"><p>Do you watch porn for fun?</p>\n</div>",
+                                                    "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Do you watch porn for fun?&lt;/p&gt;\n&lt;/div&gt;",
                                                     "gildings": {},
                                                     "collapsed_reason": null,
                                                     "link_id": "t3_1kikplc",
@@ -1903,7 +1904,7 @@
                                           "downs": 0,
                                           "author_flair_richtext": [],
                                           "author_patreon_flair": false,
-                                          "body_html": "<div class=\"md\"><p>I like to think that I have a quite healthy sex life. My wife and I both have a no-work-talk policy at home - with the exception on days when one of us really needs to just vent and be held.</p>\n</div>",
+                                          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I like to think that I have a quite healthy sex life. My wife and I both have a no-work-talk policy at home - with the exception on days when one of us really needs to just vent and be held.&lt;/p&gt;\n&lt;/div&gt;",
                                           "gildings": {},
                                           "collapsed_reason": null,
                                           "distinguished": null,
@@ -1950,7 +1951,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_mrfzqcb",
-                                "score": 5,
+                                "score": 4,
                                 "author_fullname": "t2_dcp5i",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -1966,7 +1967,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "<div class=\"md\"><p>How is your sex life?</p>\n</div>",
+                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How is your sex life?&lt;/p&gt;\n&lt;/div&gt;",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -1993,7 +1994,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 5
+                                "ups": 4
                               }
                             }
                           ],
@@ -2029,7 +2030,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>I look at my work as me having a positive impact on the world. I manage to stomach everything I see knowing that I&#39;m helping make the world a safer place for my daughters when they grow up.</p>\n\n<p>Even still, due to the nature of my work, psych assesments are required quarterly. I&#39;m not doing as badly as one would expect</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I look at my work as me having a positive impact on the world. I manage to stomach everything I see knowing that I&amp;#39;m helping make the world a safer place for my daughters when they grow up.&lt;/p&gt;\n\n&lt;p&gt;Even still, due to the nature of my work, psych assesments are required quarterly. I&amp;#39;m not doing as badly as one would expect&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -2092,7 +2093,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>How is your mental health?</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How is your mental health?&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -2142,7 +2143,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -2165,7 +2166,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": null,
+                          "modhash": "",
                           "geo_filter": "",
                           "children": [
                             {
@@ -2213,7 +2214,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "<div class=\"md\"><p>Which country did the video originated from?</p>\n</div>",
+                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Which country did the video originated from?&lt;/p&gt;\n&lt;/div&gt;",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -2263,7 +2264,7 @@
                                   "data": {
                                     "after": null,
                                     "dist": null,
-                                    "modhash": null,
+                                    "modhash": "",
                                     "geo_filter": "",
                                     "children": [
                                       {
@@ -2286,7 +2287,7 @@
                                             "data": {
                                               "after": null,
                                               "dist": null,
-                                              "modhash": null,
+                                              "modhash": "",
                                               "geo_filter": "",
                                               "children": [
                                                 {
@@ -2333,7 +2334,7 @@
                                                     "downs": 0,
                                                     "author_flair_richtext": [],
                                                     "author_patreon_flair": false,
-                                                    "body_html": "<div class=\"md\"><p>That’s awesome. Sometimes terrible food is a good cheer up.</p>\n</div>",
+                                                    "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;That’s awesome. Sometimes terrible food is a good cheer up.&lt;/p&gt;\n&lt;/div&gt;",
                                                     "gildings": {},
                                                     "collapsed_reason": null,
                                                     "link_id": "t3_1kikplc",
@@ -2397,7 +2398,7 @@
                                           "downs": 0,
                                           "author_flair_richtext": [],
                                           "author_patreon_flair": false,
-                                          "body_html": "<div class=\"md\"><p>When I got home, my amazing wife picked up on something being wrong pretty much instantly. She took a day off, and we spent it together just lying in bed. </p>\n\n<p>She really can&#39;t cook at all, but she tried to make me my favorite pasta. It was heartwarming. She&#39;s my bastion against the darkness honestly.</p>\n</div>",
+                                          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;When I got home, my amazing wife picked up on something being wrong pretty much instantly. She took a day off, and we spent it together just lying in bed. &lt;/p&gt;\n\n&lt;p&gt;She really can&amp;#39;t cook at all, but she tried to make me my favorite pasta. It was heartwarming. She&amp;#39;s my bastion against the darkness honestly.&lt;/p&gt;\n&lt;/div&gt;",
                                           "gildings": {},
                                           "collapsed_reason": null,
                                           "distinguished": null,
@@ -2460,7 +2461,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "<div class=\"md\"><p>Yeah I could see that. I mean getting haunted by that. How were you able to cope and process that?</p>\n</div>",
+                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Yeah I could see that. I mean getting haunted by that. How were you able to cope and process that?&lt;/p&gt;\n&lt;/div&gt;",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -2508,7 +2509,7 @@
                       "created_utc": 1746808539.0,
                       "send_replies": true,
                       "parent_id": "t1_mrfjkwp",
-                      "score": 8,
+                      "score": 9,
                       "author_fullname": "t2_c3uw8kaa",
                       "removal_reason": null,
                       "approved_by": null,
@@ -2523,7 +2524,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>I think that one that sticks with me is a man who took hundreds of videos of himself mutilating his four year old daughter&#39;s vagina. That one definitely haunts me sometimes.</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I think that one that sticks with me is a man who took hundreds of videos of himself mutilating his four year old daughter&amp;#39;s vagina. That one definitely haunts me sometimes.&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -2550,7 +2551,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 8
+                      "ups": 9
                     }
                   }
                 ],
@@ -2586,7 +2587,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>Obviously, what in your opinion was the absolute worst thing you have ever seen and why?</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Obviously, what in your opinion was the absolute worst thing you have ever seen and why?&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -2636,7 +2637,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -2669,7 +2670,7 @@
                       "created_utc": 1746808380.0,
                       "send_replies": true,
                       "parent_id": "t1_mrfkdro",
-                      "score": 2,
+                      "score": 4,
                       "author_fullname": "t2_c3uw8kaa",
                       "removal_reason": null,
                       "approved_by": null,
@@ -2684,7 +2685,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>In general whenever I consult, it&#39;s mostly laptops.</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;In general whenever I consult, it&amp;#39;s mostly laptops.&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -2711,7 +2712,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 2
+                      "ups": 4
                     }
                   }
                 ],
@@ -2747,7 +2748,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>What device do you analyze the most?</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;What device do you analyze the most?&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -2797,7 +2798,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -2845,7 +2846,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>Hmmm. I think that one thing a lot of people would be surprised by is how often DFAs use simple social medias like Facebook. </p>\n\n<p>While true that you can set your profile to &quot;friends only&quot;, Meta won&#39;t bat an eyelash as they give full access to any law enforcement agency that requests address.</p>\n\n<p>As far as interesting stories go, my favorite one has to be when I found another DFA online purely accidentally on a child pornography ring. It might sound a bit depressing, but it truly was a ray of light in a place of shadow. We chatted for a very short bit, and I&#39;ve never heard from her again.</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Hmmm. I think that one thing a lot of people would be surprised by is how often DFAs use simple social medias like Facebook. &lt;/p&gt;\n\n&lt;p&gt;While true that you can set your profile to &amp;quot;friends only&amp;quot;, Meta won&amp;#39;t bat an eyelash as they give full access to any law enforcement agency that requests address.&lt;/p&gt;\n\n&lt;p&gt;As far as interesting stories go, my favorite one has to be when I found another DFA online purely accidentally on a child pornography ring. It might sound a bit depressing, but it truly was a ray of light in a place of shadow. We chatted for a very short bit, and I&amp;#39;ve never heard from her again.&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -2908,7 +2909,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>Which digital forensics trick people will be surprised to know about? Any interesting stories?</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Which digital forensics trick people will be surprised to know about? Any interesting stories?&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -2958,7 +2959,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -2991,7 +2992,7 @@
                       "created_utc": 1746854950.0,
                       "send_replies": true,
                       "parent_id": "t1_mrip49y",
-                      "score": 6,
+                      "score": 5,
                       "author_fullname": "t2_c3uw8kaa",
                       "removal_reason": null,
                       "approved_by": null,
@@ -3006,7 +3007,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>It fully depends on the person. When my mother was alive, I&#39;m pretty sure she would have died if she had used reddit. Of course, I&#39;m a tad more desensitized, so Reddit isn&#39;t too bad in my eyes</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;It fully depends on the person. When my mother was alive, I&amp;#39;m pretty sure she would have died if she had used reddit. Of course, I&amp;#39;m a tad more desensitized, so Reddit isn&amp;#39;t too bad in my eyes&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -3033,7 +3034,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 6
+                      "ups": 5
                     }
                   }
                 ],
@@ -3069,7 +3070,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>How bad is Reddit?</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How bad is Reddit?&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -3119,7 +3120,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -3142,7 +3143,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": null,
+                          "modhash": "",
                           "geo_filter": "",
                           "children": [
                             {
@@ -3165,7 +3166,7 @@
                                   "data": {
                                     "after": null,
                                     "dist": null,
-                                    "modhash": null,
+                                    "modhash": "",
                                     "geo_filter": "",
                                     "children": [
                                       {
@@ -3197,7 +3198,7 @@
                                           "can_mod_post": false,
                                           "send_replies": true,
                                           "parent_id": "t1_mrfzjp4",
-                                          "score": 8,
+                                          "score": 7,
                                           "author_fullname": "t2_c3uw8kaa",
                                           "removal_reason": null,
                                           "approved_by": null,
@@ -3213,7 +3214,7 @@
                                           "downs": 0,
                                           "author_flair_richtext": [],
                                           "author_patreon_flair": false,
-                                          "body_html": "<div class=\"md\"><p>From everything I&#39;ve seen, I fully believe that mental health checks like that would be a major way to reduce the number of horrific things that end up on the internet</p>\n</div>",
+                                          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;From everything I&amp;#39;ve seen, I fully believe that mental health checks like that would be a major way to reduce the number of horrific things that end up on the internet&lt;/p&gt;\n&lt;/div&gt;",
                                           "gildings": {},
                                           "collapsed_reason": null,
                                           "distinguished": null,
@@ -3240,7 +3241,7 @@
                                           "collapsed_because_crowd_control": null,
                                           "mod_reports": [],
                                           "num_reports": null,
-                                          "ups": 8
+                                          "ups": 7
                                         }
                                       }
                                     ],
@@ -3276,7 +3277,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "<div class=\"md\"><p>That’s honestly a better attitude to have. Some times I do wonder if our society would be better off if we just made mental health care as common as getting one’s teeth checked or getting flu shots. Just regular run of the mill stuff</p>\n</div>",
+                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;That’s honestly a better attitude to have. Some times I do wonder if our society would be better off if we just made mental health care as common as getting one’s teeth checked or getting flu shots. Just regular run of the mill stuff&lt;/p&gt;\n&lt;/div&gt;",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -3324,7 +3325,7 @@
                       "created_utc": 1746808317.0,
                       "send_replies": true,
                       "parent_id": "t1_mrfof2j",
-                      "score": 15,
+                      "score": 14,
                       "author_fullname": "t2_c3uw8kaa",
                       "removal_reason": null,
                       "approved_by": null,
@@ -3339,7 +3340,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>This may come as a surprise, but not much at all. I find myself very often wishing that a lot of people get the mental help that they need, but not wishing them dead.</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;This may come as a surprise, but not much at all. I find myself very often wishing that a lot of people get the mental help that they need, but not wishing them dead.&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -3366,7 +3367,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 15
+                      "ups": 14
                     }
                   }
                 ],
@@ -3402,7 +3403,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>How often do you want to hunt down people and burn them at a stake or leave them hanging until their body rots as a warning to mankind</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How often do you want to hunt down people and burn them at a stake or leave them hanging until their body rots as a warning to mankind&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -3452,7 +3453,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -3475,7 +3476,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": null,
+                          "modhash": "",
                           "geo_filter": "",
                           "children": [
                             {
@@ -3523,7 +3524,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "<div class=\"md\"><p>I thought Telegram rolled over and capitulated in Europe, regarding access. Is that not correct?\nIs Signal better to use?</p>\n</div>",
+                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I thought Telegram rolled over and capitulated in Europe, regarding access. Is that not correct?\nIs Signal better to use?&lt;/p&gt;\n&lt;/div&gt;",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -3586,7 +3587,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>There is no privacy whatsoever. </p>\n\n<p>We barely need to so much as request a chat log from Meta. The big companies that provide communication services don&#39;t give a crap about you, and hand everything over without hesitation.</p>\n\n<p>Telegram is the exception, being basically as secure as you can get.</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;There is no privacy whatsoever. &lt;/p&gt;\n\n&lt;p&gt;We barely need to so much as request a chat log from Meta. The big companies that provide communication services don&amp;#39;t give a crap about you, and hand everything over without hesitation.&lt;/p&gt;\n\n&lt;p&gt;Telegram is the exception, being basically as secure as you can get.&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -3649,7 +3650,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>How private are p2p communications platforms like whatsapp, telegram, facetime etc? Is all this end to end encryption actually rubbish?</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How private are p2p communications platforms like whatsapp, telegram, facetime etc? Is all this end to end encryption actually rubbish?&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -3699,7 +3700,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -3747,7 +3748,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>I&#39;m afraid I won&#39;t specify too much - it isn&#39;t because I&#39;m with some secret agency or working for Interpol or something, it&#39;s simply a matter of conserving the limited privacy I have on the internet.</p>\n\n<p>I can tell you that I operate with a country-wide enforcement agency.</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;m afraid I won&amp;#39;t specify too much - it isn&amp;#39;t because I&amp;#39;m with some secret agency or working for Interpol or something, it&amp;#39;s simply a matter of conserving the limited privacy I have on the internet.&lt;/p&gt;\n\n&lt;p&gt;I can tell you that I operate with a country-wide enforcement agency.&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -3810,7 +3811,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>What agency do you work for or report to?</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;What agency do you work for or report to?&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -3860,7 +3861,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -3883,7 +3884,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": null,
+                          "modhash": "",
                           "geo_filter": "",
                           "children": [
                             {
@@ -3931,7 +3932,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "<div class=\"md\"><p>Which country are you in ?</p>\n</div>",
+                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Which country are you in ?&lt;/p&gt;\n&lt;/div&gt;",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -3994,7 +3995,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>Definitely the video of a father burning his daughter&#39;s vagina shut with a soldering iron while she was awake.</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Definitely the video of a father burning his daughter&amp;#39;s vagina shut with a soldering iron while she was awake.&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -4057,7 +4058,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>What’s the most extreme you’ve seen</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;What’s the most extreme you’ve seen&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -4107,7 +4108,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -4130,7 +4131,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": null,
+                          "modhash": "",
                           "geo_filter": "",
                           "children": [
                             {
@@ -4153,7 +4154,7 @@
                                   "data": {
                                     "after": null,
                                     "dist": null,
-                                    "modhash": null,
+                                    "modhash": "",
                                     "geo_filter": "",
                                     "children": [
                                       {
@@ -4201,7 +4202,7 @@
                                           "downs": 0,
                                           "author_flair_richtext": [],
                                           "author_patreon_flair": false,
-                                          "body_html": "<div class=\"md\"><p>I mean the perpetrator.</p>\n\n<p>I think that the first thing I would trust in is my gut. The majority of the time when I have a bad feeling about someone I&#39;m tracking, it unfortunately pans out.</p>\n</div>",
+                                          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I mean the perpetrator.&lt;/p&gt;\n\n&lt;p&gt;I think that the first thing I would trust in is my gut. The majority of the time when I have a bad feeling about someone I&amp;#39;m tracking, it unfortunately pans out.&lt;/p&gt;\n&lt;/div&gt;",
                                           "gildings": {},
                                           "collapsed_reason": null,
                                           "distinguished": null,
@@ -4264,7 +4265,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "<div class=\"md\"><p>Do you mean the victim or the perpetrator? </p>\n\n<p>My question is a bit bias, but if you were moving your family in an apartment, what would trigger your senses and tell you that it wasn’t a good place to move?</p>\n</div>",
+                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Do you mean the victim or the perpetrator? &lt;/p&gt;\n\n&lt;p&gt;My question is a bit bias, but if you were moving your family in an apartment, what would trigger your senses and tell you that it wasn’t a good place to move?&lt;/p&gt;\n&lt;/div&gt;",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -4327,7 +4328,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>I&#39;ve found that the type most often involved in child pornography are either the incredibly fortunate ones or the incredibly unfortunate ones.</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;ve found that the type most often involved in child pornography are either the incredibly fortunate ones or the incredibly unfortunate ones.&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -4390,7 +4391,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>In your experience, is there a type that fits the CP profile?</p>\n\n<p>What i see in the news seems to vary by career, physic, etc.</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;In your experience, is there a type that fits the CP profile?&lt;/p&gt;\n\n&lt;p&gt;What i see in the news seems to vary by career, physic, etc.&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -4440,7 +4441,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -4488,7 +4489,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>I would say a good chunk of my time is spent on the general internet, browsing through Reddit, Twitter, Facebook etc.</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I would say a good chunk of my time is spent on the general internet, browsing through Reddit, Twitter, Facebook etc.&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -4551,7 +4552,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>Do you focus mainly on the internet or the dark web?</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Do you focus mainly on the internet or the dark web?&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -4601,7 +4602,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -4624,7 +4625,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": null,
+                          "modhash": "",
                           "geo_filter": "",
                           "children": [
                             {
@@ -4647,7 +4648,7 @@
                                   "data": {
                                     "after": null,
                                     "dist": null,
-                                    "modhash": null,
+                                    "modhash": "",
                                     "geo_filter": "",
                                     "children": [
                                       {
@@ -4679,7 +4680,7 @@
                                           "can_mod_post": false,
                                           "send_replies": true,
                                           "parent_id": "t1_mrieedz",
-                                          "score": 5,
+                                          "score": 4,
                                           "author_fullname": "t2_c3uw8kaa",
                                           "removal_reason": null,
                                           "approved_by": null,
@@ -4695,7 +4696,7 @@
                                           "downs": 0,
                                           "author_flair_richtext": [],
                                           "author_patreon_flair": false,
-                                          "body_html": "<div class=\"md\"><p>Imagine if you were to stand up in a bar and announce to all of it&#39;s wonderfully burley patrons what you had done. Would you be beat up and possibly lynched? If not, it was probably okay. </p>\n\n<p>Piracy is generally fine, and I&#39;ll admit that I occasionally sail the FitGirl seas. Whatever pornography you find on PornHub is also fine. Even &quot;barely legal&quot; porn won&#39;t have most people so much as bat an eye given how many people seem to enjoy it. If you decide to try to look for pictures of naked children on the otherhand...</p>\n</div>",
+                                          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Imagine if you were to stand up in a bar and announce to all of it&amp;#39;s wonderfully burley patrons what you had done. Would you be beat up and possibly lynched? If not, it was probably okay. &lt;/p&gt;\n\n&lt;p&gt;Piracy is generally fine, and I&amp;#39;ll admit that I occasionally sail the FitGirl seas. Whatever pornography you find on PornHub is also fine. Even &amp;quot;barely legal&amp;quot; porn won&amp;#39;t have most people so much as bat an eye given how many people seem to enjoy it. If you decide to try to look for pictures of naked children on the otherhand...&lt;/p&gt;\n&lt;/div&gt;",
                                           "gildings": {},
                                           "collapsed_reason": null,
                                           "distinguished": null,
@@ -4722,7 +4723,7 @@
                                           "collapsed_because_crowd_control": null,
                                           "mod_reports": [],
                                           "num_reports": null,
-                                          "ups": 5
+                                          "ups": 4
                                         }
                                       }
                                     ],
@@ -4758,7 +4759,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "<div class=\"md\"><p>What’s something that would qualify as “vaguely illegal” and not illegal like what are the red flags we talking about?</p>\n</div>",
+                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;What’s something that would qualify as “vaguely illegal” and not illegal like what are the red flags we talking about?&lt;/p&gt;\n&lt;/div&gt;",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -4808,7 +4809,7 @@
                                   "data": {
                                     "after": null,
                                     "dist": null,
-                                    "modhash": null,
+                                    "modhash": "",
                                     "geo_filter": "",
                                     "children": [
                                       {
@@ -4831,7 +4832,7 @@
                                             "data": {
                                               "after": null,
                                               "dist": null,
-                                              "modhash": null,
+                                              "modhash": "",
                                               "geo_filter": "",
                                               "children": [
                                                 {
@@ -4855,7 +4856,7 @@
                                                       "data": {
                                                         "after": null,
                                                         "dist": null,
-                                                        "modhash": null,
+                                                        "modhash": "",
                                                         "geo_filter": "",
                                                         "children": [
                                                           {
@@ -4903,7 +4904,7 @@
                                                               "collapsed": false,
                                                               "author_flair_richtext": [],
                                                               "author_patreon_flair": false,
-                                                              "body_html": "<div class=\"md\"><p>Definitely not :D</p>\n\n<p>Pirate games, movies, porn, whatever your heart desires.</p>\n\n<p>Just use safe piracy practices, but that&#39;s more to avoid legal trouble than anything else.</p>\n\n<p>Hot water would be truly wretched things, like selling the body parts of children, human trafficking, child pornography etc.</p>\n</div>",
+                                                              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Definitely not :D&lt;/p&gt;\n\n&lt;p&gt;Pirate games, movies, porn, whatever your heart desires.&lt;/p&gt;\n\n&lt;p&gt;Just use safe piracy practices, but that&amp;#39;s more to avoid legal trouble than anything else.&lt;/p&gt;\n\n&lt;p&gt;Hot water would be truly wretched things, like selling the body parts of children, human trafficking, child pornography etc.&lt;/p&gt;\n&lt;/div&gt;",
                                                               "removal_reason": null,
                                                               "collapsed_reason": null,
                                                               "link_id": "t3_1kikplc",
@@ -4964,7 +4965,7 @@
                                                     "downs": 0,
                                                     "author_flair_richtext": [],
                                                     "author_patreon_flair": false,
-                                                    "body_html": "<div class=\"md\"><p>Is pirating movies hot enough water?</p>\n</div>",
+                                                    "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Is pirating movies hot enough water?&lt;/p&gt;\n&lt;/div&gt;",
                                                     "gildings": {},
                                                     "collapsed_reason": null,
                                                     "link_id": "t3_1kikplc",
@@ -5012,7 +5013,7 @@
                                           "can_mod_post": false,
                                           "send_replies": true,
                                           "parent_id": "t1_mrgakkp",
-                                          "score": 8,
+                                          "score": 9,
                                           "author_fullname": "t2_c3uw8kaa",
                                           "removal_reason": null,
                                           "approved_by": null,
@@ -5028,7 +5029,7 @@
                                           "downs": 0,
                                           "author_flair_richtext": [],
                                           "author_patreon_flair": false,
-                                          "body_html": "<div class=\"md\"><p>VPNs are pretty useless if you get in hot enough water.</p>\n</div>",
+                                          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;VPNs are pretty useless if you get in hot enough water.&lt;/p&gt;\n&lt;/div&gt;",
                                           "gildings": {},
                                           "collapsed_reason": null,
                                           "distinguished": null,
@@ -5055,7 +5056,7 @@
                                           "collapsed_because_crowd_control": null,
                                           "mod_reports": [],
                                           "num_reports": null,
-                                          "ups": 8
+                                          "ups": 9
                                         }
                                       }
                                     ],
@@ -5075,7 +5076,7 @@
                                 "can_mod_post": false,
                                 "send_replies": true,
                                 "parent_id": "t1_mrg0tdh",
-                                "score": 3,
+                                "score": 5,
                                 "author_fullname": "t2_9hmzj",
                                 "removal_reason": null,
                                 "approved_by": null,
@@ -5091,7 +5092,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "<div class=\"md\"><p>So honeypots so to speak exist? I don’t think I’ve got any concerns with coming into contact with that kind of content. </p>\n\n<p>I’m always curious about how hard identities are to pierce, especially if there are nation state resources behind the effort. VPNs are largely worthless as understand? </p>\n\n<p>It seems like a fun detective job, except for the soul crushing content aspect.</p>\n</div>",
+                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;So honeypots so to speak exist? I don’t think I’ve got any concerns with coming into contact with that kind of content. &lt;/p&gt;\n\n&lt;p&gt;I’m always curious about how hard identities are to pierce, especially if there are nation state resources behind the effort. VPNs are largely worthless as understand? &lt;/p&gt;\n\n&lt;p&gt;It seems like a fun detective job, except for the soul crushing content aspect.&lt;/p&gt;\n&lt;/div&gt;",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -5118,7 +5119,7 @@
                                 "collapsed_because_crowd_control": null,
                                 "mod_reports": [],
                                 "num_reports": null,
-                                "ups": 3
+                                "ups": 5
                               }
                             }
                           ],
@@ -5139,7 +5140,7 @@
                       "created_utc": 1746808799.0,
                       "send_replies": true,
                       "parent_id": "t1_mrfmvsi",
-                      "score": 9,
+                      "score": 10,
                       "author_fullname": "t2_c3uw8kaa",
                       "removal_reason": null,
                       "approved_by": null,
@@ -5154,7 +5155,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>Honestly as far as digital privacy goes, I think that we&#39;ve struck a pretty good balance right now. Admittedly not ideal, but certainly not as bad as most people make it to be. </p>\n\n<p>I cannot stress enough the importance of steering clear of anything even VAGUELY illegal on the internet. </p>\n\n<p>I don&#39;t mean the &quot;illegal&quot; things like piracy or illegally watching the new mario movie. I mean illegal things that would get you tracked and have a DFA deployed to investigate. If you see anything even RESEMBLING underage pornography, just don&#39;t. Best case scenario, you end up having youe internet activities traced for a few months.</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Honestly as far as digital privacy goes, I think that we&amp;#39;ve struck a pretty good balance right now. Admittedly not ideal, but certainly not as bad as most people make it to be. &lt;/p&gt;\n\n&lt;p&gt;I cannot stress enough the importance of steering clear of anything even VAGUELY illegal on the internet. &lt;/p&gt;\n\n&lt;p&gt;I don&amp;#39;t mean the &amp;quot;illegal&amp;quot; things like piracy or illegally watching the new mario movie. I mean illegal things that would get you tracked and have a DFA deployed to investigate. If you see anything even RESEMBLING underage pornography, just don&amp;#39;t. Best case scenario, you end up having youe internet activities traced for a few months.&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -5181,7 +5182,7 @@
                       "collapsed_because_crowd_control": null,
                       "mod_reports": [],
                       "num_reports": null,
-                      "ups": 9
+                      "ups": 10
                     }
                   }
                 ],
@@ -5217,7 +5218,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>How do you balance the concept that digital privacy is right with the need to stop bad actors?\nWhat digital hygiene best practices are under appreciated?</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How do you balance the concept that digital privacy is right with the need to stop bad actors?\nWhat digital hygiene best practices are under appreciated?&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -5251,14 +5252,13 @@
       "before": null
     }
   },
-  "comments_truncated_by_depth": true,
-  "comments_truncated_by_limit": false,
   "comments": [
     {
       "id": "mrfhxlm",
       "author": "AutoModerator",
       "author_fullname": "t2_6l4z3",
-      "body": "# This is an unverified AMA  \n**Note to readers: u/Alone-Target-313 has not provided proof for this AMA - and therefor there is a higher likelihood that this AMA is false.  The mods of r/NSFWIAmA recommend that readers be sceptical of all information provided by u/Alone-Target-313 in their original post and/or responses.**  \n&nbsp;  \n\n---\n&nbsp;  \n**Note to u/Alone-Target-313**: We warmly encourage to verify your AMA.  Instructions on our verification process are available at [this link](https://www.reddit.com/r/NSFWIAMA/wiki/verifcation).  Your post and/or account flare will be updated and this comment will be removed should you choose to verify.  \n&nbsp;  \n\n---\n&nbsp;  \n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/NSFWIAMA) if you have any questions or concerns.*",
+      "body": "# This is an unverified AMA  \n**Note to readers: u/Alone-Target-313 has not provided proof for this AMA - and therefor there is a higher likelihood that this AMA is false.  The mods of r/NSFWIAmA recommend that readers be sceptical of all information provided by u/Alone-Target-313 in their original post and/or responses.**  \n&amp;nbsp;  \n\n---\n&amp;nbsp;  \n**Note to u/Alone-Target-313**: We warmly encourage to verify your AMA.  Instructions on our verification process are available at [this link](https://www.reddit.com/r/NSFWIAMA/wiki/verifcation).  Your post and/or account flare will be updated and this comment will be removed should you choose to verify.  \n&amp;nbsp;  \n\n---\n&amp;nbsp;  \n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/NSFWIAMA) if you have any questions or concerns.*",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;h1&gt;This is an unverified AMA&lt;/h1&gt;\n\n&lt;p&gt;&lt;strong&gt;Note to readers: &lt;a href=\"/u/Alone-Target-313\"&gt;u/Alone-Target-313&lt;/a&gt; has not provided proof for this AMA - and therefor there is a higher likelihood that this AMA is false.  The mods of &lt;a href=\"/r/NSFWIAmA\"&gt;r/NSFWIAmA&lt;/a&gt; recommend that readers be sceptical of all information provided by &lt;a href=\"/u/Alone-Target-313\"&gt;u/Alone-Target-313&lt;/a&gt; in their original post and/or responses.&lt;/strong&gt;&lt;br/&gt;\n&amp;nbsp;  &lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&amp;nbsp;&lt;br/&gt;\n&lt;strong&gt;Note to &lt;a href=\"/u/Alone-Target-313\"&gt;u/Alone-Target-313&lt;/a&gt;&lt;/strong&gt;: We warmly encourage to verify your AMA.  Instructions on our verification process are available at &lt;a href=\"https://www.reddit.com/r/NSFWIAMA/wiki/verifcation\"&gt;this link&lt;/a&gt;.  Your post and/or account flare will be updated and this comment will be removed should you choose to verify.&lt;br/&gt;\n&amp;nbsp;  &lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&amp;nbsp;  &lt;/p&gt;\n\n&lt;p&gt;&lt;em&gt;I am a bot, and this action was performed automatically. Please &lt;a href=\"/message/compose/?to=/r/NSFWIAMA\"&gt;contact the moderators of this subreddit&lt;/a&gt; if you have any questions or concerns.&lt;/em&gt;&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1746803037.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrfhxlm/",
@@ -5271,7 +5271,8 @@
       "author": "Curious-Journalist-1",
       "author_fullname": "t2_59gqnuft",
       "body": "Good work and thank you, I (probably we all) have the highest respect for you. And CPS agents they rock as well",
-      "score": 14,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Good work and thank you, I (probably we all) have the highest respect for you. And CPS agents they rock as well&lt;/p&gt;\n&lt;/div&gt;",
+      "score": 15,
       "created_utc": 1746821468.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrh6el0/",
       "is_submitter": false,
@@ -5282,6 +5283,7 @@
           "author": "Alone-Target-313",
           "author_fullname": "t2_c3uw8kaa",
           "body": "I know this isn't a question, but I do want to say that seeing the people who I help is one of the things that fully reasserts my determination. There is nothing that makes me prouder to do my job than seeing a victim of abuse free due to my efforts.",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I know this isn&amp;#39;t a question, but I do want to say that seeing the people who I help is one of the things that fully reasserts my determination. There is nothing that makes me prouder to do my job than seeing a victim of abuse free due to my efforts.&lt;/p&gt;\n&lt;/div&gt;",
           "score": 14,
           "created_utc": 1746855582.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrjn2hh/",
@@ -5296,6 +5298,7 @@
       "author": "Shogglier",
       "author_fullname": "t2_ddo3z",
       "body": "When you are doing your job do you only see the terrible sides of everyone, or do you have to sift through all of their normal files?\nLike logging family vacation photos and whatnot?",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;When you are doing your job do you only see the terrible sides of everyone, or do you have to sift through all of their normal files?\nLike logging family vacation photos and whatnot?&lt;/p&gt;\n&lt;/div&gt;",
       "score": 10,
       "created_utc": 1746814327.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrgj7b9/",
@@ -5307,7 +5310,8 @@
           "author": "Alone-Target-313",
           "author_fullname": "t2_c3uw8kaa",
           "body": "I rarely have to log personal photos unless they are relevant to the charges. I do end up going through all the photos, and a lot of them end up being child pornography disguised as something more innocent. \n\nI think it truly breaks my heart a little when I see a happy and smiling mother with her children and husband in one image, and then a dead and sexually mutilated corpse of some poor innocent child in the next.",
-          "score": 17,
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I rarely have to log personal photos unless they are relevant to the charges. I do end up going through all the photos, and a lot of them end up being child pornography disguised as something more innocent. &lt;/p&gt;\n\n&lt;p&gt;I think it truly breaks my heart a little when I see a happy and smiling mother with her children and husband in one image, and then a dead and sexually mutilated corpse of some poor innocent child in the next.&lt;/p&gt;\n&lt;/div&gt;",
+          "score": 18,
           "created_utc": 1746855818.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrjnhgk/",
           "is_submitter": true,
@@ -5318,6 +5322,7 @@
               "author": "[deleted]",
               "author_fullname": null,
               "body": "Jesus Christ... How do you cope with that? How do you manage to stay mentally safe after that, or worse, repeated exposure to that?",
+              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Jesus Christ... How do you cope with that? How do you manage to stay mentally safe after that, or worse, repeated exposure to that?&lt;/p&gt;\n&lt;/div&gt;",
               "score": 1,
               "created_utc": 1747159988.0,
               "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/ms4s98j/",
@@ -5329,6 +5334,7 @@
                   "author": "Alone-Target-313",
                   "author_fullname": "t2_c3uw8kaa",
                   "body": "It helps a lot to think of myself as doing something good in the world. Making it a better place for everyone to live in, including my wife and daughters. \n\nI do have a compulsory psychiatric assessment once every four months, but I do pretty well there.\n\nI think that the biggest reason for me still being mentally okay is definitely my wife. I have no doubt that without her and my daughters, I would have gone down a truly morbid path.",
+                  "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;It helps a lot to think of myself as doing something good in the world. Making it a better place for everyone to live in, including my wife and daughters. &lt;/p&gt;\n\n&lt;p&gt;I do have a compulsory psychiatric assessment once every four months, but I do pretty well there.&lt;/p&gt;\n\n&lt;p&gt;I think that the biggest reason for me still being mentally okay is definitely my wife. I have no doubt that without her and my daughters, I would have gone down a truly morbid path.&lt;/p&gt;\n&lt;/div&gt;",
                   "score": 2,
                   "created_utc": 1747252034.0,
                   "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/msbs0qn/",
@@ -5347,6 +5353,7 @@
       "author": "FreckledRed",
       "author_fullname": "t2_8jt3a",
       "body": "What places do you suggest avoiding on the internet?",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;What places do you suggest avoiding on the internet?&lt;/p&gt;\n&lt;/div&gt;",
       "score": 7,
       "created_utc": 1746806500.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrftc8z/",
@@ -5358,7 +5365,8 @@
           "author": "Alone-Target-313",
           "author_fullname": "t2_c3uw8kaa",
           "body": "Honestly very dependant on the individual. I would suggest that my faint-hearted wife steer clear of twitter. For the average reddit user, honestly anywhere you can access without Tor is probably fine",
-          "score": 11,
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Honestly very dependant on the individual. I would suggest that my faint-hearted wife steer clear of twitter. For the average reddit user, honestly anywhere you can access without Tor is probably fine&lt;/p&gt;\n&lt;/div&gt;",
+          "score": 10,
           "created_utc": 1746808236.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrfyyzj/",
           "is_submitter": true,
@@ -5369,7 +5377,8 @@
               "author": "FreckledRed",
               "author_fullname": "t2_8jt3a",
               "body": "How do you relax after a day of work?",
-              "score": 4,
+              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How do you relax after a day of work?&lt;/p&gt;\n&lt;/div&gt;",
+              "score": 3,
               "created_utc": 1746808914.0,
               "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrg170i/",
               "is_submitter": false,
@@ -5380,7 +5389,8 @@
                   "author": "Alone-Target-313",
                   "author_fullname": "t2_c3uw8kaa",
                   "body": "I enjoy reading fantasy after work. Or cooking dinner for my wife and just being with her.",
-                  "score": 11,
+                  "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I enjoy reading fantasy after work. Or cooking dinner for my wife and just being with her.&lt;/p&gt;\n&lt;/div&gt;",
+                  "score": 10,
                   "created_utc": 1746809136.0,
                   "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrg1x8h/",
                   "is_submitter": true,
@@ -5398,6 +5408,7 @@
       "author": "thecuriousone107",
       "author_fullname": "t2_2x30sdfy",
       "body": "For your DFA job, how possible would it be, for you to become the next WikiLeaks?",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;For your DFA job, how possible would it be, for you to become the next WikiLeaks?&lt;/p&gt;\n&lt;/div&gt;",
       "score": 4,
       "created_utc": 1746825125.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrhi66h/",
@@ -5409,6 +5420,7 @@
           "author": "Alone-Target-313",
           "author_fullname": "t2_c3uw8kaa",
           "body": "I would say that currently - and likely in the future - there is no chance of that happening whatsoever. Don't get me wrong, I fully believe that Julian Assanage is a hero who is doing some exceptional work. It may be a bit cowardly for me to say so, but I fear the consequences for my family if I were to attempt something as daring. \n\nI suspect that if I had gone down another path in life and didn't have the best wife ever or my daughters, I would both be a lot worse of mentally and also a lot more likely to try something like that.",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I would say that currently - and likely in the future - there is no chance of that happening whatsoever. Don&amp;#39;t get me wrong, I fully believe that Julian Assanage is a hero who is doing some exceptional work. It may be a bit cowardly for me to say so, but I fear the consequences for my family if I were to attempt something as daring. &lt;/p&gt;\n\n&lt;p&gt;I suspect that if I had gone down another path in life and didn&amp;#39;t have the best wife ever or my daughters, I would both be a lot worse of mentally and also a lot more likely to try something like that.&lt;/p&gt;\n&lt;/div&gt;",
           "score": 12,
           "created_utc": 1746855394.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrjmqdn/",
@@ -5420,6 +5432,7 @@
               "author": "thecuriousone107",
               "author_fullname": "t2_2x30sdfy",
               "body": "That's fair, however why would you say there's no chance of it happening in the future? Just because no one is brave enough, or because the security they have on comms and cables is significantly better post-Assange?",
+              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;That&amp;#39;s fair, however why would you say there&amp;#39;s no chance of it happening in the future? Just because no one is brave enough, or because the security they have on comms and cables is significantly better post-Assange?&lt;/p&gt;\n&lt;/div&gt;",
               "score": 2,
               "created_utc": 1746878986.0,
               "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrkrtfy/",
@@ -5431,6 +5444,7 @@
                   "author": "Alone-Target-313",
                   "author_fullname": "t2_c3uw8kaa",
                   "body": "Slight misunderstanding, I meant that there is no chance for it happening FOR ME in the future. I don't doubt that there are other people who may very well dedicate themselves to that.",
+                  "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Slight misunderstanding, I meant that there is no chance for it happening FOR ME in the future. I don&amp;#39;t doubt that there are other people who may very well dedicate themselves to that.&lt;/p&gt;\n&lt;/div&gt;",
                   "score": 3,
                   "created_utc": 1746894098.0,
                   "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrly97g/",
@@ -5449,6 +5463,7 @@
       "author": "Lewdgirl69u",
       "author_fullname": "t2_9c8idxf6",
       "body": "What did you need to do to end up in your job and position?  Education, particular skills, personality traits, job opportunities to look for?\n\nIs there ever anyone who should have been charged who got away with it?\n\nHow do you sleep at night and not be haunted by witnessing the deeper depths of human cruelty?\n\nDo you have any advice for other DFA's out there?",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;What did you need to do to end up in your job and position?  Education, particular skills, personality traits, job opportunities to look for?&lt;/p&gt;\n\n&lt;p&gt;Is there ever anyone who should have been charged who got away with it?&lt;/p&gt;\n\n&lt;p&gt;How do you sleep at night and not be haunted by witnessing the deeper depths of human cruelty?&lt;/p&gt;\n\n&lt;p&gt;Do you have any advice for other DFA&amp;#39;s out there?&lt;/p&gt;\n&lt;/div&gt;",
       "score": 4,
       "created_utc": 1746865613.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrk410h/",
@@ -5460,6 +5475,7 @@
           "author": "Alone-Target-313",
           "author_fullname": "t2_c3uw8kaa",
           "body": "I worked closely with general law enforcement for a few years, and took several psychiatric evaluations as well as other more secretive evaluations.\n\nI have a masters degree in Cybesecurity, and a minor in law. The skills that are needed are mostly your confidentiality and your ability to navigate the internet. As far as job opportunities go, I would advise steering clear of anything even vaguely suspicious. \n\nThere have been cases where despite concrete evidence located by me, the offender has walked free due to either legal loopholes or police misconduct. \n\nHonestly, my wife and daughters are the reason I stay sane and more or less okay despite the soul-crushing nature of my work. \n\nMy advice would be to find someone to lean on. You will not be able to survive otherwise. In sixteen years of work, I have come across a single individual who managed to be content despite the horrific things he saw, and despite the fact that he had nobody to lean on. And that man was truly an exception.",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I worked closely with general law enforcement for a few years, and took several psychiatric evaluations as well as other more secretive evaluations.&lt;/p&gt;\n\n&lt;p&gt;I have a masters degree in Cybesecurity, and a minor in law. The skills that are needed are mostly your confidentiality and your ability to navigate the internet. As far as job opportunities go, I would advise steering clear of anything even vaguely suspicious. &lt;/p&gt;\n\n&lt;p&gt;There have been cases where despite concrete evidence located by me, the offender has walked free due to either legal loopholes or police misconduct. &lt;/p&gt;\n\n&lt;p&gt;Honestly, my wife and daughters are the reason I stay sane and more or less okay despite the soul-crushing nature of my work. &lt;/p&gt;\n\n&lt;p&gt;My advice would be to find someone to lean on. You will not be able to survive otherwise. In sixteen years of work, I have come across a single individual who managed to be content despite the horrific things he saw, and despite the fact that he had nobody to lean on. And that man was truly an exception.&lt;/p&gt;\n&lt;/div&gt;",
           "score": 8,
           "created_utc": 1746894047.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrly3qm/",
@@ -5474,6 +5490,7 @@
       "author": "bucknaked64",
       "author_fullname": "t2_dcp5i",
       "body": "How is your mental health?",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How is your mental health?&lt;/p&gt;\n&lt;/div&gt;",
       "score": 7,
       "created_utc": 1746803664.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrfjzgg/",
@@ -5485,6 +5502,7 @@
           "author": "Alone-Target-313",
           "author_fullname": "t2_c3uw8kaa",
           "body": "I look at my work as me having a positive impact on the world. I manage to stomach everything I see knowing that I'm helping make the world a safer place for my daughters when they grow up.\n\nEven still, due to the nature of my work, psych assesments are required quarterly. I'm not doing as badly as one would expect",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I look at my work as me having a positive impact on the world. I manage to stomach everything I see knowing that I&amp;#39;m helping make the world a safer place for my daughters when they grow up.&lt;/p&gt;\n\n&lt;p&gt;Even still, due to the nature of my work, psych assesments are required quarterly. I&amp;#39;m not doing as badly as one would expect&lt;/p&gt;\n&lt;/div&gt;",
           "score": 28,
           "created_utc": 1746808471.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrfzqcb/",
@@ -5496,7 +5514,8 @@
               "author": "bucknaked64",
               "author_fullname": "t2_dcp5i",
               "body": "How is your sex life?",
-              "score": 5,
+              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How is your sex life?&lt;/p&gt;\n&lt;/div&gt;",
+              "score": 4,
               "created_utc": 1746808887.0,
               "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrg13rn/",
               "is_submitter": false,
@@ -5507,6 +5526,7 @@
                   "author": "Alone-Target-313",
                   "author_fullname": "t2_c3uw8kaa",
                   "body": "I like to think that I have a quite healthy sex life. My wife and I both have a no-work-talk policy at home - with the exception on days when one of us really needs to just vent and be held.",
+                  "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I like to think that I have a quite healthy sex life. My wife and I both have a no-work-talk policy at home - with the exception on days when one of us really needs to just vent and be held.&lt;/p&gt;\n&lt;/div&gt;",
                   "score": 11,
                   "created_utc": 1746809101.0,
                   "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrg1t3l/",
@@ -5518,6 +5538,7 @@
                       "author": "bucknaked64",
                       "author_fullname": "t2_dcp5i",
                       "body": "Do you watch porn for fun?",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Do you watch porn for fun?&lt;/p&gt;\n&lt;/div&gt;",
                       "score": 2,
                       "created_utc": 1746809153.0,
                       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrg1zbc/",
@@ -5529,7 +5550,8 @@
                           "author": "Alone-Target-313",
                           "author_fullname": "t2_c3uw8kaa",
                           "body": "Porn isn't really something either my wife or I are into. She's just never liked it, and I can't really watch porn without thinking about child pornography",
-                          "score": 14,
+                          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Porn isn&amp;#39;t really something either my wife or I are into. She&amp;#39;s just never liked it, and I can&amp;#39;t really watch porn without thinking about child pornography&lt;/p&gt;\n&lt;/div&gt;",
+                          "score": 16,
                           "created_utc": 1746809261.0,
                           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrg2c52/",
                           "is_submitter": true,
@@ -5540,6 +5562,7 @@
                               "author": "CamisaMalva",
                               "author_fullname": "t2_2g665us",
                               "body": "Do you go to therapy?\n\nBecause even if it is understandable given your line of work, associating normal porn with child porn is something that I find worrying for your well-being.\n\nEven if it'd still be something you're not into, which is fair regardless.",
+                              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Do you go to therapy?&lt;/p&gt;\n\n&lt;p&gt;Because even if it is understandable given your line of work, associating normal porn with child porn is something that I find worrying for your well-being.&lt;/p&gt;\n\n&lt;p&gt;Even if it&amp;#39;d still be something you&amp;#39;re not into, which is fair regardless.&lt;/p&gt;\n&lt;/div&gt;",
                               "score": 2,
                               "created_utc": 1746912626.0,
                               "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrnh6dd/",
@@ -5564,6 +5587,7 @@
       "author": "totesrandoguyhere",
       "author_fullname": "t2_3vu9n61",
       "body": "Obviously, what in your opinion was the absolute worst thing you have ever seen and why?",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Obviously, what in your opinion was the absolute worst thing you have ever seen and why?&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1746803540.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrfjkwp/",
@@ -5575,7 +5599,8 @@
           "author": "Alone-Target-313",
           "author_fullname": "t2_c3uw8kaa",
           "body": "I think that one that sticks with me is a man who took hundreds of videos of himself mutilating his four year old daughter's vagina. That one definitely haunts me sometimes.",
-          "score": 8,
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I think that one that sticks with me is a man who took hundreds of videos of himself mutilating his four year old daughter&amp;#39;s vagina. That one definitely haunts me sometimes.&lt;/p&gt;\n&lt;/div&gt;",
+          "score": 9,
           "created_utc": 1746808539.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrfzy9e/",
           "is_submitter": true,
@@ -5586,6 +5611,7 @@
               "author": "onelewdgentleman",
               "author_fullname": "t2_u4njttl4",
               "body": "Which country did the video originated from?",
+              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Which country did the video originated from?&lt;/p&gt;\n&lt;/div&gt;",
               "score": 3,
               "created_utc": 1746808852.0,
               "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrg0znk/",
@@ -5598,6 +5624,7 @@
               "author": "totesrandoguyhere",
               "author_fullname": "t2_3vu9n61",
               "body": "Yeah I could see that. I mean getting haunted by that. How were you able to cope and process that?",
+              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Yeah I could see that. I mean getting haunted by that. How were you able to cope and process that?&lt;/p&gt;\n&lt;/div&gt;",
               "score": 2,
               "created_utc": 1746812781.0,
               "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrge1b3/",
@@ -5609,6 +5636,7 @@
                   "author": "Alone-Target-313",
                   "author_fullname": "t2_c3uw8kaa",
                   "body": "When I got home, my amazing wife picked up on something being wrong pretty much instantly. She took a day off, and we spent it together just lying in bed. \n\nShe really can't cook at all, but she tried to make me my favorite pasta. It was heartwarming. She's my bastion against the darkness honestly.",
+                  "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;When I got home, my amazing wife picked up on something being wrong pretty much instantly. She took a day off, and we spent it together just lying in bed. &lt;/p&gt;\n\n&lt;p&gt;She really can&amp;#39;t cook at all, but she tried to make me my favorite pasta. It was heartwarming. She&amp;#39;s my bastion against the darkness honestly.&lt;/p&gt;\n&lt;/div&gt;",
                   "score": 30,
                   "created_utc": 1746812951.0,
                   "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrgelwt/",
@@ -5620,6 +5648,7 @@
                       "author": "totesrandoguyhere",
                       "author_fullname": "t2_3vu9n61",
                       "body": "That’s awesome. Sometimes terrible food is a good cheer up.",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;That’s awesome. Sometimes terrible food is a good cheer up.&lt;/p&gt;\n&lt;/div&gt;",
                       "score": 2,
                       "created_utc": 1746818099.0,
                       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrgvjxe/",
@@ -5640,6 +5669,7 @@
       "author": "DrunkenVodinski",
       "author_fullname": "t2_awc3guv1",
       "body": "What device do you analyze the most?",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;What device do you analyze the most?&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1746803787.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrfkdro/",
@@ -5651,7 +5681,8 @@
           "author": "Alone-Target-313",
           "author_fullname": "t2_c3uw8kaa",
           "body": "In general whenever I consult, it's mostly laptops.",
-          "score": 2,
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;In general whenever I consult, it&amp;#39;s mostly laptops.&lt;/p&gt;\n&lt;/div&gt;",
+          "score": 4,
           "created_utc": 1746808380.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrfzfrx/",
           "is_submitter": true,
@@ -5665,6 +5696,7 @@
       "author": "Naive-Ant-2835",
       "author_fullname": "t2_1gvip7drt2",
       "body": "Which digital forensics trick people will be surprised to know about? Any interesting stories?",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Which digital forensics trick people will be surprised to know about? Any interesting stories?&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1746808334.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrfzahn/",
@@ -5676,6 +5708,7 @@
           "author": "Alone-Target-313",
           "author_fullname": "t2_c3uw8kaa",
           "body": "Hmmm. I think that one thing a lot of people would be surprised by is how often DFAs use simple social medias like Facebook. \n\nWhile true that you can set your profile to \"friends only\", Meta won't bat an eyelash as they give full access to any law enforcement agency that requests address.\n\nAs far as interesting stories go, my favorite one has to be when I found another DFA online purely accidentally on a child pornography ring. It might sound a bit depressing, but it truly was a ray of light in a place of shadow. We chatted for a very short bit, and I've never heard from her again.",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Hmmm. I think that one thing a lot of people would be surprised by is how often DFAs use simple social medias like Facebook. &lt;/p&gt;\n\n&lt;p&gt;While true that you can set your profile to &amp;quot;friends only&amp;quot;, Meta won&amp;#39;t bat an eyelash as they give full access to any law enforcement agency that requests address.&lt;/p&gt;\n\n&lt;p&gt;As far as interesting stories go, my favorite one has to be when I found another DFA online purely accidentally on a child pornography ring. It might sound a bit depressing, but it truly was a ray of light in a place of shadow. We chatted for a very short bit, and I&amp;#39;ve never heard from her again.&lt;/p&gt;\n&lt;/div&gt;",
           "score": 10,
           "created_utc": 1746809032.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrg1kz0/",
@@ -5690,6 +5723,7 @@
       "author": "SamQuentin",
       "author_fullname": "t2_kz4gg",
       "body": "How bad is Reddit?",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How bad is Reddit?&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1746840620.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrip49y/",
@@ -5701,7 +5735,8 @@
           "author": "Alone-Target-313",
           "author_fullname": "t2_c3uw8kaa",
           "body": "It fully depends on the person. When my mother was alive, I'm pretty sure she would have died if she had used reddit. Of course, I'm a tad more desensitized, so Reddit isn't too bad in my eyes",
-          "score": 6,
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;It fully depends on the person. When my mother was alive, I&amp;#39;m pretty sure she would have died if she had used reddit. Of course, I&amp;#39;m a tad more desensitized, so Reddit isn&amp;#39;t too bad in my eyes&lt;/p&gt;\n&lt;/div&gt;",
+          "score": 5,
           "created_utc": 1746854950.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrjlx7b/",
           "is_submitter": true,
@@ -5715,6 +5750,7 @@
       "author": "InteresTAccountant",
       "author_fullname": "t2_1bby5wnsk0",
       "body": "How often do you want to hunt down people and burn them at a stake or leave them hanging until their body rots as a warning to mankind",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How often do you want to hunt down people and burn them at a stake or leave them hanging until their body rots as a warning to mankind&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1746805015.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrfof2j/",
@@ -5726,7 +5762,8 @@
           "author": "Alone-Target-313",
           "author_fullname": "t2_c3uw8kaa",
           "body": "This may come as a surprise, but not much at all. I find myself very often wishing that a lot of people get the mental help that they need, but not wishing them dead.",
-          "score": 15,
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;This may come as a surprise, but not much at all. I find myself very often wishing that a lot of people get the mental help that they need, but not wishing them dead.&lt;/p&gt;\n&lt;/div&gt;",
+          "score": 14,
           "created_utc": 1746808317.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrfz8jk/",
           "is_submitter": true,
@@ -5737,6 +5774,7 @@
               "author": "InteresTAccountant",
               "author_fullname": "t2_1bby5wnsk0",
               "body": "That’s honestly a better attitude to have. Some times I do wonder if our society would be better off if we just made mental health care as common as getting one’s teeth checked or getting flu shots. Just regular run of the mill stuff",
+              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;That’s honestly a better attitude to have. Some times I do wonder if our society would be better off if we just made mental health care as common as getting one’s teeth checked or getting flu shots. Just regular run of the mill stuff&lt;/p&gt;\n&lt;/div&gt;",
               "score": 3,
               "created_utc": 1746808414.0,
               "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrfzjp4/",
@@ -5748,7 +5786,8 @@
                   "author": "Alone-Target-313",
                   "author_fullname": "t2_c3uw8kaa",
                   "body": "From everything I've seen, I fully believe that mental health checks like that would be a major way to reduce the number of horrific things that end up on the internet",
-                  "score": 8,
+                  "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;From everything I&amp;#39;ve seen, I fully believe that mental health checks like that would be a major way to reduce the number of horrific things that end up on the internet&lt;/p&gt;\n&lt;/div&gt;",
+                  "score": 7,
                   "created_utc": 1746809194.0,
                   "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrg242t/",
                   "is_submitter": true,
@@ -5766,6 +5805,7 @@
       "author": "thecuriousone107",
       "author_fullname": "t2_2x30sdfy",
       "body": "How private are p2p communications platforms like whatsapp, telegram, facetime etc? Is all this end to end encryption actually rubbish?",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How private are p2p communications platforms like whatsapp, telegram, facetime etc? Is all this end to end encryption actually rubbish?&lt;/p&gt;\n&lt;/div&gt;",
       "score": 2,
       "created_utc": 1746824993.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrhhrcu/",
@@ -5777,6 +5817,7 @@
           "author": "Alone-Target-313",
           "author_fullname": "t2_c3uw8kaa",
           "body": "There is no privacy whatsoever. \n\nWe barely need to so much as request a chat log from Meta. The big companies that provide communication services don't give a crap about you, and hand everything over without hesitation.\n\nTelegram is the exception, being basically as secure as you can get.",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;There is no privacy whatsoever. &lt;/p&gt;\n\n&lt;p&gt;We barely need to so much as request a chat log from Meta. The big companies that provide communication services don&amp;#39;t give a crap about you, and hand everything over without hesitation.&lt;/p&gt;\n\n&lt;p&gt;Telegram is the exception, being basically as secure as you can get.&lt;/p&gt;\n&lt;/div&gt;",
           "score": 9,
           "created_utc": 1746855488.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrjmwew/",
@@ -5788,6 +5829,7 @@
               "author": "thecuriousone107",
               "author_fullname": "t2_2x30sdfy",
               "body": "I thought Telegram rolled over and capitulated in Europe, regarding access. Is that not correct?\nIs Signal better to use?",
+              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I thought Telegram rolled over and capitulated in Europe, regarding access. Is that not correct?\nIs Signal better to use?&lt;/p&gt;\n&lt;/div&gt;",
               "score": 1,
               "created_utc": 1746879139.0,
               "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrks5y0/",
@@ -5804,6 +5846,7 @@
       "author": "Empty-Scarcity2390",
       "author_fullname": "t2_1otdsqmllh",
       "body": "What agency do you work for or report to?",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;What agency do you work for or report to?&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1746815475.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrgmzqq/",
@@ -5815,6 +5858,7 @@
           "author": "Alone-Target-313",
           "author_fullname": "t2_c3uw8kaa",
           "body": "I'm afraid I won't specify too much - it isn't because I'm with some secret agency or working for Interpol or something, it's simply a matter of conserving the limited privacy I have on the internet.\n\nI can tell you that I operate with a country-wide enforcement agency.",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;m afraid I won&amp;#39;t specify too much - it isn&amp;#39;t because I&amp;#39;m with some secret agency or working for Interpol or something, it&amp;#39;s simply a matter of conserving the limited privacy I have on the internet.&lt;/p&gt;\n\n&lt;p&gt;I can tell you that I operate with a country-wide enforcement agency.&lt;/p&gt;\n&lt;/div&gt;",
           "score": 5,
           "created_utc": 1746855668.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrjn7zq/",
@@ -5829,6 +5873,7 @@
       "author": "okstand4910",
       "author_fullname": "t2_1gcdam5gif",
       "body": "What’s the most extreme you’ve seen",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;What’s the most extreme you’ve seen&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1747052318.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrwgokb/",
@@ -5840,6 +5885,7 @@
           "author": "Alone-Target-313",
           "author_fullname": "t2_c3uw8kaa",
           "body": "Definitely the video of a father burning his daughter's vagina shut with a soldering iron while she was awake.",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Definitely the video of a father burning his daughter&amp;#39;s vagina shut with a soldering iron while she was awake.&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1747251891.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/msbriw5/",
@@ -5851,6 +5897,7 @@
               "author": "okstand4910",
               "author_fullname": "t2_1gcdam5gif",
               "body": "Which country are you in ?",
+              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Which country are you in ?&lt;/p&gt;\n&lt;/div&gt;",
               "score": 1,
               "created_utc": 1747269025.0,
               "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/msd8mpf/",
@@ -5867,6 +5914,7 @@
       "author": "Fit_Pirate_3139",
       "author_fullname": "t2_b8pav59q",
       "body": "In your experience, is there a type that fits the CP profile?\n\nWhat i see in the news seems to vary by career, physic, etc.",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;In your experience, is there a type that fits the CP profile?&lt;/p&gt;\n\n&lt;p&gt;What i see in the news seems to vary by career, physic, etc.&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1747221897.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/ms92ua4/",
@@ -5878,6 +5926,7 @@
           "author": "Alone-Target-313",
           "author_fullname": "t2_c3uw8kaa",
           "body": "I've found that the type most often involved in child pornography are either the incredibly fortunate ones or the incredibly unfortunate ones.",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;ve found that the type most often involved in child pornography are either the incredibly fortunate ones or the incredibly unfortunate ones.&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1747251850.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/msbre10/",
@@ -5889,6 +5938,7 @@
               "author": "Fit_Pirate_3139",
               "author_fullname": "t2_b8pav59q",
               "body": "Do you mean the victim or the perpetrator? \n\nMy question is a bit bias, but if you were moving your family in an apartment, what would trigger your senses and tell you that it wasn’t a good place to move?",
+              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Do you mean the victim or the perpetrator? &lt;/p&gt;\n\n&lt;p&gt;My question is a bit bias, but if you were moving your family in an apartment, what would trigger your senses and tell you that it wasn’t a good place to move?&lt;/p&gt;\n&lt;/div&gt;",
               "score": 1,
               "created_utc": 1747251958.0,
               "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/msbrrcr/",
@@ -5900,6 +5950,7 @@
                   "author": "Alone-Target-313",
                   "author_fullname": "t2_c3uw8kaa",
                   "body": "I mean the perpetrator.\n\nI think that the first thing I would trust in is my gut. The majority of the time when I have a bad feeling about someone I'm tracking, it unfortunately pans out.",
+                  "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I mean the perpetrator.&lt;/p&gt;\n\n&lt;p&gt;I think that the first thing I would trust in is my gut. The majority of the time when I have a bad feeling about someone I&amp;#39;m tracking, it unfortunately pans out.&lt;/p&gt;\n&lt;/div&gt;",
                   "score": 1,
                   "created_utc": 1747252220.0,
                   "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/msbsnq3/",
@@ -5918,6 +5969,7 @@
       "author": "DUX85",
       "author_fullname": "t2_3o2j7x0y",
       "body": "Do you focus mainly on the internet or the dark web?",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Do you focus mainly on the internet or the dark web?&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1746840576.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrip0dk/",
@@ -5929,6 +5981,7 @@
           "author": "Alone-Target-313",
           "author_fullname": "t2_c3uw8kaa",
           "body": "I would say a good chunk of my time is spent on the general internet, browsing through Reddit, Twitter, Facebook etc.",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I would say a good chunk of my time is spent on the general internet, browsing through Reddit, Twitter, Facebook etc.&lt;/p&gt;\n&lt;/div&gt;",
           "score": 5,
           "created_utc": 1746855011.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrjm1bt/",
@@ -5943,6 +5996,7 @@
       "author": "curious_coitus",
       "author_fullname": "t2_9hmzj",
       "body": "How do you balance the concept that digital privacy is right with the need to stop bad actors?\nWhat digital hygiene best practices are under appreciated?",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How do you balance the concept that digital privacy is right with the need to stop bad actors?\nWhat digital hygiene best practices are under appreciated?&lt;/p&gt;\n&lt;/div&gt;",
       "score": 0,
       "created_utc": 1746804548.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrfmvsi/",
@@ -5954,7 +6008,8 @@
           "author": "Alone-Target-313",
           "author_fullname": "t2_c3uw8kaa",
           "body": "Honestly as far as digital privacy goes, I think that we've struck a pretty good balance right now. Admittedly not ideal, but certainly not as bad as most people make it to be. \n\nI cannot stress enough the importance of steering clear of anything even VAGUELY illegal on the internet. \n\nI don't mean the \"illegal\" things like piracy or illegally watching the new mario movie. I mean illegal things that would get you tracked and have a DFA deployed to investigate. If you see anything even RESEMBLING underage pornography, just don't. Best case scenario, you end up having youe internet activities traced for a few months.",
-          "score": 9,
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Honestly as far as digital privacy goes, I think that we&amp;#39;ve struck a pretty good balance right now. Admittedly not ideal, but certainly not as bad as most people make it to be. &lt;/p&gt;\n\n&lt;p&gt;I cannot stress enough the importance of steering clear of anything even VAGUELY illegal on the internet. &lt;/p&gt;\n\n&lt;p&gt;I don&amp;#39;t mean the &amp;quot;illegal&amp;quot; things like piracy or illegally watching the new mario movie. I mean illegal things that would get you tracked and have a DFA deployed to investigate. If you see anything even RESEMBLING underage pornography, just don&amp;#39;t. Best case scenario, you end up having youe internet activities traced for a few months.&lt;/p&gt;\n&lt;/div&gt;",
+          "score": 10,
           "created_utc": 1746808799.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrg0tdh/",
           "is_submitter": true,
@@ -5965,6 +6020,7 @@
               "author": "Riskybusiness622",
               "author_fullname": "t2_9flf2fi",
               "body": "What’s something that would qualify as “vaguely illegal” and not illegal like what are the red flags we talking about?",
+              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;What’s something that would qualify as “vaguely illegal” and not illegal like what are the red flags we talking about?&lt;/p&gt;\n&lt;/div&gt;",
               "score": 3,
               "created_utc": 1746836490.0,
               "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrieedz/",
@@ -5976,7 +6032,8 @@
                   "author": "Alone-Target-313",
                   "author_fullname": "t2_c3uw8kaa",
                   "body": "Imagine if you were to stand up in a bar and announce to all of it's wonderfully burley patrons what you had done. Would you be beat up and possibly lynched? If not, it was probably okay. \n\nPiracy is generally fine, and I'll admit that I occasionally sail the FitGirl seas. Whatever pornography you find on PornHub is also fine. Even \"barely legal\" porn won't have most people so much as bat an eye given how many people seem to enjoy it. If you decide to try to look for pictures of naked children on the otherhand...",
-                  "score": 5,
+                  "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Imagine if you were to stand up in a bar and announce to all of it&amp;#39;s wonderfully burley patrons what you had done. Would you be beat up and possibly lynched? If not, it was probably okay. &lt;/p&gt;\n\n&lt;p&gt;Piracy is generally fine, and I&amp;#39;ll admit that I occasionally sail the FitGirl seas. Whatever pornography you find on PornHub is also fine. Even &amp;quot;barely legal&amp;quot; porn won&amp;#39;t have most people so much as bat an eye given how many people seem to enjoy it. If you decide to try to look for pictures of naked children on the otherhand...&lt;/p&gt;\n&lt;/div&gt;",
+                  "score": 4,
                   "created_utc": 1746855200.0,
                   "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrjmdvv/",
                   "is_submitter": true,
@@ -5990,7 +6047,8 @@
               "author": "curious_coitus",
               "author_fullname": "t2_9hmzj",
               "body": "So honeypots so to speak exist? I don’t think I’ve got any concerns with coming into contact with that kind of content. \n\nI’m always curious about how hard identities are to pierce, especially if there are nation state resources behind the effort. VPNs are largely worthless as understand? \n\nIt seems like a fun detective job, except for the soul crushing content aspect.",
-              "score": 3,
+              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;So honeypots so to speak exist? I don’t think I’ve got any concerns with coming into contact with that kind of content. &lt;/p&gt;\n\n&lt;p&gt;I’m always curious about how hard identities are to pierce, especially if there are nation state resources behind the effort. VPNs are largely worthless as understand? &lt;/p&gt;\n\n&lt;p&gt;It seems like a fun detective job, except for the soul crushing content aspect.&lt;/p&gt;\n&lt;/div&gt;",
+              "score": 5,
               "created_utc": 1746811745.0,
               "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrgakkp/",
               "is_submitter": false,
@@ -6001,7 +6059,8 @@
                   "author": "Alone-Target-313",
                   "author_fullname": "t2_c3uw8kaa",
                   "body": "VPNs are pretty useless if you get in hot enough water.",
-                  "score": 8,
+                  "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;VPNs are pretty useless if you get in hot enough water.&lt;/p&gt;\n&lt;/div&gt;",
+                  "score": 9,
                   "created_utc": 1746811908.0,
                   "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrgb43r/",
                   "is_submitter": true,
@@ -6012,6 +6071,7 @@
                       "author": "simplesynamic",
                       "author_fullname": "t2_2smlzoqo",
                       "body": "Is pirating movies hot enough water?",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Is pirating movies hot enough water?&lt;/p&gt;\n&lt;/div&gt;",
                       "score": 1,
                       "created_utc": 1747080994.0,
                       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/mrz1bj0/",
@@ -6023,6 +6083,7 @@
                           "author": "Alone-Target-313",
                           "author_fullname": "t2_c3uw8kaa",
                           "body": "Definitely not :D\n\nPirate games, movies, porn, whatever your heart desires.\n\nJust use safe piracy practices, but that's more to avoid legal trouble than anything else.\n\nHot water would be truly wretched things, like selling the body parts of children, human trafficking, child pornography etc.",
+                          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Definitely not :D&lt;/p&gt;\n\n&lt;p&gt;Pirate games, movies, porn, whatever your heart desires.&lt;/p&gt;\n\n&lt;p&gt;Just use safe piracy practices, but that&amp;#39;s more to avoid legal trouble than anything else.&lt;/p&gt;\n\n&lt;p&gt;Hot water would be truly wretched things, like selling the body parts of children, human trafficking, child pornography etc.&lt;/p&gt;\n&lt;/div&gt;",
                           "score": 1,
                           "created_utc": 1747252120.0,
                           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1kikplc/i_39m_am_a_digital_forensic_analyst_who_has_seen/msbsbam/",
@@ -6040,6 +6101,5 @@
         }
       ]
     }
-  ],
-  "media_kind": "self"
+  ]
 }

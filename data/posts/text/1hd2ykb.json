@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-11T08:18:46.213020+00:00",
+  "archived_at": "2025-09-11T07:40:58.637549+00:00",
   "reddit_fullname": "t3_1hd2ykb",
   "reddit_id": "1hd2ykb",
   "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1hd2ykb/in_18_months_i_37m_fucked_27_woman/",
@@ -24,7 +24,8 @@
   "edited": false,
   "num_comments": 17,
   "score": 0,
-  "upvote_ratio": 0.27,
+  "upvote_ratio": 0.36,
+  "media_kind": "self",
   "media": null,
   "external_link": null,
   "raw_post": {
@@ -48,7 +49,7 @@
     "name": "t3_1hd2ykb",
     "quarantine": false,
     "link_flair_text_color": "dark",
-    "upvote_ratio": 0.27,
+    "upvote_ratio": 0.36,
     "author_flair_background_color": null,
     "subreddit_type": "public",
     "ups": 0,
@@ -84,14 +85,14 @@
     "author_flair_type": "text",
     "domain": "self.NSFWIAMA",
     "allow_live_comments": false,
-    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>Mostly from reddit, but also some apps. AMA. </p>\n</div><!-- SC_ON -->",
+    "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Mostly from reddit, but also some apps. AMA. &lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
     "likes": null,
     "suggested_sort": "confidence",
     "banned_at_utc": null,
     "view_count": null,
     "archived": false,
     "no_follow": true,
-    "is_crosspostable": true,
+    "is_crosspostable": false,
     "pinned": false,
     "over_18": true,
     "all_awardings": [],
@@ -137,7 +138,7 @@
     "data": {
       "after": null,
       "dist": null,
-      "modhash": null,
+      "modhash": "",
       "geo_filter": "",
       "children": [
         {
@@ -176,7 +177,7 @@
             "mod_note": null,
             "all_awardings": [],
             "collapsed": false,
-            "body": "# This is an unverified AMA  \n**Note to readers: u/BWCinNY has not provided proof for this AMA - and therefor there is a higher likelihood that this AMA is false.  The mods of r/NSFWIAmA recommend that readers be sceptical of all information provided by u/BWCinNY in their original post and/or responses.**  \n&nbsp;  \n\n---\n&nbsp;  \n**Note to u/BWCinNY**: We warmly encourage to verify your AMA.  Instructions on our verification process are available at [this link](https://www.reddit.com/r/NSFWIAMA/wiki/verifcation).  Your post and/or account flare will be updated and this comment will be removed should you choose to verify.  \n&nbsp;  \n\n---\n&nbsp;  \n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/NSFWIAMA) if you have any questions or concerns.*",
+            "body": "# This is an unverified AMA  \n**Note to readers: u/BWCinNY has not provided proof for this AMA - and therefor there is a higher likelihood that this AMA is false.  The mods of r/NSFWIAmA recommend that readers be sceptical of all information provided by u/BWCinNY in their original post and/or responses.**  \n&amp;nbsp;  \n\n---\n&amp;nbsp;  \n**Note to u/BWCinNY**: We warmly encourage to verify your AMA.  Instructions on our verification process are available at [this link](https://www.reddit.com/r/NSFWIAMA/wiki/verifcation).  Your post and/or account flare will be updated and this comment will be removed should you choose to verify.  \n&amp;nbsp;  \n\n---\n&amp;nbsp;  \n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/NSFWIAMA) if you have any questions or concerns.*",
             "edited": false,
             "top_awarded_type": null,
             "author_flair_css_class": null,
@@ -185,7 +186,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><h1>This is an unverified AMA</h1>\n\n<p><strong>Note to readers: <a href=\"/u/BWCinNY\">u/BWCinNY</a> has not provided proof for this AMA - and therefor there is a higher likelihood that this AMA is false.  The mods of <a href=\"/r/NSFWIAmA\">r/NSFWIAmA</a> recommend that readers be sceptical of all information provided by <a href=\"/u/BWCinNY\">u/BWCinNY</a> in their original post and/or responses.</strong><br/>\n&nbsp;  </p>\n\n<hr/>\n\n<p>&nbsp;<br/>\n<strong>Note to <a href=\"/u/BWCinNY\">u/BWCinNY</a></strong>: We warmly encourage to verify your AMA.  Instructions on our verification process are available at <a href=\"https://www.reddit.com/r/NSFWIAMA/wiki/verifcation\">this link</a>.  Your post and/or account flare will be updated and this comment will be removed should you choose to verify.<br/>\n&nbsp;  </p>\n\n<hr/>\n\n<p>&nbsp;  </p>\n\n<p><em>I am a bot, and this action was performed automatically. Please <a href=\"/message/compose/?to=/r/NSFWIAMA\">contact the moderators of this subreddit</a> if you have any questions or concerns.</em></p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;h1&gt;This is an unverified AMA&lt;/h1&gt;\n\n&lt;p&gt;&lt;strong&gt;Note to readers: &lt;a href=\"/u/BWCinNY\"&gt;u/BWCinNY&lt;/a&gt; has not provided proof for this AMA - and therefor there is a higher likelihood that this AMA is false.  The mods of &lt;a href=\"/r/NSFWIAmA\"&gt;r/NSFWIAmA&lt;/a&gt; recommend that readers be sceptical of all information provided by &lt;a href=\"/u/BWCinNY\"&gt;u/BWCinNY&lt;/a&gt; in their original post and/or responses.&lt;/strong&gt;&lt;br/&gt;\n&amp;nbsp;  &lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&amp;nbsp;&lt;br/&gt;\n&lt;strong&gt;Note to &lt;a href=\"/u/BWCinNY\"&gt;u/BWCinNY&lt;/a&gt;&lt;/strong&gt;: We warmly encourage to verify your AMA.  Instructions on our verification process are available at &lt;a href=\"https://www.reddit.com/r/NSFWIAMA/wiki/verifcation\"&gt;this link&lt;/a&gt;.  Your post and/or account flare will be updated and this comment will be removed should you choose to verify.&lt;br/&gt;\n&amp;nbsp;  &lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&amp;nbsp;  &lt;/p&gt;\n\n&lt;p&gt;&lt;em&gt;I am a bot, and this action was performed automatically. Please &lt;a href=\"/message/compose/?to=/r/NSFWIAMA\"&gt;contact the moderators of this subreddit&lt;/a&gt; if you have any questions or concerns.&lt;/em&gt;&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": "moderator",
@@ -235,7 +236,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -283,7 +284,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>Quite a few, but reading the persons post and comment history gives a a pretty good idea what they are before reaching out to message.</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Quite a few, but reading the persons post and comment history gives a a pretty good idea what they are before reaching out to message.&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -331,7 +332,7 @@
             "created_utc": 1734066765.0,
             "send_replies": true,
             "parent_id": "t3_1hd2ykb",
-            "score": 5,
+            "score": 4,
             "author_fullname": "t2_b2rjeilt",
             "approved_by": null,
             "mod_note": null,
@@ -346,7 +347,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>How many OF sellers did you have to wade through to find your sweet 27?</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How many OF sellers did you have to wade through to find your sweet 27?&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -373,7 +374,7 @@
             "collapsed_because_crowd_control": null,
             "mod_reports": [],
             "num_reports": null,
-            "ups": 5
+            "ups": 4
           }
         },
         {
@@ -396,7 +397,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -419,7 +420,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": null,
+                          "modhash": "",
                           "geo_filter": "",
                           "children": [
                             {
@@ -442,7 +443,7 @@
                                   "data": {
                                     "after": null,
                                     "dist": null,
-                                    "modhash": null,
+                                    "modhash": "",
                                     "geo_filter": "",
                                     "children": [
                                       {
@@ -465,7 +466,7 @@
                                             "data": {
                                               "after": null,
                                               "dist": null,
-                                              "modhash": null,
+                                              "modhash": "",
                                               "geo_filter": "",
                                               "children": [
                                                 {
@@ -489,7 +490,7 @@
                                                       "data": {
                                                         "after": null,
                                                         "dist": null,
-                                                        "modhash": null,
+                                                        "modhash": "",
                                                         "geo_filter": "",
                                                         "children": [
                                                           {
@@ -537,7 +538,7 @@
                                                               "collapsed": false,
                                                               "author_flair_richtext": [],
                                                               "author_patreon_flair": false,
-                                                              "body_html": "<div class=\"md\"><p>Potentially. Haven’t sought it out</p>\n</div>",
+                                                              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Potentially. Haven’t sought it out&lt;/p&gt;\n&lt;/div&gt;",
                                                               "removal_reason": null,
                                                               "collapsed_reason": null,
                                                               "link_id": "t3_1hd2ykb",
@@ -598,7 +599,7 @@
                                                     "downs": 0,
                                                     "author_flair_richtext": [],
                                                     "author_patreon_flair": false,
-                                                    "body_html": "<div class=\"md\"><p>You into mfm?  I am sure we could find that.</p>\n</div>",
+                                                    "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;You into mfm?  I am sure we could find that.&lt;/p&gt;\n&lt;/div&gt;",
                                                     "gildings": {},
                                                     "collapsed_reason": null,
                                                     "link_id": "t3_1hd2ykb",
@@ -662,7 +663,7 @@
                                           "downs": 0,
                                           "author_flair_richtext": [],
                                           "author_patreon_flair": false,
-                                          "body_html": "<div class=\"md\"><p>Haha, I wonder if hitting someone up out of the blue 2 years after the fact to ask if I made them cum would be feasible. </p>\n\n<p>Come to New York and help me find a group 😛</p>\n</div>",
+                                          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Haha, I wonder if hitting someone up out of the blue 2 years after the fact to ask if I made them cum would be feasible. &lt;/p&gt;\n\n&lt;p&gt;Come to New York and help me find a group 😛&lt;/p&gt;\n&lt;/div&gt;",
                                           "gildings": {},
                                           "collapsed_reason": null,
                                           "distinguished": null,
@@ -725,7 +726,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "<div class=\"md\"><p>The only way to be certain is to ask and then do it again.  😁</p>\n\n<p>Well keep trying on the group front. Maybe couples?</p>\n</div>",
+                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;The only way to be certain is to ask and then do it again.  😁&lt;/p&gt;\n\n&lt;p&gt;Well keep trying on the group front. Maybe couples?&lt;/p&gt;\n&lt;/div&gt;",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -788,7 +789,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>No group, tried to organize a foursome but it never came to fruition. I fucked 5 or 6 multiple times, one was a FWB for a number of months. As far as I know I made them all cum, but I can’t be 100% certain.</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;No group, tried to organize a foursome but it never came to fruition. I fucked 5 or 6 multiple times, one was a FWB for a number of months. As far as I know I made them all cum, but I can’t be 100% certain.&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -851,7 +852,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>Sounds like a fun time.  Any groupsex?  How many did you fuck more than once?  Did you make them all cum?</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Sounds like a fun time.  Any groupsex?  How many did you fuck more than once?  Did you make them all cum?&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -901,7 +902,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -949,7 +950,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>A mix. Mostly R4rnyc, dirtyr4r, randomactsofmuffdive, and randomactsofblowjob</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;A mix. Mostly R4rnyc, dirtyr4r, randomactsofmuffdive, and randomactsofblowjob&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -1007,7 +1008,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "<div class=\"md\"><p>From which subs?</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;From which subs?&lt;/p&gt;\n&lt;/div&gt;",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -1057,7 +1058,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -1080,7 +1081,7 @@
                         "data": {
                           "after": null,
                           "dist": null,
-                          "modhash": null,
+                          "modhash": "",
                           "geo_filter": "",
                           "children": [
                             {
@@ -1103,7 +1104,7 @@
                                   "data": {
                                     "after": null,
                                     "dist": null,
-                                    "modhash": null,
+                                    "modhash": "",
                                     "geo_filter": "",
                                     "children": [
                                       {
@@ -1151,7 +1152,7 @@
                                           "downs": 0,
                                           "author_flair_richtext": [],
                                           "author_patreon_flair": false,
-                                          "body_html": "<div class=\"md\"><p>I like to believe it wasn’t all because of my cock, but that definitely played a part.</p>\n</div>",
+                                          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I like to believe it wasn’t all because of my cock, but that definitely played a part.&lt;/p&gt;\n&lt;/div&gt;",
                                           "gildings": {},
                                           "collapsed_reason": null,
                                           "distinguished": null,
@@ -1214,7 +1215,7 @@
                                 "collapsed": false,
                                 "author_flair_richtext": [],
                                 "author_patreon_flair": false,
-                                "body_html": "<div class=\"md\"><p>Gotcha ya when I asked I hadn’t looked at your profile and seen your huge cock yet😂. But ya that all makes sense.</p>\n</div>",
+                                "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Gotcha ya when I asked I hadn’t looked at your profile and seen your huge cock yet😂. But ya that all makes sense.&lt;/p&gt;\n&lt;/div&gt;",
                                 "gildings": {},
                                 "collapsed_reason": null,
                                 "distinguished": null,
@@ -1277,7 +1278,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>I’m genuine and not pushy in my initially messages. I’m pretty nice in general and don’t take things too seriously. I also tick a few boxes for people looking for a quick fuck: I’m tall fit, bearded, lean d, and I’m well hung</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I’m genuine and not pushy in my initially messages. I’m pretty nice in general and don’t take things too seriously. I also tick a few boxes for people looking for a quick fuck: I’m tall fit, bearded, lean d, and I’m well hung&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -1340,7 +1341,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>What made you so successful? Cause you killing it.</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;What made you so successful? Cause you killing it.&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -1390,7 +1391,7 @@
               "data": {
                 "after": null,
                 "dist": null,
-                "modhash": null,
+                "modhash": "",
                 "geo_filter": "",
                 "children": [
                   {
@@ -1438,7 +1439,7 @@
                       "downs": 0,
                       "author_flair_richtext": [],
                       "author_patreon_flair": false,
-                      "body_html": "<div class=\"md\"><p>Ok 🤷‍♂️</p>\n</div>",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Ok 🤷‍♂️&lt;/p&gt;\n&lt;/div&gt;",
                       "gildings": {},
                       "collapsed_reason": null,
                       "distinguished": null,
@@ -1501,7 +1502,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>No you didn’t.</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;No you didn’t.&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -1535,14 +1536,13 @@
       "before": null
     }
   },
-  "comments_truncated_by_depth": true,
-  "comments_truncated_by_limit": false,
   "comments": [
     {
       "id": "m1sw1p8",
       "author": "AutoModerator",
       "author_fullname": "t2_6l4z3",
-      "body": "# This is an unverified AMA  \n**Note to readers: u/BWCinNY has not provided proof for this AMA - and therefor there is a higher likelihood that this AMA is false.  The mods of r/NSFWIAmA recommend that readers be sceptical of all information provided by u/BWCinNY in their original post and/or responses.**  \n&nbsp;  \n\n---\n&nbsp;  \n**Note to u/BWCinNY**: We warmly encourage to verify your AMA.  Instructions on our verification process are available at [this link](https://www.reddit.com/r/NSFWIAMA/wiki/verifcation).  Your post and/or account flare will be updated and this comment will be removed should you choose to verify.  \n&nbsp;  \n\n---\n&nbsp;  \n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/NSFWIAMA) if you have any questions or concerns.*",
+      "body": "# This is an unverified AMA  \n**Note to readers: u/BWCinNY has not provided proof for this AMA - and therefor there is a higher likelihood that this AMA is false.  The mods of r/NSFWIAmA recommend that readers be sceptical of all information provided by u/BWCinNY in their original post and/or responses.**  \n&amp;nbsp;  \n\n---\n&amp;nbsp;  \n**Note to u/BWCinNY**: We warmly encourage to verify your AMA.  Instructions on our verification process are available at [this link](https://www.reddit.com/r/NSFWIAMA/wiki/verifcation).  Your post and/or account flare will be updated and this comment will be removed should you choose to verify.  \n&amp;nbsp;  \n\n---\n&amp;nbsp;  \n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/NSFWIAMA) if you have any questions or concerns.*",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;h1&gt;This is an unverified AMA&lt;/h1&gt;\n\n&lt;p&gt;&lt;strong&gt;Note to readers: &lt;a href=\"/u/BWCinNY\"&gt;u/BWCinNY&lt;/a&gt; has not provided proof for this AMA - and therefor there is a higher likelihood that this AMA is false.  The mods of &lt;a href=\"/r/NSFWIAmA\"&gt;r/NSFWIAmA&lt;/a&gt; recommend that readers be sceptical of all information provided by &lt;a href=\"/u/BWCinNY\"&gt;u/BWCinNY&lt;/a&gt; in their original post and/or responses.&lt;/strong&gt;&lt;br/&gt;\n&amp;nbsp;  &lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&amp;nbsp;&lt;br/&gt;\n&lt;strong&gt;Note to &lt;a href=\"/u/BWCinNY\"&gt;u/BWCinNY&lt;/a&gt;&lt;/strong&gt;: We warmly encourage to verify your AMA.  Instructions on our verification process are available at &lt;a href=\"https://www.reddit.com/r/NSFWIAMA/wiki/verifcation\"&gt;this link&lt;/a&gt;.  Your post and/or account flare will be updated and this comment will be removed should you choose to verify.&lt;br/&gt;\n&amp;nbsp;  &lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;&amp;nbsp;  &lt;/p&gt;\n\n&lt;p&gt;&lt;em&gt;I am a bot, and this action was performed automatically. Please &lt;a href=\"/message/compose/?to=/r/NSFWIAMA\"&gt;contact the moderators of this subreddit&lt;/a&gt; if you have any questions or concerns.&lt;/em&gt;&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1734059464.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1hd2ykb/in_18_months_i_37m_fucked_27_woman/m1sw1p8/",
@@ -1555,7 +1555,8 @@
       "author": "buttman_3000",
       "author_fullname": "t2_b2rjeilt",
       "body": "How many OF sellers did you have to wade through to find your sweet 27?",
-      "score": 5,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How many OF sellers did you have to wade through to find your sweet 27?&lt;/p&gt;\n&lt;/div&gt;",
+      "score": 4,
       "created_utc": 1734066765.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1hd2ykb/in_18_months_i_37m_fucked_27_woman/m1tdu59/",
       "is_submitter": false,
@@ -1566,6 +1567,7 @@
           "author": "BWCinNY",
           "author_fullname": "t2_k7nqtum23",
           "body": "Quite a few, but reading the persons post and comment history gives a a pretty good idea what they are before reaching out to message.",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Quite a few, but reading the persons post and comment history gives a a pretty good idea what they are before reaching out to message.&lt;/p&gt;\n&lt;/div&gt;",
           "score": 2,
           "created_utc": 1734088669.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1hd2ykb/in_18_months_i_37m_fucked_27_woman/m1ud42h/",
@@ -1580,6 +1582,7 @@
       "author": "pixiemilf69",
       "author_fullname": "t2_vvcng8b1",
       "body": "Sounds like a fun time.  Any groupsex?  How many did you fuck more than once?  Did you make them all cum?",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Sounds like a fun time.  Any groupsex?  How many did you fuck more than once?  Did you make them all cum?&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1734059957.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1hd2ykb/in_18_months_i_37m_fucked_27_woman/m1sxcb1/",
@@ -1591,6 +1594,7 @@
           "author": "BWCinNY",
           "author_fullname": "t2_k7nqtum23",
           "body": "No group, tried to organize a foursome but it never came to fruition. I fucked 5 or 6 multiple times, one was a FWB for a number of months. As far as I know I made them all cum, but I can’t be 100% certain.",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;No group, tried to organize a foursome but it never came to fruition. I fucked 5 or 6 multiple times, one was a FWB for a number of months. As far as I know I made them all cum, but I can’t be 100% certain.&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1734060133.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1hd2ykb/in_18_months_i_37m_fucked_27_woman/m1sxt16/",
@@ -1602,6 +1606,7 @@
               "author": "pixiemilf69",
               "author_fullname": "t2_vvcng8b1",
               "body": "The only way to be certain is to ask and then do it again.  😁\n\nWell keep trying on the group front. Maybe couples?",
+              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;The only way to be certain is to ask and then do it again.  😁&lt;/p&gt;\n\n&lt;p&gt;Well keep trying on the group front. Maybe couples?&lt;/p&gt;\n&lt;/div&gt;",
               "score": 2,
               "created_utc": 1734060510.0,
               "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1hd2ykb/in_18_months_i_37m_fucked_27_woman/m1sysy3/",
@@ -1613,6 +1618,7 @@
                   "author": "BWCinNY",
                   "author_fullname": "t2_k7nqtum23",
                   "body": "Haha, I wonder if hitting someone up out of the blue 2 years after the fact to ask if I made them cum would be feasible. \n\nCome to New York and help me find a group 😛",
+                  "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Haha, I wonder if hitting someone up out of the blue 2 years after the fact to ask if I made them cum would be feasible. &lt;/p&gt;\n\n&lt;p&gt;Come to New York and help me find a group 😛&lt;/p&gt;\n&lt;/div&gt;",
                   "score": 1,
                   "created_utc": 1734060603.0,
                   "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1hd2ykb/in_18_months_i_37m_fucked_27_woman/m1sz1ym/",
@@ -1624,6 +1630,7 @@
                       "author": "pixiemilf69",
                       "author_fullname": "t2_vvcng8b1",
                       "body": "You into mfm?  I am sure we could find that.",
+                      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;You into mfm?  I am sure we could find that.&lt;/p&gt;\n&lt;/div&gt;",
                       "score": 1,
                       "created_utc": 1734063160.0,
                       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1hd2ykb/in_18_months_i_37m_fucked_27_woman/m1t5ne2/",
@@ -1635,6 +1642,7 @@
                           "author": "BWCinNY",
                           "author_fullname": "t2_k7nqtum23",
                           "body": "Potentially. Haven’t sought it out",
+                          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Potentially. Haven’t sought it out&lt;/p&gt;\n&lt;/div&gt;",
                           "score": 1,
                           "created_utc": 1734063197.0,
                           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1hd2ykb/in_18_months_i_37m_fucked_27_woman/m1t5qp1/",
@@ -1657,6 +1665,7 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "From which subs?",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;From which subs?&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1734059970.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1hd2ykb/in_18_months_i_37m_fucked_27_woman/m1sxdnz/",
@@ -1668,6 +1677,7 @@
           "author": "BWCinNY",
           "author_fullname": "t2_k7nqtum23",
           "body": "A mix. Mostly R4rnyc, dirtyr4r, randomactsofmuffdive, and randomactsofblowjob",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;A mix. Mostly R4rnyc, dirtyr4r, randomactsofmuffdive, and randomactsofblowjob&lt;/p&gt;\n&lt;/div&gt;",
           "score": 3,
           "created_utc": 1734060214.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1hd2ykb/in_18_months_i_37m_fucked_27_woman/m1sy0p8/",
@@ -1682,6 +1692,7 @@
       "author": "cosmicbbw",
       "author_fullname": "t2_8azm9sxu",
       "body": "What made you so successful? Cause you killing it.",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;What made you so successful? Cause you killing it.&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1734064285.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1hd2ykb/in_18_months_i_37m_fucked_27_woman/m1t8d9u/",
@@ -1693,6 +1704,7 @@
           "author": "BWCinNY",
           "author_fullname": "t2_k7nqtum23",
           "body": "I’m genuine and not pushy in my initially messages. I’m pretty nice in general and don’t take things too seriously. I also tick a few boxes for people looking for a quick fuck: I’m tall fit, bearded, lean d, and I’m well hung",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I’m genuine and not pushy in my initially messages. I’m pretty nice in general and don’t take things too seriously. I also tick a few boxes for people looking for a quick fuck: I’m tall fit, bearded, lean d, and I’m well hung&lt;/p&gt;\n&lt;/div&gt;",
           "score": 1,
           "created_utc": 1734064466.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1hd2ykb/in_18_months_i_37m_fucked_27_woman/m1t8sbd/",
@@ -1704,6 +1716,7 @@
               "author": "cosmicbbw",
               "author_fullname": "t2_8azm9sxu",
               "body": "Gotcha ya when I asked I hadn’t looked at your profile and seen your huge cock yet😂. But ya that all makes sense.",
+              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Gotcha ya when I asked I hadn’t looked at your profile and seen your huge cock yet😂. But ya that all makes sense.&lt;/p&gt;\n&lt;/div&gt;",
               "score": 1,
               "created_utc": 1734082943.0,
               "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1hd2ykb/in_18_months_i_37m_fucked_27_woman/m1u4fyg/",
@@ -1715,6 +1728,7 @@
                   "author": "BWCinNY",
                   "author_fullname": "t2_k7nqtum23",
                   "body": "I like to believe it wasn’t all because of my cock, but that definitely played a part.",
+                  "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I like to believe it wasn’t all because of my cock, but that definitely played a part.&lt;/p&gt;\n&lt;/div&gt;",
                   "score": 2,
                   "created_utc": 1734088728.0,
                   "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1hd2ykb/in_18_months_i_37m_fucked_27_woman/m1ud7o8/",
@@ -1733,6 +1747,7 @@
       "author": "Hot_Culture0883",
       "author_fullname": "t2_9ilm8a0u",
       "body": "No you didn’t.",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;No you didn’t.&lt;/p&gt;\n&lt;/div&gt;",
       "score": 0,
       "created_utc": 1734098118.0,
       "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1hd2ykb/in_18_months_i_37m_fucked_27_woman/m1ux2uj/",
@@ -1744,6 +1759,7 @@
           "author": "BWCinNY",
           "author_fullname": "t2_k7nqtum23",
           "body": "Ok 🤷‍♂️",
+          "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Ok 🤷‍♂️&lt;/p&gt;\n&lt;/div&gt;",
           "score": 2,
           "created_utc": 1734099111.0,
           "permalink": "https://www.reddit.com/r/NSFWIAMA/comments/1hd2ykb/in_18_months_i_37m_fucked_27_woman/m1uzoew/",
@@ -1753,6 +1769,5 @@
         }
       ]
     }
-  ],
-  "media_kind": "self"
+  ]
 }

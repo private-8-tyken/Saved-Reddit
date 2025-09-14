@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-11T08:20:36.318798+00:00",
+  "archived_at": "2025-09-11T08:01:42.392174+00:00",
   "reddit_fullname": "t3_161wp3h",
   "reddit_id": "161wp3h",
   "permalink": "https://www.reddit.com/r/collegesluts/comments/161wp3h/i_get_embarrassed_because_off_their_size_but_i/",
@@ -23,8 +23,9 @@
   "locked": false,
   "edited": false,
   "num_comments": 5,
-  "score": 213,
+  "score": 211,
   "upvote_ratio": 0.95,
+  "media_kind": "image",
   "media": null,
   "external_link": null,
   "raw_post": {
@@ -52,7 +53,7 @@
     "upvote_ratio": 0.95,
     "author_flair_background_color": null,
     "subreddit_type": "public",
-    "ups": 213,
+    "ups": 211,
     "total_awards_received": 0,
     "media_embed": {},
     "thumbnail_width": 140,
@@ -66,7 +67,7 @@
     "secure_media_embed": {},
     "link_flair_text": null,
     "can_mod_post": false,
-    "score": 213,
+    "score": 211,
     "approved_by": null,
     "is_created_from_ads_ui": false,
     "author_premium": false,
@@ -129,7 +130,7 @@
     "permalink": "/r/collegesluts/comments/161wp3h/i_get_embarrassed_because_off_their_size_but_i/",
     "stickied": false,
     "url": "https://i.redd.it/4xu5h15zrgkb1.gif",
-    "subreddit_subscribers": 3395288,
+    "subreddit_subscribers": 3395272,
     "created_utc": 1693060114.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -140,7 +141,7 @@
     "data": {
       "after": null,
       "dist": null,
-      "modhash": null,
+      "modhash": "",
       "geo_filter": "",
       "children": [
         {
@@ -188,7 +189,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>They&#39;re pretty big</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;They&amp;#39;re pretty big&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -258,7 +259,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "<div class=\"md\"><p>You should really let me help you with that</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;You should really let me help you with that&lt;/p&gt;\n&lt;/div&gt;",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -328,7 +329,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "<div class=\"md\"><p>you’re perfect I’ll suck em and eat you any day</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;you’re perfect I’ll suck em and eat you any day&lt;/p&gt;\n&lt;/div&gt;",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -362,14 +363,13 @@
       "before": null
     }
   },
-  "comments_truncated_by_depth": true,
-  "comments_truncated_by_limit": false,
   "comments": [
     {
       "id": "jxu0myj",
       "author": "potato_6942",
       "author_fullname": "t2_f68scem98",
       "body": "They're pretty big",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;They&amp;#39;re pretty big&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1693060689.0,
       "permalink": "https://www.reddit.com/r/collegesluts/comments/161wp3h/i_get_embarrassed_because_off_their_size_but_i/jxu0myj/",
@@ -382,6 +382,7 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "You should really let me help you with that",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;You should really let me help you with that&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1693068082.0,
       "permalink": "https://www.reddit.com/r/collegesluts/comments/161wp3h/i_get_embarrassed_because_off_their_size_but_i/jxujc4x/",
@@ -394,6 +395,7 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "you’re perfect I’ll suck em and eat you any day",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;you’re perfect I’ll suck em and eat you any day&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1693083271.0,
       "permalink": "https://www.reddit.com/r/collegesluts/comments/161wp3h/i_get_embarrassed_because_off_their_size_but_i/jxvk6fz/",
@@ -401,6 +403,5 @@
       "parent_id": "t3_161wp3h",
       "replies": []
     }
-  ],
-  "media_kind": "image"
+  ]
 }

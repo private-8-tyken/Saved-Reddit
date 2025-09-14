@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-11T08:19:58.396074+00:00",
+  "archived_at": "2025-09-11T07:52:15.167742+00:00",
   "reddit_fullname": "t3_1bg4smx",
   "reddit_id": "1bg4smx",
   "permalink": "https://www.reddit.com/r/MamaPiggy_001/comments/1bg4smx/piperpresley_whoispiperpresley/",
@@ -25,6 +25,7 @@
   "num_comments": 3,
   "score": 31,
   "upvote_ratio": 1.0,
+  "media_kind": "self",
   "media": null,
   "external_link": null,
   "raw_post": {
@@ -86,7 +87,7 @@
     "author_flair_type": "text",
     "domain": "self.MamaPiggy_001",
     "allow_live_comments": false,
-    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>[removed]</p>\n</div><!-- SC_ON -->",
+    "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;[removed]&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
     "likes": null,
     "suggested_sort": null,
     "banned_at_utc": null,
@@ -139,7 +140,7 @@
     "data": {
       "after": null,
       "dist": null,
-      "modhash": null,
+      "modhash": "",
       "geo_filter": "",
       "children": [
         {
@@ -187,7 +188,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>Join our TG and Grab Her <code>FULL CONTENT</code> <a href=\"https://rentry.org/seekersnetwork\">TELEGRAM</a> </p>\n\n<p><em>I am a bot, and this action was performed automatically. Please <a href=\"/message/compose/?to=/r/MamaPiggy_001\">contact the moderators of this subreddit</a> if you have any questions or concerns.</em></p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Join our TG and Grab Her &lt;code&gt;FULL CONTENT&lt;/code&gt; &lt;a href=\"https://rentry.org/seekersnetwork\"&gt;TELEGRAM&lt;/a&gt; &lt;/p&gt;\n\n&lt;p&gt;&lt;em&gt;I am a bot, and this action was performed automatically. Please &lt;a href=\"/message/compose/?to=/r/MamaPiggy_001\"&gt;contact the moderators of this subreddit&lt;/a&gt; if you have any questions or concerns.&lt;/em&gt;&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": "moderator",
@@ -262,7 +263,7 @@
             "downs": 0,
             "author_flair_richtext": [],
             "author_patreon_flair": false,
-            "body_html": "<div class=\"md\"><p>Anymore ?</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Anymore ?&lt;/p&gt;\n&lt;/div&gt;",
             "removal_reason": null,
             "collapsed_reason": null,
             "distinguished": null,
@@ -332,7 +333,7 @@
             "author_flair_css_class": null,
             "collapsed": false,
             "is_submitter": false,
-            "body_html": "<div class=\"md\"><p>How do I access the videos</p>\n</div>",
+            "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How do I access the videos&lt;/p&gt;\n&lt;/div&gt;",
             "gildings": {},
             "collapsed_reason": null,
             "associated_award": null,
@@ -366,14 +367,13 @@
       "before": null
     }
   },
-  "comments_truncated_by_depth": true,
-  "comments_truncated_by_limit": false,
   "comments": [
     {
       "id": "kv4o872",
       "author": "AutoModerator",
       "author_fullname": "t2_6l4z3",
       "body": "Join our TG and Grab Her `FULL CONTENT` [TELEGRAM](https://rentry.org/seekersnetwork) \n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MamaPiggy_001) if you have any questions or concerns.*",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Join our TG and Grab Her &lt;code&gt;FULL CONTENT&lt;/code&gt; &lt;a href=\"https://rentry.org/seekersnetwork\"&gt;TELEGRAM&lt;/a&gt; &lt;/p&gt;\n\n&lt;p&gt;&lt;em&gt;I am a bot, and this action was performed automatically. Please &lt;a href=\"/message/compose/?to=/r/MamaPiggy_001\"&gt;contact the moderators of this subreddit&lt;/a&gt; if you have any questions or concerns.&lt;/em&gt;&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1710591548.0,
       "permalink": "https://www.reddit.com/r/MamaPiggy_001/comments/1bg4smx/piperpresley_whoispiperpresley/kv4o872/",
@@ -386,6 +386,7 @@
       "author": "Jiqulikesporn",
       "author_fullname": "t2_fnams1dq",
       "body": "Anymore ?",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Anymore ?&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1711339107.0,
       "permalink": "https://www.reddit.com/r/MamaPiggy_001/comments/1bg4smx/piperpresley_whoispiperpresley/kwfvvh3/",
@@ -398,6 +399,7 @@
       "author": "[deleted]",
       "author_fullname": null,
       "body": "How do I access the videos",
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How do I access the videos&lt;/p&gt;\n&lt;/div&gt;",
       "score": 1,
       "created_utc": 1711834507.0,
       "permalink": "https://www.reddit.com/r/MamaPiggy_001/comments/1bg4smx/piperpresley_whoispiperpresley/kxb6crh/",
@@ -405,6 +407,5 @@
       "parent_id": "t3_1bg4smx",
       "replies": []
     }
-  ],
-  "media_kind": "self"
+  ]
 }

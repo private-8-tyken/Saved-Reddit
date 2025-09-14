@@ -1,5 +1,5 @@
 {
-  "archived_at": "2025-09-11T08:17:55.347733+00:00",
+  "archived_at": "2025-09-11T07:31:55.435198+00:00",
   "reddit_fullname": "t3_1k6393m",
   "reddit_id": "1k6393m",
   "permalink": "https://www.reddit.com/r/dirtypenpals/comments/1k6393m/f4m_how_come_guys_never_trade_sex_for_favors/",
@@ -25,6 +25,7 @@
   "num_comments": 13,
   "score": 46,
   "upvote_ratio": 0.93,
+  "media_kind": "self",
   "media": null,
   "external_link": null,
   "raw_post": {
@@ -84,7 +85,7 @@
     "author_flair_type": "text",
     "domain": "self.dirtypenpals",
     "allow_live_comments": false,
-    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>[removed]</p>\n</div><!-- SC_ON -->",
+    "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;[removed]&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
     "likes": null,
     "suggested_sort": null,
     "banned_at_utc": null,
@@ -126,7 +127,7 @@
     "permalink": "/r/dirtypenpals/comments/1k6393m/f4m_how_come_guys_never_trade_sex_for_favors/",
     "stickied": false,
     "url": "https://www.reddit.com/r/dirtypenpals/comments/1k6393m/f4m_how_come_guys_never_trade_sex_for_favors/",
-    "subreddit_subscribers": 670285,
+    "subreddit_subscribers": 670278,
     "created_utc": 1745425055.0,
     "num_crossposts": 0,
     "mod_reports": [],
@@ -137,14 +138,11 @@
     "data": {
       "after": null,
       "dist": null,
-      "modhash": null,
+      "modhash": "",
       "geo_filter": "",
       "children": [],
       "before": null
     }
   },
-  "comments_truncated_by_depth": true,
-  "comments_truncated_by_limit": false,
-  "comments": [],
-  "media_kind": "self"
+  "comments": []
 }
