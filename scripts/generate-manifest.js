@@ -1,38 +1,33 @@
 // scripts/generate-manifest.js
 // Dryrun: node scripts/generate-manifest.js --validate-only
-// Run:    node scripts/generate-manifest.js
+// Run: node scripts/generate-manifest.js
 //
-// SCHEMA CONTRACT (public shapes)
-// - Post (public):
-//   id:string, title:string, subreddit:string, author:string, created_utc:number|null,
-//   score?:number|null, num_comments?:number|null, flair?:string|null, permalink?:string, url?:string
-//   comments?: Comment[]
-// - Comment (public):
-//   id:string, author:string|null, body:string, score:number|null, replies:Comment[]
-//
-// What it does (summary):
+// What it does:
 // - Lists ALL objects in your Cloudflare R2 bucket via S3 API (paginated)
 // - Builds an index: { <postId>: { images[], gallery[], video, redgiphy, gif } }
-// - Normalizes each raw post JSON (lossless) and writes to public/data/posts/<id>.json
+// - Copies each raw post JSON to public/data/posts/<id>.json
 // - Writes public/data/indexes/{posts-manifest.json, facets.json, build-report.json}
+// - (NEW) Emits a 'preview' block for responsive card thumbnails. Prefers Reddit preview ladder,
+//   falls back to R2/selftext stills, and (optional) a locally generated poster cache in public/previews/
 //
 // Env (required for R2 listing):
 //   R2_ENDPOINT          = "https://<accountid>.r2.cloudflarestorage.com"
 //   R2_ACCESS_KEY_ID     = "<access key>"
 //   R2_SECRET_ACCESS_KEY = "<secret>"
 //   R2_BUCKET            = "<bucket name>"
-//   PUBLIC_MEDIA_BASE    = "https://<your-worker-or-cdn>/"
+//   PUBLIC_MEDIA_BASE    = "https://best-media-boy.mindscast-ethan-r2cloudflare.workers.dev/"  // MUST end with '/'
 // Optional:
 //   R2_OBJECTS_CACHE     = "data/r2_objects.json"     // file path for caching keys
 //   R2_SKIP_LIST         = "1"                        // if set, read cache instead of calling R2
-//
-// Flags / Env:
-//   --validate-only OR MANIFEST_VALIDATE_ONLY=1  => validate/normalize in-memory; do not write manifest/facets/posts
+//   ENABLE_LOCAL_POSTERS = "1"                        // if set, generate local poster previews for video/gif w/o preview
+//   POSTER_WIDTHS        = "240,360,480,720"          // widths for locally generated previews
+//   POSTER_QUALITY_WEBP  = "74"                       // webp quality
+//   POSTER_QUALITY_JPEG  = "78"                       // jpeg quality
+//   POSTER_WRITE_JPEG    = "1"                        // also write jpeg alongside webp
 //
 // NOTE: PUBLIC_MEDIA_BASE is used to build absolute media URLs in the manifest.
 
-console.log(
-    "ENV present:",
+console.log("ENV present:",
     !!process.env.R2_ENDPOINT,
     !!process.env.R2_ACCESS_KEY_ID,
     !!process.env.R2_SECRET_ACCESS_KEY,
@@ -45,10 +40,6 @@ import path from "node:path";
 import { S3Client, ListObjectsV2Command } from "@aws-sdk/client-s3";
 
 try { await import("dotenv/config"); } catch { }
-
-const VALIDATE_ONLY =
-    process.argv.includes("--validate-only") ||
-    process.env.MANIFEST_VALIDATE_ONLY === "1";
 
 const ROOT = process.cwd();
 const INPUT_DIR = path.resolve(ROOT, "data/posts");
@@ -81,12 +72,7 @@ function extFromUrl(u) {
 function isImageUrl(u) {
     const ext = extFromUrl(u);
     if (!ext) return false;
-    return /^(jpe?g|png|webp)$/i.test(ext);
-}
-function stableHash(s = "") {
-    // tiny djb2 -> base36, 6 chars; stable across runs
-    let h = 5381; for (let i = 0; i < s.length; i++) h = ((h << 5) + h) ^ s.charCodeAt(i);
-    return (h >>> 0).toString(36).slice(0, 6);
+    return /^(jpe?g|png|webp|avif)$/i.test(ext);
 }
 function plainExcerpt(text, n = 320) {
     if (!text) return "";
@@ -102,7 +88,7 @@ function pickRedditPreview(p) {
         const cand = [...pr.resolutions]
             .sort((a, b) => a.width - b.width)
             .find(r => r.width >= 240 && r.width <= 360) || pr.resolutions[0];
-        return { url: cand.url?.replace(/&amp;/g, "&"), w: cand.width, h: cand.height };
+        return { url: cand?.url?.replace(/&amp;/g, "&"), w: cand?.width, h: cand?.height };
     }
     const th = p?.thumbnail;
     if (th && /^https?:\/\//.test(th)) return { url: th, w: 140, h: 140 };
@@ -117,101 +103,213 @@ function extractImageLinksFromSelftext(p) {
     const clean = raw.replace(/&amp;/g, "&");
     for (const m of clean.matchAll(/!\[[^\]]*?\]\((https?:\/\/[^\s)]+)\)/gi)) {
         const u = m[1];
-        if (/\.(?:jpe?g|png|webp|gif)(?:\?|#|$)/i.test(u) && !seen.has(u)) { seen.add(u); out.push(u); }
+        if (/\.(?:jpe?g|png|webp|gif|avif)(?:\?|#|$)/i.test(u) && !seen.has(u)) { seen.add(u); out.push(u); }
     }
     for (const m of clean.matchAll(/\[[^\]]*?\]\((https?:\/\/[^\s)]+)\)/gi)) {
         const u = m[1];
-        if (/\.(?:jpe?g|png|webp|gif)(?:\?|#|$)/i.test(u) && !seen.has(u)) { seen.add(u); out.push(u); }
+        if (/\.(?:jpe?g|png|webp|gif|avif)(?:\?|#|$)/i.test(u) && !seen.has(u)) { seen.add(u); out.push(u); }
     }
     for (const m of clean.matchAll(/https?:\/\/\S+/gi)) {
         const u = m[0].replace(/[)\],.]+$/, "");
-        if (/\.(?:jpe?g|png|webp|gif)(?:\?|#|$)/i.test(u) && !seen.has(u)) { seen.add(u); out.push(u); }
+        if (/\.(?:jpe?g|png|webp|gif|avif)(?:\?|#|$)/i.test(u) && !seen.has(u)) { seen.add(u); out.push(u); }
     }
     return out;
 }
 
-/** ---------- Lossless schema normalization ---------- */
-const POST_REQUIRED = ["id", "title", "subreddit", "author", "created_utc"];
-const coerceStr = (v) => (v === null || v === undefined) ? "" : String(v);
-const coerceNum = (v) => { const n = Number(v); return Number.isFinite(n) ? n : null; };
+/** ---------- Preview helpers (Reddit ladder + local poster cache) ---------- */
+function unescapeAmp(u) { return typeof u === "string" ? u.replace(/&amp;/g, "&") : u; }
 
-/**
- * Normalize Reddit-ish replies that might be:
- *  - array of comments
- *  - object with .data.children = [{ data: comment }, ...]
- *  - empty string "" (no replies)
- */
-function toReplyArray(rawReplies) {
-    if (!rawReplies) return [];
-    if (Array.isArray(rawReplies)) return rawReplies;
-    if (typeof rawReplies === "string") return []; // reddit sometimes returns "" for no replies
-    const children = rawReplies?.data?.children;
-    if (Array.isArray(children)) {
-        return children.map((c) => c?.data || c).filter(Boolean);
-    }
-    return [];
+function buildRedditPreviewBlock(p) {
+    const img0 = p?.preview?.images?.[0];
+    const res = Array.isArray(img0?.resolutions) ? img0.resolutions : [];
+    const srcs = res.map(r => ({
+        url: unescapeAmp(r.url),
+        w: r.width,
+        h: r.height
+    })).filter(x => x.url && x.w && x.h);
+    const srcBig = img0?.source?.url ? {
+        url: unescapeAmp(img0.source.url),
+        w: img0.source.width,
+        h: img0.source.height
+    } : null;
+    if (!srcs.length && !srcBig) return null;
+
+    const ladder = srcBig ? [...srcs, srcBig] : srcs;
+    const srcset = ladder.map(x => `${x.url} ${x.w}w`).join(", ");
+    const pick = ladder.find(x => x.w >= 360 && x.w <= 520) || ladder[Math.min(1, ladder.length - 1)] || ladder[0];
+    const w = pick?.w || img0?.source?.width || null;
+    const h = pick?.h || img0?.source?.height || null;
+    return {
+        src: pick?.url || null,
+        srcset,
+        sizes: "(max-width: 640px) 44vw, 320px",
+        w, h,
+        source: "reddit"
+    };
 }
 
-/**
- * Lossless, never-drop normalization of a single comment node.
- * Synthesizes id when missing; defaults author/body/score; recurses into replies as array.
- */
-function normalizeComment(node, warnings, pathTag = "comments", idx = 0, parentSynth = "root") {
-    const obj = (node && typeof node === "object") ? node : {};
-    const rawId = obj.id != null ? String(obj.id) : "";
-    const body = obj.body != null ? coerceStr(obj.body) : "";
-    const author = obj.author != null ? coerceStr(obj.author) : null;
-    const score = coerceNum(obj.score);
-    const repliesRaw = toReplyArray(obj.replies);
+// Local poster cache for posts that have NO image preview at all.
+// Writes to: public/previews/<id>/<id>@{240,360,480,720}w.webp and .jpg (optional)
+const ENABLE_LOCAL_POSTERS = process.env.ENABLE_LOCAL_POSTERS === "1";
+const PREVIEWS_DIR = path.resolve(ROOT, "public/previews");
+const POSTER_WIDTHS = (process.env.POSTER_WIDTHS || "240,360,480,720")
+    .split(",").map(s => parseInt(s.trim(), 10)).filter(Boolean);
+const POSTER_MAXW = Math.max(...POSTER_WIDTHS);
+const POSTER_QUALITY_WEBP = parseInt(process.env.POSTER_QUALITY_WEBP || "74", 10);
+const POSTER_QUALITY_JPEG = parseInt(process.env.POSTER_QUALITY_JPEG || "78", 10);
+const POSTER_WRITE_JPEG = (process.env.POSTER_WRITE_JPEG || "1") === "1"; // fallback alongside webp
 
-    let id = rawId.trim();
-    if (!id) {
-        // synth id: cid_<parent>_<pathIdx>_<hash>
-        id = `cid_${parentSynth}_${pathTag}-${idx}_${stableHash(body || author || "")}`;
-        warnings.push({ note: "Synthesized comment id", where: `${pathTag}[${idx}]`, synth: id });
-    }
-    const normReplies = [];
-    for (let i = 0; i < repliesRaw.length; i++) {
-        normReplies.push(normalizeComment(repliesRaw[i], warnings, `${pathTag}.replies`, i, id));
-    }
-    return { id, author, body, score, replies: normReplies };
+async function fileExists(fp) {
+    try { await fs.access(fp); return true; } catch { return false; }
+}
+async function ensureDir(p) { try { await fs.mkdir(p, { recursive: true }); } catch { } }
+function makeLocalPreviewPaths(id) {
+    const dir = path.join(PREVIEWS_DIR, id);
+    const make = (ext, w) => path.join(dir, `${id}@${w}w.${ext}`);
+    return { dir, make };
 }
 
-/**
- * Lossless normalization of a post to the public shape.
- * Never drops a post; coerces required fields; normalizes comments if present.
- */
-function normalizePostForPublic(raw, warnings, idHint) {
-    const id0 = raw?.id || raw?.name || idHint || "";
-    const id = coerceStr(id0) || `pid_${stableHash(JSON.stringify(raw).slice(0, 200))}`;
-    const title = coerceStr(raw?.title);
-    const subreddit = coerceStr(raw?.subreddit);
-    const author = coerceStr(raw?.author);
-    const created_utc = coerceNum(raw?.created_utc);
-    const coerced = { id, title, subreddit, author, created_utc };
-    const missing = POST_REQUIRED.filter(k => coerced[k] === "" || coerced[k] === null);
-    if (missing.length) {
-        warnings.push({ id, note: `Post missing/coerced fields: ${missing.join(", ")}`, type: "schema" });
-    }
-    // comments can exist under raw.comments or raw.data.comments
-    const topComments = Array.isArray(raw?.comments)
-        ? raw.comments
-        : Array.isArray(raw?.data?.comments)
-            ? raw.data.comments
-            : null;
+async function downloadToTemp(url) {
+    const { createWriteStream } = await import("node:fs");
+    const os = await import("node:os");
+    const crypto = await import("node:crypto");
+    const isHttps = /^https:/i.test(url);
+    const net = await import(isHttps ? "node:https" : "node:http");
+    const tmp = path.join(os.tmpdir(), `poster-${crypto.randomBytes(6).toString("hex")}`);
+    await new Promise((resolve, reject) => {
+        const out = createWriteStream(tmp);
+        const req = net.request(url, res => {
+            if (res.statusCode && res.statusCode >= 400) {
+                reject(new Error(`HTTP ${res.statusCode} for ${url}`)); return;
+            }
+            res.pipe(out);
+            out.on("finish", () => out.close(resolve));
+        });
+        req.on("error", reject);
+        req.end();
+    });
+    return tmp;
+}
 
-    let normComments = null;
-    if (Array.isArray(topComments)) {
-        normComments = [];
-        for (let i = 0; i < topComments.length; i++) {
-            normComments.push(normalizeComment(topComments[i], warnings, "comments", i, id));
+async function generateLocalPreviewsFromImage(srcPath, id) {
+    let sharpMod = null;
+    try { sharpMod = (await import("sharp")).default; } catch {
+        console.warn("⚠️  'sharp' not installed; cannot generate local previews.");
+        return null;
+    }
+    const { dir, make } = makeLocalPreviewPaths(id);
+    await ensureDir(dir);
+    const sharp = sharpMod(srcPath);
+    const meta = await sharp.metadata().catch(() => ({}));
+    const w0 = meta.width || POSTER_MAXW;
+    const h0 = meta.height || Math.round((POSTER_MAXW * 9) / 16);
+
+    const tasks = [];
+    for (const w of POSTER_WIDTHS) {
+        const pipeline = sharp.clone().resize({ width: w, withoutEnlargement: true });
+        const webpPath = make("webp", w);
+        tasks.push(pipeline.clone().webp({ quality: POSTER_QUALITY_WEBP }).toFile(webpPath));
+        if (POSTER_WRITE_JPEG) {
+            const jpgPath = make("jpg", w);
+            tasks.push(pipeline.clone().jpeg({ quality: POSTER_QUALITY_JPEG, progressive: true }).toFile(jpgPath));
         }
     }
+    await Promise.allSettled(tasks);
+
+    const src = `/previews/${id}/${id}@360w.webp`;
+    const srcsetWebp = POSTER_WIDTHS.map(w => `/previews/${id}/${id}@${w}w.webp ${w}w`).join(", ");
+    const srcsetJpeg = POSTER_WRITE_JPEG ? POSTER_WIDTHS.map(w => `/previews/${id}/${id}@${w}w.jpg ${w}w`).join(", ") : null;
     return {
-        ...raw,
-        id, title, subreddit, author, created_utc,
-        comments: normComments ?? undefined,
+        src,
+        srcset: srcsetWebp,
+        srcset_jpeg: srcsetJpeg,
+        sizes: "(max-width: 640px) 44vw, 320px",
+        w: w0, h: h0,
+        source: "local"
     };
+}
+
+async function generatePosterFromVideoUrl(videoUrl, id) {
+    // Requires ffmpeg installed on PATH + sharp for resizing
+    let sharpMod = null;
+    try { sharpMod = (await import("sharp")).default; } catch {
+        console.warn("⚠️  'sharp' not installed; cannot resize poster from ffmpeg frame.");
+        return null;
+    }
+    const { spawn } = await import("node:child_process");
+    const tmpVideo = await downloadToTemp(videoUrl);
+    const os = await import("node:os");
+    const tmpPng = path.join(os.tmpdir(), `${id}-frame.png`);
+
+    // Try to grab a frame around 1s (approx 10% for short clips)
+    await new Promise((resolve, reject) => {
+        const ff = spawn("ffmpeg", ["-y", "-ss", "00:00:01", "-i", tmpVideo, "-frames:v", "1", tmpPng], { stdio: "ignore" });
+        ff.on("exit", (code) => code === 0 ? resolve() : reject(new Error(`ffmpeg exit ${code}`)));
+        ff.on("error", reject);
+    }).catch((e) => {
+        console.warn("⚠️  ffmpeg frame extraction failed:", e.message);
+    });
+
+    // Resize to our ladder
+    return await generateLocalPreviewsFromImage(tmpPng, id);
+}
+
+async function buildPreviewBlock({ post, rec, id }) {
+    // 1) Reddit preview ladder if present
+    const red = buildRedditPreviewBlock(post);
+    if (red) return red;
+
+    // 2) Use R2 stills if any (no extra work; we already indexed them)
+    const still = (rec?.images && rec.images[0]) || (rec?.gallery && rec.gallery[0]) || null;
+    if (still) {
+        return {
+            src: still,
+            srcset: null,
+            sizes: "(max-width: 640px) 44vw, 320px",
+            w: null, h: null,
+            source: rec?.images?.length ? "r2-image" : "r2-gallery"
+        };
+    }
+
+    // 3) Selftext embedded images (first one)
+    const emb = extractImageLinksFromSelftext(post);
+    if (emb.length) {
+        return {
+            src: emb[0],
+            srcset: null,
+            sizes: "(max-width: 640px) 44vw, 320px",
+            w: null, h: null,
+            source: "selftext"
+        };
+    }
+
+    // 4) Local poster cache (optional) for video/gif/redgiphy w/ no preview
+    if (ENABLE_LOCAL_POSTERS) {
+        const vsrc = rec?.video || rec?.redgiphy || rec?.gif || null;
+        if (vsrc) {
+            try {
+                const loc = await generatePosterFromVideoUrl(vsrc, id);
+                if (loc) return {
+                    src: loc.src,
+                    srcset: loc.srcset,
+                    srcset_jpeg: loc.srcset_jpeg,
+                    sizes: loc.sizes,
+                    w: loc.w, h: loc.h,
+                    source: "local"
+                };
+            } catch (e) {
+                console.warn(`⚠️  Local poster generation failed for ${id}:`, e.message);
+            }
+        }
+    }
+
+    // 5) Last resort: Reddit's basic thumbnail (if absolute URL)
+    const th = post?.thumbnail;
+    if (th && /^https?:\/\//.test(th)) {
+        return { src: th, srcset: null, sizes: "(max-width: 640px) 44vw, 320px", w: null, h: null, source: "reddit-thumb" };
+    }
+
+    return null;
 }
 
 /** ---------- R2 list + index ---------- */
@@ -369,14 +467,16 @@ async function loadPosts(rootDir) {
                 const raw = await fs.readFile(path.join(full, f), "utf8").catch(() => "");
                 if (!raw.trim()) continue;
                 const p = JSON.parse(raw);
-                out.push({ __stem: stem, __folder: sub, __rel: `${sub}/${f}`, __raw: p });
+                out.push({ __stem: stem, __folder: sub, __rel: `${sub}/${f}`, ...p });
+                await fs.writeFile(path.join(POSTS_PUBLIC_DIR, `${stem}.json`), JSON.stringify(p));
             }
         } else if (ent.isFile() && ent.name.endsWith(".json")) {
             const stem = path.parse(ent.name).name;
             const raw = await fs.readFile(full, "utf8").catch(() => "");
             if (!raw.trim()) continue;
             const p = JSON.parse(raw);
-            out.push({ __stem: stem, __folder: null, __rel: ent.name, __raw: p });
+            out.push({ __stem: stem, __folder: null, __rel: ent.name, ...p });
+            await fs.writeFile(path.join(POSTS_PUBLIC_DIR, `${stem}.json`), JSON.stringify(p));
         }
     }
     return out;
@@ -397,31 +497,13 @@ const r2Index = buildR2Index(r2Keys);
 
 const manifest = [];
 const warnings = [];
-let normalizedWritten = 0;
 
 for (const p of posts) {
-    const raw = p.__raw || p;
-    const idGuess = p.__stem || raw.id || raw.name;
-
-    // Normalize BEFORE writing any public files (lossless)
-    const norm = normalizePostForPublic(raw, warnings, idGuess);
-    const id = norm.id;
-    const publicPath = path.join(POSTS_PUBLIC_DIR, `${id}.json`);
-
-    // Write normalized public post JSON (unless validate-only)
-    if (!VALIDATE_ONLY) {
-        try {
-            await fs.writeFile(publicPath, JSON.stringify(norm));
-            normalizedWritten++;
-        } catch (e) {
-            warnings.push({ id, note: `Failed to write normalized post JSON: ${e.message}`, type: "io" });
-        }
-    }
-
+    const id = p.__stem || p.id || p.name;
     const order_index =
         ORDER_INDEX.get(id) ??
-        ORDER_INDEX.get(raw.id) ??
-        ORDER_INDEX.get(raw.name) ??
+        ORDER_INDEX.get(p.id) ??
+        ORDER_INDEX.get(p.name) ??
         null;
 
     // Gather media from R2 index (priority order)
@@ -471,7 +553,7 @@ for (const p of posts) {
         media_dir = "Images";
     } else {
         // No R2 match — fall back to embedded selftext images
-        const embedded = extractImageLinksFromSelftext(raw);
+        const embedded = extractImageLinksFromSelftext(p);
         if (embedded.length >= 2) {
             media_type = "gallery";
             media_urls = embedded.slice();
@@ -490,21 +572,18 @@ for (const p of posts) {
         }
     }
 
-    // --- Guarantee IMAGE previews for all media types ---
-    // 1) If preview exists but isn't an image, discard it (only jpg/png/webp)
+    // --- Guarantee IMAGE previews for all media types (legacy single field) ---
     if (media_preview && !isImageUrl(media_preview)) {
         media_preview = null;
     }
-    // 2) If missing, try to use an R2 image (single or first gallery frame)
     if (!media_preview) {
         const candidate = rec.images?.[0] || rec.gallery?.[0] || null;
         if (candidate && isImageUrl(candidate)) {
             media_preview = candidate;
         }
     }
-    // 3) If still missing, fall back to Reddit's derived preview/thumbnail
     if (!media_preview) {
-        const pr = pickRedditPreview(raw);
+        const pr = pickRedditPreview(p);
         if (pr?.url) {
             media_preview = pr.url;
             preview_width = pr.w;
@@ -513,14 +592,12 @@ for (const p of posts) {
     }
 
     // --- Warnings ---
-    // Warn if post has media but no R2 URLs (possible upload failure)
     if (MEDIA_BASE_OK && ["image", "gallery", "video", "gif"].includes(media_type) && media_urls.length === 0) {
         warnings.push({ id, note: "Expected media but no URLs after R2 indexing.", type: media_type });
     }
     if (!MEDIA_BASE_OK) {
         warnings.push({ note: "PUBLIC_MEDIA_BASE not set; manifest media URLs may be null." });
     }
-    // Final safety net: warn if a media post still lacks an image preview
     if (["image", "gallery", "video", "gif"].includes(media_type) && !media_preview) {
         warnings.push({
             id,
@@ -529,28 +606,46 @@ for (const p of posts) {
         });
     }
 
+    // --- Build the new preview block (responsive when possible; local cache optional) ---
+    let preview = null;
+    try {
+        preview = await buildPreviewBlock({ post: p, rec, id });
+    } catch { /* noop */ }
+
+    // Keep legacy single-field compatible: prefer explicit 'media_preview', else derive from preview.src
+    if (!media_preview && preview?.src) {
+        media_preview = preview.src;
+    }
+
     manifest.push({
         id,
-        permalink: raw.permalink,
-        url: raw.url,
-        link_domain: raw.link_domain || null,
-        title: norm.title,
-        selftext_preview: plainExcerpt(raw.selftext || ""),
-        subreddit: norm.subreddit,
-        author: norm.author,
-        flair: raw.link_flair_text || raw.flair || null,
-        created_utc: norm.created_utc,
-        saved_index: raw.saved_utc ?? (order_index !== null ? order_index : null),
+        permalink: p.permalink,
+        url: p.url,
+        link_domain: p.link_domain || null,
+        title: p.title,
+        selftext_preview: plainExcerpt(p.selftext || ""),
+        subreddit: p.subreddit,
+        author: p.author,
+        flair: p.link_flair_text || p.flair || null,
+        created_utc: p.created_utc,
+        saved_index: p.saved_utc ?? (order_index !== null ? order_index : null),
         order_index,
-        score: raw.score,
-        num_comments: raw.num_comments,
+        score: p.score,
+        num_comments: p.num_comments,
 
         media_type,         // 'image' | 'gallery' | 'video' | 'gif' | 'link' | 'text' | null
         media_dir,          // 'Images' | 'Videos' | 'RedGiphys' | 'Gifs' | null
         media_urls,         // always an array (R2 or external)
         media_url_compact,  // string (single) OR array (gallery)
         gallery_count,      // number | null
+
+        // Legacy single preview string (kept for backward compat)
         media_preview,      // thumbnail/poster for card
+
+        // New preview block (preferred by UI if present)
+        preview,            // { src, srcset?, sizes, w?, h?, source }
+
+        // Legacy width/height (from Reddit pick only)
         preview_width,
         preview_height,
     });
@@ -579,18 +674,10 @@ const facets = {
 };
 
 /** ---------- Write ---------- */
-if (!VALIDATE_ONLY) {
-    await fs.writeFile(path.join(INDEX_OUT_DIR, "posts-manifest.json"), JSON.stringify(manifest, null, 2));
-    await fs.writeFile(path.join(INDEX_OUT_DIR, "facets.json"), JSON.stringify(facets, null, 2));
-}
-const report = {
-    posts: manifest.length,
-    normalized_posts_written: VALIDATE_ONLY ? 0 : normalizedWritten,
-    warnings
-};
-await fs.writeFile(path.join(INDEX_OUT_DIR, "build-report.json"), JSON.stringify(report, null, 2));
+await fs.writeFile(path.join(INDEX_OUT_DIR, "posts-manifest.json"), JSON.stringify(manifest, null, 2));
+await fs.writeFile(path.join(INDEX_OUT_DIR, "facets.json"), JSON.stringify(facets, null, 2));
+await fs.writeFile(path.join(INDEX_OUT_DIR, "build-report.json"), JSON.stringify({ posts: manifest.length, warnings }, null, 2));
 
 console.log(`✅ Manifest built: ${manifest.length} posts`);
 console.log(`✅ Facets — subs:${Object.keys(facets.subreddits).length} authors:${Object.keys(facets.authors).length} flairs:${Object.keys(facets.flairs).length} domains:${Object.keys(facets.domains).length} media:${Object.keys(facets.mediaTypes).length}`);
 console.log(warnings.length ? `ℹ️ Warnings: ${warnings.length} (see build-report.json)` : "ℹ️ Warnings: 0");
-if (VALIDATE_ONLY) console.log("🔎 Validate-only mode: manifest/facets not written");

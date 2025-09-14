@@ -3,6 +3,10 @@
 // Base layout with title, CSS, and optional auth check
 const { title = 'Saved Reddit', requiresAuth = true } = Astro.props;
 const BASE = import.meta.env.BASE_URL || "/";
+
+const MEDIA_BASE = import.meta.env.PUBLIC_MEDIA_BASE || "";
+let MEDIA_ORIGIN = "";
+try { MEDIA_ORIGIN = MEDIA_BASE ? new URL(MEDIA_BASE).origin : ""; } catch {}
 ---
 
 <html lang="en">
@@ -12,6 +16,11 @@ const BASE = import.meta.env.BASE_URL || "/";
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- ✅ CSS path now robust in dev and on GitHub Pages -->
     <link rel="stylesheet" href={`${BASE}styles/global.css`} />
+
+    <!-- Speed up first image connection setup -->
+    <link rel="preconnect" href="https://preview.redd.it" crossorigin>
+    <link rel="preconnect" href="https://i.redd.it" crossorigin>
+    {MEDIA_ORIGIN && <link rel="preconnect" href={MEDIA_ORIGIN} crossorigin />}
   </head>
   <body>
     {requiresAuth && (

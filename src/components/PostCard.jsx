@@ -33,38 +33,61 @@ function VideoThumb({ src }) {
 
     return (
         <div ref={wrapRef} className="pc-thumb pc-thumb--video">
-            {/* preload="none" keeps it lightweight until in view */}
+            {/* preload="none" keeps it light */}
             <video
                 ref={vRef}
+                className="pc-thumb-video"
                 src={src}
                 muted
                 loop
                 playsInline
                 preload="none"
-                className="pc-thumb-video"
-            // no controls in the tiny thumb
             />
-            {/* visible until the first frame paints */}
             <span className="pc-play">▶</span>
         </div>
     );
 }
 
 export default function PostCard({ post, favs, setFavs, base, searchTerm = "", isViewed = false }) {
+    // --- URL helpers to respect Astro's base path for local /previews/* ---
+    const withBase = (u) => {
+        if (!u) return u;
+        if (/^https?:\/\//i.test(u)) return u; // absolute URL (Reddit/R2)
+        if (u.startsWith(base)) return u; // already prefixed
+        if (u.startsWith("/")) return base + u.slice(1); // root-relative -> base-relative
+        return base + u; // plain relative -> base-relative
+    };
+    const withBaseInSrcSet = (srcset) => {
+        if (!srcset) return undefined;
+        return srcset
+            .split(",")
+            .map((s) => {
+                const [url, desc] = s.trim().split(/\s+/, 2);
+                const url2 = withBase(url);
+                return desc ? `${url2} ${desc}` : url2;
+            })
+            .join(", ");
+    };
+
     // ----- favorites
     const isFav = favs.has(post.id);
     const toggleFav = () => {
         const next = new Set(favs);
-        if (isFav) next.delete(post.id); else next.add(post.id);
+        if (isFav) next.delete(post.id);
+        else next.add(post.id);
         setFavs(next);
         saveFavs(next);
     };
 
-    // ----- dates
+    // ----- dates (restore original labels)
     const dt = post.created_utc ? new Date(post.created_utc * 1000) : null;
     const dateISO = dt ? dt.toISOString() : "";
     const dateLabel = dt
-        ? dt.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" })
+        ? dt.toLocaleDateString(undefined, {
+            month: "short",
+            day: "numeric",
+            year: "numeric",
+        })
         : "";
 
     // ----- manifest media bridge
@@ -72,32 +95,45 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "", i
     const mediaPreview = post.media_preview || null;
     const mediaUrls = Array.isArray(post.media_urls)
         ? post.media_urls
-        : (post.media_url_compact
-            ? (Array.isArray(post.media_url_compact) ? post.media_url_compact : [post.media_url_compact])
-            : []);
+        : post.media_url_compact
+            ? Array.isArray(post.media_url_compact)
+                ? post.media_url_compact
+                : [post.media_url_compact]
+            : [];
     const galleryCount = post.gallery_count ?? (mediaUrls.length > 1 ? mediaUrls.length : null);
 
-    const hasVideo = (mediaType === "video" || mediaType === "gif") && mediaUrls.length > 0 && /\.mp4(\?|#|$)/i.test(mediaUrls[0]);
-    const hasGallery = mediaType === "gallery" && (galleryCount ? galleryCount > 0 : mediaUrls.length > 1);
-    const hasSingleImage = mediaType === "image" && mediaUrls.length >= 1 && !hasVideo;
+    const firstUrl = mediaUrls[0] || "";
+    const isMp4 = /\.mp4(\?|#|$)/i.test(firstUrl);
+    const isGifFile = /\.gif(\?|#|$)/i.test(firstUrl);
+
+    // Treat anything that is an MP4 (video/redgiphy) as video.
+    const hasVideo = isMp4 || mediaType === "video";
+    const hasGallery = mediaType === "gallery" && (galleryCount || 0) > 1;
+    // Single image includes true images and GIF files (when the URL is .gif)
+    const hasSingleImage =
+        (mediaType === "image" && mediaUrls.length >= 1) ||
+        (mediaType === "gif" && isGifFile);
     const hasAnyMedia = hasVideo || hasGallery || hasSingleImage;
 
-    // ----- UI state
+    // ----- expand/collapse
     const [expanded, setExpanded] = useState(false);
-    const [gIndex, setGIndex] = useState(0);
-    useEffect(() => { if (!expanded) setGIndex(0); }, [expanded]);
 
     // ----- search highlight
     function renderHighlighted(text, q) {
         const query = (q || "").trim();
         if (!query) return text;
         try {
-            const re = new RegExp(`(${query.replace(/[.*?^${}()|[\\]\\\\]/g, "\\$&")})`, "ig");
+            const re = new RegExp(
+                `(${query.replace(/[.*?^${}()|[\\]\\\\]/g, "\\$&")})`,
+                "ig"
+            );
             const parts = String(text).split(re);
             return parts.map((chunk, i) =>
                 re.test(chunk) ? <mark key={i}>{chunk}</mark> : <span key={i}>{chunk}</span>
             );
-        } catch { return text; }
+        } catch {
+            return text;
+        }
     }
 
     const previewText = excerpt(
@@ -111,64 +147,62 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "", i
     const hasThumb = !!mediaPreview || hasVideo; // treat video as “thumb-able”
     const gridClass = `pc-grid ${hasThumb ? "has-thumb" : "no-thumb"}`;
 
-    // ----- video controls (QoL)
-    const vidRef = useRef(null);
-
-    // ----- inline expanded media
+    // ----- inline expanded media (keep layout; simple, no extra components)
     const Expanded = useMemo(() => {
         if (!expanded || !hasAnyMedia) return null;
 
+        // Videos/MP4s: autoplay on expand (muted + playsInline to satisfy autoplay policies)
         if (hasVideo) {
-            const src = mediaUrls[0];
-            const isGifProxy = mediaType === "gif";
             return (
                 <div className="pc-expand">
-                    <div className="pc-video-wrap">
-                        <VideoSmart
-                            src={src}
-                            poster={mediaPreview || undefined}
-                            loop={true}
-                            muted={isGifProxy}                 // GIF proxies stay muted/looping
-                            controls={!isGifProxy}             // show controls for real videos
-                            playsInline={true}
-                            isGif={isGifProxy}
-                            group="feed-expanded"              // separate group namespace
-                            videoClassName="pc-media-el"       // keep your existing styling
+                    <video
+                        className="pc-media-el"
+                        src={firstUrl}
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                        controls
+                        preload="auto"
+                    />
+                </div>
+            );
+        }
+
+        // Gallery: show the first image (keeping UI simple; no preview needed here)
+        if (hasGallery) {
+            return (
+                <div className="pc-expand">
+                    <div className="pc-gallery">
+                        <img
+                            src={firstUrl}
+                            alt=""
+                            loading="eager"
+                            decoding="async"
+                            className="pc-media-el"
                         />
                     </div>
                 </div>
             );
         }
 
-        if (hasGallery) {
-            const cur = mediaUrls[gIndex] || mediaUrls[0];
-            const total = galleryCount || mediaUrls.length;
-            const prev = () => setGIndex(i => (i - 1 + total) % total);
-            const next = () => setGIndex(i => (i + 1) % total);
-            return (
-                <div className="pc-expand">
-                    <div className="pc-gallery">
-                        <img src={cur} alt="" loading="eager" decoding="async" className="pc-media-el" />
-                        <div className="pc-gallery-bar">
-                            <button type="button" className="pc-btn" onClick={prev} aria-label="Previous">‹</button>
-                            <span className="pc-count">{gIndex + 1} / {total}</span>
-                            <button type="button" className="pc-btn" onClick={next} aria-label="Next">›</button>
-                        </div>
-                    </div>
-                </div>
-            );
-        }
-
+        // Single image or a real .gif file
         if (hasSingleImage) {
             return (
                 <div className="pc-expand">
-                    <img src={mediaUrls[0]} alt="" loading="eager" decoding="async" className="pc-media-el" />
+                    <img
+                        src={firstUrl}
+                        alt=""
+                        loading="eager"
+                        decoding="async"
+                        className="pc-media-el"
+                    />
                 </div>
             );
         }
 
         return null;
-    }, [expanded, hasAnyMedia, hasVideo, mediaUrls, mediaType, mediaPreview, hasGallery, hasSingleImage, gIndex, galleryCount]);
+    }, [expanded, hasAnyMedia, hasVideo, hasGallery, hasSingleImage, firstUrl]);
 
     return (
         <article className={`card post-card ${isViewed ? "is-viewed" : ""}`}>
@@ -183,15 +217,30 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "", i
                                     const key = "feed:scroll:" + location.search;
                                     sessionStorage.setItem(key, String(window.scrollY || 0));
                                 } catch { }
-                                markViewed(post.id);
+                                markViewed(post.id); // IMPORTANT: pass id
                             }}
                         >
                             {mediaPreview ? (
-                                <img src={mediaPreview} alt="" loading="lazy" decoding="async" className="pc-thumb" />
-                                //) : hasVideo ? (
-                                //    <VideoThumb src={mediaUrls[0]} />
+                                // Prefer responsive preview block when present; fall back to legacy single URL
+                                <img
+                                    className="pc-thumb"
+                                    alt=""
+                                    loading="lazy"
+                                    decoding="async"
+                                    fetchPriority="low"
+                                    src={withBase((post.preview && post.preview.src) || mediaPreview)}
+                                    {...(post.preview?.srcset
+                                        ? { srcSet: withBaseInSrcSet(post.preview.srcset) }
+                                        : {})}
+                                    {...(post.preview?.sizes ? { sizes: post.preview.sizes } : {})}
+                                    {...(post.preview?.w && post.preview?.h
+                                        ? { width: post.preview.w, height: post.preview.h }
+                                        : {})}
+                                />
                             ) : (
-                                <div className="pc-thumb pc-thumb--video"><span className="pc-play">▶</span></div>
+                                <div className="pc-thumb pc-thumb--video">
+                                    <span className="pc-play">▶</span>
+                                </div>
                             )}
                         </a>
                     </aside>
@@ -227,7 +276,9 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "", i
                         {dateLabel && (
                             <>
                                 <span className="dot">•</span>
-                                <time dateTime={dateISO} title={dt?.toLocaleString?.() || ""}>{dateLabel}</time>
+                                <time dateTime={dateISO} title={dt?.toLocaleString?.() || ""}>
+                                    {dateLabel}
+                                </time>
                             </>
                         )}
                         {post.saved_index != null && (
@@ -247,7 +298,7 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "", i
                                     const key = "feed:scroll:" + location.search;
                                     sessionStorage.setItem(key, String(window.scrollY || 0));
                                 } catch { }
-                                markViewed(post.id);
+                                markViewed(post.id); // IMPORTANT: pass id
                             }}
                         >
                             {renderHighlighted(post.title, searchTerm)}
@@ -255,17 +306,22 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "", i
                         {post.flair ? <span className="flair">{post.flair}</span> : null}
                         {mediaType ? (
                             <span className="pill">
-                                {mediaType}{hasGallery ? ` (${galleryCount || mediaUrls.length})` : ""}
+                                {mediaType}
+                                {hasGallery ? ` (${galleryCount || mediaUrls.length})` : ""}
                             </span>
                         ) : null}
                     </h3>
 
-                    {previewText && <p className="preview">{renderHighlighted(previewText, searchTerm)}</p>}
+                    {previewText && (
+                        <p className="preview">{renderHighlighted(previewText, searchTerm)}</p>
+                    )}
 
                     <div className="bottomline">
                         {post.score != null && <span className="score">▲ {post.score}</span>}
                         <span className="dot">•</span>
-                        {post.num_comments != null && <span className="comments">💬 {post.num_comments}</span>}
+                        {post.num_comments != null && (
+                            <span className="comments">💬 {post.num_comments}</span>
+                        )}
 
                         {hasAnyMedia && (
                             <>
@@ -273,7 +329,10 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "", i
                                 <button
                                     className="action expand"
                                     type="button"
-                                    onClick={() => { if (!expanded) markViewed(post.id); setExpanded(e => !e); }}
+                                    onClick={() => {
+                                        setExpanded((e) => !e);
+                                        markViewed(post.id); // expanding counts as viewed
+                                    }}
                                     aria-expanded={expanded ? "true" : "false"}
                                     title={expanded ? "Collapse media" : "Expand media"}
                                 >
