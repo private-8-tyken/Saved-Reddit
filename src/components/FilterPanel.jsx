@@ -8,7 +8,13 @@ const GROUPS = [
     { key: "subs", title: "Subreddits", field: "subreddits", pick: (p) => p.subreddit },
     { key: "authors", title: "Authors", field: "authors", pick: (p) => p.author },
     { key: "flairs", title: "Flairs", field: "flairs", pick: (p) => p.flair },
-    { key: "media", title: "Media Types", field: "mediaTypes", pick: (p) => p.media_type },
+    // BEFORE: field: "mediaTypes", pick: (p) => p.media_type
+    {
+        key: "media", title: "Media Types", field: "mediaKinds", pick: (p) => {
+            const arr = Array.isArray(p.media_types) ? p.media_types : (p.media_type ? [p.media_type] : []);
+            return arr; // return array so countBy can handle arrays (see below tweak)
+        }
+    },
     { key: "domains", title: "Domains", field: "domains", pick: (p) => p.link_domain },
 ];
 
@@ -217,7 +223,7 @@ export default function FilterPanel() {
             subs: makePairs(Object.fromEntries(pickKeys(facets.subreddits).map(k => [k, facets.subreddits[k]]))).sort(byCountThenAlpha),
             authors: makePairs(Object.fromEntries(pickKeys(facets.authors).map(k => [k, facets.authors[k]]))).sort(byCountThenAlpha),
             flairs: makePairs(Object.fromEntries(pickKeys(facets.flairs).map(k => [k, facets.flairs[k]]))).sort(byCountThenAlpha),
-            media: makePairs(Object.fromEntries(pickKeys(facets.mediaTypes).map(k => [k, facets.mediaTypes[k]]))).sort(byCountThenAlpha),
+            media: makePairs(Object.fromEntries(pickKeys(facets.mediaKinds).map(k => [k, facets.mediaKinds[k]]))).sort(byCountThenAlpha),
             domains: makePairs(Object.fromEntries(pickKeys(facets.domains).map(k => [k, facets.domains[k]]))).sort(byCountThenAlpha),
         };
     }, [facets, counts, query]);

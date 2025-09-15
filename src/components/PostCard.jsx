@@ -2,8 +2,8 @@
 import { useMemo, useRef, useState, useEffect } from "react";
 import { saveFavs, markViewed } from "../utils/storage.js";
 import { excerpt, getDomain } from "../utils/text.js";
-import VideoSmart from "./VideoSmart.jsx";
 
+/* IntersectionObserver helper */
 function useInViewport(opts = { root: null, rootMargin: "300px", threshold: 0.01 }) {
     const ref = useRef(null);
     const [inView, setInView] = useState(false);
@@ -16,46 +16,14 @@ function useInViewport(opts = { root: null, rootMargin: "300px", threshold: 0.01
     return [ref, inView];
 }
 
-function VideoThumb({ src }) {
-    const [wrapRef, inView] = useInViewport();
-    const vRef = useRef(null);
-
-    useEffect(() => {
-        const v = vRef.current;
-        if (!v) return;
-        if (inView) {
-            // lazy-start playback when visible
-            v.play().catch(() => { });
-        } else {
-            v.pause();
-        }
-    }, [inView]);
-
-    return (
-        <div ref={wrapRef} className="pc-thumb pc-thumb--video">
-            {/* preload="none" keeps it light */}
-            <video
-                ref={vRef}
-                className="pc-thumb-video"
-                src={src}
-                muted
-                loop
-                playsInline
-                preload="none"
-            />
-            <span className="pc-play">▶</span>
-        </div>
-    );
-}
-
 export default function PostCard({ post, favs, setFavs, base, searchTerm = "", isViewed = false }) {
-    // --- URL helpers to respect Astro's base path for local /previews/* ---
+    /* URL helpers for Astro base */
     const withBase = (u) => {
         if (!u) return u;
-        if (/^https?:\/\//i.test(u)) return u; // absolute URL (Reddit/R2)
-        if (u.startsWith(base)) return u; // already prefixed
-        if (u.startsWith("/")) return base + u.slice(1); // root-relative -> base-relative
-        return base + u; // plain relative -> base-relative
+        if (/^https?:\/\//i.test(u)) return u;
+        if (u.startsWith(base)) return u;
+        if (u.startsWith("/")) return base + u.slice(1);
+        return base + u;
     };
     const withBaseInSrcSet = (srcset) => {
         if (!srcset) return undefined;
@@ -69,7 +37,7 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "", i
             .join(", ");
     };
 
-    // ----- favorites
+    /* favorites */
     const isFav = favs.has(post.id);
     const toggleFav = () => {
         const next = new Set(favs);
@@ -79,54 +47,46 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "", i
         saveFavs(next);
     };
 
-    // ----- dates (restore original labels)
+    /* dates */
     const dt = post.created_utc ? new Date(post.created_utc * 1000) : null;
     const dateISO = dt ? dt.toISOString() : "";
     const dateLabel = dt
-        ? dt.toLocaleDateString(undefined, {
-            month: "short",
-            day: "numeric",
-            year: "numeric",
-        })
+        ? dt.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" })
         : "";
 
-    // ----- manifest media bridge
-    const mediaType = post.media_type || null; // 'image' | 'gallery' | 'video' | 'gif' | 'link' | 'text' | null
-    const mediaPreview = post.media_preview || null;
-    const mediaUrls = Array.isArray(post.media_urls)
+    /* ---------- Unified media model (new + legacy fallback) ---------- */
+    // New: media_items [{ index, kind: 'image'|'gif'|'video'|'redgiphy', url, poster? }]
+    const newItems = Array.isArray(post.media_items) ? post.media_items : null;
+
+    // Legacy fallback: media_urls / media_url_compact + media_type
+    const legacyUrls = Array.isArray(post.media_urls)
         ? post.media_urls
-        : post.media_url_compact
-            ? Array.isArray(post.media_url_compact)
-                ? post.media_url_compact
-                : [post.media_url_compact]
-            : [];
-    const galleryCount = post.gallery_count ?? (mediaUrls.length > 1 ? mediaUrls.length : null);
+        : (post.media_url_compact
+            ? (Array.isArray(post.media_url_compact) ? post.media_url_compact : [post.media_url_compact])
+            : []);
+    const legacyItems = legacyUrls.map((u, i) => {
+        const isMp4 = /\.mp4(\?|#|$)/i.test(u);
+        const isGif = /\.gif(\?|#|$)/i.test(u);
+        const kind = isMp4 ? "video" : isGif ? "gif" : "image";
+        return { index: i + 1, kind, url: u };
+    });
 
-    const firstUrl = mediaUrls[0] || "";
-    const isMp4 = /\.mp4(\?|#|$)/i.test(firstUrl);
-    const isGifFile = /\.gif(\?|#|$)/i.test(firstUrl);
+    const galleryItems = (newItems && newItems.length ? newItems : legacyItems);
+    const isGallery = galleryItems.length > 1;
+    const lead = galleryItems[0] || null;
 
-    // Treat anything that is an MP4 (video/redgiphy) as video.
-    const hasVideo = isMp4 || mediaType === "video";
-    const hasGallery = mediaType === "gallery" && (galleryCount || 0) > 1;
-    // Single image includes true images and GIF files (when the URL is .gif)
-    const hasSingleImage =
-        (mediaType === "image" && mediaUrls.length >= 1) ||
-        (mediaType === "gif" && isGifFile);
-    const hasAnyMedia = hasVideo || hasGallery || hasSingleImage;
+    // Label pill: "gallery (N)" or the lead kind
+    const pillLabel = isGallery ? `gallery (${galleryItems.length})` : (lead?.kind || post.media_type || null);
 
-    // ----- expand/collapse
-    const [expanded, setExpanded] = useState(false);
+    // Card preview image (always image)
+    const previewImg = post.media_preview || post.preview?.src || null;
 
-    // ----- search highlight
+    /* search highlight */
     function renderHighlighted(text, q) {
         const query = (q || "").trim();
         if (!query) return text;
         try {
-            const re = new RegExp(
-                `(${query.replace(/[.*?^${}()|[\\]\\\\]/g, "\\$&")})`,
-                "ig"
-            );
+            const re = new RegExp(`(${query.replace(/[.*?^${}()|[\\]\\\\]/g, "\\$&")})`, "ig");
             const parts = String(text).split(re);
             return parts.map((chunk, i) =>
                 re.test(chunk) ? <mark key={i}>{chunk}</mark> : <span key={i}>{chunk}</span>
@@ -143,21 +103,41 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "", i
         240
     );
 
-    // ----- classnames to prevent squish when no thumb
-    const hasThumb = !!mediaPreview || hasVideo; // treat video as “thumb-able”
+    const hasThumb = !!previewImg || (lead && (lead.kind === "video" || lead.kind === "redgiphy" || lead.kind === "gif"));
     const gridClass = `pc-grid ${hasThumb ? "has-thumb" : "no-thumb"}`;
 
-    // ----- inline expanded media (keep layout; simple, no extra components)
-    const Expanded = useMemo(() => {
-        if (!expanded || !hasAnyMedia) return null;
+    /* expand/collapse */
+    const [expanded, setExpanded] = useState(false);
 
-        // Videos/MP4s: autoplay on expand (muted + playsInline to satisfy autoplay policies)
-        if (hasVideo) {
+    /* ---------- Expanded: inline gallery with controls & safe video playback ---------- */
+    const Expanded = useMemo(() => {
+        if (!expanded || !galleryItems.length) return null;
+
+        function VisibleVideo({ src, k }) {
+            const [wrapRef, inView] = useInViewport({ root: null, rootMargin: "300px", threshold: 0.01 });
+            const vRef = useRef(null);
+
+            useEffect(() => {
+                const v = vRef.current;
+                if (!v) return;
+                if (inView) {
+                    v.play().catch(() => { });
+                } else {
+                    v.pause();
+                    try { v.currentTime = 0; } catch { }
+                }
+            }, [inView]);
+
+            // pause on unmount (collapse or slide change)
+            useEffect(() => () => { try { vRef.current && vRef.current.pause(); } catch { } }, []);
+
             return (
-                <div className="pc-expand">
+                <div ref={wrapRef} className="pc-expand">
                     <video
+                        key={k}
+                        ref={vRef}
                         className="pc-media-el"
-                        src={firstUrl}
+                        src={src}
                         autoPlay
                         muted
                         loop
@@ -169,45 +149,81 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "", i
             );
         }
 
-        // Gallery: show the first image (keeping UI simple; no preview needed here)
-        if (hasGallery) {
+        // If only one item, render plain
+        if (galleryItems.length === 1) {
+            const only = galleryItems[0];
+            if (only.kind === "video" || only.kind === "redgiphy") {
+                return <VisibleVideo key={`v:${post.id}:single`} src={only.url} />;
+            }
+            return (
+                <div className="pc-expand">
+                    <img src={only.url} alt="" loading="eager" decoding="async" className="pc-media-el" />
+                </div>
+            );
+        }
+
+        // Multi-item gallery
+        function Gallery() {
+            const [idx, setIdx] = useState(0);
+            const total = galleryItems.length;
+            const curr = galleryItems[idx];
+
+            const go = (d) => setIdx((i) => (i + d + total) % total);
+            const prev = () => go(-1);
+            const next = () => go(+1);
+
+            // Keyboard nav
+            useEffect(() => {
+                const onKey = (e) => {
+                    if (e.key === "ArrowLeft") { e.preventDefault(); prev(); }
+                    else if (e.key === "ArrowRight") { e.preventDefault(); next(); }
+                };
+                window.addEventListener("keydown", onKey);
+                return () => window.removeEventListener("keydown", onKey);
+            }, [total]);
+
+            // Prefetch next image
+            useEffect(() => {
+                const nxt = galleryItems[(idx + 1) % total];
+                if (nxt && nxt.kind === "image") {
+                    const img = new Image();
+                    img.src = nxt.url;
+                }
+            }, [idx, total]);
+
             return (
                 <div className="pc-expand">
                     <div className="pc-gallery">
-                        <img
-                            src={firstUrl}
-                            alt=""
-                            loading="eager"
-                            decoding="async"
-                            className="pc-media-el"
-                        />
+                        <div className="pc-gctl">
+                            <button type="button" className="button" onClick={prev} aria-label="Previous media" title="Previous (←)">‹ Prev</button>
+                            <span className="pc-gcount">{idx + 1} / {total}</span>
+                            <button type="button" className="button" onClick={next} aria-label="Next media" title="Next (→)">Next ›</button>
+                        </div>
+
+                        {curr.kind === "video" || curr.kind === "redgiphy" ? (
+                            <VisibleVideo key={`v:${post.id}:${idx}`} src={curr.url} />
+                        ) : (
+                            <img
+                                key={`${curr.kind[0]}:${post.id}:${idx}`}
+                                src={curr.url}
+                                alt=""
+                                loading="eager"
+                                decoding="async"
+                                className="pc-media-el"
+                            />
+                        )}
                     </div>
                 </div>
             );
         }
 
-        // Single image or a real .gif file
-        if (hasSingleImage) {
-            return (
-                <div className="pc-expand">
-                    <img
-                        src={firstUrl}
-                        alt=""
-                        loading="eager"
-                        decoding="async"
-                        className="pc-media-el"
-                    />
-                </div>
-            );
-        }
-
-        return null;
-    }, [expanded, hasAnyMedia, hasVideo, hasGallery, hasSingleImage, firstUrl]);
+        return <Gallery />;
+    }, [expanded, galleryItems, post.id]);
 
     return (
         <article className={`card post-card ${isViewed ? "is-viewed" : ""}`}>
             <div className={gridClass}>
-                {/* Left thumbnail */}
+                {/* Left thumbnail (always image when available) */}
                 {hasThumb ? (
                     <aside className="pc-left">
                         <a
@@ -217,30 +233,23 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "", i
                                     const key = "feed:scroll:" + location.search;
                                     sessionStorage.setItem(key, String(window.scrollY || 0));
                                 } catch { }
-                                markViewed(post.id); // IMPORTANT: pass id
+                                markViewed(post.id);
                             }}
                         >
-                            {mediaPreview ? (
-                                // Prefer responsive preview block when present; fall back to legacy single URL
+                            {previewImg ? (
                                 <img
                                     className="pc-thumb"
                                     alt=""
                                     loading="lazy"
                                     decoding="async"
                                     fetchPriority="low"
-                                    src={withBase((post.preview && post.preview.src) || mediaPreview)}
-                                    {...(post.preview?.srcset
-                                        ? { srcSet: withBaseInSrcSet(post.preview.srcset) }
-                                        : {})}
+                                    src={withBase(post.preview?.src || previewImg)}
+                                    {...(post.preview?.srcset ? { srcSet: withBaseInSrcSet(post.preview.srcset) } : {})}
                                     {...(post.preview?.sizes ? { sizes: post.preview.sizes } : {})}
-                                    {...(post.preview?.w && post.preview?.h
-                                        ? { width: post.preview.w, height: post.preview.h }
-                                        : {})}
+                                    {...(post.preview?.w && post.preview?.h ? { width: post.preview.w, height: post.preview.h } : {})}
                                 />
                             ) : (
-                                <div className="pc-thumb pc-thumb--video">
-                                    <span className="pc-play">▶</span>
-                                </div>
+                                <div className="pc-thumb pc-thumb--video"><span className="pc-play">▶</span></div>
                             )}
                         </a>
                     </aside>
@@ -276,9 +285,7 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "", i
                         {dateLabel && (
                             <>
                                 <span className="dot">•</span>
-                                <time dateTime={dateISO} title={dt?.toLocaleString?.() || ""}>
-                                    {dateLabel}
-                                </time>
+                                <time dateTime={dateISO} title={dt?.toLocaleString?.() || ""}>{dateLabel}</time>
                             </>
                         )}
                         {post.saved_index != null && (
@@ -298,32 +305,23 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "", i
                                     const key = "feed:scroll:" + location.search;
                                     sessionStorage.setItem(key, String(window.scrollY || 0));
                                 } catch { }
-                                markViewed(post.id); // IMPORTANT: pass id
+                                markViewed(post.id);
                             }}
                         >
                             {renderHighlighted(post.title, searchTerm)}
                         </a>
                         {post.flair ? <span className="flair">{post.flair}</span> : null}
-                        {mediaType ? (
-                            <span className="pill">
-                                {mediaType}
-                                {hasGallery ? ` (${galleryCount || mediaUrls.length})` : ""}
-                            </span>
-                        ) : null}
+                        {pillLabel ? <span className="pill">{pillLabel}</span> : null}
                     </h3>
 
-                    {previewText && (
-                        <p className="preview">{renderHighlighted(previewText, searchTerm)}</p>
-                    )}
+                    {previewText && <p className="preview">{renderHighlighted(previewText, searchTerm)}</p>}
 
                     <div className="bottomline">
                         {post.score != null && <span className="score">▲ {post.score}</span>}
                         <span className="dot">•</span>
-                        {post.num_comments != null && (
-                            <span className="comments">💬 {post.num_comments}</span>
-                        )}
+                        {post.num_comments != null && <span className="comments">💬 {post.num_comments}</span>}
 
-                        {hasAnyMedia && (
+                        {galleryItems.length > 0 && (
                             <>
                                 <span className="dot">•</span>
                                 <button
@@ -331,7 +329,7 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "", i
                                     type="button"
                                     onClick={() => {
                                         setExpanded((e) => !e);
-                                        markViewed(post.id); // expanding counts as viewed
+                                        markViewed(post.id);
                                     }}
                                     aria-expanded={expanded ? "true" : "false"}
                                     title={expanded ? "Collapse media" : "Expand media"}

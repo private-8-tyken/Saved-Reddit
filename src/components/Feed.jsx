@@ -218,14 +218,19 @@ export default function Feed({ favoritesOnly = false }) {
                 const s = subs.size && p.subreddit && subs.has(String(p.subreddit));
                 const a = authors.size && p.author && authors.has(String(p.author));
                 const f = flairs.size && p.flair && flairs.has(String(p.flair));
-                const m = media.size && p.media_type && media.has(String(p.media_type));
+                // BEFORE: const m = media.size && p.media_type && media.has(String(p.media_type));
+                const pKindsArr = Array.isArray(p.media_types) ? p.media_types : (p.media_type ? [p.media_type] : []);
+                const m = media.size && pKindsArr.some(k => media.has(String(k)));
                 const d = domains.size && p.link_domain && domains.has(String(p.link_domain));
+
                 const hasAny = !!(s || a || f || m || d);
-                const hasAll = [subs.size ? s : true,
-                authors.size ? a : true,
-                flairs.size ? f : true,
-                media.size ? m : true,
-                domains.size ? d : true].every(Boolean);
+                const hasAll = [
+                    subs.size ? s : true,
+                    authors.size ? a : true,
+                    flairs.size ? f : true,
+                    media.size ? m : true,
+                    domains.size ? d : true
+                ].every(Boolean);
                 return mode === "and" ? hasAll : hasAny;
             });
         }
