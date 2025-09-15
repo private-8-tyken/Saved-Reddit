@@ -891,3 +891,16 @@ mark {
 .ct-more:hover {
     background: color-mix(in oklab, var(--card), white 6%);
 }
+
+.pc-gallery {
+    touch-action: pan-y;
+}
+
+.pc-swipe {
+    will-change: transform;
+}
+
+.pc-media-el {
+    user-select: none;
+    -webkit-user-drag: none;
+}

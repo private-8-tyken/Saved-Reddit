@@ -131,6 +131,56 @@ function shapeFromLegacy(man, post) {
     return { type: "image", src: first };
 }
 
+/* --- Swipe (React Pointer Events) --- */
+function useSwipeHandlers({ onSwipeLeft, onSwipeRight, threshold = 24, maxAngle = 36 } = {}) {
+    const start = useRef(null);
+    const [dragX, setDragX] = useState(0);
+    const [dragging, setDragging] = useState(false);
+
+    const onPointerDown = (e) => {
+        if (e.button !== undefined && e.button !== 0) return;
+        start.current = { x: e.clientX, y: e.clientY, id: e.pointerId };
+        setDragging(true);
+        try { e.currentTarget.setPointerCapture?.(e.pointerId); } catch { }
+    };
+    const onPointerMove = (e) => {
+        if (!start.current) return;
+        const dx = e.clientX - start.current.x;
+        const dy = e.clientY - start.current.y;
+        setDragX(dx * 0.95); // gentle rubber-band feedback
+    };
+    const end = (e) => {
+        if (!start.current) return;
+        const dx = e.clientX - start.current.x;
+        const dy = e.clientY - start.current.y;
+        const absX = Math.abs(dx), absY = Math.abs(dy);
+        const angle = Math.atan2(absY, absX) * 180 / Math.PI;
+        const isHorizontal = angle <= maxAngle;
+
+        if (isHorizontal && absX >= threshold) {
+            if (dx < 0) onSwipeLeft?.(); else onSwipeRight?.();
+        }
+        setDragging(false);
+        setDragX(0);
+        start.current = null;
+    };
+
+    return {
+        bind: {
+            onPointerDown,
+            onPointerMove,
+            onPointerUp: end,
+            onPointerCancel: end,
+            style: {
+                touchAction: "pan-y", // vertical scroll stays smooth; we handle horizontal
+                transform: `translate3d(${dragX}px,0,0)`,
+                transition: dragging ? "none" : "transform 160ms ease",
+                willChange: "transform",
+            },
+        }
+    };
+}
+
 /* ---------- Gallery with controls & safe video playback ---------- */
 function GalleryViewer({ items = [], title = "" }) {
     const [idx, setIdx] = useState(0);
@@ -160,6 +210,9 @@ function GalleryViewer({ items = [], title = "" }) {
         }
     }, [idx, total, items]);
 
+    // Swipe: left → next, right → prev
+    const swipe = useSwipeHandlers({ onSwipeLeft: next, onSwipeRight: prev, threshold: 24, maxAngle: 36 });
+
     return (
         <div>
             {total > 1 && (
@@ -170,13 +223,14 @@ function GalleryViewer({ items = [], title = "" }) {
                 </div>
             )}
 
-            {curr.kind === "video" || curr.kind === "redgiphy" ? (
-                <VideoSmart src={curr.url} poster={curr.poster || ""} mutedByType={false} />
-            ) : curr.kind === "gif" ? (
-                <ImgSmart src={curr.url} alt={title} />
-            ) : (
-                <ImgSmart src={curr.url} alt={title} />
-            )}
+            {/* Media with swipe bind */}
+            <div className="pc-swipe" {...swipe.bind}>
+                {curr.kind === "video" || curr.kind === "redgiphy" ? (
+                    <VideoSmart src={curr.url} poster={curr.poster || ""} mutedByType={false} />
+                ) : (
+                    <ImgSmart src={curr.url} alt={title} />
+                )}
+            </div>
         </div>
     );
 }

@@ -1,5 +1,5 @@
 // src/components/PostCard.jsx
-import { useMemo, useRef, useState, useEffect } from "react";
+import { useMemo, useRef, useState, useEffect, memo } from "react";
 import { saveFavs, markViewed } from "../utils/storage.js";
 import { excerpt, getDomain } from "../utils/text.js";
 
@@ -16,7 +16,60 @@ function useInViewport(opts = { root: null, rootMargin: "300px", threshold: 0.01
     return [ref, inView];
 }
 
-export default function PostCard({ post, favs, setFavs, base, searchTerm = "", isViewed = false }) {
+/* --- Swipe (React Pointer Events) --- */
+function useSwipeHandlers({ onSwipeLeft, onSwipeRight, threshold = 24, maxAngle = 36 } = {}) {
+    const ref = useRef(null);
+    const start = useRef(null);
+    const [dragX, setDragX] = useState(0);
+    const [dragging, setDragging] = useState(false);
+
+    const onPointerDown = (e) => {
+        // left button / primary touch only
+        if (e.button !== undefined && e.button !== 0) return;
+        start.current = { x: e.clientX, y: e.clientY, id: e.pointerId };
+        setDragging(true);
+        try { e.currentTarget.setPointerCapture?.(e.pointerId); } catch { }
+    };
+    const onPointerMove = (e) => {
+        if (!start.current) return;
+        const dx = e.clientX - start.current.x;
+        const dy = e.clientY - start.current.y;
+        setDragX(dx * 0.95); // slight rubber band
+    };
+    const end = (e) => {
+        if (!start.current) return;
+        const dx = e.clientX - start.current.x;
+        const dy = e.clientY - start.current.y;
+        const absX = Math.abs(dx), absY = Math.abs(dy);
+        const angle = Math.atan2(absY, absX) * 180 / Math.PI; // smaller = more horizontal
+        const isHorizontal = angle <= maxAngle;
+
+        if (isHorizontal && absX >= threshold) {
+            if (dx < 0) onSwipeLeft?.(); else onSwipeRight?.();
+        }
+        setDragging(false);
+        setDragX(0);
+        start.current = null;
+    };
+
+    return {
+        bind: {
+            ref,
+            onPointerDown,
+            onPointerMove,
+            onPointerUp: end,
+            onPointerCancel: end,
+            style: {
+                touchAction: "pan-y",                  // allow vertical scroll; we handle horizontal
+                transform: `translate3d(${dragX}px,0,0)`,
+                transition: dragging ? "none" : "transform 160ms ease",
+                willChange: "transform",
+            },
+        }
+    };
+}
+
+function PostCard({ post, favs, setFavs, base, searchTerm = "", isViewed = false }) {
     /* URL helpers for Astro base */
     const withBase = (u) => {
         if (!u) return u;
@@ -45,6 +98,9 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "", i
         else next.add(post.id);
         setFavs(next);
         saveFavs(next);
+
+        // notify parent (stable handler) if provided
+        try { typeof onFav === "function" && onFav(post.id, !isFav); } catch { }
     };
 
     /* dates */
@@ -190,27 +246,34 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "", i
                 }
             }, [idx, total]);
 
+            const swipe = useSwipeHandlers({ onSwipeLeft: next, onSwipeRight: prev, threshold: 24, maxAngle: 36 });
+
             return (
                 <div className="pc-expand">
                     <div className="pc-gallery">
                         <div className="pc-gctl">
-                            <button type="button" className="button" onClick={prev} aria-label="Previous media" title="Previous (←)">‹ Prev</button>
+                            <button type="button" className="button" onClick={prev} aria-label="Previous (←)">‹ Prev</button>
                             <span className="pc-gcount">{idx + 1} / {total}</span>
-                            <button type="button" className="button" onClick={next} aria-label="Next media" title="Next (→)">Next ›</button>
+                            <button type="button" className="button" onClick={next} aria-label="Next (→)">Next ›</button>
                         </div>
 
-                        {curr.kind === "video" || curr.kind === "redgiphy" ? (
-                            <VisibleVideo key={`v:${post.id}:${idx}`} src={curr.url} />
-                        ) : (
-                            <img
-                                key={`${curr.kind[0]}:${post.id}:${idx}`}
-                                src={curr.url}
-                                alt=""
-                                loading="eager"
-                                decoding="async"
-                                className="pc-media-el"
-                            />
-                        )}
+                        {/* Media with swipe binding */}
+                        <div className="pc-swipe" {...swipe.bind}>
+                            {curr.kind === "video" || curr.kind === "redgiphy" ? (
+                                <VisibleVideo key={`v:${post.id}:${idx}`} src={curr.url} />
+                            ) : (
+                                <img
+                                    key={`${curr.kind[0]}:${post.id}:${idx}`}
+                                    src={curr.url}
+                                    alt=""
+                                    loading="eager"
+                                    decoding="async"
+                                    className="pc-media-el"
+                                    draggable={false}
+                                    onDragStart={(e) => e.preventDefault()}
+                                />
+                            )}
+                        </div>
                     </div>
                 </div>
             );
@@ -327,7 +390,12 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "", i
                                     className="action expand"
                                     type="button"
                                     onClick={() => {
-                                        setExpanded((e) => !e);
+                                        setExpanded((e) => {
+                                            const next = !e;
+                                            // notify parent (stable handler) if provided
+                                            try { typeof onToggle === "function" && onToggle(post.id, next); } catch { }
+                                            return next;
+                                        });
                                         markViewed(post.id);
                                     }}
                                     aria-expanded={expanded ? "true" : "false"}
@@ -367,3 +435,39 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "", i
         </article>
     );
 }
+
+// Skip re-render if nothing relevant changed for this card.
+// We compare by stable identifiers and a few lightweight fields that affect rendering.
+const areEqual = (prev, next) => {
+    const prevPost = prev.post ?? {};
+    const nextPost = next.post ?? {};
+
+    // Same logical item?
+    if (prevPost.id !== nextPost.id) return false;
+
+    // Favorite state for THIS post
+    const prevFav = !!prev.favs?.has?.(prevPost.id);
+    const nextFav = !!next.favs?.has?.(nextPost.id);
+    if (prevFav !== nextFav) return false;
+
+    // Props that directly affect the UI
+    if (prev.searchTerm !== next.searchTerm) return false;
+    if (prev.isViewed !== next.isViewed) return false;
+
+    // A few light fields we display
+    if (prevPost.score !== nextPost.score) return false;
+    if (prevPost.num_comments !== nextPost.num_comments) return false;
+    if (prevPost.flair !== nextPost.flair) return false;
+    if (prevPost.media_preview !== nextPost.media_preview) return false;
+    if (prevPost.created_utc !== nextPost.created_utc) return false;
+
+    // If media_items exists, a length change usually implies visible change (pill label/gallery controls)
+    const prevLen = Array.isArray(prevPost.media_items) ? prevPost.media_items.length : 0;
+    const nextLen = Array.isArray(nextPost.media_items) ? nextPost.media_items.length : 0;
+    if (prevLen !== nextLen) return false;
+
+    // Otherwise assume equal enough to skip render
+    return true;
+};
+
+export default memo(PostCard, areEqual);
