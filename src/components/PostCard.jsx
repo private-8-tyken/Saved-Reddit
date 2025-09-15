@@ -139,7 +139,6 @@ export default function PostCard({ post, favs, setFavs, base, searchTerm = "", i
                         className="pc-media-el"
                         src={src}
                         autoPlay
-                        muted
                         loop
                         playsInline
                         controls
