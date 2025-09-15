@@ -16,6 +16,7 @@
     --chip-bg: color-mix(in oklab, var(--bg), white 10%);
     --chip-border: color-mix(in oklab, var(--border), white 25%);
     --chip-fg: var(--fg);
+    --cmmt-accent: rgba(134, 122, 193, 0.60);
 }
 
 /* ========== Base ========== */
@@ -81,6 +82,18 @@ video {
 
 .button[aria-pressed="true"] {
     outline: 2px solid var(--accent);
+}
+
+.button.primary#hideViewedToggle[data-view-mode="unviewed"] {
+    background: lightgreen;
+    color: #061018;
+    border: none;
+}
+
+.button.primary#hideViewedToggle[data-view-mode="viewed"] {
+    background: paleturquoise;
+    color: #061018;
+    border: none;
 }
 
 .grid {
@@ -386,17 +399,17 @@ mark {
     transition: background-color .15s ease, border-color .15s ease, box-shadow .15s ease;
 }
 
-.post-card:hover {
-    background-color: color-mix(in oklab, var(--card), white 4%);
-    border-color: color-mix(in oklab, var(--border), white 12%);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, .25);
-}
-
 .post-card.is-viewed {
-    background-color: color-mix(in oklab, var(--card), var(--highlight) 12%);
-    border-color: color-mix(in oklab, var(--border), var(--highlight) 16%);
+    background-color: color-mix(in oklab, var(--card), var(--highlight) 4%);
+    border-color: color-mix(in oklab, var(--border), var(--highlight) 48%);
     opacity: 0.92;
     /* keep the stronger viewed cue from the older block */
+}
+
+.post-card:hover {
+    background-color: color-mix(in oklab, var(--card), var(--accent) 4%);
+    border-color: color-mix(in oklab, var(--border), var(--accent) 24%);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, .25);
 }
 
 /* Grid layout: 2-col only when a thumb exists */
@@ -494,6 +507,7 @@ mark {
 .title-link:focus {
     color: var(--accent);
     outline: none;
+    text-decoration: underline;
 }
 
 .flair {
@@ -779,4 +793,114 @@ mark {
         width: 40%;
         height: auto;
     }
+}
+
+/* ===== Comment Thread (scoped via .ct-*) ===== */
+.ct-root {
+    margin-top: 1rem;
+}
+
+.ct {
+    display: grid;
+    gap: .5rem;
+}
+
+.ct-empty {
+    color: var(--muted);
+    font-size: .95rem;
+}
+
+.ct-node {
+    position: relative;
+}
+
+.ct-node .ct-line {
+    position: absolute;
+    left: -10px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--cmmt-accent);
+    /* same color as the ➕/➖ */
+}
+
+.ct-card {
+    padding: .5rem .75rem;
+    /* keep spacing */
+    border-radius: .75rem;
+    /* harmless even without bg/border */
+    /* no background, no border */
+}
+
+.ct-meta {
+    font-size: .9rem;
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.ct-author {
+    color: var(--fg, var(--text));
+    font-weight: 600;
+}
+
+/* fallback if --fg not defined */
+.ct-score {
+    color: var(--muted);
+}
+
+.ct-collapse {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: .9rem;
+    line-height: 1;
+    padding: .1rem .25rem;
+    border-radius: .5rem;
+    color: var(--cmmt-accent);
+    /* tie icon color to the accent */
+}
+
+.ct-collapse:hover {
+    background: color-mix(in oklab, var(--card), white 15%);
+}
+
+.ct-body {
+    margin-top: .35rem;
+    white-space: pre-wrap;
+}
+
+.ct-children {
+    margin-left: 1.25rem;
+    margin-top: .5rem;
+    display: grid;
+    gap: .5rem;
+}
+
+.ct-more {
+    margin-top: .5rem;
+    padding: .4rem .6rem;
+    border-radius: .5rem;
+    border: 1px solid var(--border);
+    background: color-mix(in oklab, var(--card), white 2%);
+    cursor: pointer;
+    font-size: .9rem;
+}
+
+.ct-more:hover {
+    background: color-mix(in oklab, var(--card), white 6%);
+}
+
+.pc-gallery {
+    touch-action: pan-y;
+}
+
+.pc-swipe {
+    will-change: transform;
+}
+
+.pc-media-el {
+    user-select: none;
+    -webkit-user-drag: none;
 }
