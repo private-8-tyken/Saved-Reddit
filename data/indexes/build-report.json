@@ -2,31 +2,6 @@
   "posts": 1215,
   "warnings": [
     {
-      "id": "103qhdw",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1078oq6",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "10edn7m",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "10oad2o",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "10zugrk",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "118dlkd",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
@@ -37,39 +12,9 @@
       "type": "none"
     },
     {
-      "id": "11j0o6t",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "11t2eil",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "11t7616",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "121e3a6",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "12lssm5",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "145vfa7",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "14deyfj",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "14tzi1j",
@@ -78,16 +23,6 @@
     },
     {
       "id": "14tzmfr",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "14zy5zm",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "161suxe",
       "note": "Media post lacks an image preview (no still/poster/ladder).",
       "type": "preview"
     },
@@ -107,29 +42,9 @@
       "type": "none"
     },
     {
-      "id": "1673s4k",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "168ymw5",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "169r7qy",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "16ddubi",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "16q65q0",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "16q9dop",
@@ -137,34 +52,9 @@
       "type": "none"
     },
     {
-      "id": "176jobm",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "17ghih9",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "17qz3af",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "180h7sg",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1812srx",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "183maa3",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "186fhsz",
@@ -172,24 +62,9 @@
       "type": "none"
     },
     {
-      "id": "186hblj",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "18qqyhm",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "1900kwe",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "1902mgj",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "195miyk",
@@ -217,34 +92,9 @@
       "type": "none"
     },
     {
-      "id": "1ah1ath",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1aicvsh",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1ak3ca6",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1avjta9",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "1axgjzf",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "1b7ph7f",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "1b9267x",
@@ -257,64 +107,9 @@
       "type": "none"
     },
     {
-      "id": "1bhl6g0",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1bluhfi",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "1bwjire",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "1byxder",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1cfi6e1",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1cinlnc",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1ckrbt9",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1cto3bu",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1d1f06x",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1dagoke",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1durtbi",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1dx6y0p",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "1dx6y9h",
@@ -322,39 +117,9 @@
       "type": "none"
     },
     {
-      "id": "1eby3oh",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1ekrwun",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1elkat7",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1enbyct",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1eoe1aw",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "1epp6xm",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "1eqp8et",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "1er527j",
@@ -362,149 +127,9 @@
       "type": "none"
     },
     {
-      "id": "1fbz4gt",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "1ffa2d9",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "1ffbe2g",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1ffgx1y",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1fisdrb",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1fkx8ff",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1fon3jz",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1fozwa1",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1fp6g8v",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1fpqduu",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1fxlziv",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1fz14nz",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1g2pezj",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1g3dlo3",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1g3oeg4",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1g43bef",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1gj0rnl",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1gj94gm",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1gjxkcn",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1gn25xz",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1gptc7t",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1guudlv",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1gyrj4r",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1h0vb2e",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1h616ou",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1h7ctty",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1hap1sy",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1hasw85",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1hbedoz",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "1hcmezw",
@@ -512,64 +137,9 @@
       "type": "none"
     },
     {
-      "id": "1hd5r2d",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1hdp7ff",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1heprl9",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1hhxzsf",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1hi1dlt",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1hkss3r",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "1hlzo8l",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "1hm0rtx",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1hmear6",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1hmmdcd",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1hnadp4",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1hvuypg",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "1hznyem",
@@ -577,109 +147,9 @@
       "type": "none"
     },
     {
-      "id": "1i0ttm5",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "1i80e4i",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "1ia9t5a",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1iccou6",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1idafc9",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1ij6e3j",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1ik27eg",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1ikyl72",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1imo9c5",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1is2v6h",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1ite20t",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1ityeo7",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1ixlp5p",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1j0jsq8",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1j0ousb",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1j0umys",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1j0yn5n",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1j1z84i",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1j35gby",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1j51vs2",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1j7wugc",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "1j9c89z",
@@ -687,19 +157,9 @@
       "type": "none"
     },
     {
-      "id": "1jahtmn",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "1jexvkh",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "1jhglir",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "1jjdfzp",
@@ -707,89 +167,9 @@
       "type": "none"
     },
     {
-      "id": "1jjo5bz",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1jjrk0j",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1jk9ar5",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1jktnuo",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1jntwmo",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1jp85xo",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1jrklf4",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1js9ygu",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1jtbrhm",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1jtsmm4",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1jvqz1f",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1jx7d2s",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1jxakwg",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "1jzzrt7",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "1k0qdnl",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1k4dqsr",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1k6le9e",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "1kaemne",
@@ -797,39 +177,9 @@
       "type": "none"
     },
     {
-      "id": "1kcye0i",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1kdq9bv",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1kedn0a",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "1kgil5u",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "1kj6iha",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1kkwtvj",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1knea6a",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "1kr2hez",
@@ -842,59 +192,9 @@
       "type": "none"
     },
     {
-      "id": "1kzvaqh",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1l35mkn",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1l49jlv",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1l5mpda",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1l7phn7",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lbtqj9",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "1lcc3wo",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "1lcdbrm",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lduimh",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1leumj0",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lgggv1",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "1lgqfdn",
@@ -902,184 +202,9 @@
       "type": "none"
     },
     {
-      "id": "1lhkp3i",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lhyfda",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lj675o",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lkoi10",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1llax0n",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1llpi8o",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lmag9v",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lmlhj4",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lnmseb",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lpipw5",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lqevos",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lr652v",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lro0nz",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1luigb8",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lvfoyz",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lvg3mg",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lwdqfx",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lwivov",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lwlehr",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lyv4t3",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "1lz6ey7",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "1lz6fmk",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lzjy07",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lztuc9",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lzy7kt",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1m0x4m4",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1m2flyx",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1m2ry6l",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1m3cqjw",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1m58kok",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1m5jy99",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1m6bund",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1m6kp8j",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1m88wjj",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1m8bjym",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1maj7qd",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "1majxok",
@@ -1087,54 +212,9 @@
       "type": "none"
     },
     {
-      "id": "1mamlhb",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1mc0iau",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1mc951v",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1mcgiqk",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1met8te",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1mg7nq4",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1mgb4ly",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "1mhfe0x",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "1midx9p",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1mlz0uq",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "1mnj8x7",
@@ -1142,34 +222,9 @@
       "type": "none"
     },
     {
-      "id": "1mnk94z",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "1mnko5w",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "1mnwlyo",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1mp3r6o",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1mpat2x",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1mqufec",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "1mrkn46",
@@ -1177,69 +232,9 @@
       "type": "none"
     },
     {
-      "id": "1mspqoc",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1msubug",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1mt8wm8",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1mtslv9",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1muui6v",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1mv1xfk",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1mvo2qc",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1mvpxfo",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1mvuakk",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "1mwc4fy",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "1mwgthc",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1mwwh5p",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1mwxtpy",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "1mx3cce",
@@ -1252,24 +247,9 @@
       "type": "none"
     },
     {
-      "id": "1mxf1t2",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "1mxhnof",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "1mz2827",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1mznjve",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "1mzwrt7",
@@ -1277,24 +257,9 @@
       "type": "none"
     },
     {
-      "id": "1n1wdf1",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "1n48w0q",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "1n4xmb2",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1n5dcr4",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "1n5rfjv",
@@ -1302,59 +267,9 @@
       "type": "none"
     },
     {
-      "id": "1n6n5r3",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1n7b9xt",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1n7f51s",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1n7hegw",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1n7rmug",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1n7u2mb",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "grrh0u",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "gv69pf",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "i0kmfd",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "kk219h",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "kpz0n5",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "leuuoa",
@@ -1362,89 +277,14 @@
       "type": "none"
     },
     {
-      "id": "m1ge39",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "nyx531",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "qrgggv",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
     },
     {
-      "id": "s8rzht",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "t6ocqk",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "t913s5",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "tnlom2",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "ttra64",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "tygj0n",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "tz20i3",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "u7ot13",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "ubodgi",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "umhkuc",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "unn3cn",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "uoxb04",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "uw2e36",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "vg66o1",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "vvmcqf",
@@ -1462,74 +302,9 @@
       "type": "none"
     },
     {
-      "id": "w80nyn",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "w9kf76",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "w9w2be",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "wa8nlw",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "woany6",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "x53vr6",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "xcgz7y",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "xdyc0g",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "xq8o2h",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "xs4a2u",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "xvbzze",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "y1lpgu",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "y22vj7",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "y6oem2",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "y83vzy",
@@ -1537,29 +312,9 @@
       "type": "none"
     },
     {
-      "id": "ya2yvv",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "ya5sk7",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "yq5k0y",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "z03ur9",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "z3lcui",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "z4dk3a",
@@ -1572,16 +327,6 @@
       "type": "none"
     },
     {
-      "id": "zqynyb",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "zweksh",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "118mc5t",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
@@ -1592,27 +337,7 @@
       "type": "preview"
     },
     {
-      "id": "11dgmxi",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "11f4rhc",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "11yars9",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "11zoadl",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "13il4cx",
       "note": "Media post lacks an image preview (no still/poster/ladder).",
       "type": "preview"
     },
@@ -1622,57 +347,7 @@
       "type": "preview"
     },
     {
-      "id": "14hnsiu",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "14k0xjp",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "14kidw8",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "151416f",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "151xpw2",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "155kyvb",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "160r3gi",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "161wp3h",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "163l5w9",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "165wbfu",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "16g6b1v",
       "note": "Media post lacks an image preview (no still/poster/ladder).",
       "type": "preview"
     },
@@ -1682,17 +357,7 @@
       "type": "none"
     },
     {
-      "id": "16nnb3k",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "17ctlyg",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "17dos9t",
       "note": "Media post lacks an image preview (no still/poster/ladder).",
       "type": "preview"
     },
@@ -1707,31 +372,6 @@
       "type": "none"
     },
     {
-      "id": "17t9b35",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "181kob2",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1893to5",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "189dr3v",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "18pig6m",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "19f9bx9",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
@@ -1740,31 +380,6 @@
       "id": "1ayrigk",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "1azrppr",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1bjzawv",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1bzjjmg",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1ctgxid",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1d56g8y",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "1dy18vr",
@@ -1777,19 +392,9 @@
       "type": "none"
     },
     {
-      "id": "1eshkdy",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "1eunoq1",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "1euudyy",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "1f7fdbd",
@@ -1807,24 +412,9 @@
       "type": "none"
     },
     {
-      "id": "1g4e5kj",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1g6hyvr",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "1hcct6o",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "1hhdkrl",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "1hk0z7f",
@@ -1835,26 +425,6 @@
       "id": "1hmax0a",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "1hoef9x",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1hvx0fr",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1ip79w2",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1isrcr7",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "1jfbar3",
@@ -1877,64 +447,14 @@
       "type": "none"
     },
     {
-      "id": "1l1cqgx",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lcef80",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1ldyi23",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lhcwz2",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lmf8kk",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1lxnnav",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "1ly9j0w",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
     },
     {
-      "id": "1m4aq0u",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1mpk0tk",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "1n44zck",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
       "id": "qo6xjf",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "rry977",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "uie0ok",
@@ -1945,16 +465,6 @@
       "id": "wc6j4q",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
-    },
-    {
-      "id": "xecx1x",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
-    },
-    {
-      "id": "zd342d",
-      "note": "Media post lacks an image preview (no still/poster/ladder).",
-      "type": "preview"
     },
     {
       "id": "zhiryz",
