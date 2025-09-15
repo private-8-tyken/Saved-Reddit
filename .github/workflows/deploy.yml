@@ -20,6 +20,14 @@ jobs:
         with:
           node-version: 20
 
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Verify ffmpeg
+        run: |
+            which ffmpeg
+            ffmpeg -version
+
       - name: Install deps
         run: npm ci || npm i
 
@@ -30,9 +38,11 @@ jobs:
             R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
             R2_BUCKET: ${{ secrets.R2_BUCKET }}
             PUBLIC_MEDIA_BASE: ${{ secrets.PUBLIC_MEDIA_BASE }}
-            # Optional:
-            # R2_OBJECTS_CACHE: data/r2_objects.json
-            # R2_SKIP_LIST: '0'
+
+            R2_OBJECTS_CACHE: ${{ vars.R2_OBJECTS_CACHE }}
+            R2_SKIP_LIST: ${{ vars.R2_SKIP_LIST }}
+
+            ENABLE_LOCAL_POSTERS: ${{ vars.ENABLE_LOCAL_POSTERS }}
         run: node scripts/generate-manifest.js
 
       - name: Build site
