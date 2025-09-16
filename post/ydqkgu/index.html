@@ -214,6 +214,34 @@
             setLabel();
         }
 
+        // Randomize toggle
+        (function setupRandomToggle() {
+        const btn = document.getElementById("randomizeToggle");
+        if (!btn) return;
+
+        const sync = () => {
+            const sp = new URLSearchParams(location.search);
+            const on = sp.get("random") === "1";
+            btn.classList.toggle("primary", on);
+            btn.setAttribute("aria-pressed", on ? "true" : "false");
+        };
+
+        btn.addEventListener("click", () => {
+            const sp = new URLSearchParams(location.search);
+            if (sp.get("random") === "1") sp.delete("random");
+            else sp.set("random", "1");
+            const url = new URL(location.href);
+            url.search = sp.toString();
+            history.pushState({}, "", url);
+            window.dispatchEvent(new Event("urlchange"));
+            sync();
+        });
+
+        window.addEventListener("urlchange", sync);
+        window.addEventListener("popstate", sync);
+        sync();
+        })();
+
         // ─── Tri-state view toggle: View All → Viewed → Hide Viewed → (cycle) ───
         (function setupViewToggle() {
         const btn = document.getElementById("hideViewedToggle");
