@@ -258,6 +258,15 @@ export default function Feed({ favoritesOnly = false }) {
             out = [...starred, ...rest];
         }
 
+        // random shuffle if requested
+        if (qParams.get("random") === "1") {
+            out = [...out]; // copy
+            for (let i = out.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [out[i], out[j]] = [out[j], out[i]];
+            }
+        }
+
         return out;
     }, [manifest, qParams, favoritesOnly, favs, viewed]);
 

@@ -14,7 +14,7 @@ export function bySavedAsc(a, b) {
 export function makeComparator(sortKey, dir = 'asc') {
     const mul = dir === 'desc' ? -1 : 1;
     switch (sortKey) {
-        case 'saved': return (a, b) => mul * bySavedAsc(a, b);
+        case 'saved': return (a, b) => mul * bySavedAsc(b, a);
         case 'created': return (a, b) => mul * ((a.created_utc ?? 0) - (b.created_utc ?? 0));
         case 'score': return (a, b) => mul * ((a.score ?? -INF) - (b.score ?? -INF));
         case 'comments': return (a, b) => mul * ((a.num_comments ?? -INF) - (b.num_comments ?? -INF));
