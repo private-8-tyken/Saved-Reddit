@@ -1,0 +1,18 @@
+local_rel,local_ext,all_expected_keys,matched,match_type,matched_prefix,matched_key,remote_ext,same_ext,note
+1n9044n.jpeg,.jpeg,Images/1n9044n.jpeg | RedGiphys/1n9044n.jpeg | Gifs/1n9044n.jpeg | Videos/1n9044n.jpeg,True,exact,Images,Images/1n9044n.jpeg,.jpeg,True,exact_match
+1ndriek.jpeg,.jpeg,Images/1ndriek.jpeg | RedGiphys/1ndriek.jpeg | Gifs/1ndriek.jpeg | Videos/1ndriek.jpeg,True,exact,Images,Images/1ndriek.jpeg,.jpeg,True,exact_match
+1naejl4/01.jpg,.jpg,Images/1naejl4/01.jpg | RedGiphys/1naejl4/01.jpg | Gifs/1naejl4/01.jpg | Videos/1naejl4/01.jpg,True,exact,Images,Images/1naejl4/01.jpg,.jpg,True,exact_match
+1naejl4/02.jpg,.jpg,Images/1naejl4/02.jpg | RedGiphys/1naejl4/02.jpg | Gifs/1naejl4/02.jpg | Videos/1naejl4/02.jpg,True,exact,Images,Images/1naejl4/02.jpg,.jpg,True,exact_match
+1naejl4/03.jpg,.jpg,Images/1naejl4/03.jpg | RedGiphys/1naejl4/03.jpg | Gifs/1naejl4/03.jpg | Videos/1naejl4/03.jpg,True,exact,Images,Images/1naejl4/03.jpg,.jpg,True,exact_match
+1naejl4/04.jpg,.jpg,Images/1naejl4/04.jpg | RedGiphys/1naejl4/04.jpg | Gifs/1naejl4/04.jpg | Videos/1naejl4/04.jpg,True,exact,Images,Images/1naejl4/04.jpg,.jpg,True,exact_match
+1naejl4/05.jpg,.jpg,Images/1naejl4/05.jpg | RedGiphys/1naejl4/05.jpg | Gifs/1naejl4/05.jpg | Videos/1naejl4/05.jpg,True,exact,Images,Images/1naejl4/05.jpg,.jpg,True,exact_match
+1naejl4/06.jpg,.jpg,Images/1naejl4/06.jpg | RedGiphys/1naejl4/06.jpg | Gifs/1naejl4/06.jpg | Videos/1naejl4/06.jpg,True,exact,Images,Images/1naejl4/06.jpg,.jpg,True,exact_match
+1naejl4/07.jpg,.jpg,Images/1naejl4/07.jpg | RedGiphys/1naejl4/07.jpg | Gifs/1naejl4/07.jpg | Videos/1naejl4/07.jpg,True,exact,Images,Images/1naejl4/07.jpg,.jpg,True,exact_match
+1nebznq/01.jpg,.jpg,Images/1nebznq/01.jpg | RedGiphys/1nebznq/01.jpg | Gifs/1nebznq/01.jpg | Videos/1nebznq/01.jpg,True,exact,Images,Images/1nebznq/01.jpg,.jpg,True,exact_match
+1nebznq/02.jpg,.jpg,Images/1nebznq/02.jpg | RedGiphys/1nebznq/02.jpg | Gifs/1nebznq/02.jpg | Videos/1nebznq/02.jpg,True,exact,Images,Images/1nebznq/02.jpg,.jpg,True,exact_match
+1nebznq/03.jpg,.jpg,Images/1nebznq/03.jpg | RedGiphys/1nebznq/03.jpg | Gifs/1nebznq/03.jpg | Videos/1nebznq/03.jpg,True,exact,Images,Images/1nebznq/03.jpg,.jpg,True,exact_match
+1nebznq/04.jpg,.jpg,Images/1nebznq/04.jpg | RedGiphys/1nebznq/04.jpg | Gifs/1nebznq/04.jpg | Videos/1nebznq/04.jpg,True,exact,Images,Images/1nebznq/04.jpg,.jpg,True,exact_match
+1nebznq/05.jpg,.jpg,Images/1nebznq/05.jpg | RedGiphys/1nebznq/05.jpg | Gifs/1nebznq/05.jpg | Videos/1nebznq/05.jpg,True,exact,Images,Images/1nebznq/05.jpg,.jpg,True,exact_match
+1nebznq/06.jpg,.jpg,Images/1nebznq/06.jpg | RedGiphys/1nebznq/06.jpg | Gifs/1nebznq/06.jpg | Videos/1nebznq/06.jpg,True,exact,Images,Images/1nebznq/06.jpg,.jpg,True,exact_match
+1nebznq/07.jpg,.jpg,Images/1nebznq/07.jpg | RedGiphys/1nebznq/07.jpg | Gifs/1nebznq/07.jpg | Videos/1nebznq/07.jpg,True,exact,Images,Images/1nebznq/07.jpg,.jpg,True,exact_match
+1nebznq/08.jpg,.jpg,Images/1nebznq/08.jpg | RedGiphys/1nebznq/08.jpg | Gifs/1nebznq/08.jpg | Videos/1nebznq/08.jpg,True,exact,Images,Images/1nebznq/08.jpg,.jpg,True,exact_match
