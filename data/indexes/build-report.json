@@ -1,5 +1,5 @@
 {
-  "posts": 1297,
+  "posts": 1322,
   "warnings": [
     {
       "id": "118dlkd",
@@ -2598,6 +2598,21 @@
     },
     {
       "id": "1nb47fj",
+      "note": "No media_items produced for post; will be treated as text.",
+      "type": "none"
+    },
+    {
+      "id": "1o9fjdk",
+      "note": "No media_items produced for post; will be treated as text.",
+      "type": "none"
+    },
+    {
+      "id": "1o9oow5",
+      "note": "No media_items produced for post; will be treated as text.",
+      "type": "none"
+    },
+    {
+      "id": "1oao2hs",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
     },
