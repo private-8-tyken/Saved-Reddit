@@ -1,5 +1,5 @@
 {
-  "posts": 1322,
+  "posts": 1332,
   "warnings": [
     {
       "id": "118dlkd",
@@ -200,6 +200,11 @@
       "id": "1lgqfdn",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
+    },
+    {
+      "id": "1lvfoyz",
+      "note": "Media post lacks an image preview (no still/poster/ladder).",
+      "type": "preview"
     },
     {
       "id": "1lz6ey7",
@@ -453,6 +458,11 @@
     },
     {
       "id": "1ntctye",
+      "note": "No media_items produced for post; will be treated as text.",
+      "type": "none"
+    },
+    {
+      "id": "1oc3775",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
     },
@@ -2613,6 +2623,11 @@
     },
     {
       "id": "1oao2hs",
+      "note": "No media_items produced for post; will be treated as text.",
+      "type": "none"
+    },
+    {
+      "id": "1obhbog",
       "note": "No media_items produced for post; will be treated as text.",
       "type": "none"
     },
